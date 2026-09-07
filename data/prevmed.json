@@ -684,19 +684,6 @@
     }
   },
   {
-    "id": "PM-039",
-    "subject": "Family & Community Health",
-    "topic": "Uncategorized",
-    "question": null,
-    "questionImage": null,
-    "options": [],
-    "correctAnswer": null,
-    "rationale": {
-      "text": "Question missing from original scan.",
-      "images": []
-    }
-  },
-  {
     "id": "PM-040",
     "subject": "Family & Community Health",
     "topic": "Uncategorized",
