@@ -273,7 +273,7 @@ function render() {
     $('questionContainer').classList.remove('hidden');
     $('tablePanel').classList.add('hidden');
     if (!question) {
-        $('questionContainer').innerHTML = '<div class="empty-state">No questions match these filters.</div>';
+        $('questionContent').innerHTML = '<div class="empty-state">No questions match these filters.</div>';
         return;
     }
     const answer = state.answers[question.id];
@@ -289,7 +289,7 @@ function render() {
     }).join('');
     const rationale = revealed ? `<div class="rationale"><strong>Answer: ${String.fromCharCode(65 + question.correctAnswer)}</strong> - ${escapeHtml(question.rationale?.text || '')}
         ${(question.rationale?.images || []).map((image) => imageMarkup(image, 'rationale-image', 'Rationale illustration')).join('')}</div>` : '';
-    $('questionContainer').innerHTML = `<article class="q-card">
+    $('questionContent').innerHTML = `
         <div class="q-meta"><span class="q-num">Q${state.currentIndex + 1}</span>
             <span class="badge badge-theme">${escapeHtml(question.topic)}</span>
         </div>
@@ -298,7 +298,7 @@ function render() {
         <div class="options">${options}</div>
         ${answer !== undefined && !revealed ? '<button class="reveal-btn" id="revealButton" type="button">Show answer &amp; rationale</button>' : ''}
         ${rationale}
-    </article>`;
+    `;
     document.querySelectorAll('[data-answer]').forEach((button) =>
         button.addEventListener('click', () => selectAnswer(Number(button.dataset.answer))));
     const revealButton = $('revealButton');

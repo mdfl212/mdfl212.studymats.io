@@ -10,19 +10,6 @@
 </head>
 <body data-course="quiz">
 <main class="quiz-shell">
-    <aside class="yl-nav" aria-label="Year level navigation">
-        <button class="yl-nav-trigger" id="ylNavTrigger" type="button" aria-expanded="false" aria-controls="ylNavFlyout">
-            <span class="yl-nav-tag">YL</span>
-            <span class="yl-nav-trigger-label" id="ylNavTriggerLabel">YL1</span>
-            <span class="yl-nav-caret" aria-hidden="true">▾</span>
-        </button>
-        <div class="yl-nav-flyout" id="ylNavFlyout" role="menu" aria-label="Choose year level">
-            <button class="yl-nav-link active" type="button" data-yl="YL1" role="menuitem">YL1</button>
-            <button class="yl-nav-link" type="button" data-yl="YL2" role="menuitem">YL2</button>
-            <button class="yl-nav-link" type="button" data-yl="YL3" role="menuitem">YL3</button>
-            <button class="yl-nav-link" type="button" data-yl="YL4" role="menuitem">YL4</button>
-        </div>
-    </aside>
     <div class="quiz-topbar">
         <a class="brand" href="index.html">StudyMats <span>Medical Question Bank</span></a>
         <button class="theme-toggle" data-theme-toggle type="button">
@@ -72,17 +59,34 @@
             </table>
         </div>
     </section>
-    <section id="questionContainer" aria-live="polite"></section>
-    <nav class="nav" aria-label="Question navigation">
-        <button class="btn" id="previousButton" type="button">← Previous</button>
-        <span class="page-info" id="pageInfo">Question 0 of 0</span>
-        <button class="btn" id="nextButton" type="button">Next →</button>
-    </nav>
-    <section class="subject-picker" aria-label="Subject selection">
-        <label for="subjectSelect">Subject</label>
-        <select id="subjectSelect"></select>
-        <label for="topicFilter">Topic</label>
-        <select id="topicFilter"><option value="all">All topics</option></select>
+    <section id="questionContainer" aria-live="polite">
+        <article class="q-card">
+            <div id="questionContent"><div class="empty-state">Loading questions...</div></div>
+            <nav class="nav" aria-label="Question navigation">
+                <button class="btn" id="previousButton" type="button">← Previous</button>
+                <span class="page-info" id="pageInfo">Question 0 of 0</span>
+                <button class="btn" id="nextButton" type="button">Next →</button>
+            </nav>
+            <section class="subject-picker" aria-label="Subject selection">
+                <aside class="yl-nav" aria-label="Year level navigation">
+                    <button class="yl-nav-trigger" id="ylNavTrigger" type="button" aria-expanded="false" aria-controls="ylNavFlyout">
+                        <span class="yl-nav-tag">YL</span>
+                        <span class="yl-nav-trigger-label" id="ylNavTriggerLabel">YL1</span>
+                        <span class="yl-nav-caret" aria-hidden="true">▾</span>
+                    </button>
+                    <div class="yl-nav-flyout" id="ylNavFlyout" role="menu" aria-label="Choose year level">
+                        <button class="yl-nav-link active" type="button" data-yl="YL1" role="menuitem">YL1</button>
+                        <button class="yl-nav-link" type="button" data-yl="YL2" role="menuitem">YL2</button>
+                        <button class="yl-nav-link" type="button" data-yl="YL3" role="menuitem">YL3</button>
+                        <button class="yl-nav-link" type="button" data-yl="YL4" role="menuitem">YL4</button>
+                    </div>
+                </aside>
+                <label for="subjectSelect">Subject</label>
+                <select id="subjectSelect"></select>
+                <label for="topicFilter">Topic</label>
+                <select id="topicFilter"><option value="all">All topics</option></select>
+            </section>
+        </article>
     </section>
     <section class="stats-bar" aria-label="Quiz progress">
         <div class="stat-card"><span class="stat-val" id="sTotal">0</span><span class="stat-label">Questions</span></div>
