@@ -36,19 +36,6 @@
         <p class="header-sub" id="headerSubtitle">Choose a subject to begin a focused, one-question-at-a-time review.</p>
     </header>
 
-    <section class="subject-picker" aria-label="Subject selection">
-        <label for="subjectSelect">Subject</label>
-        <select id="subjectSelect"></select>
-        <label for="topicFilter">Topic</label>
-        <select id="topicFilter"><option value="all">All topics</option></select>
-    </section>
-
-    <section class="stats-bar" aria-label="Quiz progress">
-        <div class="stat-card"><span class="stat-val" id="sTotal">0</span><span class="stat-label">Questions</span></div>
-        <div class="stat-card"><span class="stat-val" id="sAnswered">0</span><span class="stat-label">Answered</span></div>
-        <div class="stat-card"><span class="stat-val" id="sCorrect">0</span><span class="stat-label">Correct</span></div>
-        <div class="stat-card"><span class="stat-val" id="sPct">-</span><span class="stat-label">Score %</span></div>
-    </section>
     <div class="progress-wrap">
         <div class="progress-meta"><span id="progLabel">0 / 0 answered</span><span id="progPct">0%</span></div>
         <div class="progress-track"><div class="progress-fill" id="progFill"></div></div>
@@ -91,6 +78,18 @@
         <span class="page-info" id="pageInfo">Question 0 of 0</span>
         <button class="btn" id="nextButton" type="button">Next →</button>
     </nav>
+    <section class="subject-picker" aria-label="Subject selection">
+        <label for="subjectSelect">Subject</label>
+        <select id="subjectSelect"></select>
+        <label for="topicFilter">Topic</label>
+        <select id="topicFilter"><option value="all">All topics</option></select>
+    </section>
+    <section class="stats-bar" aria-label="Quiz progress">
+        <div class="stat-card"><span class="stat-val" id="sTotal">0</span><span class="stat-label">Questions</span></div>
+        <div class="stat-card"><span class="stat-val" id="sAnswered">0</span><span class="stat-label">Answered</span></div>
+        <div class="stat-card"><span class="stat-val" id="sCorrect">0</span><span class="stat-label">Correct</span></div>
+        <div class="stat-card"><span class="stat-val" id="sPct">-</span><span class="stat-label">Score %</span></div>
+    </section>
 </main>
 
 <div class="modal-overlay" id="scoreModal" hidden>

@@ -6119,6 +6119,7 @@ body[data-course="quiz"] .header-title { margin: 8px 0; font: 700 clamp(30px, 5v
 body[data-course="quiz"] .header-title em { color: var(--accent); }
 body[data-course="quiz"] .header-sub { margin: 0; color: var(--quiz-muted); font-size: 15px; }
 .subject-picker, .quiz-actions { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-bottom: 18px; }
+.subject-picker { margin-top: 26px; }
 .subject-picker label { color: var(--quiz-muted); font: 10px 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; }
 body[data-course="quiz"] select, .quiz-actions .btn, body[data-course="quiz"] .btn {
   border: 1px solid var(--quiz-border); border-radius: 6px; padding: 8px 11px;
@@ -6215,10 +6216,13 @@ body[data-course="quiz"] .btn:disabled { cursor: not-allowed; opacity: .45; }
 @media (max-width: 600px) {
     body[data-course="quiz"] { padding: 14px 14px calc(40px + env(safe-area-inset-bottom)); }
   .brand span { display: none; }
-  .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    .stats-bar { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 5px; }
+    .stat-card { min-width: 0; padding: 9px 3px; }
+    .stat-val { font-size: 17px; }
+    .stat-label { font-size: 7px; letter-spacing: .02em; white-space: nowrap; }
   .subject-picker { align-items: stretch; }
   .subject-picker label { align-self: center; }
-  .subject-picker select { flex: 1; min-width: 130px; margin-right: 0; }
+    .subject-picker select { flex: 1 1 110px; min-width: 0; margin-right: 0; padding-left: 7px; padding-right: 7px; font-size: 10px; }
   .q-card { padding: 20px 16px; }
   .q-stem { font-size: 17px; }
 }
