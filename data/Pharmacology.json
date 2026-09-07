@@ -758,7 +758,7 @@
   {
     "id": "43",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Antimycobacterial",
     "question": "What drug is used as primary prophylaxis against Mycobacterium avium complex (MAC) in AIDS patients with CD4 counts < 50/μL?",
     "questionImage": null,
     "options": [
@@ -1226,7 +1226,7 @@
   {
     "id": "69",
     "subject": "Pharmacology",
-    "topic": "Antitubercular",
+    "topic": "Antimycobacterial",
     "question": "What is considered as the single most important drug used in TB?",
     "questionImage": null,
     "options": [
@@ -1244,7 +1244,7 @@
   {
     "id": "70",
     "subject": "Pharmacology",
-    "topic": "Antitubercular",
+    "topic": "Antimycobacterial",
     "question": "Which anti-TB drug can increase the rate of elimination of certain drugs such as contraceptives?",
     "questionImage": null,
     "options": [
@@ -2846,7 +2846,7 @@
   {
     "id": "159",
     "subject": "Pharmacology",
-    "topic": "Antitubercular",
+    "topic": "Antimycobacterial",
     "question": "After taking her medications for pulmonary TB, Shiela is now complaining of vertigo and inability to perceive termination of movement and difficulty sitting and standing without visual clues. This can be explained as a side effect of ___?",
     "questionImage": null,
     "options": [
@@ -4772,7 +4772,7 @@
   {
     "id": "266",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Isoniazid inhibits synthesis of which essential component of the mycobacterial cell wall?",
     "questionImage": null,
     "options": [
@@ -4790,7 +4790,7 @@
   {
     "id": "267",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Rifampin binds to which bacterial target to inhibit RNA synthesis?",
     "questionImage": null,
     "options": [
@@ -4808,7 +4808,7 @@
   {
     "id": "268",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Which first-line antituberculous drug is a \"sterilizing\" agent active against intracellular mycobacteria in acidic lysosomes and allows treatment duration to be shortened to 6 months?",
     "questionImage": null,
     "options": [
@@ -4826,7 +4826,7 @@
   {
     "id": "269",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Ethambutol inhibits mycobacterial arabinosyl transferases, which are involved in the synthesis of which cell wall component?",
     "questionImage": null,
     "options": [
@@ -4844,7 +4844,7 @@
   {
     "id": "270",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "In the traditional 6-month regimen for drug-susceptible tuberculosis, which two drugs are continued during the continuation phase after the initial 2-month intensive phase?",
     "questionImage": null,
     "options": [
@@ -4862,7 +4862,7 @@
   {
     "id": "271",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Which adverse effect of isoniazid is due to relative pyridoxine deficiency and is more common in slow acetylators, alcohol use disorder, and malnourished patients?",
     "questionImage": null,
     "options": [
@@ -4880,7 +4880,7 @@
   {
     "id": "272",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Rifampin is a potent inducer of cytochrome P450 enzymes. Coadministration with rifampin would be expected to decrease serum levels of which drug?",
     "questionImage": null,
     "options": [
@@ -4898,7 +4898,7 @@
   {
     "id": "273",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Which adverse effect of streptomycin is dose-related and may be permanent, with increased risk in elderly patients?",
     "questionImage": null,
     "options": [
@@ -4916,7 +4916,7 @@
   {
     "id": "274",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Bedaquiline, a diarylquinoline, inhibits which mycobacterial target and is used for multidrug-resistant tuberculosis?",
     "questionImage": null,
     "options": [
@@ -4934,7 +4934,7 @@
   {
     "id": "275",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Pretomanid, a nitroimidazole, is recommended in combination with bedaquiline and linezolid for which type of tuberculosis?",
     "questionImage": null,
     "options": [
@@ -4952,7 +4952,7 @@
   {
     "id": "276",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Which regimen is recommended for the treatment of disseminated Mycobacterium avium complex (MAC) infection in patients with AIDS?",
     "questionImage": null,
     "options": [
@@ -4970,7 +4970,7 @@
   {
     "id": "277",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Dapsone, used in the treatment of leprosy, inhibits folate synthesis and is structurally related to which class of antibiotics?",
     "questionImage": null,
     "options": [
@@ -4988,7 +4988,7 @@
   {
     "id": "278",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "In the treatment of lepromatous leprosy, which three drugs are recommended for initial therapy to prevent emergence of resistance?",
     "questionImage": null,
     "options": [
@@ -5006,7 +5006,7 @@
   {
     "id": "279",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Clofazimine, a phenazine dye used in leprosy, has which prominent adverse effect that can limit its use?",
     "questionImage": null,
     "options": [
@@ -5024,7 +5024,7 @@
   {
     "id": "280",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Linezolid, used for multidrug-resistant tuberculosis, is associated with which serious adverse effects with prolonged use?",
     "questionImage": null,
     "options": [
@@ -5042,7 +5042,7 @@
   {
     "id": "281",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Rifabutin is often used in place of rifampin for tuberculosis in HIV-infected patients because it is:",
     "questionImage": null,
     "options": [
@@ -5060,7 +5060,7 @@
   {
     "id": "282",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "The 4-month regimen for drug-susceptible pulmonary tuberculosis consists of which drugs?",
     "questionImage": null,
     "options": [
@@ -5078,7 +5078,7 @@
   {
     "id": "283",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Which antituberculous drug is associated with dose-related retrobulbar neuritis and red-green color blindness?",
     "questionImage": null,
     "options": [
@@ -5096,7 +5096,7 @@
   {
     "id": "284",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Resistance to isoniazid in Mycobacterium tuberculosis is most commonly due to mutations in which gene?",
     "questionImage": null,
     "options": [
@@ -5114,7 +5114,7 @@
   {
     "id": "285",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Which of the following is a first-line antituberculous drug that is active only at acidic pH and is taken up by macrophages to act against intracellular mycobacteria?",
     "questionImage": null,
     "options": [
@@ -5276,7 +5276,7 @@
   {
     "id": "294",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Resistance to rifampin in Mycobacterium tuberculosis is due to point mutations in which gene?",
     "questionImage": null,
     "options": [
@@ -5294,7 +5294,7 @@
   {
     "id": "295",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Antimycobacterial",
     "question": "Which of the following is a contraindication to the use of dapsone in a patient with glucose-6-phosphate dehydrogenase (G6PD) deficiency?",
     "questionImage": null,
     "options": [
