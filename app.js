@@ -410,6 +410,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function showError(error) {
-    $('statusMessage').textContent = error.message;
-    $('statusMessage').classList.add('visible');
+    const statusMessage = $('statusMessage');
+    if (!statusMessage) {
+        console.error(error);
+        return;
+    }
+    statusMessage.textContent = `${error.message} Open this site through a web server, not directly as a file.`;
+    statusMessage.classList.add('visible');
 }
