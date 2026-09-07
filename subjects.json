@@ -129,4 +129,17 @@
     "data": "data/Surgery.json",
     "colors": { "accent": "#b06b35", "accentSoft": "rgba(176, 107, 53, 0.12)" }
   }
+  {
+      "id": "PreventiveMedicine",
+        "name": "Preventive Medicine",
+          "shortName": "PrevMed",
+            "icon": "🛡️",
+              "description": "Epidemiology, biostatistics, public health, and disease prevention.",
+                "yearLevel": "YL4",
+                  "data": "data/prevmed.json",
+                    "colors": {
+                        "accent": "#2E7D32",
+                            "accentSoft": "rgba(46, 125, 50, 0.12)"
+                              }
+                              }
 ]

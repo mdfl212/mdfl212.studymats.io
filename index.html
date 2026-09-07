@@ -1,47 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-course="hub" data-theme="light">
-<html lang="en" data-course="hub" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyMats Medical Question Bank</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,0..60,300;1,0..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="theme.js"></script>
-</head>
-<body data-course="hub">
-    <main class="wrapper">
+  <html lang="en" data-course="hub" data-theme="light">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>StudyMats Medical Question Bank</title>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,0..60,300;1,0..60,400&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <script src="theme.js"></script>
+    </head>
+    <body data-course="hub">
+      <main class="wrapper">
         <div class="theme-toggle-wrapper">
-            <button class="theme-toggle" data-theme-toggle type="button">
-                <span data-theme-icon aria-hidden="true">🌙</span>
-                <span data-theme-label>Dark mode</span>
-            </button>
+          <button class="theme-toggle" data-theme-toggle type="button">
+            <span data-theme-icon aria-hidden="true">🌙</span>
+            <span data-theme-label>Dark mode</span>
+          </button>
         </div>
 
         <header class="site-header">
-            <div class="header-eyebrow">📖 Medical Board Review</div>
-            <h1 class="header-title"><em>Medical</em><br>Question Bank</h1>
-            <p class="header-sub">Choose a year level and subject to begin a focused review.</p>
+          <div class="header-eyebrow">📖 Medical Board Review</div>
+          <h1 class="header-title"><em>Medical</em><br />Question Bank</h1>
+          <p class="header-sub">
+            Choose a year level and subject to begin a focused review.
+          </p>
         </header>
 
         <section class="section-wrapper" aria-label="Main hub">
-            <div class="section-toggle">
-                <span>Year level overview</span>
-                <span class="toggle-icon">▾</span>
-            </div>
-            <div class="hub-year-row" role="tablist" aria-label="Year level selection">
-                <button class="hub-pill active" type="button" data-year="YL1" aria-pressed="true">YL1</button>
-                <button class="hub-pill" type="button" data-year="YL2" aria-pressed="false">YL2</button>
-                <button class="hub-pill" type="button" data-year="YL3" aria-pressed="false">YL3</button>
-                <button class="hub-pill" type="button" data-year="YL4" aria-pressed="false">YL4</button>
-                <button class="hub-pill" type="button" data-year="resources" aria-pressed="false">Additional Resources</button>
-            </div>
-            <div class="hub-subjects" id="hubSubjectList" aria-live="polite"></div>
+          <div class="section-toggle">
+            <span>Year level overview</span>
+            <span class="toggle-icon">▾</span>
+          </div>
+          <div
+            class="hub-year-row"
+            role="tablist"
+            aria-label="Year level selection"
+          >
+            <button
+              class="hub-pill active"
+              type="button"
+              data-year="YL1"
+              aria-pressed="true"
+            >
+              YL1
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="YL2"
+              aria-pressed="false"
+            >
+              YL2
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="YL3"
+              aria-pressed="false"
+            >
+              YL3
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="YL4"
+              aria-pressed="false"
+            >
+              YL4
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="resources"
+              aria-pressed="false"
+            >
+              Additional Resources
+            </button>
+          </div>
+          <div
+            class="hub-subjects"
+            id="hubSubjectList"
+            aria-live="polite"
+          ></div>
         </section>
 
-        <p class="footer-note">StudyMats keeps the question interface unified while the hub remains a clean landing page for subject selection.</p>
-    </main>
+        <p class="footer-note">
+          StudyMats keeps the question interface unified while the hub remains a
+          clean landing page for subject selection.
+        </p>
+      </main>
 
-    <script src="app.js"></script>
-</body>
+      <script src="app.js"></script>
+    </body>
+  </html>
 </html>

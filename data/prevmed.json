@@ -1,0 +1,1797 @@
+[
+  {
+    "id": "PM-001",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The following are included as methods for self-protection against monkeypox, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Avoid direct skin-to-skin contact",
+      "Washing hands with alcohol",
+      "Using face masks",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Steps for prevention of monkeypox include: ·Avoiding direct skin-to-skin contact, any sexual activity, or direct contact with contaminated materials of probable or confirmed case of monkeypox; Washing with water and soap or alcohol; Maintain respiratory etiquette by using face masks. \n\n**Reference:** Department of Health. (2022, May 24). Interim technical guidelines for the implementation of monkeypox surveillance, Screening, management, and infection control. https://drive.google.com/drive/folders/1F8gG XSwNeKTYwHGFg5BCbcBItM-t1u5K",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-002",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A probable case of monkeypox is one who had exposure to a probable or confirmed case of monkeypox in the _____ days before symptom onset.",
+    "questionImage": null,
+    "options": [
+      "7",
+      "14",
+      "21",
+      "28"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "A probable case of monkeypox is one who had exposure to a probable or confirmed case of monkeypox in the 21 days before symptom onset. \n\n**Reference:** Department of Health. (2022, May 24). Interim technical guidelines for the implementation of monkeypox surveillance, Screening, management, and infection control. https://drive.google.com/drive/folders/1F8gG XSwNeKTYwHGFg5BCbcBltM-t1u5K",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-003",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following COVID-19 alert levels refers to areas where case counts are high with increasing total bed utilization rate and ICU utilization rate?",
+    "questionImage": null,
+    "options": [
+      "Alert level 2",
+      "Alert level 3",
+      "Alert level 4",
+      "Alert level 5"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Alert Level 1 – areas wherein case transmission is low and decreasing, total bed utilization rate, and intensive care unit utilization rate is low. Alert Level 2 – areas wherein case transmission is low and decreasing, healthcare utilization is low, or case counts are low but increasing, or case counts are low and decreasing but total bed utilization rate and intensive care unit utilization rate is increasing. Alert Level 3 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at increasing utilization. Alert Level 4 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at high utilization. Alert Level 5 – areas wherein case counts are alarming, with total bed utilization rate and intensive care unit utilization rate at critical utilization. \n\n**Reference:** Inter-Agency Task Force for the Management of Emerging Infectious Diseases. (2021, November 18). Guidelines on the nationwide implementation of alert level system for covid-19 response. https://www.officialgazette.gov.ph/downloads/2021/11nov/20211118-IATF-GUIDELINES-RRD.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-004",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following SARS-CoV-2 variants of concern was first detected in India?",
+    "questionImage": null,
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Delta"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "SARS-CoV-2 variants of concern: Alpha: United Kingdom; Beta: South Africa; Gamma: Brazil; Delta: India; Omicron: South Africa and Botswana. \n\n**Reference:** World Health Organization. (2023, February 23). Tracking SARS-CoV-2 variants. https://www.who.int/activities/tracking-SARS-CoV-2-variants",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-005",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A research study was conducted in which adults were randomly assigned to receive either a new COVID vaccine or a placebo. The therapeutic outcomes were measured and they were monitored for side effects as well. This is an example of which of the following types of study?",
+    "questionImage": null,
+    "options": [
+      "Experimental",
+      "Cross-sectional",
+      "Case-control",
+      "Cohort"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "An experimental study is where subjects are randomized into two intervention groups. In this case, treatment vs placebo. The subjects are then monitored to identify therapeutic outcomes. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-006",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is a study which determines whether an exposure or a risk factor is associated with the later development of disease:",
+    "questionImage": null,
+    "options": [
+      "Case-control",
+      "Cohort",
+      "Experimental",
+      "Clinical trial"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "A cohort study determines whether an exposure or a risk factor is associated with the later development of a disease. It can either be prospective or retrospective. \n\n**References:** ·CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023. · Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-007",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is a study that retrospectively compares a group of subjects with a disease to a group without disease to determine if odds of prior exposure or risk factor differ by disease state?",
+    "questionImage": null,
+    "options": [
+      "Case-control",
+      "Cohort",
+      "Experimental",
+      "Clinical trial"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "A case-control study retrospectively compares a group of subjects with a disease to a group without disease to determine if odds of prior exposure or risk factor differ by disease state. \n\n**References:** ·CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023. · Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-008",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What mode of transmission is described when an infectious agent is carried by droplet nuclei suspended in air?",
+    "questionImage": null,
+    "options": [
+      "Direct contact",
+      "Droplet spread",
+      "Airborne transmission",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Airborne transmission is described as when an infectious agent is carried by droplet nuclei suspended in air. Droplet spread refers to spray with large, short-range aerosols. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-009",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following studies provides information on disease prevalence?",
+    "questionImage": null,
+    "options": [
+      "Case-control",
+      "Cohort",
+      "Cross-sectional",
+      "Clinical trial"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "A cross-sectional study provides information on disease prevalence rather than incidence. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-010",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What is the recommended measure of association for a retrospective cohort study?",
+    "questionImage": null,
+    "options": [
+      "Odds ratio",
+      "Risk ratio",
+      "Disease prevalence",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Risk ratio is the recommended measure of association for a retrospective cohort study. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-011",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following refers to the proportion of clinically ill persons who die?",
+    "questionImage": null,
+    "options": [
+      "Number needed to harm",
+      "Case fatality rate",
+      "Mortality rate",
+      "Attack rate"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Case fatality rate refers to the proportion of clinically ill persons who die. Mortality rate is the number of deaths within a population over a defined period. \n\n**References:** ·Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education. · Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 19). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-012",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is used as an overall index of the health status of a nation?",
+    "questionImage": null,
+    "options": [
+      "Crude birth rate",
+      "Infant mortality rate",
+      "Maternal mortality rate",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The Infant mortality rate is used as an overall index of the health status of a nation. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S. C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 27). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-013",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Immunization is classified as what level of prevention?",
+    "questionImage": null,
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Examples of primary prevention: ·Healthy lifestyle change; ·Immunization; ·Health education and promotion. Examples of secondary prevention: ·Screening (self-breast examination, pap smear). Examples of tertiary prevention: ·Cardiac and stroke rehabilitation programs. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 176). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-014",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Doing a pap smear is an example of what level of prevention?",
+    "questionImage": null,
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Examples of primary prevention: ·Healthy lifestyle change; ·Immunization; ·Health education and promotion. Examples of secondary prevention: ·Screening (self-breast examination, pap smear). Examples of tertiary prevention: ·Cardiac and stroke rehabilitation programs. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 176). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-015",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This level of prevention refers to limiting the physical and social consequences of a symptomatic disease:",
+    "questionImage": null,
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Primary prevention – keeps disease process from becoming established by eliminating causes of disease or increasing resistance to disease. Secondary prevention – interrupts disease process before symptoms appear. Tertiary prevention – refers to limiting the physical and social consequences of a symptomatic disease. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 175). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-016",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following refers to the value of the finished domestic goods and services produced within a country's border?",
+    "questionImage": null,
+    "options": [
+      "Gross domestic product",
+      "Gross national product",
+      "Government spending",
+      "Net exports"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Gross domestic product refers to the value of the finished domestic goods and services produced within a country's border. Gross national product refers to the value of all finished goods and services owned by a country's citizens, whether or not those goods are produced in that country. (Yes, unfortunately, this sort of question came up in the most recent October 2022 PLE). \n\n**Reference:** Seth, S. (2015, March 4). GDP vs. GNP: What's the difference? Investopedia. https://www.investopedia.com/ask/answers/030415/what-functional-difference-between-gdp-and-gnp.asp",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-017",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following measures of central tendency is most affected by extreme values?",
+    "questionImage": null,
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Among the measures of central tendency, the mean is the most affected by extreme values (outliers). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-018",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following measures of central tendency refers to the most commonly observed value in a data set?",
+    "questionImage": null,
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Mode is the most commonly observed value in a data set. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 111). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-019",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What is the mode of transmission of typhoid fever?",
+    "questionImage": null,
+    "options": [
+      "Water",
+      "Arthropods",
+      "Helminths",
+      "Close personal contact"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The mode of transmission of typhoid fever is through contaminated food and water. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 240). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-020",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What type of precaution is recommended to prevent the spread of scabies?",
+    "questionImage": null,
+    "options": [
+      "Airborne",
+      "Droplet",
+      "Contact",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Airborne precautions are recommended for: ·TB; ·Varicella; ·Measles. Droplet precautions are recommended for: ·Meningococcus; ·Pertussis; ·Diphtheria; ·Rubella; ·Mumps; ·Influenza. Contact precautions are recommended for: ·Scabies; ·Impetigo; ·Enteric infections. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 240). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-021",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following COVID-19 alert levels refers to areas where case transmission is low and decreasing, total bed utilization and ICU rate are low?",
+    "questionImage": null,
+    "options": [
+      "Alert level 1",
+      "Alert level 2",
+      "Alert level 3",
+      "Alert level 5"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Alert Level 1 – areas wherein case transmission is low and decreasing, total bed utilization rate, and intensive care unit utilization rate is low. Alert Level 2 – areas wherein case transmission is low and decreasing, healthcare utilization is low, or case counts are low but increasing, or case counts are low and decreasing but total bed utilization rate and intensive care unit utilization rate is increasing. Alert Level 3 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at increasing utilization. Alert Level 4 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at high utilization. Alert Level 5 – areas wherein case counts are alarming, with total bed utilization rate and intensive care unit utilization rate at critical utilization. \n\n**Reference:** Inter-Agency Task Force for the Management of Emerging Infectious Diseases. (2021, November 18). Guidelines on the nationwide implementation of alert level system for covid-19 response. https://www.officialgazette.gov.ph/downloads/2021/11nov/20211118-IATF-GUIDELINES-RRD.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-022",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What is the vector for the transmission of malaria?",
+    "questionImage": null,
+    "options": [
+      "Aedes aegypti",
+      "Aedes albopictus",
+      "Anopheles",
+      "Tsetse fly"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Malaria: Anopheles. Dengue: Aedes aegypti. African sleeping sickness: tsetse fly. \n\n**Reference:** CDC-Malaria. https://www.cdc.gov/malaria/about/biology/index.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-023",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following refers to the separation and restriction of the mobility of individuals who were exposed to a contagious disease to observe whether they would become sick:",
+    "questionImage": null,
+    "options": [
+      "Isolation",
+      "Quarantine",
+      "Hospitalization",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Quarantine is the separation and restriction of the mobility of individuals who were exposed to a contagious disease to observe whether they would become sick. Isolation is the separation of sick people with a contagious disease from those who do not have the disease. \n\n**Reference:** CDC-Quarantine and isolation. https://www.cdc.gov/quarantine/index.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-024",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The cases of schistosomiasis in a certain community are usually 20-30 per week. The reported cases last week were 29. Which of the following describes this pattern of occurrence?",
+    "questionImage": null,
+    "options": [
+      "Pandemic",
+      "Outbreak",
+      "Endemic",
+      "Sporadic"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Endemic refers to the constant presence of a disease in a specific geographic area or population. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-025",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "African sleeping sickness is transmitted by which of the following?",
+    "questionImage": null,
+    "options": [
+      "Tsetse fly",
+      "Cat feces",
+      "Kissing bug",
+      "Anopheles"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tsetse fly: African sleeping sickness. Kissing bug: Chagas disease. Anopheles: Malaria. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 153, p. 155). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-026",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The following are included in the 4S strategy against dengue from the DOH, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Search and Destroy",
+      "Seek Early Consultation",
+      "Self-protection Measures",
+      "Say yes to fogging always"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Fogging is only during outbreaks. Enhanced 4S strategy against dengue from the DOH: ·Search and destroy; ·Seek early consultation; ·Self-protection measures; ·Say yes to fogging only during outbreaks. \n\n**Reference:** Department of Health-Dengue. https://doh.gov.ph/Health-Advisory/Dengue. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-027",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The following are considered direct contributors of Philhealth, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Employees with formal employment",
+      "Self-earning individuals",
+      "Lifetime members",
+      "Persons with disability"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Persons with disability are included as indirect contributors. The other options are considered direct contributors. Other indirect contributors include: ·Senior citizens; ·Indigents; ·Beneficiaries of 4Ps; ·Sangguniang Kabataan officials; ·Filipinos >21 years old with no capacity to pay premiums. \n\n**Reference:** PhilHealth. https://www.philhealth.gov.ph/members/. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-028",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Tuberculosis patients infected with M. tuberculosis resistant to isoniazid and rifampin are classified to have:",
+    "questionImage": null,
+    "options": [
+      "XDR-TB",
+      "MDR-TB",
+      "RR-TB",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "MDR-TB – resistant to isoniazid and rifampin. RR-TB – resistant to rifampin. XDR-TB – resistant to 2nd line TB medicines. \n\n**Reference:** DOH National Tuberculosis Control Program Manual of Procedures. 2020. https://doh.gov.ph/sites/default/files/publications/NTP_MOP_6th_Edition.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-029",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Nibbling of uncovered skin with or without bruising or hematoma is classified as what category of rabies exposure?",
+    "questionImage": null,
+    "options": [
+      "Category I",
+      "Category II",
+      "Category III",
+      "Category IV"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Nibbling of uncovered skin with or without bruising or hematoma is classified as Category II. Category of rabies exposure: **Category I** – ·Feeding/touching an animal; ·Licking of intact skin; ·Exposure to a patient with signs and symptoms of rabies by sharing of eating or drinking utensils; ·Casual contact and routine delivery of health care to a patient with signs and symptoms of rabies. **Category II** – ·Nibbling of uncovered skin with or without bruising/hematoma; ·Minor/superficial scratches/abrasions without bleeding, including those induced to bleed; ·All Category II exposures on the head and neck area are considered Category III and shall be managed as such. **Category III** – ·Transdermal bites (puncture wounds, lacerations, avulsions) or scratches/abrasions with spontaneous bleeding; ·Licks on broken skin or mucous membrane; ·Exposure to a rabies patient through bites, contamination of mucous membranes (eyes, oral/nasal mucosa, genital/anal mucous membrane) or open skin lesions with body fluids through splattering and mouth-to-mouth resuscitation; ·Unprotected handling of infected carcass; ·Ingestion of raw infected meat; ·Exposure to bats; ·All Category II exposures on head and neck area. \n\n**Reference:** National Rabies Prevention and Control Program, Manual of Procedures. 2019. https://doh.gov.ph/sites/default/files/publications/Rabies%20Manual_MOP_2019%20nov28.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-030",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What is the recommended management of the above category of rabies exposure?",
+    "questionImage": null,
+    "options": [
+      "No vaccine and no RIG",
+      "Start vaccine but no RIG",
+      "Start vaccine and give RIG",
+      "Start antibiotics"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The management for category II rabies exposure is starting vaccine immediately but no rabies immunoglobulin (RIG) is needed. \n\n**Reference:** National Rabies Prevention and Control Program, Manual of Procedures. 2019. https://doh.gov.ph/sites/default/files/publications/Rabies%20Manual_MOP_2019%20nov28.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-031",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This refers to the proportion of infected patients who eventually develop clinical disease:",
+    "questionImage": null,
+    "options": [
+      "Infectivity",
+      "Pathogenicity",
+      "Virulence",
+      "Infectiousness"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Pathogenicity refers to the proportion of infected individuals who eventually develop clinical disease. Virulence refers to the proportion of clinically apparent cases that are severe or fatal. Infectivity refers to the proportion of exposed individuals who become infected. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology, Section 9: Natural History and Spectrum of Disease. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section9.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-032",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The proportion of severe or fatal clinically apparent cases is defined by:",
+    "questionImage": null,
+    "options": [
+      "Infectivity",
+      "Pathogenicity",
+      "Virulence",
+      "Infectiousness"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Pathogenicity refers to the proportion of infected individuals who eventually develop clinical disease. Virulence refers to the proportion of clinically apparent cases that are severe or fatal. Infectivity refers to the proportion of exposed individuals who become infected. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology, Section 9: Natural History and Spectrum of Disease. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section9.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-033",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Type II error refers to which of the following?",
+    "questionImage": null,
+    "options": [
+      "Not rejecting the null hypothesis when it is true",
+      "Not rejecting the null hypothesis when it is false",
+      "Rejecting the null hypothesis when it is true",
+      "Rejecting the null hypothesis when it is false"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Type II error – Aka false negative error; Not rejecting the null hypothesis when it is false; β – probability of committing a type II error. Type I error – Aka false positive error; Rejecting the null hypothesis when it is true; α – probability of committing a type I error. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 265). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-034",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Statistical power is the probability of rejecting the null hypothesis when it is false. What happens to the power when the sample size is increased?",
+    "questionImage": null,
+    "options": [
+      "Increased",
+      "Decreased",
+      "Remains the same",
+      "There is no relation between power and sample size."
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Statistical power is directly proportional to sample size, such that as the sample size increases, the power also increases. Other factors that may increase the statistical power include: ·Increased expected effect size; ·Increased precision of measurement; ·Increased statistical significance level (α). Recall: ·β – probability of committing a type II error; ·(1-β) – statistical power. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 265). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-035",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The following statements are true about parametric tests, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Assumes that the sample is random and normally distributed",
+      "Can be applied to data sets in the ordinal scale",
+      "Assumptions about the mean and standard deviation can be made",
+      "Can analyze continuous data"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "NONparametric tests are used for ordinal and nominal data, not parametric. Parametric tests are used to analyze continuous variables (ratio and interval data). Parametric tests can be used when the following assumptions are met: Normally distributed sample; ·Sample is randomly selected; Homogenous variances if 2-or more groups are sampled. If these assumptions are not met, non-parametric test can be used. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 117, p. 135, p. 138). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-036",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "In a case-control study investigating the association of smoking with COPD, controls are deliberately selected from a hospital population rather than from the community. What type of bias is illustrated from the case above?",
+    "questionImage": null,
+    "options": [
+      "Selection bias",
+      "Procedure bias",
+      "Measurement bias",
+      "Observer-expectancy bias"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "This illustrates selection bias. In this case, controls chosen from the hospital is not representative of the prevalence of smoking in the community where COPD cases arise. The association of the exposure to the disease is weakened by the selection of hospital controls because smoking causes many diseases resulting in hospitalization, thereby leading to selection bias. Other examples of selection bias: ·An example is convenience sampling wherein patients are assigned based on ease of contact (as in the case question); ·Attrition bias: participants lost to follow up; ·Berkson bias: cases and/or controls selected from hospitals. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-037",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A study wants to investigate the efficacy of a novel antihypertensive drug. Hypertensive patients had their blood pressures measured before and after the treatment to see if there will be a change in the blood pressure readings. What statistical test is the most appropriate to use?",
+    "questionImage": null,
+    "options": [
+      "Analysis of variance",
+      "Paired t-test",
+      "Student's t-test",
+      "Chi-square test"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Paired t-test is appropriate to use in studies that investigate if there is a change in the value of some continuous variable. Paired t-test – ·Typically occurs in a \"before-and-after treatment\" type of study; ·Considers the variation in only one group of people. Student's t-test – ·Considers the variation in two groups of people. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 129). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-038",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A cholera outbreak was declared in Barangay XY. Out of 1000 residents, a total of 300 were diagnosed with cholera. What is the attack rate?",
+    "questionImage": null,
+    "options": [
+      "15%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Attack rate = (no. of persons with the disease / no. of persons exposed to the disease) × 100 = (300/1000) × 100 = 30%. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 188). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-039",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": null,
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": null,
+    "rationale": {
+      "text": "Question missing from original scan.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-040",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A study wants to investigate the prevalence of women of reproductive age who underwent cervical cancer screening in the past year. Which of the following type of study is most appropriate to use?",
+    "questionImage": null,
+    "options": [
+      "Cohort study",
+      "Case-control study",
+      "Cross-sectional study",
+      "Case series"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cross-sectional studies investigate the frequency of disease and risk-related factors assessed at a single point in time. The measure of disease frequency of cross-sectional studies is disease prevalence. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 256). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-041",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A study was conducted to determine if there is a difference between the sugar-lowering effects of two novel antidiabetic drugs, Drug A and Drug B. The comparison of two drugs results in a p-value of 0.07. The level of significance is 0.05. What will you do with the null hypothesis?",
+    "questionImage": null,
+    "options": [
+      "Reject the null hypothesis",
+      "Do not reject the null hypothesis",
+      "Change the null hypothesis",
+      "Repeat the experiment"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "If the p-value  level of significance (α), do not reject the null hypothesis. In this question, therefore you must NOT reject the null hypothesis. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 121). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-042",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This refers to the consistency and reproducibility of a test:",
+    "questionImage": null,
+    "options": [
+      "Sensitivity",
+      "Precision",
+      "Validity",
+      "Accuracy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Precision refers to the consistency and reproducibility of a test. Accuracy refers to the closeness of test results to the true values. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-043",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "In an outbreak setting, it is defined as the difference between the transmission of disease in the household and other closed population versus community transmission.",
+    "questionImage": null,
+    "options": [
+      "Attack rate",
+      "Point prevalence",
+      "Secondary attack rate",
+      "Incidence rate"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Secondary attack rate is the difference between the transmission of disease in the household and other closed population versus community transmission. Attack rate is the risk of acquiring the disease during a specified period and is calculated by getting the total number of new cases of the disease divided by the total population. Point prevalence is the number of new and pre-existing cases at a certain point in time. Incidence rate is the number of new cases of the disease during a specified time interval. The denominator is the sum of the person-years of observation. \n\n**Reference:** CDC-Lesson 3: Measures of Risk. https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section2.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-044",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A study wants to investigate the link between smoking and development of lung cancer in a 25-year period. What inferential statistics is suitable for this study?",
+    "questionImage": null,
+    "options": [
+      "Odds ratio",
+      "Incidence rate",
+      "Relative risk",
+      "Prevalence rate"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "This is an example of cohort study since it wants to investigate if the exposure (smoking) is associated with the development of the disease (lung cancer). The measure of disease frequency of cohort studies is relative risk. For case-control studies: odds ratio. For cross-sectional studies: disease prevalence. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-045",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which phase of clinical research involves a larger group of individuals to study the effectiveness and safety of a new drug?",
+    "questionImage": null,
+    "options": [
+      "Phase 1",
+      "Phase 2",
+      "Phase 3",
+      "Phase 4"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Phase of Clinical Trials: **Phase 1** – Involves a small group of people (20-80); Purpose: study the safety and identify side effects. **Phase 2** – Involves a larger group of people (100-300); Purpose: Determine the effectiveness and further study safety. **Phase 3** – Involves large groups of people (1,000-3,000); Purpose: To confirm the effectiveness, monitor side effects, compare with standard treatment, and collect data for the safe use of the drug. **Phase 4** – Safety is tracked in the general population after FDA approval; Purpose: Collect data on the treatment benefits and optimal use of the drug. \n\n**Reference:** U.S. Department of Health and Human Services, National Institutes of Health. (2022, October 3). The basics. Retrieved February 27, 2023, from https://www.nih.gov/health-information/nih-clinical-research-trials-you/basics",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-046",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A drug is already approved by the FDA and is now being studied for its benefits and optimal use. At what phase of clinical research is this study?",
+    "questionImage": null,
+    "options": [
+      "Phase 1",
+      "Phase 2",
+      "Phase 3",
+      "Phase 4"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Phase of Clinical Trials: **Phase 1** – Involves a small group of people (20-80); Purpose: study the safety and identify side effects. **Phase 2** – Involves a larger group of people (100-300); Purpose: Determine the effectiveness and further study safety. **Phase 3** – Involves large groups of people (1,000-3,000); Purpose: To confirm the effectiveness, monitor side effects, compare with standard treatment, and collect data for the safe use of the drug. **Phase 4** – Safety is tracked in the general population after FDA approval; Purpose: Collect data on the treatment benefits and optimal use of the drug. \n\n**Reference:** U.S. Department of Health and Human Services, National Institutes of Health. (2022, October 3). The basics. Retrieved February 27, 2023, from https://www.nih.gov/health-information/nih-clinical-research-trials-you/basics",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-047",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What type of bias is being exhibited by the Hawthorne effect wherein participants adjust their behavior because they are aware that they are being observed?",
+    "questionImage": null,
+    "options": [
+      "Measurement bias",
+      "Procedure bias",
+      "Observer-expectancy bias",
+      "Selection bias"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Measurement bias occurs when the data is gathered in a non-systematic way. Examples of measurement bias include: ·Using faulty measuring equipment; ·Hawthorne effect: subjects adjust their behavior upon being aware that they are being observed. Procedure bias occurs when the study participants in the treatment and non-treatment group are not treated the same. Observer-expectancy bias is influenced by the investigator's belief in the efficacy of the treatment which results in the alteration of the outcome (also called Pygmalion effect). Selection bias occurs when the sampling or intervention allocation is not random resulting to a nonrepresentative sample. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-048",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This type of bias occurs when the study participants in the treatment and non-treatment group are not treated the same:",
+    "questionImage": null,
+    "options": [
+      "Measurement bias",
+      "Procedure bias",
+      "Observer-expectancy bias",
+      "Selection bias"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Procedure bias occurs when the study participants in the treatment and non-treatment group are not treated the same. Observer-expectancy bias is influenced by the investigator's belief in the efficacy of the treatment which results in the alteration of the outcome (also called Pygmalion effect). Selection bias occurs when the sampling or intervention allocation is not random resulting to a nonrepresentative sample. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-049",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This number accounts for Infant deaths under the age of 7 days and fetal deaths at 28 weeks gestation or more per 1,000 live births.",
+    "questionImage": null,
+    "options": [
+      "Perinatal mortality rate",
+      "Infant mortality rate",
+      "Neonatal mortality rate",
+      "Maternal mortality rate"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Perinatal mortality rate is the number of infant deaths under age 7 days and fetal deaths at 28 weeks gestation or more per 1,000 live births and fetal deaths at 28 weeks of gestation or more. Infant mortality rate is the number of deaths to infants <1 year of age per 1,000 live births. Neonatal mortality rate is the number of deaths of infants <28 days old per 1,000 live births. Maternal mortality rate is the number of pregnancy-related deaths per 100,000 live births. \n\n**References:** Centers for Disease Control and Prevention. (2015, November 6). Trends in Fetal and Perinatal Mortality in the United States, 2006-2012. Retrieved February 27, 2023, from https://www.cdc.gov/nchs/products/databriefs/db169.htm; Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., pp. 28-29). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-050",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which term refers to the selection of a small group of subjects from a larger group of target study participants?",
+    "questionImage": null,
+    "options": [
+      "Random sampling",
+      "Randomization",
+      "Both terms are correct",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Note that there is a difference between random sampling and randomization. Random sampling refers to the random selection of a small group of subjects from a larger group of target study participants. Randomization is the random allocation of study participants into separate groups (i.e., treatment vs. control group) such that neither the investigator nor participant chooses the group in which the participant is assigned. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 159). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-051",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A study wants to analyze if there is a difference in the mean blood glucose levels of 3 different ethnic groups on the island of Luzon namely Aeta, Ibanag, and Mangyan. What is the most appropriate statistical test to be employed in this study?",
+    "questionImage": null,
+    "options": [
+      "Paired t-test",
+      "Fisher's exact test",
+      "Analysis of variance",
+      "Chi-square test"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The most appropriate statistical test to use is analysis of variance (ANOVA). This test is used to analyze if there is a difference between the means of 3 or more groups. T-test is used to analyze if there is a difference between the means of only 2 groups. Fisher's exact test analyzes the differences between 2 percentages or proportions of categorical/nominal variables. Chi-square test analyzes the differences between 2 or more percentages or proportions of categorical outcomes (not mean values). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 266). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-052",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This refers to separating people who are ill with a contagious disease from people who are not ill.",
+    "questionImage": null,
+    "options": [
+      "Isolation",
+      "Quarantine",
+      "Separation",
+      "Discrimination"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Isolation – Those who are ill with a contagious sickness are isolated from healthy individuals. Quarantine – Those who have been exposed to an infectious disease are segregated and given movement restrictions to see if they become ill. \n\n**Reference:** Centers for Disease Control and Prevention. (2017, September 29). Quarantine and isolation. Centers for Disease Control and Prevention. Retrieved February 27, 2023, from https://www.cdc.gov/quarantine/index.html",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-053",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following statements is true?",
+    "questionImage": null,
+    "options": [
+      "Randomization and random sampling mean the same and are interchangeable.",
+      "Randomization refers to the unbiased allocation of participants into treatment and control groups",
+      "Randomization ensures the external validity of a study",
+      "Random sampling ensures the internal validity of a study"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Randomization refers to the unbiased allocation of participants into treatment and control groups. Other statements are false. Note that there is a difference between random sampling and randomization. Random sampling refers to the random selection of a small group of subjects from a larger group of target study participants. It ensures the external validity of a study because its goal is to get a representative sample of the target population. Randomization is the random allocation of study participants into separate groups (i.e., treatment vs. control group) such that neither the investigator nor participant chooses the group in which the participant is assigned. It ensures the internal validity of a study because it decreases the chances of bias. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 159). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-054",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A study was conducted to compare the proportion of members of 3 different age groups (i.e., 18-39 y.o., 40-59 y.o., and 60 and over) who have uncontrolled hypertension. Which statistical test is most appropriate to use in this study?",
+    "questionImage": null,
+    "options": [
+      "Paired t-test",
+      "Fisher's exact test",
+      "Analysis of variance",
+      "Chi-square test"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The most appropriate statistical test to use is Chi-square test. This test analyzes the differences between 2 or more percentages or proportions of categorical outcomes (not mean values). In this example, we will obtain 3 proportions from the 3 age groups. Fisher's exact test analyzes the differences between 2 percentages or proportions of categorical/nominal variables. Analysis of variance (ANOVA) is used to analyze if there is a difference between the means of 3 or more groups (not proportions). T-test is used to analyze if there is a difference between the means of only 2 groups. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-055",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following vital statistics is often used as an overall index of health status of a nation?",
+    "questionImage": null,
+    "options": [
+      "Infant mortality rate",
+      "Maternal mortality rate",
+      "Crude death rate",
+      "Crude birth rate"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The infant mortality rate is often used as an overall index of the health status of a nation because the health of infants is unusually sensitive to maternal health practices (especially maternal nutrition and exposure to tobacco, alcohol, and drugs), environmental factors, and the quality of health services. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 27). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-056",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Shigella infection can spread through which of the following?",
+    "questionImage": null,
+    "options": [
+      "Contaminated water",
+      "Aerosol",
+      "Percutaneous inoculation",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Shigella infection can spread through contaminated water. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 45). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-057",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is described as the disease or injury which initiated the train of morbid events leading to death?",
+    "questionImage": null,
+    "options": [
+      "Immediate cause of death",
+      "Antecedent cause of death",
+      "Underlying cause of death",
+      "Any of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The underlying cause of death is described as the disease or injury which initiated the train of morbid events leading to death. The most important entry in the medical certificate is the underlying cause of death since mortality statistics is based on this underlying cause. The immediate cause of death is the most recent condition that directly leads to death and is written on the top line of the certificate. The antecedent cause of death are the other intervening cause (or causes) of death occurring between the underlying and immediate causes. \n\n**Reference:** Medical Certification of Death, Handbook for Filipino Physicians. (2015). Knowledge Management and Information Technology Service, Department of Health. https://doh.gov.ph/sites/default/files/publications/MEDICAL_CERTIFICATION_OF_DEATH_O.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-058",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The following are included in the millennium development goals, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Eradicate extreme poverty",
+      "Achieve universal primary education",
+      "Improve maternal health",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All are included in the millennium development goals. Goal 1. Eradicate extreme poverty and hunger. Goal 2. Achieve universal primary education. Goal 3. Promote gender equality and empower women. Goal 4. Reduce child mortality. Goal 5. Improve maternal health. Goal 6. Combat HIV/AIDS, malaria, and other diseases. Goal 7. Ensure environmental sustainability. Goal 8. Develop a global partnership development. \n\n**Reference:** The Millenium Development Goals Report. (2015). https://www.un.org/millenniumgoals/2015_MDG_Report/pdf/MDG%202015%20rev%20(July%201).pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-059",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "In analytical health research, which of the following is the variable that researchers manipulate to create an effect?",
+    "questionImage": null,
+    "options": [
+      "Independent variable",
+      "Dependent variable",
+      "Confounder",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Independent variable – variable that researchers manipulate to create effect and influence the dependent variable. Dependent variable – is what happens as a result of the independent variable. Confounding variable – or confounder, affects the relationship between the independent and dependent variables. \n\n**Reference:** U.S. Department of Health and Human Services, National Institutes of Health, Finding and Using Health Statistics. Retrieved February 25, 2023, from https://www.nlm.nih.gov/nichsr/stats_tutorial/section2/mod4_variables.html",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-060",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "If a disease has a faster recovery time, you'll expect the disease prevalence to:",
+    "questionImage": null,
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain the same",
+      "Double"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The prevalence will decrease when a disease has a faster recovery time. Other situations that may decrease disease prevalence include: ·Increased mortality; ·Extensive vaccine administration; ·Decreased risk factors; ·New effective treatment started; ·Decreased contact between infected and noninfected patients with airborne infectious disease. The following situations may increase disease prevalence: ·Increased survival time; ·Increased diagnostic sensitivity. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-061",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "If a certain disease has increased survival time, the disease prevalence will become:",
+    "questionImage": null,
+    "options": [
+      "Increased",
+      "Decreased",
+      "Remain the same",
+      "Go to zero"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The following situations may increase disease prevalence: ·Increased survival time; ·Increased diagnostic sensitivity. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-062",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "You performed a blood test on a patient three times and obtained the following values: 4.5, 4.7, and 4.4. If the true value is 100, what can you infer from this data set?",
+    "questionImage": null,
+    "options": [
+      "The data set is precise and accurate.",
+      "The data set is precise but not accurate.",
+      "The data set is accurate but not precise.",
+      "The data set is neither accurate nor precise."
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The data set is precise because there is small variability among the values, however, it is not accurate because the values are far from the true value. Difference between precision and accuracy – Precision (reliability): Defines the consistency and reproducibility of a test; Random variation is absent. Accuracy (validity): How close the test results are to the true value; Systematic error or bias is absent. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-063",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This refers to the number of live births divided by the midperiod population:",
+    "questionImage": null,
+    "options": [
+      "Infant mortality rate",
+      "Crude birth rate",
+      "Neonatal mortality rate",
+      "Maternal mortality rate"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Crude birth rate refers to the number of live births divided by the midperiod population. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 27). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-064",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following occurs when people with a certain disease are more likely to recall previous risk factors than those who have never had the disease?",
+    "questionImage": null,
+    "options": [
+      "Measurement bias",
+      "Random error",
+      "Recall bias",
+      "Selection bias"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Recall bias occurs when, for example, people with a certain disease are more likely to recall previous risk factors than those who have never had the disease. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 56). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-065",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "If the sensitivity of COVID-19 test kits increased since the start of the pandemic, what can you infer from the incidence of COVID-19 over time?",
+    "questionImage": null,
+    "options": [
+      "It will increase",
+      "It will decrease",
+      "It will remain the same",
+      "It will be halved"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Increasing the sensitivity of a diagnostic test also increases the incidence of the disease as you can capture more cases. In contrast, situations that may decrease the incidence include: ·Extensive vaccine administration; ·Decreased risk factors; ·Decreased contact between infected and noninfected individuals with an airborne infectious disease. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-066",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The Department of Health recommends mandatory food fortification of the following food substances with Vitamin A, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Rice",
+      "Wheat flour",
+      "Refined sugar",
+      "Cooking oil"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The Department of Health and the Bureau of Food and Drugs recommends the mandatory food fortification of the following food substances: ·Rice with Iron; ·Wheat flour with vitamin A and Iron; ·Refined sugar with vitamin A; ·Cooking oil with vitamin A; ·Other staple foods with nutrients as required by the Governing Board of the National Nutrition Council (NCC). \n\n**Reference:** World Health Organization, Policy-Philippine Food Fortification Act of 2000. (2000). https://extranet.who.int/nutrition/gina/en/node/17865",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-067",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Mammography is a screening used to detect breast cancer early especially in asymptomatic women. What type of prevention is illustrated in this example?",
+    "questionImage": null,
+    "options": [
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention",
+      "Quaternary prevention"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Screening for diseases is under the secondary level of prevention. Levels of Prevention: 1. Primary Prevention – ·Intervening before health effects occur; ·Examples: vaccinations, altering risky behaviors (poor eating habits, tobacco use), and banning substances known to be associated with a disease or health condition. 2. Secondary prevention – ·Screening to identify diseases in the earliest stages, before the onset of signs and symptoms; ·Examples: mammography and regular blood pressure testing. 3. Tertiary Prevention – ·Managing disease post-diagnosis to slow or stop disease progression; ·Examples: Chemotherapy, rehabilitation, and screening for complications. \n\n**Reference:** Picture of America Prevention-Centers for Disease Control and Prevention. (n.d.). Retrieved February 27, 2023, from https://www.cdc.gov/pictureofamerica/pdfs/picture_of_america_prevention.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-068",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following PTB drugs is ototoxic?",
+    "questionImage": null,
+    "options": [
+      "Capreomycin",
+      "Ethambutol",
+      "Isoniazid",
+      "Pyrazinamide"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Capreomycin can be an alternative drug for PTB but is of limited use because of its adverse effects, ototoxicity, and renal dysfunction. \n\n**Reference:** Trevor, A. J., Katzung, B. G., & Kruidering-Hall, M. (2018). Antimycobacterial drugs. In Katzung & Trevor's Pharmacology Examination and Board Review (12th ed., p. 391). New York, NY: McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-069",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "All factors will decrease the precision of a test, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Decreased statistical power",
+      "Increased standard deviation",
+      "Random error",
+      "Systematic error"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "A systematic error will decrease more of the accuracy of a test, not the precision. The following factors will decrease the precision of a test: ·Decreased statistical power; ·Increased standard deviation (more variability); ·Random error. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-070",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Type I error refers to which of the following?",
+    "questionImage": null,
+    "options": [
+      "Not rejecting the null hypothesis when it is true",
+      "Not rejecting the null hypothesis when it is false",
+      "Rejecting the null hypothesis when it is true",
+      "Rejecting the null hypothesis when it is false"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Type I error – Aka false positive error; Rejecting the null hypothesis when it is true; α – the probability of committing a type I error. Type II error – Aka false negative error; Not rejecting the null hypothesis when it is false; β – the probability of committing a type II error. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 265). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-071",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which among the anti-TB drugs has many drug interactions?",
+    "questionImage": null,
+    "options": [
+      "Rifampicin",
+      "Ethambutol",
+      "Isoniazid",
+      "Pyrazinamide"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Rifampin induces the formation of P450 leading to decreased efficacy of many drugs. Rifampin strongly induces liver drug-metabolizing enzymes and enhances the elimination rate of many drugs, including anticonvulsants, contraceptive steroids, cyclosporine, ketoconazole, methadone, terbinafine, and warfarin. \n\n**Reference:** Trevor, A. J., Katzung, B. G., & Kruidering-Hall, M. (2018). Antimycobacterial drugs. In Katzung & Trevor's Pharmacology Examination and Board Review (12th ed., p. 390, p. 394). New York, NY: McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-072",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Vaccination against COVID-19 demonstrates what level of prevention?",
+    "questionImage": null,
+    "options": [
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention",
+      "Quaternary prevention"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Vaccination against disease is under the primary level of prevention. Levels of Prevention: 1. Primary Prevention – ·Intervening before health effects occur; ·Examples: vaccinations, altering risky behaviors (poor eating habits, tobacco use), and banning substances known to be associated with a disease or health condition. 2. Secondary prevention – ·Screening to identify diseases in the earliest stages, before the onset of signs and symptoms; ·Examples: mammography and regular blood pressure testing. 3. Tertiary Prevention – ·Managing disease post-diagnosis to slow or stop disease progression; ·Examples: Chemotherapy, rehabilitation, and screening for complications. \n\n**Reference:** Picture of America Prevention-Centers for Disease Control and Prevention. (n.d.). Retrieved February 27, 2023, from https://www.cdc.gov/pictureofamerica/pdfs/picture_of_america_prevention.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-073",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A patient with TB has previously been declared lost to follow-up after interruption of 3 consecutive months at the end of the most recent course of treatment. She now came to your clinic with a positive gene Xpert/sputum exam. Under what TB category is this patient?",
+    "questionImage": null,
+    "options": [
+      "Treatment after lost to follow-up",
+      "Relapse",
+      "Treatment after failure",
+      "Retreatment"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Treatment after lost to follow-up (TALF) – patient has previously been declared lost to follow-up after interruption of at least 2 consecutive months at the end of most recent course of treatment and is now bacteriologically confirmed or clinically diagnosed TB (previously known as Return After Default). Relapse – patient has previously been declared cured or treatment completed at the end of most recent course of treatment, and is now diagnosed with bacteriologically confirmed or clinically diagnosed TB. Treatment after Failure – patient has previously been treated for TB and has been declared failed at the end of most recent course of treatment. Retreatment – patient who has received 1 month or more of anti-TB drugs in the past (excluding prophylaxis or treatment for latent TB infection). \n\n**Reference:** Philippine Coalition Against Tuberculosis. (2016). Clinical Practice Guidelines for the Diagnosis, Treatment, Prevention and Control of Tuberculosis in Adult Filipinos: 2016 Update. https://www.psmid.org/clinical-practice-guidelines-for-the-diagnosis-treatment-prevention-and-control-of-tuberculosis-in-adult-filipinos-2016/",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-074",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What phase of clinical research involves a small number of healthy volunteers?",
+    "questionImage": null,
+    "options": [
+      "Phase 1",
+      "Phase 2",
+      "Phase 3",
+      "Phase 4"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Phase 1 – small number of healthy volunteers. Safety assessment is done via dose escalation. Phase 2 – moderate number of patients with disease of interest. Efficacy assessment is done (does it work?). Phase 3 – Large number of patients with disease of interest. Effectiveness assessment via comparison with current standard of care (is there any improvement?). Phase 4 – post-marketing surveillance. Provides data on long-term of rare adverse effects (can it stay on the market?). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 257). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-075",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A nurse contracted COVID-19 infection while working in close contact with a confirmed COVID-19 patient. What do you call the point in time when a pathogen enters the host?",
+    "questionImage": null,
+    "options": [
+      "Incubation period",
+      "Latent period",
+      "Exposure moment",
+      "Generation time"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Incubation period is the stage of subclinical disease, extending from the time of exposure to onset of disease symptoms for infectious diseases. Latency period is for chronic diseases. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-076",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The difference between the development of lung cancer in cigarette smokers compared to vapers was assessed by gathering subjects who smoke using cigarettes and those who vape then observing who develop lung cancer after 5, 10, and 20 years. This is what type of study?",
+    "questionImage": null,
+    "options": [
+      "Case-control",
+      "RCT",
+      "Prospective cohort",
+      "Cross-sectional"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "In a prospective cohort study, the investigator assembles the study groups in the present, collects baseline data on them, and continues to collect data for a period that can last many years. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 63). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-077",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Tuberculosis patients infected with M. tuberculosis resistant to isoniazid and rifampin are classified to have:",
+    "questionImage": null,
+    "options": [
+      "XDR-TB",
+      "MDR-TB",
+      "RR-TB",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "MDR-TB – Resistant to isoniazid and rifampin. RR-TB – Resistant to rifampin. XDR-TB – Resistant to 2nd line TB medicines. \n\n**Reference:** Department of Health. (2020). DOH National Tuberculosis Program Manual of Procedures (6th ed.). https://doh.gov.ph/sites/default/files/publications/NTP_MOP_6th_Edition.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-078",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "An unvaccinated asymptomatic close contact of a confirmed COVID-19 case must quarantine for at least ____ days from exposure.",
+    "questionImage": null,
+    "options": [
+      "7 days",
+      "10 days",
+      "14 days",
+      "21 days"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Quarantine guidelines for asymptomatic close contacts: Those with at least a primary series: No need to quarantine. Those who were partially vaccinated or unvaccinated: Quarantine for at least 14 days. \n\n**Reference:** Administrative order 2021-0043: \"Omnibus Guidelines on the Minimum Public Health Standards for the Safe Reopening of Institutions\", (2022). https://doh.gov.ph/sites/default/files/health-update/dm2022-0433.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-079",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A patient was previously been declared cured at the end of the most recent course of treatment. However, he is now a bacteriologically confirmed TB case. Under what TB category is this patient?",
+    "questionImage": null,
+    "options": [
+      "Treatment after lost to follow-up",
+      "Relapse",
+      "Treatment after failure",
+      "Retreatment"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Relapse – patient has previously been declared cured or treatment completed at the end of most recent course of treatment, and is now diagnosed with bacteriologically confirmed or clinically diagnosed TB. Treatment after lost to follow-up (TALF) – patient has previously been declared lost to follow-up after interruption of at least 2 consecutive months at the end of most recent course of treatment and is now bacteriologically confirmed or clinically diagnosed TB (previously known as Return After Default). Treatment after Failure – patient has previously been treated for TB and has been declared failed at the end of most recent course of treatment. Retreatment – patient who has received 1 month or more of anti-TB drugs in the past (excluding prophylaxis or treatment for latent TB infection). \n\n**Reference:** Philippine Coalition Against Tuberculosis. (2016). Clinical Practice Guidelines for the Diagnosis, Treatment, Prevention and Control of Tuberculosis in Adult Filipinos: 2016 Update. https://www.psmid.org/clinical-practice-guidelines-for-the-diagnosis-treatment-prevention-and-control-of-tuberculosis-in-adult-filipinos-2016/",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-080",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is a sign of severe dehydration?",
+    "questionImage": null,
+    "options": [
+      "Lethargy",
+      "Respiratory distress",
+      "Weak pulses",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All of the choices are signs of SEVERE dehydration. Signs and symptoms of Dehydration – Some dehydration: No danger signs AND at least two of the following: Irritable or restless; Sunken eyes; Rapid pulse; Thirsty (drinks eagerly); Skin pinch goes back slowly. Severe dehydration: One or more danger signs: Lethargic or unconscious; Absent or weak pulse; Respiratory distress; OR at least two of the following: Sunken eyes; Not able to drink or drinks poorly; Skin pinch goes back very slowly. \n\n**Reference:** Centers for Disease Control and Prevention. (2022, November 14). Rehydration therapy. Centers for Disease Control and Prevention. Retrieved February 27, 2023, from https://www.cdc.gov/cholera/treatment/rehydration-therapy.html",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-081",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "A study wants to compare the efficacy of implanted insulin pumps in maintaining a normal blood glucose level among diabetic patients. The control group are diabetic patients who receive multiple insulin injections. What type of study is this?",
+    "questionImage": null,
+    "options": [
+      "Case-control",
+      "RCT",
+      "Prospective cohort",
+      "Cross-sectional"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "In a randomized controlled trial (RCT), patients are enrolled in a study and randomly assigned to one of the following groups: Intervention or treatment group – receives the experimental treatment; Control group – receives the nonexperimental treatment, consisting of either a placebo (inert substance) or a standard treatment method. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 65). W B Saunders.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-082",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "In an epidemic, the pathogen is transmitted through person-to-person contact, as a result, the number of cases increases over time. What epidemic pattern is described?",
+    "questionImage": null,
+    "options": [
+      "Continuous common-source outbreak",
+      "Intermittent common-source outbreak",
+      "Propagated outbreak",
+      "Point-source outbreak"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "A propagated outbreak results from transmission from one person to another. Usually, transmission is by direct person-to-person contact, as with syphilis. Transmission may also be vehicleborne (e.g., transmission of hepatitis B or HIV by sharing needles) or vectorborne (e.g., transmission of yellow fever by mosquitoes). In a continuous common-source outbreak, the range of exposures and range of incubation periods tend to flatten and widen the peaks of the epidemic curve. The epidemic curve of an intermittent common-source outbreak often has a pattern reflecting the intermittent nature of the exposure. If the group is exposed over a relatively brief period, so that everyone who becomes ill does so within one incubation period, then the common-source outbreak is further classified as a point-source outbreak. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-083",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Weights of 7 adolescents were obtained in the school clinic. The data set are as follows: 60, 70, 60, 50, 50, 60, 70. What is the mean, median, and mode of the data set?",
+    "questionImage": null,
+    "options": [
+      "60, 60, 60",
+      "50, 60, 70",
+      "50, 60, 60",
+      "65.5, 60, 60"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Mean – the balance point for all the data. Median – middle of the data with half the observed values below the median and half the observed values above it. Mode – the peak or most prevalent value. The median when arranged from lowest to highest (50, 50, 60, 60, 60, 70, 70) is 60. The mode is 60 as it is the most frequent weight among the adolescents. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-084",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "If 6 patients died among 10 cases of bacterial meningitis, what is the case fatality rate?",
+    "questionImage": null,
+    "options": [
+      "30%",
+      "50%",
+      "60%",
+      "70%"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Case fatality rate (CFR) is the percentage of deaths among those who were diseased. CFR = (number of deaths / number of cases) × 100 = (6/10) × 100 = 60%. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 258). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-085",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What type of epidemic pattern is portrayed when a common-source outbreak is followed by secondary person-to-person spread?",
+    "questionImage": null,
+    "options": [
+      "Continuous common-source outbreak",
+      "Intermittent common-source outbreak",
+      "Propagated outbreak",
+      "Mixed epidemic"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Mixed epidemics have features of both common-source epidemics and propagated epidemics. The pattern of a common-source outbreak followed by secondary person-to-person spread is not uncommon. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-086",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "This variable is related to both the exposure and outcome but not on a causal path.",
+    "questionImage": null,
+    "options": [
+      "Independent variable",
+      "Dependent variable",
+      "Responding variable",
+      "Confounder"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Confounder – Factor related to both exposure and outcome (but not on causal path); Distorts effect on outcome; No true association exist. Independent variable – variable that researchers manipulate to create effect and influence the dependent variable. Dependent variable – is what happens as a result of the independent variable. Responding variable is synonymous to the dependent variable. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 263). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-087",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which among the measures of central tendency is most affected by outliers?",
+    "questionImage": null,
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The mean is most affected by outliers or extreme values. The mode is the least affected by outliers. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-088",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is FALSE about a normally distributed data set?",
+    "questionImage": null,
+    "options": [
+      "The mean, median, mode are all equal.",
+      "It assumes a bell-shaped curve",
+      "The mean is the best measure of central tendency",
+      "The mean falls closer to the tail of the curve"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "D is false because this is a characteristic of skewed data, not a normally distributed data set. In a normally distributed data set, the following are true: It assumes a bell-shaped curve (Gaussian curve); The mean, median, mode are all equal; The mean is the best measure of central tendency. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-089",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Breast cancer identified early by mammography may seem to overestimate patients' survival time because they are known to have the disease for a longer period of time. What type of bias is illustrated in this example?",
+    "questionImage": null,
+    "options": [
+      "Lead-time bias",
+      "Length-time bias",
+      "Procedure bias",
+      "Measurement bias"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Lead-time bias occurs when early detection of the disease is interpreted as increased survival even though the disease course has not changed. Length-time bias occurs when diseases with a long latency period are detected by screening tests, while those with a shorter latency period manifest their symptoms earlier. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-090",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What type of bias occurs when diseases with a long latency period are detected by screening tests, while those with a shorter latency period manifest their symptoms earlier?",
+    "questionImage": null,
+    "options": [
+      "Lead-time bias",
+      "Length-time bias",
+      "Procedure bias",
+      "Measurement bias"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Length-time bias occurs when diseases with a long latency period are detected by screening tests, while those with a shorter latency period manifest their symptoms earlier. Lead-time bias occurs when early detection of the disease is interpreted as increased survival even though the disease course has not changed. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-091",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "At what phase of clinical research is post-marketing surveillance conducted?",
+    "questionImage": null,
+    "options": [
+      "Phase 1",
+      "Phase 2",
+      "Phase 3",
+      "Phase 4"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Phase 1 – small number of healthy volunteers. Safety assessment is done via dose escalation. Phase 2 – moderate number of patients with disease of interest. Efficacy assessment is done (does it work?). Phase 3 – Large number of patients with disease of interest. Effectiveness assessment via comparison with current standard of care (is there any improvement?). Phase 4 – post-marketing surveillance. Provides data on long-term of rare adverse effects (can it stay on the market?). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 257). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-092",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which is true about a positively skewed data set?",
+    "questionImage": null,
+    "options": [
+      "Mean > median > mode",
+      "Mean = median = mode",
+      "Mean < median < mode",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "In a positively skewed data set, the following are true: Mean > median > mode; Asymmetry with longer tail on right; Mean falls closer to tail. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-093",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "What is the recommended treatment for Schistosomiasis?",
+    "questionImage": null,
+    "options": [
+      "Albendazole",
+      "Mebendazole",
+      "Pyrantel pamoate",
+      "Praziquantel"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The recommended treatment for schistosomiasis is praziquantel. \n\n**Reference:** CDC-Parasites-Schistosomiasis, Treatment. https://www.cdc.gov/parasites/schistosomiasis/treatment.html. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-094",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "According to the WHO, what is the recommended environmental noise level over 24 hours to prevent noise-induced hearing loss?",
+    "questionImage": null,
+    "options": [
+      "Below 140 dBA",
+      "Below 100 dBA",
+      "Below 90 dBA",
+      "Below 70 dBA"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "According to the WHO, the recommended environmental noise level over 24 hours to prevent noise-induced hearing loss is below 70 dBA (75 dBA over 8 hours). \n\n**Reference:** CDC-Loud Noise Can Cause Hearing Loss. https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-095",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following would most likely lead to the transmission of leprosy?",
+    "questionImage": null,
+    "options": [
+      "Hugging",
+      "Shaking hands",
+      "Contact with respiratory droplets",
+      "Sitting together"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Although leprosy transmission is not yet completely understood, it is believed to spread through respiratory means. One cannot get leprosy from casual contact. \n\n**Reference:** CDC-Hansen's disease (Leprosy). https://www.cdc.gov/leprosy/transmission/index.html. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-096",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is NOT recommended as malaria chemoprophylaxis for persons travelling to the Philippines?",
+    "questionImage": null,
+    "options": [
+      "Atovaquone-proguanil",
+      "Primaquine",
+      "Doxycycline",
+      "Mefloquine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The CDC-recommended chemoprophylaxis for persons traveling to the Philippines include: ·Atovaquone-proguanil; ·Doxycycline; ·Mefloquine; ·Tafenoquine. \n\n**Reference:** CDC-Malaria Information and Prophylaxis By Country. https://www.cdc.gov/malaria/travelers/country_table/p.html. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-097",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "The herbal medicinal plant sambong is used in which of the following diseases:",
+    "questionImage": null,
+    "options": [
+      "Asthma",
+      "Diabetes",
+      "Urolithiasis",
+      "Hypertension"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Sambong tablets are effective in treating patients with kidney stones by radiographic evidence of a decrease in size and/or number of stones. Asthma – Lagundi. Diabetes – Ampalaya. Hypertension – Garlic. \n\n**Reference:** Philippine Institute of Traditional and Alternative Health Care-Directory of Herbs. https://pitahc.gov.ph/directory-of-herbs/. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-098",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Which of the following is a water-based disease?",
+    "questionImage": null,
+    "options": [
+      "Hepatitis B",
+      "Scabies",
+      "Leptospirosis",
+      "Malaria"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Humans can become infected with leptospirosis through: ·Contact with urine (or other body fluids, except saliva) from infected animals; ·Contact with water, soil, or food contaminated with the urine of infected animals. Other water-borne diseases include typhoid fever, cholera, and hepatitis A. Hepatitis B – hematogenous spread. Scabies – direct skin-to-skin contact. Malaria – vector-borne disease. \n\n**References:** Centers for Disease Control and Prevention. (2015, June 9). Leptospirosis. https://www.cdc.gov/leptospirosis/infection/index.html; Department of Health. (2017). Water-borne diseases advisory 29 July 2017. https://doh.gov.ph/node/10648. February 27, 2023.",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-099",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "It is considered as the simplest form of probability sampling:",
+    "questionImage": null,
+    "options": [
+      "Simple random sampling",
+      "One-stage sampling",
+      "Stratified random sampling",
+      "Convenience sampling"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Simple random sampling is the simplest form of probability sampling. In this type of sampling there is an equal probability that each eligible member of the target population will be chosen for the study. A sample of people from this population is chosen at random for the study or survey. Convenience sampling is not a type of probability sampling because it is based on ease of contact. A list of the primary clusters is necessary for one-stage sampling. In a cluster sample, smaller sampling units known as observation units are combined into larger sampling units known as clusters. \n\n**Reference:** Guidance, examples and tools for probability sampling when designing a population-based biomonitoring study (n.d.). Retrieved February 27, 2023, from https://www.cdc.gov/nceh/tracking/pdfs/BiomonitoringStudyGuidance-508.pdf",
+      "images": []
+    }
+  },
+  {
+    "id": "PM-100",
+    "subject": "Family & Community Health",
+    "topic": "Uncategorized",
+    "question": "Using volunteers as subjects for a research is an example of what type of sampling?",
+    "questionImage": null,
+    "options": [
+      "Simple random sampling",
+      "One-stage sampling",
+      "Stratified random sampling",
+      "Convenience sampling"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Convenience sampling occurs when patients are assigned based on ease of contact. Using volunteers as study participants is an example of this. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
+      "images": []
+    }
+  }
+]
