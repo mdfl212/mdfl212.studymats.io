@@ -6060,7 +6060,7 @@ body[data-course="quiz"] {
 }
 body[data-course="quiz"] * { box-sizing: border-box; }
 .quiz-shell { max-width: 940px; margin: 0 auto; position: relative; }
-@media (min-width: 980px) { .quiz-shell { padding-left: 108px; } }
+@media (min-width: 980px) { .quiz-shell { padding-left: 0 24px; } }
 .yl-nav { position: relative; z-index: 20; }
 .yl-nav-trigger { display: flex; align-items: center; gap: 8px; border: 1px solid var(--quiz-border); background: var(--quiz-surface); color: var(--quiz-text); border-radius: 999px; padding: 9px 12px; cursor: pointer; font: 11px 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; box-shadow: var(--quiz-shadow); }
 .yl-nav-tag { color: var(--accent); }
