@@ -17,6 +17,14 @@ An interactive, responsive HTML/JS questionnaire application designed to review 
 - **Responsive UI:** Custom design system built with CSS variables, accessible on desktop and mobile.
 - **Centralized theming:** Every page loads `style.css` and declares its palette with `data-course` and `data-theme` (`light` or `dark`). The shared `theme.js` controller provides the theme toggle and remembers the user's preference.
 
+## September 7,2026 update 
+- Fixed subject catalog loading by repairing `subjects.json` and removing the invalid empty Prev Med placeholder record.
+- Added Preventive Medicine to the YL4 subject list with its normalized question bank in `data/prevmed.json`.
+- Fixed light/dark theme toggles so they work consistently on mobile devices.
+- Extended mobile page backgrounds through the dynamic viewport and device safe area to prevent the lower color from being cut off.
+- Moved the quiz subject/topic selectors and score summary below the question navigation; the four score cards now fit in one row on mobile screens.
+- Run the project through a local web server because the index loads `subjects.json` and question banks with `fetch()`.
+
 ## Data-driven question bank
 
 The root [index.html](index.html) is the single quiz interface for every subject. Subject metadata and color palettes live in [subjects.json](subjects.json), while normalized question records live in `data/*.json`. The shared [app.js](app.js) loads the selected subject, filters it, and renders one question at a time.
