@@ -3598,5 +3598,1805 @@
       "text": "Cannabidiol (CBD) is a cannabinoid derived from the cannabis plant. It is well-tolerated and does not produce the psychotropic effects associated with THC (tetrahydrocannabinol). CBD is being researched for various medical purposes, including its potential anti-seizure effects. Cannabidiol is effective in certain seizure disorders but does not act on CB1 or CB2 receptors.",
       "images": []
     }
+  },
+  {
+    "id": "201",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A 65-year-old man with urosepsis was treated with ciprofloxacin in India. Two weeks later he returns to the USA with sepsis. Which organism is most likely if the infection is ciprofloxacin-resistant?",
+    "questionImage": null,
+    "options": [
+      "Methicillin-resistant Staphylococcus aureus",
+      "ESBL-positive Escherichia coli",
+      "Vancomycin-resistant Enterococcus faecium",
+      "Clostridioides difficile"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "ESBL-producing E. coli is an emerging urinary pathogen; ciprofloxacin resistance is common, and carbapenems are recommended for serious infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "202",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following is a siderophore cephalosporin with activity against carbapenem-resistant Gram-negative organisms?",
+    "questionImage": null,
+    "options": [
+      "Ceftaroline",
+      "Ceftolozane-tazobactam",
+      "Cefiderocol",
+      "Ceftazidime-avibactam"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cefiderocol uses active iron transport to enter bacteria and is stable against many β-lactamases, including metallo-β-lactamases.",
+      "images": []
+    }
+  },
+  {
+    "id": "203",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "According to the '10×'20 initiative', how many novel systemic antibacterial agents were approved by the FDA by 2020?",
+    "questionImage": null,
+    "options": [
+      "5",
+      "10",
+      "14",
+      "20"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The initiative aimed for 10, but by 2020, 14 antibacterials received FDA approval, 3 of which were novel agents.",
+      "images": []
+    }
+  },
+  {
+    "id": "204",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following novel agents is a cephalosporin/β-lactamase inhibitor combination active against ESBL and KPC producers?",
+    "questionImage": null,
+    "options": [
+      "Ceftazidime-avibactam",
+      "Ceftolozane-tazobactam",
+      "Imipenem-cilastatin-relebactam",
+      "Eravacycline"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ceftazidime-avibactam is active against ESBL and KPC producers; it is not active against metallo-β-lactamases.",
+      "images": []
+    }
+  },
+  {
+    "id": "205",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with burn wound infection and sepsis is started on tobramycin. Which pharmacodynamic property supports once-daily dosing?",
+    "questionImage": null,
+    "options": [
+      "Time-dependent killing",
+      "Post-antibiotic effect and concentration-dependent killing",
+      "Narrow therapeutic index",
+      "High protein binding"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Aminoglycosides exhibit concentration-dependent killing and a significant post-antibiotic effect, making once-daily dosing effective and less toxic.",
+      "images": []
+    }
+  },
+  {
+    "id": "206",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "What is the recommended once-daily dose of tobramycin for a patient with normal renal function (CrCl >60 mL/min)?",
+    "questionImage": null,
+    "options": [
+      "1-2 mg/kg",
+      "3-4 mg/kg",
+      "5-7 mg/kg",
+      "10-12 mg/kg"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "For gentamicin and tobramycin, once-daily dosing of 5-7 mg/kg is recommended when CrCl >60 mL/min.",
+      "images": []
+    }
+  },
+  {
+    "id": "207",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which aminoglycoside is most likely to cause vestibular toxicity?",
+    "questionImage": null,
+    "options": [
+      "Neomycin",
+      "Amikacin",
+      "Streptomycin",
+      "Tobramycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Streptomycin and gentamicin are the most vestibulotoxic; neomycin and amikacin are more auditory toxic.",
+      "images": []
+    }
+  },
+  {
+    "id": "208",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Plazomicin is a novel aminoglycoside approved for complicated urinary tract infections. Which resistance mechanism does it overcome?",
+    "questionImage": null,
+    "options": [
+      "Altered penicillin-binding proteins",
+      "Efflux pumps",
+      "Aminoglycoside-modifying enzymes",
+      "Ribosomal methylation"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Plazomicin is structurally modified to resist most aminoglycoside-modifying enzymes, retaining activity against resistant pathogens.",
+      "images": []
+    }
+  },
+  {
+    "id": "209",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A woman with chlamydial cervicitis is pregnant. Which treatment is preferred?",
+    "questionImage": null,
+    "options": [
+      "Doxycycline 100 mg BID x7d",
+      "Azithromycin 1 g single dose",
+      "Erythromycin base 500 mg QID x7d",
+      "Levofloxacin 500 mg daily x7d"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tetracyclines are contraindicated in pregnancy; azithromycin is the preferred alternative for chlamydia in pregnancy.",
+      "images": []
+    }
+  },
+  {
+    "id": "210",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Doxycycline is the preferred oral tetracycline for most infections because:",
+    "questionImage": null,
+    "options": [
+      "It has the longest half-life",
+      "It has excellent CNS penetration",
+      "It is well tolerated, twice-daily, and absorption not significantly affected by food",
+      "It is the only tetracycline active against MRSA"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Doxycycline is generally well tolerated, dosed twice daily, and its absorption is minimally affected by food or divalent cations.",
+      "images": []
+    }
+  },
+  {
+    "id": "211",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Tigecycline carries a black box warning due to:",
+    "questionImage": null,
+    "options": [
+      "Severe hepatotoxicity",
+      "Increased risk of death compared to other antibiotics",
+      "High rate of anaphylaxis",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tigecycline has a black box warning for increased mortality seen in meta-analyses; it is reserved for situations where alternatives are not suitable.",
+      "images": []
+    }
+  },
+  {
+    "id": "212",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which macrolide is associated with the lowest risk of CYP3A4 drug interactions?",
+    "questionImage": null,
+    "options": [
+      "Erythromycin",
+      "Clarithromycin",
+      "Azithromycin",
+      "Telithromycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Azithromycin (15-membered ring) does not inactivate CYP450 enzymes, unlike erythromycin and clarithromycin.",
+      "images": []
+    }
+  },
+  {
+    "id": "213",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Clindamycin is used in combination with a beta-lactam for toxic shock syndrome primarily to:",
+    "questionImage": null,
+    "options": [
+      "Enhance bactericidal activity",
+      "Inhibit toxin production",
+      "Prevent emergence of resistance",
+      "Treat polymicrobial infection"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clindamycin inhibits bacterial protein synthesis and toxin production, making it useful in streptococcal toxic shock and necrotizing fasciitis.",
+      "images": []
+    }
+  },
+  {
+    "id": "214",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Linezolid is active against vancomycin-resistant Enterococcus faecium. Its mechanism of action is:",
+    "questionImage": null,
+    "options": [
+      "Inhibition of cell wall synthesis",
+      "Binding to 50S ribosomal subunit to prevent initiation complex",
+      "Inhibition of DNA gyrase",
+      "Disruption of cell membrane"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Linezolid binds to the 23S rRNA of the 50S subunit, preventing formation of the initiation complex; it is bacteriostatic against most gram-positive organisms.",
+      "images": []
+    }
+  },
+  {
+    "id": "215",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient on linezolid and a selective serotonin reuptake inhibitor is at risk for:",
+    "questionImage": null,
+    "options": [
+      "Serotonin syndrome",
+      "QT prolongation",
+      "Hemolytic anemia",
+      "Hepatotoxicity"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Linezolid has weak MAOI properties and can cause serotonin syndrome when combined with serotonergic drugs.",
+      "images": []
+    }
+  },
+  {
+    "id": "216",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Lefamulin is a novel pleuromutilin approved for:",
+    "questionImage": null,
+    "options": [
+      "Complicated skin infections",
+      "Community-acquired pneumonia",
+      "Urinary tract infections",
+      "Diabetic foot infections"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Lefamulin is approved for community-acquired bacterial pneumonia based on noninferiority to moxifloxacin.",
+      "images": []
+    }
+  },
+  {
+    "id": "217",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which penicillin is the drug of choice for syphilis?",
+    "questionImage": null,
+    "options": [
+      "Amoxicillin",
+      "Penicillin G (benzathine)",
+      "Nafcillin",
+      "Piperacillin-tazobactam"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Benzathine penicillin G is the treatment of choice for syphilis, with a single 2.4 million-unit IM dose for primary/secondary syphilis.",
+      "images": []
+    }
+  },
+  {
+    "id": "218",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with a history of penicillin anaphylaxis requires a cephalosporin. Which generation has the lowest cross-reactivity?",
+    "questionImage": null,
+    "options": [
+      "First-generation",
+      "Second-generation",
+      "Third-generation",
+      "Fourth-generation"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Cross-reactivity is lower with later-generation cephalosporins; however, caution is still advised. Third- and fourth-generation cephalosporins are generally safer.",
+      "images": []
+    }
+  },
+  {
+    "id": "219",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Cefazolin is the preferred surgical prophylaxis agent for most procedures because:",
+    "questionImage": null,
+    "options": [
+      "It has excellent CNS penetration",
+      "It covers MRSA and Pseudomonas",
+      "It is active against common skin pathogens and has a favorable half-life",
+      "It is the cheapest antibiotic"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cefazolin is active against staphylococci and streptococci, has a half-life allowing re-dosing during surgery, and is well-tolerated.",
+      "images": []
+    }
+  },
+  {
+    "id": "220",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which carbapenem is NOT active against Pseudomonas aeruginosa?",
+    "questionImage": null,
+    "options": [
+      "Imipenem",
+      "Meropenem",
+      "Ertapenem",
+      "Doripenem"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ertapenem lacks appreciable activity against Pseudomonas aeruginosa and Acinetobacter species.",
+      "images": []
+    }
+  },
+  {
+    "id": "221",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Aztreonam is a monobactam active against:",
+    "questionImage": null,
+    "options": [
+      "Gram-positive cocci",
+      "Anaerobes",
+      "Aerobic Gram-negative bacteria",
+      "Methicillin-resistant S. aureus"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Aztreonam is active only against aerobic Gram-negative bacteria, including Pseudomonas, but not Gram-positive or anaerobes.",
+      "images": []
+    }
+  },
+  {
+    "id": "222",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Vancomycin-resistant enterococci (VRE) resistance is primarily due to:",
+    "questionImage": null,
+    "options": [
+      "Efflux pumps",
+      "Modification of D-Ala-D-Ala to D-Ala-D-lactate",
+      "β-lactamase production",
+      "Altered penicillin-binding proteins"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "VRE alters the peptidoglycan precursor from D-Ala-D-Ala to D-Ala-D-lactate, reducing vancomycin binding affinity.",
+      "images": []
+    }
+  },
+  {
+    "id": "223",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which lipoglycopeptide has a half-life >10 days and can be given as a single dose for skin infections?",
+    "questionImage": null,
+    "options": [
+      "Vancomycin",
+      "Telavancin",
+      "Dalbavancin",
+      "Oritavancin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Dalbavancin has a half-life >10 days and is approved as a single 1500-mg dose for acute bacterial skin and skin structure infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "224",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Daptomycin is not effective for pneumonia because:",
+    "questionImage": null,
+    "options": [
+      "It is inactivated by pulmonary surfactant",
+      "It does not penetrate lung tissue",
+      "It is bacteriostatic",
+      "It causes severe myopathy"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Daptomycin is inactivated by pulmonary surfactant, so it should not be used for pneumonia; it is effective for skin and bloodstream infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "225",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Fosfomycin trometamol is approved in the USA for:",
+    "questionImage": null,
+    "options": [
+      "Pyelonephritis",
+      "Uncomplicated urinary tract infection in women",
+      "Prostatitis",
+      "Diabetic foot infection"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fosfomycin trometamol is approved as a single 3-g dose for uncomplicated lower UTI in women.",
+      "images": []
+    }
+  },
+  {
+    "id": "226",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following penicillins is stable to staphylococcal β-lactamase?",
+    "questionImage": null,
+    "options": [
+      "Ampicillin",
+      "Penicillin G",
+      "Nafcillin",
+      "Piperacillin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Nafcillin and isoxazolyl penicillins are resistant to staphylococcal β-lactamase; they are used for MSSA infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "227",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with meningitis caused by penicillin-resistant pneumococcus should receive:",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone + vancomycin",
+      "Ampicillin + gentamicin",
+      "Meropenem alone",
+      "Vancomycin + rifampin"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "For penicillin-resistant pneumococcal meningitis, vancomycin plus a third-generation cephalosporin (ceftriaxone) is recommended.",
+      "images": []
+    }
+  },
+  {
+    "id": "228",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which cephalosporin has activity against methicillin-resistant Staphylococcus aureus (MRSA)?",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone",
+      "Cefepime",
+      "Ceftaroline",
+      "Cefoxitin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ceftaroline is a cephalosporin with activity against MRSA due to its affinity for PBP2a.",
+      "images": []
+    }
+  },
+  {
+    "id": "229",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Ceftazidime-avibactam is active against which type of carbapenemase?",
+    "questionImage": null,
+    "options": [
+      "Metallo-β-lactamase (NDM)",
+      "KPC",
+      "AmpC only",
+      "OXA-48"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ceftazidime-avibactam is active against KPC and some OXA enzymes, but not metallo-β-lactamases like NDM.",
+      "images": []
+    }
+  },
+  {
+    "id": "230",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with intra-abdominal infection and ESBL-producing E. coli should be treated with:",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone",
+      "Ciprofloxacin",
+      "Ertapenem",
+      "Piperacillin-tazobactam"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Carbapenems (ertapenem, meropenem, etc.) are the treatment of choice for serious ESBL-producing Enterobacterales infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "231",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which drug is the most appropriate for surgical prophylaxis in colorectal surgery?",
+    "questionImage": null,
+    "options": [
+      "Cefazolin",
+      "Cefoxitin",
+      "Vancomycin",
+      "Ampicillin-sulbactam"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cefoxitin or cefotetan provides coverage against enteric Gram-negative rods and anaerobes, suitable for colorectal prophylaxis.",
+      "images": []
+    }
+  },
+  {
+    "id": "232",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Empiric therapy for febrile neutropenia often includes cefepime. Why?",
+    "questionImage": null,
+    "options": [
+      "Broad Gram-positive coverage",
+      "Anti-pseudomonal and broad Gram-negative activity",
+      "Excellent anaerobic coverage",
+      "Low risk of C. difficile"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cefepime has broad Gram-negative activity including Pseudomonas, and is commonly used empirically in febrile neutropenia.",
+      "images": []
+    }
+  },
+  {
+    "id": "233",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Aminoglycosides are not effective against anaerobes because:",
+    "questionImage": null,
+    "options": [
+      "They bind to 50S ribosomes",
+      "They require oxygen-dependent active transport",
+      "Anaerobes lack cell walls",
+      "They are inactivated by anaerobic enzymes"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Aminoglycoside uptake is oxygen-dependent, so they are ineffective against anaerobes.",
+      "images": []
+    }
+  },
+  {
+    "id": "234",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which drug should be avoided in pregnancy due to deposition in fetal teeth and bone?",
+    "questionImage": null,
+    "options": [
+      "Azithromycin",
+      "Amoxicillin",
+      "Doxycycline",
+      "Metronidazole"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Tetracyclines bind to calcium in developing teeth and bones, causing discoloration and enamel dysplasia; contraindicated in pregnancy and children <8 years.",
+      "images": []
+    }
+  },
+  {
+    "id": "235",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient on erythromycin develops cholestatic hepatitis. Which formulation is classically associated?",
+    "questionImage": null,
+    "options": [
+      "Erythromycin base",
+      "Erythromycin stearate",
+      "Erythromycin estolate",
+      "Erythromycin ethylsuccinate"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Erythromycin estolate is associated with acute cholestatic hepatitis, likely a hypersensitivity reaction.",
+      "images": []
+    }
+  },
+  {
+    "id": "236",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Clindamycin is a risk factor for Clostridioides difficile infection. Its mechanism is:",
+    "questionImage": null,
+    "options": [
+      "Disruption of normal flora and inhibition of protein synthesis",
+      "Direct toxin production",
+      "Inhibition of cell wall synthesis",
+      "Alteration of gut motility"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Clindamycin suppresses normal flora, allowing C. difficile overgrowth; it also inhibits protein synthesis, but the main risk is alteration of flora.",
+      "images": []
+    }
+  },
+  {
+    "id": "237",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Tedizolid differs from linezolid in that it:",
+    "questionImage": null,
+    "options": [
+      "Has a longer half-life and once-daily dosing",
+      "Is active against Gram-negative bacteria",
+      "Does not cause myelosuppression",
+      "Is only available intravenously"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tedizolid has a longer half-life (~12 hours) allowing once-daily dosing and may have less myelosuppression.",
+      "images": []
+    }
+  },
+  {
+    "id": "238",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Fidaxomicin is a macrolide used for:",
+    "questionImage": null,
+    "options": [
+      "Community-acquired pneumonia",
+      "C. difficile infection",
+      "Skin infections",
+      "Mycobacterial infections"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fidaxomicin is a minimally absorbed macrolide approved for treatment of Clostridioides difficile infection, with lower relapse rates.",
+      "images": []
+    }
+  },
+  {
+    "id": "239",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which β-lactamase inhibitor is a non-β-lactam and inhibits KPC and AmpC but not metallo-β-lactamases?",
+    "questionImage": null,
+    "options": [
+      "Clavulanic acid",
+      "Sulbactam",
+      "Tazobactam",
+      "Avibactam"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Avibactam is a non-β-lactam β-lactamase inhibitor that inhibits class A and C (and some D) enzymes, including KPC.",
+      "images": []
+    }
+  },
+  {
+    "id": "240",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which antibiotic is the drug of choice for Listeria monocytogenes meningitis?",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone",
+      "Ampicillin",
+      "Vancomycin",
+      "Meropenem"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ampicillin is the drug of choice for Listeria monocytogenes (plus gentamicin in some cases); cephalosporins are not active.",
+      "images": []
+    }
+  },
+  {
+    "id": "241",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Spectinomycin was used for gonorrhea but is no longer available in the USA. Its mechanism is:",
+    "questionImage": null,
+    "options": [
+      "Cell wall inhibition",
+      "Protein synthesis inhibition",
+      "DNA gyrase inhibition",
+      "Cell membrane disruption"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Spectinomycin is an aminocyclitol that inhibits protein synthesis but is structurally related to aminoglycosides.",
+      "images": []
+    }
+  },
+  {
+    "id": "242",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "In a patient with renal insufficiency, which penicillin does NOT require dose adjustment?",
+    "questionImage": null,
+    "options": [
+      "Penicillin G",
+      "Ampicillin",
+      "Nafcillin",
+      "Piperacillin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Nafcillin is primarily cleared by biliary excretion, so no dose adjustment is needed in renal failure.",
+      "images": []
+    }
+  },
+  {
+    "id": "243",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which cephalosporin has activity against Pseudomonas aeruginosa?",
+    "questionImage": null,
+    "options": [
+      "Cephalexin",
+      "Cefuroxime",
+      "Ceftazidime",
+      "Cefotetan"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ceftazidime is the only third-generation cephalosporin with useful activity against Pseudomonas aeruginosa.",
+      "images": []
+    }
+  },
+  {
+    "id": "244",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient on vancomycin develops 'red man syndrome'. This is due to:",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity",
+      "Histamine release",
+      "Ototoxicity",
+      "Thrombocytopenia"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Red man syndrome (flushing, hypotension) is caused by histamine release from rapid vancomycin infusion; can be minimized by slow infusion.",
+      "images": []
+    }
+  },
+  {
+    "id": "245",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "The target AUC:MIC ratio for vancomycin against MRSA is:",
+    "questionImage": null,
+    "options": [
+      "≥200",
+      "≥400",
+      "≥600",
+      "≥800"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "An AUC:MIC ratio of ≥400 mg·h/L is the pharmacodynamic target for vancomycin efficacy against MRSA.",
+      "images": []
+    }
+  },
+  {
+    "id": "246",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which aminoglycoside is most active against Pseudomonas aeruginosa?",
+    "questionImage": null,
+    "options": [
+      "Gentamicin",
+      "Tobramycin",
+      "Amikacin",
+      "Netilmicin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tobramycin is slightly more active than gentamicin against Pseudomonas aeruginosa, though both are used.",
+      "images": []
+    }
+  },
+  {
+    "id": "247",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following is an oral carbapenem under development?",
+    "questionImage": null,
+    "options": [
+      "Doripenem",
+      "Ertapenem",
+      "Tebipenem pivoxil",
+      "Meropenem-vaborbactam"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Tebipenem pivoxil is an orally bioavailable carbapenem in clinical trials; not yet approved in the USA.",
+      "images": []
+    }
+  },
+  {
+    "id": "248",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with Mycoplasma pneumoniae pneumonia should be treated with:",
+    "questionImage": null,
+    "options": [
+      "Amoxicillin",
+      "Cephalexin",
+      "Doxycycline or azithromycin",
+      "Vancomycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Mycoplasma lacks a cell wall, so β-lactams are ineffective; macrolides or tetracyclines are the drugs of choice.",
+      "images": []
+    }
+  },
+  {
+    "id": "249",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Chloramphenicol is rarely used due to the risk of:",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity",
+      "Ototoxicity",
+      "Aplastic anemia",
+      "Hepatotoxicity"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Chloramphenicol can cause dose-related reversible bone marrow suppression and idiosyncratic aplastic anemia (1 in 24,000-40,000 courses).",
+      "images": []
+    }
+  },
+  {
+    "id": "250",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which drug is used for prophylaxis of Pneumocystis jirovecii pneumonia in HIV patients with CD4 <100?",
+    "questionImage": null,
+    "options": [
+      "Dapsone",
+      "Trimethoprim-sulfamethoxazole",
+      "Pentamidine",
+      "Atovaquone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Trimethoprim-sulfamethoxazole is the first-line prophylaxis for PJP; alternatives include dapsone and atovaquone.",
+      "images": []
+    }
+  },
+  {
+    "id": "251",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Acyclovir requires three phosphorylation steps for activation. The first phosphorylation is catalyzed by which enzyme?",
+    "questionImage": null,
+    "options": [
+      "Host cell thymidine kinase",
+      "Viral thymidine kinase",
+      "Host cell DNA polymerase",
+      "Viral DNA polymerase"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Acyclovir is first phosphorylated by viral thymidine kinase to the monophosphate, then by host cell enzymes to the triphosphate active form.",
+      "images": []
+    }
+  },
+  {
+    "id": "252",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following antiherpes agents has the highest oral bioavailability and achieves serum levels approaching those of intravenous acyclovir?",
+    "questionImage": null,
+    "options": [
+      "Acyclovir",
+      "Famciclovir",
+      "Valacyclovir",
+      "Penciclovir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Valacyclovir (L-valyl ester of acyclovir) has 54–70% oral bioavailability and achieves serum levels 3–5× higher than oral acyclovir.",
+      "images": []
+    }
+  },
+  {
+    "id": "253",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Ganciclovir is activated by phosphorylation catalyzed by which viral enzyme in cytomegalovirus (CMV)-infected cells?",
+    "questionImage": null,
+    "options": [
+      "UL97 protein kinase",
+      "UL54 DNA polymerase",
+      "Thymidine kinase",
+      "UL56 terminase"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ganciclovir is initially phosphorylated by the CMV UL97 protein kinase, then by host kinases to the triphosphate active form.",
+      "images": []
+    }
+  },
+  {
+    "id": "254",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Foscarnet inhibits viral DNA polymerase by which mechanism?",
+    "questionImage": null,
+    "options": [
+      "Competitive inhibition of the nucleotide binding site",
+      "Chain termination after incorporation into DNA",
+      "Blocking the pyrophosphate binding site",
+      "Inhibition of viral thymidine kinase"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Foscarnet is a pyrophosphate analog that directly blocks the pyrophosphate binding site of viral DNA polymerase without requiring phosphorylation.",
+      "images": []
+    }
+  },
+  {
+    "id": "255",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which antiretroviral class binds directly to HIV-1 reverse transcriptase at a site distinct from the NRTI binding site and does not require phosphorylation?",
+    "questionImage": null,
+    "options": [
+      "NRTIs",
+      "NNRTIs",
+      "Protease inhibitors",
+      "Integrase inhibitors"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "NNRTIs bind allosterically to HIV-1 reverse transcriptase, do not require phosphorylation, and are not competitive with nucleoside triphosphates.",
+      "images": []
+    }
+  },
+  {
+    "id": "256",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "The M184V mutation in HIV-1 reverse transcriptase confers resistance to which NRTIs?",
+    "questionImage": null,
+    "options": [
+      "Lamivudine and emtricitabine",
+      "Tenofovir and zidovudine",
+      "Abacavir and didanosine",
+      "Stavudine and zalcitabine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The M184V mutation reduces susceptibility to lamivudine and emtricitabine, but may restore phenotypic susceptibility to tenofovir and zidovudine.",
+      "images": []
+    }
+  },
+  {
+    "id": "257",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which protease inhibitor is associated with indirect hyperbilirubinemia and overt jaundice due to inhibition of UGT1A1?",
+    "questionImage": null,
+    "options": [
+      "Darunavir",
+      "Atazanavir",
+      "Lopinavir",
+      "Ritonavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Atazanavir inhibits UGT1A1, causing unconjugated hyperbilirubinemia and jaundice in ~10% of patients, which is reversible on discontinuation.",
+      "images": []
+    }
+  },
+  {
+    "id": "258",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which integrase strand transfer inhibitor (INSTI) is available in a fixed-dose combination with tenofovir alafenamide and emtricitabine as a single daily pill?",
+    "questionImage": null,
+    "options": [
+      "Raltegravir",
+      "Dolutegravir",
+      "Bictegravir",
+      "Elvitegravir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Bictegravir is co-formulated with tenofovir alafenamide and emtricitabine (Biktarvy) as a once-daily single-tablet regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "259",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a first-in-class capsid inhibitor for multidrug-resistant HIV infection, administered subcutaneously every 6 months after oral initiation?",
+    "questionImage": null,
+    "options": [
+      "Lenacapavir",
+      "Fostemsavir",
+      "Ibalizumab",
+      "Maraviroc"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Lenacapavir is a long-acting capsid inhibitor; treatment is initiated orally then continued subcutaneously every 6 months.",
+      "images": []
+    }
+  },
+  {
+    "id": "260",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Baloxavir marboxil, a selective inhibitor of influenza cap-dependent endonuclease, is active against which influenza types?",
+    "questionImage": null,
+    "options": [
+      "Influenza A only",
+      "Influenza B only",
+      "Both influenza A and B",
+      "Influenza A, B, and C"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Baloxavir inhibits cap-dependent endonuclease and is active against both influenza A and B viruses, acting earlier in the replication cycle than neuraminidase inhibitors.",
+      "images": []
+    }
+  },
+  {
+    "id": "261",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which direct-acting antiviral (DAA) for hepatitis C is a nucleotide analog NS5B polymerase inhibitor that causes chain termination after incorporation into HCV RNA?",
+    "questionImage": null,
+    "options": [
+      "Ledipasvir",
+      "Sofosbuvir",
+      "Velpatasvir",
+      "Glecaprevir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Sofosbuvir is a nucleotide prodrug that is converted to a triphosphate which incorporates into HCV RNA and causes chain termination.",
+      "images": []
+    }
+  },
+  {
+    "id": "262",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which antiviral agent is indicated for CMV prophylaxis in adult CMV-seropositive recipients of allogeneic hematopoietic stem cell transplant and inhibits the CMV DNA terminase subunit pUL56?",
+    "questionImage": null,
+    "options": [
+      "Valganciclovir",
+      "Foscarnet",
+      "Letermovir",
+      "Maribavir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Letermovir inhibits the CMV terminase subunit pUL56 required for DNA packaging and processing, with no equivalent human target enzyme.",
+      "images": []
+    }
+  },
+  {
+    "id": "263",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Nirmatrelvir, a protease inhibitor for COVID-19, is co-administered with low-dose ritonavir for which primary purpose?",
+    "questionImage": null,
+    "options": [
+      "To add antiviral activity",
+      "To increase nirmatrelvir concentrations by CYP3A4 inhibition",
+      "To reduce gastrointestinal side effects",
+      "To prevent renal excretion"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ritonavir is a strong CYP3A4 inhibitor that boosts nirmatrelvir concentrations to therapeutic range and prolongs its half-life to ~6 hours.",
+      "images": []
+    }
+  },
+  {
+    "id": "264",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which influenza antiviral is a neuraminidase inhibitor administered as a single intravenous dose for acute uncomplicated influenza in adults?",
+    "questionImage": null,
+    "options": [
+      "Oseltamivir",
+      "Zanamivir",
+      "Peramivir",
+      "Baloxavir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Peramivir is a cyclopentane neuraminidase inhibitor approved as a single 600-mg IV dose for acute uncomplicated influenza in adults.",
+      "images": []
+    }
+  },
+  {
+    "id": "265",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Molnupiravir, an oral prodrug for COVID-19, exerts its antiviral effect through which mechanism?",
+    "questionImage": null,
+    "options": [
+      "Protease inhibition",
+      "RNA-dependent RNA polymerase inhibition with lethal mutagenesis",
+      "Spike protein binding",
+      "Capsid inhibition"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Molnupiravir (prodrug of NHC) is incorporated by viral RNA-dependent RNA polymerase, causing lethal mutagenesis of SARS-CoV-2.",
+      "images": []
+    }
+  },
+  {
+    "id": "266",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Isoniazid inhibits synthesis of which essential component of the mycobacterial cell wall?",
+    "questionImage": null,
+    "options": [
+      "Arabinogalactan",
+      "Mycolic acids",
+      "Peptidoglycan",
+      "Lipopolysaccharide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Isoniazid is a prodrug activated by KatG; the active form blocks mycolic acid synthesis by forming a covalent complex with AcpM and KasA.",
+      "images": []
+    }
+  },
+  {
+    "id": "267",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Rifampin binds to which bacterial target to inhibit RNA synthesis?",
+    "questionImage": null,
+    "options": [
+      "DNA polymerase",
+      "RNA polymerase β subunit",
+      "30S ribosomal subunit",
+      "50S ribosomal subunit"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rifampin binds to the β subunit of bacterial DNA-dependent RNA polymerase, blocking RNA synthesis. Human RNA polymerase is not affected.",
+      "images": []
+    }
+  },
+  {
+    "id": "268",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which first-line antituberculous drug is a \"sterilizing\" agent active against intracellular mycobacteria in acidic lysosomes and allows treatment duration to be shortened to 6 months?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Pyrazinamide is converted to pyrazinoic acid in acidic macrophage lysosomes, disrupting mycobacterial cell membrane function and serving as a sterilizing agent.",
+      "images": []
+    }
+  },
+  {
+    "id": "269",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Ethambutol inhibits mycobacterial arabinosyl transferases, which are involved in the synthesis of which cell wall component?",
+    "questionImage": null,
+    "options": [
+      "Mycolic acids",
+      "Arabinogalactan",
+      "Peptidoglycan",
+      "Lipoarabinomannan"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ethambutol inhibits arabinosyl transferases (encoded by embCAB) that polymerize arabinoglycan, an essential component of the mycobacterial cell wall.",
+      "images": []
+    }
+  },
+  {
+    "id": "270",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "In the traditional 6-month regimen for drug-susceptible tuberculosis, which two drugs are continued during the continuation phase after the initial 2-month intensive phase?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid and rifampin",
+      "Isoniazid and pyrazinamide",
+      "Rifampin and ethambutol",
+      "Pyrazinamide and ethambutol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The continuation phase consists of isoniazid and rifampin for 4 additional months (total 6 months) in the standard regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "271",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which adverse effect of isoniazid is due to relative pyridoxine deficiency and is more common in slow acetylators, alcohol use disorder, and malnourished patients?",
+    "questionImage": null,
+    "options": [
+      "Hepatitis",
+      "Peripheral neuropathy",
+      "Hemolytic anemia",
+      "Systemic lupus erythematosus"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Isoniazid promotes pyridoxine excretion, leading to peripheral neuropathy; it is more common in slow acetylators and patients with malnutrition or alcohol use.",
+      "images": []
+    }
+  },
+  {
+    "id": "272",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Rifampin is a potent inducer of cytochrome P450 enzymes. Coadministration with rifampin would be expected to decrease serum levels of which drug?",
+    "questionImage": null,
+    "options": [
+      "Phenytoin",
+      "Isoniazid",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Rifampin induces CYP isoforms (1A2, 2C9, 2C19, 2D6, 3A4), increasing elimination of many drugs including phenytoin, methadone, and oral contraceptives.",
+      "images": []
+    }
+  },
+  {
+    "id": "273",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which adverse effect of streptomycin is dose-related and may be permanent, with increased risk in elderly patients?",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity",
+      "Ototoxicity (vertigo and hearing loss)",
+      "Hepatotoxicity",
+      "Peripheral neuropathy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Streptomycin is ototoxic, causing vertigo and hearing loss which may be permanent, especially with high doses and in elderly patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "274",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Bedaquiline, a diarylquinoline, inhibits which mycobacterial target and is used for multidrug-resistant tuberculosis?",
+    "questionImage": null,
+    "options": [
+      "DNA gyrase",
+      "RNA polymerase",
+      "ATP synthase",
+      "Mycolic acid synthase"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Bedaquiline inhibits mycobacterial ATP synthase. It has a black-box warning for QTc prolongation and is used in MDR-TB regimens.",
+      "images": []
+    }
+  },
+  {
+    "id": "275",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Pretomanid, a nitroimidazole, is recommended in combination with bedaquiline and linezolid for which type of tuberculosis?",
+    "questionImage": null,
+    "options": [
+      "Drug-susceptible pulmonary TB",
+      "Multidrug-resistant (MDR) pulmonary TB",
+      "Latent TB infection",
+      "Extrapulmonary TB"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Pretomanid is approved for extensively drug-resistant, pre-extensively drug-resistant, or treatment-nonresponsive MDR pulmonary TB in the BPaL regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "276",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which regimen is recommended for the treatment of disseminated Mycobacterium avium complex (MAC) infection in patients with AIDS?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid, rifampin, pyrazinamide",
+      "Azithromycin or clarithromycin plus ethambutol ± rifabutin",
+      "Dapsone, rifampin, clofazimine",
+      "Amikacin, capreomycin, ethionamide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The standard regimen for disseminated MAC is a macrolide (azithromycin or clarithromycin) plus ethambutol, with rifabutin as a third agent in some cases.",
+      "images": []
+    }
+  },
+  {
+    "id": "277",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Dapsone, used in the treatment of leprosy, inhibits folate synthesis and is structurally related to which class of antibiotics?",
+    "questionImage": null,
+    "options": [
+      "Sulfonamides",
+      "Tetracyclines",
+      "Macrolides",
+      "Aminoglycosides"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Dapsone (diaminodiphenylsulfone) is a sulfone that inhibits folate synthesis and is structurally related to sulfonamides.",
+      "images": []
+    }
+  },
+  {
+    "id": "278",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "In the treatment of lepromatous leprosy, which three drugs are recommended for initial therapy to prevent emergence of resistance?",
+    "questionImage": null,
+    "options": [
+      "Dapsone, rifampin, clofazimine",
+      "Isoniazid, rifampin, pyrazinamide",
+      "Dapsone, ethambutol, streptomycin",
+      "Clofazimine, ethionamide, cycloserine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "For lepromatous leprosy, combination therapy with dapsone, rifampin, and clofazimine is recommended to prevent resistance emergence.",
+      "images": []
+    }
+  },
+  {
+    "id": "279",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Clofazimine, a phenazine dye used in leprosy, has which prominent adverse effect that can limit its use?",
+    "questionImage": null,
+    "options": [
+      "Hepatotoxicity",
+      "Discoloration of skin and conjunctivae",
+      "Peripheral neuropathy",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clofazimine accumulates in skin and reticuloendothelial tissues, causing reddish-black discoloration of the skin and conjunctivae.",
+      "images": []
+    }
+  },
+  {
+    "id": "280",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Linezolid, used for multidrug-resistant tuberculosis, is associated with which serious adverse effects with prolonged use?",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity and ototoxicity",
+      "Hepatotoxicity and hyperuricemia",
+      "Bone marrow suppression and irreversible neuropathy",
+      "Cardiac arrhythmias and hyperglycemia"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Linezolid can cause bone marrow suppression and irreversible peripheral and optic neuropathy with prolonged courses, especially at higher doses.",
+      "images": []
+    }
+  },
+  {
+    "id": "281",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Rifabutin is often used in place of rifampin for tuberculosis in HIV-infected patients because it is:",
+    "questionImage": null,
+    "options": [
+      "More potent against M. tuberculosis",
+      "A less potent CYP450 inducer",
+      "Active against rifampin-resistant strains",
+      "Less hepatotoxic"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rifabutin is a less potent CYP450 inducer than rifampin, making it preferred for patients on antiretroviral therapy with protease inhibitors or integrase inhibitors.",
+      "images": []
+    }
+  },
+  {
+    "id": "282",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "The 4-month regimen for drug-susceptible pulmonary tuberculosis consists of which drugs?",
+    "questionImage": null,
+    "options": [
+      "Rifampin, isoniazid, pyrazinamide, ethambutol",
+      "Rifapentine, moxifloxacin, isoniazid, pyrazinamide",
+      "Rifabutin, levofloxacin, isoniazid, ethambutol",
+      "Bedaquiline, pretomanid, linezolid, moxifloxacin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The 4-month regimen (for patients ≥12 years, ≥40 kg) uses rifapentine, moxifloxacin, isoniazid, and pyrazinamide, and was noninferior to the standard 6-month regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "283",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which antituberculous drug is associated with dose-related retrobulbar neuritis and red-green color blindness?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Ethambutol",
+      "Pyrazinamide"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ethambutol causes retrobulbar neuritis with visual acuity loss and red-green color blindness; risk increases with dose >25 mg/kg/day and prolonged use.",
+      "images": []
+    }
+  },
+  {
+    "id": "284",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Resistance to isoniazid in Mycobacterium tuberculosis is most commonly due to mutations in which gene?",
+    "questionImage": null,
+    "options": [
+      "rpoB",
+      "katG",
+      "inhA",
+      "pncA"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Mutations or deletions in katG (encoding catalase-peroxidase) cause high-level isoniazid resistance by preventing activation of the prodrug.",
+      "images": []
+    }
+  },
+  {
+    "id": "285",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a first-line antituberculous drug that is active only at acidic pH and is taken up by macrophages to act against intracellular mycobacteria?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Pyrazinamide is inactive at neutral pH but active at acidic pH (5.5), and is taken up by macrophages to act against mycobacteria in lysosomes.",
+      "images": []
+    }
+  },
+  {
+    "id": "286",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which COVID-19 antiviral agent is an adenosine nucleotide prodrug that causes chain termination of SARS-CoV-2 RNA and is administered intravenously?",
+    "questionImage": null,
+    "options": [
+      "Nirmatrelvir",
+      "Molnupiravir",
+      "Remdesivir",
+      "Baricitinib"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Remdesivir is an IV-administered adenosine nucleotide prodrug that is phosphorylated to the triphosphate and causes chain termination by the SARS-CoV-2 RNA-dependent RNA polymerase.",
+      "images": []
+    }
+  },
+  {
+    "id": "287",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Tecovirimat (TPOXX), used for monkeypox, inhibits which viral target to block release of virus particles from infected cells?",
+    "questionImage": null,
+    "options": [
+      "Viral DNA polymerase",
+      "Viral p37",
+      "Viral thymidine kinase",
+      "Viral RNA polymerase"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tecovirimat inhibits viral p37, blocking the egress of virus particles from infected cells; it is available under Expanded Access for monkeypox.",
+      "images": []
+    }
+  },
+  {
+    "id": "288",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following anti-HIV agents is a monoclonal antibody that binds the CD4 receptor and blocks HIV entry, used for multidrug-resistant HIV?",
+    "questionImage": null,
+    "options": [
+      "Maraviroc",
+      "Fostemsavir",
+      "Ibalizumab",
+      "Enfuvirtide"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ibalizumab is a monoclonal antibody that binds CD4, blocking HIV entry; it is active against both CCR5- and CXCR4-tropic HIV isolates.",
+      "images": []
+    }
+  },
+  {
+    "id": "289",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Ribavirin, used in combination with direct-acting antivirals for hepatitis C, is a guanosine analog that is contraindicated in pregnancy due to which effect?",
+    "questionImage": null,
+    "options": [
+      "Hepatotoxicity",
+      "Hemolytic anemia",
+      "Teratogenicity and embryotoxicity",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ribavirin is teratogenic and embryotoxic; both sexual partners must use two forms of contraception during and after treatment (females 9 months, males 6 months).",
+      "images": []
+    }
+  },
+  {
+    "id": "290",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following directly-acting antiviral (DAA) combinations for hepatitis C has pangenotypic activity and is the first approved re-treatment option for patients who failed an NS5A inhibitor?",
+    "questionImage": null,
+    "options": [
+      "Ledipasvir/sofosbuvir",
+      "Elbasvir/grazoprevir",
+      "Sofosbuvir/velpatasvir/voxilaprevir",
+      "Glecaprevir/pibrentasvir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Sofosbuvir/velpatasvir/voxilaprevir (Vosevi) is a pangenotypic regimen approved for re-treatment of patients who failed prior NS5A inhibitor therapy.",
+      "images": []
+    }
+  },
+  {
+    "id": "291",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following drugs is a CCR5 co-receptor antagonist that requires tropism testing before use, as it is only active against CCR5-tropic HIV-1?",
+    "questionImage": null,
+    "options": [
+      "Enfuvirtide",
+      "Maraviroc",
+      "Ibalizumab",
+      "Fostemsavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Maraviroc binds CCR5 and is active only against CCR5-tropic HIV-1; tropism testing is required to rule out CXCR4-tropic or dual-tropic virus.",
+      "images": []
+    }
+  },
+  {
+    "id": "292",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a characteristic adverse effect of tenofovir disoproxil fumarate that is less common with tenofovir alafenamide?",
+    "questionImage": null,
+    "options": [
+      "Weight gain",
+      "Renal toxicity and bone mineral density loss",
+      "Hyperlipidemia",
+      "Peripheral neuropathy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tenofovir disoproxil is associated with renal toxicity and bone mineral density loss; tenofovir alafenamide has less renal and bone toxicity but may cause more weight gain.",
+      "images": []
+    }
+  },
+  {
+    "id": "293",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a first-generation NNRTI that is no longer recommended as first-line therapy due to central nervous system side effects and potential fetal neural tube defects?",
+    "questionImage": null,
+    "options": [
+      "Rilpivirine",
+      "Etravirine",
+      "Efavirenz",
+      "Doravirine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Efavirenz is associated with CNS side effects and had concern for fetal neural tube defects in animal studies, though human meta-analyses have not confirmed this.",
+      "images": []
+    }
+  },
+  {
+    "id": "294",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Resistance to rifampin in Mycobacterium tuberculosis is due to point mutations in which gene?",
+    "questionImage": null,
+    "options": [
+      "katG",
+      "rpoB",
+      "pncA",
+      "embB"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rifampin resistance results from point mutations in rpoB, which encodes the β subunit of RNA polymerase, reducing drug binding affinity.",
+      "images": []
+    }
+  },
+  {
+    "id": "295",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a contraindication to the use of dapsone in a patient with glucose-6-phosphate dehydrogenase (G6PD) deficiency?",
+    "questionImage": null,
+    "options": [
+      "Hepatotoxicity",
+      "Hemolysis and methemoglobinemia",
+      "Peripheral neuropathy",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Dapsone causes hemolysis, which is more severe in G6PD-deficient patients, and methemoglobinemia; dose adjustment or avoidance may be necessary.",
+      "images": []
+    }
+  },
+  {
+    "id": "296",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following antiviral agents for herpes is a helicase-primase inhibitor under development for HSV infection?",
+    "questionImage": null,
+    "options": [
+      "Pritelivir",
+      "Amenamevir",
+      "Brivudine",
+      "Docosanol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Pritelivir is a helicase-primase inhibitor under development for HSV infection; amenamevir is being studied for VZV infection.",
+      "images": []
+    }
+  },
+  {
+    "id": "297",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a sulfonamide-containing protease inhibitor that should be used with caution in patients with a history of sulfa allergy?",
+    "questionImage": null,
+    "options": [
+      "Atazanavir",
+      "Darunavir",
+      "Lopinavir",
+      "Ritonavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Darunavir contains a sulfonamide moiety and may cause hypersensitivity reactions, particularly in patients with sulfa allergy.",
+      "images": []
+    }
+  },
+  {
+    "id": "298",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following anti-influenza agents is a neuraminidase inhibitor that should be avoided in patients with underlying airway disease due to risk of bronchospasm?",
+    "questionImage": null,
+    "options": [
+      "Oseltamivir",
+      "Zanamivir",
+      "Peramivir",
+      "Baloxavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Inhaled zanamivir can cause bronchospasm and is contraindicated in patients with underlying airway disease such as asthma or COPD.",
+      "images": []
+    }
+  },
+  {
+    "id": "299",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following agents is a humanized monoclonal antibody directed against the F protein of RSV, used for prophylaxis in high-risk infants?",
+    "questionImage": null,
+    "options": [
+      "Ribavirin",
+      "Palivizumab",
+      "Imiquimod",
+      "Interferon alfa"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Palivizumab is a monoclonal antibody against the RSV F protein, given intramuscularly to high-risk infants for RSV prophylaxis during the season.",
+      "images": []
+    }
+  },
+  {
+    "id": "300",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a first-in-class oral nucleoside reverse transcriptase translocation inhibitor (NRTTI) being investigated for HIV prevention and treatment?",
+    "questionImage": null,
+    "options": [
+      "Islatravir",
+      "Albuvirtide",
+      "Lenacapavir",
+      "Fostemsavir"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Islatravir is a first-in-class oral nucleoside reverse transcriptase translocation inhibitor with multiple mechanisms of action, under investigation for HIV.",
+      "images": []
+    }
   }
 ]
