@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pediatric History &amp; PE · Digital Form</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+    /* ─── NIGHT THEME (default) — BLACK & BLUE ─── */
+    :root,
+    [data-theme="night"] {
+        --bg: #05070c;
+        --bg2: #0b0e16;
+        --bg3: #11151f;
+        --bg4: #171c2a;
+        --border: rgba(120, 170, 255, 0.09);
+        --border2: rgba(120, 170, 255, 0.18);
+        --text: #e7edfb;
+        --text2: #8ea2c6;
+        --text3: #59698a;
+        --accent: #4c8dff;
+        --accent2: #8ab6ff;
+        --accent-dim: rgba(76, 141, 255, 0.14);
+        --danger: #e35b5b;
+        --radius: 6px;
+        --radius-lg: 10px;
+        --shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    }
+    /* ─── DAY THEME — BLACK TEXT & BLUE ACCENTS ─── */
+    [data-theme="day"] {
+        --bg: #eef2f9;
+        --bg2: #ffffff;
+        --bg3: #f3f6fb;
+        --bg4: #e6ecf6;
+        --border: rgba(10, 20, 45, 0.08);
+        --border2: rgba(10, 20, 45, 0.16);
+        --text: #0a0e1a;
+        --text2: #37455e;
+        --text3: #64738f;
+        --accent: #1d4ed8;
+        --accent2: #2f5fdc;
+        --accent-dim: rgba(29, 78, 216, 0.09);
+        --danger: #c0392b;
+        --shadow: 0 8px 30px rgba(20, 30, 60, 0.14);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Source Serif 4', Georgia, serif;
+        font-size: 14.5px;
+        line-height: 1.7;
+        min-height: 100vh;
+        padding: 0 20px 60px;
+        transition: background 0.25s, color 0.25s;
+    }
+    body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0.35;
+    }
+    [data-theme="day"] body::before { opacity: 0.15; }
+    .wrapper { max-width: 1200px; margin: 0 auto; position: relative; z-index: 1; }
+
+    /* ─── HEADER ─── */
+    .site-header {
+        border-bottom: 1px solid var(--border2);
+        padding: 32px 0 20px;
+        margin-bottom: 28px;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .site-header::after {
+        content: ''; position: absolute; bottom: -1px; left: 0;
+        width: 80px; height: 2px; background: var(--accent);
+    }
+    .header-eyebrow {
+        font-family: 'JetBrains Mono', monospace; font-size: 10px;
+        letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent);
+        margin-bottom: 4px;
+    }
+    .header-title {
+        font-family: 'Playfair Display', serif; font-size: clamp(24px, 3.6vw, 38px);
+        font-weight: 700; line-height: 1.1; color: var(--text);
+    }
+    .header-title em { font-style: italic; color: var(--accent2); }
+    .header-sub { font-size: 13px; color: var(--text2); font-style: italic; }
+    .header-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+
+    /* ─── BUTTONS ─── */
+    .btn {
+        padding: 8px 18px; border-radius: var(--radius); border: 1px solid var(--border2);
+        background: transparent; color: var(--text2); font-family: 'JetBrains Mono', monospace;
+        font-size: 11px; letter-spacing: 0.08em; cursor: pointer; transition: all 0.18s; white-space: nowrap;
+    }
+    .btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+    .btn.primary { background: var(--accent-dim); border-color: var(--accent); color: var(--accent2); }
+    .btn.primary:hover { background: rgba(76, 141, 255, 0.28); }
+    .btn.blue { background: var(--accent); border-color: var(--accent); color: #05070c; font-weight: 600; }
+    .btn.blue:hover { background: var(--accent2); border-color: var(--accent2); }
+    .btn.danger:hover { border-color: var(--danger); color: var(--danger); background: rgba(227, 91, 91, 0.12); }
+    .btn.small { padding: 3px 10px; font-size: 9px; }
+    .btn.theme-toggle { display: flex; align-items: center; gap: 6px; }
+
+    /* ─── FORM SECTIONS ─── */
+    .form-section {
+        background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius-lg);
+        padding: 20px 24px 24px; margin-bottom: 20px; position: relative;
+    }
+    .form-section-title {
+        font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; color: var(--accent2);
+        margin-bottom: 14px; padding-bottom: 6px; border-bottom: 1px solid var(--border);
+        display: flex; align-items: center; gap: 10px;
+    }
+    .form-section-title .badge {
+        font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase;
+        background: var(--accent-dim); color: var(--accent); padding: 2px 10px; border-radius: 3px; font-weight: 400;
+    }
+    .howto {
+        margin-top: 12px; padding: 10px 14px; background: var(--bg3); border-left: 3px solid var(--accent);
+        border-radius: var(--radius); font-size: 12.5px; color: var(--text2); display: flex; align-items: flex-start; gap: 10px;
+    }
+    .howto .icon { font-size: 18px; line-height: 1; color: var(--accent); flex-shrink: 0; margin-top: 1px; }
+    .howto strong { color: var(--accent2); font-weight: 600; }
+
+    /* ─── FORM ROWS ─── */
+    .form-row { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-bottom: 10px; align-items: center; }
+    .form-row.label-top { align-items: flex-start; }
+    .form-group { display: flex; flex-direction: column; flex: 1 0 180px; min-width: 140px; position: relative; }
+    .form-group.full { flex: 1 0 100%; }
+    .form-group.half { flex: 1 0 calc(50% - 12px); min-width: 180px; }
+    .form-group.third { flex: 1 0 calc(33.33% - 14px); min-width: 140px; }
+    .form-group.quarter { flex: 1 0 calc(25% - 15px); min-width: 120px; }
+    .form-group label {
+        font-family: 'JetBrains Mono', monospace; font-size: 9.5px; letter-spacing: 0.12em;
+        text-transform: uppercase; color: var(--text3); margin-bottom: 2px;
+    }
+    .form-group .hint { font-size: 10px; color: var(--text3); font-style: italic; margin-top: 1px; }
+    input, select, textarea {
+        background: var(--bg3); border: 1px solid var(--border2); border-radius: var(--radius); color: var(--text);
+        font-family: 'Source Serif 4', Georgia, serif; font-size: 13.5px; padding: 7px 10px;
+        transition: border-color 0.2s; width: 100%; outline: none;
+    }
+    input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+    textarea { resize: vertical; min-height: 44px; font-size: 13px; line-height: 1.5; }
+    input[type="number"] { width: 90px; flex: 0 0 auto; }
+    .inline-group { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+    .inline-group .form-group { flex: 0 1 auto; min-width: 70px; }
+
+    /* ─── ICD SEARCH ─── */
+    .icd-search-wrap { position: relative; }
+    #icdSuggestions {
+        position: absolute; top: 100%; left: 0; right: 0; background: var(--bg3); border: 1px solid var(--border2);
+        border-top: none; border-radius: 0 0 var(--radius) var(--radius); max-height: 200px; overflow-y: auto;
+        z-index: 20; display: none; box-shadow: var(--shadow);
+    }
+    #icdSuggestions .suggestion-item {
+        padding: 6px 12px; cursor: pointer; font-size: 12.5px; border-bottom: 1px solid var(--border);
+        color: var(--text2); transition: background 0.1s; display: flex; justify-content: space-between; gap: 12px;
+    }
+    #icdSuggestions .suggestion-item:hover, #icdSuggestions .suggestion-item.active { background: var(--bg4); color: var(--text); }
+    #icdSuggestions .suggestion-item .code { font-family: 'JetBrains Mono', monospace; color: var(--accent); font-weight: 600; font-size: 11px; }
+    #icdSuggestions .suggestion-item .desc { flex: 1; text-align: left; }
+    #icdSuggestions .suggestion-item .system {
+        font-size: 9px; color: var(--text3); padding: 2px 6px; border-radius: 3px; background: var(--bg2); border: 1px solid var(--border);
+    }
+    .icd-pill {
+        display: inline-flex; align-items: center; gap: 6px; background: var(--bg4); border: 1px solid var(--border2);
+        border-radius: 20px; padding: 3px 10px 3px 14px; font-size: 12px; color: var(--text);
+    }
+    .icd-pill .code { font-family: 'JetBrains Mono', monospace; color: var(--accent); font-weight: 600; }
+    .icd-pill .remove { background: none; border: none; color: var(--text3); cursor: pointer; font-size: 14px; line-height: 1; padding: 0 2px; }
+    .icd-pill .remove:hover { color: var(--danger); }
+
+    /* ─── IMMUNIZATION TABLE ─── */
+    .imm-table-wrap { overflow-x: auto; margin-top: 6px; }
+    .imm-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+    .imm-table th, .imm-table td { border: 1px solid var(--border2); padding: 4px 6px; text-align: center; vertical-align: middle; min-width: 60px; }
+    .imm-table th { background: var(--bg4); font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text3); }
+    .imm-table td input { background: transparent; border: none; text-align: center; font-size: 12px; padding: 2px 4px; width: 100%; min-width: 40px; color: var(--text); }
+    .imm-table td input:focus { background: var(--bg4); border-radius: 3px; }
+    .imm-table .v-label { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--accent); font-weight: 600; text-align: left; }
+
+    /* ─── LAB GRID ─── */
+    .lab-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 4px; }
+    @media (max-width: 700px) { .lab-grid { grid-template-columns: 1fr; } }
+    .lab-box { background: var(--bg3); border-radius: var(--radius); padding: 12px 14px; border: 1px solid var(--border); }
+    .lab-box h4 { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+    .lab-row { display: flex; justify-content: space-between; padding: 2px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+    .lab-row .lab-label { color: var(--text2); font-size: 12px; }
+    .lab-row input { background: transparent; border: none; text-align: right; font-size: 13px; width: 80px; padding: 2px 4px; color: var(--text); }
+    .lab-row input:focus { background: var(--bg4); border-radius: 3px; }
+
+    /* ─── TOAST ─── */
+    .toast {
+        position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: var(--bg3);
+        border: 1px solid var(--border2); border-radius: var(--radius-lg); padding: 14px 28px; color: var(--text);
+        font-size: 13px; z-index: 200; opacity: 0; pointer-events: none; transition: opacity 0.35s ease;
+        max-width: 90%; text-align: center; box-shadow: var(--shadow);
+    }
+    .toast.show { opacity: 1; pointer-events: all; }
+    .toast .toast-close { margin-left: 14px; background: none; border: none; color: var(--text3); cursor: pointer; font-size: 16px; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 700px) {
+        .form-group.half, .form-group.third, .form-group.quarter { flex: 1 0 100%; }
+        .form-row { gap: 8px; }
+        .form-section { padding: 14px 14px 18px; }
+        .site-header { flex-direction: column; align-items: flex-start; }
+        .header-actions { width: 100%; justify-content: flex-start; }
+        .inline-group .form-group { flex: 1 0 100%; }
+        .imm-table { font-size: 10px; }
+        .imm-table th, .imm-table td { padding: 2px 3px; min-width: 40px; }
+        .imm-table td input { font-size: 10px; min-width: 24px; }
+        .lab-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ─── SCROLL TOP ─── */
+    .scroll-top {
+        position: fixed; bottom: 28px; right: 28px; width: 40px; height: 40px; background: var(--bg3);
+        border: 1px solid var(--border2); border-radius: 50%; display: flex; align-items: center; justify-content: center;
+        cursor: pointer; z-index: 50; transition: all 0.2s; color: var(--text3); font-size: 16px; opacity: 0; pointer-events: none;
+    }
+    .scroll-top.visible { opacity: 1; pointer-events: all; }
+    .scroll-top:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+
+    /* ─── UTILITY ─── */
+    .mt-8 { margin-top: 8px; }
+    .mb-4 { margin-bottom: 4px; }
+    .flex-center { display: flex; align-items: center; gap: 10px; }
+    .text-accent { color: var(--accent); }
+    .text-muted { color: var(--text3); font-size: 12px; }
+    .gap-4 { gap: 4px; }
+
+    /* ─── LOADING SPINNER ─── */
+    .spinner {
+        display: inline-block; width: 18px; height: 18px; border: 2px solid var(--border2); border-top: 2px solid var(--accent);
+        border-radius: 50%; animation: spin 0.7s linear infinite; margin-right: 8px; vertical-align: middle;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .btn.loading { pointer-events: none; opacity: 0.7; }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div>
+            <div class="header-eyebrow">Pediatrics · Digital Record</div>
+            <h1 class="header-title"><em>History &amp; Physical</em><br>Examination Form</h1>
+            <p class="header-sub">Problem‑Oriented Medical Record · Pediatric</p>
+        </div>
+        <div class="header-actions">
+            <button class="btn theme-toggle" id="themeToggleBtn" onclick="toggleTheme()">🌙 Night</button>
+            <button class="btn blue" onclick="generateDocx()">⬇ Generate DOCX</button>
+            <button class="btn danger" onclick="resetForm()">Reset</button>
+        </div>
+    </header>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast">
+        <span id="toastMsg">Ready</span>
+        <button class="toast-close" onclick="hideToast()">✕</button>
+    </div>
+
+    <!-- ===== FORM ===== -->
+    <form id="pediaForm" autocomplete="off">
+
+        <!-- ─── PATIENT INFO ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Patient Information <span class="badge">Demographics</span></div>
+            <div class="form-row">
+                <div class="form-group half"><label>Contact No.</label><input id="fContact" placeholder="e.g. 0917-123-4567" /></div>
+                <div class="form-group half"><label>Hospital #</label><input id="fHosp" placeholder="Chart / MR #" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group third"><label>Name</label><input id="fName" placeholder="Full name" /></div>
+                <div class="form-group third"><label>Date Seen</label><input id="fDate" type="date" /></div>
+                <div class="form-group third"><label>Sex</label><input id="fSex" placeholder="Male / Female" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group third"><label>Birthdate</label><input id="fBirthdate" type="date" /></div>
+                <div class="form-group third"><label>Age (auto)</label><input id="fAgeCalc" placeholder="auto" readonly style="background:var(--bg4);cursor:default;" /></div>
+                <div class="form-group third"><label>Birthplace</label><input id="fBirthplace" placeholder="City / Province" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group full"><label>Address</label><input id="fAddress" placeholder="Street, City, Province" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group third"><label>Informant</label><input id="fInformant" placeholder="Mother / Father / Guardian" /></div>
+                <div class="form-group third"><label>Reliability</label><input id="fReliability" placeholder="Good / Fair / Poor" /></div>
+                <div class="form-group third"><label>Consultant</label><input id="fConsultant" placeholder="Attending physician" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group full"><label>Residents / Clerks-in-Charge</label><input id="fResidents" placeholder="Name(s)" /></div>
+            </div>
+            <div class="howto">
+                <span class="icon">⚡</span>
+                <div><strong>Auto‑Calculator:</strong> Enter <strong>Birthdate</strong> → Age fills in automatically as years/months/days relative to today.</div>
+            </div>
+        </section>
+
+        <!-- ─── CC & HPI ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Chief Complaint &amp; HPI <span class="badge">History</span></div>
+            <div class="form-row"><div class="form-group full"><label>Chief Complaint</label><textarea id="fCc" rows="2" placeholder="Primary reason for consult, as verbalized by informant"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>History of Present Illness</label><textarea id="fHpi" rows="6" placeholder="Onset, course, associated symptoms, treatments given, consults done, pertinent negatives"></textarea></div></div>
+            <div class="howto">
+                <span class="icon">📋</span>
+                <div>Document the <strong>chronological narrative</strong> of the illness — onset, progression, associated symptoms, home remedies or medications given, and any prior consults.</div>
+            </div>
+        </section>
+
+        <!-- ─── BIRTH & MATERNAL HISTORY ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Birth &amp; Maternal History <span class="badge">Perinatal</span></div>
+            <div class="form-row">
+                <div class="form-group third"><label>Maternal Age (pregnancy)</label><input id="fMatAge" type="number" placeholder="years" /></div>
+                <div class="form-group third"><label>Gravidity / Parity</label><input id="fGP" placeholder="e.g. G2P2" /></div>
+                <div class="form-group third"><label>Prenatal Check-ups</label><input id="fPnc" placeholder="e.g. monthly, 8 visits" /></div>
+            </div>
+            <div class="form-row"><div class="form-group full"><label>Prenatal Complications</label><textarea id="fPrenatalComp" rows="2" placeholder="Infections, bleeding, hypertension, gestational diabetes, etc."></textarea></div></div>
+            <div class="form-row">
+                <div class="form-group third"><label>AOG at Birth (weeks)</label><input id="fAogBirth" placeholder="e.g. 39w" /></div>
+                <div class="form-group third"><label>Mode of Delivery</label><input id="fModeDelivery" placeholder="NSD / CS / Forceps / Vacuum" /></div>
+                <div class="form-group third"><label>Place / Attended By</label><input id="fPlaceDelivery" placeholder="Hospital / Home; MD / midwife" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group third"><label>Birth Weight</label><input id="fBirthWeight" placeholder="g or kg" /></div>
+                <div class="form-group third"><label>Birth Length</label><input id="fBirthLength" placeholder="cm" /></div>
+                <div class="form-group third"><label>APGAR (1min / 5min)</label><input id="fApgar" placeholder="e.g. 8/9" /></div>
+            </div>
+            <div class="form-row"><div class="form-group full"><label>Neonatal Complications</label><textarea id="fNeoComp" rows="2" placeholder="Jaundice, cyanosis, respiratory distress, NICU admission, infections"></textarea></div></div>
+            <div class="howto">
+                <span class="icon">🍼</span>
+                <div>Cover <strong>prenatal, natal, and neonatal</strong> events — maternal health during pregnancy, delivery details, and immediate newborn course.</div>
+            </div>
+        </section>
+
+        <!-- ─── FEEDING HISTORY ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Feeding History <span class="badge">Nutrition</span></div>
+            <div class="form-row">
+                <div class="form-group half"><label>Breastfeeding</label><input id="fBf" placeholder="Exclusive until ___ / mixed / none" /></div>
+                <div class="form-group half"><label>Formula Feeding</label><input id="fFormula" placeholder="Brand, dilution, started at ___" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group half"><label>Weaning Age</label><input id="fWeaning" placeholder="e.g. 6 months" /></div>
+                <div class="form-group half"><label>Complementary Foods Started</label><input id="fComplementary" placeholder="e.g. 6 months, rice cereal" /></div>
+            </div>
+            <div class="form-row"><div class="form-group full"><label>Current Diet</label><textarea id="fCurrentDiet" rows="2" placeholder="Typical daily food intake, appetite, food aversions"></textarea></div></div>
+            <div class="howto">
+                <span class="icon">🍽️</span>
+                <div>Record <strong>breastfeeding duration</strong>, formula use, timing of weaning/complementary foods, and the <strong>current diet</strong>.</div>
+            </div>
+        </section>
+
+        <!-- ─── GROWTH & DEVELOPMENT ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Growth &amp; Developmental Milestones <span class="badge">Peds</span></div>
+            <div class="form-row"><div class="form-group full"><label>Gross Motor</label><textarea id="fGrossMotor" rows="2" placeholder="e.g. sat at 6mo, walked at 12mo"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Fine Motor</label><textarea id="fFineMotor" rows="2" placeholder="e.g. pincer grasp at 9mo"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Language / Speech</label><textarea id="fLanguage" rows="2" placeholder="e.g. first words at 12mo, 2-word phrases at 24mo"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Personal / Social</label><textarea id="fSocial" rows="2" placeholder="e.g. social smile at 2mo, stranger anxiety at 8mo"></textarea></div></div>
+            <div class="howto">
+                <span class="icon">📏</span>
+                <div>Document milestones across all <strong>four domains</strong>. Note any <strong>developmental delay or regression</strong> if present.</div>
+            </div>
+        </section>
+
+        <!-- ─── IMMUNIZATION HISTORY ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Immunization History <span class="badge">EPI</span></div>
+            <div class="form-row">
+                <div class="form-group half"><label>Fully Immunized for Age (FIC)</label><input id="fFic" placeholder="Yes / No / Partial" /></div>
+                <div class="form-group half"><label>Source of Immunization Record</label><input id="fImmSource" placeholder="Card seen / Verbal history" /></div>
+            </div>
+            <div class="imm-table-wrap mt-8">
+                <table class="imm-table" id="immTable">
+                    <thead><tr><th style="text-align:left;">Vaccine</th><th>Doses Given</th><th>Date of Last Dose</th><th>Remarks</th></tr></thead>
+                    <tbody id="immTableBody"></tbody>
+                </table>
+            </div>
+            <div class="howto">
+                <span class="icon">💉</span>
+                <div>List <strong>doses given</strong> per vaccine per the EPI schedule (BCG, Hepatitis B, Penta/DPT, OPV/IPV, Hib, PCV, MMR, Varicella, Hepatitis A, Influenza). Note missed or delayed doses under Remarks.</div>
+            </div>
+        </section>
+
+        <!-- ─── PAST / FAMILY / ENVIRONMENTAL ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Past &amp; Family &amp; Environmental <span class="badge">History</span></div>
+            <div class="form-row"><div class="form-group full"><label>Past Medical History</label><textarea id="fPmh" rows="2" placeholder="Prior illnesses, hospitalizations, surgeries, allergies, medications"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Family History</label><textarea id="fFh" rows="2" placeholder="Familial/genetic conditions, illnesses among siblings/parents"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Environmental / Social History</label><textarea id="fSh" rows="2" placeholder="Household members, caregivers, home environment, exposure to smoke/pets, water source, siblings' health"></textarea></div></div>
+            <div class="howto">
+                <span class="icon">🧬</span>
+                <div>Include <strong>allergies</strong>, prior hospitalizations, familial conditions, and the child's <strong>home/caregiving environment</strong>.</div>
+            </div>
+        </section>
+
+        <!-- ─── PHYSICAL EXAM ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Physical Examination <span class="badge">PE</span></div>
+            <div class="form-row">
+                <div class="form-group third"><label>HR (bpm)</label><input id="fHr" type="number" placeholder="e.g. 110" /></div>
+                <div class="form-group third"><label>RR (cpm)</label><input id="fRr" type="number" placeholder="e.g. 24" /></div>
+                <div class="form-group third"><label>Temp (°C)</label><input id="fTemp" placeholder="37.0" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group third"><label>BP (mmHg)</label><input id="fBp" placeholder="e.g. 90/60" /></div>
+                <div class="form-group third"><label>O2 Saturation (%)</label><input id="fO2sat" placeholder="e.g. 98" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group third"><label>Weight (kg)</label><input id="fWeight" type="number" step="0.1" placeholder="kg" /></div>
+                <div class="form-group third"><label>Height / Length (cm)</label><input id="fHeight" type="number" step="0.1" placeholder="cm" /></div>
+                <div class="form-group third"><label>BMI (auto)</label><input id="fBmi" placeholder="auto" readonly style="background:var(--bg4);cursor:default;" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group half"><label>Head Circumference (cm)</label><input id="fHc" placeholder="cm" /></div>
+                <div class="form-group half"><label>Nutritional Status</label><input id="fNutritionStatus" placeholder="e.g. Normal / Wasted / Stunted / Obese" /></div>
+            </div>
+            <div class="form-row"><div class="form-group full"><label>General Survey</label><textarea id="fGeneralSurvey" rows="2" placeholder="Level of consciousness, activity, hydration status, distress"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Skin</label><textarea id="fSkin" rows="2" placeholder="Color, rashes, lesions, turgor"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>HEENT</label><textarea id="fSheent" rows="2" placeholder="Head, eyes, ears, nose, throat; fontanels if applicable"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Chest / Lungs</label><textarea id="fChest" rows="2" placeholder="Breath sounds, retractions, symmetry"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Heart</label><textarea id="fHeart" rows="2" placeholder="Rhythm, murmurs, sounds"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Abdomen</label><textarea id="fAbdomen" rows="2" placeholder="Bowel sounds, tenderness, organomegaly"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Genitourinary</label><textarea id="fGu" rows="2" placeholder="External genitalia, Tanner stage if relevant"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Extremities</label><textarea id="fExtrem" rows="2" placeholder="Pulses, edema, deformities, capillary refill"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Neurologic Exam</label><textarea id="fNeuro" rows="2" placeholder="Reflexes, tone, cranial nerves, developmental reflexes"></textarea></div></div>
+            <div class="howto">
+                <span class="icon">🩺</span>
+                <div>Record <strong>age-appropriate vital signs</strong> and anthropometrics first. Use <strong>standard units</strong> (bpm, cpm, °C, kg, cm). Include relevant positives and negatives.</div>
+            </div>
+        </section>
+
+        <!-- ─── LABS ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Laboratory <span class="badge">Results</span></div>
+            <div class="lab-grid">
+                <div class="lab-box">
+                    <h4>CBC</h4>
+                    <div class="lab-row"><span class="lab-label">Hgb</span><input id="labHgb" placeholder="g/dL" /></div>
+                    <div class="lab-row"><span class="lab-label">Hct</span><input id="labHct" placeholder="%" /></div>
+                    <div class="lab-row"><span class="lab-label">WBC</span><input id="labWbc" placeholder="×10³/µL" /></div>
+                    <div class="lab-row"><span class="lab-label">Plt</span><input id="labPlt" placeholder="×10³/µL" /></div>
+                </div>
+                <div class="lab-box">
+                    <h4>Urinalysis</h4>
+                    <div class="lab-row"><span class="lab-label">EC</span><input id="labEc" placeholder="epi cells" /></div>
+                    <div class="lab-row"><span class="lab-label">PC</span><input id="labPc" placeholder="pus cells" /></div>
+                    <div class="lab-row"><span class="lab-label">RBC</span><input id="labRbc" placeholder="red cells" /></div>
+                    <div class="lab-row"><span class="lab-label">Bac</span><input id="labBac" placeholder="bacteria" /></div>
+                </div>
+                <div class="lab-box">
+                    <h4>Others</h4>
+                    <div class="lab-row"><span class="lab-label">Blood typing</span><input id="labBlood" placeholder="A/B/AB/O" /></div>
+                    <div class="lab-row"><span class="lab-label">CRP</span><input id="labCrp" placeholder="mg/L" /></div>
+                    <div class="lab-row"><span class="lab-label">Blood Glucose</span><input id="labGlucose" placeholder="mg/dL" /></div>
+                    <div class="lab-row"><span class="lab-label">Stool Exam</span><input id="labStool" placeholder="findings" /></div>
+                </div>
+            </div>
+            <div class="howto">
+                <span class="icon">🧪</span>
+                <div>Enter <strong>complete blood count</strong>, <strong>urinalysis</strong> details, and <strong>additional tests</strong>. Include units.</div>
+            </div>
+        </section>
+
+        <!-- ─── ICD CODES ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Diagnosis Codes <span class="badge">ICD‑10</span></div>
+            <div class="form-row">
+                <div class="form-group full icd-search-wrap">
+                    <label>Search for code or description</label>
+                    <input id="icdSearch" placeholder="Type to filter…" autocomplete="off" />
+                    <div id="icdSuggestions"></div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group full">
+                    <label>Selected Codes</label>
+                    <div id="icdSelectedList" style="display:flex;flex-wrap:wrap;gap:6px;padding:6px 0;min-height:30px;"></div>
+                    <input type="hidden" id="icdCodes" value="" />
+                </div>
+            </div>
+            <div class="howto">
+                <span class="icon">🏷️</span>
+                <div>Start typing a <strong>diagnosis code or description</strong> → a dropdown appears. Click to add the code as a pill. Remove a code by clicking the ✕ on its pill.</div>
+            </div>
+        </section>
+
+        <!-- ─── ASSESSMENT & PLAN ─── -->
+        <section class="form-section">
+            <div class="form-section-title">Assessment &amp; Plan <span class="badge">Final</span></div>
+            <div class="form-row"><div class="form-group full"><label>Assessment</label><textarea id="fAssessment" rows="3" placeholder="Diagnoses, differentials, summary"></textarea></div></div>
+            <div class="form-row"><div class="form-group full"><label>Plan</label><textarea id="fPlan" rows="3" placeholder="Management, work-up, medications, follow-up, anticipatory guidance"></textarea></div></div>
+            <div class="howto">
+                <span class="icon">📝</span>
+                <div>Provide a concise <strong>assessment</strong> (diagnoses, differentials) and outline the <strong>management plan</strong>, including anticipatory guidance for the caregiver.</div>
+            </div>
+        </section>
+
+    </form>
+
+    <!-- footer -->
+    <div style="text-align:center;padding:28px 0 8px;border-top:1px solid var(--border);margin-top:12px;font-size:11px;color:var(--text3);font-family:'JetBrains Mono',monospace;letter-spacing:0.08em;">
+        Pediatric History &amp; Physical · Digital Form
+    </div>
+</div>
+
+<!-- SCROLL TOP -->
+<button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+    // ─── THEME TOGGLE ───
+    function toggleTheme() {
+        const html = document.documentElement;
+        const isNight = html.getAttribute('data-theme') === 'night';
+        html.setAttribute('data-theme', isNight ? 'day' : 'night');
+        document.getElementById('themeToggleBtn').textContent = isNight ? '☀ Day' : '🌙 Night';
+    }
+
+    // ─── ICD-10 CODE DATASET (pediatric-focused) ───
+    const icdCodes = [
+        { code: 'Z00.129', desc: 'Routine child health examination, normal', system: 'ICD-10' },
+        { code: 'Z23', desc: 'Encounter for immunization', system: 'ICD-10' },
+        { code: 'Z76.2', desc: 'Health supervision of infant/child', system: 'ICD-10' },
+        { code: 'P07.0', desc: 'Extremely low birth weight newborn', system: 'ICD-10' },
+        { code: 'P07.3', desc: 'Preterm newborn, other', system: 'ICD-10' },
+        { code: 'P22.0', desc: 'Respiratory distress syndrome of newborn', system: 'ICD-10' },
+        { code: 'P36.9', desc: 'Bacterial sepsis of newborn, unspecified', system: 'ICD-10' },
+        { code: 'P59.9', desc: 'Neonatal jaundice, unspecified', system: 'ICD-10' },
+        { code: 'Z38.00', desc: 'Single liveborn infant, born in hospital', system: 'ICD-10' },
+        { code: 'J00', desc: 'Acute nasopharyngitis (common cold)', system: 'ICD-10' },
+        { code: 'J02.9', desc: 'Acute pharyngitis, unspecified', system: 'ICD-10' },
+        { code: 'J03.90', desc: 'Acute tonsillitis, unspecified', system: 'ICD-10' },
+        { code: 'J06.9', desc: 'Acute upper respiratory infection, unspecified', system: 'ICD-10' },
+        { code: 'J09', desc: 'Influenza due to novel influenza virus', system: 'ICD-10' },
+        { code: 'J12.9', desc: 'Viral pneumonia, unspecified', system: 'ICD-10' },
+        { code: 'J18.9', desc: 'Pneumonia, unspecified organism', system: 'ICD-10' },
+        { code: 'J20.9', desc: 'Acute bronchitis, unspecified', system: 'ICD-10' },
+        { code: 'J21.9', desc: 'Acute bronchiolitis, unspecified', system: 'ICD-10' },
+        { code: 'J35.1', desc: 'Hypertrophy of tonsils', system: 'ICD-10' },
+        { code: 'J45.909', desc: 'Asthma, unspecified, uncomplicated', system: 'ICD-10' },
+        { code: 'A09', desc: 'Infectious gastroenteritis and colitis, unspecified', system: 'ICD-10' },
+        { code: 'A08.4', desc: 'Viral intestinal infection, unspecified', system: 'ICD-10' },
+        { code: 'K21.9', desc: 'Gastro-esophageal reflux disease without esophagitis', system: 'ICD-10' },
+        { code: 'K59.00', desc: 'Constipation, unspecified', system: 'ICD-10' },
+        { code: 'R11.10', desc: 'Vomiting, unspecified', system: 'ICD-10' },
+        { code: 'A37.90', desc: 'Whooping cough, unspecified species', system: 'ICD-10' },
+        { code: 'B05.9', desc: 'Measles without complication', system: 'ICD-10' },
+        { code: 'B26.9', desc: 'Mumps without complication', system: 'ICD-10' },
+        { code: 'B01.9', desc: 'Varicella without complication', system: 'ICD-10' },
+        { code: 'A90', desc: 'Dengue fever', system: 'ICD-10' },
+        { code: 'A91', desc: 'Dengue hemorrhagic fever', system: 'ICD-10' },
+        { code: 'B15.9', desc: 'Hepatitis A without hepatic coma', system: 'ICD-10' },
+        { code: 'A02.0', desc: 'Salmonella enteritis', system: 'ICD-10' },
+        { code: 'B08.4', desc: 'Hand, foot and mouth disease', system: 'ICD-10' },
+        { code: 'U07.1', desc: 'COVID-19', system: 'ICD-10' },
+        { code: 'L20.9', desc: 'Atopic dermatitis, unspecified', system: 'ICD-10' },
+        { code: 'L21.9', desc: 'Seborrheic dermatitis, unspecified', system: 'ICD-10' },
+        { code: 'B86', desc: 'Scabies', system: 'ICD-10' },
+        { code: 'L01.00', desc: 'Impetigo, unspecified', system: 'ICD-10' },
+        { code: 'E43', desc: 'Unspecified severe protein-calorie malnutrition', system: 'ICD-10' },
+        { code: 'E44.0', desc: 'Moderate protein-energy malnutrition', system: 'ICD-10' },
+        { code: 'E44.1', desc: 'Mild protein-energy malnutrition', system: 'ICD-10' },
+        { code: 'E86.0', desc: 'Dehydration', system: 'ICD-10' },
+        { code: 'E63.9', desc: 'Nutritional deficiency, unspecified', system: 'ICD-10' },
+        { code: 'R62.51', desc: 'Failure to thrive (child)', system: 'ICD-10' },
+        { code: 'R62.0', desc: 'Delayed milestone in childhood', system: 'ICD-10' },
+        { code: 'F80.9', desc: 'Developmental disorder of speech/language, unspecified', system: 'ICD-10' },
+        { code: 'F84.0', desc: 'Autistic disorder', system: 'ICD-10' },
+        { code: 'F90.9', desc: 'Attention-deficit hyperactivity disorder, unspecified', system: 'ICD-10' },
+        { code: 'F70', desc: 'Mild intellectual disabilities', system: 'ICD-10' },
+        { code: 'G40.909', desc: 'Epilepsy, unspecified, not intractable', system: 'ICD-10' },
+        { code: 'R56.00', desc: 'Simple febrile convulsions', system: 'ICD-10' },
+        { code: 'Q21.0', desc: 'Ventricular septal defect', system: 'ICD-10' },
+        { code: 'Q21.1', desc: 'Atrial septal defect', system: 'ICD-10' },
+        { code: 'I50.9', desc: 'Heart failure, unspecified', system: 'ICD-10' },
+        { code: 'N39.0', desc: 'Urinary tract infection, site not specified', system: 'ICD-10' },
+        { code: 'N04.9', desc: 'Nephrotic syndrome, unspecified', system: 'ICD-10' },
+        { code: 'D50.9', desc: 'Iron deficiency anemia, unspecified', system: 'ICD-10' },
+        { code: 'D64.9', desc: 'Anemia, unspecified', system: 'ICD-10' },
+        { code: 'D69.3', desc: 'Immune thrombocytopenic purpura', system: 'ICD-10' },
+        { code: 'E10.9', desc: 'Type 1 diabetes mellitus without complications', system: 'ICD-10' },
+        { code: 'E03.9', desc: 'Hypothyroidism, unspecified', system: 'ICD-10' },
+        { code: 'J30.9', desc: 'Allergic rhinitis, unspecified', system: 'ICD-10' },
+        { code: 'T78.40XA', desc: 'Allergy, unspecified, initial encounter', system: 'ICD-10' },
+        { code: 'M08.00', desc: 'Juvenile rheumatoid arthritis, unspecified site', system: 'ICD-10' },
+        { code: 'Q90.9', desc: 'Down syndrome, unspecified', system: 'ICD-10' },
+        { code: 'Q05.9', desc: 'Spina bifida, unspecified', system: 'ICD-10' },
+        { code: 'S00.93XA', desc: 'Unspecified superficial injury of head, initial encounter', system: 'ICD-10' },
+        { code: 'T14.90XA', desc: 'Injury, unspecified, initial encounter', system: 'ICD-10' },
+        { code: 'R50.9', desc: 'Fever, unspecified', system: 'ICD-10' },
+        { code: 'R05.9', desc: 'Cough, unspecified', system: 'ICD-10' },
+        { code: 'R06.02', desc: 'Shortness of breath', system: 'ICD-10' },
+    ];
+
+    // ─── IMMUNIZATION SCHEDULE (EPI) ───
+    const immSchedule = [
+        'BCG', 'Hepatitis B (birth dose)', 'Penta / DPT-HepB-Hib (dose 1)', 'Penta / DPT-HepB-Hib (dose 2)',
+        'Penta / DPT-HepB-Hib (dose 3)', 'OPV (dose 1)', 'OPV (dose 2)', 'OPV (dose 3)', 'IPV', 'PCV (dose 1)',
+        'PCV (dose 2)', 'PCV (dose 3)', 'MMR (dose 1)', 'MMR (dose 2)', 'Varicella', 'Hepatitis A', 'Influenza (annual)', 'Others'
+    ];
+
+    // ─── ICD PICKER LOGIC ───
+    const icdSearch = document.getElementById('icdSearch');
+    const icdSuggestions = document.getElementById('icdSuggestions');
+    const icdSelectedList = document.getElementById('icdSelectedList');
+    const icdCodesHidden = document.getElementById('icdCodes');
+
+    let selectedCodes = [];
+
+    function renderSuggestions(filter) {
+        const query = filter.toLowerCase().trim();
+        const suggestions = icdCodes.filter(item =>
+            item.code.toLowerCase().includes(query) || item.desc.toLowerCase().includes(query)
+        ).slice(0, 12);
+
+        if (suggestions.length === 0 || query.length < 1) {
+            icdSuggestions.style.display = 'none';
+            return;
+        }
+        icdSuggestions.style.display = 'block';
+        icdSuggestions.innerHTML = suggestions.map(item =>
+            `<div class="suggestion-item" data-code="${item.code}" data-desc="${item.desc}" data-system="${item.system}">
+                <span class="code">${item.code}</span>
+                <span class="desc">${item.desc}</span>
+                <span class="system">${item.system}</span>
+            </div>`
+        ).join('');
+
+        icdSuggestions.querySelectorAll('.suggestion-item').forEach(el => {
+            el.addEventListener('click', function() {
+                addCode(this.dataset.code, this.dataset.desc, this.dataset.system);
+                icdSearch.value = '';
+                icdSuggestions.style.display = 'none';
+            });
+        });
+    }
+
+    function addCode(code, desc, system) {
+        if (selectedCodes.some(c => c.code === code)) return;
+        selectedCodes.push({ code, desc, system });
+        updateSelectedUI();
+    }
+
+    function removeCode(code) {
+        selectedCodes = selectedCodes.filter(c => c.code !== code);
+        updateSelectedUI();
+    }
+
+    function updateSelectedUI() {
+        icdSelectedList.innerHTML = selectedCodes.map(item =>
+            `<span class="icd-pill">
+                <span class="code">${item.code}</span>
+                <span>${item.desc}</span>
+                <button class="remove" data-code="${item.code}">✕</button>
+            </span>`
+        ).join('');
+        icdSelectedList.querySelectorAll('.remove').forEach(btn => {
+            btn.addEventListener('click', function() { removeCode(this.dataset.code); });
+        });
+        icdCodesHidden.value = JSON.stringify(selectedCodes);
+    }
+
+    icdSearch.addEventListener('input', function() { renderSuggestions(this.value); });
+    icdSearch.addEventListener('blur', function() { setTimeout(() => { icdSuggestions.style.display = 'none'; }, 200); });
+    icdSearch.addEventListener('focus', function() { if (this.value.trim().length > 0) renderSuggestions(this.value); });
+
+    // ─── POPULATE IMMUNIZATION TABLE ───
+    (function buildImmTable() {
+        const tbody = document.getElementById('immTableBody');
+        let html = '';
+        immSchedule.forEach((vac, i) => {
+            html += `<tr>
+                <td class="v-label">${vac}</td>
+                <td><input class="imm-doses" placeholder="e.g. 3" /></td>
+                <td><input class="imm-date" type="date" /></td>
+                <td><input class="imm-remarks" placeholder="Remarks" /></td>
+            </tr>`;
+        });
+        tbody.innerHTML = html;
+    })();
+
+    // ─── TOAST ───
+    let toastTimer = null;
+    function showToast(msg, duration = 4000) {
+        const el = document.getElementById('toast');
+        document.getElementById('toastMsg').textContent = msg;
+        el.classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => el.classList.remove('show'), duration);
+    }
+    function hideToast() {
+        document.getElementById('toast').classList.remove('show');
+        clearTimeout(toastTimer);
+    }
+
+    // ─── RESET ───
+    function resetForm() {
+        if (!confirm('Clear all form fields?')) return;
+        document.querySelectorAll('#pediaForm input, #pediaForm textarea').forEach(el => {
+            if (el.type === 'date') el.value = '';
+            else if (el.type === 'number') el.value = '';
+            else if (el.id !== 'icdSearch') el.value = '';
+        });
+        document.querySelectorAll('.imm-table td input').forEach(el => el.value = '');
+        selectedCodes = [];
+        updateSelectedUI();
+        icdSearch.value = '';
+        icdSuggestions.style.display = 'none';
+        document.getElementById('fAgeCalc').value = '';
+        document.getElementById('fBmi').value = '';
+        showToast('Form reset.');
+    }
+
+    // ─── SCROLL TOP ───
+    window.addEventListener('scroll', () => {
+        document.getElementById('scrollTopBtn').classList.toggle('visible', window.scrollY > 400);
+    });
+
+    // ─── AGE CALCULATOR ───
+    function updateAge() {
+        const bdVal = document.getElementById('fBirthdate').value;
+        if (!bdVal) { document.getElementById('fAgeCalc').value = ''; return; }
+        const bd = new Date(bdVal);
+        const today = new Date();
+        if (isNaN(bd) || bd > today) { document.getElementById('fAgeCalc').value = ''; return; }
+
+        let years = today.getFullYear() - bd.getFullYear();
+        let months = today.getMonth() - bd.getMonth();
+        let days = today.getDate() - bd.getDate();
+        if (days < 0) {
+            months -= 1;
+            const prevMonth = new Date(today.getFullYear(), today.getMonth(), 0);
+            days += prevMonth.getDate();
+        }
+        if (months < 0) { years -= 1; months += 12; }
+
+        if (years >= 1) {
+            document.getElementById('fAgeCalc').value = `${years}y ${months}m`;
+        } else {
+            document.getElementById('fAgeCalc').value = `${months}m ${days}d`;
+        }
+    }
+    document.getElementById('fBirthdate').addEventListener('input', updateAge);
+
+    // ─── BMI CALCULATOR ───
+    function updateBmi() {
+        const w = parseFloat(document.getElementById('fWeight').value);
+        const h = parseFloat(document.getElementById('fHeight').value);
+        if (!w || !h) { document.getElementById('fBmi').value = ''; return; }
+        const hM = h / 100;
+        const bmi = w / (hM * hM);
+        document.getElementById('fBmi').value = bmi.toFixed(1) + ' kg/m²';
+    }
+    document.getElementById('fWeight').addEventListener('input', updateBmi);
+    document.getElementById('fHeight').addEventListener('input', updateBmi);
+
+    window.addEventListener('DOMContentLoaded', () => { updateAge(); updateBmi(); });
+
+    // ─── DOCX GENERATION ───
+    function xmlEscape(str) {
+        return String(str == null ? '' : str)
+            .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+    }
+    function val(id) { const el = document.getElementById(id); return el ? el.value : ''; }
+
+    function docxHeading(text) {
+        return `<w:p><w:pPr><w:spacing w:before="280" w:after="120"/><w:rPr><w:b/><w:color w:val="1D4ED8"/><w:sz w:val="26"/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:color w:val="1D4ED8"/><w:sz w:val="26"/></w:rPr><w:t xml:space="preserve">${xmlEscape(text)}</w:t></w:r></w:p>`;
+    }
+    function docxField(label, value) {
+        const display = (value && String(value).trim()) ? value : '—';
+        const lines = String(display).split('\n');
+        let runs = `<w:r><w:rPr><w:b/></w:rPr><w:t xml:space="preserve">${xmlEscape(label)}: </w:t></w:r>`;
+        lines.forEach((line, i) => {
+            runs += `<w:r><w:t xml:space="preserve">${xmlEscape(line)}</w:t></w:r>`;
+            if (i < lines.length - 1) runs += `<w:br/>`;
+        });
+        return `<w:p><w:pPr><w:spacing w:after="80"/></w:pPr>${runs}</w:p>`;
+    }
+    function docxTitle(text) {
+        return `<w:p><w:pPr><w:spacing w:after="200"/><w:jc w:val="center"/><w:rPr><w:b/><w:color w:val="0A0E1A"/><w:sz w:val="36"/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:color w:val="0A0E1A"/><w:sz w:val="36"/></w:rPr><w:t xml:space="preserve">${xmlEscape(text)}</w:t></w:r></w:p>`;
+    }
+
+    async function generateDocx() {
+        const btn = event.currentTarget;
+        const originalText = btn.textContent;
+        btn.classList.add('loading');
+        btn.innerHTML = '<span class="spinner"></span>Generating…';
+        try {
+            let body = '';
+            body += docxTitle('Pediatric History & Physical Examination');
+
+            body += docxHeading('Patient Information');
+            body += docxField('Name', val('fName'));
+            body += docxField('Date Seen', val('fDate'));
+            body += docxField('Sex', val('fSex'));
+            body += docxField('Birthdate', val('fBirthdate'));
+            body += docxField('Age', val('fAgeCalc'));
+            body += docxField('Birthplace', val('fBirthplace'));
+            body += docxField('Address', val('fAddress'));
+            body += docxField('Contact No.', val('fContact'));
+            body += docxField('Hospital #', val('fHosp'));
+            body += docxField('Informant', val('fInformant'));
+            body += docxField('Reliability', val('fReliability'));
+            body += docxField('Consultant', val('fConsultant'));
+            body += docxField('Residents / Clerks-in-Charge', val('fResidents'));
+
+            body += docxHeading('Chief Complaint & HPI');
+            body += docxField('Chief Complaint', val('fCc'));
+            body += docxField('History of Present Illness', val('fHpi'));
+
+            body += docxHeading('Birth & Maternal History');
+            body += docxField('Maternal Age (pregnancy)', val('fMatAge'));
+            body += docxField('Gravidity / Parity', val('fGP'));
+            body += docxField('Prenatal Check-ups', val('fPnc'));
+            body += docxField('Prenatal Complications', val('fPrenatalComp'));
+            body += docxField('AOG at Birth', val('fAogBirth'));
+            body += docxField('Mode of Delivery', val('fModeDelivery'));
+            body += docxField('Place / Attended By', val('fPlaceDelivery'));
+            body += docxField('Birth Weight', val('fBirthWeight'));
+            body += docxField('Birth Length', val('fBirthLength'));
+            body += docxField('APGAR (1min / 5min)', val('fApgar'));
+            body += docxField('Neonatal Complications', val('fNeoComp'));
+
+            body += docxHeading('Feeding History');
+            body += docxField('Breastfeeding', val('fBf'));
+            body += docxField('Formula Feeding', val('fFormula'));
+            body += docxField('Weaning Age', val('fWeaning'));
+            body += docxField('Complementary Foods Started', val('fComplementary'));
+            body += docxField('Current Diet', val('fCurrentDiet'));
+
+            body += docxHeading('Growth & Developmental Milestones');
+            body += docxField('Gross Motor', val('fGrossMotor'));
+            body += docxField('Fine Motor', val('fFineMotor'));
+            body += docxField('Language / Speech', val('fLanguage'));
+            body += docxField('Personal / Social', val('fSocial'));
+
+            body += docxHeading('Immunization History');
+            body += docxField('Fully Immunized for Age (FIC)', val('fFic'));
+            body += docxField('Source of Immunization Record', val('fImmSource'));
+            const immRows = document.querySelectorAll('#immTableBody tr');
+            immRows.forEach(row => {
+                const vac = row.querySelector('.v-label').textContent.trim();
+                const doses = row.querySelector('.imm-doses').value;
+                const date = row.querySelector('.imm-date').value;
+                const remarks = row.querySelector('.imm-remarks').value;
+                if (doses || date || remarks) {
+                    body += docxField(vac, `Doses: ${doses || '—'} | Last dose: ${date || '—'} | Remarks: ${remarks || '—'}`);
+                }
+            });
+
+            body += docxHeading('Past, Family & Environmental History');
+            body += docxField('Past Medical History', val('fPmh'));
+            body += docxField('Family History', val('fFh'));
+            body += docxField('Environmental / Social History', val('fSh'));
+
+            body += docxHeading('Physical Examination');
+            body += docxField('HR', val('fHr') + ' bpm');
+            body += docxField('RR', val('fRr') + ' cpm');
+            body += docxField('Temp', val('fTemp') + ' °C');
+            body += docxField('BP', val('fBp'));
+            body += docxField('O2 Saturation', val('fO2sat') + ' %');
+            body += docxField('Weight', val('fWeight') + ' kg');
+            body += docxField('Height / Length', val('fHeight') + ' cm');
+            body += docxField('BMI', val('fBmi'));
+            body += docxField('Head Circumference', val('fHc') + ' cm');
+            body += docxField('Nutritional Status', val('fNutritionStatus'));
+            body += docxField('General Survey', val('fGeneralSurvey'));
+            body += docxField('Skin', val('fSkin'));
+            body += docxField('HEENT', val('fSheent'));
+            body += docxField('Chest / Lungs', val('fChest'));
+            body += docxField('Heart', val('fHeart'));
+            body += docxField('Abdomen', val('fAbdomen'));
+            body += docxField('Genitourinary', val('fGu'));
+            body += docxField('Extremities', val('fExtrem'));
+            body += docxField('Neurologic Exam', val('fNeuro'));
+
+            body += docxHeading('Laboratory');
+            body += docxField('Hgb', val('labHgb'));
+            body += docxField('Hct', val('labHct'));
+            body += docxField('WBC', val('labWbc'));
+            body += docxField('Platelet', val('labPlt'));
+            body += docxField('Urinalysis — EC/PC/RBC/Bac', `${val('labEc')} / ${val('labPc')} / ${val('labRbc')} / ${val('labBac')}`);
+            body += docxField('Blood Typing', val('labBlood'));
+            body += docxField('CRP', val('labCrp'));
+            body += docxField('Blood Glucose', val('labGlucose'));
+            body += docxField('Stool Exam', val('labStool'));
+
+            body += docxHeading('Diagnosis Codes');
+            if (selectedCodes.length) {
+                selectedCodes.forEach(c => { body += docxField(c.code, `${c.desc} (${c.system})`); });
+            } else {
+                body += docxField('Codes', '—');
+            }
+
+            body += docxHeading('Assessment & Plan');
+            body += docxField('Assessment', val('fAssessment'));
+            body += docxField('Plan', val('fPlan'));
+
+            const documentXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:body>${body}<w:sectPr><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1080" w:right="1080" w:bottom="1080" w:left="1080"/></w:sectPr></w:body>
+</w:document>`;
+
+            const stylesXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/><w:sz w:val="22"/></w:rPr></w:rPrDefault></w:docDefaults>
+<w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/></w:style>
+</w:styles>`;
+
+            const contentTypesXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
+<Default Extension="xml" ContentType="application/xml"/>
+<Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>
+<Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>
+</Types>`;
+
+            const rootRelsXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>
+</Relationships>`;
+
+            const docRelsXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
+</Relationships>`;
+
+            const zip = new JSZip();
+            zip.file('[Content_Types].xml', contentTypesXml);
+            zip.folder('_rels').file('.rels', rootRelsXml);
+            const wordFolder = zip.folder('word');
+            wordFolder.file('document.xml', documentXml);
+            wordFolder.file('styles.xml', stylesXml);
+            wordFolder.folder('_rels').file('document.xml.rels', docRelsXml);
+
+            const blob = await zip.generateAsync({
+                type: 'blob',
+                mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+            });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            const nameForFile = (val('fName') || 'Pediatric_History_PE').replace(/[^a-z0-9]+/gi, '_');
+            a.href = url;
+            a.download = `${nameForFile}.docx`;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            URL.revokeObjectURL(url);
+            showToast('DOCX generated ✓');
+        } catch (err) {
+            console.error(err);
+            showToast('Error generating DOCX: ' + err.message);
+        } finally {
+            btn.classList.remove('loading');
+            btn.innerHTML = originalText;
+        }
+    }
+</script>
+</body>
+</html>
