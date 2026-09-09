@@ -2,7 +2,7 @@
   {
     "id": "1",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 25-year-old woman presents with fever, chills, and a nonproductive cough. Chest X-ray shows a right lower lobe infiltrate. Sputum Gram stain reveals gram-positive lancet-shaped diplococci. What is the most likely organism?",
     "questionImage": null,
     "options": [
@@ -20,7 +20,7 @@
   {
     "id": "2",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 45-year-old diabetic patient develops a rapidly spreading infection on the lower leg with gas in the subcutaneous tissue. Gram stain shows large gram-positive rods. Which organism is most likely?",
     "questionImage": null,
     "options": [
@@ -38,7 +38,7 @@
   {
     "id": "3",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 30-year-old man with fever, severe headache, and neck stiffness. CSF shows neutrophils, elevated protein, and low glucose. Gram stain shows gram-negative diplococci. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -56,7 +56,7 @@
   {
     "id": "4",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is the most common cause of acute otitis media in children?",
     "questionImage": null,
     "options": [
@@ -74,7 +74,7 @@
   {
     "id": "5",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 60-year-old with chronic lung disease develops pneumonia. Sputum culture shows mucoid colonies on blood agar. The organism is oxidase-positive and non-fermentative. What is the most likely pathogen?",
     "questionImage": null,
     "options": [
@@ -92,7 +92,7 @@
   {
     "id": "6",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "A patient with a urinary catheter develops fever and bacteriuria. Urine culture grows gram-negative rods that are lactose-fermenting on MacConkey agar. Which is the most common cause of catheter-associated UTI?",
     "questionImage": null,
     "options": [
@@ -110,7 +110,7 @@
   {
     "id": "7",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is associated with 'currant jelly' sputum in pneumonia?",
     "questionImage": null,
     "options": [
@@ -128,7 +128,7 @@
   {
     "id": "8",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 22-year-old with pharyngitis, fever, and a grayish-white pseudomembrane over the tonsils. Gram stain shows gram-positive rods with club-shaped ends. What is the causative organism?",
     "questionImage": null,
     "options": [
@@ -146,7 +146,7 @@
   {
     "id": "9",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 50-year-old with a prosthetic heart valve presents with fever and new murmur. Blood cultures grow small gram-positive cocci in chains. Which organism is most likely?",
     "questionImage": null,
     "options": [
@@ -164,7 +164,7 @@
   {
     "id": "10",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is the most common cause of bacterial meningitis in neonates?",
     "questionImage": null,
     "options": [
@@ -182,7 +182,7 @@
   {
     "id": "11",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 35-year-old woman with a tick bite presents with fever, headache, and a characteristic erythema migrans rash. What is the causative organism?",
     "questionImage": null,
     "options": [
@@ -200,7 +200,7 @@
   {
     "id": "12",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A patient with severe diarrhea and bloody stools is diagnosed with hemolytic uremic syndrome (HUS). Which organism is most likely?",
     "questionImage": null,
     "options": [
@@ -218,7 +218,7 @@
   {
     "id": "13",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "A traveler returns from Southeast Asia with high fever, relative bradycardia, and rose spots on the trunk. Blood culture grows gram-negative rods. What is the diagnosis?",
     "questionImage": null,
     "options": [
@@ -236,7 +236,7 @@
   {
     "id": "14",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "Which of the following is a gram-positive anaerobe that causes abdominal abscesses?",
     "questionImage": null,
     "options": [
@@ -254,7 +254,7 @@
   {
     "id": "15",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 45-year-old with a history of splenectomy presents with fever, chills, and a petechial rash. Blood culture shows gram-positive cocci in pairs. Which organism is most likely?",
     "questionImage": null,
     "options": [
@@ -272,7 +272,7 @@
   {
     "id": "16",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is the leading cause of foodborne illness in the United States?",
     "questionImage": null,
     "options": [
@@ -290,7 +290,7 @@
   {
     "id": "17",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 30-year-old man presents with a painful swollen knee joint. Aspiration reveals yellow-green fluid with gram-negative diplococci. What is the most likely organism?",
     "questionImage": null,
     "options": [
@@ -308,7 +308,7 @@
   {
     "id": "18",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A child presents with a 'barking' cough and inspiratory stridor. X-ray shows a steeple sign. What is the most common bacterial cause?",
     "questionImage": null,
     "options": [
@@ -326,7 +326,7 @@
   {
     "id": "19",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is associated with 'watermelon stomach' (gastric antral vascular ectasia)?",
     "questionImage": null,
     "options": [
@@ -344,7 +344,7 @@
   {
     "id": "20",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 60-year-old with recent antibiotic use develops profuse watery diarrhea and abdominal cramps. Stool PCR is positive for toxin A and B. What is the causative organism?",
     "questionImage": null,
     "options": [
@@ -362,7 +362,7 @@
   {
     "id": "21",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "A 25-year-old woman with a urinary tract infection is found to have gram-negative rods that are oxidase-positive and produce a green pigment. Which organism?",
     "questionImage": null,
     "options": [
@@ -380,7 +380,7 @@
   {
     "id": "22",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism causes Q fever, a zoonotic disease transmitted by aerosolized spores from sheep and cattle?",
     "questionImage": null,
     "options": [
@@ -398,7 +398,7 @@
   {
     "id": "23",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A patient with a cat scratch develops a pustule at the site and then tender regional lymphadenopathy. What is the most likely cause?",
     "questionImage": null,
     "options": [
@@ -416,7 +416,7 @@
   {
     "id": "24",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 30-year-old with a history of IV drug use presents with fever, tricuspid valve murmur, and septic pulmonary emboli. Blood culture grows gram-positive cocci in clusters. What organism?",
     "questionImage": null,
     "options": [
@@ -434,7 +434,7 @@
   {
     "id": "25",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which organism is the most common cause of bacterial vaginosis?",
     "questionImage": null,
     "options": [
@@ -452,7 +452,7 @@
   {
     "id": "26",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "A 55-year-old with diabetes presents with a painless, non-healing ulcer on the foot. Culture shows gram-negative rods that are oxidase-negative, lactose-fermenting on MacConkey, and produce a foul smell. What organism?",
     "questionImage": null,
     "options": [
@@ -470,7 +470,7 @@
   {
     "id": "27",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A child with a sore throat, fever, and a fine sandpaper-like rash. The rash spares the face and has perioral pallor. What organism?",
     "questionImage": null,
     "options": [
@@ -488,7 +488,7 @@
   {
     "id": "28",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is the most common cause of cellulitis?",
     "questionImage": null,
     "options": [
@@ -506,7 +506,7 @@
   {
     "id": "29",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 45-year-old with a history of alcoholism presents with pneumonia. Gram stain shows gram-negative rods with a large capsule. What is the most likely organism?",
     "questionImage": null,
     "options": [
@@ -524,7 +524,7 @@
   {
     "id": "30",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is associated with a 'bull's-eye' rash and is transmitted by Ixodes ticks?",
     "questionImage": null,
     "options": [
@@ -542,7 +542,7 @@
   {
     "id": "31",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A patient with a prosthetic joint presents with pain and loosening. Culture grows gram-positive cocci in clusters that are coagulase-negative. What organism?",
     "questionImage": null,
     "options": [
@@ -560,7 +560,7 @@
   {
     "id": "32",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 50-year-old presents with severe abdominal pain, nausea, vomiting, and hypotension. Blood cultures grow gram-positive rods with a tumbling motility. What organism?",
     "questionImage": null,
     "options": [
@@ -578,7 +578,7 @@
   {
     "id": "33",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is the most common cause of pyelonephritis in pregnant women?",
     "questionImage": null,
     "options": [
@@ -596,7 +596,7 @@
   {
     "id": "34",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "A 20-year-old with acute onset of fever, severe headache, and photophobia. CSF shows gram-negative diplococci. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -614,7 +614,7 @@
   {
     "id": "35",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A patient with a dental procedure develops subacute endocarditis. Blood cultures show gram-positive cocci in chains, optochin-resistant, and bile-soluble. What organism?",
     "questionImage": null,
     "options": [
@@ -632,7 +632,7 @@
   {
     "id": "36",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "Which organism is the most common cause of acute bacterial prostatitis?",
     "questionImage": null,
     "options": [
@@ -650,7 +650,7 @@
   {
     "id": "37",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 30-year-old presents with fever, abdominal pain, and a history of eating undercooked pork. Stool microscopy shows a tapeworm. Which organism?",
     "questionImage": null,
     "options": [
@@ -668,7 +668,7 @@
   {
     "id": "38",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is associated with a positive Quellung reaction?",
     "questionImage": null,
     "options": [
@@ -686,7 +686,7 @@
   {
     "id": "39",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 55-year-old with chronic bronchitis develops pneumonia. Sputum Gram stain shows small gram-negative coccobacilli. What organism?",
     "questionImage": null,
     "options": [
@@ -704,7 +704,7 @@
   {
     "id": "40",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A patient with a history of gastritis is diagnosed with a gastric ulcer. Urea breath test is positive. What organism?",
     "questionImage": null,
     "options": [
@@ -722,7 +722,7 @@
   {
     "id": "41",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which organism is the most common cause of bacterial conjunctivitis in children?",
     "questionImage": null,
     "options": [
@@ -740,7 +740,7 @@
   {
     "id": "42",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "A 60-year-old with a pacemaker presents with fever and signs of device infection. Blood cultures grow gram-positive cocci in clusters that are coagulase-negative. What organism?",
     "questionImage": null,
     "options": [
@@ -758,7 +758,7 @@
   {
     "id": "43",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "A 25-year-old woman with vaginal discharge, dysuria, and pelvic pain. Cervical swab shows gram-negative diplococci intracellularly in neutrophils. What organism?",
     "questionImage": null,
     "options": [
@@ -776,8 +776,8 @@
   {
     "id": "44",
     "subject": "Microbiology",
-    "topic": "General",
-    "question": "Which organism is the most common cause of bacterial meningitis in adults 18–50 years?",
+    "topic": "Bacteria",
+    "question": "Which organism is the most common cause of bacterial meningitis in adults 18\u201350 years?",
     "questionImage": null,
     "options": [
       "Neisseria meningitidis",
@@ -787,14 +787,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "N. meningitidis is the most common cause in adults 18–50, though S. pneumoniae is common in the elderly. Overall, S. pneumoniae is more common, but in young adults, N. meningitidis is typical.",
+      "text": "N. meningitidis is the most common cause in adults 18\u201350, though S. pneumoniae is common in the elderly. Overall, S. pneumoniae is more common, but in young adults, N. meningitidis is typical.",
       "images": []
     }
   },
   {
     "id": "45",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "TB",
     "question": "A patient with a fish tank injury develops a skin infection with granulomatous lesions. Culture grows a non-chromogenic Mycobacterium. What organism?",
     "questionImage": null,
     "options": [
@@ -812,7 +812,7 @@
   {
     "id": "46",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 2-year-old child presents with fever, cough, coryza, and conjunctivitis, followed by a maculopapular rash starting on the face and spreading downward. What is the most likely viral infection?",
     "questionImage": null,
     "options": [
@@ -830,7 +830,7 @@
   {
     "id": "47",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 30-year-old woman in her first trimester of pregnancy develops a mild febrile illness with lymphadenopathy and a maculopapular rash. She is worried about congenital defects. What virus is most concerning?",
     "questionImage": null,
     "options": [
@@ -848,7 +848,7 @@
   {
     "id": "48",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 25-year-old presents with fever, jaundice, dark urine, and fatigue. He recently traveled to Southeast Asia. Serology shows HBsAg positive, anti-HBc IgM positive, anti-HBs negative. What is the diagnosis?",
     "questionImage": null,
     "options": [
@@ -866,7 +866,7 @@
   {
     "id": "49",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which hepatitis virus is a DNA virus?",
     "questionImage": null,
     "options": [
@@ -884,7 +884,7 @@
   {
     "id": "50",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 40-year-old with HIV and CD4 count <100 presents with headache, confusion, and fever. Brain MRI shows ring-enhancing lesions. What is the most likely opportunistic viral infection?",
     "questionImage": null,
     "options": [
@@ -902,7 +902,7 @@
   {
     "id": "51",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is the most common cause of viral gastroenteritis in children worldwide?",
     "questionImage": null,
     "options": [
@@ -920,7 +920,7 @@
   {
     "id": "52",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 60-year-old with shingles (herpes zoster) in the ophthalmic distribution presents with eye pain and blurred vision. What is the most serious complication?",
     "questionImage": null,
     "options": [
@@ -938,7 +938,7 @@
   {
     "id": "53",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 25-year-old presents with fever, sore throat, lymphadenopathy, and fatigue. Monospot test is positive. What virus?",
     "questionImage": null,
     "options": [
@@ -956,7 +956,7 @@
   {
     "id": "54",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is associated with cervical cancer?",
     "questionImage": null,
     "options": [
@@ -974,7 +974,7 @@
   {
     "id": "55",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 35-year-old with a history of blood transfusion develops jaundice and elevated liver enzymes. Anti-HCV is positive. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -992,7 +992,7 @@
   {
     "id": "56",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 50-year-old presents with fever, headache, and a vesicular rash. He is an immunocompetent adult. He recalls having chickenpox as a child. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -1010,7 +1010,7 @@
   {
     "id": "57",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is the most common cause of the common cold?",
     "questionImage": null,
     "options": [
@@ -1028,7 +1028,7 @@
   {
     "id": "58",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 5-year-old child presents with barking cough, stridor, and respiratory distress. X-ray shows a steeple sign. What is the most common viral cause?",
     "questionImage": null,
     "options": [
@@ -1046,7 +1046,7 @@
   {
     "id": "59",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 30-year-old with fever, myalgia, and headache develops petechial rash and hypotension. He has been camping in the western US. What virus is most likely?",
     "questionImage": null,
     "options": [
@@ -1064,7 +1064,7 @@
   {
     "id": "60",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is the most common cause of bronchiolitis in infants?",
     "questionImage": null,
     "options": [
@@ -1075,14 +1075,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "RSV is the most common cause of bronchiolitis in infants, with peak incidence at 2–6 months of age.",
+      "text": "RSV is the most common cause of bronchiolitis in infants, with peak incidence at 2\u20136 months of age.",
       "images": []
     }
   },
   {
     "id": "61",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 25-year-old with fever, severe headache, photophobia, and confusion. CSF shows lymphocytic pleocytosis. What is the most common viral cause of meningitis?",
     "questionImage": null,
     "options": [
@@ -1100,7 +1100,7 @@
   {
     "id": "62",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 50-year-old with AIDS develops painful, vesicular skin lesions around the anus. Tzanck smear shows multinucleated giant cells. What virus?",
     "questionImage": null,
     "options": [
@@ -1118,7 +1118,7 @@
   {
     "id": "63",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is associated with the development of Burkitt lymphoma?",
     "questionImage": null,
     "options": [
@@ -1136,7 +1136,7 @@
   {
     "id": "64",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 30-year-old pregnant woman at 36 weeks develops fever, malaise, and a vesicular rash. She has had chickenpox before. What is the most appropriate management?",
     "questionImage": null,
     "options": [
@@ -1154,7 +1154,7 @@
   {
     "id": "65",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 20-year-old with fever, sore throat, and a grayish-white membrane over the tonsils. The membrane cannot be scraped off without bleeding. What is the most likely viral cause?",
     "questionImage": null,
     "options": [
@@ -1172,7 +1172,7 @@
   {
     "id": "66",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is the most common cause of acute encephalitis in the United States?",
     "questionImage": null,
     "options": [
@@ -1190,7 +1190,7 @@
   {
     "id": "67",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 5-year-old with fever, vomiting, and a pruritic rash with small vesicles on an erythematous base ('dewdrop on a rose petal'). What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -1208,7 +1208,7 @@
   {
     "id": "68",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 45-year-old with fever, myalgia, and cough develops bilateral pulmonary infiltrates. He works in a poultry processing plant. Which virus is most likely?",
     "questionImage": null,
     "options": [
@@ -1226,7 +1226,7 @@
   {
     "id": "69",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is a cause of fifth disease (erythema infectiosum)?",
     "questionImage": null,
     "options": [
@@ -1244,7 +1244,7 @@
   {
     "id": "70",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 30-year-old with fever, jaundice, and coagulopathy. He recently returned from South America. He has a history of hepatitis B. Which superinfection is most likely?",
     "questionImage": null,
     "options": [
@@ -1262,7 +1262,7 @@
   {
     "id": "71",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 20-year-old with fever, muscle aches, and a dry cough. Rapid antigen test is positive for influenza A. What is the most effective treatment within 48 hours?",
     "questionImage": null,
     "options": [
@@ -1280,7 +1280,7 @@
   {
     "id": "72",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus causes epidemic keratoconjunctivitis?",
     "questionImage": null,
     "options": [
@@ -1298,7 +1298,7 @@
   {
     "id": "73",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 40-year-old with HIV and CD4 <50 presents with progressive memory loss, ataxia, and personality changes. Brain MRI shows periventricular white matter lesions. What virus?",
     "questionImage": null,
     "options": [
@@ -1316,7 +1316,7 @@
   {
     "id": "74",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 3-year-old with high fever for 3 days, then defervescence and a maculopapular rash. What virus is most likely?",
     "questionImage": null,
     "options": [
@@ -1334,7 +1334,7 @@
   {
     "id": "75",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is the most common cause of viral hepatitis in the United States?",
     "questionImage": null,
     "options": [
@@ -1352,7 +1352,7 @@
   {
     "id": "76",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 60-year-old with a kidney transplant develops fever, fatigue, and jaundice. Liver biopsy shows intranuclear inclusion bodies. What virus?",
     "questionImage": null,
     "options": [
@@ -1370,7 +1370,7 @@
   {
     "id": "77",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 25-year-old with fever, headache, and a maculopapular rash starting on the face and spreading to the trunk. He also has postauricular lymphadenopathy. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -1388,7 +1388,7 @@
   {
     "id": "78",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is the most common cause of acute febrile illness with rash in children after vaccination (still occurs)?",
     "questionImage": null,
     "options": [
@@ -1406,7 +1406,7 @@
   {
     "id": "79",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 50-year-old with a history of recurrent cold sores presents with a vesicular rash on the right side of his face, following the V1 dermatome. He complains of severe pain. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -1424,7 +1424,7 @@
   {
     "id": "80",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 30-year-old with fever, sore throat, and bilateral cervical lymphadenopathy. Blood work shows atypical lymphocytes. What virus?",
     "questionImage": null,
     "options": [
@@ -1442,7 +1442,7 @@
   {
     "id": "81",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is associated with nasopharyngeal carcinoma?",
     "questionImage": null,
     "options": [
@@ -1460,7 +1460,7 @@
   {
     "id": "82",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 5-year-old presents with fever, cough, and a barking cough. X-ray shows a steeple sign. What is the most common viral cause?",
     "questionImage": null,
     "options": [
@@ -1478,7 +1478,7 @@
   {
     "id": "83",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 25-year-old with fever, headache, and myalgia. He has a petechial rash on his wrists and ankles. He recently had a tick bite. What virus?",
     "questionImage": null,
     "options": [
@@ -1496,7 +1496,7 @@
   {
     "id": "84",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which virus is the most common cause of congenital hearing loss?",
     "questionImage": null,
     "options": [
@@ -1514,7 +1514,7 @@
   {
     "id": "85",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 60-year-old with a history of diabetes presents with fever, cough, and shortness of breath. He is diagnosed with COVID-19. Which drug is an antiviral that targets the spike protein?",
     "questionImage": null,
     "options": [
@@ -1532,7 +1532,7 @@
   {
     "id": "86",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 20-year-old with fever, headache, and vomiting. CSF shows lymphocytic pleocytosis. He has a history of mumps vaccination. What is the most likely viral cause?",
     "questionImage": null,
     "options": [
@@ -1550,7 +1550,7 @@
   {
     "id": "87",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is associated with the development of Kaposi's sarcoma?",
     "questionImage": null,
     "options": [
@@ -1568,7 +1568,7 @@
   {
     "id": "88",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 30-year-old with fever, jaundice, and elevated liver enzymes. He is a health care worker who had a needle-stick injury 3 months ago. HBsAg positive, anti-HBc IgM positive. What is the diagnosis?",
     "questionImage": null,
     "options": [
@@ -1586,7 +1586,7 @@
   {
     "id": "89",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 5-year-old with high fever, red eyes, and a red tongue ('strawberry tongue'). He develops a rash that starts on the trunk and spreads. What viral illness?",
     "questionImage": null,
     "options": [
@@ -1604,7 +1604,7 @@
   {
     "id": "90",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which virus is the most common cause of viral meningitis in neonates?",
     "questionImage": null,
     "options": [
@@ -1622,7 +1622,7 @@
   {
     "id": "91",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 30-year-old with HIV and CD4 <50 presents with fever, cough, and dyspnea. Chest X-ray shows bilateral interstitial infiltrates. What is the most likely fungal pathogen?",
     "questionImage": null,
     "options": [
@@ -1640,7 +1640,7 @@
   {
     "id": "92",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 45-year-old with diabetes presents with a black necrotic eschar on the face, sinusitis, and headache. Biopsy shows broad, nonseptate hyphae with right-angle branching. What organism?",
     "questionImage": null,
     "options": [
@@ -1658,7 +1658,7 @@
   {
     "id": "93",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 25-year-old with fever, cough, and hemoptysis. He has a history of cavitary tuberculosis. Sputum shows septate hyphae with acute-angle branching. What organism?",
     "questionImage": null,
     "options": [
@@ -1676,7 +1676,7 @@
   {
     "id": "94",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus is the most common cause of fungal meningitis in HIV/AIDS?",
     "questionImage": null,
     "options": [
@@ -1694,7 +1694,7 @@
   {
     "id": "95",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 30-year-old with HIV presents with chronic diarrhea, oral thrush, and esophagitis. Endoscopy shows white plaques in the esophagus. What fungus?",
     "questionImage": null,
     "options": [
@@ -1712,7 +1712,7 @@
   {
     "id": "96",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 50-year-old with chronic obstructive pulmonary disease (COPD) presents with fever, cough, and a dense infiltrate on chest X-ray. A lung biopsy shows yeast-like cells with broad-based budding. What organism?",
     "questionImage": null,
     "options": [
@@ -1730,7 +1730,7 @@
   {
     "id": "97",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 35-year-old with a history of contact with bird droppings presents with fever, cough, and erythema nodosum. Chest X-ray shows hilar lymphadenopathy. What organism?",
     "questionImage": null,
     "options": [
@@ -1748,7 +1748,7 @@
   {
     "id": "98",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus is associated with the formation of fungal balls (aspergilloma) in the lungs?",
     "questionImage": null,
     "options": [
@@ -1766,7 +1766,7 @@
   {
     "id": "99",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 40-year-old with HIV and CD4 <50 presents with fever, headache, and confusion. CSF shows high opening pressure and positive India ink stain. What organism?",
     "questionImage": null,
     "options": [
@@ -1784,8 +1784,8 @@
   {
     "id": "100",
     "subject": "Microbiology",
-    "topic": "General",
-    "question": "A 25-year-old presents with a painless, ulcerated skin lesion on the hand. He is a gardener. Culture grows a mold that converts to yeast at 37°C. What organism?",
+    "topic": "Myco",
+    "question": "A 25-year-old presents with a painless, ulcerated skin lesion on the hand. He is a gardener. Culture grows a mold that converts to yeast at 37\u00b0C. What organism?",
     "questionImage": null,
     "options": [
       "Sporothrix schenckii",
@@ -1795,14 +1795,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Sporothrix schenckii causes sporotrichosis (rose gardener's disease), with ulcerated skin lesions and lymphatic spread. It is dimorphic (mold at 25°C, yeast at 37°C). Histoplasma is inhaled, causing pulmonary disease. Blastomyces causes pneumonia. Coccidioides causes valley fever.",
+      "text": "Sporothrix schenckii causes sporotrichosis (rose gardener's disease), with ulcerated skin lesions and lymphatic spread. It is dimorphic (mold at 25\u00b0C, yeast at 37\u00b0C). Histoplasma is inhaled, causing pulmonary disease. Blastomyces causes pneumonia. Coccidioides causes valley fever.",
       "images": []
     }
   },
   {
     "id": "101",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus causes oral thrush in infants and immunocompromised patients?",
     "questionImage": null,
     "options": [
@@ -1820,7 +1820,7 @@
   {
     "id": "102",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 50-year-old with a history of prolonged corticosteroid use presents with fever, cough, and hemoptysis. CT shows a mass with an air crescent sign. What organism?",
     "questionImage": null,
     "options": [
@@ -1838,7 +1838,7 @@
   {
     "id": "103",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "A 30-year-old with AIDS presents with skin lesions that are painless, umbilicated papules on the face. What viral infection?",
     "questionImage": null,
     "options": [
@@ -1856,7 +1856,7 @@
   {
     "id": "104",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus is the most common cause of onychomycosis?",
     "questionImage": null,
     "options": [
@@ -1874,7 +1874,7 @@
   {
     "id": "105",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 45-year-old with a history of diabetes and ketoacidosis presents with facial pain, black eschar on the nose, and blurred vision. Biopsy shows nonseptate hyphae. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -1892,7 +1892,7 @@
   {
     "id": "106",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 30-year-old with a history of travel to the Ohio River Valley presents with fever, cough, and myalgia. He also has erythema nodosum. What is the most likely fungal infection?",
     "questionImage": null,
     "options": [
@@ -1910,7 +1910,7 @@
   {
     "id": "107",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus is dimorphic and causes San Joaquin Valley fever?",
     "questionImage": null,
     "options": [
@@ -1928,7 +1928,7 @@
   {
     "id": "108",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 55-year-old with a history of chronic granulomatous disease presents with pneumonia. Lung biopsy shows septate hyphae with branching. What organism?",
     "questionImage": null,
     "options": [
@@ -1946,7 +1946,7 @@
   {
     "id": "109",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 25-year-old woman with vaginal itching, thick white discharge, and vulvar erythema. Wet mount with KOH shows budding yeast and pseudohyphae. What organism?",
     "questionImage": null,
     "options": [
@@ -1964,7 +1964,7 @@
   {
     "id": "110",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus is the most common cause of meningitis in immunocompetent patients in the United States?",
     "questionImage": null,
     "options": [
@@ -1982,7 +1982,7 @@
   {
     "id": "111",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 30-year-old with AIDS and a CD4 count of 50 presents with fever, weight loss, and a palpable liver. Ultrasound shows hepatosplenomegaly. Blood culture grows a fungus. What organism?",
     "questionImage": null,
     "options": [
@@ -2000,7 +2000,7 @@
   {
     "id": "112",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 45-year-old with a history of gardening presents with a skin ulcer on the arm and a nodular lymphangitis (sporotrichoid spread). What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -2018,7 +2018,7 @@
   {
     "id": "113",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus is commonly found in pigeon droppings and causes cryptococcosis?",
     "questionImage": null,
     "options": [
@@ -2036,7 +2036,7 @@
   {
     "id": "114",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 35-year-old with HIV presents with fever, headache, and photophobia. CSF shows leukocytes, elevated protein, and low glucose. India ink stain is positive. What organism?",
     "questionImage": null,
     "options": [
@@ -2054,7 +2054,7 @@
   {
     "id": "115",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 50-year-old with asthma presents with fever, cough, and wheezing. Sputum shows eosinophils and septate hyphae. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -2072,7 +2072,7 @@
   {
     "id": "116",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus causes a disease characterized by a painless chancre and regional lymphadenopathy, often seen in South America?",
     "questionImage": null,
     "options": [
@@ -2090,7 +2090,7 @@
   {
     "id": "117",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 25-year-old with acute myeloid leukemia undergoing chemotherapy develops fever and a new pulmonary infiltrate. Bronchoalveolar lavage shows septate hyphae with acute-angle branching. What organism?",
     "questionImage": null,
     "options": [
@@ -2108,7 +2108,7 @@
   {
     "id": "118",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 40-year-old with a history of sarcoidosis presents with a persistent cough and hemoptysis. CT shows a cavity with a mobile mass. What is the most likely cause?",
     "questionImage": null,
     "options": [
@@ -2126,7 +2126,7 @@
   {
     "id": "119",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Which fungus is most commonly associated with fungal endocarditis in IV drug users?",
     "questionImage": null,
     "options": [
@@ -2144,7 +2144,7 @@
   {
     "id": "120",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 30-year-old with HIV and CD4 <100 presents with a painful ulcer on the palate. Biopsy shows yeast-like cells with narrow-based budding. What organism?",
     "questionImage": null,
     "options": [
@@ -2162,7 +2162,7 @@
   {
     "id": "121",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old traveler returns from Africa with fever, chills, and sweating. Blood smear shows ring forms inside red blood cells. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -2180,7 +2180,7 @@
   {
     "id": "122",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which Plasmodium species causes the most severe malaria with cerebral complications?",
     "questionImage": null,
     "options": [
@@ -2198,7 +2198,7 @@
   {
     "id": "123",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 30-year-old with diarrhea, abdominal cramps, and flatulence after returning from Mexico. Stool microscopy shows trophozoites with a 'falling leaf' motility. What organism?",
     "questionImage": null,
     "options": [
@@ -2216,7 +2216,7 @@
   {
     "id": "124",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 45-year-old with a history of a cat bite develops fever, lymphadenopathy, and a pustule at the bite site. What parasite?",
     "questionImage": null,
     "options": [
@@ -2234,7 +2234,7 @@
   {
     "id": "125",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite is transmitted by the bite of the Anopheles mosquito?",
     "questionImage": null,
     "options": [
@@ -2252,7 +2252,7 @@
   {
     "id": "126",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 30-year-old with HIV and CD4 <50 presents with a headache, confusion, and a ring-enhancing brain lesion. What parasite?",
     "questionImage": null,
     "options": [
@@ -2270,7 +2270,7 @@
   {
     "id": "127",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old with severe watery diarrhea after camping in the mountains. Stool shows oocysts. What organism?",
     "questionImage": null,
     "options": [
@@ -2288,7 +2288,7 @@
   {
     "id": "128",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite causes Chagas disease?",
     "questionImage": null,
     "options": [
@@ -2306,7 +2306,7 @@
   {
     "id": "129",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 40-year-old with a history of eating undercooked pork develops fever, myalgia, and periorbital edema. Muscle biopsy shows cysts with larvae. What organism?",
     "questionImage": null,
     "options": [
@@ -2324,7 +2324,7 @@
   {
     "id": "130",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old with a painless, non-healing ulcer on the leg after a trip to South America. What parasite?",
     "questionImage": null,
     "options": [
@@ -2342,7 +2342,7 @@
   {
     "id": "131",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite is the most common cause of intestinal nematode infection worldwide?",
     "questionImage": null,
     "options": [
@@ -2360,7 +2360,7 @@
   {
     "id": "132",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 5-year-old with perianal itching, especially at night. Scotch tape test is positive. What organism?",
     "questionImage": null,
     "options": [
@@ -2378,7 +2378,7 @@
   {
     "id": "133",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 30-year-old with fever, hepatomegaly, and eosinophilia. He has a history of eating raw freshwater fish. What parasite?",
     "questionImage": null,
     "options": [
@@ -2396,7 +2396,7 @@
   {
     "id": "134",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite causes African sleeping sickness?",
     "questionImage": null,
     "options": [
@@ -2414,7 +2414,7 @@
   {
     "id": "135",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 45-year-old with a history of travel to Southeast Asia presents with hemoptysis and a cough. Sputum shows operculated eggs. What parasite?",
     "questionImage": null,
     "options": [
@@ -2432,7 +2432,7 @@
   {
     "id": "136",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 30-year-old with fever, rigors, and dark urine (blackwater fever). He recently traveled to sub-Saharan Africa. What Plasmodium species is most likely?",
     "questionImage": null,
     "options": [
@@ -2450,7 +2450,7 @@
   {
     "id": "137",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite is transmitted by the bite of the female Anopheles mosquito and causes relapse due to hypnozoites?",
     "questionImage": null,
     "options": [
@@ -2468,7 +2468,7 @@
   {
     "id": "138",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old with fever, headache, and a maculopapular rash. He has a history of swimming in a pond in the southeastern US. What parasite?",
     "questionImage": null,
     "options": [
@@ -2486,7 +2486,7 @@
   {
     "id": "139",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 30-year-old with a history of anal intercourse presents with tenesmus and blood in the stool. Stool shows flask-shaped ulcers. What organism?",
     "questionImage": null,
     "options": [
@@ -2504,7 +2504,7 @@
   {
     "id": "140",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite is the most common cause of blindness worldwide?",
     "questionImage": null,
     "options": [
@@ -2522,7 +2522,7 @@
   {
     "id": "141",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 20-year-old with fever, myalgia, and a vesicular rash. He has a history of contact with dogs and sheep. What parasite?",
     "questionImage": null,
     "options": [
@@ -2540,7 +2540,7 @@
   {
     "id": "142",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 50-year-old with a liver cyst found on ultrasound. He has a history of living in a sheep-farming region. What parasite?",
     "questionImage": null,
     "options": [
@@ -2558,7 +2558,7 @@
   {
     "id": "143",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite causes severe anemia by feeding on blood in the intestine?",
     "questionImage": null,
     "options": [
@@ -2576,7 +2576,7 @@
   {
     "id": "144",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 35-year-old with fever, cough, and rash. He has a history of a cat scratch. What parasite?",
     "questionImage": null,
     "options": [
@@ -2594,7 +2594,7 @@
   {
     "id": "145",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old with severe headache, fever, and neck stiffness. He recently swam in warm freshwater. CSF shows amoebic trophozoites. What organism?",
     "questionImage": null,
     "options": [
@@ -2612,7 +2612,7 @@
   {
     "id": "146",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite is transmitted by the tsetse fly?",
     "questionImage": null,
     "options": [
@@ -2630,7 +2630,7 @@
   {
     "id": "147",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 40-year-old with a history of travel to the Caribbean presents with fever, chills, and hemolytic anemia. Blood smear shows intraerythrocytic ring forms. What organism?",
     "questionImage": null,
     "options": [
@@ -2648,7 +2648,7 @@
   {
     "id": "148",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 30-year-old with a history of eating undercooked beef presents with diarrhea and abdominal pain. Stool shows proglottids. What organism?",
     "questionImage": null,
     "options": [
@@ -2666,7 +2666,7 @@
   {
     "id": "149",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite causes neurocysticercosis?",
     "questionImage": null,
     "options": [
@@ -2684,7 +2684,7 @@
   {
     "id": "150",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old with fever, jaundice, and hepatosplenomegaly after a trip to Southeast Asia. Blood smear shows ring forms and gametocytes. What Plasmodium species?",
     "questionImage": null,
     "options": [
@@ -2702,7 +2702,7 @@
   {
     "id": "151",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 30-year-old with a painless, swollen lymph node on the neck. He has a history of cat ownership. What organism?",
     "questionImage": null,
     "options": [
@@ -2720,7 +2720,7 @@
   {
     "id": "152",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite causes Chagas disease and can lead to megacolon and megaesophagus?",
     "questionImage": null,
     "options": [
@@ -2738,7 +2738,7 @@
   {
     "id": "153",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 45-year-old with a history of travel to Egypt presents with hematuria. Urine shows eggs with a terminal spine. What parasite?",
     "questionImage": null,
     "options": [
@@ -2756,7 +2756,7 @@
   {
     "id": "154",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 30-year-old with a history of a sandfly bite in South America develops a painless ulcer on his ear. What parasite?",
     "questionImage": null,
     "options": [
@@ -2774,7 +2774,7 @@
   {
     "id": "155",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite is the most common cause of intestinal protozoan infection in the United States?",
     "questionImage": null,
     "options": [
@@ -2792,7 +2792,7 @@
   {
     "id": "156",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old with fever, hepatomegaly, and eosinophilia. He has a history of eating raw watercress. What parasite?",
     "questionImage": null,
     "options": [
@@ -2810,7 +2810,7 @@
   {
     "id": "157",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 40-year-old with a history of travel to West Africa presents with fever, weight loss, and a skin ulcer. What parasite?",
     "questionImage": null,
     "options": [
@@ -2828,7 +2828,7 @@
   {
     "id": "158",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which parasite is transmitted by the bite of the sandfly?",
     "questionImage": null,
     "options": [
@@ -2846,7 +2846,7 @@
   {
     "id": "159",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 30-year-old with a history of eating sushi presents with abdominal pain and diarrhea. Stool shows eggs with a knob on one end. What organism?",
     "questionImage": null,
     "options": [
@@ -2864,7 +2864,7 @@
   {
     "id": "160",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "A 25-year-old with fever, cough, and hemoptysis after a trip to Asia. Sputum shows operculated eggs. What parasite?",
     "questionImage": null,
     "options": [
@@ -2882,7 +2882,7 @@
   {
     "id": "161",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which immunoglobulin is the most abundant in serum and provides long-term immunity?",
     "questionImage": null,
     "options": [
@@ -2900,7 +2900,7 @@
   {
     "id": "162",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 6-month-old infant presents with recurrent infections. Laboratory shows low levels of all immunoglobulins and absent B cells. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -2918,7 +2918,7 @@
   {
     "id": "163",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 25-year-old with a history of recurrent respiratory infections, autoimmune hemolytic anemia, and splenomegaly. Laboratory shows low IgG and IgA, but normal or low IgM. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -2936,7 +2936,7 @@
   {
     "id": "164",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which immunoglobulin is the first to be produced in a primary immune response?",
     "questionImage": null,
     "options": [
@@ -2954,7 +2954,7 @@
   {
     "id": "165",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 30-year-old with a history of severe allergic reactions to peanuts. Which immunoglobulin is responsible for type I hypersensitivity?",
     "questionImage": null,
     "options": [
@@ -2972,7 +2972,7 @@
   {
     "id": "166",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which complement component is the most important for opsonization?",
     "questionImage": null,
     "options": [
@@ -2990,7 +2990,7 @@
   {
     "id": "167",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "A 20-year-old with recurrent Neisseria infections (meningitis, gonorrhea). Which complement deficiency is most likely?",
     "questionImage": null,
     "options": [
@@ -3008,7 +3008,7 @@
   {
     "id": "168",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which cell type is the main effector cell in delayed-type hypersensitivity (type IV)?",
     "questionImage": null,
     "options": [
@@ -3026,7 +3026,7 @@
   {
     "id": "169",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 45-year-old with a kidney transplant develops fever and elevated creatinine. Biopsy shows cellular rejection with lymphocytes. Which type of hypersensitivity?",
     "questionImage": null,
     "options": [
@@ -3044,25 +3044,25 @@
   {
     "id": "170",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which cytokine is the main activator of macrophages and is important in granuloma formation?",
     "questionImage": null,
     "options": [
-      "IFN-γ",
+      "IFN-\u03b3",
       "IL-4",
       "IL-10",
-      "TNF-α"
+      "TNF-\u03b1"
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "IFN-γ is produced by Th1 cells and activates macrophages, important for granuloma formation. IL-4 drives Th2. IL-10 is anti-inflammatory. TNF-α is pro-inflammatory.",
+      "text": "IFN-\u03b3 is produced by Th1 cells and activates macrophages, important for granuloma formation. IL-4 drives Th2. IL-10 is anti-inflammatory. TNF-\u03b1 is pro-inflammatory.",
       "images": []
     }
   },
   {
     "id": "171",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "A 5-year-old with a history of mucocutaneous candidiasis and endocrinopathies. Which immune defect?",
     "questionImage": null,
     "options": [
@@ -3080,7 +3080,7 @@
   {
     "id": "172",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which MHC class is found on antigen-presenting cells and presents exogenous antigens?",
     "questionImage": null,
     "options": [
@@ -3098,7 +3098,7 @@
   {
     "id": "173",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 30-year-old with a history of SLE has a positive ANA and anti-dsDNA. Which type of hypersensitivity is SLE?",
     "questionImage": null,
     "options": [
@@ -3116,7 +3116,7 @@
   {
     "id": "174",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which immunoglobulin is found in mucosal secretions such as saliva and breast milk?",
     "questionImage": null,
     "options": [
@@ -3134,7 +3134,7 @@
   {
     "id": "175",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 20-year-old with a history of recurrent bacterial infections and thrombosis. Laboratory shows low C3 and C4, and a positive CH50. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -3152,7 +3152,7 @@
   {
     "id": "176",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which cell type is responsible for antibody-dependent cell-mediated cytotoxicity (ADCC)?",
     "questionImage": null,
     "options": [
@@ -3170,7 +3170,7 @@
   {
     "id": "177",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 50-year-old with a history of repeated episodes of angioedema without hives. Laboratory shows low C1 inhibitor. What is the diagnosis?",
     "questionImage": null,
     "options": [
@@ -3188,25 +3188,25 @@
   {
     "id": "178",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which cytokine is produced by Th2 cells and promotes IgE production?",
     "questionImage": null,
     "options": [
       "IL-4",
-      "IFN-γ",
+      "IFN-\u03b3",
       "IL-2",
-      "TNF-α"
+      "TNF-\u03b1"
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "IL-4 is produced by Th2 cells and promotes B-cell class switching to IgE. IFN-γ is Th1. IL-2 is T-cell growth factor. TNF-α is pro-inflammatory.",
+      "text": "IL-4 is produced by Th2 cells and promotes B-cell class switching to IgE. IFN-\u03b3 is Th1. IL-2 is T-cell growth factor. TNF-\u03b1 is pro-inflammatory.",
       "images": []
     }
   },
   {
     "id": "179",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "A 25-year-old with a history of autoimmune hemolytic anemia and a positive direct Coombs test. Which type of hypersensitivity?",
     "questionImage": null,
     "options": [
@@ -3224,7 +3224,7 @@
   {
     "id": "180",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which complement pathway is activated by mannose-binding lectin (MBL)?",
     "questionImage": null,
     "options": [
@@ -3242,7 +3242,7 @@
   {
     "id": "201",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "The MOST consistent cause of osteomyelitis is which one of the following organisms?",
     "questionImage": null,
     "options": [
@@ -3253,14 +3253,14 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "The great majority of cases are monomicrobial. Of episodes of acute vertebral osteomyelitis, 40–50% are caused by Staphylococcus aureus, 12% by streptococci, and 20% by gram-negative bacilli—mainly E. coli (9%) and P. aeruginosa (6%). Subacute vertebral osteomyelitis is typically caused by M. tuberculosis or Brucella species. S. aureus is the most consistent cause.",
+      "text": "The great majority of cases are monomicrobial. Of episodes of acute vertebral osteomyelitis, 40\u201350% are caused by Staphylococcus aureus, 12% by streptococci, and 20% by gram-negative bacilli\u2014mainly E. coli (9%) and P. aeruginosa (6%). Subacute vertebral osteomyelitis is typically caused by M. tuberculosis or Brucella species. S. aureus is the most consistent cause.",
       "images": []
     }
   },
   {
     "id": "202",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Several vertically transmitted infections may lead to hearing impairment, mental retardation and autism in a newborn. Which of the following will LEAST LIKELY infect a fetus by transplacental transmission?",
     "questionImage": null,
     "options": [
@@ -3271,14 +3271,14 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "HBV is transmitted by percutaneous or permucosal exposure to infectious body fluids, by sexual contact, and by perinatal transmission from an infected mother to her infant — but not typically transplacentally. Syphilis, rubella, and CMV are classic TORCH infections with transplacental transmission.",
+      "text": "HBV is transmitted by percutaneous or permucosal exposure to infectious body fluids, by sexual contact, and by perinatal transmission from an infected mother to her infant \u2014 but not typically transplacentally. Syphilis, rubella, and CMV are classic TORCH infections with transplacental transmission.",
       "images": []
     }
   },
   {
     "id": "203",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which antibody titers indicate recent or recurrent streptococcal infection and are found MOST OFTEN in rheumatic individuals?",
     "questionImage": null,
     "options": [
@@ -3296,7 +3296,7 @@
   {
     "id": "204",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "In which of the following exudate specimen can a positive smear for Neisseria gonorrhea be a basis for presumptive diagnosis of gonorrhea and start of treatment without additional laboratory test/s?",
     "questionImage": null,
     "options": [
@@ -3314,7 +3314,7 @@
   {
     "id": "205",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following statements is TRUE regarding poststreptococcal diseases?",
     "questionImage": null,
     "options": [
@@ -3332,7 +3332,7 @@
   {
     "id": "206",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "What is the MOST APPROPRIATE statement regarding the Herpes Simplex Virus?",
     "questionImage": null,
     "options": [
@@ -3350,7 +3350,7 @@
   {
     "id": "207",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which is the most common viral infection of the reproductive system?",
     "questionImage": null,
     "options": [
@@ -3368,7 +3368,7 @@
   {
     "id": "208",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "To which of the following is the toxicity in gonococcal infection largely attributed to?",
     "questionImage": null,
     "options": [
@@ -3386,7 +3386,7 @@
   {
     "id": "209",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What is the major problem posed by infection with enterococci (E. faecalis and E. faecium)?",
     "questionImage": null,
     "options": [
@@ -3404,7 +3404,7 @@
   {
     "id": "210",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What diagnostic procedure can be done which will be strongly suggestive of endocarditis?",
     "questionImage": null,
     "options": [
@@ -3422,7 +3422,7 @@
   {
     "id": "211",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which group of streptococcus is most commonly involved as a causative agent of acute and subacute endocarditis?",
     "questionImage": null,
     "options": [
@@ -3440,7 +3440,7 @@
   {
     "id": "212",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which part of a long bone is the primary focus of staphylococcal osteomyelitis?",
     "questionImage": null,
     "options": [
@@ -3458,7 +3458,7 @@
   {
     "id": "213",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "The natural reservoir of Ebola is which of the following animals?",
     "questionImage": null,
     "options": [
@@ -3476,7 +3476,7 @@
   {
     "id": "214",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Which of the following will least likely differentiate Taenia saginata from Taenia solium?",
     "questionImage": null,
     "options": [
@@ -3494,7 +3494,7 @@
   {
     "id": "215",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Laboratory requests for fungal cultures on Sabourauds dextrose agar at 25C will take how many weeks before follow-up to see the results?",
     "questionImage": null,
     "options": [
@@ -3505,14 +3505,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Incubation times will vary, from approximately 2 days for growth of yeast colonies to 2 to 4 weeks for growth of dermatophytes or dimorphic fungi such as Histoplasma capsulatum. Cultures are examined at least weekly for fungal growth and held for 4 – 6 weeks before being reported as negative.",
+      "text": "Incubation times will vary, from approximately 2 days for growth of yeast colonies to 2 to 4 weeks for growth of dermatophytes or dimorphic fungi such as Histoplasma capsulatum. Cultures are examined at least weekly for fungal growth and held for 4 \u2013 6 weeks before being reported as negative.",
       "images": []
     }
   },
   {
     "id": "216",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following statements most likely describes heat-stable toxin of E.coli?",
     "questionImage": null,
     "options": [
@@ -3530,7 +3530,7 @@
   {
     "id": "217",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 1 - An illness characterized by high grade fever, diffuse red rash that later desquamated, abdominal cramps and diarrhea, shock, and multi-organ failure was reported among women who used tampon during their menstrual period. This was termed as Toxic Shock Syndrome. What is the MOST probable cause of this illness?",
     "questionImage": null,
     "options": [
@@ -3548,7 +3548,7 @@
   {
     "id": "218",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "Which of the following explains the clinical manifestation of this illness?",
     "questionImage": null,
     "options": [
@@ -3559,14 +3559,14 @@
     ],
     "correctAnswer": 2,
     "rationale": {
-      "text": "TSS results from the ability of TSST-1 and enterotoxins to function as T cell mitogens. The enterotoxins bind directly to the invariant region of MHC and to T cell receptors via the vβ chain, resulting in a dramatic overexpansion of T cell clones (up to 20% of the total T cell population). The consequence is a 'cytokine storm,' with the release of inflammatory mediators that include interferon γ, IL-1, IL-6, TNF-α, and TNF-β.",
+      "text": "TSS results from the ability of TSST-1 and enterotoxins to function as T cell mitogens. The enterotoxins bind directly to the invariant region of MHC and to T cell receptors via the v\u03b2 chain, resulting in a dramatic overexpansion of T cell clones (up to 20% of the total T cell population). The consequence is a 'cytokine storm,' with the release of inflammatory mediators that include interferon \u03b3, IL-1, IL-6, TNF-\u03b1, and TNF-\u03b2.",
       "images": []
     }
   },
   {
     "id": "219",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following organisms was the MOST likely cause of the illness?",
     "questionImage": null,
     "options": [
@@ -3584,7 +3584,7 @@
   {
     "id": "220",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 2 - The Neisseria gonorrhoeae is a sexually transmitted disease in humans. To which of the following is toxicity in gonococcal infection largely attributed?",
     "questionImage": null,
     "options": [
@@ -3602,7 +3602,7 @@
   {
     "id": "221",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following processes is used by Neisseria gonococci to elude the host immune system?",
     "questionImage": null,
     "options": [
@@ -3613,14 +3613,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Gonococci have evolved mechanisms for frequently switching from one antigenic form (pilin, Opa, or LPS) to another antigenic form of the same molecule. This switching takes place in one in every 102.5–103 gonococci, an extremely rapid rate of change for bacteria. Because pilin, Opa, and LPS are surface-exposed antigens, their rapid switching helps the gonococci elude the host immune system.",
+      "text": "Gonococci have evolved mechanisms for frequently switching from one antigenic form (pilin, Opa, or LPS) to another antigenic form of the same molecule. This switching takes place in one in every 102.5\u2013103 gonococci, an extremely rapid rate of change for bacteria. Because pilin, Opa, and LPS are surface-exposed antigens, their rapid switching helps the gonococci elude the host immune system.",
       "images": []
     }
   },
   {
     "id": "222",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "In which of the following specimen can a positive smear for Neisseria gonorrhea be basis for presumptive diagnosis of gonorrhea and start treatment without laboratory test/s?",
     "questionImage": null,
     "options": [
@@ -3638,7 +3638,7 @@
   {
     "id": "223",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Situation 3 - A 28 year old full term pregnant delivered her baby while she is having at the same time painful grouped vesicles located on the left mucosal side of her vaginal wall. What would be the danger of having such lesions during delivery? Possibility of having ________?",
     "questionImage": null,
     "options": [
@@ -3656,7 +3656,7 @@
   {
     "id": "224",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "The possible cause of death of the newborn with disseminated viral disease of this etiology, is which of the following?",
     "questionImage": null,
     "options": [
@@ -3674,7 +3674,7 @@
   {
     "id": "225",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "What will be the sequelae of the neonate who had survived this severe infection?",
     "questionImage": null,
     "options": [
@@ -3692,8 +3692,8 @@
   {
     "id": "226",
     "subject": "Microbiology",
-    "topic": "General",
-    "question": "Situation 4 - A 38-year-old female in-patient was noted to have developed a heart murmur after a bout of high-grade fever for 5 days and was eventually diagnosed with endocarditis. Past medical records prior to her admission showed no abnormal heart findings. She underwent appendectomy one week before the onset of fever. The surgical wounds were noted to have erythematous edges during dressing on the 2nd post-op day. Blood culture was able to isolate gram-positive non-hemolytic cocci. The organism was observed to grow on bile and on 6.5% NaCl and survived at a temperature range of 10 and 45°C. Which of the following is the MOST likely causative organism?",
+    "topic": "Gram Pos",
+    "question": "Situation 4 - A 38-year-old female in-patient was noted to have developed a heart murmur after a bout of high-grade fever for 5 days and was eventually diagnosed with endocarditis. Past medical records prior to her admission showed no abnormal heart findings. She underwent appendectomy one week before the onset of fever. The surgical wounds were noted to have erythematous edges during dressing on the 2nd post-op day. Blood culture was able to isolate gram-positive non-hemolytic cocci. The organism was observed to grow on bile and on 6.5% NaCl and survived at a temperature range of 10 and 45\u00b0C. Which of the following is the MOST likely causative organism?",
     "questionImage": null,
     "options": [
       "Staphylococcus epidermidis",
@@ -3703,14 +3703,14 @@
     ],
     "correctAnswer": 1,
     "rationale": {
-      "text": "Enterococci are part of the normal enteric microbiota. They are usually nonhemolytic. They grow in the presence of bile, hydrolyze esculin (bile esculin positive) and in contrast to non-enterococcal group D streptococci, they grow well in 6.5% NaCl. Whereas enterococci grow well at between 10 and 45°C, streptococci generally grow at a much narrower temperature range.",
+      "text": "Enterococci are part of the normal enteric microbiota. They are usually nonhemolytic. They grow in the presence of bile, hydrolyze esculin (bile esculin positive) and in contrast to non-enterococcal group D streptococci, they grow well in 6.5% NaCl. Whereas enterococci grow well at between 10 and 45\u00b0C, streptococci generally grow at a much narrower temperature range.",
       "images": []
     }
   },
   {
     "id": "227",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What is the MAJOR problem posed by this organism?",
     "questionImage": null,
     "options": [
@@ -3728,7 +3728,7 @@
   {
     "id": "228",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following statements regarding acute/subacute bacterial endocarditis is TRUE?",
     "questionImage": null,
     "options": [
@@ -3746,7 +3746,7 @@
   {
     "id": "229",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Situation 5: HIV is a serious health problem because of the subsequent AIDS. What molecule is the receptor for the virus in the host cell?",
     "questionImage": null,
     "options": [
@@ -3764,7 +3764,7 @@
   {
     "id": "230",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "What is the cardinal feature of HIV infection?",
     "questionImage": null,
     "options": [
@@ -3775,14 +3775,14 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "The cardinal feature of HIV infection is the depletion of T helper-inducer lymphocytes—the result of HIV replication in this population of lymphocytes as well as of the death of uninfected T cells by indirect mechanisms. The T cells express the CD4 phenotypic marker on their surface.",
+      "text": "The cardinal feature of HIV infection is the depletion of T helper-inducer lymphocytes\u2014the result of HIV replication in this population of lymphocytes as well as of the death of uninfected T cells by indirect mechanisms. The T cells express the CD4 phenotypic marker on their surface.",
       "images": []
     }
   },
   {
     "id": "231",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Intracellular inhibitory proteins referred to as restriction factors have been identified. Which of the following is included among them?",
     "questionImage": null,
     "options": [
@@ -3793,14 +3793,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Cells contain intracellular antiviral inhibitory proteins referred to as restriction factors. One type is APOBEC3G, a cytidine deaminase that inhibits HIV replication. The Vif protein promotes viral infectivity by suppressing the effects of APOBEC3G. Another inhibitory protein is TRIM5α, which binds to incoming retrovirus particles and recruits them to proteasomes.",
+      "text": "Cells contain intracellular antiviral inhibitory proteins referred to as restriction factors. One type is APOBEC3G, a cytidine deaminase that inhibits HIV replication. The Vif protein promotes viral infectivity by suppressing the effects of APOBEC3G. Another inhibitory protein is TRIM5\u03b1, which binds to incoming retrovirus particles and recruits them to proteasomes.",
       "images": []
     }
   },
   {
     "id": "232",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 6 - A female sex worker developed purulent vaginal discharge but failed to seek medical treatment. Later she developed papules and pustules on her hands, forearm, and legs. What finally prompted her to seek medical consult was when she had painful swelling of her wrists. What is the MOST probably diagnosis of the joint swelling?",
     "questionImage": null,
     "options": [
@@ -3818,7 +3818,7 @@
   {
     "id": "233",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What would be the MOST helpful diagnostic laboratory test to support the clinical diagnosis?",
     "questionImage": null,
     "options": [
@@ -3836,7 +3836,7 @@
   {
     "id": "234",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "How does this organism elude the immune system of its host?",
     "questionImage": null,
     "options": [
@@ -3854,7 +3854,7 @@
   {
     "id": "235",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 7 - An eight-year old boy was brought to the clinic with crusted plaques beneath his nose. He had been having 'runny nose' for the past week when after a few days, vesiculopapular lesions started to appear beneath his nasal areas progressing to his left cheeks developing a 'golden-yellowish' pruritic wet crust. What is the primary impression of this case?",
     "questionImage": null,
     "options": [
@@ -3872,7 +3872,7 @@
   {
     "id": "236",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What organism is involved in the patient's lesions?",
     "questionImage": null,
     "options": [
@@ -3890,7 +3890,7 @@
   {
     "id": "237",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "What diagnostic tool can be requested?",
     "questionImage": null,
     "options": [
@@ -3908,7 +3908,7 @@
   {
     "id": "238",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 8 - Among individuals who have birds as pets, there are a number may suffer from a spectrum of clinical illnesses ranging from mild or inapparent infection to severe pneumonia, sepsis, and even death. What is the bacteria causing this illness?",
     "questionImage": null,
     "options": [
@@ -3926,7 +3926,7 @@
   {
     "id": "239",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "What is the OUTSTANDING property of the group to which this bacteria belong?",
     "questionImage": null,
     "options": [
@@ -3944,7 +3944,7 @@
   {
     "id": "240",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Atypicals",
     "question": "What is the infectious particle in this group of bacteria?",
     "questionImage": null,
     "options": [
@@ -3962,8 +3962,8 @@
   {
     "id": "241",
     "subject": "Microbiology",
-    "topic": "General",
-    "question": "Situation 9 – A 28 yo female consulted at the clinic because of sudden onset 3-4 days ago of dysuria, mucopurulent discharge, and frequent urination. Microscopic examination of the discharge did not show any fixed or motile organism. Gram-stained smear of the urethral discharge failed to show any intracellular diplococci. What is the MOST probable causative organism?",
+    "topic": "Bacteria",
+    "question": "Situation 9 \u2013 A 28 yo female consulted at the clinic because of sudden onset 3-4 days ago of dysuria, mucopurulent discharge, and frequent urination. Microscopic examination of the discharge did not show any fixed or motile organism. Gram-stained smear of the urethral discharge failed to show any intracellular diplococci. What is the MOST probable causative organism?",
     "questionImage": null,
     "options": [
       "Candida albicans",
@@ -3980,7 +3980,7 @@
   {
     "id": "242",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What is the test of choice to establish its diagnosis?",
     "questionImage": null,
     "options": [
@@ -3998,7 +3998,7 @@
   {
     "id": "243",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which property is UNIQUE in this organism?",
     "questionImage": null,
     "options": [
@@ -4016,8 +4016,8 @@
   {
     "id": "244",
     "subject": "Microbiology",
-    "topic": "General",
-    "question": "Situation 10—A previously healthy young man was brought to the ER because of progressive general weakening with symmetrical involvement of both upper and lower extremities. This was preceded by sudden onset of doubling of vision, difficulty of swallowing and slurring of speech. He was afebrile. In the ER, he suddenly went into respiratory difficulty and irreversible cardiac arrest. Upon interview of the relative, it was revealed that he had eaten leftover canned sardines for lunch. What is the MOST PROBABLE diagnosis?",
+    "topic": "Bacteria",
+    "question": "Situation 10\u2014A previously healthy young man was brought to the ER because of progressive general weakening with symmetrical involvement of both upper and lower extremities. This was preceded by sudden onset of doubling of vision, difficulty of swallowing and slurring of speech. He was afebrile. In the ER, he suddenly went into respiratory difficulty and irreversible cardiac arrest. Upon interview of the relative, it was revealed that he had eaten leftover canned sardines for lunch. What is the MOST PROBABLE diagnosis?",
     "questionImage": null,
     "options": [
       "Tetanus",
@@ -4034,7 +4034,7 @@
   {
     "id": "245",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What is the MOST PROBABLE causative organism involved in this disease?",
     "questionImage": null,
     "options": [
@@ -4052,7 +4052,7 @@
   {
     "id": "246",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following BEST describes the clinico-pathogenesis of the disease?",
     "questionImage": null,
     "options": [
@@ -4070,7 +4070,7 @@
   {
     "id": "247",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 11 - A 15-year-old girl, malnourished, developed fever, malaise, migratory joint pains, and swollen joints. She was diagnosed with carditis. What in the patient's history should be asked in relation to the patient's sign and symptoms? History of ____",
     "questionImage": null,
     "options": [
@@ -4081,14 +4081,14 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "There is a latent period of ~3 weeks (1–5 weeks) between the precipitating group A streptococcal infection and the appearance of the clinical features of ARF. As many as two-thirds of patients with an acute episode of rheumatic fever have a history of an upper respiratory tract infection several weeks before, and the peak age and seasonal incidence of acute rheumatic fever closely parallel that of GAS pharyngitis.",
+      "text": "There is a latent period of ~3 weeks (1\u20135 weeks) between the precipitating group A streptococcal infection and the appearance of the clinical features of ARF. As many as two-thirds of patients with an acute episode of rheumatic fever have a history of an upper respiratory tract infection several weeks before, and the peak age and seasonal incidence of acute rheumatic fever closely parallel that of GAS pharyngitis.",
       "images": []
     }
   },
   {
     "id": "248",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following is MOST PROBABLY the cause of the girl's symptoms?",
     "questionImage": null,
     "options": [
@@ -4106,7 +4106,7 @@
   {
     "id": "249",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Immunology",
     "question": "What is the pathogenetic mechanism of post-streptococcal disease?",
     "questionImage": null,
     "options": [
@@ -4124,7 +4124,7 @@
   {
     "id": "250",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Situation 12 - A 35-year-old female consulted the clinic because of foul-smelling vaginal discharge. The discharge was whitish-gray in color, adherent to the vaginal wall, but none of the cervical os. A wet mount of the vaginal fluid was done. It showed no PMNs, (+) for clue cells with adherent bacilli. Discharge had a fishy odor. What is the MOST PLAUSIBLE clinical diagnosis?",
     "questionImage": null,
     "options": [
@@ -4142,7 +4142,7 @@
   {
     "id": "251",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "What is causing the odorous discharge?",
     "questionImage": null,
     "options": [
@@ -4160,7 +4160,7 @@
   {
     "id": "252",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Finding 'clue cells' in the vaginal discharge of the patient would respond BEST with which of the following treatments?",
     "questionImage": null,
     "options": [
@@ -4178,7 +4178,7 @@
   {
     "id": "253",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "Situation 13 - In a squatter colony, there were sporadic reports of cases of watery diarrhea which mostly lasts for 5-7 days without treatment. Sometimes the report reaches epidemic proportion but the local health officials did not pay serious attention because of the self-limited course of the diarrhea. One day however, a patient suffered from a more severe form of diarrhea which lasted for a month. It was later learned that the patient is suffering from AIDS. What is the MOST probable cause of the incidences of watery diarrhea in the community?",
     "questionImage": null,
     "options": [
@@ -4189,14 +4189,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Cryptosporidium species, typically Cryptosporidium hominis, can infect the intestine in immunocompromised persons (eg, those with AIDS) and cause severe, intractable diarrhea. They have long been known as parasites of rodents, fowl, rhesus monkeys, cattle, and other herbivores and have probably been an unrecognized cause of self-limited, mild gastroenteritis and diarrhea in humans. The prominent clinical feature of cryptosporidiosis is watery diarrhea, which is mild and self-limited (1–2 weeks) in normal persons but may be severe and prolonged in immunocompromised or very young or old individuals.",
+      "text": "Cryptosporidium species, typically Cryptosporidium hominis, can infect the intestine in immunocompromised persons (eg, those with AIDS) and cause severe, intractable diarrhea. They have long been known as parasites of rodents, fowl, rhesus monkeys, cattle, and other herbivores and have probably been an unrecognized cause of self-limited, mild gastroenteritis and diarrhea in humans. The prominent clinical feature of cryptosporidiosis is watery diarrhea, which is mild and self-limited (1\u20132 weeks) in normal persons but may be severe and prolonged in immunocompromised or very young or old individuals.",
       "images": []
     }
   },
   {
     "id": "254",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "To what class/category of organism does this belong?",
     "questionImage": null,
     "options": [
@@ -4214,7 +4214,7 @@
   {
     "id": "255",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Parasite",
     "question": "How does it produce its usual clinical signs and symptoms?",
     "questionImage": null,
     "options": [
@@ -4232,7 +4232,7 @@
   {
     "id": "256",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 14 - A 55-year old fish vendor who is a diabetic, accidentally pricks his right hand with the shell of an oyster. The following day, the skin surrounding the pinprick became intensely painful, swollen, red and the center apparently filled with pus. In the evening, he was rushed to the hospital because his entire right hand and forearm have become very swollen and with areas of bullous eruptions. He was so highly febrile. Which of the following is the MOST likely causative organism?",
     "questionImage": null,
     "options": [
@@ -4250,7 +4250,7 @@
   {
     "id": "257",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "Select the characteristic which describes this organism:",
     "questionImage": null,
     "options": [
@@ -4268,7 +4268,7 @@
   {
     "id": "258",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following is the preferred medium to culture the organism?",
     "questionImage": null,
     "options": [
@@ -4286,7 +4286,7 @@
   {
     "id": "259",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Situation 15 - A 53-year old man suffers from the effects of childhood disease when he was 3, characterized by high grade fever which subsided but recurred after 2-3 days, and accompanied by muscle pains during the febrile period. Since then, he had patchy areas of flaccid paralysis and muscle atrophy. Which of the following microbial agents was the MOST probable cause of his childhood disease?",
     "questionImage": null,
     "options": [
@@ -4297,14 +4297,14 @@
     ],
     "correctAnswer": 1,
     "rationale": {
-      "text": "When an individual susceptible to infection is exposed to the virus, the response ranges from inapparent infection without symptoms to a mild febrile illness to severe and permanent paralysis. Most infections are subclinical; only about 1% of infections result in clinical illness. The incubation period is usually 7–14 days, but it may range from 3 to 35 days.",
+      "text": "When an individual susceptible to infection is exposed to the virus, the response ranges from inapparent infection without symptoms to a mild febrile illness to severe and permanent paralysis. Most infections are subclinical; only about 1% of infections result in clinical illness. The incubation period is usually 7\u201314 days, but it may range from 3 to 35 days.",
       "images": []
     }
   },
   {
     "id": "260",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "What is the pathogenic mechanism which explains the sequelae and residual of the disease on the patient?",
     "questionImage": null,
     "options": [
@@ -4322,7 +4322,7 @@
   {
     "id": "261",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "What is the goal of the WHO campaign to address this disease?",
     "questionImage": null,
     "options": [
@@ -4340,8 +4340,8 @@
   {
     "id": "262",
     "subject": "Microbiology",
-    "topic": "General",
-    "question": "Situation 16 – Escherichia coli is a member of the normal intestinal microbiota. However, certain strains cause diarrheal disease which are extremely common worldwide. Which of the following causes intense and prolonged hypersecretion of water and chlorides and inhibition of the reabsorption of sodium, with ensuing hypermotility and diarrhea lasting for days, similar to Vibrio cholera?",
+    "topic": "Bacteria",
+    "question": "Situation 16 \u2013 Escherichia coli is a member of the normal intestinal microbiota. However, certain strains cause diarrheal disease which are extremely common worldwide. Which of the following causes intense and prolonged hypersecretion of water and chlorides and inhibition of the reabsorption of sodium, with ensuing hypermotility and diarrhea lasting for days, similar to Vibrio cholera?",
     "questionImage": null,
     "options": [
       "Shiga toxin-producing E. coli (STEC)",
@@ -4358,7 +4358,7 @@
   {
     "id": "263",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following has been associated with hemorrhagic colitis (a severe form of diarrhea) and with hemolytic uremic syndrome, microangiopathic hemolytic anemia, and thrombocytopenia?",
     "questionImage": null,
     "options": [
@@ -4376,7 +4376,7 @@
   {
     "id": "264",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following produces a disease very similar to Shigellosis?",
     "questionImage": null,
     "options": [
@@ -4394,8 +4394,8 @@
   {
     "id": "265",
     "subject": "Microbiology",
-    "topic": "General",
-    "question": "Situation 17 – For the past few days, a 35-year old lady had dry cough associated with low-grade afternoon fever. Physical examinations revealed an emaciated patient with harsh breath sounds on auscultation of the lungs. No enlarged lymph node was observed or palpated. X-ray showed increased density of both upper lung fields. Which of the following forms of tuberculosis is the patient manifesting?",
+    "topic": "TB",
+    "question": "Situation 17 \u2013 For the past few days, a 35-year old lady had dry cough associated with low-grade afternoon fever. Physical examinations revealed an emaciated patient with harsh breath sounds on auscultation of the lungs. No enlarged lymph node was observed or palpated. X-ray showed increased density of both upper lung fields. Which of the following forms of tuberculosis is the patient manifesting?",
     "questionImage": null,
     "options": [
       "Ghon complex",
@@ -4412,7 +4412,7 @@
   {
     "id": "266",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "TB",
     "question": "What does a positive tuberculin test imply?",
     "questionImage": null,
     "options": [
@@ -4430,7 +4430,7 @@
   {
     "id": "267",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "TB",
     "question": "In which layer of a tubercle (TB granuloma) can TB bacilli be isolated and cultured?",
     "questionImage": null,
     "options": [
@@ -4448,7 +4448,7 @@
   {
     "id": "268",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Situation 18 - The herpesvirus family contains several of the most important human viral pathogens clinically, it exhibits a spectrum of diseases. What is the MOST outstanding property of the herpes virus?",
     "questionImage": null,
     "options": [
@@ -4466,7 +4466,7 @@
   {
     "id": "269",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which of the following is caused by a herpes virus?",
     "questionImage": null,
     "options": [
@@ -4477,14 +4477,14 @@
     ],
     "correctAnswer": 2,
     "rationale": {
-      "text": "Nine herpesvirus types are known to infect humans: herpes simplex viruses 1 and 2 (HSV-1 and HSV-2), varicella-zoster virus (VZV), Epstein–Barr virus (EBV), human cytomegalovirus (HCMV), human herpesvirus 6A and 6B, human herpesvirus 7, and Kaposi's sarcoma-associated herpesvirus (KSHV).",
+      "text": "Nine herpesvirus types are known to infect humans: herpes simplex viruses 1 and 2 (HSV-1 and HSV-2), varicella-zoster virus (VZV), Epstein\u2013Barr virus (EBV), human cytomegalovirus (HCMV), human herpesvirus 6A and 6B, human herpesvirus 7, and Kaposi's sarcoma-associated herpesvirus (KSHV).",
       "images": []
     }
   },
   {
     "id": "270",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which of the following herpes virus can cause congenital anomalies usually involving the central nervous system?",
     "questionImage": null,
     "options": [
@@ -4502,7 +4502,7 @@
   {
     "id": "271",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Situation 19 - HIV infection and its dreaded consequence of AIDS has a string potential to reach worldwide or pandemic proportion. What is the CARDINAL pathogenic feature of HIV infection?",
     "questionImage": null,
     "options": [
@@ -4520,7 +4520,7 @@
   {
     "id": "272",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "Which of the following is the BEST predictor of the long term clinical outcome of HIV infection?",
     "questionImage": null,
     "options": [
@@ -4538,7 +4538,7 @@
   {
     "id": "273",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Viro",
     "question": "What is the MOST optimistic but realistic expectation of treatment of HIV-infected patients considering the current advances in drug and related therapy?",
     "questionImage": null,
     "options": [
@@ -4556,7 +4556,7 @@
   {
     "id": "274",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "Situation 20 - A 60 yrs old was admitted because of sudden onset of bloody diarrhea associated with lower abdominal pain during each bowel movement. She also exhibited sensorial disturbances and involuntary movement of the upper extremities. Stool examination showed gram-negative bacilli with white blood cells and a few red blood cells. Patient responded to IV fluids and parenteral antibiotics. Which of the following is the MOST PROBABLE organism involved?",
     "questionImage": null,
     "options": [
@@ -4574,7 +4574,7 @@
   {
     "id": "275",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following pathogenic features explains the neurologic manifestation of the patient?",
     "questionImage": null,
     "options": [
@@ -4592,7 +4592,7 @@
   {
     "id": "276",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following characteristics distinguishes this organism on differential media?",
     "questionImage": null,
     "options": [
@@ -4610,7 +4610,7 @@
   {
     "id": "277",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "Situation 21 - Janette, a 35 years old sales lady, developed sudden high grade fever, chills, and sharp pleural pain. She also had rusty colored sputum which on gram stain showed gram (+) diplococci, lancet-shaped and arranged in chains. Which of the following is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -4621,14 +4621,14 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Pneumococcal pneumonia is caused by Streptococcus pneumoniae. The pneumococcus does not have Lancefield Antigens. Under the microscope, they appear as lancet-shaped gram-positive cocci arranged in pairs (diplococci). The major virulence factor of the pneumococcus is its polysaccharide capsule, which protects the organism from phagocytosis. The onset of the clinical manifestations is abrupt, consisting of a severe shaking chill and sustained fever of 39°C to 41°C. Most patients have a productive cough with blood-tinged sputum, and they commonly have chest pain (pleurisy).",
+      "text": "Pneumococcal pneumonia is caused by Streptococcus pneumoniae. The pneumococcus does not have Lancefield Antigens. Under the microscope, they appear as lancet-shaped gram-positive cocci arranged in pairs (diplococci). The major virulence factor of the pneumococcus is its polysaccharide capsule, which protects the organism from phagocytosis. The onset of the clinical manifestations is abrupt, consisting of a severe shaking chill and sustained fever of 39\u00b0C to 41\u00b0C. Most patients have a productive cough with blood-tinged sputum, and they commonly have chest pain (pleurisy).",
       "images": []
     }
   },
   {
     "id": "278",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "If Janette was not treated early enough for her condition, what can happen?",
     "questionImage": null,
     "options": [
@@ -4646,7 +4646,7 @@
   {
     "id": "279",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "How does Pneumococci produce the disease? Which of the following is the LEAST LIKELY reason?",
     "questionImage": null,
     "options": [
@@ -4657,14 +4657,14 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "Pneumococci can multiply in tissue as part of the infection process. The bacteria's ability to survive and proliferate in the host's tissues contributes to the pathogenesis of pneumococcal infections. However, the least likely reason among the options is not their ability to multiply, but rather the fact that they are part of the normal flora—which is a predisposing factor, not a mechanism of disease production.",
+      "text": "Pneumococci can multiply in tissue as part of the infection process. The bacteria's ability to survive and proliferate in the host's tissues contributes to the pathogenesis of pneumococcal infections. However, the least likely reason among the options is not their ability to multiply, but rather the fact that they are part of the normal flora\u2014which is a predisposing factor, not a mechanism of disease production.",
       "images": []
     }
   },
   {
     "id": "280",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "Situation 22- A 42 year old male consulted the clinic because of genital discharge consisting of a yellow, creamy pus and painful urination. The doctor diagnosed him as having symptomatic urethritis. What will be the gram stain and culture results of the urethral smear of this patient?",
     "questionImage": null,
     "options": [
@@ -4682,7 +4682,7 @@
   {
     "id": "281",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What organism is the MOST common causative agent of urethritis in males?",
     "questionImage": null,
     "options": [
@@ -4700,7 +4700,7 @@
   {
     "id": "282",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "For males, when the stain result is (+), there is no need for additional diagnostic testing. However, for females, which of the following should be done?",
     "questionImage": null,
     "options": [
@@ -4718,7 +4718,7 @@
   {
     "id": "283",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 23 - A 60-year old smoker developed productive cough with associated fever and chills, and shortness of breath. Sputum gram-stain revealed neutrophils with very few organisms that stain poorly with gram stain but are positive with silver. Culture showed gray-white textured glass appearance when grown on charcoal yeast extract with iron and cysteine. What pathogen is responsible for the patient's condition?",
     "questionImage": null,
     "options": [
@@ -4729,14 +4729,14 @@
     ],
     "correctAnswer": 2,
     "rationale": {
-      "text": "Legionella Pneumophilia – Gram (-) rod. Gram stains poorly – use silver stain. Grown on charcoal yeast extract medium with iron and cysteine. Colonies are round or flat with entire edges. They vary in color from colorless to iridescent pink or blue and are translucent or speckled. Legionnaire's disease – severe pneumonia, fever, GI and CNS symptoms.",
+      "text": "Legionella Pneumophilia \u2013 Gram (-) rod. Gram stains poorly \u2013 use silver stain. Grown on charcoal yeast extract medium with iron and cysteine. Colonies are round or flat with entire edges. They vary in color from colorless to iridescent pink or blue and are translucent or speckled. Legionnaire's disease \u2013 severe pneumonia, fever, GI and CNS symptoms.",
       "images": []
     }
   },
   {
     "id": "284",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Pos",
     "question": "Which of the following characterize the pathogen?",
     "questionImage": null,
     "options": [
@@ -4754,7 +4754,7 @@
   {
     "id": "285",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What is the antibiotic choice for this case?",
     "questionImage": null,
     "options": [
@@ -4772,7 +4772,7 @@
   {
     "id": "286",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Gram Neg",
     "question": "Situation 24 - antibiotic resistance is a growing concern in the treatment of infection. Resistance to nafcillin, and to methicillin and oxacillin (MRSA) is the more commonly known example of this problem. What is the known regulatory mechanism for the development of the antibiotic resistance?",
     "questionImage": null,
     "options": [
@@ -4783,14 +4783,14 @@
     ],
     "correctAnswer": 1,
     "rationale": {
-      "text": "Microorganisms produce enzymes that destroy the active drug. Examples: Staphylococci resistant to penicillin G produce a β-lactamase that destroys the drug. Other β-lactamases are produced by gram-negative rods. Gram-negative bacteria resistant to aminoglycosides (by virtue of a plasmid) produce adenylating, phosphorylating, or acetylating enzymes that destroy the drug.",
+      "text": "Microorganisms produce enzymes that destroy the active drug. Examples: Staphylococci resistant to penicillin G produce a \u03b2-lactamase that destroys the drug. Other \u03b2-lactamases are produced by gram-negative rods. Gram-negative bacteria resistant to aminoglycosides (by virtue of a plasmid) produce adenylating, phosphorylating, or acetylating enzymes that destroy the drug.",
       "images": []
     }
   },
   {
     "id": "287",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Following the hospital-acquired MRSA is the emergence of the community-acquired methicillin resistant staph aureus (CA-MRSA). What is a distinguishing property of the community-acquired resistant strain compared to the hospital-acquired?",
     "questionImage": null,
     "options": [
@@ -4808,7 +4808,7 @@
   {
     "id": "288",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What is an IMPORTANT virulence factor in the CA-MRSA?",
     "questionImage": null,
     "options": [
@@ -4826,7 +4826,7 @@
   {
     "id": "289",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "Situation 25 - Mang Juan is a horticulturist. He consulted the clinic because multiple subcutaneous nodules and abscesses occurring along the lymphatics of his right upper extremity. He recalled a history of trauma incurred while tending his plants several months ago. The initial working impression of this case is to get biopsy materials or exudates from an ulcerated lesion and request for which of the following?",
     "questionImage": null,
     "options": [
@@ -4844,7 +4844,7 @@
   {
     "id": "290",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "The most reliable diagnostic tool to document this case is to get biopsy materials or exudates from an ulcerated lesion and request for which of the following?",
     "questionImage": null,
     "options": [
@@ -4862,7 +4862,7 @@
   {
     "id": "291",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Myco",
     "question": "How is this case of subcutaneous mycosis treated?",
     "questionImage": null,
     "options": [
@@ -4880,7 +4880,7 @@
   {
     "id": "292",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 26 - in the medieval age, a deadly epidemic killed hundreds of thousands to millions of the population of Western Europe. The disease was characterized by either high-grade fever and painful lymphadenopathy or primarily pneumonia with or without meningitis, and terminating in disseminated intravascular coagulation and death. What organism caused this?",
     "questionImage": null,
     "options": [
@@ -4898,7 +4898,7 @@
   {
     "id": "293",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Zoonoses",
     "question": "In the bubonic form of the disease, which of the following is considered the route for infection of humans?",
     "questionImage": null,
     "options": [
@@ -4916,7 +4916,7 @@
   {
     "id": "294",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following is essential for the virulence of the organism?",
     "questionImage": null,
     "options": [
@@ -4934,7 +4934,7 @@
   {
     "id": "295",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 27- A number of adult patient in a certain community hospital manifested with similar clinical symptoms. The illness starts with malaise, fever, headache, sore throat and non-productive cough. Later, cough became productive with sputum, sometimes blood-steaked. Blood examination showed mild leukocytosis While chest radiographs showed pulmonary consolidation, the patients were up and about, and appeared physically well. Treatment with penicillin, cephalosporin, and vancomycin failed but treatment with tetracycline and erythromycin were effective. The usual bacteriologic method failed to isolate the organism. Which of the following is the MOST likely bacterial agent?",
     "questionImage": null,
     "options": [
@@ -4952,7 +4952,7 @@
   {
     "id": "296",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "What is the plausible reason for therapeutic failure with Penicillin, et. al., and success with Tetracycline et. al.?",
     "questionImage": null,
     "options": [
@@ -4970,7 +4970,7 @@
   {
     "id": "297",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "How is the diagnosis usually made in this illness?",
     "questionImage": null,
     "options": [
@@ -4988,7 +4988,7 @@
   {
     "id": "298",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Situation 28- Eight hours after eating in a fiesta, Anna developed nausea and vomiting, headache, profuse diarrhea and low grade fever. Blood culture was negative for growth but the stool culture was positive. Repeated blood culture remained negative while stool culture was positive even 2 weeks after the initial examination. What was the MOST PROBABLE 'growth' in the stool culture?",
     "questionImage": null,
     "options": [
@@ -5006,7 +5006,7 @@
   {
     "id": "299",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "Which of the following produce early bacteremia after oral infection, with possible focal lesions in lungs, meninges, and other organs but without any intestinal manifestations?",
     "questionImage": null,
     "options": [
@@ -5024,7 +5024,7 @@
   {
     "id": "300",
     "subject": "Microbiology",
-    "topic": "General",
+    "topic": "Bacteria",
     "question": "In Typhoid Fever, where is the site of multiplication of the bacteria?",
     "questionImage": null,
     "options": [

@@ -17,8 +17,44 @@ const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
 }[char]));
 
+const pathologyPhotosEnabled = false;
+
 function imageMarkup(image, className, alt) {
-    return image ? `<img class="${className}" src="${escapeHtml(image)}" alt="${escapeHtml(alt)}">` : '';
+    if (!pathologyPhotosEnabled || !image) return '';
+    const fallback = 'assets/pathology/acute-inflammation.jpg';
+    return `<img class="${className}" src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';">`;
+}
+
+const pathologyImages = {
+    inflammation: 'assets/pathology/acute-inflammation.jpg',
+    liver: 'assets/pathology/cirrhosis.jpg',
+    rickets: 'assets/pathology/rickets.jpg',
+    melanoma: 'assets/pathology/melanoma.jpg',
+    appendicitis: 'assets/pathology/appendicitis.jpg',
+    asbestosis: 'assets/pathology/asbestosis.jpg',
+    osteosarcoma: 'assets/pathology/osteosarcoma.jpg',
+    glomerulonephritis: 'assets/pathology/glomerulonephritis.jpeg',
+    tuberculosis: 'assets/pathology/tuberculosis.jpg',
+    breast: 'assets/pathology/breast-cancer.png',
+    colon: 'assets/pathology/colon-cancer.png',
+    thyroid: 'assets/pathology/thyroid-cancer.jpg',
+    lymphoma: 'assets/pathology/hodgkin-lymphoma.jpg',
+    sickle: 'assets/pathology/sickle-cell.jpg',
+    sarcoidosis: 'assets/pathology/sarcoidosis.png',
+    endocarditis: 'assets/pathology/endocarditis.jpg',
+    pancreatitis: 'assets/pathology/pancreatitis.png',
+    osteoporosis: 'assets/pathology/osteoporosis.png',
+    psoriasis: 'assets/pathology/psoriasis.jpg',
+    cyclophosphamide: 'assets/pathology/cyclophosphamide.svg',
+    naloxone: 'assets/pathology/naloxone.svg',
+    fallback: 'assets/pathology/acute-inflammation.jpg'
+};
+
+function pathologyImageForQuestion(question) {
+    if (!pathologyPhotosEnabled) return null;
+    const text = `${question.topic || ''} ${question.question || ''}`.toLowerCase();
+    const match = Object.keys(pathologyImages).find((key) => key !== 'fallback' && text.includes(key));
+    return pathologyImages[match || 'fallback'];
 }
 
 function getYearLevelForSubject(subjectId) {
@@ -288,14 +324,15 @@ function render() {
         </button>`;
     }).join('');
     const rationale = revealed ? `<div class="rationale"><strong>Answer: ${String.fromCharCode(65 + question.correctAnswer)}</strong> - ${escapeHtml(question.rationale?.text || '')}
-        ${(question.rationale?.images || []).map((image) => imageMarkup(image, 'rationale-image', 'Rationale illustration')).join('')}</div>` : '';
+        ${imageMarkup(pathologyImageForQuestion(question), 'rationale-image', 'Pathology illustration')}</div>` : '';
+    const showQuestionImage = answer !== undefined || revealed;
     $('questionContent').innerHTML = `
         <div class="q-meta"><span class="q-num">Q${state.currentIndex + 1}</span>
             <span class="badge badge-theme">${escapeHtml(question.topic)}</span>
         </div>
         <div class="q-stem">${escapeHtml(question.question)}</div>
-        ${imageMarkup(question.questionImage, 'question-image', 'Question illustration')}
         <div class="options">${options}</div>
+        ${showQuestionImage ? imageMarkup(pathologyImageForQuestion(question), 'question-image', 'Pathology illustration') : ''}
         ${answer !== undefined && !revealed ? '<button class="reveal-btn" id="revealButton" type="button">Show answer &amp; rationale</button>' : ''}
         ${rationale}
     `;
