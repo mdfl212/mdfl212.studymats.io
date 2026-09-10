@@ -3940,8 +3940,8 @@
   "rationale": {
     "text": "The presentation is classic for urogenital Chlamydia trachomatis infection (cervicitis). C. trachomatis is an obligate intracellular bacterium with a unique developmental cycle, including an infectious elementary body and a replicative reticulate body. NAAT is the preferred diagnostic test because it has high sensitivity and specificity and can be performed on first-catch urine, an endocervical swab, or a self-collected vaginal swab. Gram stain is not useful for chlamydia; it may suggest gonorrhea if intracellular gram-negative diplococci are seen. Culture is specific but technically difficult, expensive, and not routinely used. Darkfield microscopy is used for syphilis, and serology is not recommended for uncomplicated genital chlamydia. Treatment is typically doxycycline 100 mg PO BID for 7 days; azithromycin 1 g PO once may be used in some situations, including pregnancy depending on guidelines. Patients should also be tested for gonorrhea, HIV, syphilis, and trichomonas; partners should be evaluated and treated; and complications include pelvic inflammatory disease, infertility, ectopic pregnancy, and Fitz-Hugh-Curtis syndrome.",
     "images": []
-  }
-}
+    }
+  },
   {
     "id": "240",
     "subject": "Microbiology",
@@ -5039,7 +5039,7 @@
       "text": "The 'Enteric Fevers' (Typhoid fever): The ingested salmonellae reach the small intestine, from which they enter the lymphatics (Peyer's patches) and then the bloodstream. They are carried by the blood to many organs, including the intestine. The organisms multiply in intestinal lymphoid tissue and are excreted in stools.",
       "images": []
     }
-  }
+  },
   {
     "id": "301",
     "subject": "Microbiology",
@@ -5552,5 +5552,5 @@
       "text": "ETEC is the primary agent of traveler's diarrhea. Its heat-labile toxin (LT) is structurally and functionally homologous to Cholera toxin.",
       "images": []
     }
-  },
+  }
 ]

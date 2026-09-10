@@ -247,7 +247,7 @@ function renderTable() {
                 <td>${index + 1}</td>
                 <td>${escapeHtml(question.topic || '—')}</td>
                 <td>${escapeHtml(answerText)}</td>
-                <td>${escapeHtml(question.question)}</td>
+                <td><span class="table-question-id">ID: ${escapeHtml(question.id)}</span>${escapeHtml(question.question)}</td>
                 <td>${escapeHtml(rationale)}</td>
             </tr>
         `;
@@ -328,6 +328,7 @@ function render() {
     const showQuestionImage = answer !== undefined || revealed;
     $('questionContent').innerHTML = `
         <div class="q-meta"><span class="q-num">Q${state.currentIndex + 1}</span>
+            <span class="q-json-id">ID: ${escapeHtml(question.id)}</span>
             <span class="badge badge-theme">${escapeHtml(question.topic)}</span>
         </div>
         <div class="q-stem">${escapeHtml(question.question)}</div>
