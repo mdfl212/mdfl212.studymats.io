@@ -453,7 +453,7 @@
     "id": "26",
     "subject": "Microbiology",
     "topic": "Gram Neg",
-    "question": "A 55-year-old with diabetes presents with a painless, non-healing ulcer on the foot. Culture shows gram-negative rods that are oxidase-negative, lactose-fermenting on MacConkey, and produce a foul smell. What organism?",
+    "question": "A 55-year-old with diabetes presents with a painless, non-healing ulcer on the foot. Culture shows gram-negative rods that are oxidase-negative, lactose-negative on MacConkey, and produce a foul smell. What organism?",
     "questionImage": null,
     "options": [
       "Klebsiella pneumoniae",
@@ -3242,7 +3242,7 @@
   {
     "id": "201",
     "subject": "Microbiology",
-    "topic": "Gram Neg",
+    "topic": "Bacteria",
     "question": "The MOST consistent cause of osteomyelitis is which one of the following organisms?",
     "questionImage": null,
     "options": [
@@ -3923,24 +3923,25 @@
       "images": []
     }
   },
-  {
-    "id": "239",
-    "subject": "Microbiology",
-    "topic": "Gram Neg",
-    "question": "What is the OUTSTANDING property of the group to which this bacteria belong?",
-    "questionImage": null,
-    "options": [
-      "Obligate intracellular parasite",
-      "Do not possess cell wall",
-      "Resistant to all antibiotic",
-      "Survive in highly acidic environment"
-    ],
-    "correctAnswer": 0,
-    "rationale": {
-      "text": "Like other chlamydiae, C. psittaci is an obligate intracellular parasite, has a cell wall resembling that of Gram-negative bacteria, and is susceptible to some antibiotics. Its developmental cycle is complex and includes two forms: an infectious elementary body and a reticulate body.",
-      "images": []
-    }
-  },
+{
+  "id": "239",
+  "subject": "Microbiology",
+  "topic": "Chlamydia / STI",
+  "question": "A 21-year-old sexually active woman presents with 5 days of mucopurulent vaginal discharge, dysuria, and postcoital bleeding. She is afebrile, and pelvic examination shows a friable, erythematous cervix with mucopurulent endocervical discharge. Urine pregnancy test is negative. Which of the following is the most appropriate diagnostic test to confirm the suspected infection?",
+  "questionImage": null,
+  "options": [
+    "Nucleic acid amplification test (NAAT) of first-catch urine or endocervical/vaginal swab",
+    "Gram stain of vaginal discharge showing gram-negative intracellular diplococci",
+    "Culture on Thayer-Martin agar",
+    "Darkfield microscopy of vaginal discharge",
+    "Serum IgM ELISA for Chlamydia trachomatis"
+  ],
+  "correctAnswer": 0,
+  "rationale": {
+    "text": "The presentation is classic for urogenital Chlamydia trachomatis infection (cervicitis). C. trachomatis is an obligate intracellular bacterium with a unique developmental cycle, including an infectious elementary body and a replicative reticulate body. NAAT is the preferred diagnostic test because it has high sensitivity and specificity and can be performed on first-catch urine, an endocervical swab, or a self-collected vaginal swab. Gram stain is not useful for chlamydia; it may suggest gonorrhea if intracellular gram-negative diplococci are seen. Culture is specific but technically difficult, expensive, and not routinely used. Darkfield microscopy is used for syphilis, and serology is not recommended for uncomplicated genital chlamydia. Treatment is typically doxycycline 100 mg PO BID for 7 days; azithromycin 1 g PO once may be used in some situations, including pregnancy depending on guidelines. Patients should also be tested for gonorrhea, HIV, syphilis, and trichomonas; partners should be evaluated and treated; and complications include pelvic inflammatory disease, infertility, ectopic pregnancy, and Fitz-Hugh-Curtis syndrome.",
+    "images": []
+  }
+}
   {
     "id": "240",
     "subject": "Microbiology",
@@ -5039,4 +5040,517 @@
       "images": []
     }
   }
+  {
+    "id": "301",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which component of the Enterobacteriaceae lipopolysaccharide (LPS) complex is biologically active, acts as endotoxin, and is specifically recognized by pattern recognition receptor TLR4?",
+    "questionImage": null,
+    "options": [
+      "Core oligosaccharide",
+      "O antigen",
+      "Lipid A",
+      "K1 capsular antigen"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Lipid A is the endotoxin component of LPS that binds TLR4, triggering systemic inflammatory cascades leading to shock and fever.",
+      "images": []
+    }
+  },
+  {
+    "id": "302",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What is the biochemical mechanism of action of Heat-Labile Enterotoxin (LT) produced by Enterotoxigenic Escherichia coli (ETEC)?",
+    "questionImage": null,
+    "options": [
+      "Inhibition of protein synthesis by cleaving 28S rRNA",
+      "ADP-ribosylation activating adenylate cyclase, increasing intracellular cAMP",
+      "Activation of membrane guanylyl cyclase, increasing intracellular cGMP",
+      "Direct cleavage of SNARE proteins inhibiting neurotransmitter release"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "LT ADP-ribosylates Gs alpha subunit, permanently activating adenylate cyclase to increase cAMP, leading to Cl- secretion and watery diarrhea.",
+      "images": []
+    }
+  },
+  {
+    "id": "303",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which structural feature differentiates Klebsiella pneumoniae from most other Enterobacteriaceae on standard agar media, causing distinct mucoid colonies?",
+    "questionImage": null,
+    "options": [
+      "Peritrichous flagella",
+      "Thick polysaccharide capsule",
+      "Prodigiosin pigment",
+      "Lipooligosaccharide wall"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Klebsiella species possess prominent polysaccharide capsules responsible for their characteristic large, hypermucoid colony morphology and non-motile state.",
+      "images": []
+    }
+  },
+  {
+    "id": "304",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which biochemical reaction pattern on MacConkey agar and urea medium is typical for Proteus mirabilis?",
+    "questionImage": null,
+    "options": [
+      "Lactose fermenter (pink), urease negative, non-motile",
+      "Non-lactose fermenter (colorless), strong urease positive, swarming motility",
+      "Lactose fermenter (pink), urease positive, mucoid",
+      "Non-lactose fermenter (colorless), urease negative, non-motile"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Proteus mirabilis is a non-lactose fermenter that produces potent urease (alkalinizing urine) and exhibits characteristic swarming motility on agar plates.",
+      "images": []
+    }
+  },
+  {
+    "id": "305",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What key molecular mechanism allows Enteropathogenic E. coli (EPEC) to produce attaching and effacing (A/E) lesions on intestinal epithelial cells?",
+    "questionImage": null,
+    "options": [
+      "Secretion of Shiga toxin via bacteriophage lysogeny",
+      "Locus of Enterocyte Effacement (LEE) encoded T3SS injecting Tir to induce actin rearrangement",
+      "Plasmid-encoded heat-stable enterotoxin activating guanylyl cyclase",
+      "Elastase secretion degrading mucosal tight junctions"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "EPEC uses a Type III Secretion System (encoded by LEE) to inject its own receptor (Tir) into host cells, recruiting actin to form characteristic pedestals beneath bacteria.",
+      "images": []
+    }
+  },
+  {
+    "id": "306",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Why are beta-lactam antibiotics strictly contraindicated in infections caused by Enterohemorrhagic E. coli (EHEC) O157:H7?",
+    "questionImage": null,
+    "options": [
+      "They induce expression and release of Shiga toxin, increasing the risk of Hemolytic Uremic Syndrome (HUS)",
+      "EHEC produces a chromosome-encoded cephalosporinase that inactivates all beta-lactams",
+      "They cause immediate bacterial sporulation",
+      "They promote rapid intracellular invasion into gut M-cells"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Antibiotic treatment damages bacterial DNA/membranes, triggering lambdoid prophage induction and dramatically increasing Shiga toxin release, which precipitates HUS.",
+      "images": []
+    }
+  },
+  {
+    "id": "307",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which diagnostic medium is specifically utilized to differentiate EHEC O157:H7 from most non-pathogenic E. coli strains?",
+    "questionImage": null,
+    "options": [
+      "Thiosulfate-Citrate-Bile Salts-Sucrose (TCBS) Agar",
+      "Sorbitol-MacConkey (SMAC) Agar",
+      "Regan-Lowe Charcoal Agar",
+      "Skirrow Medium"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Unlike ~95% of E. coli strains, EHEC O157:H7 does NOT ferment sorbitol within 24 hours, yielding characteristic colorless colonies on Sorbitol-MacConkey agar.",
+      "images": []
+    }
+  },
+  {
+    "id": "308",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What enzymatic property of Pseudomonas aeruginosa produces its blue-green extracellular pigmentation?",
+    "questionImage": null,
+    "options": [
+      "Prodigiosin (red) and Violacein (purple)",
+      "Pyocyanin (blue) and Pyoverdin (fluorescent green)",
+      "Melanin (black) and Biliverdin (yellow)",
+      "Carotenoid (orange) and Hemolysin (red)"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "P. aeruginosa produces pyocyanin (blue pigment) and pyoverdin (fluorescent yellow-green pigment), which combine to generate its classic blue-green appearance.",
+      "images": []
+    }
+  },
+  {
+    "id": "309",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What is the primary mechanism of action of Exotoxin A produced by Pseudomonas aeruginosa?",
+    "questionImage": null,
+    "options": [
+      "Increases cGMP levels via guanylyl cyclase activation",
+      "ADP-ribosylates Elongation Factor-2 (EF-2), halting host cell protein synthesis",
+      "Cleaves synaptobrevin to block inhibitory neurotransmitter release",
+      "Pore-forming cytotoxin targeting polymorphonuclear leukocytes"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Exotoxin A inhibits eukaryotic protein synthesis by ADP-ribosylating EF-2, identical to the mechanism of action of Diphtheria toxin.",
+      "images": []
+    }
+  },
+  {
+    "id": "310",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which characteristic biochemical result differentiates Acinetobacter baumannii from Pseudomonas species?",
+    "questionImage": null,
+    "options": [
+      "Oxidase test result",
+      "Lactose fermentation",
+      "Gram-stain morphology",
+      "Growth at 37°C"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Acinetobacter species are strictly oxidase-negative non-fermenters, whereas Pseudomonas species are oxidase-positive.",
+      "images": []
+    }
+  },
+  {
+    "id": "311",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which organism is an intrinsic producer of beta-lactamases that is characteristically resistant to carbapenems and aminoglycosides, but highly susceptible to Trimethoprim-Sulfamethoxazole (TMP-SMX)?",
+    "questionImage": null,
+    "options": [
+      "Klebsiella pneumoniae",
+      "Stenotrophomonas maltophilia",
+      "Pseudomonas aeruginosa",
+      "Burkholderia mallei"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Stenotrophomonas maltophilia is intrinsically resistant to carbapenems (via L1 metallo-beta-lactamase) and aminoglycosides; TMP-SMX is the drug of choice.",
+      "images": []
+    }
+  },
+  {
+    "id": "312",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What medium is optimal for isolating Vibrio cholerae from mixed fecal flora, and what color are its colonies?",
+    "questionImage": null,
+    "options": [
+      "MacConkey agar; Pink colonies",
+      "TCBS agar; Yellow colonies due to sucrose fermentation",
+      "TCBS agar; Green colonies due to lack of sucrose fermentation",
+      "Regan-Lowe agar; Mercury-drop colonies"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Vibrio cholerae ferments sucrose, producing bright yellow colonies on selective Thiosulfate-Citrate-Bile Salts-Sucrose (TCBS) agar.",
+      "images": []
+    }
+  },
+  {
+    "id": "313",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What is the primary mechanism by which Cholera toxin (CT) induces massive secretory diarrhea?",
+    "questionImage": null,
+    "options": [
+      "B subunit activates guanylyl cyclase to increase cGMP",
+      "A1 subunit ADP-ribosylates Gs protein, leading to persistent adenylate cyclase activation and cAMP elevation",
+      "Direct mucosal destruction with invasion of lamina propria",
+      "Cleavage of 28S rRNA leading to mucosal ulceration"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cholera toxin A1 subunit continuously activates Gs, stimulating adenylate cyclase to generate elevated cAMP levels. This triggers hypersecretion of Cl- and water.",
+      "images": []
+    }
+  },
+  {
+    "id": "314",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which atmospheric condition and temperature are required to reliably culture Campylobacter jejuni from stool?",
+    "questionImage": null,
+    "options": [
+      "Strict anaerobic environment at 25°C",
+      "Microaerophilic environment (5% O2, 10% CO2) at 42°C",
+      "Ambient air at 37°C",
+      "Capnophilic environment (15% CO2) at 20°C"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "C. jejuni is microaerophilic and thermophilic, growing optimally at 42°C on selective media (e.g., Skirrow's/Campy-BAP) which suppresses normal fecal flora.",
+      "images": []
+    }
+  },
+  {
+    "id": "315",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which bacterial virulence factor enables Helicobacter pylori to survive the acidic pH (<2.0) of the gastric lumen?",
+    "questionImage": null,
+    "options": [
+      "Pyocyanin production",
+      "Urease enzyme generating ammonia and bicarbonate buffer",
+      "Heat-stable enterotoxin secretion",
+      "Thick galactomannan capsule"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "H. pylori produces potent urease, which hydrolyzes gastric urea into ammonia and CO2, creating a protective alkaline microenvironment around the bacterium.",
+      "images": []
+    }
+  },
+  {
+    "id": "316",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which Bordetella pertussis toxin mediates lymphocytosis by preventing lymphocyte homing back to lymphoid tissue?",
+    "questionImage": null,
+    "options": [
+      "Adenylate cyclase toxin",
+      "Tracheal cytotoxin",
+      "Pertussis toxin (PT)",
+      "Dermonecrotic toxin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Pertussis toxin ADP-ribosylates Gi proteins, blocking chemokine receptor signaling required for lymphocytes to extravasate, resulting in marked peripheral lymphocytosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "317",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What pathognomonic cellular modification is observed in biopsy tissue infected with Klebsiella pneumoniae subsp. rhinoscleromatis?",
+    "questionImage": null,
+    "options": [
+      "Aschoff bodies",
+      "Mikulicz cells (foamy macrophages containing bacteria)",
+      "Reed-Sternberg cells",
+      "Councilman bodies"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rhinoscleroma biopsy reveals Mikulicz cells—large vacuolated histiocytes/macrophages packed with K. rhinoscleromatis.",
+      "images": []
+    }
+  },
+  {
+    "id": "318",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which metabolic substrate present in the placenta of cattle, sheep, and goats promotes the tropism and rapid proliferation of Brucella species?",
+    "questionImage": null,
+    "options": [
+      "Glucose-6-phosphate",
+      "Erythritol",
+      "L-fucose",
+      "Sorbitol"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Erythritol, a sugar alcohol found in animal placentas, stimulates growth of Brucella spp., predisposing livestock to contagious abortion (absent in human placentas).",
+      "images": []
+    }
+  },
+  {
+    "id": "319",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which organism in the HACEK group is famous for causing culture-negative endocarditis and characteristically corrodes or 'pits' agar while releasing a bleach-like odor?",
+    "questionImage": null,
+    "options": [
+      "Aggregatibacter actinomycetemcomitans",
+      "Cardiobacterium hominis",
+      "Eikenella corrodens",
+      "Kingella kingae"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Eikenella corrodens is a fastidious GNB of human oral flora that pits agar, smells like hypochlorite bleach, and causes endocarditis and bite-wound infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "320",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which Gram-negative organism produces a distinctive dark violet pigment called violacein?",
+    "questionImage": null,
+    "options": [
+      "Serratia marcescens",
+      "Chromobacterium violaceum",
+      "Pseudomonas fluorescens",
+      "Elizabethkingia meningoseptica"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Chromobacterium violaceum produces violacein, a natural violet antioxidant pigment, and can cause rare but severe skin/systemic infections after water exposure.",
+      "images": []
+    }
+  },
+  {
+    "id": "321",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What is the key mechanism driving Guillain-Barré Syndrome following a Campylobacter jejuni enteritis?",
+    "questionImage": null,
+    "options": [
+      "Direct invasion of nerve axons by live C. jejuni bacilli",
+      "Molecular mimicry between C. jejuni lipooligosaccharide (LOS) and peripheral nerve gangliosides (GM1)",
+      "Systemic action of a neurotoxic exotoxin blocking acetylcholine release",
+      "Deposition of immune complexes within central spinal anterior horn cells"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cross-reactive antibodies formed against C. jejuni LOS epitopes target nerve GM1 gangliosides, resulting in autoimmune peripheral demyelination.",
+      "images": []
+    }
+  },
+  {
+    "id": "322",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which pathogen causes 'glanders' in horses and can transmit to humans, forming ulcerative lymphangitis and severe sepsis?",
+    "questionImage": null,
+    "options": [
+      "Burkholderia pseudomallei",
+      "Burkholderia mallei",
+      "Francisella tularensis",
+      "Yersinia pestis"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Burkholderia mallei is a non-motile Gram-negative bacillus causing glanders in equines and humans; B. pseudomallei causes melioidosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "323",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "How is Francisella tularensis primarily transmitted to humans in endemic sylvatic settings?",
+    "questionImage": null,
+    "options": [
+      "Inhalation of aerosolized bird droppings",
+      "Direct contact with infected rabbit tissues or bites from vector ticks/deer flies",
+      "Ingestion of unpasteurized goat cheese",
+      "Fecal-oral contamination of municipal water"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tularemia is a zoonosis acquired via skin contact with infected lagomorphs (rabbits), tick/deer fly vectors, or aerosols, causing ulceroglandular or pneumonic forms.",
+      "images": []
+    }
+  },
+  {
+    "id": "324",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "What is the diagnostic target and clinical significance of the Sereny test?",
+    "questionImage": null,
+    "options": [
+      "Assays for Shiga toxin 1 and 2 in stool supernatant",
+      "Evaluates invasiveness of EIEC or Shigella by testing keratoconjunctivitis induction in guinea pigs",
+      "Determines swarming capability of Proteus species on blood agar",
+      "Detects Vi capsular antigen in Salmonella Typhi chronic carriers"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The Sereny test assesses local invasive capacity of EIEC and Shigella strains by instilling bacteria into a guinea pig's eye to observe purulent keratoconjunctivitis.",
+      "images": []
+    }
+  },
+  {
+    "id": "325",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "LOTS",
+    "question": "Which member of the HACEK group is recognized as the second most common cause of acute septic arthritis in children under 5 years of age?",
+    "questionImage": null,
+    "options": [
+      "Aggregatibacter aphrophilus",
+      "Eikenella corrodens",
+      "Kingella kingae",
+      "Haemophilus parainfluenzae"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Kingella kingae colonizes the child's respiratory tract and enters the bloodstream via minor oral trauma, causing pediatric septic arthritis and osteomyelitis.",
+      "images": []
+    }
+  },
+  {
+    "id": "326",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "HOTS",
+    "question": "A 68-year-old hospitalized male with an indwelling urinary catheter develops fever and flank pain. Urine culture grows a Gram-negative bacillus that ferments lactose and forms dark pink colonies on MacConkey agar. The isolate is Indole positive and Methyl Red positive. What is the most likely pathogen?",
+    "questionImage": null,
+    "options": [
+      "Klebsiella pneumoniae",
+      "Escherichia coli",
+      "Proteus mirabilis",
+      "Enterobacter cloacae"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Uropathogenic E. coli (UPEC) is the leading cause of catheter-associated UTIs. It is a rapid lactose fermenter (pink on MacConkey) and IMViC test pattern ++-- (Indole+, MR+).",
+      "images": []
+    }
+  },
+  {
+    "id": "327",
+    "subject": "Microbiology",
+    "topic": "Gram Neg",
+    "type": "HOTS",
+    "question": "A 28-year-old traveler returning from South Asia presents with 3 days of profuse, watery diarrhea without blood or mucus, accompanying severe nausea and abdominal cramping. Stool examination reveals no PMNs. The causative strain produces a toxin that acts identically to Cholera toxin. Which pathogen is responsible?",
+    "questionImage": null,
+    "options": [
+      "Enterohemorrhagic E. coli (EHEC)",
+      "Enterotoxigenic E. coli (ETEC)",
+      "Enteroinvasive E. coli (EIEC)",
+      "Shigella flexneri"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "ETEC is the primary agent of traveler's diarrhea. Its heat-labile toxin (LT) is structurally and functionally homologous to Cholera toxin.",
+      "images": []
+    }
+  },
 ]
