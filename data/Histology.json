@@ -2,7 +2,7 @@
   {
     "id": "1",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "On a routine H&E-stained section of trachea, you see a sheet of cells with cilia and a prominent layer of mucus-containing goblet cells overlying a basement membrane. Which epithelium is this?",
     "questionImage": null,
     "options": [
@@ -21,7 +21,7 @@
   {
     "id": "2",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A histology slide of the skin shows a thick, multilayered epithelium with a distinct stratum corneum and no underlying connective-tissue papillae. This epithelium is most likely found in which of the following locations?",
     "questionImage": null,
     "options": [
@@ -40,7 +40,7 @@
   {
     "id": "3",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of small intestine stained with H&E shows a layer of simple columnar cells with a brush-border of microvilli. The microvilli increase the surface area for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -59,7 +59,7 @@
   {
     "id": "4",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A biopsy of the urinary bladder shows an epithelium with variable thickness, dome-shaped umbrella cells, and a central nucleus that can appear pale and 'empty-looking.' Which epithelium is this?",
     "questionImage": null,
     "options": [
@@ -78,7 +78,7 @@
   {
     "id": "5",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Epithelial Tissue",
     "question": "On an electron micrograph of the small intestine, you see intercellular clefts sealed by structures that prevent paracellular leakage of luminal contents. These structures are most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -97,7 +97,7 @@
   {
     "id": "6",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the kidney tubule shows simple cuboidal epithelium with a well-developed basolateral labyrinth. This ultrastructural feature is associated with high activity in which of the following processes?",
     "questionImage": null,
     "options": [
@@ -116,7 +116,7 @@
   {
     "id": "7",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A histologic slide of the lung shows alveoli with extremely thin walls formed by a simple squamous epithelium overlying a basement membrane and a thin connective tissue core. This epithelium is specialized for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -135,7 +135,7 @@
   {
     "id": "8",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the urinary bladder mucosa shows a folded epithelium that appears multilayered and has umbrella cells that flatten when the organ is distended. This type of epithelium is best termed which of the following?",
     "questionImage": null,
     "options": [
@@ -154,7 +154,7 @@
   {
     "id": "9",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Epithelial Tissue",
     "question": "A section of the peritoneum shows a thin layer of simple squamous epithelial cells covering a thin connective tissue layer. This epithelium is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -173,7 +173,7 @@
   {
     "id": "10",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "In a section of the duodenum, you see deep, tubular epithelial invaginations that open into the lumen and contain numerous goblet cells. These structures are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -192,7 +192,7 @@
   {
     "id": "11",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Connective Tissue",
     "question": "On a trichrome-stained section of dermis, you notice thick, wavy, bright red fibers that branch and anastomose around skin appendages. These fibers are composed primarily of which protein?",
     "questionImage": null,
     "options": [
@@ -211,7 +211,7 @@
   {
     "id": "12",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Connective Tissue",
     "question": "A section of tendon stained with H&E shows dense, ordered bundles of collagen fibers with flattened fibroblasts between them. This tissue is classified as which of the following connective tissue types?",
     "questionImage": null,
     "options": [
@@ -230,7 +230,7 @@
   {
     "id": "13",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A trichrome-stained section of the aortic media shows a prominent network of dark purple fibers that appear wavy and elastic. These fibers are which of the following components?",
     "questionImage": null,
     "options": [
@@ -249,7 +249,7 @@
   {
     "id": "14",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "On a histologic slide of the lung interstitium, you see thin, branching fibers that form a delicate network around the alveoli. These fibers correspond to which of the following collagen types?",
     "questionImage": null,
     "options": [
@@ -268,7 +268,7 @@
   {
     "id": "15",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Connective Tissue",
     "question": "In a section of loose connective tissue, you identify a resident cell that synthesizes both collagen and elastin and is often found adjacent to collagen fibers. This cell is most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -287,7 +287,7 @@
   {
     "id": "16",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Connective Tissue",
     "question": "A slide of dermis shows large, spherical cells with a thin rim of cytoplasm and a centrally displaced nucleus. These cells are best characterized as which of the following?",
     "questionImage": null,
     "options": [
@@ -306,7 +306,7 @@
   {
     "id": "17",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "On a section of the spleen, you identify numerous rounded cells with a foamy cytoplasm and a central nucleus. When stained with PAS, the cytoplasm is strongly positive. These cells are most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -325,7 +325,7 @@
   {
     "id": "18",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Epithelial Tissue",
     "question": "A PAS-stained slide of the esophagus shows a thick, highly basophilic basement membrane underlying the epithelium. This basement membrane is rich in which of the following components?",
     "questionImage": null,
     "options": [
@@ -344,7 +344,7 @@
   {
     "id": "19",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Epithelial Tissue",
     "question": "A section of the dermis shows a thin red line at the dermal-epidermal junction that appears discontinuous and beaded. This line corresponds to which of the following structures when stained with PAS?",
     "questionImage": null,
     "options": [
@@ -363,7 +363,7 @@
   {
     "id": "20",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Connective Tissue",
     "question": "In a section of loose connective tissue, a large cell is identified with a clock-face nucleus, abundant basophilic cytoplasm, and prominent Golgi zone. This cell is most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -382,7 +382,7 @@
   {
     "id": "21",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Cartilage",
     "question": "A histologic section of hyaline cartilage shows chondrocytes in small lacunae surrounded by an extracellular matrix that stains basophilic with H&E. This basophilia is due to high content of which of the following substances?",
     "questionImage": null,
     "options": [
@@ -401,7 +401,7 @@
   {
     "id": "22",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Cartilage",
     "question": "In a section of the external ear, you see flexible cartilage with embedded elastic fibers in the matrix. This type of cartilage is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -420,7 +420,7 @@
   {
     "id": "23",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Cartilage",
     "question": "A section of the intervertebral disc shows a cartilage with thick, wavy collagen bundles and few chondrocytes arranged in rows. This cartilage is which of the following types?",
     "questionImage": null,
     "options": [
@@ -439,7 +439,7 @@
   {
     "id": "24",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Bone",
     "question": "A trichrome-stained section of epiphyseal cartilage in a growing long bone shows a region where the matrix is basophilic and the chondrocytes are arranged in columns. This zone corresponds to which of the following?",
     "questionImage": null,
     "options": [
@@ -458,7 +458,7 @@
   {
     "id": "25",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Bone",
     "question": "In a longitudinally sectioned long bone, you see a region of newly formed bone that is disorganized and lacks obvious lamellation. This bone type is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -477,7 +477,7 @@
   {
     "id": "26",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Bone",
     "question": "A section of compact bone shows concentric lamellae surrounding a central canal that contains blood vessels. This structural unit is called which of the following?",
     "questionImage": null,
     "options": [
@@ -496,7 +496,7 @@
   {
     "id": "27",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Bone",
     "question": "On an electron micrograph of bone, you see a large, multinucleated cell with a ruffled border adjacent to a resorbing bony surface. This cell is which of the following?",
     "questionImage": null,
     "options": [
@@ -515,7 +515,7 @@
   {
     "id": "28",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Bone",
     "question": "A histologic section of the skull shows bone with numerous trabeculae and large marrow spaces. This bone is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -534,7 +534,7 @@
   {
     "id": "29",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Cartilage",
     "question": "A section of synovial joint shows a thin layer of hyaline cartilage covering the articular surface of a femoral head. This cartilage is produced by which of the following cells?",
     "questionImage": null,
     "options": [
@@ -553,7 +553,7 @@
   {
     "id": "30",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Cartilage",
     "question": "In a section of the trachea, you see a layer of chondrocytes with a surrounding perichondrium containing a cambium layer. The perichondrium contributes to which of the following modes of growth?",
     "questionImage": null,
     "options": [
@@ -572,7 +572,7 @@
   {
     "id": "31",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A longitudinal section of skeletal muscle stained with H&E shows alternating dark A bands and light I bands. The I band contains which of the following elements?",
     "questionImage": null,
     "options": [
@@ -591,7 +591,7 @@
   {
     "id": "32",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A cross-section of skeletal muscle shows numerous round, centrally located nuclei and a peripheral 'rind' of pale sarcoplasm. This appearance is characteristic of which of the following conditions?",
     "questionImage": null,
     "options": [
@@ -610,7 +610,7 @@
   {
     "id": "33",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "In an electron micrograph of skeletal muscle, you see a structure formed by the T tubule flanked by two terminal cisternae of the sarcoplasmic reticulum. This structure is called which of the following?",
     "questionImage": null,
     "options": [
@@ -629,7 +629,7 @@
   {
     "id": "34",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of the myocardium stained with H&E shows branching cells with a single central nucleus and intercalated discs. These intercalated discs are sites of which of the following?",
     "questionImage": null,
     "options": [
@@ -648,7 +648,7 @@
   {
     "id": "35",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of the small intestine wall shows a thick layer of spindle-shaped cells with elongated nuclei and very little visible cross-striation. This layer corresponds to which of the following?",
     "questionImage": null,
     "options": [
@@ -667,7 +667,7 @@
   {
     "id": "36",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "In an electron micrograph of smooth muscle, you see dense bodies in the cytoplasm and dense plaques on the inner aspect of the plasma membrane. These structures correspond to which of the following?",
     "questionImage": null,
     "options": [
@@ -686,7 +686,7 @@
   {
     "id": "37",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of the urinary bladder shows a muscle layer with fusiform cells and no obvious striations, yet the cells are arranged in interlacing bundles. This muscle is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -705,7 +705,7 @@
   {
     "id": "38",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of skeletal muscle stained with PTAH shows a prominent M line and Z lines. This stain primarily highlights which of the following structures?",
     "questionImage": null,
     "options": [
@@ -724,7 +724,7 @@
   {
     "id": "39",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of the heart shows muscle fibers with a centrally located nucleus and numerous mitochondria filling the cytoplasm. This ultrastructural feature supports which of the following functions?",
     "questionImage": null,
     "options": [
@@ -743,7 +743,7 @@
   {
     "id": "40",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of the myometrium shows spindle-shaped cells with a single nucleus; special stains for actin and myosin show a diffuse pattern without clear striations. This appearance is characteristic of which of the following tissue types?",
     "questionImage": null,
     "options": [
@@ -762,7 +762,7 @@
   {
     "id": "41",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of skeletal muscle stained with H&E shows a sarcomere with a central M line and a lateral H zone. The H zone contains which of the following?",
     "questionImage": null,
     "options": [
@@ -781,7 +781,7 @@
   {
     "id": "42",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "An electron micrograph of cardiac muscle shows a structure with gap junctions, desmosomes, and adherens junctions at the ends of adjacent cells. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -800,7 +800,7 @@
   {
     "id": "43",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of a blood vessel shows a thin layer of elongated cells with spindle-shaped nuclei oriented circumferentially around the lumen. This layer is most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -819,7 +819,7 @@
   {
     "id": "44",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of esophagus stained with Masson trichrome shows a thick layer of tissue with no obvious striations, but the cells appear relatively large and elongated. This layer is most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -838,7 +838,7 @@
   {
     "id": "45",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the large intestine shows a layer of smooth muscle with numerous nuclei aligned peripherally and no striations. This muscle is primarily responsible for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -857,7 +857,7 @@
   {
     "id": "46",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A histological section of the cerebral cortex stained with H&E shows large polygonal cells with prominent nucleoli and Nissl substance in the cytoplasm. These cells are best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -876,7 +876,7 @@
   {
     "id": "47",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the dorsal root ganglion shows large, round cells with eccentric nuclei and satellite glial cells forming a ring around each perikaryon. These ganglion cells are which of the following?",
     "questionImage": null,
     "options": [
@@ -895,7 +895,7 @@
   {
     "id": "48",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "In a section of the cerebellum, you see large, flask-shaped neurons with extensive, highly branched dendritic arbors in the molecular layer. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -914,7 +914,7 @@
   {
     "id": "49",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A histologic section of the spinal cord stained with H&E shows a region of densely packed small neurons arranged in layers. This region is most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -933,7 +933,7 @@
   {
     "id": "50",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the peripheral nerve stained with osmium shows a pale, lipid-rich sheath surrounding an axon. This sheath is formed by which of the following cells?",
     "questionImage": null,
     "options": [
@@ -952,7 +952,7 @@
   {
     "id": "51",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "An electron micrograph of a CNS white-matter tract shows a structure with spiral-wrapped membranes around an axon and a thick, compact myelin sheath. This structure is formed by which of the following?",
     "questionImage": null,
     "options": [
@@ -971,7 +971,7 @@
   {
     "id": "52",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the brain shows numerous small, irregular cells with short, branching processes and relatively electron-dense cytoplasm. These cells are most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -990,7 +990,7 @@
   {
     "id": "53",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the cerebral cortex stained with H&E shows a glial cell with a star-shaped morphology and processes that extend to blood vessels and to the pial surface. This cell is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1009,7 +1009,7 @@
   {
     "id": "54",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the choroid plexus shows a layer of cuboidal or columnar cells with an apical surface facing the ventricular cavity and a basolateral surface oriented toward the stroma. These cells are which of the following?",
     "questionImage": null,
     "options": [
@@ -1028,7 +1028,7 @@
   {
     "id": "55",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A trichrome-stained section of a peripheral nerve shows a pale, wavy band in the endoneurium that outlines individual axons. This band corresponds to which of the following structures?",
     "questionImage": null,
     "options": [
@@ -1047,7 +1047,7 @@
   {
     "id": "56",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of a dorsal root stained with H&E shows a central core of axons surrounded by a thick connective tissue sheath. This outer sheath is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1066,7 +1066,7 @@
   {
     "id": "57",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the spinal cord stained with silver shows a structure with a central clear area (node) and a myelinated segment on either side. This clear area corresponds to which of the following?",
     "questionImage": null,
     "options": [
@@ -1085,7 +1085,7 @@
   {
     "id": "58",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the brainstem shows a structure with a dense capillary network and a blood-brain barrier formed by tight junctions between endothelial cells and processes of which of the following glial cells?",
     "questionImage": null,
     "options": [
@@ -1104,7 +1104,7 @@
   {
     "id": "59",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of the peripheral nerve stained with H&E shows a large, spindle-shaped cell closely associated with an axon. This cell is which of the following?",
     "questionImage": null,
     "options": [
@@ -1123,7 +1123,7 @@
   {
     "id": "60",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "A section of spinal cord stained with silver shows a neuron with a triangular-shaped cell body and a single long process entering a white-matter tract. This neuron is most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -1142,7 +1142,7 @@
   {
     "id": "61",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A transverse section of the heart wall stained with H&E shows three layers: endocardium, myocardium, and epicardium. The myocardium is formed by which of the following tissue types?",
     "questionImage": null,
     "options": [
@@ -1161,7 +1161,7 @@
   {
     "id": "62",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of the left ventricle shows cardiac muscle fibers arranged in a circular pattern around the lumen, with numerous intercalated discs and a rich capillary network between them. This arrangement supports which of the following functions?",
     "questionImage": null,
     "options": [
@@ -1180,7 +1180,7 @@
   {
     "id": "63",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of the endocardium stained with H&E shows a thin layer of simple squamous epithelium overlying a subendothelial layer of connective tissue. This epithelium is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1199,7 +1199,7 @@
   {
     "id": "64",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Bone",
     "question": "A section of the epicardium shows a thin layer of connective tissue covered by a simple squamous epithelium and containing numerous adipocytes and blood vessels. This layer corresponds to which of the following?",
     "questionImage": null,
     "options": [
@@ -1218,7 +1218,7 @@
   {
     "id": "65",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of a large artery stained with elastin stain shows a prominent internal and external elastic lamina. The internal elastic lamina separates which of the following layers?",
     "questionImage": null,
     "options": [
@@ -1237,7 +1237,7 @@
   {
     "id": "66",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of a muscular artery stained with H&E shows medial smooth muscle cells arranged in circular layers with relatively little collagen. This vessel is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1256,7 +1256,7 @@
   {
     "id": "67",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A transverse section of a small artery shows a thickened wall with a prominent internal elastic lamina and almost no external elastic lamina. The lumen is relatively small and round. This vessel is most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -1275,7 +1275,7 @@
   {
     "id": "68",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of a capillary stained with H&E shows a thin wall composed of a single layer of endothelial cells and a thin basement membrane with no smooth muscle. This type of capillary is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1294,7 +1294,7 @@
   {
     "id": "69",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "An electron micrograph of a capillary in the kidney glomerulus shows numerous small pores spanned by a thin diaphragm. This ultrastructural pattern is characteristic of which of the following capillary types?",
     "questionImage": null,
     "options": [
@@ -1313,7 +1313,7 @@
   {
     "id": "70",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the liver sinusoids shows endothelial cells with large gaps and no underlying continuous basement membrane. This arrangement is characteristic of which of the following capillary types?",
     "questionImage": null,
     "options": [
@@ -1332,7 +1332,7 @@
   {
     "id": "71",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of a vein stained with H&E shows a thin wall, a large irregular lumen, and longitudinal smooth muscle bundles in the media. Compared with a muscular artery of similar size, the vein has which of the following features?",
     "questionImage": null,
     "options": [
@@ -1351,7 +1351,7 @@
   {
     "id": "72",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of an arteriole shows 1–2 layers of smooth muscle in the media and a prominent internal elastic lamina. This structure is important for which of the following physiological processes?",
     "questionImage": null,
     "options": [
@@ -1370,7 +1370,7 @@
   {
     "id": "73",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of the aorta stained with Verhoeff–van Gieson elastin stain shows concentric, wavy, dark purple lamellae in the media. These lamellae are formed by which of the following structures?",
     "questionImage": null,
     "options": [
@@ -1389,7 +1389,7 @@
   {
     "id": "74",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Special Senses",
     "question": "A section of the heart stained with H&E shows a thin layer of connective tissue on the ventricular side of the valve leaflets. This layer is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1408,7 +1408,7 @@
   {
     "id": "75",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of the pulmonary artery shows a thick tunica media with abundant elastic fibers and smooth muscle. This vessel is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1427,7 +1427,7 @@
   {
     "id": "76",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of the thymus stained with H&E shows a cortex with densely packed small lymphocytes and a pale medulla with Hassall's corpuscles. This organ is primarily involved in which of the following functions?",
     "questionImage": null,
     "options": [
@@ -1446,7 +1446,7 @@
   {
     "id": "77",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of the thymus shows ovoid structures composed of concentrically arranged epithelial cells surrounding a central eosinophilic core. These structures are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1465,7 +1465,7 @@
   {
     "id": "78",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of a lymph node stained with H&E shows a cortex with spherical lymphoid nodules and a medulla with branching medullary cords and sinuses. This arrangement is characteristic of which of the following?",
     "questionImage": null,
     "options": [
@@ -1484,7 +1484,7 @@
   {
     "id": "79",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of a lymph node shows areas of lymphoid nodules with central pale zones rich in proliferating B cells. These pale zones correspond to which of the following structures?",
     "questionImage": null,
     "options": [
@@ -1503,7 +1503,7 @@
   {
     "id": "80",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of a lymph node stained with H&E shows a region of densely packed small lymphocytes superficial to the germinal centers. This region is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1522,7 +1522,7 @@
   {
     "id": "81",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of a lymph node shows a pale, sinus-like space containing macrophages and lymphocytes. These spaces are lined by which of the following cell types?",
     "questionImage": null,
     "options": [
@@ -1541,7 +1541,7 @@
   {
     "id": "82",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the spleen stained with H&E shows red pulp cords and sinusoids and a white pulp surrounding central arterioles. The white pulp is primarily composed of which of the following cell types?",
     "questionImage": null,
     "options": [
@@ -1560,7 +1560,7 @@
   {
     "id": "83",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the spleen shows a central arteriole surrounded by a periarteriolar lymphoid sheath containing mostly T cells. This sheath corresponds to which of the following?",
     "questionImage": null,
     "options": [
@@ -1579,7 +1579,7 @@
   {
     "id": "84",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of the spleen shows a zone between the red pulp and white pulp with numerous macrophages and lymphocytes. This region is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1598,7 +1598,7 @@
   {
     "id": "85",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of the spleen stained with H&E shows a substance rich in macrophages and red blood cells that filters out aging erythrocytes. This region is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1617,7 +1617,7 @@
   {
     "id": "86",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of a palatine tonsil stained with H&E shows a stratified squamous epithelium with underlying lymphoid nodules that send epithelial crypts into the stroma. This lymphoid organ is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1636,7 +1636,7 @@
   {
     "id": "87",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the tonsil shows a stratified squamous epithelium with numerous crypts and lymphoid follicles. The crypt epithelium facilitates which of the following?",
     "questionImage": null,
     "options": [
@@ -1655,7 +1655,7 @@
   {
     "id": "88",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of the appendix stained with H&E shows a prominent lymphoid nodule in the submucosa that extends into the mucosa. This organ is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1674,7 +1674,7 @@
   {
     "id": "89",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the Peyer's patch in the distal ileum shows lymphoid nodules in the mucosa and submucosa with germinal centers. This structure is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1693,7 +1693,7 @@
   {
     "id": "90",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Immune & Lymphoid Organs",
     "question": "A section of the spleen stained with a reticulin stain shows a fine network of fibers supporting the red pulp cords. This network is formed by which of the following cell types?",
     "questionImage": null,
     "options": [
@@ -1712,7 +1712,7 @@
   {
     "id": "91",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Circulatory System",
     "question": "A section of the oral mucosa stained with H&E shows a thick stratified squamous epithelium without a granular layer and a lamina propria rich in blood vessels and minor salivary glands. This epithelium is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1731,7 +1731,7 @@
   {
     "id": "92",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the esophagus stained with H&E shows a mucosa lined by stratified squamous nonkeratinized epithelium and a submucosa with tubuloalveolar glands that open into the lumen. These submucosal glands are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1750,7 +1750,7 @@
   {
     "id": "93",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the stomach shows a mucosa lined by simple columnar epithelium with deep tubular glands. The surface epithelium itself does not contain which of the following cell types?",
     "questionImage": null,
     "options": [
@@ -1769,7 +1769,7 @@
   {
     "id": "94",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the gastric body shows tubular glands with parietal cells alongside the base of the gland and chief cells predominantly in the lower portion. These glands are best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -1788,7 +1788,7 @@
   {
     "id": "95",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the stomach antrum shows short, straight glands with predominantly mucous cells and few parietal cells. These glands are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1807,7 +1807,7 @@
   {
     "id": "96",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the small intestine stained with H&E shows finger-like projections covered by simple columnar epithelium with a prominent brush border and interspersed goblet cells. These projections are called which of the following?",
     "questionImage": null,
     "options": [
@@ -1826,7 +1826,7 @@
   {
     "id": "97",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of small intestine stained with PAS shows a layer of loose connective tissue core of each villus with a central lacteal and scattered capillaries. This core is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1845,7 +1845,7 @@
   {
     "id": "98",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the duodenum stained with H&E shows branched tubuloalveolar glands beneath the muscularis mucosa that open into the crypts. These glands are which of the following?",
     "questionImage": null,
     "options": [
@@ -1864,7 +1864,7 @@
   {
     "id": "99",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the jejunum stained with H&E shows a mucosa rich in villi, crypts, and no prominent submucosal glands. This portion of the intestine is best characterized as which of the following?",
     "questionImage": null,
     "options": [
@@ -1883,7 +1883,7 @@
   {
     "id": "100",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the ileum stained with H&E shows aggregated lymphoid nodules in the submucosa and mucosa with germinal centers. These nodules correspond to which of the following structures?",
     "questionImage": null,
     "options": [
@@ -1902,7 +1902,7 @@
   {
     "id": "101",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the colon stained with H&E shows a mucosa lined by simple columnar epithelium with abundant goblet cells and deep straight crypts. This epithelium is specialized for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -1921,7 +1921,7 @@
   {
     "id": "102",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A PAS-stained section of the colon shows intense positive staining in the goblet cells of the mucosa. This staining reflects abundant content of which of the following substances?",
     "questionImage": null,
     "options": [
@@ -1940,7 +1940,7 @@
   {
     "id": "103",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the rectum stained with H&E shows mucosa similar to the colon but with occasional squamous differentiation at the lower end. This region has a transition from which of the following epithelia?",
     "questionImage": null,
     "options": [
@@ -1959,7 +1959,7 @@
   {
     "id": "104",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the liver stained with H&E shows polygonal hepatocytes arranged in radially oriented plates, with sinusoids and central veins. These plates form which of the following?",
     "questionImage": null,
     "options": [
@@ -1978,7 +1978,7 @@
   {
     "id": "105",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the liver stained with H&E shows a small triangular region at the periphery of the lobule containing a branch of the portal vein, hepatic artery, and bile duct, surrounded by Glisson's capsule. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -1997,7 +1997,7 @@
   {
     "id": "106",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of liver stained with trichrome shows a thin rim of connective tissue outlining the portal triad. This connective tissue corresponds to which of the following structures?",
     "questionImage": null,
     "options": [
@@ -2016,7 +2016,7 @@
   {
     "id": "107",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of liver stained with H&E shows a layer of cuboidal cells lining a small tubular structure between hepatocytes. These cells are most likely which of the following?",
     "questionImage": null,
     "options": [
@@ -2035,7 +2035,7 @@
   {
     "id": "108",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "An electron micrograph of a liver sinusoid shows irregular endothelial cells with large fenestrae and no underlying continuous basement membrane. This ultrastructure is important for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -2054,7 +2054,7 @@
   {
     "id": "109",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the pancreas stained with H&E shows numerous pale acini composed of pyramidal cells with basophilic basal cytoplasm and apical zymogen granules. These structures are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2073,7 +2073,7 @@
   {
     "id": "110",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of small intestine stained with H&E shows a crypt with cells containing basophilic granules at the base and a prominent rough endoplasmic reticulum. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2092,7 +2092,7 @@
   {
     "id": "111",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the ventral surface of the tongue shows a stratified squamous epithelium with a thin keratin layer and numerous lingual papillae. This epithelium is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2111,7 +2111,7 @@
   {
     "id": "112",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the gallbladder stained with H&E shows a mucosa lined by simple columnar epithelium with numerous microvilli and a thin lamina propria. The epithelium of the gallbladder is specialized for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -2130,7 +2130,7 @@
   {
     "id": "113",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the pancreas stained with H&E shows small, pale-staining clusters of cells amid the exocrine acini. These clusters are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2149,7 +2149,7 @@
   {
     "id": "114",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of liver stained with a special stain for reticulin shows a delicate network of fibers around the sinusoids. These fibers are formed by which of the following cell types?",
     "questionImage": null,
     "options": [
@@ -2168,7 +2168,7 @@
   {
     "id": "115",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the small intestine stained with H&E shows a structure with a central core of smooth muscle surrounded by a layer of lamina propria covered by epithelium. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2187,7 +2187,7 @@
   {
     "id": "116",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the trachea stained with H&E shows a pseudostratified ciliated columnar epithelium with numerous goblet cells. The cilia are responsible for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -2206,7 +2206,7 @@
   {
     "id": "117",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of a bronchus shows a similar epithelium to the trachea but with fewer goblet cells and more cartilage plates. This epithelium is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -2225,7 +2225,7 @@
   {
     "id": "118",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of a bronchiole stained with H&E shows a mucosa lined by simple ciliated columnar to simple ciliated cuboidal epithelium with few or no goblet cells. This change reflects the transition to which of the following regions?",
     "questionImage": null,
     "options": [
@@ -2244,7 +2244,7 @@
   {
     "id": "119",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the respiratory bronchiole stained with H&E shows simple cuboidal epithelium with scattered ciliated cells and a few alveoli opening directly into the lumen. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2263,7 +2263,7 @@
   {
     "id": "120",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the lung parenchyma stained with H&E shows air-filled spaces lined by thin, squamous epithelium. These spaces are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2282,7 +2282,7 @@
   {
     "id": "121",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "An electron micrograph of the alveolar wall shows a thin type I pneumocyte that forms the majority of the alveolar surface. This cell is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -2301,7 +2301,7 @@
   {
     "id": "122",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "An electron micrograph of the lung shows type II pneumocytes with lamellar bodies in the cytoplasm that appear as stacked membranes. These lamellar bodies are associated with the production of which following?",
     "questionImage": null,
     "options": [
@@ -2320,7 +2320,7 @@
   {
     "id": "123",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the lung stained with H&E shows a thickened alveolar wall with numerous macrophages and inflammatory cells. This hyperplastic epithelium is most likely formed by which of the following cell types?",
     "questionImage": null,
     "options": [
@@ -2339,7 +2339,7 @@
   {
     "id": "124",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Epithelial Tissue",
     "question": "A section of the pleura stained with H&E shows a thin mesothelial layer overlying a loose connective tissue layer. The mesothelial cells are best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -2358,7 +2358,7 @@
   {
     "id": "125",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the lung fixed in a special way for trichrome stain shows a prominent network of elastic fibers in the interstitium. These fibers are important for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -2377,7 +2377,7 @@
   {
     "id": "126",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of terminal bronchiole stained with H&E shows a thin layer of ciliated cells and Clara cells with a prominent granular cytoplasm. Clara cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2396,7 +2396,7 @@
   {
     "id": "127",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the respiratory tract stained with silver shows a structure with a double-layered epithelium and underlying cartilage rings. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2415,7 +2415,7 @@
   {
     "id": "128",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the lung stained with H&E shows a cluster of alveoli with a common opening. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2434,7 +2434,7 @@
   {
     "id": "129",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the lung stained with H&E shows a structure with thin-walled air spaces and abundant capillaries in the interstitium. This region is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2453,7 +2453,7 @@
   {
     "id": "130",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "An electron micrograph of the alveolar wall shows a very thin type I pneumocyte with thin cytoplasm that closely apposes a capillary endothelial cell. The intervening basement membrane forms which of the following?",
     "questionImage": null,
     "options": [
@@ -2472,7 +2472,7 @@
   {
     "id": "131",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the kidney stained with H&E shows a structure with a thin wall lined by simple squamous epithelium, containing a single glomerulus and Bowman's capsule. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2491,7 +2491,7 @@
   {
     "id": "132",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the renal cortex stained with H&E shows a tubule with a prominent apical brush border and extensive basal infoldings. This tubule is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2510,7 +2510,7 @@
   {
     "id": "133",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the renal medulla shows a thin-walled segment of the nephron lined by simple squamous epithelium. This segment corresponds to which of the following?",
     "questionImage": null,
     "options": [
@@ -2529,7 +2529,7 @@
   {
     "id": "134",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the renal cortex stained with H&E shows a tubule with a pale, relatively smooth luminal surface and fewer mitochondria-rich cells. This tubule is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2548,7 +2548,7 @@
   {
     "id": "135",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the renal cortex stained with H&E shows a structure where the distal convoluted tubule contacts the afferent arteriole and the macula densa is interposed. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2567,7 +2567,7 @@
   {
     "id": "136",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the kidney stained with a special immunohistochemical stain shows granular cells in the wall of the afferent arteriole. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2586,7 +2586,7 @@
   {
     "id": "137",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the kidney stained with PAS shows a thick, intensely stained basement membrane underlying the glomerular endothelium. This basement membrane is formed by which of the following structures?",
     "questionImage": null,
     "options": [
@@ -2605,7 +2605,7 @@
   {
     "id": "138",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "An electron micrograph of the glomerular capillary wall shows podocytes with interdigitating foot processes separated by narrow slits. These structures form which of the following?",
     "questionImage": null,
     "options": [
@@ -2624,7 +2624,7 @@
   {
     "id": "139",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the urinary bladder stained with H&E shows a stretch-resistant epithelium with umbrella cells. This epithelium is continuous with which of the following downstream structures?",
     "questionImage": null,
     "options": [
@@ -2643,7 +2643,7 @@
   {
     "id": "140",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the ureter stained with H&E shows a thick muscular wall and a mucosa lined by transitional epithelium. This epithelium is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2662,7 +2662,7 @@
   {
     "id": "141",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the ureter stained with H&E shows a muscular coat composed of inner longitudinal and outer circular layers of smooth muscle. This arrangement is important for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -2681,7 +2681,7 @@
   {
     "id": "142",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "A section of the bladder wall stained with H&E shows a mucosa lined by transitional epithelium, a muscularis (detrusor muscle) composed of smooth muscle in interlacing bundles, and a thin adventitia. The detrusor is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -2700,7 +2700,7 @@
   {
     "id": "143",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the kidney stained with H&E shows a structure with a convoluted tubule and an associated afferent arteriole; this is the site of renin release. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2719,7 +2719,7 @@
   {
     "id": "144",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the kidney stained with PAS shows a segment of nephron with a relatively thick, periodic-acid-positive brush border and abundant cytoplasmic granules. This segment is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2738,7 +2738,7 @@
   {
     "id": "145",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the renal glomerulus shows a very thin epithelium with foot processes and a thick basement membrane on PAS-stain. A patient with proteinuria has a lesion affecting the integrity of the foot processes and slit diaphragms. Which of the following best describes the primary barrier affected?",
     "questionImage": null,
     "options": [
@@ -2757,7 +2757,7 @@
   {
     "id": "146",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the anterior pituitary stained with H&E shows cells arranged in cords and plates with a rich sinusoidal capillary network. This portion of the pituitary is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2776,7 +2776,7 @@
   {
     "id": "147",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the anterior pituitary stained with H&E shows a mixture of acidophilic and basophilic cells interspersed with chromophobes. These cells are best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -2795,7 +2795,7 @@
   {
     "id": "148",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the posterior pituitary stained with H&E shows a plexus of unmyelinated axons, Herring bodies, and pituicytes. The hormones stored here are synthesized in which of the following structures?",
     "questionImage": null,
     "options": [
@@ -2814,7 +2814,7 @@
   {
     "id": "149",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the thyroid gland stained with H&E shows numerous follicles filled with colloid and lined by simple cuboidal epithelium. The follicular epithelial cells are responsible for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -2833,7 +2833,7 @@
   {
     "id": "150",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the thyroid stained with H&E shows a small focus of cells with pale, clear cytoplasm and prominent nuclei located between follicles. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2852,7 +2852,7 @@
   {
     "id": "151",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the adrenal gland stained with H&E shows an outer cortex with several distinct zones and an inner medulla rich in cells with granular cytoplasm. The medulla consists of which of the following cell types?",
     "questionImage": null,
     "options": [
@@ -2871,7 +2871,7 @@
   {
     "id": "152",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the adrenal cortex stained with H&E shows a zona with large cells arranged in cords and a prominent lipid-rich, foamy appearance. This zone is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2890,7 +2890,7 @@
   {
     "id": "153",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the adrenal cortex stained with H&E shows a thin outer layer of small, columnar-like cells arranged in arches. This layer is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2909,7 +2909,7 @@
   {
     "id": "154",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the adrenal cortex stained with H&E shows a deep zone of interconnected cords of cells with moderate lipid content and some cytoplasmic granules. This zone is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2928,7 +2928,7 @@
   {
     "id": "155",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the pancreas stained with special immunohistochemical stains shows cells that are positive for glucagon. These cells are best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -2947,7 +2947,7 @@
   {
     "id": "156",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the pancreas stained with special immunohistochemical stains shows insulin-positive cells scattered among the islets. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2966,7 +2966,7 @@
   {
     "id": "157",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the pancreas stained with H&E shows a second pancreatic polypeptide-producing cell type usually found at the periphery of the islets. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -2985,7 +2985,7 @@
   {
     "id": "158",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the thyroid stained with PAS shows a thick layer of basement-membrane-like material surrounding the follicles. This material is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3004,7 +3004,7 @@
   {
     "id": "159",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the adrenal medulla stained with special silver-based stain shows dark-staining granular cells. These granules represent which of the following?",
     "questionImage": null,
     "options": [
@@ -3023,7 +3023,7 @@
   {
     "id": "160",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the thyroid stained with H&E shows a small, compact region posterior to the follicles that is pale and lacks colloid-filled follicles. This region corresponds to which of the following?",
     "questionImage": null,
     "options": [
@@ -3042,7 +3042,7 @@
   {
     "id": "161",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the testis stained with H&E shows a series of tubular structures with a stratified epithelium and a central lumen containing developing sperm. These structures are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3061,7 +3061,7 @@
   {
     "id": "162",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the seminiferous tubule stained with H&E shows a highly stratified epithelium with spermatogonia, spermatocytes, and spermatids at different levels and a central lumen containing sperm. This epithelium is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3080,7 +3080,7 @@
   {
     "id": "163",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the seminiferous tubule stained with H&E shows large cells with round nuclei and prominent nucleoli located near the basement membrane. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3099,7 +3099,7 @@
   {
     "id": "164",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the testis stained with H&E shows large, polygonal cells with eosinophilic cytoplasm located between the seminiferous tubules. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3118,7 +3118,7 @@
   {
     "id": "165",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the seminiferous tubule stained with H&E shows tall columnar cells with a pale, irregular nucleus and cell processes that extend from the basement membrane to the lumen. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3137,7 +3137,7 @@
   {
     "id": "166",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the epididymis stained with H&E shows a tubule lined by pseudostratified columnar epithelium with stereocilia and a central lumen containing sperm. The stereocilia of the epididymis are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3156,7 +3156,7 @@
   {
     "id": "167",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the vas deferens stained with H&E shows a thick muscular wall with three layers of smooth muscle and a mucosa lined by pseudostratified columnar epithelium. This arrangement is important for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -3175,7 +3175,7 @@
   {
     "id": "168",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the prostate stained with H&E shows a tissue with numerous glandular acini lined by simple columnar to pseudostratified epithelium and a surrounding stroma rich in smooth muscle. This gland is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -3194,7 +3194,7 @@
   {
     "id": "169",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Male Reproductive System",
     "question": "A section of the penile corpora cavernosa stained with H&E shows a venous sinusoid surrounded by smooth muscle trabeculae. The sinusoids are important for which of the following functions?",
     "questionImage": null,
     "options": [
@@ -3213,7 +3213,7 @@
   {
     "id": "170",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Female Reproductive System",
     "question": "A section of the ovary stained with H&E shows a surface covered by simple cuboidal to low columnar epithelium overlying a dense connective tissue cortex. This surface epithelium is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3232,7 +3232,7 @@
   {
     "id": "171",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Female Reproductive System",
     "question": "A section of the ovary stained with H&E shows a small structure with a central oocyte surrounded by a layer of follicular cells. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3251,7 +3251,7 @@
   {
     "id": "172",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Female Reproductive System",
     "question": "A section of the ovary stained with H&E shows a large follicle with a central antrum, multiple layers of granulosa cells, and theca cells outside. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3270,7 +3270,7 @@
   {
     "id": "173",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Female Reproductive System",
     "question": "A section of the ovary stained with H&E shows a collapsed structure with solid cords of luteinized granulosa and theca-derived cells. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3289,7 +3289,7 @@
   {
     "id": "174",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Female Reproductive System",
     "question": "A section of the uterine cervix stained with H&E shows a mucosa lined by stratified squamous epithelium on one side and simple columnar epithelium on the other. The junction between these two epithelia is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3308,7 +3308,7 @@
   {
     "id": "175",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the pancreas stained with H&E shows a branching tubuloalveolar exocrine gland with intercalated ducts leading into larger ducts lined by simple columnar epithelium. The main pancreatic duct is lined by which of the following epithelium types?",
     "questionImage": null,
     "options": [
@@ -3327,7 +3327,7 @@
   {
     "id": "176",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the epidermis stained with H&E shows a multilayered epithelium with a prominent clear stratum granulosum and a highly eosinophilic stratum corneum. This region is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3346,7 +3346,7 @@
   {
     "id": "177",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the dermis stained with H&E shows a papillary layer with thin collagen fibers and a deep reticular layer with thick, wavy bundles of collagen. These fibers are best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -3365,7 +3365,7 @@
   {
     "id": "178",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the skin stained with a special elastin stain shows a network of dark, wavy fibers in the dermis. These fibers are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3384,7 +3384,7 @@
   {
     "id": "179",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the hair follicle stained with H&E shows a matrix of cells in the bulb and a surrounding dermal papilla. The papilla is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3403,7 +3403,7 @@
   {
     "id": "180",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the nail matrix stained with H&E shows a region of epithelium that produces a thick, layered keratinized plate. This epithelium is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -3422,7 +3422,7 @@
   {
     "id": "181",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Special Senses",
     "question": "A section of the cornea stained with H&E shows a transparent tissue with five distinct layers, including a basement-membrane-rich epithelium and an acellular stroma. The stroma is composed mainly of which of the following?",
     "questionImage": null,
     "options": [
@@ -3441,7 +3441,7 @@
   {
     "id": "182",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Special Senses",
     "question": "A section of the retina stained with H&E shows a layered structure with an outer pigment layer and an inner layer of neurons. The neurons responsible for receiving light and initiating phototransduction are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3460,7 +3460,7 @@
   {
     "id": "183",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Special Senses",
     "question": "A section of the inner ear stained with H&E shows a spiral organ with supporting cells and hair cells projecting stereocilia into an overlying gelatinous membrane. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3479,7 +3479,7 @@
   {
     "id": "184",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Special Senses",
     "question": "A section of the eyelid stained with H&E shows a tarsal plate with dense connective tissue, sebaceous glands of Meibomius, and a palpebral conjunctiva lined by stratified columnar epithelium. The conjunctiva is best classified as which of the following?",
     "questionImage": null,
     "options": [
@@ -3498,7 +3498,7 @@
   {
     "id": "185",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Special Senses",
     "question": "A section of the external auditory meatus stained with H&E shows a stratified squamous epithelium with hair follicles, sebaceous glands, and apocrine-like ceruminous glands. This epithelium is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3517,7 +3517,7 @@
   {
     "id": "186",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Muscle Tissue",
     "question": "An electron micrograph of a cardiomyocyte shows a highly organized pattern of myofibrils with alternating dark A bands and light I bands separated by Z lines. The Z line corresponds to which of the following structures?",
     "questionImage": null,
     "options": [
@@ -3536,7 +3536,7 @@
   {
     "id": "187",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Nerve Tissue",
     "question": "An electron micrograph of a peripheral nerve shows a structure with a myelin sheath formed by spiral wrapping of a glial cell process and Schmidt-Lanterman clefts. This glial cell is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3555,7 +3555,7 @@
   {
     "id": "188",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Urinary System",
     "question": "A section of the kidney stained with PAS shows a thick, intensely positive basement membrane underlying the glomerular capillary endothelium. This PAS-positive structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3574,7 +3574,7 @@
   {
     "id": "189",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Digestive System",
     "question": "A section of the small intestine stained with trichrome shows a thin pink line at the base of the epithelium between the lamina propria and epithelium. This line corresponds to which of the following structures?",
     "questionImage": null,
     "options": [
@@ -3593,7 +3593,7 @@
   {
     "id": "190",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the thyroid stained with H&E shows a colloid-filled follicle with a thin layer of simple cuboidal epithelium. The colloid is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3612,7 +3612,7 @@
   {
     "id": "191",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the adrenal medulla stained with H&E shows polygonal cells with granular cytoplasm arranged in irregular cords. These cells are best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3631,7 +3631,7 @@
   {
     "id": "192",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Glands Associated with Digestion",
     "question": "A section of the liver stained with a special stain for fat shows large, empty-looking vacuoles in many hepatocytes. These vacuoles correspond to which of the following structures?",
     "questionImage": null,
     "options": [
@@ -3650,7 +3650,7 @@
   {
     "id": "193",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the skin stained with H&E shows a prominent rete peg pattern where the epidermis extends down into the dermis in regular ridges. This pattern is best seen in which of the following locations?",
     "questionImage": null,
     "options": [
@@ -3669,7 +3669,7 @@
   {
     "id": "194",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Respiratory System",
     "question": "A section of the lung stained with H&E shows alveolar walls composed of thin type I pneumocytes with underlying capillaries. A patient with emphysema has destruction of these walls. Which of the following structures is primarily lost?",
     "questionImage": null,
     "options": [
@@ -3688,7 +3688,7 @@
   {
     "id": "195",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the skin stained with a special stain for elastin shows a dense network of elastic fibers in the dermis. A patient with cutis laxa has a marked deficiency in this component. Which of the following is most likely to be reduced in the skin?",
     "questionImage": null,
     "options": [
@@ -3707,7 +3707,7 @@
   {
     "id": "196",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Endocrine System",
     "question": "A section of the thyroid stained with H&E shows follicles with a thick basement membrane and colloid-filled lumens. A patient with Hashimoto's thyroiditis has lymphocytic infiltration and follicular destruction. Which of the following structures is most likely to appear shrunken and distorted?",
     "questionImage": null,
     "options": [
@@ -3726,7 +3726,7 @@
   {
     "id": "197",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the skin stained with H&E shows a structure with a central hair shaft, a surrounding inner and outer root sheath, and an associated sebaceous gland. This structure is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3745,7 +3745,7 @@
   {
     "id": "198",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the skin stained with H&E shows a coiled gland in the dermis with a duct that opens directly onto the skin surface. This gland is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3764,7 +3764,7 @@
   {
     "id": "199",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the skin stained with H&E shows a gland with a secretory portion in the deep dermis, a duct that opens into a hair follicle, and a secretory product released by decapitation secretion. This gland is best described as which of the following?",
     "questionImage": null,
     "options": [
@@ -3783,7 +3783,7 @@
   {
     "id": "200",
     "subject": "Histology",
-    "topic": "General",
+    "topic": "Skin",
     "question": "A section of the skin stained with H&E shows a thick layer of keratinized epithelium with a prominent granular layer and a stratum lucidum. This characteristic is most consistent with which of the following locations?",
     "questionImage": null,
     "options": [
