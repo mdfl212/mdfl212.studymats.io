@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "1",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which heart sound is best heard using the bell of the stethoscope?",
+    "questionImage": null,
+    "options": [
+      "Mitral regurgitation",
+      "Aortic regurgitation",
+      "S3",
+      "High-pitched murmur"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "S3 is a low-pitched sound best heard with the bell of the stethoscope at the apex in mid-diastole. Mitral and aortic regurgitation are high-pitched murmurs best heard with the diaphragm.",
+      "images": []
+    }
+  },
+  {
+    "id": "2",
+    "subject": "Pediatrics",
+    "topic": "Nutrition",
+    "question": "Which of the following findings is associated with Vitamin D deficiency?",
+    "questionImage": null,
+    "options": [
+      "Craniosynostosis",
+      "Caput succedaneum",
+      "Craniotabes",
+      "Aplasia cutis congenita"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Craniotabes is a softening of the cranial bones, felt as a 'ping-pong ball' sensation, seen in vitamin D deficiency, osteogenesis imperfecta, and syphilis.",
+      "images": []
+    }
+  },
+  {
+    "id": "3",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "A 1-year-old male with recurrent P. aeruginosa pneumonia, E. coli UTI, candidal infection, and persistent S. aureus skin abscess. Most likely diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Wiskott-Aldrich syndrome",
+      "Chronic granulomatous disease",
+      "Job Syndrome",
+      "Leukocyte adhesion deficiency"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Recurrent infections with catalase-positive organisms (Pseudomonas, E. coli, Candida, Staphylococcus) suggest Chronic Granulomatous Disease (CGD) due to defective NADPH oxidase.",
+      "images": []
+    }
+  },
+  {
+    "id": "4",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Based on the patient above, what is the diagnostic test of choice for CGD?",
+    "questionImage": null,
+    "options": [
+      "Flow cytometry",
+      "Serum IgM levels",
+      "Nitroblue tetrazolium dye test",
+      "Serum IgE levels"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Flow cytometry using dihydrorhodamine (DHR) is the current standard for diagnosing CGD. NBT test is older and rarely used.",
+      "images": []
+    }
+  },
+  {
+    "id": "5",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Based on the diagnosis of CGD, what is its only known cure?",
+    "questionImage": null,
+    "options": [
+      "Antibiotics",
+      "Immunoglobulin",
+      "Stem cell transplant",
+      "Observation"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Hematopoietic stem cell transplantation (HSCT) is the only curative therapy for CGD. Prophylactic antibiotics help reduce infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "6",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "The following findings are seen in patients with primary aldosteronism, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Hypertension",
+      "Hyperkalemia",
+      "High aldosterone:renin ratio",
+      "Metabolic alkalosis"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Primary aldosteronism causes hypertension, hypokalemia (not hyperkalemia), high aldosterone:renin ratio, and metabolic alkalosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "7",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Which developmental milestone would you expect in an average 6-month-old child?",
+    "questionImage": null,
+    "options": [
+      "Thumb-finger grasp",
+      "Monosyllabic babble",
+      "Follow 1 step command with gesture",
+      "Bangs 2 cubes"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "At 6 months, infants typically produce monosyllabic babble. Thumb-finger grasp and banging cubes appear around 8-9 months; following a command with gesture at 7 months.",
+      "images": []
+    }
+  },
+  {
+    "id": "8",
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "question": "A child with sickle cell anemia is at risk of aplastic crisis when infected with which virus?",
+    "questionImage": null,
+    "options": [
+      "Coxsackievirus type A",
+      "Echovirus",
+      "Human herpesvirus 6",
+      "Parvovirus B19"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Parvovirus B19 infects erythroid progenitor cells, causing transient aplastic crisis in patients with hemolytic anemias like sickle cell disease.",
+      "images": []
+    }
+  },
+  {
+    "id": "9",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "The following are found in congenital varicella syndrome, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Cicatricial skin scarring",
+      "Microcephaly",
+      "Cataracts",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All options are manifestations of congenital varicella syndrome (also limb hypoplasia, chorioretinitis, hydronephrosis, etc.).",
+      "images": []
+    }
+  },
+  {
+    "id": "10",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "The following congenital heart diseases produce a holosystolic murmur, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Mitral regurgitation",
+      "Ventricular Septal Defect",
+      "Aortic regurgitation",
+      "Tricuspid Regurgitation"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Aortic regurgitation produces an early diastolic blowing murmur. MR, VSD, and TR are holosystolic.",
+      "images": []
+    }
+  },
+  {
+    "id": "11",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "A 5-year-old boy with waddling gait and uses his upper extremities to stand up (Gowers' sign). Most probable diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Cerebral palsy",
+      "Duchenne muscular dystrophy",
+      "Spinal cord injury",
+      "Talipes equinovarus"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Duchenne muscular dystrophy is an X-linked recessive disorder presenting before age 5 with Gowers' sign and waddling gait.",
+      "images": []
+    }
+  },
+  {
+    "id": "12",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Dextrocardia may be found in which of the following syndromes?",
+    "questionImage": null,
+    "options": [
+      "Cystic fibrosis",
+      "Kartagener Syndrome",
+      "Marfan Syndrome",
+      "Down Syndrome"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Kartagener syndrome (primary ciliary dyskinesia) is associated with dextrocardia, situs inversus, and chronic sinusitis/bronchiectasis.",
+      "images": []
+    }
+  },
+  {
+    "id": "13",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "In which condition would you expect a narrowly split S2?",
+    "questionImage": null,
+    "options": [
+      "Pulmonary hypertension",
+      "RBBB",
+      "Atrial septal defect",
+      "LBBB"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Pulmonary hypertension causes a narrowly split and loud S2. RBBB gives wide splitting, ASD fixed splitting, LBBB paradoxical splitting.",
+      "images": []
+    }
+  },
+  {
+    "id": "14",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which is the most common causative agent of infective endocarditis in IV drug users?",
+    "questionImage": null,
+    "options": [
+      "HACEK organisms",
+      "S. aureus",
+      "Viridans group streptococci",
+      "Coagulase-negative staphylococci"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "In IV drug users, Staphylococcus aureus is the most common cause, along with Pseudomonas aeruginosa and Serratia marcescens.",
+      "images": []
+    }
+  },
+  {
+    "id": "15",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which is the major risk factor for infective endocarditis in the newborn infant?",
+    "questionImage": null,
+    "options": [
+      "Central IV line",
+      "Respiratory infections",
+      "Severe diarrhea",
+      "Early discharge"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Central venous lines are the major risk factor for infective endocarditis in neonates due to catheter-related bacteremia.",
+      "images": []
+    }
+  },
+  {
+    "id": "16",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which component of Tetralogy of Fallot is responsible for the boot-shaped heart on X-ray?",
+    "questionImage": null,
+    "options": [
+      "Pulmonary stenosis",
+      "Right ventricular hypertrophy",
+      "Overriding aorta",
+      "Ventricular septal defect"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Right ventricular hypertrophy causes the cardiac apex to be uptilted, giving the characteristic boot-shaped silhouette.",
+      "images": []
+    }
+  },
+  {
+    "id": "17",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "A preterm baby delivered via CS has HR 125, good respiratory effort, some flexion of extremities, sneezes to catheter, body pink with blue extremities. APGAR score:",
+    "questionImage": null,
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "APGAR: HR 2, Resp 2, Tone 1, Reflex 2, Color 1 = 8. Color is 1 (pink body, blue extremities).",
+      "images": []
+    }
+  },
+  {
+    "id": "18",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Which of the following is NOT true about the Apgar score?",
+    "questionImage": null,
+    "options": [
+      "Used to determine need for resuscitation",
+      "Done every 5-20 min if 5-min score <7",
+      "Reflects response to resuscitation",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Apgar score is NOT used to determine the need for resuscitation or guide resuscitation steps; it assesses the infant's condition and response.",
+      "images": []
+    }
+  },
+  {
+    "id": "19",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "A 34-week infant born to a diabetic, hypertensive mother via CS develops tachypnea, alar flaring, retractions. Most likely diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Meconium aspiration syndrome",
+      "Neonatal Pneumonia",
+      "Hyaline membrane disease",
+      "Transient tachypnea of the newborn"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Respiratory distress syndrome (RDS) is common in premature infants, especially with maternal diabetes and cesarean delivery, due to surfactant deficiency.",
+      "images": []
+    }
+  },
+  {
+    "id": "20",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "In a patient with RDS, the chest X-ray would show:",
+    "questionImage": null,
+    "options": [
+      "Ground-glass appearance",
+      "Coarse streaking",
+      "Perihilar vascular markings",
+      "Hyperinflation"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "RDS shows fine reticular granularity (ground-glass) with air bronchograms and low lung volumes.",
+      "images": []
+    }
+  },
+  {
+    "id": "21",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "Which could have prevented RDS in the above case?",
+    "questionImage": null,
+    "options": [
+      "Good hygiene",
+      "Intravenous antibiotics",
+      "Rapid identification of fetal distress",
+      "Maternal steroids"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Antenatal corticosteroids given before 37 weeks reduce the incidence of RDS and neonatal mortality.",
+      "images": []
+    }
+  },
+  {
+    "id": "22",
+    "subject": "Pediatrics",
+    "topic": "Vaccines",
+    "question": "The following are live attenuated vaccines, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Smallpox vaccine",
+      "Rabies vaccine",
+      "Rotavirus vaccine",
+      "BCG"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rabies vaccine is inactivated. Live attenuated vaccines include MMR, varicella, rotavirus, BCG, oral polio, and yellow fever.",
+      "images": []
+    }
+  },
+  {
+    "id": "23",
+    "subject": "Pediatrics",
+    "topic": "Vaccines",
+    "question": "Which vaccine is administered subcutaneously?",
+    "questionImage": null,
+    "options": [
+      "Meningococcal, polysaccharide",
+      "Typhoid fever vaccine (polysaccharide Vi)",
+      "Japanese encephalitis virus vaccine",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Meningococcal polysaccharide vaccine is given SC. The other options are administered IM.",
+      "images": []
+    }
+  },
+  {
+    "id": "24",
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "question": "Which would LEAST likely show microcytic anemia on CBC?",
+    "questionImage": null,
+    "options": [
+      "Thalassemia",
+      "Lead poisoning",
+      "Sideroblastic anemia",
+      "G6PD deficiency"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "G6PD deficiency causes normocytic anemia. Microcytic anemias include iron deficiency, thalassemia, lead poisoning, and sideroblastic anemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "25",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Interpretation of serologic tests: + HBsAg, - Anti-HBs, + Anti-HBc IgM, + HBeAg:",
+    "questionImage": null,
+    "options": [
+      "Immunized",
+      "Acute infection",
+      "Recovered",
+      "Chronic active infection"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "This pattern indicates acute hepatitis B infection (high infectivity).",
+      "images": []
+    }
+  },
+  {
+    "id": "26",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "A 3-year-old with cough, coryza, conjunctivitis, maculopapular rash starting on head, and Koplik spots. Most likely diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Rubella",
+      "Rubeola (Measles)",
+      "Roseola",
+      "Hand-foot-and-mouth disease"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Measles (rubeola) presents with cough, coryza, conjunctivitis, Koplik spots, and a maculopapular rash starting on the face.",
+      "images": []
+    }
+  },
+  {
+    "id": "27",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "What is the most common cause of death in measles?",
+    "questionImage": null,
+    "options": [
+      "Otitis media",
+      "Stroke",
+      "Encephalitis",
+      "Pneumonia"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Pneumonia (giant cell or secondary bacterial) is the most common cause of measles-related death.",
+      "images": []
+    }
+  },
+  {
+    "id": "28",
+    "subject": "Pediatrics",
+    "topic": "Genetics",
+    "question": "Which of the following is NOT associated with Down Syndrome?",
+    "questionImage": null,
+    "options": [
+      "Pyloric stenosis",
+      "Ventricular septal defect",
+      "Alzheimer disease",
+      "Acute leukemia"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Down syndrome is associated with duodenal atresia, Hirschsprung, AVSD, leukemia, and early Alzheimer's, but NOT pyloric stenosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "29",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "The universal finding in rheumatic carditis is:",
+    "questionImage": null,
+    "options": [
+      "Pericarditis alone",
+      "Myocarditis alone",
+      "Endocarditis alone",
+      "Endocarditis, myocarditis, and pericarditis"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Endocarditis (valvulitis) is a universal finding in rheumatic carditis; myocarditis and pericarditis are variable.",
+      "images": []
+    }
+  },
+  {
+    "id": "30",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "A 15-year-old with rheumatic fever with carditis but no valvular involvement. Duration of secondary prophylaxis:",
+    "questionImage": null,
+    "options": [
+      "5 years or until 21",
+      "10 years or until 21",
+      "15 years or until 21",
+      "10 years or until 40"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "For rheumatic fever with carditis but no residual heart disease, prophylaxis is recommended for 10 years or until age 21, whichever is longer.",
+      "images": []
+    }
+  },
+  {
+    "id": "31",
+    "subject": "Pediatrics",
+    "topic": "Nutrition",
+    "question": "Zinc supplementation can be given in which of the following diseases?",
+    "questionImage": null,
+    "options": [
+      "Pneumonia",
+      "Acrodermatitis enteropathica",
+      "Cholera",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Zinc is used in acrodermatitis enteropathica, reduces severity of pneumonia, and shortens cholera diarrhea.",
+      "images": []
+    }
+  },
+  {
+    "id": "32",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Which is included in the management of measles?",
+    "questionImage": null,
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Zinc"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Vitamin A therapy reduces morbidity and mortality in measles; recommended for all patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "33",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "What is the most common intraocular tumor in children?",
+    "questionImage": null,
+    "options": [
+      "Coloboma",
+      "Cataract",
+      "Hyperplastic primary vitreous",
+      "Retinoblastoma"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Retinoblastoma is the most common intraocular malignancy in children, typically presenting with leukocoria.",
+      "images": []
+    }
+  },
+  {
+    "id": "34",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "What is the most common cause of congenital hypothyroidism?",
+    "questionImage": null,
+    "options": [
+      "Dyshormonogenesis",
+      "Maternal hypothyroidism",
+      "Iodine deficiency",
+      "Dysgenesis"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Thyroid dysgenesis (abnormal formation) is the most common cause of congenital hypothyroidism.",
+      "images": []
+    }
+  },
+  {
+    "id": "35",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "The following are findings in congenital hypothyroidism, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Wide fontanels",
+      "Constipation",
+      "Prolonged direct hyperbilirubinemia",
+      "Macrocytic anemia"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Congenital hypothyroidism causes prolonged indirect (not direct) hyperbilirubinemia due to delayed conjugation.",
+      "images": []
+    }
+  },
+  {
+    "id": "36",
+    "subject": "Pediatrics",
+    "topic": "Nutrition",
+    "question": "Deficiency of which nutrient causes poor wound healing, hair loss, diarrhea, and acral/periorificial rash?",
+    "questionImage": null,
+    "options": [
+      "Zinc",
+      "Vitamin A",
+      "Copper",
+      "Vitamin B3"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "These are features of acrodermatitis enteropathica (severe zinc deficiency).",
+      "images": []
+    }
+  },
+  {
+    "id": "37",
+    "subject": "Pediatrics",
+    "topic": "Nutrition",
+    "question": "Which is NOT TRUE about malnutrition?",
+    "questionImage": null,
+    "options": [
+      "Prone to hypoglycemia",
+      "Response to infection is usually absent",
+      "Sodium builds up inside cells leading to edema",
+      "They are more vulnerable to hyperthermia"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Malnourished children are prone to hypothermia (not hyperthermia) due to reduced heat production.",
+      "images": []
+    }
+  },
+  {
+    "id": "38",
+    "subject": "Pediatrics",
+    "topic": "Nutrition",
+    "question": "Obesity is defined by CDC as BMI for age and sex:",
+    "questionImage": null,
+    "options": [
+      "≥99th percentile",
+      "≥95th percentile",
+      "≥90th percentile",
+      "≥85th percentile"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Obesity: BMI ≥95th percentile. Overweight: 85th to <95th percentile.",
+      "images": []
+    }
+  },
+  {
+    "id": "39",
+    "subject": "Pediatrics",
+    "topic": "Vaccines",
+    "question": "Which is FALSE about vaccination?",
+    "questionImage": null,
+    "options": [
+      "Defer vaccine for moderate to severe acute illness",
+      "Flu vaccine should not be given to those who developed hives after egg exposure",
+      "MMR components are grown in chick embryos",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Patients with only hives after egg exposure can receive flu vaccine with appropriate precautions; it is not a contraindication.",
+      "images": []
+    }
+  },
+  {
+    "id": "40",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "What is the most commonly involved segment in intussusception?",
+    "questionImage": null,
+    "options": [
+      "Cecum",
+      "Rectosigmoid area",
+      "Ileocolic region",
+      "Jejunoleal segment"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Intussusception is most commonly ileocolic, where the ileum invaginates into the colon.",
+      "images": []
+    }
+  },
+  {
+    "id": "41",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Which is NOT TRUE about Meckel diverticulum?",
+    "questionImage": null,
+    "options": [
+      "Persistence of the omphalomesenteric duct",
+      "Most common congenital anomaly of the GI tract",
+      "Diagnosis made with Tc-pertechnetate",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All statements are true. Meckel diverticulum is the most common GI congenital anomaly and is diagnosed with Tc-99m pertechnetate scan.",
+      "images": []
+    }
+  },
+  {
+    "id": "42",
+    "subject": "Pediatrics",
+    "topic": "Vaccines",
+    "question": "Which vaccine was previously linked to increased risk of intussusception?",
+    "questionImage": null,
+    "options": [
+      "Hepatitis A vaccine",
+      "Rotavirus vaccine",
+      "Polio vaccine",
+      "Hepatitis B vaccine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "A previous rotavirus vaccine (RotaShield) was associated with intussusception; current vaccines have lower risk.",
+      "images": []
+    }
+  },
+  {
+    "id": "43",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "Acute lymphocytic leukemia (ALL) may spread to which organ?",
+    "questionImage": null,
+    "options": [
+      "Breast",
+      "Prostate",
+      "Testes",
+      "Liver"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "ALL can spread to the testes and CNS; testicular involvement is a common site of extramedullary relapse.",
+      "images": []
+    }
+  },
+  {
+    "id": "44",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "Which of the following is NOT true about Wilms tumor?",
+    "questionImage": null,
+    "options": [
+      "Associated with WAGR complex",
+      "Most common renal malignancy of early childhood",
+      "Usually asymptomatic flank mass",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All options are true. Wilms tumor is associated with WT1/WT2 mutations, WAGR complex, and presents as a flank mass. No option is false.",
+      "images": []
+    }
+  },
+  {
+    "id": "45",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Which results in osmotic type of diarrhea?",
+    "questionImage": null,
+    "options": [
+      "Amebiasis",
+      "Laxative abuse",
+      "Pseudoobstruction",
+      "Cholera"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Laxative abuse causes osmotic diarrhea. Amebiasis is mucosal invasion, pseudoobstruction is motility, cholera is secretory.",
+      "images": []
+    }
+  },
+  {
+    "id": "46",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "What is the gold standard for diagnosing Hirschsprung disease?",
+    "questionImage": null,
+    "options": [
+      "Barium enema",
+      "Anorectal manometry",
+      "Explosive expulsion after digital exam",
+      "Rectal suction biopsy"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Rectal suction biopsy showing absence of ganglion cells is the gold standard.",
+      "images": []
+    }
+  },
+  {
+    "id": "47",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "What is the most common cause of acute gastroenteritis among children worldwide?",
+    "questionImage": null,
+    "options": [
+      "Amoebiasis",
+      "Norovirus",
+      "E. coli",
+      "Rotavirus"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Rotavirus is the most common cause of acute gastroenteritis in children globally.",
+      "images": []
+    }
+  },
+  {
+    "id": "48",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "A 1-year-old with vomiting followed by watery non-bloody diarrhea and low-grade fever. Most likely:",
+    "questionImage": null,
+    "options": [
+      "Shigella",
+      "Campylobacter",
+      "Rotavirus",
+      "E. histolytica"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Rotavirus typically presents with vomiting followed by watery diarrhea and fever; stools are non-bloody.",
+      "images": []
+    }
+  },
+  {
+    "id": "49",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Which of the following is found in biliary atresia?",
+    "questionImage": null,
+    "options": [
+      "Diffuse hepatocellular disease",
+      "Presence of bile plugs",
+      "Distortion of lobular architecture",
+      "Inflammatory cell infiltration"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Biliary atresia shows bile plugs and bile duct proliferation; neonatal hepatitis shows diffuse hepatocellular disease and inflammation.",
+      "images": []
+    }
+  },
+  {
+    "id": "50",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "The following are characteristic findings in APSGN, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Lumpy bumpy deposits on immunofluorescence",
+      "Humps on epithelial side of GBM",
+      "Enlarged glomeruli",
+      "Normal C3 serum levels"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "In APSGN, C3 is significantly reduced (not normal). C3 differentiates it from IgA nephropathy.",
+      "images": []
+    }
+  },
+  {
+    "id": "51",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "Hereditary nephritis, anterior lenticonus, and sensorineural hearing loss are characteristic of:",
+    "questionImage": null,
+    "options": [
+      "IgA nephropathy",
+      "SLE Nephropathy",
+      "Alport Syndrome",
+      "Goodpasture Syndrome"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Alport syndrome (X-linked) presents with hematuria, progressive hearing loss, and ocular abnormalities (anterior lenticonus).",
+      "images": []
+    }
+  },
+  {
+    "id": "52",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "Which glomerulonephritis is commonly associated with renal vein thrombosis?",
+    "questionImage": null,
+    "options": [
+      "Membranous nephropathy",
+      "Rapid progressive GN",
+      "APSGN",
+      "FSGS"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Membranous nephropathy is associated with renal vein thrombosis due to hypercoagulability from proteinuria.",
+      "images": []
+    }
+  },
+  {
+    "id": "53",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "What is the most common infectious cause of nephrotic syndrome worldwide?",
+    "questionImage": null,
+    "options": [
+      "Hepatitis B",
+      "Syphilis",
+      "Malaria",
+      "Typhoid fever"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Malaria is the most common infectious cause of nephrotic syndrome globally (especially in endemic areas).",
+      "images": []
+    }
+  },
+  {
+    "id": "54",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "Which is NOT included in the classic tetrad of Henoch-Schonlein purpura (HSP) nephritis?",
+    "questionImage": null,
+    "options": [
+      "Arthralgia",
+      "Non-palpable petechial rash",
+      "Abdominal pain",
+      "Renal disease"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "HSP tetrad includes palpable purpura (not non-palpable), arthritis, abdominal pain, and renal involvement.",
+      "images": []
+    }
+  },
+  {
+    "id": "55",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "HSP nephritis shares the same renal histology with which glomerular disease?",
+    "questionImage": null,
+    "options": [
+      "Membranous nephropathy",
+      "IgA nephropathy",
+      "Membranoproliferative GN",
+      "FSGS"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Both IgA nephropathy and HSP nephritis show IgA deposition in the mesangium and share pathogenesis.",
+      "images": []
+    }
+  },
+  {
+    "id": "56",
+    "subject": "Pediatrics",
+    "topic": "Rheumatology",
+    "question": "HSP is most commonly preceded by which of the following?",
+    "questionImage": null,
+    "options": [
+      "Acute gastroenteritis",
+      "UTI",
+      "Upper respiratory tract infection",
+      "Tick bite"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Approximately 50% of HSP cases are preceded by an upper respiratory tract infection.",
+      "images": []
+    }
+  },
+  {
+    "id": "57",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Which is the most common route of transmission of Shiga-toxin-producing E. coli (STEC) in children?",
+    "questionImage": null,
+    "options": [
+      "Person-to-person",
+      "Ingestion of undercooked meat",
+      "Contaminated water",
+      "Airborne"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "STEC is commonly transmitted by undercooked ground beef, unpasteurized milk, and apple cider.",
+      "images": []
+    }
+  },
+  {
+    "id": "58",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "The following are clinical manifestations of nephrotic syndrome, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Proteinuria",
+      "Hypercholesterolemia",
+      "Thromboembolism",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All options are clinical manifestations of nephrotic syndrome (proteinuria, hyperlipidemia, hypercoagulability).",
+      "images": []
+    }
+  },
+  {
+    "id": "59",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "What is the mainstay treatment for minimal change nephrotic syndrome?",
+    "questionImage": null,
+    "options": [
+      "Antibiotics",
+      "Corticosteroids",
+      "Calcineurin inhibitors",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Corticosteroids (prednisone) are the mainstay of therapy for minimal change nephrotic syndrome.",
+      "images": []
+    }
+  },
+  {
+    "id": "60",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "All of the following are causes of transient proteinuria in children, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Temperature >38.3°C",
+      "Exercise",
+      "Overhydration",
+      "Cold exposure"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Dehydration (not overhydration) is a cause of transient proteinuria, along with fever, exercise, and cold exposure.",
+      "images": []
+    }
+  },
+  {
+    "id": "61",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "What is the leading causative agent for endocarditis in pediatric patients?",
+    "questionImage": null,
+    "options": [
+      "Staphylococcus aureus",
+      "Pseudomonas aeruginosa",
+      "Haemophilus influenzae",
+      "Coxsackievirus A16"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Staphylococcus aureus and viridans group streptococci are the leading causes of infective endocarditis in children.",
+      "images": []
+    }
+  },
+  {
+    "id": "62",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "In TOF, what determines the timing of onset of symptoms and severity of cyanosis?",
+    "questionImage": null,
+    "options": [
+      "Degree of RV outflow obstruction",
+      "Size of VSD",
+      "Degree of overriding aorta",
+      "Degree of RVH"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The degree of right ventricular outflow obstruction determines the severity of cyanosis and symptom onset in Tetralogy of Fallot.",
+      "images": []
+    }
+  },
+  {
+    "id": "63",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "The single most important prognostic factor in ALL is:",
+    "questionImage": null,
+    "options": [
+      "Presence of genetic abnormalities",
+      "Age",
+      "Comorbidities",
+      "Effective treatment"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Without effective treatment, ALL is fatal; thus, effective treatment is the most important prognostic factor.",
+      "images": []
+    }
+  },
+  {
+    "id": "64",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "The following factors portend a poorer outcome in ALL, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Hypodiploidy",
+      "Philadelphia chromosome",
+      "Chromosomal abnormalities",
+      "Presence of trisomy 10"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Trisomy 10 is a favorable feature; poor prognostic factors include hypodiploidy, Philadelphia chromosome, and MLL rearrangements.",
+      "images": []
+    }
+  },
+  {
+    "id": "65",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "Which should be avoided in HUS caused by STEC?",
+    "questionImage": null,
+    "options": [
+      "Red cell transfusions",
+      "Early recognition",
+      "Control of hypertension",
+      "Antibiotics"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Antibiotics may increase Shiga toxin release and worsen HUS; they are generally avoided.",
+      "images": []
+    }
+  },
+  {
+    "id": "66",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "The diagnosis of HUS is made by combination of findings, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Microangiopathic hemolytic anemia",
+      "Thrombocytosis",
+      "Kidney failure",
+      "Presence of schistocytes"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "HUS is characterized by microangiopathic hemolytic anemia, thrombocytopenia (not thrombocytosis), and acute kidney injury.",
+      "images": []
+    }
+  },
+  {
+    "id": "67",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "What is the most common chronic symptom of childhood asthma?",
+    "questionImage": null,
+    "options": [
+      "Intermittent dry coughing",
+      "Chest tightness",
+      "Nonfocal chest pain",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Intermittent dry cough and expiratory wheezing are the most common chronic symptoms of asthma.",
+      "images": []
+    }
+  },
+  {
+    "id": "68",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "Therapy of childhood asthma can be stepped down after good control for at least how many months?",
+    "questionImage": null,
+    "options": [
+      "3 weeks",
+      "1 month",
+      "3 months",
+      "6 months"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Stepping down therapy should be considered after achieving good asthma control for at least 3 months.",
+      "images": []
+    }
+  },
+  {
+    "id": "69",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "The preferred therapy for all patients with persistent asthma is:",
+    "questionImage": null,
+    "options": [
+      "SABA",
+      "LABA",
+      "Inhaled corticosteroid",
+      "Leukotriene antagonist"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Low-dose inhaled corticosteroids are the preferred therapy for persistent asthma (Step 2).",
+      "images": []
+    }
+  },
+  {
+    "id": "70",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "Discharge medications for hospitalized asthma exacerbation include oral corticosteroids for how many days?",
+    "questionImage": null,
+    "options": [
+      "1-3 days",
+      "3-7 days",
+      "7-14 days",
+      "14-21 days"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "After hospitalization, patients are typically discharged with a 3-7 day course of oral corticosteroids.",
+      "images": []
+    }
+  },
+  {
+    "id": "71",
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "question": "What is the hallmark of hemophilic bleeding?",
+    "questionImage": null,
+    "options": [
+      "Hemarthrosis",
+      "Epistaxis",
+      "Gum bleeding",
+      "Petechial rashes"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Hemarthrosis (bleeding into joints) is the hallmark of hemophilia, differentiating it from platelet disorders.",
+      "images": []
+    }
+  },
+  {
+    "id": "72",
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "question": "What percentage of clotting factor activity is present in severe hemophilia?",
+    "questionImage": null,
+    "options": [
+      "<1%",
+      "1-5%",
+      ">5%",
+      ">15%"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Severe hemophilia: <1% factor activity; moderate: 1-5%; mild: >5%.",
+      "images": []
+    }
+  },
+  {
+    "id": "73",
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "question": "What is the most common inherited bleeding disorder?",
+    "questionImage": null,
+    "options": [
+      "Hemophilia A",
+      "Hemophilia B",
+      "Von Willebrand disease",
+      "Platelet function disorder"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Von Willebrand disease is the most common inherited bleeding disorder, affecting up to 1% of the population.",
+      "images": []
+    }
+  },
+  {
+    "id": "74",
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "question": "Which drug can increase circulating von Willebrand factor from storage?",
+    "questionImage": null,
+    "options": [
+      "Demeclocycline",
+      "Desmopressin",
+      "Plasmapheresis",
+      "Antifibrinolytic"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Desmopressin (DDAVP) releases vWF from endothelial stores and is used in mild von Willebrand disease.",
+      "images": []
+    }
+  },
+  {
+    "id": "75",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "Among patients with febrile seizure, lumbar puncture should be done in all EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "3-year-old with fever and cough",
+      "Ill-appearing child",
+      "5-month-old with fever and seizure",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "LP is indicated in infants <6 months, ill-appearing children, or those with meningeal signs; a 3-year-old with cough and fever is not an indication.",
+      "images": []
+    }
+  },
+  {
+    "id": "76",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "Which is a risk factor for recurrence of febrile seizures?",
+    "questionImage": null,
+    "options": [
+      "Male gender",
+      "Higher serum sodium at presentation",
+      "Simple febrile seizure",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Risk factors for recurrence: male gender, daycare, family history, lower age at onset, and lower fever at presentation.",
+      "images": []
+    }
+  },
+  {
+    "id": "77",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Which is FALSE about intussusception?",
+    "questionImage": null,
+    "options": [
+      "More common in males",
+      "Associated with erythromycin use",
+      "Nonbillious vomiting is the initial symptom",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All statements are true: intussusception is more common in males, associated with erythromycin, and nonbilious vomiting is an early sign.",
+      "images": []
+    }
+  },
+  {
+    "id": "78",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Repeated vomiting in pyloric stenosis leads to which acid-base disturbance?",
+    "questionImage": null,
+    "options": [
+      "Hypochloremic metabolic acidosis",
+      "Hypochloremic metabolic alkalosis",
+      "Hyperchloremic metabolic acidosis",
+      "Hyperchloremic metabolic alkalosis"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Loss of H+ and Cl- from gastric vomiting causes hypochloremic metabolic alkalosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "79",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "Which is the most effective therapy for allergic rhinitis that may also treat conjunctivitis?",
+    "questionImage": null,
+    "options": [
+      "Intranasal corticosteroids",
+      "Leukotriene antagonists",
+      "Oxymetazoline",
+      "Second-generation antihistamines"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Intranasal corticosteroids are the most effective for allergic rhinitis and also improve conjunctivitis symptoms.",
+      "images": []
+    }
+  },
+  {
+    "id": "80",
+    "subject": "Pediatrics",
+    "topic": "Dermatology",
+    "question": "One of the cardinal features of atopic dermatitis is:",
+    "questionImage": null,
+    "options": [
+      "Dry skin",
+      "Pruritus",
+      "Fissured skin",
+      "Excoriations"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Intense pruritus is the cardinal feature of atopic dermatitis, often worse at night.",
+      "images": []
+    }
+  },
+  {
+    "id": "81",
+    "subject": "Pediatrics",
+    "topic": "Dermatology",
+    "question": "What is the first-line therapy for atopic dermatitis?",
+    "questionImage": null,
+    "options": [
+      "Topical steroids",
+      "Moisturizers",
+      "Topical antibiotics",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Moisturizers (emollients) are the first-line therapy; topical corticosteroids are for acute flares.",
+      "images": []
+    }
+  },
+  {
+    "id": "82",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Which anti-TB drug should be used in children old enough to distinguish colors?",
+    "questionImage": null,
+    "options": [
+      "Streptomycin",
+      "Ethambutol",
+      "Isoniazid",
+      "Rifampicin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ethambutol can cause optic neuritis; visual acuity and color discrimination must be monitored.",
+      "images": []
+    }
+  },
+  {
+    "id": "83",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "What is the most common form of extrapulmonary TB in children?",
+    "questionImage": null,
+    "options": [
+      "Scrofula",
+      "TB meningitis",
+      "Miliary TB",
+      "Pericardial TB"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Scrofula (tuberculous lymphadenitis, usually cervical) is the most common extrapulmonary TB in children.",
+      "images": []
+    }
+  },
+  {
+    "id": "84",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Brain CT/MRI in tuberculous meningitis presents with all EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Basilar enhancement",
+      "Noncommunicating hydrocephalus",
+      "Early focal ischemia",
+      "Communicating hydrocephalus"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tuberculous meningitis typically causes communicating hydrocephalus (not noncommunicating).",
+      "images": []
+    }
+  },
+  {
+    "id": "85",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "A child with 2-week history of fever, sore throat, difficulty swallowing, and drooling; appears toxic, leaning forward, with muffled voice. Laryngoscopy would show:",
+    "questionImage": null,
+    "options": [
+      "Cherry-red swollen epiglottis",
+      "Subglottic narrowing",
+      "Swollen tonsils",
+      "Any of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Acute epiglottitis (usually Hib) presents with cherry-red swollen epiglottis and is a medical emergency.",
+      "images": []
+    }
+  },
+  {
+    "id": "86",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "Post-streptococcal glomerulonephritis is classified as what type of hypersensitivity?",
+    "questionImage": null,
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "PSGN is a type III hypersensitivity reaction with immune complex deposition.",
+      "images": []
+    }
+  },
+  {
+    "id": "87",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "A child with incessant coughing: multiple coughs on a single exhalation followed by a whoop. Which stage of pertussis?",
+    "questionImage": null,
+    "options": [
+      "Catarrhal",
+      "Paroxysmal",
+      "Posttussive",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The paroxysmal stage is characterized by coughing paroxysms followed by a whoop on inspiration.",
+      "images": []
+    }
+  },
+  {
+    "id": "88",
+    "subject": "Pediatrics",
+    "topic": "Rheumatology",
+    "question": "Which of the following is NOT a clinical criterion for Kawasaki disease?",
+    "questionImage": null,
+    "options": [
+      "Bilateral conjunctival injection",
+      "Strawberry tongue",
+      "Erythema of extremities",
+      "Generalized lymphadenopathy >1.5 cm"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Kawasaki disease requires unilateral cervical lymphadenopathy (not generalized) >1.5 cm.",
+      "images": []
+    }
+  },
+  {
+    "id": "89",
+    "subject": "Pediatrics",
+    "topic": "Rheumatology",
+    "question": "The following drugs are used in the treatment of Kawasaki disease, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "IVIG",
+      "Aspirin",
+      "Broad-spectrum antibiotics",
+      "Corticosteroids"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Kawasaki treatment includes IVIG, aspirin, and sometimes corticosteroids; antibiotics are not used.",
+      "images": []
+    }
+  },
+  {
+    "id": "90",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "What is the most common cause of morbidity and mortality in Kawasaki disease?",
+    "questionImage": null,
+    "options": [
+      "Large carotid artery aneurysm",
+      "Large coronary artery aneurysm",
+      "Large cranial artery aneurysm",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Coronary artery aneurysms (especially giant) are the major complication, leading to myocardial infarction.",
+      "images": []
+    }
+  },
+  {
+    "id": "91",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Primary adrenal insufficiency in meningococcemia is called:",
+    "questionImage": null,
+    "options": [
+      "Nelson syndrome",
+      "Conn syndrome",
+      "Waterhouse-Friderichsen syndrome",
+      "Cushing syndrome"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Waterhouse-Friderichsen syndrome is adrenal hemorrhage due to fulminant meningococcal sepsis.",
+      "images": []
+    }
+  },
+  {
+    "id": "92",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "Which posterior fossa malformation involves downward displacement of cerebellum and medulla through foramen magnum, leading to noncommunicating hydrocephalus?",
+    "questionImage": null,
+    "options": [
+      "Chiari I malformation",
+      "Chiari II malformation",
+      "Dandy-Walker malformation",
+      "Syringomyelia"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Chiari II malformation includes downward displacement of the cerebellar tonsils and medulla, associated with myelomeningocele and hydrocephalus.",
+      "images": []
+    }
+  },
+  {
+    "id": "93",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "In a child with HIV, a positive tuberculin skin test is defined as induration of how many mm?",
+    "questionImage": null,
+    "options": [
+      "≥5",
+      "≥10",
+      "≥15",
+      "≥20"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "In immunosuppressed children (including HIV), ≥5 mm is considered positive.",
+      "images": []
+    }
+  },
+  {
+    "id": "94",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "In APSGN, microscopic hematuria can persist for how long?",
+    "questionImage": null,
+    "options": [
+      "4-6 weeks",
+      "6-8 weeks",
+      "1-2 years",
+      "2-4 years"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Microscopic hematuria may persist for 1-2 years after the acute episode, though proteinuria resolves within weeks.",
+      "images": []
+    }
+  },
+  {
+    "id": "95",
+    "subject": "Pediatrics",
+    "topic": "Rheumatology",
+    "question": "Which of the following is a clinical criterion for Kawasaki disease?",
+    "questionImage": null,
+    "options": [
+      "Bilateral conjunctival injection without exudate",
+      "Strawberry tongue with oral erythema",
+      "Erythema and edema of extremities",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All are classic clinical criteria for Kawasaki disease (fever + 4 of 5 criteria).",
+      "images": []
+    }
+  },
+  {
+    "id": "96",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "The universal finding in rheumatic carditis is endocarditis, which is also known as:",
+    "questionImage": null,
+    "options": [
+      "Myocarditis",
+      "Pericarditis",
+      "Valvulitis",
+      "Pancarditis"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Endocarditis in rheumatic carditis refers to valvulitis, which is universal.",
+      "images": []
+    }
+  },
+  {
+    "id": "97",
+    "subject": "Pediatrics",
+    "topic": "Vaccines",
+    "question": "Which of the following is a live attenuated vaccine?",
+    "questionImage": null,
+    "options": [
+      "Hepatitis A vaccine",
+      "Inactivated polio vaccine",
+      "MMR",
+      "Rabies vaccine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "MMR is a live attenuated vaccine. Hepatitis A and IPV are inactivated; rabies is inactivated.",
+      "images": []
+    }
+  },
+  {
+    "id": "98",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "A child with Down syndrome is at increased risk for which cardiac defect?",
+    "questionImage": null,
+    "options": [
+      "Ventricular septal defect",
+      "Atrioventricular septal defect",
+      "Tetralogy of Fallot",
+      "Coarctation of the aorta"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "AVSD (endocardial cushion defect) is the most common congenital heart defect in Down syndrome.",
+      "images": []
+    }
+  },
+  {
+    "id": "99",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Which of the following is a risk factor for neonatal sepsis?",
+    "questionImage": null,
+    "options": [
+      "Maternal GBS colonization",
+      "Prematurity",
+      "Prolonged rupture of membranes",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All are risk factors for early-onset neonatal sepsis.",
+      "images": []
+    }
+  },
+  {
+    "id": "100",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "A child with acute otitis media is treated with amoxicillin. After 48 hours, symptoms worsen. What is the most likely organism?",
+    "questionImage": null,
+    "options": [
+      "Streptococcus pneumoniae",
+      "Haemophilus influenzae",
+      "Moraxella catarrhalis",
+      "Group A Streptococcus"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Beta-lactamase-producing Moraxella catarrhalis is a common cause of amoxicillin failure in AOM.",
+      "images": []
+    }
+  },
+  {
+    "id": "101",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "How can infant's perception and cognition be demonstrated during the first months of life?",
+    "questionImage": null,
+    "options": [
+      "Crying when hungry or sleepy",
+      "Eye gazing, head turning and sucking",
+      "Smiling when approached by mom or dad",
+      "Waking up during feeding period"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Eye gazing, head turning, and sucking are indicative of an infant's developing sensory and motor skills. Eye gazing demonstrates visual engagement and recognition, head turning signifies responsiveness to auditory stimuli, and sucking is a reflexive response linked to feeding and comfort.",
+      "images": []
+    }
+  },
+  {
+    "id": "102",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "During early childhood, children should sleep for how long without interruption?",
+    "questionImage": null,
+    "options": [
+      "12-16 hours",
+      "11-13 hours",
+      "8-10 hours",
+      "5-7 hours"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "11-13 hours is the recommended sleep duration for toddlers and preschoolers during early childhood to support their physical and cognitive development.",
+      "images": []
+    }
+  },
+  {
+    "id": "103",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Baby Nicole already knows how to play peek-a-boo. She copies sounds and movements of others and points at things. She is able to stand with support, crawl and get into sitting position without support, and pulls to stand. She has met the milestones of what age?",
+    "questionImage": null,
+    "options": [
+      "4 months",
+      "9 months",
+      "6 months",
+      "12 months"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "By 9 months, infants commonly exhibit the described milestones. They engage in social games like peek-a-boo, imitate sounds and movements, stand with support, crawl, and can pull themselves to a standing position.",
+      "images": []
+    }
+  },
+  {
+    "id": "104",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "The 9th month physical examination of an infant is difficult to do. Which endeavor is the LEAST likely way to get the child's cooperation?",
+    "questionImage": null,
+    "options": [
+      "Talk to parent avoiding direct eye contact with child",
+      "Examine the child while on parent's lap",
+      "Talk to the child with direct eye contact",
+      "Introduce the child to a small washable toy"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Directly engaging with the child through eye contact and conversation can help build rapport and establish a connection. However, for some infants, direct eye contact may be perceived as intimidating, leading to resistance during the examination.",
+      "images": []
+    }
+  },
+  {
+    "id": "105",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "What is/are the cause/causes of digital clubbing?",
+    "questionImage": null,
+    "options": [
+      "Chronic cardiac failure",
+      "Acute respiratory insufficiency",
+      "Defective heart valves",
+      "Chronic hypoxia and chronic lung disease"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Digital clubbing is most commonly linked to chronic hypoxia and chronic lung diseases such as COPD, interstitial lung disease, and cystic fibrosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "106",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "Which statement is FALSE with regards to the origin of chronic coughs?",
+    "questionImage": null,
+    "options": [
+      "Lower respiratory stimuli include excessive secretions, aspirated foreign material, inhaled dust/gases.",
+      "Origin of coughs can also be a response to infectious agents or cigarette smoke.",
+      "Nighttime cough suggests upper airway disease such as sinusitis.",
+      "The receptors of chronic coughs are mostly located in the lower respiratory tract."
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The receptors for chronic cough are primarily located in the upper respiratory tract. Conditions affecting the upper airway, like postnasal drip, sinusitis, or irritants in the throat, can trigger chronic cough reflexes.",
+      "images": []
+    }
+  },
+  {
+    "id": "107",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which one occurs during normal cardiac development?",
+    "questionImage": null,
+    "options": [
+      "The aortic sac gives rise to the right and left 1st aortic arches.",
+      "The 1st and 2nd arches form the common and internal carotid arteries.",
+      "The paired dorsal aorta will fuse to form the descending aorta.",
+      "The 5th arch persists in the mature circulation as a segment of the aortic arch."
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The fusion of the paired dorsal aortae contributes to the formation of the descending aorta.",
+      "images": []
+    }
+  },
+  {
+    "id": "108",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Prostaglandin may be administered to patient with patent ductus arteriosus in which situation?",
+    "questionImage": null,
+    "options": [
+      "Patients who cannot undergo surgical management of ventricular septal defect.",
+      "Patient waiting for surgical management of transposition of great arteries.",
+      "Ductus arteriosus of a full term baby which has not closed a week after birth.",
+      "Ductus arteriosus persists in a child who is already 3 years old."
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Prostaglandins help maintain the patency of the ductus arteriosus in conditions like transposition of the great arteries, where it serves as a vital shunt allowing mixing of oxygenated and deoxygenated blood until surgical correction can be performed.",
+      "images": []
+    }
+  },
+  {
+    "id": "109",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which of the following statements is true regarding cyanosis in the pediatric age group?",
+    "questionImage": null,
+    "options": [
+      "Acrocyanosis is a symptom of worsening cardiac functions in a newborn",
+      "Turning blue around the lips after crying vigorously is a definitive sign of heart disease",
+      "Cyanosis at rest is often overlooked due to variations in skin color of children",
+      "Mucous membranes are spared or not involved in true cyanosis in newborns"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cyanosis at rest can be challenging to detect in children due to variations in skin color. It may be more apparent in individuals with darker skin tones, and healthcare professionals need to be vigilant in assessing for subtle signs of cyanosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "110",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "What are heart murmurs?",
+    "questionImage": null,
+    "options": [
+      "They are signs of leaflet prolapse radiating anteriorly",
+      "They are results of audible vibrations caused by increased turbulence timed within the cardiac cycle",
+      "They are the differences between two cardiac chambers, ventricles and arteries",
+      "They are progressive attenuations of left ventricle to left atrial pressure gradient"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Heart murmurs are abnormal sounds heard during the cardiac cycle, and they result from turbulent blood flow. Turbulence can occur due to structural abnormalities (e.g., valve defects) or functional issues (e.g., high blood flow).",
+      "images": []
+    }
+  },
+  {
+    "id": "111",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which congenital malformation syndrome is least associated with the development of ventricular septal defect?",
+    "questionImage": null,
+    "options": [
+      "Trisomy 13",
+      "Fetal alcohol syndrome",
+      "Down's syndrome",
+      "Congenital rubella"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Congenital rubella may also present with VSD. However, the most common congenital heart defect associated is PDA.",
+      "images": []
+    }
+  },
+  {
+    "id": "112",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "A patient presents with VSD in which blood is shunted from right to left secondary to the development of pulmonary vascular disease. This condition is known as:",
+    "questionImage": null,
+    "options": [
+      "Pulmonary arteriovenous fistula",
+      "Eisenmenger syndrome",
+      "Ectopia cordis",
+      "Ebstein anomaly"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Eisenmenger syndrome occurs when a large, unrepaired ventricular septal defect (VSD) or other congenital heart defect allows blood to shunt from the left side of the heart to the right side, leading to increased pulmonary blood flow. Over time, this increased blood flow causes pulmonary vascular disease, and the shunt can reverse, causing deoxygenated blood to be pumped into the systemic circulation.",
+      "images": []
+    }
+  },
+  {
+    "id": "113",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "The boot shaped sign seen in the radiographs of patients with Tetralogy of Fallot is from:",
+    "questionImage": null,
+    "options": [
+      "The convergence behind the heart of the pulmonary vein, instead of draining into the left atrium",
+      "The shortening of the left ventricular inflow tract and elongation of the left ventricular outflow tract",
+      "The contour of the aorta deformed by both pre and post stenotic dilation, and dilation of the subclavian artery",
+      "The upturning of the cardiac apex"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The boot-shaped heart sign is a conventional radiographic finding in patients with TOF. The toe of the boot is formed by the upward pointing cardiac apex, which makes an acute angle with the diaphragm. The upturned cardiac apex is ascribed to right ventricular hypertrophy and occurs in 65% of patients with TOF.",
+      "images": []
+    }
+  },
+  {
+    "id": "114",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "This type of total anomalous pulmonary venous return involves pulmonary venous connection at the cardiac level. The pulmonary veins join either the coronary sinus or the right atrium. What type is this?",
+    "questionImage": null,
+    "options": [
+      "Type IV TAPVR",
+      "Type I TAPVR",
+      "Type II TAPVR",
+      "Type III TAPVR"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Type II: Cardiac. This is the second most common type, accounting for approximately 30% of cases. In Type II, the pulmonary venous connection occurs at the cardiac level. The drainage is into the coronary sinus, and then into the right atrium.",
+      "images": []
+    }
+  },
+  {
+    "id": "115",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "The most common major congenital heart lesion is:",
+    "questionImage": null,
+    "options": [
+      "TOF",
+      "VSD",
+      "PDA",
+      "ASD"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ventricular septal defect is one of the most common congenital heart lesions. It involves an abnormal opening in the septum (wall) between the heart's ventricles, allowing blood to flow from the left ventricle to the right ventricle.",
+      "images": []
+    }
+  },
+  {
+    "id": "116",
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "question": "Which is not a component of the four main defects in Tetralogy of Fallot?",
+    "questionImage": null,
+    "options": [
+      "VSD",
+      "LVH",
+      "Overriding aorta",
+      "Pulmonary stenosis"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Left ventricular hypertrophy is not traditionally considered one of the four main defects in Tetralogy of Fallot. The main components are pulmonary stenosis, VSD, overriding aorta, and right ventricular hypertrophy.",
+      "images": []
+    }
+  },
+  {
+    "id": "117",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "Which of the following correctly describes the flow of CSF in children?",
+    "questionImage": null,
+    "options": [
+      "Choroid plexus → lateral ventricle → aqueduct of Sylvius → third ventricle → foramen of Monro → fourth ventricle",
+      "Choroid plexus → lateral ventricle → foramen of Magendie → third ventricle → aqueduct of Sylvius → fourth ventricle",
+      "Choroid plexus → lateral ventricle → foramen of Monro → third ventricle → aqueduct of Sylvius → fourth ventricle",
+      "Choroid plexus → lateral ventricle → foramen of Luschka → third ventricle → foramen of Magendie → fourth ventricle"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "CSF flows from the lateral ventricles through the foramina of Monro to the third ventricle, then through the aqueduct of Sylvius to reach the fourth ventricle. From there, it can exit through the foramina of Magendie and Luschka.",
+      "images": []
+    }
+  },
+  {
+    "id": "118",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Which of the following should a 1 year old child be able to do?",
+    "questionImage": null,
+    "options": [
+      "Go up the stairs one step at a time",
+      "Can say two-word phrases",
+      "Throw objects",
+      "Makes a tower of two blocks"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "By the age of 1, children are often developing the ability to throw objects, although the accuracy and coordination may vary. They are exploring their motor skills and may enjoy activities that involve throwing and dropping objects.",
+      "images": []
+    }
+  },
+  {
+    "id": "119",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "A 5 year old child comes into your clinic due to fever from a respiratory tract infection. While doing your exam, he develops a 10-second episode of generalized seizure. Which of the following is the MOST likely diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Benign Rolandic epilepsy",
+      "Infantile spasms",
+      "Febrile seizure",
+      "Lennox-Gestaut syndrome"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Febrile seizures are the most likely diagnosis in this case. Febrile seizures are seizures that occur in association with a fever, often due to a common childhood illness like a respiratory tract infection. They are common in children aged 6 months to 5 years and are usually brief, lasting less than 15 minutes.",
+      "images": []
+    }
+  },
+  {
+    "id": "120",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "The sleep-wake pattern is well developed at term. Alertness of the neonate depends on the following factors. Which of the following is LEAST contributory?",
+    "questionImage": null,
+    "options": [
+      "Gestational age",
+      "Presence of television",
+      "Time of last feeding",
+      "Room temperature"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The presence of television or other external stimuli can influence neonatal alertness. However, it is essential to provide a suitable and safe environment for the neonate. Excessive exposure to stimulating factors, such as television, may disrupt sleep patterns and contribute to overstimulation.",
+      "images": []
+    }
+  },
+  {
+    "id": "121",
+    "subject": "Pediatrics",
+    "topic": "Genetics",
+    "question": "A child presents with café au lait spots, axillary freckling, 'ballotable' nodules, and elevated lumps in the skin. Which does this child MOST likely have?",
+    "questionImage": null,
+    "options": [
+      "Von-Hippel-Lindau disease",
+      "Neurofibromatosis I",
+      "Neurofibromatosis II",
+      "Sturge-Weber Disease"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Neurofibromatosis type I (NF1), also known as von Recklinghausen disease, is the most likely diagnosis based on the described features. Café au lait spots, axillary freckling (Crowe sign), and 'ballotable' nodules (neurofibromas) are characteristic features of NF1.",
+      "images": []
+    }
+  },
+  {
+    "id": "122",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Which of the following statements may NOT be true?",
+    "questionImage": null,
+    "options": [
+      "A large head is associated with a large brain",
+      "Flattening of the skull will need extensive investigation",
+      "If the brain is not growing, the skull will not grow",
+      "Head size may be increased secondary to hydrocephalus"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Skull flattening, especially in infants, can occur due to external factors such as positioning during sleep (plagiocephaly) or pressure on the back of the head. While persistent skull flattening may warrant evaluation and intervention, not all cases require extensive investigation.",
+      "images": []
+    }
+  },
+  {
+    "id": "123",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "During examination of a 3 month old infant, you test his CNS by stroking the lateral surface of the sole. His big toe then dorsiflexes and the other toes fan out. This demonstrates which reflex?",
+    "questionImage": null,
+    "options": [
+      "Startle",
+      "Rooting",
+      "Moro",
+      "Babinski"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The Babinski reflex is elicited by stroking the lateral surface of the sole of the foot. In infants up to around 1 year of age, a normal response involves dorsiflexion (curling up) of the big toe and fanning out of the other toes.",
+      "images": []
+    }
+  },
+  {
+    "id": "124",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Which will NOT give a positive GUAIAC test in stools?",
+    "questionImage": null,
+    "options": [
+      "Nasal/oropharyngeal bleeding",
+      "Red dyes in food or drinks",
+      "Blood loss from GI tract",
+      "Maternal blood ingested"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Nasal or oropharyngeal bleeding is not expected to give a positive guaiac test in stools. The guaiac test (or fecal occult blood test) detects the presence of blood in the gastrointestinal (GI) tract, and bleeding from the nose or mouth does not typically contribute to positive results.",
+      "images": []
+    }
+  },
+  {
+    "id": "125",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "Where is the location of our hunger and satiety centers?",
+    "questionImage": null,
+    "options": [
+      "Medulla",
+      "Hypothalamus",
+      "Cerebral cortex",
+      "Amygdala"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The hypothalamus plays a crucial role in the regulation of hunger and satiety. It contains specific nuclei, such as the arcuate nucleus and the ventromedial nucleus, that are involved in appetite control.",
+      "images": []
+    }
+  },
+  {
+    "id": "126",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Why do infants need to be \"burped\" after feeding?",
+    "questionImage": null,
+    "options": [
+      "Infants feel full after feeding, burp to prevent vomiting",
+      "Infants feel comfortable after burping especially if they had full feeding",
+      "Infants swallow air during feeding, burp to prevent abdominal distention",
+      "Have to place infants upright position to prevent food regurgitation"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Infants can swallow air while feeding, and if this air is not expelled, it can lead to abdominal distention and discomfort. Burping helps release the trapped air and prevents excessive gas in the digestive system.",
+      "images": []
+    }
+  },
+  {
+    "id": "127",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "Which is considered the MOST important risk factor for type 2 diabetes mellitus?",
+    "questionImage": null,
+    "options": [
+      "High caloric intake",
+      "Obesity",
+      "Family History",
+      "Sedentary lifestyle"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Obesity is considered one of the most important risk factors for type 2 diabetes mellitus. Excess adipose tissue, particularly around the abdomen, is associated with insulin resistance and an increased risk of developing diabetes.",
+      "images": []
+    }
+  },
+  {
+    "id": "128",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "What is the cause of diabetes insipidus?",
+    "questionImage": null,
+    "options": [
+      "Impaired renin-angiotensin aldosterone system",
+      "Low serum sodium",
+      "Abnormal atrial natriuretic peptide",
+      "Vasopressin deficiency"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The most common cause of diabetes insipidus is vasopressin deficiency or the impaired response of the kidneys to vasopressin. Vasopressin, also known as antidiuretic hormone (ADH), regulates water reabsorption in the kidneys.",
+      "images": []
+    }
+  },
+  {
+    "id": "129",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "A population of patients manifests as unresponsiveness of tissues to thyroid hormone and may be misdiagnosed as the above disease. What distinguishes the thyroid unresponsive variant for the above disease?",
+    "questionImage": null,
+    "options": [
+      "Tachycardia",
+      "Presence of goiter",
+      "Fractional elevation of T4",
+      "Non-suppression of thyroid-stimulating hormone level"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "One distinguishing feature of the thyroid unresponsive variant is the failure of thyroid-stimulating hormone (TSH) levels to suppress in response to elevated thyroid hormone levels. In classic hyperthyroidism, TSH levels are usually suppressed due to the negative feedback loop.",
+      "images": []
+    }
+  },
+  {
+    "id": "130",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "Which is considered satisfactory when monitoring adequacy of glucocorticoid replacement?",
+    "questionImage": null,
+    "options": [
+      "A normal serum and urine electrolytes",
+      "Morning ACTH levels 2-3x the normal",
+      "Normal level of serum cortisol",
+      "ACTH level within normal range"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Normalizing ACTH levels is unnecessary and can require excessive doses of hydrocortisone; generally morning ACTH levels high in the normal range to 3-4 times normal are satisfactory.",
+      "images": []
+    }
+  },
+  {
+    "id": "131",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "Which factor establishes the diagnosis of Grave disease?",
+    "questionImage": null,
+    "options": [
+      "Preferential T3 elevation",
+      "Thyrotropin receptor-stimulating antibody (TRSAB)",
+      "Presence of Goiter",
+      "Accompanying exophthalmos"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The presence of thyrotropin receptor-stimulating antibodies (TRSABs) is a hallmark of Graves' disease. These antibodies stimulate the thyroid gland to produce excess thyroid hormones, leading to hyperthyroidism.",
+      "images": []
+    }
+  },
+  {
+    "id": "132",
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "question": "Which one is increased in Anemia of Chronic Disease?",
+    "questionImage": null,
+    "options": [
+      "Red Blood Cells",
+      "Hemoglobin",
+      "Serum Ferritin",
+      "Mean Corpuscular Volume"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Serum ferritin levels are often increased in Anemia of Chronic Disease. Ferritin is an acute-phase reactant, and its levels rise in response to inflammation. Despite the increased ferritin levels, iron is often sequestered within cells, leading to functional iron deficiency and impaired erythropoiesis.",
+      "images": []
+    }
+  },
+  {
+    "id": "133",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "In a regular checkup by his pediatrician, a 2 year-old boy was noted to have a white pupillary reflex rather than a normal red reflection from incident light noted in his right eye. This child should be investigated for which condition?",
+    "questionImage": null,
+    "options": [
+      "Neuroblastoma",
+      "Congenital cataract",
+      "Retinoblastoma",
+      "Increased intracranial pressure"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Retinoblastoma is a malignant tumor of the retina that primarily affects young children. The most common sign is leukocoria, where the pupil appears white instead of the normal red reflex. Retinoblastoma is a serious condition that requires prompt evaluation and intervention.",
+      "images": []
+    }
+  },
+  {
+    "id": "134",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "What is the MOST COMMON cancer in adolescents accounting for 25% of newly diagnosed cancers in persons 15-19 years old?",
+    "questionImage": null,
+    "options": [
+      "Chronic Lymphocytic Leukemia",
+      "Acute Myelogenous Leukemia",
+      "Acute Lymphoblastic Leukemia",
+      "Hodgkin Lymphoma"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Acute Myelogenous Leukemia accounts for 11% of the cases of childhood leukemia. In the United States, it is diagnosed in approximately 370 children annually. The relative frequency of AML increases in adolescence, representing 36% of cases of leukemia in 15-19 years olds.",
+      "images": []
+    }
+  },
+  {
+    "id": "135",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "An 18-year old boy consulted the clinic because of a supraclavicular adenopathy and signs of superior vena cava syndrome. He has unexplained shortness of breath, chronic coughs, and feeling of having asthma. These symptoms suggest an anterior mediastinal mass, what is your diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Pulmonary mass",
+      "Tuberculoma",
+      "Sarcoidosis",
+      "Thymoma"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Thymoma is a neoplasm originating from the thymic epithelial cells located in the anterior mediastinum. It can present with symptoms related to compression of nearby structures, including the SVC. Symptoms may include cough, shortness of breath, and SVC syndrome.",
+      "images": []
+    }
+  },
+  {
+    "id": "136",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "If the bone marrow is compromised by malignancy, which signs and symptoms is LEAST likely noted?",
+    "questionImage": null,
+    "options": [
+      "Pallor from Anemia",
+      "Bleeding from Thrombocytopenia",
+      "Localized infection from Leukopenia",
+      "Multiple Lymphadenopathy"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Multiple lymphadenopathy is typically associated with conditions affecting the lymphatic system, such as lymphomas, rather than direct bone marrow compromise. Lymphomas often involve lymph nodes and may lead to generalized lymphadenopathy.",
+      "images": []
+    }
+  },
+  {
+    "id": "137",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "What is the MOST common bone tumor for children and adolescents beyond 10 years of age?",
+    "questionImage": null,
+    "options": [
+      "Rhabdomyosarcoma",
+      "Osteosarcoma",
+      "Neuroblastoma",
+      "Ewing sarcoma"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Osteosarcoma is the MOST common primary malignant bone tumor in children and adolescents beyond 10 years of age. It typically arises in the metaphysis of long bones, such as the distal femur, proximal tibia, and proximal humerus.",
+      "images": []
+    }
+  },
+  {
+    "id": "138",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Infants feel more secure when their urgent needs are met. This implies reciprocal maternal bonding. Which of the following statements may NOT be true?",
+    "questionImage": null,
+    "options": [
+      "Infants who are constantly picked up and held in response to stress cry less at one year.",
+      "Infants held in response to stress show less aggressive behavior at 2 years.",
+      "Crying normally peaks at 4 weeks of age.",
+      "Babies carried close to mom cry less in societies."
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "On average, babies cry 2 hours per day, peaking at 6 weeks of age. Premature infants will have peak crying age at 6 weeks corrected age.",
+      "images": []
+    }
+  },
+  {
+    "id": "139",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Which condition may be LEAST likely associated whether cause or effect with crying and fussiness persisting longer than 3-5 months?",
+    "questionImage": null,
+    "options": [
+      "Postnatal depression",
+      "Child abuse",
+      "Child's nutrition",
+      "Behavioral problems"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "While the child's nutrition is crucial for overall well-being, persistent crying and fussiness may not be directly related to nutritional issues after the first few months of life. In cases of prolonged crying, it's essential to consider other factors, such as developmental stages, sleep patterns, or potential medical concerns.",
+      "images": []
+    }
+  },
+  {
+    "id": "140",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "Some researchers believe that persistent crying is said to be an early manifestation of which one?",
+    "questionImage": null,
+    "options": [
+      "Lactose intolerance",
+      "Migraine",
+      "Esophageal reflux",
+      "Cows milk allergy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "A meta-analysis indicated that colic may be a form of migraine headache rather than, as has been proposed, a GI condition. The analysis utilized 3 studies, one of which indicated that there is a greater likelihood of colic in infants whose mothers have migraine headaches and the other two of which indicated that infants with colic are more likely to experience migraine in childhood and adolescence.",
+      "images": []
+    }
+  },
+  {
+    "id": "141",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "At 6-12 months, infant shows skeletal maturation and bone age, advance in cognitive understanding and communications. New tensions develop and parents find these challenging to manage. Where do the initial tooth eruption occur? Starting with ____.",
+    "questionImage": null,
+    "options": [
+      "Lower front teeth",
+      "Two front teeth",
+      "Lower incisors",
+      "Mandibular central incisors"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Mandibular central incisors specifically refer to the lower central incisors. These are the first two teeth to erupt in the lower jaw during the teething process in infants, usually at 5-7 months of age.",
+      "images": []
+    }
+  },
+  {
+    "id": "142",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "Peek-a-boo at 9 months shows that object permanence is achieved. What do we mean by this?",
+    "questionImage": null,
+    "options": [
+      "Objects remain in specific assigned places",
+      "One has to close eyes to see things better",
+      "Objects continue to exist even when not seen",
+      "Type of toy objects remain the same"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Object permanence is the correct definition. At around 9 months of age, infants develop the cognitive ability to understand that objects and people continue to exist even when they are not currently being perceived. This milestone is often demonstrated through games like peek-a-boo.",
+      "images": []
+    }
+  },
+  {
+    "id": "143",
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "question": "At about this time, the infant clings to her mom when someone tries to take her away from mom. What type of the infant's characteristic is being demonstrated?",
+    "questionImage": null,
+    "options": [
+      "Separation anxiety",
+      "Stranger anxiety",
+      "Transient substitution",
+      "Communication gap"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Stranger anxiety is manifested by crying when an unfamiliar person approaches. It is normal when it starts at about 8 to 9 months and usually abates by age 2 years. Stranger anxiety is linked with the infant's developmental task of distinguishing the familiar from the unfamiliar.",
+      "images": []
+    }
+  },
+  {
+    "id": "144",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "A 3 year old boy was brought to the clinic because of multiple dome shaped umbilicated pearly nodules noted on his chin, chest, arms and a few scattered over his body. The lesions kept on multiplying though they had been there since two months ago. What type of organism is involved in this case?",
+    "questionImage": null,
+    "options": [
+      "Papilloma virus",
+      "Pox virus",
+      "No organism",
+      "Varicella virus"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Poxviruses, specifically Molluscum contagiosum, are known to cause dome-shaped, umbilicated lesions. Molluscum contagiosum is a viral skin infection that results in small, flesh-colored to pearly, dome-shaped bumps. The lesions may have a central dimple or umbilication.",
+      "images": []
+    }
+  },
+  {
+    "id": "145",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "How will one get the lesions?",
+    "questionImage": null,
+    "options": [
+      "Airborne/aerosol",
+      "Contact inoculation",
+      "Wading in floods",
+      "Hereditary/familial"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Molluscum contagiosum is highly contagious and is mainly transmitted through direct skin contact. The virus can be spread by touching the lesions on an infected person and then touching another part of the body or another person.",
+      "images": []
+    }
+  },
+  {
+    "id": "146",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "What is this child having?",
+    "questionImage": null,
+    "options": [
+      "Impetigo",
+      "Larva migrans",
+      "Molluscum",
+      "Contact dermatitis"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Molluscum contagiosum is a viral skin infection caused by the poxvirus. It typically presents with dome-shaped, pearly nodules on the skin. The lesions often have a central dimple and can be multiple.",
+      "images": []
+    }
+  },
+  {
+    "id": "147",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "6 year old girl was brought to the clinic because of the appearance of itchy macerated scaly plaques between her 4th and 5th small toes and in between her 2nd and big toes of both feet. These had been present since a month ago. The girl has sweaty feet and would wear closed shoes when going to school. At home, she liked to borrow her older sister's slippers especially when she cannot find her own. Her older sister also has similar problems on her feet. Which problem does this girl have?",
+    "questionImage": null,
+    "options": [
+      "Dyshidrotic eczema",
+      "Tinea pedis",
+      "Acrodermatitis continua",
+      "Contact dermatitis to slippers"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tinea pedis, or athlete's foot, is a fungal infection that commonly affects the skin between the toes. It can cause maceration, itching, and scaly plaques. The warm and moist environment created by sweaty feet and closed shoes is conducive to fungal growth.",
+      "images": []
+    }
+  },
+  {
+    "id": "148",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "What diagnostic tool can be requested to document the impression?",
+    "questionImage": null,
+    "options": [
+      "Culture/Sensitivity",
+      "Tzanck smear",
+      "10% potassium hydroxide mount",
+      "Gram stain"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "A 10% KOH mount is used to examine skin scrapings for fungal elements. In the case of tinea pedis (athlete's foot), microscopic examination of skin scrapings treated with KOH may reveal fungal hyphae, aiding in the diagnosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "149",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "What advice can be given to patients to manage the problem?",
+    "questionImage": null,
+    "options": [
+      "Aerate the feet and apply gentian violet",
+      "Wear socks after bathing so as not to infect lesions",
+      "Soak in saline water for 15 mins then keep aerated",
+      "Wear open sandals and apply antifungal cream"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Wearing open sandals promotes aeration and reduces moisture, hindering fungal growth. Additionally, applying antifungal cream directly addresses the fungal infection.",
+      "images": []
+    }
+  },
+  {
+    "id": "150",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "An 18-year old student worker from a nearby town was brought to the emergency room because of painful abdominal muscle cramps, diarrhea, and dehydration. The attending physician said he has cholera. His diagnosis of cholera was due to the history of eating shellfish and characteristic of patient's stool which was _____",
+    "questionImage": null,
+    "options": [
+      "Mucoid stools",
+      "Bloody stools",
+      "Rice water stools",
+      "Bulky white stools"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cholera is characterized by profuse watery diarrhea often described as 'rice water stools.' The stools have a pale, milky appearance resembling water in which rice has been rinsed.",
+      "images": []
+    }
+  },
+  {
+    "id": "151",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Which statement is NOT TRUE of Vibrio cholera ?",
+    "questionImage": null,
+    "options": [
+      "Produces enterotoxins, the end result increases cyclic AMP.",
+      "Adheres to the brush border of small intestinal enterocytes",
+      "Produces bacterial toxins which destroy intestinal mucosal cells",
+      "Must be ingested orally to cause disease"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cholera toxin primarily acts by stimulating the secretion of water and electrolytes rather than directly destroying intestinal mucosal cells.",
+      "images": []
+    }
+  },
+  {
+    "id": "152",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "The mainstay for a more effective treatment of cholera is which one?",
+    "questionImage": null,
+    "options": [
+      "Reduced osmolarity/reduced salt ORS",
+      "Anti peristaltic agent",
+      "Oral rehydration solution (ORS) with rice/cereals",
+      "Oral rehydration solution (ORS) with glucose based solution"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Rehydration is the mainstay of therapy. When available, rice-based ORS should be used during rehydration, because this fluid has been shown to be superior to standard ORS in children and adults with cholera.",
+      "images": []
+    }
+  },
+  {
+    "id": "153",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "18-year old Anna consulted the clinic because of headache, nasal congestion, nasal discharge, halitosis, maxillary tooth discomfort and afternoon fever. Her doctor diagnosed her to have bacterial sinusitis. How is bacterial sinusitis differentiated from viral sinusitis? From history, bacterial sinusitis manifests with",
+    "questionImage": null,
+    "options": [
+      "Purulent to greenish nasal discharge, chronic fever, chronic cough, tender maxillary area",
+      "Clear, non purulent nasal discharge, chronic cough, high fever for more than 10 days",
+      "Fever about 39C, afternoon cough longer than 10 days, purulent nasal discharge for 3-4 consecutive days",
+      "Headache, facial pain, bad breath, pain bending forward"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The clinical diagnosis of acute bacterial sinusitis is based on history. Persistent symptoms of upper respiratory tract infection, including nasal discharge and cough, for longer than 10 days without improvement, or severe respiratory symptoms, including temperature of at least 39°C (102°F) and purulent nasal discharge for 3-4 consecutive days, suggest a complicating acute bacterial sinusitis.",
+      "images": []
+    }
+  },
+  {
+    "id": "154",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "For uncomplicated mild to moderate bacterial sinusitis, which of the following antibiotics can be given?",
+    "questionImage": null,
+    "options": [
+      "Trimethoprim",
+      "Cefixime",
+      "Azithromycin",
+      "Amoxicillin"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Amoxicillin is often considered the first-line antibiotic for uncomplicated bacterial sinusitis. It is a broad-spectrum penicillin derivative and is effective against many common bacterial pathogens associated with sinus infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "155",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "If Anna becomes an untreated case of bacterial sinusitis, she may develop proptosis, chemosis, decreased visual acuity, double vision, impaired extraocular movements and eye pain. Having these symptoms, which is she manifesting?",
+    "questionImage": null,
+    "options": [
+      "Epidural abscess",
+      "Increased intracranial pressure",
+      "Periorbital cellulitis",
+      "Orbital cellulitis"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Orbital cellulitis is a severe infection involving the tissues within the eye socket. It can lead to proptosis, chemosis, decreased visual acuity, double vision, impaired extraocular movements, and eye pain. This condition requires prompt medical attention and may result from the spread of sinusitis.",
+      "images": []
+    }
+  },
+  {
+    "id": "156",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "A 4-year old boy was brought to the clinic with mom because of hoarseness, 'barking' coughs, low grade fever and respiratory distress. Symptoms are worse during night. What is the child having?",
+    "questionImage": null,
+    "options": [
+      "Pharyngitis",
+      "Epiglottitis",
+      "Croup",
+      "Foreign body obstruction"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Croup is a common childhood condition characterized by a 'barking' cough, hoarseness, and inspiratory stridor. It is often caused by viral infections affecting the upper airway, particularly the larynx. Symptoms can worsen at night, and respiratory distress may occur.",
+      "images": []
+    }
+  },
+  {
+    "id": "157",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "Which virus is associated with the severity of this problem?",
+    "questionImage": null,
+    "options": [
+      "Adenovirus",
+      "Mycoplasma",
+      "Parainfluenza A",
+      "Measles Virus"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Parainfluenza viruses, especially type 1, are a common cause of croup. Parainfluenza A is known to be associated with the severity of croup symptoms, contributing to the characteristic cough and respiratory distress seen in affected children.",
+      "images": []
+    }
+  },
+  {
+    "id": "158",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "When are the symptoms expected to resolve completely?",
+    "questionImage": null,
+    "options": [
+      "A month",
+      "In two weeks time",
+      "3 days",
+      "Within a week"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Most cases of croup show significant improvement within a week, with the 'barking' cough and respiratory distress gradually diminishing.",
+      "images": []
+    }
+  },
+  {
+    "id": "159",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "Melanie 19/F has been experiencing cough and difficulty breathing for the past week since the rainy season started. She noted that cough and difficulty breathing was worse during night time and in the early morning. What is expected to be reduced in the lung function test for an asthmatic individual?",
+    "questionImage": null,
+    "options": [
+      "FEV1/FVC ratio and PEF",
+      "FEV1, FEV1/FVC ratio, PEF",
+      "FEV1 and FEV1/FVC ratio",
+      "FEV1 and PEF"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "In asthma, the FEV1 is reduced, and the FEV1/FVC ratio is often decreased due to the difficulty in exhaling air rapidly. PEF is a valuable measure of how fast a person can exhale.",
+      "images": []
+    }
+  },
+  {
+    "id": "160",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "What is TRUE regarding the diagnosis of Asthma?",
+    "questionImage": null,
+    "options": [
+      "Allergen challenge is necessary and should be undertaken by a specialist.",
+      "Total serum IgE and specific IgE to inhaled allergen must be measured",
+      "The diagnosis of asthma must be confirmed by objective measurements of lung function",
+      "Chest roentgenography is often abnormal showing hyperinflation even in mild cases."
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Objective measurements of lung function, such as spirometry, are crucial for confirming the diagnosis of asthma. These tests assess airflow limitation, bronchial hyperresponsiveness, and reversibility of airway obstruction, providing objective evidence of asthma.",
+      "images": []
+    }
+  },
+  {
+    "id": "161",
+    "subject": "Pediatrics",
+    "topic": "Pulmonology",
+    "question": "What is TRUE regarding the treatment of asthma?",
+    "questionImage": null,
+    "options": [
+      "Bronchodilators gives rapid relief of symptoms and also effective on the inflammatory process.",
+      "Bronchodilators are sufficient to control asthma in patients with persistent symptoms",
+      "Bronchodilators act primarily on the smooth muscles and reverse the bronchoconstriction of asthma",
+      "Bronchodilators act primarily on the smooth muscles and reverse the bronchodilation of asthma"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Bronchodilators primarily act on smooth muscles in the airways, causing relaxation and reversing bronchoconstriction. This helps in relieving symptoms such as wheezing and shortness of breath.",
+      "images": []
+    }
+  },
+  {
+    "id": "162",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "14 year-old Mar is always absent from school because of frequent attacks of headaches, sometimes moderate, sometimes severe, with throbbing quality. His headache is associated with nausea and vomiting. He also becomes sensitive to light and sounds. Why is it important to treat patients especially those occurring for more than 15 days? Because it is important to __.",
+    "questionImage": null,
+    "options": [
+      "Prevent further school absences",
+      "Prevent restrictions on social activities",
+      "Block transformation to chronic daily headaches",
+      "Prevent limitation of home activities"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Treating frequent headaches is crucial to prevent their transformation into chronic daily headaches. Chronic migraine, defined as headaches occurring on 15 or more days per month for at least three months, can significantly impact a patient's life. Timely intervention can help avoid this transformation and improve outcomes.",
+      "images": []
+    }
+  },
+  {
+    "id": "163",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "Migraine can have associated aura, the typical ones include which symptoms?",
+    "questionImage": null,
+    "options": [
+      "Tinnitus",
+      "Abdominal",
+      "Photopsia",
+      "Motion sickness"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Photopsia is a classic symptom associated with migraine aura. It refers to the perception of flashes of light or flickering lights. This visual disturbance is one of the characteristic features of migraine aura.",
+      "images": []
+    }
+  },
+  {
+    "id": "164",
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "question": "How long should the aura associated with migraine last?",
+    "questionImage": null,
+    "options": [
+      "Less than 60 minutes but should not be more",
+      "Longer than 5 minutes but less than 60 minutes",
+      "15 minutes at least",
+      "More than 60 minutes"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The duration of a typical migraine aura is usually less than 60 minutes. If the aura lasts longer than this, it might be indicative of other conditions or complications.",
+      "images": []
+    }
+  },
+  {
+    "id": "165",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Eight hours after eating in a town fiesta, 18-year old Anna developed nausea and vomiting, headache, profuse diarrhea and low grade fever. Blood culture was negative for growth but the stool culture was positive. Repeated blood culture remained negative while stool culture was positive even 2 weeks after the initial examination. What was the MOST PROBABLE 'growth' – in the stool culture?",
+    "questionImage": null,
+    "options": [
+      "Shigella",
+      "V. cholera",
+      "Salmonella T.",
+      "E. coli"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Shigella infections are almost always limited to the gastrointestinal tract; bloodstream invasion is quite rare. A patient can pass Shigella in their stool for up to four weeks (possibly longer in asymptomatic people).",
+      "images": []
+    }
+  },
+  {
+    "id": "166",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "One may NOT be true with regards to the usual pathogenesis of diarrhea?",
+    "questionImage": null,
+    "options": [
+      "Pathogenesis can be explained by secretory, osmotic or motility abnormalities",
+      "Type of bacteria would determine the consistency of the secretions",
+      "Water movement is determined by both active and passive fluxes of solutes : sodium, potassium, glucose",
+      "There is disturbed intestinal water solutes and transport."
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "While different types of bacteria can cause diarrhea, attributing the consistency of the stool solely to the type of bacteria may oversimplify the complex mechanisms involved in diarrhea. Factors such as the mode of action of toxins, invasiveness, and host response also play crucial roles.",
+      "images": []
+    }
+  },
+  {
+    "id": "167",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "In Typhoid fever, where is the site of multiplication of the bacteria?",
+    "questionImage": null,
+    "options": [
+      "Intestinal tract",
+      "Blood vessels",
+      "Liver",
+      "Lymphoid tissue"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The 'Enteric Fevers' (Typhoid fever): The ingested salmonellae reach the small intestine, from which they enter the lymphatics (Peyer's patches) and then the bloodstream. They are carried by the blood to many organs, including the intestine. The organisms multiply in intestinal lymphoid tissue and are excreted in stools.",
+      "images": []
+    }
+  },
+  {
+    "id": "168",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Six (6) boys attended a fiesta in a remote barrio where along with the food, were served water from a local spring. The following day, all 6 boys almost simultaneously developed abdominal pain, nausea, vomiting, and profuse watery diarrhea, described as rice water stool. They were all rushed to the hospital where fluid replacement therapy was instituted and their conditions stabilized. Which bacteria could have caused the patients' diarrhea?",
+    "questionImage": null,
+    "options": [
+      "Eschericia coli",
+      "Shigella dysenteriae",
+      "Vibrio cholera",
+      "Salmonella typhi"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Vibrio cholera is a leading cause of 'rice water' diarrhea. The symptoms described, especially profuse watery diarrhea after attending a fiesta, align well with cholera caused by V. cholera. Cholera toxins lead to massive fluid and electrolyte loss, resulting in the characteristic watery stools.",
+      "images": []
+    }
+  },
+  {
+    "id": "169",
+    "subject": "Pediatrics",
+    "topic": "Infectious Disease",
+    "question": "Which characteristics distinguish this bacteria from the rest of other bacteria?",
+    "questionImage": null,
+    "options": [
+      "Motility",
+      "Oxidase positive",
+      "Gram-negative bacilli",
+      "Lactose fermenter"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Vibrio cholera is oxidase positive. This means that the bacterium produces the enzyme oxidase, which can be detected using an oxidase test. The oxidase test is commonly used to differentiate between bacterial genera, and a positive result indicates the presence of certain respiratory enzymes. Among the notable bacteria that cause diarrhea, Vibrio is the only oxidase positive bacteria.",
+      "images": []
+    }
+  },
+  {
+    "id": "170",
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "question": "Which statement may NOT be true of this type of diarrhea called a secretory diarrhea?",
+    "questionImage": null,
+    "options": [
+      "It is caused by a secretagogue binding to a receptor on the surface epithelium of the bowel stimulating colonic mucosal secretion",
+      "It gives out a large volume of secretions persisting even with fasting",
+      "Secretions/diarrhea stops when fasting is observed",
+      "This occurs when the intestinal epithelial cell solute transport system is in active stage"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Secretory diarrhea typically does not stop with fasting. Unlike osmotic diarrhea, which may improve with fasting as the undigested substances are not entering the intestines, secretory diarrhea continues because it is driven by active secretion of fluids and electrolytes.",
+      "images": []
+    }
+  },
+  {
+    "id": "171",
+    "subject": "Pediatrics",
+    "topic": "Gynecology",
+    "question": "Danica, 14/F, came into the clinic for lower abdominal pain. She says it often occurs during her first and second day of menses. She is just concerned that this episode is more severe compared to her usual ones. She denies sexual activity. Abdominal and pelvic examination is normal. What is the pathology in primary dysmenorrhea?",
+    "questionImage": null,
+    "options": [
+      "Endometrial tissue is found on ectopic locations",
+      "Underlying structural abnormality of the cervix",
+      "Presence of foreign body in the uterine cavity",
+      "Prostaglandin stimulates vasoconstriction and contractions"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The primary cause of pain in primary dysmenorrhea is an excessive production of prostaglandins in the uterus. Prostaglandins stimulate vasoconstriction of blood vessels in the uterus and cause increased uterine contractions, leading to pain.",
+      "images": []
+    }
+  },
+  {
+    "id": "172",
+    "subject": "Pediatrics",
+    "topic": "Gynecology",
+    "question": "What is NOT TRUE regarding physical examination for this case?",
+    "questionImage": null,
+    "options": [
+      "External genital examination is done routinely",
+      "Internal pelvic examination is done routinely",
+      "Abdominal examination is done routinely",
+      "Internal pelvic examination is done for sexually active girls"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Routine internal pelvic examination is not typically necessary for the diagnosis of primary dysmenorrhea, especially in young, sexually inactive girls. It may be considered if there are specific indications or if the patient is sexually active and there are concerns about other gynecological issues.",
+      "images": []
+    }
+  },
+  {
+    "id": "173",
+    "subject": "Pediatrics",
+    "topic": "Gynecology",
+    "question": "What is TRUE regarding medications of dysmenorrhea?",
+    "questionImage": null,
+    "options": [
+      "Medication is needed before the first day of menses",
+      "Medication is needed until the last day of menstruation",
+      "Medication is needed beyond the last day of menstruation",
+      "Medication is rarely needed beyond the first day of menses"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Treatment for primary dysmenorrhea is aimed at decreasing levels of prostaglandins, preferably before they are produced. Thus, the mainstay treatment is with prostaglandin synthetase inhibition by either nonsteroidal anti-inflammatory drugs, hormonal contraception, or a gonadotropin-releasing hormone agonist beginning at, or preferably the day prior to, menstruation.",
+      "images": []
+    }
+  },
+  {
+    "id": "174",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "A 3 years old boy was admitted to the Pediatric Emergency room for abdominal enlargement. Physical examination also revealed facial and bipedal edema. Immediately a urinalysis was ordered revealing proteinuria of 3+ and microscopic hematuria. What is NOT indicated in the triad of clinical findings for Nephrotic Syndrome?",
+    "questionImage": null,
+    "options": [
+      "Hyperlipidemia",
+      "Hypoalbuminemia",
+      "Hypertension",
+      "Edema"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Hypertension is not typically a part of the classic presentation of nephrotic syndrome. However, it's essential to monitor blood pressure regularly in pediatric patients with nephrotic syndrome as secondary hypertension can occur, possibly due to renal parenchymal disease or the use of corticosteroids.",
+      "images": []
+    }
+  },
+  {
+    "id": "175",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "What is the MOST common cause of childhood Nephrotic Syndrome for this child belonging to the less 6 age group?",
+    "questionImage": null,
+    "options": [
+      "Diffuse Mesangial Sclerosis",
+      "Minimal Change Disease",
+      "Focal Segmental Glomerulosclerosis",
+      "Membranous Nephropathy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Minimal change nephrotic syndrome (MCNS) is the most common histologic form of primary NS in children. More than 80% of children less than 7 years of age with NS have MCNS.",
+      "images": []
+    }
+  },
+  {
+    "id": "176",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "What treatment may be initiated for a child 1-8 years with onset of uncomplicated nephrotic even without diagnostic renal biopsy?",
+    "questionImage": null,
+    "options": [
+      "Fluid restriction",
+      "Steroid therapy",
+      "Sodium restriction",
+      "Loop diuretics"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "In the case of uncomplicated nephrotic syndrome in children aged 1-8 years, the first-line treatment is often initiated without the need for a diagnostic renal biopsy. Steroid therapy, specifically with corticosteroids such as prednisone, is the mainstay of treatment.",
+      "images": []
+    }
+  },
+  {
+    "id": "177",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "Mike who is 4 months of age was brought in the Pediatric Emergency Room for fever and irritability. Septic work up revealed a Urinary Tract Infection. Diagnosis was confirmed with a positive urine culture result. Empirical antibiotic were started immediately. For children with their first episode of febrile UTI, What is the initial recommended imaging study for evaluation of kidney and bladder anatomy?",
+    "questionImage": null,
+    "options": [
+      "Dimercaptosuccinic acid (DMSA) Renal Scan",
+      "Voiding Cystourethrogram (VCUG)",
+      "Kidney and Urinary Bladder ultrasound",
+      "Abdominal and Pelvic MRI"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "For children with their first episode of febrile urinary tract infection (UTI), the initial recommended imaging study for the evaluation of kidney and bladder anatomy is a Kidney and Urinary Bladder ultrasound. This non-invasive imaging modality allows visualization of the kidneys and bladder without exposing the child to ionizing radiation.",
+      "images": []
+    }
+  },
+  {
+    "id": "178",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "What imaging modality shows either acute pyelonephritis or renal scarring when positive?",
+    "questionImage": null,
+    "options": [
+      "Abdominal and Pelvic MRI",
+      "Dimercaptosuccinic acid (DMSA) Renal Scan",
+      "Kidney and Urinary Bladder Ultrasound",
+      "Voiding Cystourethrogram (VCUG)"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "DMSA Renal Scan is a nuclear medicine imaging modality that is particularly useful for assessing both acute pyelonephritis and renal scarring. In cases of acute pyelonephritis, DMSA can detect areas of the kidneys that are inflamed or infected. Additionally, it is commonly used to identify renal scarring, a potential consequence of recurrent or severe urinary tract infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "179",
+    "subject": "Pediatrics",
+    "topic": "Nephrology",
+    "question": "Once imaging studies have identified to the child to have Pyelonephritis, What is the next step?",
+    "questionImage": null,
+    "options": [
+      "Abdominal and Pelvic MRI",
+      "Voiding Cystourethrogram (VCUG)",
+      "Kidney and Urinary Bladder Ultrasound",
+      "Dimercaptosuccinic acid (DMSA) Renal Scan"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "VCUG remains the diagnostic test of choice for the detection of VUR and its use is widespread in clinical practice. VUR is detected in 25% to 40% of children presenting with a first episode of pyelonephritis.",
+      "images": []
+    }
+  },
+  {
+    "id": "180",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "Amelita, 16 years old, came to the clinic for delayed menarche. She had no other subjective complaints. The rest of her history was unremarkable. Her breast and pubic hair development were both Tanner stage 4. The rest of her physical examination findings were normal. What is TRUE regarding the definition Primary Amenorrhea? No menstrual flow _____.",
+    "questionImage": null,
+    "options": [
+      "For more than 3 months",
+      "By age of 14 years",
+      "By age of 16 years",
+      "For more than 1 month"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Primary amenorrhea is defined as the failure of initiation of menses by age 14 in the absence of secondary sexual characteristics or the absence of menarche by age 16 regardless of the presence of normal growth and development of secondary sexual characteristics.",
+      "images": []
+    }
+  },
+  {
+    "id": "181",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "What laboratory finding would suggest primary gonadal failure?",
+    "questionImage": null,
+    "options": [
+      "Decreased level of Prolactin",
+      "Elevated levels of Follicle Stimulating Hormone",
+      "Decreased level of luteinizing hormone",
+      "Elevated level of thyroid stimulating hormone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Elevated levels of FSH can suggest primary gonadal failure. In conditions where the ovaries or testes are not functioning properly, the pituitary gland increases the production of FSH in an attempt to stimulate the gonads. Elevated FSH levels are indicative of reduced feedback inhibition from the gonads.",
+      "images": []
+    }
+  },
+  {
+    "id": "182",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "In the approach to clinical evaluation of amenorrhea , what KEY laboratory test should be performed first regardless of history or sexual activity?",
+    "questionImage": null,
+    "options": [
+      "FSH measurement",
+      "LH measurement",
+      "Pregnancy test",
+      "Pelvic ultrasound"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Regardless of the patient's history or sexual activity, a pregnancy test is crucial in the evaluation of amenorrhea. Pregnancy is a common cause of missed menstrual periods, and ruling out pregnancy is a fundamental step in the assessment.",
+      "images": []
+    }
+  },
+  {
+    "id": "183",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "Becky, 6 year-old, came in to the OPD for breast development. Mother said that she noted breast enlargement at the start of the year but its continuous rapid development had her really worried. During further evaluation, you noted her to have breast and pubic hair development at Tanner Stage 3. What is the MOST common brain lesion that causes central precocious puberty?",
+    "questionImage": null,
+    "options": [
+      "Optic Tract Tumor",
+      "Hypothalamic hamartomas",
+      "Astrocytomas",
+      "Ependymomas"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Hypothalamic hamartomas are non-neoplastic lesions that can disrupt the normal functioning of the hypothalamus, leading to the early onset of puberty. These hamartomas may cause an overactivation of the GnRH (gonadotropin-releasing hormone) secretion, resulting in premature activation of the reproductive axis and early development of secondary sexual characteristics.",
+      "images": []
+    }
+  },
+  {
+    "id": "184",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "What is the BEST imaging modality that will aid in the diagnosis of Precocious puberty from organic brain lesion?",
+    "questionImage": null,
+    "options": [
+      "Cranial radiography",
+      "Cranial MRI",
+      "Cranial CT-scan",
+      "Cranial Ultrasound"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cranial MRI (Magnetic Resonance Imaging) is considered the best imaging modality for evaluating precocious puberty associated with organic brain lesions. It provides detailed images of the brain structures and allows for the visualization of abnormalities in the hypothalamus, pituitary gland, or other brain regions that may be causing the early onset of puberty.",
+      "images": []
+    }
+  },
+  {
+    "id": "185",
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "question": "What presentation increases the likelihood of hypothalamic hamartoma?",
+    "questionImage": null,
+    "options": [
+      "Presence of sexual precocity in school-aged children",
+      "Rapidly progressive sexual precocity in very young children",
+      "Rapidly progressive sexual precocity in school-aged children",
+      "Presence of sexual precocity in young children"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Hypothalamic hamartomas are often associated with rapidly progressive sexual precocity, especially in very young children. These hamartomas are non-cancerous malformations of the hypothalamus and can cause the premature activation of the hypothalamic-pituitary-gonadal axis, leading to early onset of puberty.",
+      "images": []
+    }
+  },
+  {
+    "id": "186",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "John noticed that every time he took a walk through their rice fields or visit their animal barn he felt swelling, erythema of his eyelids and developed attacks of rhinitis. It took several years before he developed this sensitivity and his doctor was suggesting that he undergo desensitization. What is sensitization?",
+    "questionImage": null,
+    "options": [
+      "It is the induction of allergic disease predisposing individuals to specific allergens",
+      "It is the activation of specific B cells that can prevent allergens",
+      "It is the swelling of the secretory granules of the human mast cells.",
+      "It is the binding of the IgE to human mast cells and basophils for antigen specific activation"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Sensitization involves the binding of allergen-specific IgE antibodies to the surface of mast cells and basophils, which, upon re-exposure to the allergen, triggers the release of inflammatory mediators.",
+      "images": []
+    }
+  },
+  {
+    "id": "187",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Why would animal dander and rice stalks pollens cause rhinitis rather than respiratory tract infections?",
+    "questionImage": null,
+    "options": [
+      "Sticky mucosal secretions and protrusion of mucosal turbinates",
+      "Large size of the allergens retained within the nose",
+      "Presence of variable number of eosinophils",
+      "Entrapment of pollens and digestion of outer core by enzyme"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Rhinitis caused by allergens like animal dander and pollen is due to an allergic reaction. In the nasal passages, allergens can lead to the release of histamine and other inflammatory mediators, causing increased mucus production and swelling of the mucosal turbinates. This can result in symptoms such as nasal congestion, runny nose, and sneezing.",
+      "images": []
+    }
+  },
+  {
+    "id": "188",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "That night, John sprayed insecticides across his and on his bed to avoid being bitten by the farm insects and bugs. However upon waking up, he developed generalized wheals/hives and pending angioedema. What will happen if NOT treated immediately?",
+    "questionImage": null,
+    "options": [
+      "It may lead to obstruction in epiglottis ad larynx",
+      "It may lead to intractable bronchospasm ending with death",
+      "There is presence of vascular collapse",
+      "Hypopharynx and trachea may also be obstructed"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Laryngeal edema, the most feared complication of HAE, can cause complete respiratory obstruction. Although life-threatening attacks are infrequent, more than half of patients with HAE experience laryngeal involvement at some time during their lives.",
+      "images": []
+    }
+  },
+  {
+    "id": "189",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Rodney consulted the clinic because of development of generalized wheals and hives the day prior to consultation. He remembered eating shrimps wrapped in lumpia wrappers the day before. He had history of similar occurrences a year ago when they attended a birthday party of his aunt whose lunch menu were mostly seafood. What is Rodney having?",
+    "questionImage": null,
+    "options": [
+      "Contact urticaria",
+      "Food hypersensitivity reaction",
+      "Acute urticaria",
+      "Chronic urticaria"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Rodney's symptoms align with acute urticaria. Acute urticaria refers to the sudden onset of hives and can be triggered by various factors, including food allergies. It typically resolves within a short period, but the symptoms can be severe.",
+      "images": []
+    }
+  },
+  {
+    "id": "190",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Which food DOES NOT cause wheals/hives?",
+    "questionImage": null,
+    "options": [
+      "Low fat milk",
+      "Four season juice",
+      "Fresh buko juice",
+      "Tang orange juice"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Tang orange juice, has been marketed as 'Allergen-free', it uses artificial orange juice flavor and is Dairy Free, Gluten Free, Gelatine Free, Celery Free, and Wheat Free.",
+      "images": []
+    }
+  },
+  {
+    "id": "191",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Which antihistamine SHOULD NOT be given if reviewing for an exam?",
+    "questionImage": null,
+    "options": [
+      "Loratadine",
+      "Levocetirizine",
+      "Hydroxyzine",
+      "Fexofenadine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Hydroxyzine is a first-generation antihistamine that has sedating effects and can cause drowsiness. It may impair cognitive function and is not ideal for use when studying or reviewing for an exam.",
+      "images": []
+    }
+  },
+  {
+    "id": "192",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "8 year old Anna was playing in the garden while Mom was preparing the flowers for festival in Baguio. The next day, upon waking up, she noted development of wheals and hives all over his legs, face an arms. What could be the predisposing factors of her wheals/hives?",
+    "questionImage": null,
+    "options": [
+      "Hemiptera venom (wasps/bees)",
+      "Drugs (Non steroidal medications)",
+      "Food (peanuts, milk, eggs)",
+      "Pollen extracts (flowers, grass, trees)"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Exposure to pollen extracts, such as those from flowers, grass, or trees, can trigger allergic reactions, including the formation of wheals and hives. Individuals with pollen allergies may experience these skin symptoms upon exposure. Considering the scenario of Anna playing in the garden with flowers for the festival in Baguio, pollen extracts are the most likely cause of Anna's urticaria.",
+      "images": []
+    }
+  },
+  {
+    "id": "193",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Anna also expressed a 'lump' on her throat. What could be the cause of this?",
+    "questionImage": null,
+    "options": [
+      "Bronchial constriction",
+      "Laryngeal edema",
+      "Bronchial asthma",
+      "Bronchial obstruction"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Laryngeal edema involves swelling of the larynx, which can lead to a feeling of a 'lump' in the throat. This condition can occur in allergic reactions, such as anaphylaxis, where there is generalized swelling, including the laryngeal area.",
+      "images": []
+    }
+  },
+  {
+    "id": "194",
+    "subject": "Pediatrics",
+    "topic": "Immunology",
+    "question": "Which statement MAY NOT be TRUE of urticarial symptoms?",
+    "questionImage": null,
+    "options": [
+      "Eruptions are intensely pruritic",
+      "If scratched and rubbed, lesions tend to coalesce to giant hives",
+      "A non pitting deeper edematous angioedema may be present",
+      "Eruptions persist even beyond 48 hours."
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Urticarial eruptions are typically transient and often resolve within 24 hours. Persistence beyond 48 hours is less characteristic of acute urticaria, which is often triggered by allergens, infections, or other factors.",
+      "images": []
+    }
+  },
+  {
+    "id": "195",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "5 yo boy with down syndrome was diagnosed with acute lymphoblastic leukemia (ALL) by his doctor. Genetic modification are required for disease expression. What would be the initial presentation of a patient with acute lymphocytic leukemia in peripheral blood studies?",
+    "questionImage": null,
+    "options": [
+      "Presence of leukemia cells",
+      "Presence of atypical lymphocytes",
+      "Anemia and thrombocytopenia",
+      "Total leucocyte count <10,000/ul"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Anemia and thrombocytopenia are common findings in ALL. Leukemia cells replace normal cells in the bone marrow, leading to a decrease in the production of red blood cells and platelets, causing anemia and thrombocytopenia, respectively.",
+      "images": []
+    }
+  },
+  {
+    "id": "196",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "What signs and symptoms would reflect bone marrow failure?",
+    "questionImage": null,
+    "options": [
+      "Increased intracranial pressure, papilledema, retinal hemorrhages",
+      "Pallor, pruritic/petechial skin lesions, mucous membrane hemorrhage",
+      "Easy bruisability, fever, mediastinal distress",
+      "Bone or joint pain, tenderness over the bone, joint swelling and effusion"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Pallor can result from anemia due to decreased red blood cell production. Pruritic/petechial skin lesions and mucous membrane hemorrhage may occur due to a decrease in platelet production, leading to bleeding tendencies.",
+      "images": []
+    }
+  },
+  {
+    "id": "197",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "What diagnostic test can be done to diagnose ALL?",
+    "questionImage": null,
+    "options": [
+      "Cytogenetic/molecular studies",
+      "Bone marrow evaluation",
+      "Peripheral blood studies",
+      "Flow cytometry"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Bone marrow evaluation, often through bone marrow aspiration and biopsy, is a key diagnostic step for ALL. It allows for the examination of the bone marrow cells to identify the presence of leukemic cells, their characteristics, and the degree of infiltration. This is the gold standard investigation to diagnose Leukemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "198",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "A 19yo young boy consulted the clinic with his parents because of the following systemic 'B' symptoms: unexplained fever >38C, weight loss >10% over 6 months and drenching night sweats. There is also presence of supraclavicular lymphadenopathy and mediastinal involvement. What diagnostic procedure should be INITIALLY requested?",
+    "questionImage": null,
+    "options": [
+      "Lymph node biopsy",
+      "CT scans of the neck, chest, abdomen",
+      "Bone marrow aspiration/biopsy",
+      "Chest radiography"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Any patient with persistent, unexplained lymphadenopathy unassociated with an obvious underlying inflammatory or infectious process should undergo chest radiography to identify the presence of a large mediastinal mass before undergoing lymph node biopsy.",
+      "images": []
+    }
+  },
+  {
+    "id": "199",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "The disease arises from lymphoid tissue and spread to adjacent lymph nodes with hematogenous spread associated with the systemic symptoms. What is the patient having?",
+    "questionImage": null,
+    "options": [
+      "Non-Hodgkin lymphoma",
+      "Tuberculosis",
+      "Hodgkin Lymphoma",
+      "Thymoma"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Hodgkin Lymphoma: Systemic symptoms, classified as B symptoms that are considered important in staging, are unexplained fever >38C (100.4F), weight loss >10% total body weight over 6 months, and drenching night sweats. Patients commonly present with painless, nontender, firm, rubbery, cervical or supraclavicular lymphadenopathy and usually some degree of mediastinal involvement.",
+      "images": []
+    }
+  },
+  {
+    "id": "200",
+    "subject": "Pediatrics",
+    "topic": "Oncology",
+    "question": "Which is the LEAST poor prognostic features of Hodgkin Lymphoma?",
+    "questionImage": null,
+    "options": [
+      "Tumor bulk",
+      "Extralymphatic disease",
+      "Presence of bone marrow infiltration",
+      "Stage of diagnosis"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The stage of diagnosis is a crucial prognostic factor in Hodgkin lymphoma. Generally, early-stage diagnosis is associated with a better prognosis compared to advanced-stage disease.",
+      "images": []
+    }
+  }
+]

@@ -1,0 +1,3458 @@
+[
+  {
+    "id": "1",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometriosis",
+    "question": "Which of the following theories about the pathogenesis of endometriosis describes that endometrial tissue travels through the lymphatics to ectopically implant in the pelvis?",
+    "questionImage": null,
+    "options": [
+      "Halban theory",
+      "Sampson theory",
+      "Meyer theory",
+      "Metapastic transformation theory"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Halban theory: Endometrial tissue travels through the lymphatics to ectopically implant in the pelvis. Sampson theory: retrograde menstruation through the fallopian tubes. Meyer theory: metaplastic transformation of multipotential cells in peritoneal tissue into endometrial tissue.",
+      "images": []
+    }
+  },
+  {
+    "id": "2",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometriosis",
+    "question": "What is the hallmark of endometriosis?",
+    "questionImage": null,
+    "options": [
+      "Cyclic pelvic pain",
+      "Subfertility",
+      "Dyspareunia",
+      "Bowel and bladder symptoms"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Cyclic pelvic pain is the hallmark of endometriosis. The other options are also signs and symptoms but are not considered hallmarks.",
+      "images": []
+    }
+  },
+  {
+    "id": "3",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Osteoporosis",
+    "question": "The following medications are approved for the prevention of osteoporosis in women, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Bisphosphonates",
+      "Raloxifene",
+      "Letrozole",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Letrozole is an aromatase inhibitor used for breast cancer, not for osteoporosis prevention. Approved agents: bisphosphonates, raloxifene, menopausal hormone therapy.",
+      "images": []
+    }
+  },
+  {
+    "id": "4",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "To reduce the risk of having neural tube defects, what dose of folic acid should be given 1 month before conception?",
+    "questionImage": null,
+    "options": [
+      "4 mcg",
+      "40 mcg",
+      "400 mcg",
+      "4000 mcg"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The recommended dose is 400 mcg (0.4 mg) daily for all women of childbearing age. For high-risk (e.g., previous NTD), 4 mg (4000 mcg) is given.",
+      "images": []
+    }
+  },
+  {
+    "id": "5",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Diabetes",
+    "question": "What is the recommended daily dose of folate for patients with diabetes who are planning to get pregnant?",
+    "questionImage": null,
+    "options": [
+      "4 mcg",
+      "40 mcg",
+      "400 mcg",
+      "4000 mcg"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "For women with diabetes (or other high-risk factors), the recommended dose is 4 mg (4000 mcg) daily, started 1 month before conception.",
+      "images": []
+    }
+  },
+  {
+    "id": "6",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "An infant delivered at 38 weeks is considered:",
+    "questionImage": null,
+    "options": [
+      "Previable",
+      "Preterm",
+      "Term",
+      "Postterm"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Term: 37–42 weeks. Previable: 23–24 weeks. Preterm: 24–37 weeks. Postterm: beyond 42 weeks.",
+      "images": []
+    }
+  },
+  {
+    "id": "7",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "A 40-year-old woman smokes 17 cigarettes per day and asks for contraception. Which should NOT be prescribed?",
+    "questionImage": null,
+    "options": [
+      "Progestin-only pill",
+      "Depo-Provera",
+      "Implanon",
+      "Combined oral contraceptive"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Combined oral contraceptives (COC) contain estrogen → hypercoagulability. Contraindicated in women >35 who smoke ≥15 cigarettes/day. Progesterone-only methods are safe.",
+      "images": []
+    }
+  },
+  {
+    "id": "8",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "DVT",
+    "question": "What is the recommended treatment for a pregnant patient with deep venous thrombosis (DVT)?",
+    "questionImage": null,
+    "options": [
+      "Enoxaparin",
+      "Warfarin",
+      "Aspirin",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "LMWH (enoxaparin) or unfractionated heparin is recommended. Warfarin is contraindicated in pregnancy (teratogenic, crosses placenta). Heparin does not cross the placenta.",
+      "images": []
+    }
+  },
+  {
+    "id": "9",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "What stage of labor begins after delivery of the infant and ends with delivery of the placenta?",
+    "questionImage": null,
+    "options": [
+      "Stage 0",
+      "Stage 1",
+      "Stage 2",
+      "Stage 3"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Stage 1: onset of labor to full dilation. Stage 2: full dilation to delivery of infant. Stage 3: delivery of infant to delivery of placenta.",
+      "images": []
+    }
+  },
+  {
+    "id": "10",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Retained placenta is defined as placenta that does not deliver within how many minutes after the infant?",
+    "questionImage": null,
+    "options": [
+      "15 minutes",
+      "20 minutes",
+      "30 minutes",
+      "45 minutes"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Retained placenta is defined as placenta that does not deliver within 30 minutes after the infant.",
+      "images": []
+    }
+  },
+  {
+    "id": "11",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Which of the following should be done if a woman's placenta did not deliver within 30 minutes after the infant?",
+    "questionImage": null,
+    "options": [
+      "Total hysterectomy",
+      "Manual extraction",
+      "Laparotomy",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Manual extraction is the initial management. If incomplete, curettage may be needed.",
+      "images": []
+    }
+  },
+  {
+    "id": "12",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "After vaginal delivery, a perineal laceration extends into the perineal body but does not involve the anal sphincter. This is classified as:",
+    "questionImage": null,
+    "options": [
+      "1st-degree",
+      "2nd-degree",
+      "3rd-degree",
+      "4th-degree"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "1st: mucosa/skin; 2nd: perineal body, not sphincter; 3rd: through sphincter; 4th: anal mucosa involved.",
+      "images": []
+    }
+  },
+  {
+    "id": "13",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "Which of the following can be used to treat chancroid?",
+    "questionImage": null,
+    "options": [
+      "Ciprofloxacin",
+      "Oral acyclovir",
+      "Doxycycline",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Chancroid treatment: ceftriaxone, azithromycin, ciprofloxacin, or erythromycin. Acyclovir is for herpes; doxycycline for LGV.",
+      "images": []
+    }
+  },
+  {
+    "id": "14",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "What is the recommended calcium intake during pregnancy?",
+    "questionImage": null,
+    "options": [
+      "0.5 g/day",
+      "1.5 g/day",
+      "2.5 g/day",
+      "3.5 g/day"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The recommended calcium intake during pregnancy is 1.5 g (1500 mg) per day.",
+      "images": []
+    }
+  },
+  {
+    "id": "15",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "Which of the following is NOT true about physiological changes during pregnancy?",
+    "questionImage": null,
+    "options": [
+      "Systemic vascular resistance increases",
+      "Cardiac output increases to 50%",
+      "Increase in cardiac output is due to increase in stroke volume",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Systemic vascular resistance decreases during pregnancy. CO increases 30-50% due to increased stroke volume and heart rate.",
+      "images": []
+    }
+  },
+  {
+    "id": "16",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "UTI",
+    "question": "Pregnant women have an increased risk to develop pyelonephritis due to:",
+    "questionImage": null,
+    "options": [
+      "Decreased immune system",
+      "Smooth muscle relaxation of the ureters from progesterone",
+      "Estrogen-mediated ureteral relaxation",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Urinary stasis from mechanical compression and progesterone-mediated smooth muscle relaxation increases risk.",
+      "images": []
+    }
+  },
+  {
+    "id": "17",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "A 35-year-old Rh-negative woman at 37 weeks underwent external cephalic version. What should be given before discharge?",
+    "questionImage": null,
+    "options": [
+      "RhoGAM",
+      "Human tetanus immunoglobulin",
+      "Calcium supplements",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "RhoGAM is given to prevent alloimmunization after procedures that may cause fetomaternal hemorrhage.",
+      "images": []
+    }
+  },
+  {
+    "id": "18",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Anatomy",
+    "question": "Which ligament travels through the inguinal canal to connect the uterine horn to the labia majora?",
+    "questionImage": null,
+    "options": [
+      "Ovarian ligament",
+      "Round ligament",
+      "Cardinal ligament",
+      "Uterosacral ligament"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Round ligament: through inguinal canal to labia majora. Ovarian: ovary to uterine horn. Cardinal: cervix to lateral pelvic wall. Uterosacral: cervix to sacrum.",
+      "images": []
+    }
+  },
+  {
+    "id": "19",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "What is the most common indication for primary cesarean section?",
+    "questionImage": null,
+    "options": [
+      "Breech presentation",
+      "Transverse lie",
+      "Failure to progress in labor",
+      "Non-reassuring fetal status"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Failure to progress in labor is the most common indication for primary cesarean delivery.",
+      "images": []
+    }
+  },
+  {
+    "id": "20",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "What is the drug of choice for prophylaxis of seizures in patients with preeclampsia?",
+    "questionImage": null,
+    "options": [
+      "Phenytoin",
+      "Phenobarbital",
+      "Diazepam",
+      "Magnesium sulfate"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Magnesium sulfate is the drug of choice for seizure prophylaxis in preeclampsia.",
+      "images": []
+    }
+  },
+  {
+    "id": "21",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "What is the cure for preeclampsia?",
+    "questionImage": null,
+    "options": [
+      "Hydralazine",
+      "Nifedipine",
+      "Magnesium sulfate",
+      "Delivery of the baby"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Delivery of the baby is the only definitive cure for preeclampsia.",
+      "images": []
+    }
+  },
+  {
+    "id": "22",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Eclampsia",
+    "question": "Which of the following can be used to treat hypertension in patients with eclampsia?",
+    "questionImage": null,
+    "options": [
+      "Labetalol",
+      "Metoprolol",
+      "Losartan",
+      "Nitroprusside"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Labetalol and hydralazine are used to treat hypertension in eclampsia.",
+      "images": []
+    }
+  },
+  {
+    "id": "23",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "A patient with preeclampsia on MgSO4 develops loss of deep tendon reflexes and respiratory rate 7/min. What should be given?",
+    "questionImage": null,
+    "options": [
+      "Calcium gluconate",
+      "Potassium iodide",
+      "Diazepam",
+      "Epinephrine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Calcium gluconate (10 mL of 10% solution) IV is given for magnesium toxicity (loss of DTRs, respiratory depression).",
+      "images": []
+    }
+  },
+  {
+    "id": "24",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "GDM",
+    "question": "Screening for diabetes during pregnancy should be done between:",
+    "questionImage": null,
+    "options": [
+      "16-20 weeks",
+      "20-24 weeks",
+      "22-26 weeks",
+      "24-28 weeks"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Screening for gestational diabetes is recommended between 24-28 weeks of gestation.",
+      "images": []
+    }
+  },
+  {
+    "id": "25",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "GDM",
+    "question": "A postpartum woman with prior GDM should be screened for type 2 diabetes using:",
+    "questionImage": null,
+    "options": [
+      "Fasting serum blood glucose",
+      "2-hour 75g OGTT",
+      "RBS",
+      "HbA1c"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Women with GDM should be screened postpartum with fasting glucose or 2-hour 75g OGTT. RBS and HbA1c are not recommended.",
+      "images": []
+    }
+  },
+  {
+    "id": "26",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "What is the treatment for malignant gestational trophoblastic disease?",
+    "questionImage": null,
+    "options": [
+      "Surgery",
+      "Observation",
+      "Chemotherapy",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Chemotherapy is the mainstay for malignant GTD. Surgery has a limited role (except for high-risk or placental site tumors).",
+      "images": []
+    }
+  },
+  {
+    "id": "27",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Placenta Previa",
+    "question": "A 35-year-old G2P1 at 30 weeks with painless vaginal bleeding is suspected of placenta previa. Which should NOT be done?",
+    "questionImage": null,
+    "options": [
+      "Transabdominal ultrasound",
+      "Transvaginal ultrasound",
+      "Vaginal examination",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Vaginal examination is contraindicated because it can provoke bleeding. Transvaginal ultrasound is safe and more accurate.",
+      "images": []
+    }
+  },
+  {
+    "id": "28",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Placenta Previa",
+    "question": "For the patient with placenta previa, what is the recommended method of delivery?",
+    "questionImage": null,
+    "options": [
+      "Vaginal delivery",
+      "Cesarean delivery",
+      "Forceps delivery",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cesarean delivery is recommended for complete or partial placenta previa.",
+      "images": []
+    }
+  },
+  {
+    "id": "29",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "This is defined as the ability to achieve pregnancy in one menstrual cycle:",
+    "questionImage": null,
+    "options": [
+      "Infertility",
+      "Fecundability",
+      "Fertility",
+      "Fecundity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fecundability = probability of pregnancy in one cycle. Fecundity = probability of live birth per cycle.",
+      "images": []
+    }
+  },
+  {
+    "id": "30",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "UTI",
+    "question": "What is the most common cause of UTI in pregnant patients?",
+    "questionImage": null,
+    "options": [
+      "E. coli",
+      "Group B streptococci",
+      "Enterococci",
+      "Klebsiella"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "E. coli is the most common cause of UTI in pregnancy.",
+      "images": []
+    }
+  },
+  {
+    "id": "31",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "What is the main tool used to investigate male factor infertility?",
+    "questionImage": null,
+    "options": [
+      "Semen analysis",
+      "Testicular biopsy",
+      "Hormonal profile",
+      "Ultrasound"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Semen analysis is the primary tool, evaluating count, volume, motility, morphology, pH, and WBC count.",
+      "images": []
+    }
+  },
+  {
+    "id": "32",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "Which drug used in ovulation induction works by blocking estrogen receptors in the hypothalamus to increase FSH and LH?",
+    "questionImage": null,
+    "options": [
+      "Letrozole",
+      "Clomiphene",
+      "Tamoxifen",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clomiphene is a SERM that blocks estrogen receptors in the hypothalamus, increasing GnRH → FSH/LH. Letrozole is an aromatase inhibitor.",
+      "images": []
+    }
+  },
+  {
+    "id": "33",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "The following are contraindications to combined oral contraceptives, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Thromboembolism",
+      "Smokers older than 35",
+      "Unexplained vaginal bleeding",
+      "Ovarian cancer"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "COCs reduce ovarian cancer risk. The other options are absolute contraindications.",
+      "images": []
+    }
+  },
+  {
+    "id": "34",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "Breastfeeding as contraception suppresses ovulation through:",
+    "questionImage": null,
+    "options": [
+      "Prolactin-induced inhibition of GnRH",
+      "Oxytocin-induced inhibition of GnRH",
+      "ADH-induced inhibition of GnRH",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Breastfeeding → increased prolactin → decreased GnRH → suppressed ovulation.",
+      "images": []
+    }
+  },
+  {
+    "id": "35",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "A 22-year-old with unilateral ovarian germ cell tumor desires future fertility. Recommended surgery:",
+    "questionImage": null,
+    "options": [
+      "Unilateral salpingo-oophorectomy",
+      "Bilateral salpingo-oophorectomy",
+      "Total hysterectomy with bilateral salpingo-oophorectomy",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Unilateral salpingo-oophorectomy preserves fertility. Bilateral is for bilateral cancer; hysterectomy is for completed childbearing.",
+      "images": []
+    }
+  },
+  {
+    "id": "36",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Vulvar",
+    "question": "Majority of vulvar intraepithelial neoplasia (VIN) lesions are positive for:",
+    "questionImage": null,
+    "options": [
+      "HPV",
+      "HBV",
+      "HIV",
+      "EBV"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "80-90% of VIN lesions are HPV-positive.",
+      "images": []
+    }
+  },
+  {
+    "id": "37",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Vulvar",
+    "question": "A postmenopausal woman with chronic vulvar pruritus not responding to antifungals, with white/red raised lesions, most likely:",
+    "questionImage": null,
+    "options": [
+      "Antibiotic-resistant Candida",
+      "Cervical cancer",
+      "Vulvar intraepithelial neoplasia",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "VIN should be suspected in postmenopausal women with pruritic lesions unresponsive to treatment. Biopsy is warranted.",
+      "images": []
+    }
+  },
+  {
+    "id": "38",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Vulvar",
+    "question": "Which is NOT a treatment option for VIN?",
+    "questionImage": null,
+    "options": [
+      "Modified radical vulvectomy",
+      "Wide local excision",
+      "Laser ablation",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Modified radical vulvectomy is for vulvar carcinoma. VIN treatments: wide local excision, laser ablation, topical imiquimod.",
+      "images": []
+    }
+  },
+  {
+    "id": "39",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "A quad screen with increased AFP is associated with:",
+    "questionImage": null,
+    "options": [
+      "Down syndrome",
+      "Edwards syndrome",
+      "Spina bifida",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Increased AFP suggests open neural tube defects (spina bifida, anencephaly) or dating errors. Down/Edwards have decreased AFP.",
+      "images": []
+    }
+  },
+  {
+    "id": "40",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "Quad screen: increased hCG, increased inhibin A, decreased estriol, decreased AFP. Risk of:",
+    "questionImage": null,
+    "options": [
+      "Down syndrome",
+      "Edwards syndrome",
+      "Spina bifida",
+      "Trisomy 13"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "This pattern is characteristic of trisomy 21 (Down syndrome). Trisomy 18 shows decreased hCG, estriol, AFP.",
+      "images": []
+    }
+  },
+  {
+    "id": "41",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ectopic",
+    "question": "A stable patient with unruptured ectopic pregnancy. Recommended treatment:",
+    "questionImage": null,
+    "options": [
+      "Exploratory laparotomy",
+      "Methotrexate",
+      "Expectant management",
+      "Salpingectomy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Methotrexate is used for unruptured ectopic with stable vitals and absence of fetal heartbeat. Surgery for ruptured or unstable.",
+      "images": []
+    }
+  },
+  {
+    "id": "42",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ectopic",
+    "question": "Methotrexate can be used for ectopic pregnancy if all criteria are met, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "<5 cm",
+      "Serum beta-hCG < 5000",
+      "Noticeable fetal heartbeat",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Fetal heartbeat is a contraindication. Other criteria: <5 cm, hCG < 5000, no fetal heartbeat, reliable follow-up.",
+      "images": []
+    }
+  },
+  {
+    "id": "43",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "A patient with short stature, webbed neck, low-set ears, wide-set nipples, primary amenorrhea. Karyotype:",
+    "questionImage": null,
+    "options": [
+      "47,XXX",
+      "47,XXY",
+      "45,XO",
+      "Any of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Turner syndrome (45,XO) presents with these features. 47,XXY is Klinefelter (tall, gynecomastia).",
+      "images": []
+    }
+  },
+  {
+    "id": "44",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "Group B streptococci (GBS) screening should be done at what AOG?",
+    "questionImage": null,
+    "options": [
+      "24-28 weeks",
+      "28-32 weeks",
+      "35-37 weeks",
+      "38-40 weeks"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "GBS screening is recommended at 35-37 weeks using a rectovaginal culture.",
+      "images": []
+    }
+  },
+  {
+    "id": "45",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Which tocolytic should be used with caution in patients with left ventricular dysfunction?",
+    "questionImage": null,
+    "options": [
+      "Magnesium sulfate",
+      "Terbutaline",
+      "Nifedipine",
+      "Indomethacin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Nifedipine (calcium channel blocker) reduces myocardial contractility and should be used cautiously in LV dysfunction.",
+      "images": []
+    }
+  },
+  {
+    "id": "46",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Rupture of membranes (ROM) that occurs before 37 weeks and before onset of labor is termed:",
+    "questionImage": null,
+    "options": [
+      "Prolonged ROM",
+      "Preterm premature ROM",
+      "Term ROM",
+      "Premature ROM"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Preterm premature ROM = ROM before 37 weeks and before labor onset. Prolonged ROM = >18 hours before delivery.",
+      "images": []
+    }
+  },
+  {
+    "id": "47",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Which type of breech presentation is described by flexed hips, extended knees, feet near the fetal head?",
+    "questionImage": null,
+    "options": [
+      "Frank breech",
+      "Complete breech",
+      "Incomplete breech",
+      "Footling breech"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Frank breech: flexed hips, extended knees, feet near head. Complete: flexed hips and knees. Footling: one or both feet below breech.",
+      "images": []
+    }
+  },
+  {
+    "id": "48",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "What is the most common reason for post-term pregnancy?",
+    "questionImage": null,
+    "options": [
+      "Inaccurate dating",
+      "Anencephaly",
+      "Absent fetal pituitary",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Inaccurate dating is the most common cause. Other causes include anencephaly, absent fetal pituitary, but are less common.",
+      "images": []
+    }
+  },
+  {
+    "id": "49",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Which is the correct order of cardinal movements of labor?",
+    "questionImage": null,
+    "options": [
+      "Engagement, descent, flexion, internal rotation, extension, external rotation",
+      "Engagement, descent, flexion, internal rotation, external rotation, extension",
+      "Engagement, descent, flexion, external rotation, extension, internal rotation",
+      "Engagement, descent, flexion, internal rotation, external rotation"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The cardinal movements: engagement, descent, flexion, internal rotation, extension, external rotation.",
+      "images": []
+    }
+  },
+  {
+    "id": "50",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "What is the most common type of germ cell tumor?",
+    "questionImage": null,
+    "options": [
+      "Immature teratoma",
+      "Embryonal carcinoma",
+      "Dermoid cyst",
+      "Dysgerminoma"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Dermoid cysts (benign cystic mature teratoma) are the most common germ cell tumors.",
+      "images": []
+    }
+  },
+  {
+    "id": "51",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Postterm pregnancy is associated with increased risk of all EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Macrosomic infants",
+      "Polyhydramnios",
+      "Meconium aspiration",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Postterm is associated with oligohydramnios (not polyhydramnios), macrosomia, meconium aspiration, and fetal demise.",
+      "images": []
+    }
+  },
+  {
+    "id": "52",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "Potter syndrome (bilateral renal agenesis) leads to all EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Retrographia",
+      "Flattened nose",
+      "Pulmonary hypoplasia",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All listed are features of Potter sequence from oligohydramnios (pulmonary hypoplasia, limb contractures, facial anomalies).",
+      "images": []
+    }
+  },
+  {
+    "id": "53",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "Which is TRUE of complete mole, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Most common karyotype is 69,XXY",
+      "All chromosomes are paternally derived",
+      "Results from fertilization of an empty egg",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Complete mole karyotype is 46,XX (paternal). 69,XXY is partial mole (maternal and paternal).",
+      "images": []
+    }
+  },
+  {
+    "id": "54",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "Which tumor marker is seen in yolk sac tumors of the ovary?",
+    "questionImage": null,
+    "options": [
+      "LDH",
+      "AFP",
+      "hCG",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Yolk sac tumors produce AFP. Dysgerminomas produce hCG and LDH.",
+      "images": []
+    }
+  },
+  {
+    "id": "55",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometrial Cancer",
+    "question": "Which factor does NOT increase risk of endometrial cancer?",
+    "questionImage": null,
+    "options": [
+      "Chronic anovulation",
+      "Nulliparity",
+      "Early menopause",
+      "Obesity"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Late menopause increases risk; early menopause decreases risk. Other risk factors: unopposed estrogen, nulliparity, obesity.",
+      "images": []
+    }
+  },
+  {
+    "id": "56",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometriosis",
+    "question": "A patient with adenomyosis (diffusely enlarged globular uterus, dysmenorrhea, prolonged menses). Definitive treatment:",
+    "questionImage": null,
+    "options": [
+      "Dilatation and curettage",
+      "Methotrexate",
+      "Hysterectomy",
+      "LNG-containing IUD"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Hysterectomy is the only definitive treatment for adenomyosis. LNG-IUD is for symptom management.",
+      "images": []
+    }
+  },
+  {
+    "id": "57",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometriosis",
+    "question": "What is the only way to definitely diagnose endometriosis?",
+    "questionImage": null,
+    "options": [
+      "Pelvic MRI",
+      "Pelvic CT",
+      "Laparotomy",
+      "Pelvic ultrasound"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Direct visualization with laparoscopy or laparotomy is the gold standard for diagnosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "58",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Type of urinary incontinence described as involuntary loss of urine when coughing or sneezing:",
+    "questionImage": null,
+    "options": [
+      "Stress urinary incontinence",
+      "Urgency urinary incontinence",
+      "Overflow urinary incontinence",
+      "Any of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Stress incontinence: loss with increased intra-abdominal pressure. Urgency: loss with urge to void. Overflow: overfilling.",
+      "images": []
+    }
+  },
+  {
+    "id": "59",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Which type of urinary incontinence is caused by detrusor overactivity?",
+    "questionImage": null,
+    "options": [
+      "Stress",
+      "Urgency",
+      "Overflow",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Urgency incontinence is due to detrusor overactivity. Stress is outlet incompetence; overflow is underactivity/obstruction.",
+      "images": []
+    }
+  },
+  {
+    "id": "60",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Which of the following is the last to occur in the pubertal sequence?",
+    "questionImage": null,
+    "options": [
+      "Menarche",
+      "Pubarche",
+      "Thelarche",
+      "Accelerated growth"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Sequence: accelerated growth → thelarche → pubarche → menarche.",
+      "images": []
+    }
+  },
+  {
+    "id": "61",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "After ovulation, what structure secretes progesterone to maintain the endometrial lining?",
+    "questionImage": null,
+    "options": [
+      "Corpus albicans",
+      "Corpus luteum",
+      "Primary ovarian follicle",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The corpus luteum secretes progesterone. Corpus albicans is the remnant after degeneration.",
+      "images": []
+    }
+  },
+  {
+    "id": "62",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "A patient with primary amenorrhea, female external genitalia with testes in labia majora, scant pubic hair, rudimentary vagina, 46 XY. Diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Androgen insensitivity syndrome",
+      "Kallman syndrome",
+      "Mayer-Rokitansky-Kuster-Hauser syndrome",
+      "Imperforate hymen"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Androgen insensitivity (testicular feminization) – 46 XY, female phenotype, testes, blind vagina. Kallman: hypogonadotropic hypogonadism with anosmia. MRKH: congenital absence of uterus/vagina.",
+      "images": []
+    }
+  },
+  {
+    "id": "63",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "What Tanner stage of breast development is the breast bud stage with elevation of breast and papilla, areolar enlargement?",
+    "questionImage": null,
+    "options": [
+      "Stage 1",
+      "Stage 2",
+      "Stage 3",
+      "Stage 4"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Stage 2 is the breast bud stage. Stage 1: preadolescent. Stage 3: further enlargement. Stage 4: secondary mound. Stage 5: mature.",
+      "images": []
+    }
+  },
+  {
+    "id": "64",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "A patient with postpartum hemorrhage and failure to lactate, amenorrhea, cold intolerance. Diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Sheehan syndrome",
+      "Asherman syndrome",
+      "Empty sella syndrome",
+      "Pituitary apoplexy"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Sheehan syndrome: pituitary infarction from postpartum hemorrhage → panhypopituitarism. Asherman: intrauterine adhesions.",
+      "images": []
+    }
+  },
+  {
+    "id": "65",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ectopic",
+    "question": "What is the strongest risk factor for developing ectopic pregnancy?",
+    "questionImage": null,
+    "options": [
+      "Use of an IUD",
+      "Previous history of ectopic pregnancy",
+      "Endometriosis",
+      "History of PID"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Previous ectopic pregnancy is the strongest risk factor. Other factors: PID, prior tubal surgery, IUD use, IVF.",
+      "images": []
+    }
+  },
+  {
+    "id": "66",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Abortion",
+    "question": "Vaginal bleeding and dilation of the cervix with no expulsion of products of conception, unlikely viable pregnancy:",
+    "questionImage": null,
+    "options": [
+      "Complete abortion",
+      "Incomplete abortion",
+      "Inevitable abortion",
+      "Threatened abortion"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Inevitable abortion: bleeding + dilated cervix, no POC expelled. Complete: all POC expelled. Incomplete: partial expulsion. Threatened: bleeding, closed cervix.",
+      "images": []
+    }
+  },
+  {
+    "id": "67",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "In patients receiving MgSO4 for seizure prophylaxis, at what serum level (mg/mL) is respiratory depression expected?",
+    "questionImage": null,
+    "options": [
+      "8",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Therapeutic: 4.8–8.4; loss of DTRs: 10; respiratory depression: 15; coma: 17; cardiac arrest: 20–25.",
+      "images": []
+    }
+  },
+  {
+    "id": "68",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "What is the most common congenital infection and leading cause of congenital hearing loss?",
+    "questionImage": null,
+    "options": [
+      "CMV",
+      "Hepatitis B",
+      "Rubella",
+      "Rubeola"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "CMV is the most common congenital infection and leading cause of congenital hearing loss.",
+      "images": []
+    }
+  },
+  {
+    "id": "69",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "Early decelerations in fetal heart tracing are caused by:",
+    "questionImage": null,
+    "options": [
+      "Uteroplacental insufficiency",
+      "Umbilical cord compression",
+      "Head compression",
+      "Any of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Early decelerations: head compression. Variable: cord compression. Late: uteroplacental insufficiency.",
+      "images": []
+    }
+  },
+  {
+    "id": "70",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "Which type of deceleration is most worrisome due to potential deterioration to bradycardia?",
+    "questionImage": null,
+    "options": [
+      "Early decelerations",
+      "Variable decelerations",
+      "Late decelerations",
+      "Any of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Late decelerations are most concerning and may progress to bradycardia.",
+      "images": []
+    }
+  },
+  {
+    "id": "71",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "Pregnancy is associated with which wrist/hand condition?",
+    "questionImage": null,
+    "options": [
+      "Guyon canal syndrome",
+      "Carpal tunnel syndrome",
+      "Metacarpal neck fracture",
+      "Clavicular fracture"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Carpal tunnel syndrome from edema compressing the median nerve is common in pregnancy.",
+      "images": []
+    }
+  },
+  {
+    "id": "72",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "Bluish discoloration of the vagina and cervix during pregnancy is called:",
+    "questionImage": null,
+    "options": [
+      "Goodell sign",
+      "Chadwick sign",
+      "Ladin sign",
+      "Linea nigra"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Chadwick sign: bluish discoloration of vagina/cervix. Goodell: softening of cervix. Ladin: softening of uterus.",
+      "images": []
+    }
+  },
+  {
+    "id": "73",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "In developing countries, what is a common etiology of urinary fistula?",
+    "questionImage": null,
+    "options": [
+      "Pelvic radiation",
+      "Obstructed labor",
+      "Pelvic surgery",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Obstructed labor and birth trauma are common causes in developing countries. In the US, pelvic radiation/surgery are more common.",
+      "images": []
+    }
+  },
+  {
+    "id": "74",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "Which is NOT a fetal complication of preeclampsia?",
+    "questionImage": null,
+    "options": [
+      "Placental abruption",
+      "LGA fetus",
+      "Oligohydramnios",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Preeclampsia is associated with SGA (not LGA) due to uteroplacental insufficiency, abruption, oligohydramnios, and stillbirth.",
+      "images": []
+    }
+  },
+  {
+    "id": "75",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "Which is NOT a risk factor for preeclampsia?",
+    "questionImage": null,
+    "options": [
+      "SLE",
+      "Smoking",
+      "Maternal age <20",
+      "Nulliparity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Smoking reduces the risk of preeclampsia. Other risk factors: chronic hypertension, renal disease, APLS, nulliparity, age <20 or >35.",
+      "images": []
+    }
+  },
+  {
+    "id": "76",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "In most postpartum women, IUD placement is usually done at what week postpartum?",
+    "questionImage": null,
+    "options": [
+      "1 week",
+      "3 weeks",
+      "6 weeks",
+      "12 weeks"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "IUD insertion is typically done at 6 weeks postpartum to reduce expulsion risk.",
+      "images": []
+    }
+  },
+  {
+    "id": "77",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "What is the leading cause of postpartum hemorrhage (PPH)?",
+    "questionImage": null,
+    "options": [
+      "Cervical lacerations",
+      "Uterine atony",
+      "Vaginal lacerations",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Uterine atony is the most common cause of PPH, presenting as a soft, boggy uterus.",
+      "images": []
+    }
+  },
+  {
+    "id": "78",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "A postpartum woman with fever, uterine tenderness, leukocytosis, and prolonged ROM after cesarean. Most likely diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Endometritis",
+      "Candidiasis",
+      "Appendicitis",
+      "Postpartum hemorrhage"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Endometritis is common after cesarean with risk factors; diagnosed clinically and treated with broad-spectrum IV antibiotics.",
+      "images": []
+    }
+  },
+  {
+    "id": "79",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "If maneuvers for shoulder dystocia fail, what is the next step?",
+    "questionImage": null,
+    "options": [
+      "McRoberts maneuver",
+      "Suprapubic pressure",
+      "Rubin maneuver",
+      "Zavanelli maneuver"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Zavanelli maneuver: replace the head into the pelvis and perform cesarean section. McRoberts, suprapubic pressure, and Rubin are initial maneuvers.",
+      "images": []
+    }
+  },
+  {
+    "id": "80",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Which maneuver applies pressure toward the anterior chest wall of the fetus to decrease shoulder-to-shoulder diameter?",
+    "questionImage": null,
+    "options": [
+      "McRoberts",
+      "Suprapubic pressure",
+      "Rubin maneuver",
+      "Zavanelli"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Rubin maneuver: pressure on either accessible shoulder toward the anterior chest wall to free the impacted shoulder.",
+      "images": []
+    }
+  },
+  {
+    "id": "81",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Diabetes",
+    "question": "Which hormone in pregnancy has a diabetogenic effect?",
+    "questionImage": null,
+    "options": [
+      "hCG",
+      "Human placental lactogen (hPL)",
+      "Prolactin",
+      "TSH"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "hPL acts as an insulin antagonist, promoting insulin resistance and diabetogenic effect.",
+      "images": []
+    }
+  },
+  {
+    "id": "82",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "A patient with profuse grayish vaginal discharge, vulvar itching, and 'strawberry cervix'. Most likely causative agent:",
+    "questionImage": null,
+    "options": [
+      "Trichomonas vaginalis",
+      "Candida albicans",
+      "Neisseria gonorrhea",
+      "Staphylococcus aureus"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Trichomoniasis presents with frothy, grayish discharge, itching, and punctate cervical hemorrhages ('strawberry cervix').",
+      "images": []
+    }
+  },
+  {
+    "id": "83",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Placenta Previa",
+    "question": "Which abnormality of placentation is described as the placenta invading into the myometrium?",
+    "questionImage": null,
+    "options": [
+      "Placenta accreta",
+      "Placenta increta",
+      "Placenta percreta",
+      "Vasa previa"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Accreta: attaches to myometrium (no invasion). Increta: partial invasion into myometrium. Percreta: through myometrium and serosa.",
+      "images": []
+    }
+  },
+  {
+    "id": "84",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "What is the fetal reference point for face presentation?",
+    "questionImage": null,
+    "options": [
+      "Chin",
+      "Vertex",
+      "Back of the head",
+      "Clavicle"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "For face presentation, the reference point is the chin (mentum). For breech, it is the sacrum.",
+      "images": []
+    }
+  },
+  {
+    "id": "85",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Diagnosis of rupture of membranes is confirmed by:",
+    "questionImage": null,
+    "options": [
+      "Ultrasound",
+      "Fern test",
+      "Non-stress test",
+      "Biophysical profile"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fern test (or nitrazine test) confirms ROM by detecting amniotic fluid crystals.",
+      "images": []
+    }
+  },
+  {
+    "id": "86",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "What is the definitive treatment for most patients with complete molar pregnancy?",
+    "questionImage": null,
+    "options": [
+      "Chemotherapy",
+      "Suction dilatation and curettage",
+      "Radiation",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Suction D&C is the treatment of choice for complete mole. Chemotherapy is for malignant GTD.",
+      "images": []
+    }
+  },
+  {
+    "id": "87",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "Which sex-cord stromal tumor resembles fetal ovaries and produces estrogen?",
+    "questionImage": null,
+    "options": [
+      "Ovarian fibroma",
+      "Granulosa-theca cell tumor",
+      "Sertoli-Leydig cell tumor",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Granulosa-theca cell tumors produce estrogen and resemble fetal ovaries. Sertoli-Leydig produce testosterone.",
+      "images": []
+    }
+  },
+  {
+    "id": "88",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "What is the treatment for patients with sex-cord stromal tumors?",
+    "questionImage": null,
+    "options": [
+      "Chemotherapy",
+      "Radiation",
+      "Unilateral salpingo-oophorectomy",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Unilateral salpingo-oophorectomy is usual for low-grade, unilateral tumors. Hysterectomy if childbearing complete.",
+      "images": []
+    }
+  },
+  {
+    "id": "89",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "According to DeLancey's levels of vaginal support, which structure suspends the vaginal apex?",
+    "questionImage": null,
+    "options": [
+      "Endopelvic fascia",
+      "Perineal body",
+      "Uterosacral ligament",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cardinal and uterosacral ligaments suspend the apex. Endopelvic fascia supports midvagina; perineal body supports distal.",
+      "images": []
+    }
+  },
+  {
+    "id": "90",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "According to POP-Q staging, complete eversion is described as:",
+    "questionImage": null,
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Stage IV is complete eversion. Stage 0: no prolapse. Stage I: >1 cm above hymen. Stage II: ≤1 cm above/below. Stage III: >1 cm below.",
+      "images": []
+    }
+  },
+  {
+    "id": "91",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "What is the mainstay of conservative management for pelvic organ prolapse?",
+    "questionImage": null,
+    "options": [
+      "Pelvic floor exercises with biofeedback",
+      "Low-dose vaginal estrogen cream",
+      "Kegel exercises",
+      "Vaginal pessaries"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Vaginal pessaries are the mainstay of conservative management. Other options are also used but pessaries are primary.",
+      "images": []
+    }
+  },
+  {
+    "id": "92",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Vulvar",
+    "question": "Which vulvar pathology presents with leathery, thick skin with enhanced markings due to chronic scratching?",
+    "questionImage": null,
+    "options": [
+      "Lichen simplex chronicus",
+      "Bartholin cyst",
+      "Vulvar carcinoma",
+      "Extramammary Paget disease"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Lichen simplex chronicus results from chronic scratching, leading to lichenification and thickened skin.",
+      "images": []
+    }
+  },
+  {
+    "id": "93",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Vulvar",
+    "question": "Which is TRUE about lichen simplex chronicus, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Treated with high-potency topical steroids",
+      "Associated with slightly increased risk of SCC",
+      "Presents with lichenification and excoriations",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Lichen simplex chronicus is NOT associated with SCC. Lichen sclerosus is associated with increased SCC risk.",
+      "images": []
+    }
+  },
+  {
+    "id": "94",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Vulvar",
+    "question": "What is the most common tumor found on the vulva?",
+    "questionImage": null,
+    "options": [
+      "Epidermal inclusion cyst",
+      "Fox-Fordyce disease",
+      "Hidradenitis suppurativa",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Epidermal inclusion cyst is the most common vulvar tumor.",
+      "images": []
+    }
+  },
+  {
+    "id": "95",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Menopause is defined by how many months of amenorrhea after the final menstrual period?",
+    "questionImage": null,
+    "options": [
+      "6 months",
+      "12 months",
+      "24 months",
+      "36 months"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Menopause is defined as 12 months of amenorrhea after the final menstrual period, in the absence of other causes.",
+      "images": []
+    }
+  },
+  {
+    "id": "96",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ectopic",
+    "question": "The most common location of implantation of a tubal pregnancy is the:",
+    "questionImage": null,
+    "options": [
+      "Ampulla",
+      "Isthmus",
+      "Fimbriae",
+      "Abdominal wall"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The ampulla is the most common site for ectopic pregnancy.",
+      "images": []
+    }
+  },
+  {
+    "id": "97",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "GDM",
+    "question": "When is the recommended time to screen for diabetes during pregnancy?",
+    "questionImage": null,
+    "options": [
+      "20-24 weeks AOG",
+      "24-28 weeks AOG",
+      "28-32 weeks AOG",
+      "32-36 weeks AOG"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Screening for GDM is recommended at 24-28 weeks of gestation.",
+      "images": []
+    }
+  },
+  {
+    "id": "98",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "DVT",
+    "question": "Which can be used as DVT treatment during pregnancy?",
+    "questionImage": null,
+    "options": [
+      "Enoxaparin",
+      "Warfarin",
+      "Streptokinase",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Enoxaparin (LMWH) is safe. Warfarin is contraindicated; thrombolytics are not recommended.",
+      "images": []
+    }
+  },
+  {
+    "id": "99",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Abruption",
+    "question": "What is the most common presentation of placental abruption?",
+    "questionImage": null,
+    "options": [
+      "Uterine tenderness",
+      "Abnormal contractions",
+      "Fetal demise",
+      "Vaginal bleeding"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Vaginal bleeding is the most common presentation of placental abruption.",
+      "images": []
+    }
+  },
+  {
+    "id": "100",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "Using the Nagele rule, what is the EDD for a woman with LMP of January 16, 2020?",
+    "questionImage": null,
+    "options": [
+      "September 23, 2020",
+      "October 23, 2020",
+      "November 23, 2020",
+      "December 23, 2020"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Nagele rule: subtract 3 months from LMP, add 7 days. January 16 → October 16 + 7 = October 23, 2020.",
+      "images": []
+    }
+  },
+  {
+    "id": "101",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "Clomiphene causes ovarian follicular growth through an increase in the secretion of:",
+    "questionImage": null,
+    "options": [
+      "Inhibiting the enzyme aromatase",
+      "Follicle stimulating hormone",
+      "Estrogen and progesterone",
+      "Luteinizing hormone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clomiphene is a SERM that blocks estrogen receptors, increasing GnRH → FSH/LH. It does not inhibit aromatase (that's letrozole).",
+      "images": []
+    }
+  },
+  {
+    "id": "102",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "Which of the following statements is CORRECT regarding Meigs syndrome?",
+    "questionImage": null,
+    "options": [
+      "Patient's symptoms will resolve after chemotherapy",
+      "The symptoms resolve after removal of the tumor",
+      "Patient will require chemotherapy after surgery",
+      "Patient will require radiotherapy after surgery"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Meigs syndrome (ovarian fibroma, ascites, pleural effusion) resolves after tumor removal. No chemo/radiotherapy needed.",
+      "images": []
+    }
+  },
+  {
+    "id": "103",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "Meigs syndrome is characterized by a triad composed of: I. Pleural effusion II. Ascites III. Benign ovarian tumor",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, III",
+      "II, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The triad of Meigs syndrome: pleural effusion (classically right-sided), ascites, and benign ovarian tumor (usually fibroma).",
+      "images": []
+    }
+  },
+  {
+    "id": "104",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "PCOS",
+    "question": "A woman with PCOS and infertility is on Clomiphene. To improve controlled ovarian hyperstimulation, which is given?",
+    "questionImage": null,
+    "options": [
+      "Dopamine",
+      "Metformin",
+      "Cabergoline",
+      "Bromocriptine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Metformin is used with Clomiphene in PCOS to improve ovulation by addressing insulin resistance.",
+      "images": []
+    }
+  },
+  {
+    "id": "105",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "The age amenorrhea will warrant diagnostic evaluation is:",
+    "questionImage": null,
+    "options": [
+      "12 years old",
+      "9 years old",
+      "16.5 years old",
+      "14 years old"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Delayed puberty: no secondary sexual characteristics by 13, or no menses by 16.5 years.",
+      "images": []
+    }
+  },
+  {
+    "id": "106",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Abortion",
+    "question": "Maria, 26yo G1P0 12 weeks pregnant came in for vaginal bleeding. Considerations include: I. Non-viable pregnancy II. Molar pregnancy III. Ectopic pregnancy",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, II, III",
+      "II, III",
+      "I, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "All three are differentials for first-trimester bleeding: non-viable pregnancy, molar, and ectopic.",
+      "images": []
+    }
+  },
+  {
+    "id": "107",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "Pelvic inflammatory disease is treated with: I. Doxycycline plus Cefoxitin II. Clindamycin plus Gentamicin III. Ceftriaxone plus Doxycycline",
+    "questionImage": null,
+    "options": [
+      "II, III",
+      "I, II",
+      "I, II, III",
+      "I, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "CDC regimens: Doxycycline + Cefoxitin, or Clindamycin + Gentamicin. Ceftriaxone + Doxycycline lacks Metronidazole.",
+      "images": []
+    }
+  },
+  {
+    "id": "108",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "A KOH smear of the vaginal swab can help in the diagnosis of:",
+    "questionImage": null,
+    "options": [
+      "Chlamydia trachomatis",
+      "Bacterial vaginosis",
+      "Trichomoniasis",
+      "Vaginal candidiasis"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "KOH smear visualizes hyphae and budding yeast in vaginal candidiasis. Whiff test is for BV/Trichomonas.",
+      "images": []
+    }
+  },
+  {
+    "id": "109",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Cervical Cancer",
+    "question": "Colleen, 50yo G3P3 diagnosed with cervical cancer Stage IIIB. Acceptable management is:",
+    "questionImage": null,
+    "options": [
+      "Radical hysterectomy",
+      "Cervical conization",
+      "Chemotherapy and radiotherapy",
+      "Radical trachelectomy"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Stage IIIB cervical cancer is treated with chemoradiation. Surgery is for early-stage disease.",
+      "images": []
+    }
+  },
+  {
+    "id": "110",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Diagnostic modalities used in evaluation of abnormal uterine bleeding: I. Cytology II. Pelvic ultrasound III. CT scan",
+    "questionImage": null,
+    "options": [
+      "I, II, III",
+      "I, II",
+      "II, III",
+      "I, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cytology and pelvic ultrasound are used. CT is not routine for AUB evaluation.",
+      "images": []
+    }
+  },
+  {
+    "id": "111",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "Ultrasound scanning for congenital fetal anomaly is best requested on:",
+    "questionImage": null,
+    "options": [
+      "12-16 weeks",
+      "30-32 weeks",
+      "16-20 weeks",
+      "20-24 weeks"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The optimal time for fetal anomaly scan is 18-20 weeks (16-20 weeks).",
+      "images": []
+    }
+  },
+  {
+    "id": "112",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Which of the following are considered strong indicators of preterm birth?",
+    "questionImage": null,
+    "options": [
+      "Triple screen and cervical length",
+      "Leukocytosis and uterine contractions",
+      "Fetal fibronectin and cervical length",
+      "Fetal alpha fetoprotein and uterine contractions"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Fetal fibronectin and cervical length are used to assess risk of preterm birth.",
+      "images": []
+    }
+  },
+  {
+    "id": "113",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "Examination of vaginal discharge in bacterial vaginosis will exhibit: I. Positive Whiff's test II. Positive Clue cells III. Positive intracellular diplococci",
+    "questionImage": null,
+    "options": [
+      "II, III",
+      "I, II",
+      "I, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Amsel's criteria: positive whiff test, clue cells, vaginal pH >4.5, homogeneous discharge. Intracellular diplococci = gonorrhea.",
+      "images": []
+    }
+  },
+  {
+    "id": "114",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "A higher pH of vaginal discharge is caused by: I. Trichomoniasis II. Bacterial vaginosis III. Atrophic vaginitis",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, III",
+      "I, II, III",
+      "II, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "All three conditions cause elevated vaginal pH (>4.5): Trichomoniasis, BV, and atrophic vaginitis.",
+      "images": []
+    }
+  },
+  {
+    "id": "115",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "GDM",
+    "question": "Grace delivered a 10-lb live baby boy by LSCS. Prior to discharge, which work up will you request for?",
+    "questionImage": null,
+    "options": [
+      "ECG",
+      "OGTT",
+      "Renal ultrasound",
+      "Endoscopy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Large for gestational age baby suggests gestational diabetes; postpartum OGTT is recommended.",
+      "images": []
+    }
+  },
+  {
+    "id": "116",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Diabetes",
+    "question": "Diagnosis of DM prior to pregnancy is done with: I. Symptoms of DM with RBS >200mg/dL II. FBS of 126 mg/dL or more III. 2 hours post-prandial sugar >200 mg/dL",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, II, III",
+      "I, III",
+      "II, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "All three criteria can be used to diagnose diabetes mellitus.",
+      "images": []
+    }
+  },
+  {
+    "id": "117",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "Fetal heart rate classification of cardiotocographic tracing is category I if: I. Acceleration II. Fetal heart rate of 110-160 bpm III. No deceleration",
+    "questionImage": null,
+    "options": [
+      "II, III",
+      "I, II",
+      "I, II, III",
+      "I, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Category I requires all three: baseline 110-160, accelerations, and no decelerations.",
+      "images": []
+    }
+  },
+  {
+    "id": "118",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Thyroid",
+    "question": "Hyperthyroidism during pregnancy is treated with:",
+    "questionImage": null,
+    "options": [
+      "Cabergoline",
+      "Iodine",
+      "Propylthiouracil",
+      "Tolcapone"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "PTU is preferred in the first trimester for hyperthyroidism. Iodine is avoided.",
+      "images": []
+    }
+  },
+  {
+    "id": "119",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Which of the following should be done in cases of episiotomy dehiscence? I. Hot sitz bath II. Adequate analgesia III. Debride necrotic tissue",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, II, III",
+      "II, III",
+      "I, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Management includes hot sitz baths, analgesia, and debridement of necrotic tissue.",
+      "images": []
+    }
+  },
+  {
+    "id": "120",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "The initial management of symptomatic cholelithiasis involves: I. Intravenous hydration II. Bowel rest III. Antibiotics",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II",
+      "I, II, III",
+      "II, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Acute cholecystitis management includes IV fluids, bowel rest, and broad-spectrum antibiotics.",
+      "images": []
+    }
+  },
+  {
+    "id": "121",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "A sign of pregnancy where there is darkening of skin over the forehead, bridge of the nose and cheeks:",
+    "questionImage": null,
+    "options": [
+      "Linea nigra",
+      "Chloasma",
+      "Spider telangiectasia",
+      "Chadwick's sign"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Chloasma (mask of pregnancy) is darkening of skin on the face. Linea nigra is the abdominal line.",
+      "images": []
+    }
+  },
+  {
+    "id": "122",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "The biophysical scoring (BPS) uses the following parameters: I. Fetal movement II. Fetal breathing III. Amniotic fluid index",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "II, III",
+      "I, II",
+      "I, II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "BPS includes fetal movement, breathing, tone, amniotic fluid volume, and NST.",
+      "images": []
+    }
+  },
+  {
+    "id": "123",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometrial Cancer",
+    "question": "Which of the following locations of myoma causes an increase in menstrual flow?",
+    "questionImage": null,
+    "options": [
+      "Cervical",
+      "Subserous",
+      "Submucous",
+      "Intramural"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Submucous myomas directly affect the endometrial cavity and cause increased menstrual flow.",
+      "images": []
+    }
+  },
+  {
+    "id": "124",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Select the CORRECT statements regarding bathing during puerperium. Bathing is encouraged as soon as patient is ambulatory: I. Hot sitz bath can improve perineal pain relief II. Douching is contraindicated in the early puerperium III. Follow-up appointment should be made six weeks after delivery",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "II, III",
+      "I, II",
+      "I, II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All statements are correct: sitz bath helps, douching is contraindicated, and follow-up at 6 weeks.",
+      "images": []
+    }
+  },
+  {
+    "id": "125",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "The distance between the ischial tuberosities is a measurement of the ___",
+    "questionImage": null,
+    "options": [
+      "Pelvic midplane",
+      "Obstetric conjugate",
+      "Pelvic inlet",
+      "Pelvic outlet"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The pelvic outlet is bounded by the ischial tuberosities, coccyx, and pubic symphysis.",
+      "images": []
+    }
+  },
+  {
+    "id": "126",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "The most accurate method to determine ovulation is ____.",
+    "questionImage": null,
+    "options": [
+      "Cervical mucus changes",
+      "Symptothermal method",
+      "Calendar method",
+      "Determination of peak in serum LH"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Serum LH peak detection is the most accurate method for predicting ovulation.",
+      "images": []
+    }
+  },
+  {
+    "id": "127",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ectopic",
+    "question": "Mara has been diagnosed with unruptured tubal ectopic pregnancy. Laparotomy was performed where the affected fallopian tube was incised and the ectopic gestation is removed. The procedure is called ____.",
+    "questionImage": null,
+    "options": [
+      "Oophorocystectomy",
+      "Salpingectomy",
+      "Salpingostomy",
+      "Medical management"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Salpingostomy is incision into the tube to remove the ectopic pregnancy while preserving the tube.",
+      "images": []
+    }
+  },
+  {
+    "id": "128",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "Which drug is taken by men to improve their attractiveness can result to lower fertility?",
+    "questionImage": null,
+    "options": [
+      "Levothyroxine",
+      "Labetalol",
+      "Phentermine",
+      "Finasteride"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Finasteride (for hair loss) inhibits DHT and can reduce sperm count and motility.",
+      "images": []
+    }
+  },
+  {
+    "id": "129",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "Quickening for a multigravida is first felt at around ____.",
+    "questionImage": null,
+    "options": [
+      "32 weeks AOG",
+      "16 weeks AOG",
+      "20 weeks AOG",
+      "28 weeks AOG"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Multigravidas feel quickening earlier, around 16 weeks (primigravidas at ~20 weeks).",
+      "images": []
+    }
+  },
+  {
+    "id": "130",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "On ultrasound, the fetus is flexed at the hips, knees extended. The fetus is in ____.",
+    "questionImage": null,
+    "options": [
+      "Complete breech",
+      "Incomplete breech",
+      "Footling breech",
+      "Frank breech"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Frank breech: hips flexed, knees extended. Complete breech: hips and knees flexed.",
+      "images": []
+    }
+  },
+  {
+    "id": "131",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Cervical Cancer",
+    "question": "Biopsy of the cervix can be aided by the application of dilute acetic acid. Biopsy should be done in areas that turned _______.",
+    "questionImage": null,
+    "options": [
+      "Brown",
+      "Clear",
+      "White",
+      "Reddish"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Acetowhite areas after acetic acid application indicate abnormal cervical epithelium for biopsy.",
+      "images": []
+    }
+  },
+  {
+    "id": "132",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "In the selection of type of abdominal incision during surgery will depend on: I. Gestational Age II. Presence of Peritonitis III. Uterine Size",
+    "questionImage": null,
+    "options": [
+      "II, III",
+      "I, III",
+      "I, II",
+      "I, II, III"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Incision type depends on peritonitis and uterine size. Gestational age is not a primary factor.",
+      "images": []
+    }
+  },
+  {
+    "id": "133",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Cushing",
+    "question": "35yo G1P1 with menstrual irregularity, hirsutism, dorsal neck fat pads, abdominal striae, central obesity. Elevated urinary free cortisol and elevated plasma ACTH. Probably suffering from:",
+    "questionImage": null,
+    "options": [
+      "Addison's Disease",
+      "Cushing Syndrome",
+      "Polycystic Ovary Syndrome",
+      "Hyperandrogenism"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cushing syndrome: elevated cortisol, central obesity, striae, hirsutism, and elevated ACTH.",
+      "images": []
+    }
+  },
+  {
+    "id": "134",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "HELLP syndrome involves ____. I. Hemolysis II. Thrombocytopenia III. Elevated Liver Enzymes",
+    "questionImage": null,
+    "options": [
+      "II, III",
+      "I, II",
+      "I, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "HELLP = Hemolysis, Elevated Liver enzymes, Low Platelets.",
+      "images": []
+    }
+  },
+  {
+    "id": "135",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "A maneuver done during delivery where the mother's thighs or legs are hyperflexed to her abdomen and abduction at the hips to facilitate delivery of the fetal shoulder:",
+    "questionImage": null,
+    "options": [
+      "Zavanelli Maneuver",
+      "Piper's Maneuver",
+      "Woodscrew Maneuver",
+      "McRoberts Maneuver"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "McRoberts maneuver: hyperflexion of the mother's legs to widen the pelvis and relieve shoulder dystocia.",
+      "images": []
+    }
+  },
+  {
+    "id": "136",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "You are suspecting IUGR on a 30-week patient. In addition to BPS, which diagnostic test is a good adjunct?",
+    "questionImage": null,
+    "options": [
+      "100g OGTT",
+      "Doppler Velocimetry",
+      "Amniocentesis",
+      "Triple Test"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Doppler velocimetry (umbilical artery) is used to assess placental function in IUGR.",
+      "images": []
+    }
+  },
+  {
+    "id": "137",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Hypergonadotropic hypogonadism is treated with ______.",
+    "questionImage": null,
+    "options": [
+      "Clomiphene to induce ovulation",
+      "Hormonal replacement therapy",
+      "Follicle stimulating hormone",
+      "Gonadotropin releasing hormone agonist"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "HRT (estrogen/progesterone) is used for hypergonadotropic hypogonadism (primary ovarian failure).",
+      "images": []
+    }
+  },
+  {
+    "id": "138",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "The following progestins have androgen blocking activity: I. Cyproterone II. Drosperinone III. Levonorgestrel",
+    "questionImage": null,
+    "options": [
+      "I, II, III",
+      "I, III",
+      "I, II",
+      "II, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cyproterone and drospirenone have antiandrogenic properties. Levonorgestrel does not.",
+      "images": []
+    }
+  },
+  {
+    "id": "139",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "PCOS",
+    "question": "Julie is diagnosed with PCOS. You inform her that the following diseases have higher risk of developing, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Type II DM",
+      "Breast cancer",
+      "Endometrial carcinoma",
+      "Coronary artery disease"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "PCOS is associated with increased risk of DM, endometrial cancer, and CAD, but not breast cancer.",
+      "images": []
+    }
+  },
+  {
+    "id": "140",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "Select the patient who deserves your immediate intervention:",
+    "questionImage": null,
+    "options": [
+      "33yo, 37 weeks BP=158/97, urine protein (++), with leg edema",
+      "32yo, 39 weeks BP=160/95, urine protein (+++), with severe dysuria",
+      "33yo, 32 weeks AOG BP=150/90 urine protein (+) with visual disturbances (hemianopia)",
+      "33yo, 39 weeks BP=150/90 urine protein (++) with headache and toothache"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Visual disturbances (hemianopia) in preeclampsia suggests severe features and requires immediate intervention.",
+      "images": []
+    }
+  },
+  {
+    "id": "141",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "Connie, 23yo G1P0 37 weeks in labor with cardiotocographic tracing showing gradual decrease and return to baseline of FHR associated with uterine contraction. This is managed by: I. Oxygen supplementation II. Left lateral decubitus positioning III. Fetal scalp stimulation",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "II, III",
+      "I, II, III",
+      "I, II"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Late decelerations are managed with oxygenation, position change, and possibly scalp stimulation.",
+      "images": []
+    }
+  },
+  {
+    "id": "142",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "Methotrexate is started on patients with hydatidiform mole in the following situations: I. Presence of high risk factors II. Risk for invasive mole III. HCG increase after plateau",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, III",
+      "I, II, III",
+      "II, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Prophylactic MTX is used in high-risk moles, invasive mole risk, and rising hCG after plateau.",
+      "images": []
+    }
+  },
+  {
+    "id": "143",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "GDM",
+    "question": "Connie, 33yo G2P1 (1001), 8 weeks pregnant. First baby delivered by CS for dystocia, baby was LGA. For Connie, screening for DM should be done at:",
+    "questionImage": null,
+    "options": [
+      "28-32 weeks AOG",
+      "24-28 weeks AOG",
+      "16-20 weeks AOG",
+      "first prenatal visit"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Early screening is recommended for patients with prior GDM/LGA, often at first visit or 24-28 weeks.",
+      "images": []
+    }
+  },
+  {
+    "id": "144",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Severe premenstrual dysphoric disorder can be treated with: I. SSRI II. Ethinyl estradiol plus Drosperinone III. GnRH agonist",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II",
+      "II, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "PMDD can be treated with SSRIs, combined OCPs (with drospirenone), and GnRH agonists.",
+      "images": []
+    }
+  },
+  {
+    "id": "145",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Which drug inhibits oxytocin and vasopressin?",
+    "questionImage": null,
+    "options": [
+      "Duratocin",
+      "Methylergometrine",
+      "Atosiban",
+      "Carboprost"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Atosiban is an oxytocin receptor antagonist used as a tocolytic.",
+      "images": []
+    }
+  },
+  {
+    "id": "146",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "Which statements are FALSE regarding human chorionic gonadotropin hormone? I. hCG level drops exponentially postpartum and returns to normal 21-24 days postpartum II. It is detected in maternal serum 8-10 days after conception III. hCG levels peak at 10-12 weeks AOG",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "II, III",
+      "I, II",
+      "I, II, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "hCG is detected 7-9 days after conception, and peaks at 8-10 weeks (not 10-12).",
+      "images": []
+    }
+  },
+  {
+    "id": "147",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "The mother is worried about her 12-year-old daughter's lack of menstruation. You will first examine breast development and tell the mother at what age does the absence of breast budding warrant diagnostic evaluation?",
+    "questionImage": null,
+    "options": [
+      "9 years old",
+      "14 years old",
+      "12 years old",
+      "16 years old"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Absence of breast development by age 13 (or 16) warrants evaluation for delayed puberty.",
+      "images": []
+    }
+  },
+  {
+    "id": "148",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "Central causes of precocious puberty are ____ I. Congenital adrenal hyperplasia II. Trauma or infection of the hypothalamus III. Langerhan cell histiocytosis",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II, III",
+      "I, II",
+      "II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "CAH is a peripheral cause of precocious puberty. Central causes involve the hypothalamus/pituitary.",
+      "images": []
+    }
+  },
+  {
+    "id": "149",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Gina, 33yo, delivered 4 months ago. She would like to stop lactation. Which advice is recommended? I. Stop nursing II. Avoid nipple stimulation III. Refrain from pumping milk",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II",
+      "II, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "To suppress lactation: avoid nursing, nipple stimulation, and pumping milk.",
+      "images": []
+    }
+  },
+  {
+    "id": "150",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Osteoporosis",
+    "question": "The most important health issue related to menopause is ___",
+    "questionImage": null,
+    "options": [
+      "Anemia",
+      "Breast cancer",
+      "Skin aging",
+      "Osteoporosis"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Osteoporosis is the most significant health issue due to estrogen deficiency.",
+      "images": []
+    }
+  },
+  {
+    "id": "151",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ectopic",
+    "question": "Which of the following will NOT support a diagnosis of ectopic pregnancy at the time of determination?",
+    "questionImage": null,
+    "options": [
+      "Presence of extrauterine gestational sac, hCG of 300 IU/ml",
+      "Fluid in the cul-de-sac, hCG of 3,000 IU/ml",
+      "hCG of 300 IU/ml, no intrauterine gestational sac",
+      "No intrauterine pregnancy, hCG of 3,000 IU/ml"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Low hCG (300) without an intrauterine sac is less specific; ectopic is more likely with higher hCG.",
+      "images": []
+    }
+  },
+  {
+    "id": "152",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "Advantage of progestin only pills are __ I. Side effects associated with estrogen are eliminated II. No special sequence of pill taking III. Delay of taking pill or missed pill intake is allowed",
+    "questionImage": null,
+    "options": [
+      "II, III",
+      "I, II, III",
+      "I, II",
+      "I, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "POPs eliminate estrogen side effects and have no special sequence, but timing is strict (3-hour window).",
+      "images": []
+    }
+  },
+  {
+    "id": "153",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "Contraindications to the use of Desogestrel are the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Undiagnosed bleeding",
+      "Contraception",
+      "Pregnancy",
+      "Breast cancer"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Desogestrel is a contraceptive; its use is contraindicated in pregnancy, breast cancer, and undiagnosed bleeding.",
+      "images": []
+    }
+  },
+  {
+    "id": "154",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "Who will have the highest rate of successful vaginal birth after caesarean section?",
+    "questionImage": null,
+    "options": [
+      "G2P1 previous CS for CPD",
+      "G2P1 previous CS for fetal distress",
+      "G3P2 with two previous repeat CS",
+      "G2P1 previous CS for breech delivery"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Nonrecurring indication (breech) has the highest VBAC success rate (~90%).",
+      "images": []
+    }
+  },
+  {
+    "id": "155",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "PCOD",
+    "question": "Hyperandrogenism manifesting with acne can be treated with anti-androgens such as:",
+    "questionImage": null,
+    "options": [
+      "Chlorotrianisene",
+      "Fulvestrant",
+      "Lynestrenol",
+      "Cyproterone"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Cyproterone is an anti-androgen used for acne and hirsutism.",
+      "images": []
+    }
+  },
+  {
+    "id": "156",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "Combined oral contraceptive pills provides protection against: I. Chlamydia II. Ovarian Cancer III. Ectopic Pregnancy",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II, III",
+      "II, III",
+      "II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "COCs reduce the risk of ovarian cancer and ectopic pregnancy, but do not protect against STIs.",
+      "images": []
+    }
+  },
+  {
+    "id": "157",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Abruption",
+    "question": "Ana Marie, 27yo 36 weeks AOG, BP 180/100, sudden severe abdominal pain and vaginal bleeding. Uterus has tetanic contractions with barely audible FHT. Initial consideration is:",
+    "questionImage": null,
+    "options": [
+      "Placenta accreta",
+      "Placenta previa",
+      "Uterine rupture",
+      "Placental abruption"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Placental abruption: sudden severe pain, vaginal bleeding, tetanic contractions, and fetal distress.",
+      "images": []
+    }
+  },
+  {
+    "id": "158",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "In sperm analysis, the following are evaluated, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Viscosity",
+      "Sperm penetration assay",
+      "Motility",
+      "Sperm count"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Sperm penetration assay is not part of routine semen analysis; it's a specialized test.",
+      "images": []
+    }
+  },
+  {
+    "id": "159",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "GDM",
+    "question": "Diana, 27yo G1P0 28 weeks with abnormal OGTT, abnormal FBS, abnormal post prandial sugar levels. Management should include: I. Diet II. Insulin III. Exercise",
+    "questionImage": null,
+    "options": [
+      "II, III",
+      "I, III",
+      "I, II, III",
+      "I, II"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "GDM management includes diet, exercise, and insulin if needed.",
+      "images": []
+    }
+  },
+  {
+    "id": "160",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Infertility",
+    "question": "Select the drug that inhibits the enzyme aromatase:",
+    "questionImage": null,
+    "options": [
+      "Clomiphene",
+      "Danazol",
+      "Quinestrol",
+      "Letrozole"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Letrozole is an aromatase inhibitor used in breast cancer and ovulation induction.",
+      "images": []
+    }
+  },
+  {
+    "id": "161",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "Phocomelia is notable with which teratogenic compound?",
+    "questionImage": null,
+    "options": [
+      "Tetracycline",
+      "Indomethacin",
+      "Thalidomide",
+      "Ethyl alcohol"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Thalidomide is notorious for causing phocomelia (limb defects).",
+      "images": []
+    }
+  },
+  {
+    "id": "162",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "The management for late deceleration occurring in a cardiotocographic tracing is __.",
+    "questionImage": null,
+    "options": [
+      "Oxygen supplementation",
+      "Left lateral decubitus positioning",
+      "Fetal scalp stimulation",
+      "Immediate delivery"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Initial management of late decelerations: left lateral position, oxygen, and IV fluids.",
+      "images": []
+    }
+  },
+  {
+    "id": "163",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometrial Cancer",
+    "question": "Which medication can reduce the size of myoma?",
+    "questionImage": null,
+    "options": [
+      "Lynestrol",
+      "Goserelin",
+      "Cyproterone",
+      "Ethinyl estradiol"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "GnRH agonists like Goserelin reduce fibroid size by inducing hypoestrogenism.",
+      "images": []
+    }
+  },
+  {
+    "id": "164",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Diabetes",
+    "question": "Fetal risk factors of a diabetic pregnant woman includes the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Sudden fetal death",
+      "Hyperemesis Gravidarum",
+      "Miscarriage",
+      "Polyhydramnios"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Hyperemesis gravidarum is a maternal, not fetal, complication.",
+      "images": []
+    }
+  },
+  {
+    "id": "165",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "During the follicular phase, which hormone is secreted at a higher level?",
+    "questionImage": null,
+    "options": [
+      "Inhibin",
+      "Progesterone",
+      "Estrogen",
+      "hCG"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Estrogen is the dominant hormone during the follicular phase.",
+      "images": []
+    }
+  },
+  {
+    "id": "166",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "UTI",
+    "question": "Pyelonephritis after delivery can be distinguished from post-partum pelvic infection by: I. Bacteriuria II. Costovertebral angle tenderness III. Pyuria",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "II, III",
+      "I, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Pyelonephritis: bacteriuria, pyuria, and costovertebral angle tenderness.",
+      "images": []
+    }
+  },
+  {
+    "id": "167",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "A wet mount of the vaginal discharge treated with KOH shows hyphae. The most probable diagnosis is _____",
+    "questionImage": null,
+    "options": [
+      "Giardiasis",
+      "Bacterial vaginosis",
+      "Vaginal candidiasis",
+      "Trichomoniasis"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "KOH preparation revealing hyphae indicates vaginal candidiasis (yeast infection).",
+      "images": []
+    }
+  },
+  {
+    "id": "168",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometrial Cancer",
+    "question": "Asherman's syndrome will manifest with _____",
+    "questionImage": null,
+    "options": [
+      "Menorrhagia",
+      "Polymenorrhea",
+      "Hypomenorrhea",
+      "Metrorrhagia"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Asherman's syndrome (intrauterine adhesions) typically causes hypomenorrhea or amenorrhea.",
+      "images": []
+    }
+  },
+  {
+    "id": "169",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "The following are Mullerian derivatives: I. Uterus II. Fallopian tubes III. Upper vagina",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II, III",
+      "II, III",
+      "I, II"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The Mullerian ducts give rise to the uterus, fallopian tubes, and upper vagina.",
+      "images": []
+    }
+  },
+  {
+    "id": "170",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Preparation for complication of uterine atony is done for the following patients: I. Twin gestation II. Dysfunctional labor III. History of postpartum bleeding",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, III",
+      "I, II, III",
+      "II, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "All three are risk factors for uterine atony and postpartum hemorrhage.",
+      "images": []
+    }
+  },
+  {
+    "id": "171",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Identify the condition that causes hypogonadotropic hypogonadism:",
+    "questionImage": null,
+    "options": [
+      "Turner's syndrome",
+      "Premature ovarian failure",
+      "Ovarian torsion",
+      "Hyperprolactinemia"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Premature ovarian failure (primary ovarian insufficiency) causes hypogonadotropic hypogonadism.",
+      "images": []
+    }
+  },
+  {
+    "id": "172",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Ovarian Cancer",
+    "question": "The tumor marker for Granulosa Cell Tumor is ____",
+    "questionImage": null,
+    "options": [
+      "CA 125",
+      "Inhibin",
+      "CEA",
+      "CA 19-9"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Granulosa cell tumors produce inhibin, which is used as a tumor marker.",
+      "images": []
+    }
+  },
+  {
+    "id": "173",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Endometrial Cancer",
+    "question": "A myomatous growth of the uterus is generally benign. The following characteristics should alert for malignancy: I. Fast growth or unexpected growth II. Tumor growth after menopause III. Evidence of local invasion",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II, III",
+      "II, III",
+      "I, II"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "All three suggest malignancy: rapid growth, postmenopausal growth, and local invasion.",
+      "images": []
+    }
+  },
+  {
+    "id": "174",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Labor",
+    "question": "In this Leopold maneuver, the doctor faces the women's feet in an attempt to locate the fetus brow. The fingers of both hands are moved gently down the sides of the uterus towards the pubis. The sides where there is resistance to descent is greatest is where the brow is located.",
+    "questionImage": null,
+    "options": [
+      "Umbilical grip",
+      "Second pelvic grip",
+      "Fundal grip",
+      "First pelvic grip"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The fourth Leopold maneuver (First Pelvic Grip) locates the fetal brow.",
+      "images": []
+    }
+  },
+  {
+    "id": "175",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Full generation of the endometrium at the placental site occurs how many weeks post-delivery?",
+    "questionImage": null,
+    "options": [
+      "4",
+      "2",
+      "6",
+      "1"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Endometrial regeneration at the placental site takes about 6 weeks postpartum.",
+      "images": []
+    }
+  },
+  {
+    "id": "176",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Postpartum",
+    "question": "Risk factors for the development of puerperal sepsis are: I. Multiple Vaginal exam II. Caesarean section III. Premature rupture of membrane",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "I, II, III",
+      "I, III",
+      "II, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Multiple vaginal exams, CS, and PROM increase the risk of puerperal sepsis.",
+      "images": []
+    }
+  },
+  {
+    "id": "177",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "When continuous electronic fetal heart rate monitoring is indeterminate, fetal acidemia can be determined by: I. Fetal scalp pH sampling II. Fetal scalp stimulation III. Chorionic villi sampling",
+    "questionImage": null,
+    "options": [
+      "I, II, III",
+      "I, II",
+      "I, III",
+      "II, III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fetal scalp pH sampling and scalp stimulation are used to assess fetal acidemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "178",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Preeclampsia",
+    "question": "Which of the following findings is compatible with the diagnosis of HELLP syndrome? I. Lactate dehydrogenase greater than 600 u/L II. Aspartate transaminase greater than 70 u/L III. Platelet count less than 100x10^9 /L",
+    "questionImage": null,
+    "options": [
+      "I,II,III",
+      "I,II",
+      "I, III",
+      "II,III"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "HELLP: elevated LDH, elevated AST, and low platelets.",
+      "images": []
+    }
+  },
+  {
+    "id": "179",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Gynecologic procedures associated with accelerated menopause, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Oophorectomy",
+      "Endometrial ablation",
+      "Uterine artery embolization",
+      "Curettage"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Bilateral oophorectomy causes surgical menopause. The others do not affect ovarian function.",
+      "images": []
+    }
+  },
+  {
+    "id": "180",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Contraception",
+    "question": "Effects of combined oral contraceptive pills are: I. No dominant follicle development II. Cervical mucus prevents sperm penetration III. Endometrial lining less receptive to implantation",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "II, III",
+      "I, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "COCs work by all three mechanisms: inhibiting ovulation, thickening cervical mucus, and altering endometrium.",
+      "images": []
+    }
+  },
+  {
+    "id": "181",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Pregnancy",
+    "question": "A 24yo G1P0 31 weeks AOG, presents with severe epigastric pain radiating to the back exacerbated by food. Cullen's sign and Turner's sign positive. Serum amylase and lipase elevated. Probable diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Gastroesophageal reflux",
+      "Acid peptic ulcer disease",
+      "Acute hemorrhagic pancreatitis",
+      "Acute Cholecystitis"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Acute pancreatitis: severe epigastric pain radiating to back, elevated amylase/lipase, Cullen's and Turner's signs.",
+      "images": []
+    }
+  },
+  {
+    "id": "182",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "GDM",
+    "question": "Diana, 27yo G1P0 28 weeks with abnormal OGTT but normal FBS, normal post prandial sugar levels. Management should include:",
+    "questionImage": null,
+    "options": [
+      "Insulin",
+      "Pioglitazone",
+      "Diet and exercise",
+      "Glibenclamide"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Lifestyle modifications (diet and exercise) are first-line for GDM with mild abnormalities.",
+      "images": []
+    }
+  },
+  {
+    "id": "183",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "The primary hormone during the proliferative phase is ____.",
+    "questionImage": null,
+    "options": [
+      "hCG",
+      "Estrogen",
+      "FSH",
+      "Progesterone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Estrogen is the primary hormone during the proliferative phase.",
+      "images": []
+    }
+  },
+  {
+    "id": "184",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Genetics",
+    "question": "Androgen insensitivity syndrome will manifest with: I. Chromosome 46 XX II. Born phenotypically female III. Absent menses, no uterus",
+    "questionImage": null,
+    "options": [
+      "I, III",
+      "I, II",
+      "II, III",
+      "I, II, III"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "AIS: 46 XY, female phenotype, absent uterus, and primary amenorrhea.",
+      "images": []
+    }
+  },
+  {
+    "id": "185",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Patients with premature ovarian failure are treated with estrogen supplementation. Contraindications are: I. History of thromboembolic events II. Uncontrolled hypertension III. Smoker over 35 years old",
+    "questionImage": null,
+    "options": [
+      "I, II",
+      "II, III",
+      "I, II, III",
+      "I, III"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Absolute contraindications to estrogen: thromboembolism and smoking over 35. Uncontrolled HTN is a precaution.",
+      "images": []
+    }
+  },
+  {
+    "id": "186",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "PCOD",
+    "question": "Connie, 19yo G0, consulting for oligomenorrhea and hirsutism. Hormone profile: DHEA-S and 17-hydroxyprogesterone markedly elevated. Most likely diagnosis:",
+    "questionImage": null,
+    "options": [
+      "Sertoli cell tumor",
+      "Congenital adrenal hyperplasia",
+      "Hairy cell syndrome",
+      "Polycystic ovary syndrome"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "CAH (21-hydroxylase deficiency): elevated 17-OHP and DHEA-S, with hirsutism and oligomenorrhea.",
+      "images": []
+    }
+  },
+  {
+    "id": "187",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "The triad of premature ovarian failure consists of the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Amenorrhea",
+      "Hypoestrogenism",
+      "Hypergonadotropism",
+      "Hyperandrogenism"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "POF triad: amenorrhea, hypoestrogenism, and hypergonadotropism (elevated FSH/LH).",
+      "images": []
+    }
+  },
+  {
+    "id": "188",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Fetal",
+    "question": "On a cardiotocographic tracing, there was note of abrupt decrease in FHR >15 beats below baseline lasting 15 seconds to 2 minutes, not associated with uterine contractions. This is explained by:",
+    "questionImage": null,
+    "options": [
+      "Placental insufficiency",
+      "Umbilical cord compression",
+      "Compression of the fetal head",
+      "Maternal hypertension"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Variable decelerations are caused by umbilical cord compression.",
+      "images": []
+    }
+  },
+  {
+    "id": "189",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Placenta Previa",
+    "question": "In patients with placenta percreta, the placenta is attached to the:",
+    "questionImage": null,
+    "options": [
+      "Decidua basalis",
+      "Inner myometrium",
+      "Outer myometrium",
+      "Uterine serosa"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Placenta percreta: invasion through the myometrium to the uterine serosa.",
+      "images": []
+    }
+  },
+  {
+    "id": "190",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "STI",
+    "question": "Mae, 27yo G1P1, consulted for pelvic heaviness, dyspareunia. Normal external genitalia, parous vagina, purulent yellowish vaginal discharge, cervix smooth. (+) wiggling tenderness, (+) uterine tenderness, (+) adnexal tenderness. Probable diagnosis is:",
+    "questionImage": null,
+    "options": [
+      "Bacterial vaginosis",
+      "Pelvic inflammatory disease",
+      "Trichomoniasis",
+      "Syphilis"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "PID presents with pelvic pain, cervical motion tenderness, uterine/adnexal tenderness, and purulent discharge.",
+      "images": []
+    }
+  },
+  {
+    "id": "191",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Which lowers serum calcium level by facilitating bone remodeling?",
+    "questionImage": null,
+    "options": [
+      "Vitamin B",
+      "Calcitonin",
+      "Vitamin D",
+      "Parathyroid hormone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Calcitonin lowers serum calcium by inhibiting osteoclasts and promoting bone deposition.",
+      "images": []
+    }
+  },
+  {
+    "id": "192",
+    "subject": "Obstetrics and Gynecology",
+    "topic": "Menopause",
+    "question": "Development of mammary gland is a result of:",
+    "questionImage": null,
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "Both estrogen and progesterone",
+      "Prolactin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Mammary gland development requires both estrogen (ductal) and progesterone (lobular/alveolar) action.",
+      "images": []
+    }
+  }
+]

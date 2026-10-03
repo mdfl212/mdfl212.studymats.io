@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-course="quiz" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMats Medical Question Bank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,0..60,300;1,0..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="theme.js"></script>
+</head>
+<body data-course="quiz">
+<main class="quiz-shell">
+    <div class="quiz-topbar">
+        <a class="brand" href="index.html">StudyMats <span>Medical Question Bank</span></a>
+        <button class="theme-toggle" data-theme-toggle type="button">
+            <span data-theme-icon aria-hidden="true">🌙</span>
+            <span data-theme-label>Dark mode</span>
+        </button>
+    </div>
+    <header class="site-header">
+        <div class="header-eyebrow" id="headerEyebrow">📖 Medical Board Review</div>
+        <h1 class="header-title" id="headerTitle"><em>Medical</em><br>Question Bank</h1>
+        <p class="header-sub" id="headerSubtitle">Choose a subject to begin a focused, one-question-at-a-time review.</p>
+    </header>
+
+    <div class="progress-wrap">
+        <div class="progress-meta"><span id="progLabel">0 / 0 answered</span><span id="progPct">0%</span></div>
+        <div class="progress-track"><div class="progress-fill" id="progFill"></div></div>
+    </div>
+    <div class="mode-tabs" role="tablist">
+        <button class="tab active" data-mode="exam" type="button">📝 Exam mode</button>
+        <button class="tab" data-mode="review" type="button">🔍 Review mode</button>
+        <button class="tab" data-mode="key" type="button">🗝 Answer key</button>
+    </div>
+    <div class="quiz-actions">
+        <button class="btn primary" id="scoreButton" type="button">📊 Score</button>
+        <button class="btn danger" id="resetButton" type="button">↺ Reset</button>
+        <button class="btn table-toggle" id="tableToggleButton" type="button">📋 Table</button>
+    </div>
+    <div id="statusMessage" class="status-message" role="status"></div>
+    <section id="tablePanel" class="table-panel hidden" aria-live="polite">
+        <div class="table-controls">
+            <label for="tableSearch">Search</label>
+            <input id="tableSearch" type="text" placeholder="Filter by topic, question, or rationale" />
+            <span id="tableCount">0 items</span>
+        </div>
+        <div class="table-scroll">
+            <table class="rationale-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Topic</th>
+                        <th>Answer</th>
+                        <th>Question</th>
+                        <th>Rationale</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </section>
+    <section id="questionContainer" aria-live="polite">
+        <article class="q-card">
+            <div id="questionContent"><div class="empty-state">Loading questions...</div></div>
+            <nav class="nav" aria-label="Question navigation">
+                <button class="btn" id="previousButton" type="button">← Previous</button>
+                <span class="page-info" id="pageInfo">Question 0 of 0</span>
+                <button class="btn" id="nextButton" type="button">Next →</button>
+            </nav>
+            <section class="subject-picker" aria-label="Subject selection">
+                <aside class="yl-nav" aria-label="Year level navigation">
+                    <button class="yl-nav-trigger" id="ylNavTrigger" type="button" aria-expanded="false" aria-controls="ylNavFlyout">
+                        <span class="yl-nav-tag">YL</span>
+                        <span class="yl-nav-trigger-label" id="ylNavTriggerLabel">YL1</span>
+                        <span class="yl-nav-caret" aria-hidden="true">▾</span>
+                    </button>
+                    <div class="yl-nav-flyout" id="ylNavFlyout" role="menu" aria-label="Choose year level">
+                        <button class="yl-nav-link active" type="button" data-yl="YL1" role="menuitem">YL1</button>
+                        <button class="yl-nav-link" type="button" data-yl="YL2" role="menuitem">YL2</button>
+                        <button class="yl-nav-link" type="button" data-yl="YL3" role="menuitem">YL3</button>
+                        <button class="yl-nav-link" type="button" data-yl="YL4" role="menuitem">YL4</button>
+                    </div>
+                </aside>
+                <label for="subjectSelect">Subject</label>
+                <select id="subjectSelect"></select>
+                <label for="topicFilter">Topic</label>
+                <select id="topicFilter"><option value="all">All topics</option></select>
+            </section>
+        </article>
+    </section>
+    <section class="stats-bar" aria-label="Quiz progress">
+        <div class="stat-card"><span class="stat-val" id="sTotal">0</span><span class="stat-label">Questions</span></div>
+        <div class="stat-card"><span class="stat-val" id="sAnswered">0</span><span class="stat-label">Answered</span></div>
+        <div class="stat-card"><span class="stat-val" id="sCorrect">0</span><span class="stat-label">Correct</span></div>
+        <div class="stat-card"><span class="stat-val" id="sPct">-</span><span class="stat-label">Score %</span></div>
+    </section>
+</main>
+
+<div class="modal-overlay" id="scoreModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-title" id="modalTitle">Examination results</div>
+        <div class="modal-sub" id="modalSub"></div>
+        <div class="score-big" id="modalScore">-</div>
+        <div class="score-grade" id="modalGrade"></div>
+        <div class="score-detail">
+            <div class="sd-item"><span class="sd-val" id="mdAns">0</span><span class="sd-lab">Answered</span></div>
+            <div class="sd-item"><span class="sd-val" id="mdCorr">0</span><span class="sd-lab">Correct</span></div>
+            <div class="sd-item"><span class="sd-val" id="mdWrong">0</span><span class="sd-lab">Wrong</span></div>
+        </div>
+        <button class="btn primary" id="closeScoreButton" type="button">Close</button>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

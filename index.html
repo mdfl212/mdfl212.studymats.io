@@ -1,412 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-course="hub" data-theme="light">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MD Vibecoded · Medschool Resource Hub</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
-    <link rel="stylesheet" href="style.css" />
-    <script src="theme.js"></script>
-</head>
-<body data-course="hub" data-theme="light">
-<div class="wrapper">
-
-    <!-- Theme Toggle -->
-    <div class="theme-toggle-wrapper">
-        <button class="theme-toggle" onclick="toggleTheme()">
-            <span class="icon" id="themeIcon" data-theme-icon>🌙</span>
-            <span id="themeLabel" data-theme-label>Dark Mode</span>
-        </button>
-    </div>
-
-    <!-- HEADER -->
-    <header class="site-header">
-        <div class="header-eyebrow">🇵🇭 My DIY PLE Resources</div>
-        <h1 class="header-title">Study Materials and Tools <em>Hub</em></h1>
-        <p class="header-sub">Organized by year level · quick access to question banks &amp; rationales</p>
-    </header>
-
-    <!-- ============ YL1 ============ -->
-    <div class="section-wrapper">
-        <div class="section-toggle collapsed" onclick="toggleSection(this)">
-            YL1 <span>foundations</span>
-            <span class="toggle-icon">▼</span>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>StudyMats Medical Question Bank</title>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,0..60,300;1,0..60,400&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <script src="theme.js"></script>
+    </head>
+    <body data-course="hub">
+      <main class="wrapper">
+        <div class="theme-toggle-wrapper">
+          <button class="theme-toggle" data-theme-toggle type="button">
+            <span data-theme-icon aria-hidden="true">🌙</span>
+            <span data-theme-label>Dark mode</span>
+          </button>
         </div>
-        <div class="section-content hidden">
-            <div class="grid">
-                <a href="subjects/yl1/anatomy/Anatomy.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🧠</div>
-                        <div class="card-title">Embryology &amp; Human Anatomy</div>
-                        <div class="card-desc">Gross and systemic anatomy, embryological development.</div>
-                    </div>
-                    <div class="card-meta"><span>525 Items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl1/histology/Histo.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🔬</div>
-                        <div class="card-title">Histology</div>
-                        <div class="card-desc">Microscopic anatomy of tissues and organs.</div>
-                    </div>
-                    <div class="card-meta"><span>200 Items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl1/physiology/Physio.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">⚡</div>
-                        <div class="card-title">Physiology</div>
-                        <div class="card-desc">Body functions, homeostasis, and organ system integration.</div>
-                    </div>
-                    <div class="card-meta"><span>200 Items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl1/biochemistry/harper.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🧬</div>
-                        <div class="card-title">Biochemistry &amp; Nutrition</div>
-                        <div class="card-desc">Metabolism, enzymes, molecular biology, and nutritional principles.</div>
-                    </div>
-                    <div class="card-meta"><span>200 Items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl1/family-community-health/FMC1.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🏥</div>
-                        <div class="card-title">Family &amp; Community Health I</div>
-                        <div class="card-desc">Community medicine, public health, and preventive care.</div>
-                    </div>
-                    <div class="card-meta"><span>200 Items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl1/research/Research.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">📊</div>
-                        <div class="card-title">Intro to Research &amp; Methods</div>
-                        <div class="card-desc">Biostatistics, study design, evidence-based practice.</div>
-                    </div>
-                    <div class="card-meta"><span>260 Items</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">⚕️</div>
-                        <div class="card-title">Five‑Star Physician I</div>
-                        <div class="card-desc">Medical ethics, professionalism, and doctoring skills.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-            </div>
-        </div>
-    </div>
 
-    <!-- ============ YL2 ============ -->
-    <div class="section-wrapper">
-        <div class="section-toggle collapsed" onclick="toggleSection(this)">
-            YL2 <span>pre‑clinical</span>
-            <span class="toggle-icon">▼</span>
-        </div>
-        <div class="section-content hidden">
-            <div class="grid">
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">⚕️</div>
-                        <div class="card-title">Five‑Star Physician II</div>
-                        <div class="card-desc">Advanced ethics, communication, and clinical reasoning.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🏥</div>
-                        <div class="card-title">Family &amp; Community Health II</div>
-                        <div class="card-desc">Community diagnostics, epidemiology, and health programs.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl2/microbiology/micro.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🧫</div>
-                        <div class="card-title">Microbiology &amp; Parasitology</div>
-                        <div class="card-desc">Bacteria, viruses, fungi, parasites – infectious disease agents.</div>
-                    </div>
-                    <div class="card-meta"><span>280 items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl2/pediatrics/pedia.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">👶</div>
-                        <div class="card-title">Child Growth &amp; Development</div>
-                        <div class="card-desc">Pediatric pre‑clinical: growth milestones and early pathologies.</div>
-                    </div>
-                    <div class="card-meta"><span>200 Items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl2/obgyn/obgyn.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🪻</div>
-                        <div class="card-title">Women's Health &amp; OB</div>
-                        <div class="card-desc">Pregnancy, labor, and gynecologic pre‑clinical foundations.</div>
-                    </div>
-                    <div class="card-meta"><span>192 items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl2/pathology/Pathotoya.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🩸</div>
-                        <div class="card-title">Health, Illness &amp; Disease I</div>
-                        <div class="card-desc">Pathophysiology and immunology of adult diseases.</div>
-                    </div>
-                    <div class="card-meta"><span>200 items</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl2/pharmacology/pharma.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">💊</div>
-                        <div class="card-title">Clinical Pharmacology &amp; Toxicology</div>
-                        <div class="card-desc">Pharmacokinetics, pharmacodynamics, toxicology, and therapeutics.</div>
-                    </div>
-                    <div class="card-meta"><span>200 items</span><span>→</span></div>
-                </a>
-            </div>
-        </div>
-    </div>
+        <header class="site-header">
+          <div class="header-eyebrow">📖 Medical Board Review</div>
+          <h1 class="header-title"><em>Medical</em><br />Question Bank</h1>
+          <p class="header-sub">
+            Choose a year level and subject to begin a focused review.
+          </p>
+        </header>
 
-    <!-- ============ YL3 ============ -->
-    <div class="section-wrapper">
-        <div class="section-toggle collapsed" onclick="toggleSection(this)">
-            YL3 <span>clinical transition "NOT AVAILABLE YET"</span>
-            <span class="toggle-icon">▼</span>
-        </div>
-        <div class="section-content hidden">
-            <div class="grid">
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">⚕️</div>
-                        <div class="card-title">Five‑Star Physician III</div>
-                        <div class="card-desc">Clinical ethics, patient safety, and team communication.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🏥</div>
-                        <div class="card-title">Family &amp; Community Health III</div>
-                        <div class="card-desc">Advanced community diagnosis and health program management.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🔪</div>
-                        <div class="card-title">Applied Clinical Anatomy</div>
-                        <div class="card-desc">Surgical anatomy and clinical correlations.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🔬</div>
-                        <div class="card-title">Anatomic Pathology</div>
-                        <div class="card-desc">Histopathology and tissue diagnosis.</div>
-                    </div>
-                    <div class="card-meta"><span>200 items</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🚑</div>
-                        <div class="card-title">Emergency to Critical Care</div>
-                        <div class="card-desc">Acute care, trauma, and emergency medicine principles.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="subjects/yl3/internal-medicine/IM.html" class="subject-card">
-                    <div>
-                        <div class="card-icon">🫀</div>
-                        <div class="card-title">Health, Illness &amp; Disease II</div>
-                        <div class="card-desc">Internal medicine – clinical management of adult diseases.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🧘</div>
-                        <div class="card-title">Self Enhancement III</div>
-                        <div class="card-desc">Wellness, reflection, and professional identity.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-            </div>
-        </div>
-    </div>
+        <section class="section-wrapper" aria-label="Main hub">
+          <div class="section-toggle">
+            <span>Year level overview</span>
+            <span class="toggle-icon">▾</span>
+          </div>
+          <div
+            class="hub-year-row"
+            role="tablist"
+            aria-label="Year level selection"
+          >
+            <button
+              class="hub-pill active"
+              type="button"
+              data-year="YL1"
+              aria-pressed="true"
+            >
+              YL1
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="YL2"
+              aria-pressed="false"
+            >
+              YL2
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="YL3"
+              aria-pressed="false"
+            >
+              YL3
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="YL4"
+              aria-pressed="false"
+            >
+              YL4
+            </button>
+            <button
+              class="hub-pill"
+              type="button"
+              data-year="resources"
+              aria-pressed="false"
+            >
+              Additional Resources
+            </button>
+          </div>
+          <div
+            class="hub-subjects"
+            id="hubSubjectList"
+            aria-live="polite"
+          ></div>
+          <div id="statusMessage" class="status-message" role="status"></div>
+        </section>
 
-    <!-- ============ YL4 ============ -->
-    <div class="section-wrapper">
-        <div class="section-toggle collapsed" onclick="toggleSection(this)">
-            YL4 <span>clerkship "NOT AVAILABLE YET"</span>
-            <span class="toggle-icon">▼</span>
-        </div>
-        <div class="section-content hidden">
-            <div class="grid">
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🏥</div>
-                        <div class="card-title">Family &amp; Community Health IV</div>
-                        <div class="card-desc">Family medicine and community rotation.</div>
-                    </div>
-                    <div class="card-meta"><span>rotation</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🫀</div>
-                        <div class="card-title">Internal Medicine &amp; Critical Care</div>
-                        <div class="card-desc">IM clerkship with ICU and acute care exposure.</div>
-                    </div>
-                    <div class="card-meta"><span>rotation</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🔪</div>
-                        <div class="card-title">Surgery &amp; Anesthesia</div>
-                        <div class="card-desc">Surgical principles, perioperative care, and anesthesiology.</div>
-                    </div>
-                    <div class="card-meta"><span>rotation</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🪻</div>
-                        <div class="card-title">Obstetrics &amp; Gynecology</div>
-                        <div class="card-desc">OB‑GYN clerkship – labor, delivery, and women’s health.</div>
-                    </div>
-                    <div class="card-meta"><span>rotation</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">👶</div>
-                        <div class="card-title">Pediatrics</div>
-                        <div class="card-desc">Pediatric clerkship – child health and development.</div>
-                    </div>
-                    <div class="card-meta"><span>rotation</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">👁️</div>
-                        <div class="card-title">Minor Departments</div>
-                        <div class="card-desc">ENT, Ophtha, Ortho, Derma – ambulatory rotations.</div>
-                    </div>
-                    <div class="card-meta"><span>rotation</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">🧘</div>
-                        <div class="card-title">Self Enhancement IV</div>
-                        <div class="card-desc">Wellness, career planning, and mentorship.</div>
-                    </div>
-                    <div class="card-meta"><span>bank</span><span>→</span></div>
-                </a>
-                <a href="#" class="subject-card">
-                    <div>
-                        <div class="card-icon">📋</div>
-                        <div class="card-title">Selectives / Electives</div>
-                        <div class="card-desc">Elective rotations in chosen specialties.</div>
-                    </div>
-                    <div class="card-meta"><span>elective</span><span>→</span></div>
-                </a>
-            </div>
-        </div>
-    </div>
+        <p class="footer-note">
+          StudyMats keeps the question interface unified while the hub remains a
+          clean landing page for subject selection.
+        </p>
+      </main>
 
-    <!-- ============ ADDITIONAL RESOURCES ============ -->
-    <div class="section-wrapper central-inline-25175">
-        <div class="section-toggle collapsed" onclick="toggleSection(this)">
-            📁 Additional Resources
-            <span class="toggle-icon">▼</span>
-        </div>
-        <div class="section-content hidden">
-            <div class="grid">
-                <a href="subjects/yl2/obgyn/OBGYNE_DIGITAL_HistoryPE.html" class="card-additional">
-                    <div>
-                        <div class="card-icon">📋</div>
-                        <div class="card-title">Maternal History & PE Form</div>
-                        <div class="card-desc">Comprehensive intake form for prenatal and obstetric history. W/ Built-in EDD Calculator</div>
-                    </div>
-                    <div class="card-meta"><span>W/ Built-in Export to Docx</span><span>↗</span></div>
-                </a>
-                <a href="tools/mht2html.html" class="card-additional">
-                    <div>
-                        <div class="card-icon">🩺</div>
-                        <div class="card-title">Mht to Html Converter</div>
-                        <div class="card-desc">For easier creation of questions.</div>
-                    </div>
-                    <div class="card-meta"><span>PDF</span><span>↗</span></div>
-                </a>
-                <a href="tools/Html2Word.html" class="card-additional">
-                    <div>
-                        <div class="card-icon">🩺</div>
-                        <div class="card-title">Html to Word Converter</div>
-                        <div class="card-desc">If you want to print the questions.</div>
-                    </div>
-                    <div class="card-meta"><span>PDF</span><span>↗</span></div>
-                </a>
-                <a href="#" class="card-additional">
-                    <div>
-                        <div class="card-icon">🩺</div>
-                        <div class="card-title">Physical Exam (PE) Form</div>
-                        <div class="card-desc">Complete head‑to‑toe examination template with rationales.</div>
-                    </div>
-                    <div class="card-meta"><span>PDF</span><span>↗</span></div>
-                </a>
-                <a href="#" class="card-additional">
-                    <div>
-                        <div class="card-icon">📇</div>
-                        <div class="card-title">Clinical Reference Cards</div>
-                        <div class="card-desc">Quick summaries for common clinical scenarios and algorithms.</div>
-                    </div>
-                    <div class="card-meta"><span>cheatsheet</span><span>↗</span></div>
-                </a>
-                <a href="#" class="card-additional">
-                    <div>
-                        <div class="card-icon">🧾</div>
-                        <div class="card-title">Lab Values &amp; Diagnostics</div>
-                        <div class="card-desc">Normal ranges, interpretation, and diagnostic criteria.</div>
-                    </div>
-                    <div class="card-meta"><span>reference</span><span>↗</span></div>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- footer -->
-    <div class="footer-note">
-        🧠 All resources are for personal study · rationales &amp; question banks in progress
-    </div>
-
-</div>
-
-<script>
-    function toggleTheme() {
-        const nextTheme = document.documentElement.getAttribute('data-theme') === 'dark'
-            ? 'light'
-            : 'dark';
-        document.documentElement.setAttribute('data-theme', nextTheme);
-        document.body.setAttribute('data-theme', nextTheme);
-        document.getElementById('themeIcon').textContent = nextTheme === 'dark' ? '☀️' : '🌙';
-        document.getElementById('themeLabel').textContent = nextTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
-        document.querySelector('.theme-toggle').setAttribute('aria-pressed', String(nextTheme === 'dark'));
-        document.querySelector('.theme-toggle').setAttribute('aria-label', nextTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-        try { localStorage.setItem('studymats-theme', nextTheme); } catch (error) {}
-    }
-
-    function toggleSection(toggleEl) {
-        const wrapper = toggleEl.closest('.section-wrapper');
-        const content = wrapper.querySelector('.section-content');
-        const isCollapsed = toggleEl.classList.toggle('collapsed');
-        content.classList.toggle('hidden', isCollapsed);
-    }
-
-    // Default: all sections collapsed
-    document.addEventListener('DOMContentLoaded', function() {
-        const wrappers = document.querySelectorAll('.section-wrapper');
-        wrappers.forEach((wrapper) => {
-            const toggle = wrapper.querySelector('.section-toggle');
-            const content = wrapper.querySelector('.section-content');
-            // Ensure they start collapsed
-            toggle.classList.add('collapsed');
-            content.classList.add('hidden');
-        });
-    });
-</script>
-
-</body>
+      <script src="app.js"></script>
+    </body>
 </html>

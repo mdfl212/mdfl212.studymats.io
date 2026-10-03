@@ -1,0 +1,12 @@
+[
+  {
+    "id": "SURG-ACUTE-001",
+    "subject": "Surgery",
+    "topic": "Acute Care",
+    "question": "Which initial action is most important when evaluating an unstable trauma patient?",
+    "questionImage": null,
+    "options": ["Secure the airway", "Obtain a detailed family history", "Order an outpatient MRI", "Delay assessment until imaging is available"],
+    "correctAnswer": 0,
+    "rationale": { "text": "Initial trauma assessment follows ABC priorities, beginning with airway protection.", "images": [] }
+  }
+]

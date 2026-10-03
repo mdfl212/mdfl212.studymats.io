@@ -1,0 +1,145 @@
+[
+  {
+    "id": "Anatomy",
+    "name": "Anatomy",
+    "shortName": "Anatomy",
+    "icon": "🧠",
+    "description": "Gross anatomy, embryology, and foundational human structure.",
+    "yearLevel": "YL1",
+    "data": "data/Anatomy.json",
+    "colors": { "accent": "#4f46e5", "accentSoft": "rgba(79, 70, 229, 0.12)" }
+  },
+  {
+    "id": "Biochemistry",
+    "name": "Biochemistry",
+    "shortName": "Biochem",
+    "icon": "🧬",
+    "description": "Metabolism, enzymes, molecular pathways, and nutrition.",
+    "yearLevel": "YL1",
+    "data": "data/Biochemistry.json",
+    "colors": { "accent": "#0f766e", "accentSoft": "rgba(15, 118, 110, 0.12)" }
+  },
+  {
+    "id": "Histology",
+    "name": "Histology",
+    "shortName": "Histology",
+    "icon": "🔬",
+    "description": "Microscopic tissue structure and organ architecture.",
+    "yearLevel": "YL1",
+    "data": "data/Histology.json",
+    "colors": { "accent": "#7c3aed", "accentSoft": "rgba(124, 58, 237, 0.12)" }
+  },
+  {
+    "id": "Physiology",
+    "name": "Physiology",
+    "shortName": "Physio",
+    "icon": "⚡",
+    "description": "Body systems, homeostasis, and physiological mechanisms.",
+    "yearLevel": "YL1",
+    "data": "data/Physiology.json",
+    "colors": { "accent": "#dc2626", "accentSoft": "rgba(220, 38, 38, 0.12)" }
+  },
+  {
+    "id": "FamilyCommunityHealth",
+    "name": "Family & Community Health",
+    "shortName": "FCH",
+    "icon": "🏥",
+    "description": "Public health, preventive medicine, and community care.",
+    "yearLevel": "YL1",
+    "data": "data/FamilyCommunityHealth.json",
+    "colors": { "accent": "#2563eb", "accentSoft": "rgba(37, 99, 235, 0.12)" }
+  },
+  {
+    "id": "Research",
+    "name": "Research",
+    "shortName": "Research",
+    "icon": "📊",
+    "description": "Biostatistics, study design, and evidence-based practice.",
+    "yearLevel": "YL1",
+    "data": "data/Research.json",
+    "colors": { "accent": "#d97706", "accentSoft": "rgba(217, 119, 6, 0.12)" }
+  },
+  {
+    "id": "Microbiology",
+    "name": "Microbiology",
+    "shortName": "Micro",
+    "icon": "🧫",
+    "description": "Bacteria, viruses, fungi, parasitology, and infectious disease.",
+    "yearLevel": "YL2",
+    "data": "data/Microbiology.json",
+    "colors": { "accent": "#059669", "accentSoft": "rgba(5, 150, 105, 0.12)" }
+  },
+  {
+    "id": "Pharmacology",
+    "name": "Pharmacology",
+    "shortName": "Pharma",
+    "icon": "💊",
+    "description": "Drugs, mechanisms, adverse effects, and therapeutic principles.",
+    "yearLevel": "YL2",
+    "data": "data/Pharmacology.json",
+    "colors": { "accent": "#a21caf", "accentSoft": "rgba(162, 28, 175, 0.12)" }
+  },
+  {
+    "id": "Pediatrics",
+    "name": "Pediatrics",
+    "shortName": "Peds",
+    "icon": "👶",
+    "description": "Growth, development, pediatric disease, and preventive care.",
+    "yearLevel": "YL2",
+    "data": "data/Pediatrics.json",
+    "colors": { "accent": "#2b8a78", "accentSoft": "rgba(43, 138, 120, 0.12)" }
+  },
+  {
+    "id": "OBGyne",
+    "name": "Obstetrics and Gynecology",
+    "shortName": "OB-Gyne",
+    "icon": "🪻",
+    "description": "Pregnancy, labor, contraception, and gynecologic foundations.",
+    "yearLevel": "YL2",
+    "data": "data/OBGyne.json",
+    "colors": { "accent": "#a55585", "accentSoft": "rgba(165, 85, 133, 0.12)" }
+  },
+  {
+    "id": "Pathology",
+    "name": "Pathology",
+    "shortName": "Pathology",
+    "icon": "🔬",
+    "description": "Mechanisms of disease, inflammation, neoplasia, and pathology.",
+    "yearLevel": "YL2",
+    "data": "data/Pathology.json",
+    "colors": { "accent": "#9b4d55", "accentSoft": "rgba(155, 77, 85, 0.12)" }
+  },
+  {
+    "id": "IM",
+    "name": "Internal Medicine",
+    "shortName": "Internal",
+    "icon": "📖",
+    "description": "Cardiology, endocrinology, gastroenterology, nephrology, and clinical reasoning.",
+    "yearLevel": "YL3",
+    "data": "data/IM.json",
+    "colors": { "accent": "#2a75b5", "accentSoft": "rgba(42, 117, 181, 0.12)" }
+  },
+  {
+    "id": "Surgery",
+    "name": "Surgery",
+    "shortName": "Surgery",
+    "icon": "⚕️",
+    "description": "Perioperative principles, trauma, and surgical decisions.",
+    "yearLevel": "YL4",
+    "data": "data/Surgery.json",
+    "colors": { "accent": "#b06b35", "accentSoft": "rgba(176, 107, 53, 0.12)" }
+  },
+  {
+      "id": "PreventiveMedicine",
+        "name": "Preventive Medicine",
+          "shortName": "PrevMed",
+            "icon": "🛡️",
+              "description": "Epidemiology, biostatistics, public health, and disease prevention.",
+                "yearLevel": "YL4",
+                  "data": "data/prevmed.json",
+                    "colors": {
+                        "accent": "#2E7D32",
+                            "accentSoft": "rgba(46, 125, 50, 0.12)"
+                              }
+                              }
+]

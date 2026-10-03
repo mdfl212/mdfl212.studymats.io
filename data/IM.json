@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "1",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "An 80-year-old man presents to the OPD complaining of heavy and squeezing chest pain with radiation to the right arm. It is sometimes exacerbated by changes in position. ECG revealed ST elevation in leads V1-V2. Which symptom is NOT consistent with the most likely diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Squeezing chest pain",
+      "Radiation to the right arm",
+      "Chest pain described as heaviness",
+      "Exacerbated by position changes"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Chest pain caused by myocardial ischemia can be characterized as aching, heavy, squeezing, crushing or constricting. The location is retrosternal. Radiation usually occurs to the ulnar surface of the left arm, neck, jaw, shoulders, and even the right arm. Chest pain exacerbated by changes in position is usually associated with pleuritic pain of pericarditis.",
+      "images": []
+    }
+  },
+  {
+    "id": "2",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "An 80-year-old man presents to the OPD complaining of heavy and squeezing chest pain with radiation to the right arm. BP: 70/50 mmHg. ECG: ST-segment depression in leads V1-V2. Troponin I was positive. What is the most appropriate diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Chronic coronary syndrome",
+      "Unstable angina",
+      "NSTEMI",
+      "STEMI"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "To diagnose NSTEMI: (1) Characteristic ischemic chest pain, (2) ECG with NO ST elevations (e.g., ST depression), (3) Troponin I elevation. All 3 are present. STEMI would show ST elevation. Unstable angina would show no Troponin I elevation.",
+      "images": []
+    }
+  },
+  {
+    "id": "3",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "An 80-year-old man with diabetes and hypertension presents with heavy and squeezing chest pain radiating to the right arm. BP: 70/50 mmHg. ECG: ST depression in V1-V2. Troponin I positive. Early risk assessment shows 'high risk'. What is the most appropriate treatment?",
+    "questionImage": null,
+    "options": [
+      "Refer to Cardio for invasive strategy (coronary arteriography ± PCI/CABG)",
+      "Give nitrates",
+      "Give oxygen",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "In NSTEMI patients classified as high-risk, an invasive strategy (coronary arteriography followed by PCI or CABG) is indicated. Nitrates are contraindicated in patients with hypotension. Oxygen is not the most appropriate management in a patient with hypotension.",
+      "images": []
+    }
+  },
+  {
+    "id": "4",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "A patient with uncontrolled GERD with peptic strictures needs bisphosphonates for osteoporosis. Which bisphosphonate can be given?",
+    "questionImage": null,
+    "options": [
+      "Zoledronic acid",
+      "Alendronate",
+      "Ibandronate",
+      "Risedronate"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Of all the listed bisphosphonates, only Zoledronic acid can be given in IV form. The rest run the risk of esophageal irritation and are therefore contraindicated in patients with esophageal strictures.",
+      "images": []
+    }
+  },
+  {
+    "id": "5",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "The following chest pain characteristics are associated with a high probability of having acute MI, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Described as pressure",
+      "Associated with diaphoresis",
+      "Radiation to both arms",
+      "Described as sharp"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Sharp pain is associated with a decreased likelihood of AMI. The other choices are associated with an increased likelihood of AMI.",
+      "images": []
+    }
+  },
+  {
+    "id": "6",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "An 80-year-old man with diabetes and hypertension presents with heavy and squeezing chest pain radiating to the right arm. BP: 70/50 mmHg. ECG: ST depression in V1-V2. Troponin I positive. Which beta-blocker is appropriate?",
+    "questionImage": null,
+    "options": [
+      "Metoprolol",
+      "Atenolol",
+      "Propranolol",
+      "Esmolol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Metoprolol is the beta-blocker of choice in acute coronary syndrome. The presence of hypotension and a history of diabetes/hypertension requires careful selection. Metoprolol is cardioselective and has a favorable safety profile.",
+      "images": []
+    }
+  },
+  {
+    "id": "7",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "Which of the following is the most common cause of out-of-hospital deaths in patients with STEMI?",
+    "questionImage": null,
+    "options": [
+      "Arrhythmias",
+      "Acute heart failure",
+      "Atrial fibrillation",
+      "Ventricular fibrillation"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Ventricular fibrillation (VFib) is the most common cause of out-of-hospital deaths in STEMI. Most deaths from VFib happen in the first 24 hours from onset of symptoms, with half occurring in the first hour. Pump failure is the main cause of in-hospital deaths.",
+      "images": []
+    }
+  },
+  {
+    "id": "8",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "According to the NYHA classification, patients who have symptoms that result in slight limitation of physical activity are classified as:",
+    "questionImage": null,
+    "options": [
+      "Class I",
+      "Class II",
+      "Class III",
+      "Class IV"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "NYHA Class II: Slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, or dyspnea. Class I: No limitation. Class III: Marked limitation. Class IV: Inability to carry out physical activity without discomfort.",
+      "images": []
+    }
+  },
+  {
+    "id": "9",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "What joints are usually spared in osteoarthritis?",
+    "questionImage": null,
+    "options": [
+      "Ankle",
+      "Fingers",
+      "Knees",
+      "Cervical spine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Joints usually spared in OA: Ankle, Wrist, Elbow. Mnemonic: 'AWE' – Ankle, Wrist, Elbow. The other joints mentioned (fingers, knees, cervical spine) are usually involved in OA.",
+      "images": []
+    }
+  },
+  {
+    "id": "10",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "In patients with RA, which set of joints are the earliest to be affected?",
+    "questionImage": null,
+    "options": [
+      "Small joints of hands and feet",
+      "Shoulders",
+      "Ankles",
+      "Knees"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Small joints of hands and feet are usually the earliest involved in RA. Knees (weight-bearing joints) are usually involved in OA, not RA.",
+      "images": []
+    }
+  },
+  {
+    "id": "11",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "Dyspnea that occurs in patients with heart failure that results from the redistribution of fluid from the lower body into the chest leading to increased work of breathing is called:",
+    "questionImage": null,
+    "options": [
+      "Orthopnea",
+      "Paroxysmal nocturnal dyspnea",
+      "Cheyne-Stokes respiration",
+      "Fatigue"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Orthopnea occurs when patients are in the recumbent position and results from redistribution of fluid from the lower body into the chest leading to dyspnea. PND occurs during recumbency and results from airway compression due to increased bronchial arterial pressure.",
+      "images": []
+    }
+  },
+  {
+    "id": "12",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "Which of the following medications used in T2DM can lead to hypoglycemia?",
+    "questionImage": null,
+    "options": [
+      "Repaglinide",
+      "Acarbose",
+      "Pioglitazone",
+      "Canagliflozin"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Hypoglycemia usually happens in patients being given insulin or insulin secretagogues (e.g., SUs or meglitinides). Repaglinide is a meglitinide. Acarbose causes GI flatulence. Pioglitazone causes peripheral edema, HF, weight gain. Canagliflozin causes urinary/genital infections, polyuria, dehydration.",
+      "images": []
+    }
+  },
+  {
+    "id": "13",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "A 50-year-old female with known RA visits the OPD with complaints of dry eyes and dry mouth for 3 months. No other meds except Methotrexate. What is the most likely diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Felty syndrome",
+      "Dermatomyositis",
+      "Sjogren syndrome",
+      "Hodgkin lymphoma"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Secondary Sjogren syndrome occurs in association with a connective tissue disease such as RA. Symptoms include dry eyes (keratoconjunctivitis sicca) and dry mouth (xerostomia).",
+      "images": []
+    }
+  },
+  {
+    "id": "14",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "Which of the following satisfies the criteria for diagnosis of T2DM?",
+    "questionImage": null,
+    "options": [
+      "FBS: 155 mg/dL after 7 hours of no caloric intake",
+      "2-hour plasma glucose of 250 mg/dL during a 100g OGTT",
+      "RBS of 250 mg/dL with polyuria, polydipsia, and weight loss",
+      "HbA1c of 4%"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "RBS ≥200 mg/dL with classic symptoms of hyperglycemia satisfies criteria. Fasting should be at least 8 hours. OGTT should use 75g glucose. HbA1c should be ≥6.5%.",
+      "images": []
+    }
+  },
+  {
+    "id": "15",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "Stress ulceration that happens in patients who suffered from head trauma is called:",
+    "questionImage": null,
+    "options": [
+      "Cushing ulcer",
+      "Curling ulcer",
+      "Peptic ulcer",
+      "Dieulafoy lesion"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Cushing's ulcer – Stress ulceration that occurs in patients after head trauma. Curling ulcer occurs in patients after severe burns. Mnemonic: 'Burned by the CURLing iron, CUSHion the brain.'",
+      "images": []
+    }
+  },
+  {
+    "id": "16",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "A 50-year-old male was rushed to the ER for hematochezia. DRE revealed fresh blood. He was hemodynamically stable. What is the correct management?",
+    "questionImage": null,
+    "options": [
+      "Upper endoscopy",
+      "Sigmoidoscopy",
+      "Colonoscopy",
+      "Angiography"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "For LGIB, if hemodynamically stable, ask for age. If ≥40 years, do colonoscopy. If <40 years, may do sigmoidoscopy or colonoscopy. If hemodynamically unstable, first step is upper endoscopy.",
+      "images": []
+    }
+  },
+  {
+    "id": "17",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "Which of the following is the first choice DMARD for the treatment of early RA?",
+    "questionImage": null,
+    "options": [
+      "Prednisone",
+      "Methotrexate",
+      "Abatacept",
+      "Sulfasalazine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Methotrexate is the first choice DMARD for the treatment of early RA. Other meds are not the first choice.",
+      "images": []
+    }
+  },
+  {
+    "id": "18",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "A 30-year-old female consults for a 3-month history of epigastric pain relieved by food intake. Sometimes pain awakens her at night. Rapid urease test positive for H. pylori. What is the most appropriate treatment?",
+    "questionImage": null,
+    "options": [
+      "Omeprazole + clarithromycin for 7 days",
+      "Amoxicillin + clarithromycin for 10 days",
+      "Omeprazole + clarithromycin + amoxicillin for 14 days",
+      "Omeprazole + amoxicillin for 7 days"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "A 14-day combination therapy provides the greatest efficacy for the treatment of H. pylori. Therapy with only 2 drugs is not recommended due to low eradication rates.",
+      "images": []
+    }
+  },
+  {
+    "id": "19",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "What is the first indication of portal hypertension in patients with cirrhosis?",
+    "questionImage": null,
+    "options": [
+      "Congestive splenomegaly",
+      "Ascites",
+      "Encephalopathy",
+      "Jaundice"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Congestive splenomegaly with hypersplenism is usually the first indication of the presence of portal hypertension. The other options are complications of cirrhosis but are not the first indication.",
+      "images": []
+    }
+  },
+  {
+    "id": "20",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "Which of the following is considered a conventional DMARD?",
+    "questionImage": null,
+    "options": [
+      "Tocilizumab",
+      "Infliximab",
+      "Abatacept",
+      "Methotrexate"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Conventional DMARDs: Hydroxychloroquine, Methotrexate, Sulfasalazine, Leflunomide. The rest are biological DMARDs.",
+      "images": []
+    }
+  },
+  {
+    "id": "21",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "Which of the following is classified as an etiology of posthepatic portal hypertension?",
+    "questionImage": null,
+    "options": [
+      "Budd-Chiari syndrome",
+      "Portal vein thrombosis",
+      "Banti's syndrome",
+      "Schistosomiasis"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Budd-Chiari syndrome is posthepatic. Portal vein thrombosis and Banti's syndrome are prehepatic. Schistosomiasis is hepatic, presinusoidal.",
+      "images": []
+    }
+  },
+  {
+    "id": "22",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "A 35-year-old female consults for a 3-month history of a rash on both cheeks worsened by sun exposure. Which criteria are met?",
+    "questionImage": null,
+    "options": [
+      "2 clinical, 1 immunologic",
+      "1 clinical, 2 immunologic",
+      "3 clinical, 0 immunologic",
+      "0 clinical, 3 immunologic"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The malar rash is a clinical criterion for SLE. The patient needs 4 of 11 criteria for diagnosis; this presentation suggests a clinical criterion is met.",
+      "images": []
+    }
+  },
+  {
+    "id": "23",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "What is considered the most common cause of CKD worldwide?",
+    "questionImage": null,
+    "options": [
+      "Diabetic nephropathy",
+      "Hypertension",
+      "HIV-associated nephropathy (HIVAN)",
+      "ADPKD"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Diabetic nephropathy is the most common cause of CKD worldwide and in the US.",
+      "images": []
+    }
+  },
+  {
+    "id": "24",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "Which of the following is NOT included in the diagnosis of acute pancreatitis?",
+    "questionImage": null,
+    "options": [
+      "Epigastric pain radiating to the back",
+      "2x elevation of serum lipase",
+      "Abdominal CT showing pancreatitis",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Diagnosis of acute pancreatitis requires 2 of 3: (1) Abdominal pain radiating to the back, (2) 3x or greater elevation in serum lipase and/or amylase, (3) Confirmatory findings on cross-sectional abdominal imaging. 2x elevation is not sufficient.",
+      "images": []
+    }
+  },
+  {
+    "id": "25",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "Which biological DMARD used in RA has the mechanism of action of inhibiting the co-stimulation of T cells by blocking CD28-CD80/86 interactions?",
+    "questionImage": null,
+    "options": [
+      "Sulfasalazine",
+      "Abatacept",
+      "Anakinra",
+      "Rituximab"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Abatacept is a biological DMARD that inhibits the co-stimulation of T cells by blocking CD28-CD80/86 interactions. Sulfasalazine is conventional. Anakinra is an IL-1 receptor antagonist. Rituximab is a chimeric monoclonal antibody against CD20.",
+      "images": []
+    }
+  },
+  {
+    "id": "26",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "The following drugs can induce drug-induced lupus, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Minocycline",
+      "Methyldopa",
+      "Isoniazid",
+      "Prednisone"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Mnemonic: 'Lupus Makes My HIPS Extremely Painful' – Methyldopa, Minocycline, Hydralazine, Isoniazid, Phenytoin, Sulfa drugs, Etanercept, Procainamide. Prednisone is not a cause of drug-induced lupus.",
+      "images": []
+    }
+  },
+  {
+    "id": "27",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "Administering IV adenosine to patients with paroxysmal SVT should be done with caution if the patient has a history of:",
+    "questionImage": null,
+    "options": [
+      "Symptomatic tachycardia",
+      "First-degree AV block",
+      "Asthma",
+      "Any of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Adenosine can precipitate bronchospasm, theoretically, so it should be used with caution in patients with asthma.",
+      "images": []
+    }
+  },
+  {
+    "id": "28",
+    "subject": "Internal Medicine",
+    "topic": "Pulmonology",
+    "question": "Reversibility in asthma is defined as:",
+    "questionImage": null,
+    "options": [
+      "≥12% increase in FEV1 and absolute increase ≥200 mL at least 60 min after β2-agonist",
+      "≥12% increase in FEV1 and absolute increase ≥200 mL at least 15 min after β2-agonist",
+      "≥15% increase in FEV1 and absolute increase ≥500 mL after several weeks of steroids",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Reversibility in asthma is defined as ≥12% increase in FEV1 and an absolute increase of ≥200 mL at least 15 minutes after administration of a β2-agonist.",
+      "images": []
+    }
+  },
+  {
+    "id": "29",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "Which of the following has an established association with GERD?",
+    "questionImage": null,
+    "options": [
+      "COPD",
+      "T2DM",
+      "Esophageal malignancy",
+      "Asthma"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Aside from asthma, other extraesophageal syndromes with established association with GERD: chronic cough, laryngitis, dental erosions.",
+      "images": []
+    }
+  },
+  {
+    "id": "30",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "Which drugs are commonly used in the treatment of hypercalcemia of malignancy in adults?",
+    "questionImage": null,
+    "options": [
+      "Dialysis",
+      "Risedronate",
+      "Zoledronic acid",
+      "Hydration"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Bisphosphonates, such as zoledronic acid and pamidronate, are commonly used for management of hypercalcemia of malignancy. Hydration (4-6L IV saline in first 24h) is used in initial therapy.",
+      "images": []
+    }
+  },
+  {
+    "id": "31",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "What is the classical initial radiographic finding in patients with RA?",
+    "questionImage": null,
+    "options": [
+      "Subchondral erosions",
+      "Bone spurs",
+      "Osteophytes",
+      "Periarticular osteopenia"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Periarticular osteopenia is the classical initial radiographic finding in RA. Subchondral erosions can also be found in RA. Bone spurs and osteophytes are found in OA.",
+      "images": []
+    }
+  },
+  {
+    "id": "32",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "RA flares occurring during pregnancy are treated with which of the following?",
+    "questionImage": null,
+    "options": [
+      "Prednisone",
+      "Methotrexate",
+      "Leflunomide",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Low doses of prednisone are used to treat RA flares during pregnancy. Methotrexate and leflunomide are teratogenic and not used in pregnancy. Safest DMARDs in pregnancy are sulfasalazine and hydroxychloroquine.",
+      "images": []
+    }
+  },
+  {
+    "id": "33",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "In patients with clinical hypothyroidism, the etiology is determined by requesting for which lab test?",
+    "questionImage": null,
+    "options": [
+      "Thyroid FNAB",
+      "Thyroid ultrasound",
+      "TPO antibodies",
+      "TSH"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "After confirming the diagnosis of clinical or subclinical hypothyroidism, the etiology is determined by requesting TPO and Tg antibodies. If (+), then it's most likely autoimmune hypothyroidism.",
+      "images": []
+    }
+  },
+  {
+    "id": "34",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "TSH: Elevated. Free T4: Normal. What is the diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Lab error",
+      "Mild hypothyroidism",
+      "Primary hypothyroidism",
+      "Pituitary disease"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "If TSH high, FT4 normal → Mild hypothyroidism. If TSH high, FT4 low → Primary hypothyroidism. If TSH normal, FT4 low → Rule out drug effects, sick euthyroid syndrome, evaluate anterior pituitary function.",
+      "images": []
+    }
+  },
+  {
+    "id": "35",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "Requirements for thyroid hormone during pregnancy in hypothyroid women:",
+    "questionImage": null,
+    "options": [
+      "Increase",
+      "Decrease",
+      "No change",
+      "Variable"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The requirements for thyroid hormone increase in hypothyroid women during pregnancy.",
+      "images": []
+    }
+  },
+  {
+    "id": "36",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "What is the starting dose of LT4 for elderly patients with known coronary artery disease?",
+    "questionImage": null,
+    "options": [
+      "12.5-25 µg/d",
+      "25-50 µg/d",
+      "50-100 µg/d",
+      "100-200 µg/d"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Starting dose for elderly patients with known CAD is 12.5-25 µg/d. For adults <60 years with no known heart disease, starting dose is usually 50-100 µg/day.",
+      "images": []
+    }
+  },
+  {
+    "id": "37",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "The following are possible causes of increased LT4 requirements, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Celiac disease",
+      "H. pylori-related gastritis",
+      "Ingestion with iron",
+      "NOTA"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All listed conditions (celiac disease, H. pylori-related gastritis, ingestion with iron) are causes of increased LT4 requirements. Also: malabsorption, oral estrogen, ingestion with meal, and various drugs.",
+      "images": []
+    }
+  },
+  {
+    "id": "38",
+    "subject": "Internal Medicine",
+    "topic": "Neurology",
+    "question": "A 70-year-old male was rushed to the ER with sudden-onset paralysis on one side of his body (involving the upper limb) associated with aphasia. Which cerebral artery is most likely involved?",
+    "questionImage": null,
+    "options": [
+      "ACA",
+      "MCA, nondominant hemisphere",
+      "MCA, dominant hemisphere",
+      "Vertebrobasilar artery"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Sudden-onset paralysis and loss of sensation on one side involving the upper limb with aphasia are usually associated with MCA stroke. ACA stroke involves lower limb with urinary incontinence.",
+      "images": []
+    }
+  },
+  {
+    "id": "39",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "What COVID-19 treatment is considered to have the strongest evidence for mortality benefit based on clinical trials?",
+    "questionImage": null,
+    "options": [
+      "Piperacillin-tazobactam",
+      "Dexamethasone",
+      "Hydroxychloroquine",
+      "Lianhua Qingwen"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Dexamethasone has the strongest evidence for mortality benefit in COVID-19. Other drugs with evidence: Remdesivir (with/without baricitinib), Tocilizumab, SARS-CoV-2 specific human monoclonal antibodies.",
+      "images": []
+    }
+  },
+  {
+    "id": "40",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "Which of the following is considered the principal risk factor for severe illness from COVID-19?",
+    "questionImage": null,
+    "options": [
+      "Pregnancy",
+      "Asthma",
+      "Advanced age",
+      "COPD"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Advanced age is the principal risk factor for severe illness from COVID-19, associated with need for hospitalization, intensive care, and mechanical ventilation.",
+      "images": []
+    }
+  },
+  {
+    "id": "41",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "Which of the following is considered a contraindication to the use of fibrinolytic agents?",
+    "questionImage": null,
+    "options": [
+      "Menses",
+      "Nonhemorrhagic stroke 10 years ago",
+      "Marked hypertension 160/100",
+      "Cerebrovascular hemorrhage at any time"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Cerebrovascular hemorrhage at any time is a contraindication. Menses is not a contraindication. Nonhemorrhagic stroke within the past year (not 10 years) is a contraindication. Marked hypertension: SBP >180 or DBP >110.",
+      "images": []
+    }
+  },
+  {
+    "id": "42",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "What is the most serious complication of fibrinolytic therapy?",
+    "questionImage": null,
+    "options": [
+      "Anaphylactic reaction",
+      "Perforated peptic ulcer disease",
+      "Hypotension",
+      "Hemorrhage"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The most frequent and potentially the most serious complication of fibrinolytic therapy is hemorrhage.",
+      "images": []
+    }
+  },
+  {
+    "id": "43",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "Chvostek sign is associated with which of the following?",
+    "questionImage": null,
+    "options": [
+      "Hypomagnesemia",
+      "Hypercalcemia",
+      "Hyponatremia",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Hypomagnesemia may manifest with neuromuscular excitability leading to tetany and positive Trousseau and Chvostek signs. Hypocalcemia may also be present in these patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "44",
+    "subject": "Internal Medicine",
+    "topic": "Pulmonology",
+    "question": "Which of the following is NOT included among the 3 interventions that improve the survival of COPD patients?",
+    "questionImage": null,
+    "options": [
+      "Smoking cessation",
+      "Oxygen therapy",
+      "Lung volume reduction surgery",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All three interventions improve survival of COPD patients: Smoking cessation, Oxygen therapy in chronically hypoxemic patients, LVRS in selected patients with emphysema.",
+      "images": []
+    }
+  },
+  {
+    "id": "45",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "The following are indications for initiation of renal replacement therapy in patients with CKD, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Refractory hyperkalemia",
+      "Anorexia attributable to functional dyspepsia",
+      "Refractory ECFV overload",
+      "NOTA"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Anorexia and nausea should not be attributable to reversible causes such as PUD for it to be a clear indication for starting RRT. Other indications: refractory hyperkalemia, refractory ECFV overload, malnutrition, fluid or electrolyte abnormalities.",
+      "images": []
+    }
+  },
+  {
+    "id": "46",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "A 55-year-old female was brought to the ER with severe knee pain. Septic arthritis was considered. Synovial fluid analysis: (+) Gram-negative bacilli. What drug should be given for empiric therapy?",
+    "questionImage": null,
+    "options": [
+      "Cefuroxime",
+      "Nafcillin",
+      "Ceftriaxone",
+      "Vancomycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "An IV 3rd generation cephalosporin (such as ceftriaxone and cefotaxime) should be given as empiric therapy for patients whose synovial fluid Gram stain shows gram-negative bacilli. If gram-positive cocci appear, IV Vancomycin should be empirically started.",
+      "images": []
+    }
+  },
+  {
+    "id": "47",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "Which of the following is a monoclonal antibody against the IL-6 receptor?",
+    "questionImage": null,
+    "options": [
+      "Tocilizumab",
+      "Anakinra",
+      "Baricitinib",
+      "Dexamethasone"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tocilizumab is a monoclonal antibody against the IL-6 receptor. Anakinra is an IL-1 receptor antagonist. Baricitinib is a Janus kinase 1 and 2 inhibitor. Dexamethasone is an anti-inflammatory glucocorticoid.",
+      "images": []
+    }
+  },
+  {
+    "id": "48",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "The most common form of AKI is:",
+    "questionImage": null,
+    "options": [
+      "Prerenal",
+      "Intrinsic",
+      "Postrenal",
+      "Any of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The most common form of AKI is prerenal azotemia. Ischemia, sepsis, and nephrotoxins are causes of intrinsic AKI.",
+      "images": []
+    }
+  },
+  {
+    "id": "49",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "Nephrotoxins cause what type of AKI?",
+    "questionImage": null,
+    "options": [
+      "Prerenal",
+      "Intrinsic",
+      "Postrenal",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ischemia, sepsis, and nephrotoxins are causes of intrinsic AKI. Prerenal AKI is caused by hypovolemia, heart failure, liver failure, NSAIDs, ACEIs, ARBs, cyclosporine.",
+      "images": []
+    }
+  },
+  {
+    "id": "50",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "What is the preferred initial pharmacologic agent for T2DM?",
+    "questionImage": null,
+    "options": [
+      "Gliclazide",
+      "Acarbose",
+      "Metformin",
+      "Nateglinide"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "According to several treatment algorithms by professional societies, metformin is suggested as the initial therapy for T2DM.",
+      "images": []
+    }
+  },
+  {
+    "id": "51",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "What is the overall most common cause of Cushing syndrome?",
+    "questionImage": null,
+    "options": [
+      "Medical use of glucocorticoids",
+      "Pituitary adenoma",
+      "ACTH-producing lung tumor",
+      "Carcinoid tumor"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Overall, the most common cause of Cushing syndrome is the medical use of glucocorticoids. Cushing's syndrome caused by a pituitary corticotroph adenoma is called Cushing's disease.",
+      "images": []
+    }
+  },
+  {
+    "id": "52",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "Which of the following is NOT present in the PE of patients with Cushing syndrome?",
+    "questionImage": null,
+    "options": [
+      "Distal myopathy",
+      "Thin, brittle skin",
+      "Buffalo hump",
+      "Increased susceptibility to infections"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "In Cushing syndrome, proximal myopathy is present, instead of distal myopathy. The rest of the options are present in patients with Cushing's syndrome.",
+      "images": []
+    }
+  },
+  {
+    "id": "53",
+    "subject": "Internal Medicine",
+    "topic": "Endocrinology",
+    "question": "Which describes the basal ACTH level that can be seen in patients with ACTH-secreting small cell lung cancer?",
+    "questionImage": null,
+    "options": [
+      "Undetectable to low",
+      "Normal to mildly elevated",
+      "Very high",
+      "Low"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "In ectopic ACTH secretion (e.g., small cell lung cancer), basal ACTH levels are very high. In ACTH-secreting pituitary tumors, ACTH is inappropriately high but not as high.",
+      "images": []
+    }
+  },
+  {
+    "id": "54",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "What test is usually used to assess the success of treatment in patients with PUD with (+) H. pylori?",
+    "questionImage": null,
+    "options": [
+      "CBC",
+      "Urinalysis",
+      "Urea breath test",
+      "Fecalysis"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Urea breath test, stool antigen test, and biopsy-based tests can be used to assess treatment success in patients with H. pylori. These tests may yield false-negative results if done <4 weeks after treatment.",
+      "images": []
+    }
+  },
+  {
+    "id": "55",
+    "subject": "Internal Medicine",
+    "topic": "Oncology",
+    "question": "What is the most common type of melanoma?",
+    "questionImage": null,
+    "options": [
+      "Superficial spreading melanoma",
+      "Acral lentiginous melanoma",
+      "Nodular melanoma",
+      "Lentigo maligna melanoma"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Superficial spreading melanoma is the most common type. May appear at any site on the body. Lesions have asymmetry, border irregularity, and color variegation.",
+      "images": []
+    }
+  },
+  {
+    "id": "56",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "A 44-year-old female complains of a 2-month history of dysphagia and regurgitation. Barium swallow shows tapering at the LES with a 'beak-like appearance'. What is the most likely diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Achalasia",
+      "Volvulus",
+      "GERD",
+      "Esophageal cancer"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tapering at the LES with a beak-like appearance after barium swallow is consistent with a diagnosis of Achalasia. Volvulus would show a 'coffee bean'-shaped appearance on x-ray.",
+      "images": []
+    }
+  },
+  {
+    "id": "57",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "A 30-year-old man was rushed to the ER due to severe, crushing chest pain that occurred an hour ago. ECG shows ischemic changes in leads II, III, and aVF. Which wall is most likely involved?",
+    "questionImage": null,
+    "options": [
+      "Anterior wall",
+      "Septal wall",
+      "Inferior wall",
+      "High lateral wall"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ischemic changes in leads II, III, and aVF reflect inferior wall infarct. Anteroseptal: V1-V2. Anteroapical: V3-V4. Anterolateral: V5-V6. Lateral: I, aVL.",
+      "images": []
+    }
+  },
+  {
+    "id": "58",
+    "subject": "Internal Medicine",
+    "topic": "Pulmonology",
+    "question": "Clubbing of the digits may occur in the following diseases, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Bronchiectasis",
+      "Infective endocarditis",
+      "COPD",
+      "Inflammatory bowel disease"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "COPD is not associated with clubbing of the digits. If clubbing is found in COPD patients, this should prompt investigation for possible causes such as lung cancer (same risk factor).",
+      "images": []
+    }
+  },
+  {
+    "id": "59",
+    "subject": "Internal Medicine",
+    "topic": "Pulmonology",
+    "question": "A 50-year-old male admitted to ICU with COVID, critical. Intubated, mechanical ventilation, FiO2 100%. ABG: pH 7.35, pCO2 35, PaO2 50, HCO3 22. This indicates:",
+    "questionImage": null,
+    "options": [
+      "Mild ARDS",
+      "Moderate ARDS",
+      "Severe ARDS",
+      "No ARDS"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "PaO2/FiO2 (PF) ratio: 50/100 × 100 = 50. Severe ARDS: PF ≤100. Mild: ≤300. Moderate: ≤200.",
+      "images": []
+    }
+  },
+  {
+    "id": "60",
+    "subject": "Internal Medicine",
+    "topic": "Neurology",
+    "question": "In patients likely suffering from acute ischemic stroke, IV rtPA can be given within how many hours from stroke onset?",
+    "questionImage": null,
+    "options": [
+      "≤3 hours",
+      "≤8 hours",
+      "≤9 hours",
+      "≤12 hours"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "IV rtPA for acute ischemic stroke can be given within 0-3 hours of stroke onset. Stroke onset is defined as the time the patient was last seen normal or when symptoms began.",
+      "images": []
+    }
+  },
+  {
+    "id": "61",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "A 30-year-old male presents with a 4-week history of fever, chills, abdominal pain. Faint, salmon-colored, blanching rashes on trunk at end of first week which resolved spontaneously. T: 40°C, HR: 45. What life-threatening complication is most likely to occur during this time?",
+    "questionImage": null,
+    "options": [
+      "Meningitis",
+      "GBS",
+      "Pancreatitis",
+      "Intestinal perforation"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "On the 3rd and 4th week of illness in patients with Typhoid fever, life-threatening complications such as GI bleeding and Intestinal perforation may occur. Meningitis and GBS may also occur as neurologic manifestations.",
+      "images": []
+    }
+  },
+  {
+    "id": "62",
+    "subject": "Internal Medicine",
+    "topic": "Oncology",
+    "question": "The myeloid neoplasm known as APL: t(15;17) can be treated with which of the following?",
+    "questionImage": null,
+    "options": [
+      "Imatinib",
+      "All-trans retinoic acid (ATRA)",
+      "Vitamin C",
+      "Vitamin B complex"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "ATRA is an oral drug that induces the differentiation of promyelocytes. Imatinib is the treatment for CML.",
+      "images": []
+    }
+  },
+  {
+    "id": "63",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "A TB patient was given ethambutol for treatment. On follow-up, a diagnosis of optic neuritis was noted. What should be done next?",
+    "questionImage": null,
+    "options": [
+      "Hold the drug for 1 week, then resume",
+      "Hold until eyesight is back to normal, then resume",
+      "Stop the drug",
+      "Hold for 1 month, then may resume in increments"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The development of optic neuritis in patients taking ethambutol should prompt permanent discontinuation of the drug.",
+      "images": []
+    }
+  },
+  {
+    "id": "64",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "A TB patient was being given rifampin for treatment. After 3 weeks, he developed petechial rashes. What is the next step?",
+    "questionImage": null,
+    "options": [
+      "Hold the drug until platelet count is normal, then resume",
+      "Stop the drug and refer to a specialist",
+      "Hold for 1 month, then may resume in increments",
+      "Continue rifampin and add steroids"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The development of autoimmune thrombocytopenia in patients taking rifampin should be an indication to stop the drug and refer to a specialist for proper guidance.",
+      "images": []
+    }
+  },
+  {
+    "id": "65",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "Test used for Hepatitis A that can be detected during acute illness:",
+    "questionImage": null,
+    "options": [
+      "IgM anti-HAV",
+      "IgG anti-HAV",
+      "Fecal HAV",
+      "Serum HAV"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "IgM anti-HAV is used to diagnose Hepatitis A during acute illness because fecal or serum HAV is not available routinely.",
+      "images": []
+    }
+  },
+  {
+    "id": "66",
+    "subject": "Internal Medicine",
+    "topic": "Pulmonology",
+    "question": "Asthma involves airway obstruction from decreased airway diameter. Which of the following is usually seen in this disease?",
+    "questionImage": null,
+    "options": [
+      "Increased residual volume",
+      "Decreased functional residual capacity",
+      "Reduced total lung capacity",
+      "NOTA"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Increased residual volume is often seen in asthma from the exaggerated closure of airways at low lung volumes. FRC may be dynamically elevated. TLC is usually normal in asthma patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "67",
+    "subject": "Internal Medicine",
+    "topic": "Neurology",
+    "question": "Migraine triggers include the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Bright lights",
+      "Lack of sleep",
+      "Excess sleep",
+      "Satiety"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Hunger is one of the triggers of migraines, not satiety. Other triggers: bright lights, lack of or excess sleep, let-down from stress, hormonal fluctuations, alcohol, nitrates.",
+      "images": []
+    }
+  },
+  {
+    "id": "68",
+    "subject": "Internal Medicine",
+    "topic": "Hematology",
+    "question": "The following conditions are sufficiently severe enough to cause megaloblastic anemia, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Pernicious anemia",
+      "Total gastrectomy",
+      "Crohn disease",
+      "Use of proton pump inhibitors"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Malabsorption of cobalamin may occur when using PPIs but is not sufficiently severe to cause megaloblastic anemia. Other conditions: pernicious anemia, congenital absence of IF, total/partial gastrectomy, intestinal stagnant loop, ileal resection, Crohn's, tropical sprue.",
+      "images": []
+    }
+  },
+  {
+    "id": "69",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "False-negative tuberculin skin testing (TST) reaction is common in which set of patients?",
+    "questionImage": null,
+    "options": [
+      "Nontuberculous mycobacteria infection",
+      "BCG vaccination",
+      "Overwhelming TB infection",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "False-negative reactions: Immunosuppression, Overwhelming TB. False-positive reactions: Infection with nontuberculous mycobacteria, BCG vaccination.",
+      "images": []
+    }
+  },
+  {
+    "id": "70",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "Which of the following is considered to be a cause of prerenal AKI?",
+    "questionImage": null,
+    "options": [
+      "NSAID use",
+      "Infection",
+      "Sepsis",
+      "Ischemia"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Prerenal AKI causes: hypovolemia, heart failure, liver failure, NSAIDs, ACEIs, ARBs, cyclosporine. Intrinsic AKI: sepsis, infection, ischemia, nephrotoxins.",
+      "images": []
+    }
+  },
+  {
+    "id": "71",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "What is the most common clinical feature of patients with Infective Endocarditis?",
+    "questionImage": null,
+    "options": [
+      "Chills and sweats",
+      "Fever",
+      "Heart murmur",
+      "Splenomegaly"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fever is the most common clinical feature of patients with IE (80-90%). Heart murmur: 80-85%.",
+      "images": []
+    }
+  },
+  {
+    "id": "72",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "Which of the following is considered a major criterion for diagnosis of Infective endocarditis?",
+    "questionImage": null,
+    "options": [
+      "Positive echocardiogram",
+      "Fever ≥38°C",
+      "Osler nodes",
+      "Janeway lesions"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Positive echocardiogram is a major criterion. Fever, Osler nodes, and Janeway lesions are minor criteria.",
+      "images": []
+    }
+  },
+  {
+    "id": "73",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "Which glomerulonephritis is commonly associated with renal vein thrombosis?",
+    "questionImage": null,
+    "options": [
+      "Membranous nephropathy",
+      "Rapid progressive GN",
+      "APSGN",
+      "FSGS"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Membranous nephropathy is associated with renal vein thrombosis due to hypercoagulability from proteinuria.",
+      "images": []
+    }
+  },
+  {
+    "id": "74",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "What is the most common infectious cause of nephrotic syndrome worldwide?",
+    "questionImage": null,
+    "options": [
+      "Hepatitis B",
+      "Syphilis",
+      "Malaria",
+      "Typhoid fever"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Malaria is the most common infectious cause of nephrotic syndrome globally (especially in endemic areas).",
+      "images": []
+    }
+  },
+  {
+    "id": "75",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "Which is NOT included in the classic tetrad of Henoch-Schonlein purpura (HSP) nephritis?",
+    "questionImage": null,
+    "options": [
+      "Arthralgia",
+      "Non-palpable petechial rash",
+      "Abdominal pain",
+      "Renal disease"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "HSP tetrad includes palpable purpura (not non-palpable), arthritis, abdominal pain, and renal involvement.",
+      "images": []
+    }
+  },
+  {
+    "id": "76",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "HSP nephritis shares the same renal histology with which glomerular disease?",
+    "questionImage": null,
+    "options": [
+      "Membranous nephropathy",
+      "IgA nephropathy",
+      "Membranoproliferative GN",
+      "FSGS"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Both IgA nephropathy and HSP nephritis show IgA deposition in the mesangium and share pathogenesis.",
+      "images": []
+    }
+  },
+  {
+    "id": "77",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "HSP is most commonly preceded by which of the following?",
+    "questionImage": null,
+    "options": [
+      "Acute gastroenteritis",
+      "UTI",
+      "Upper respiratory tract infection",
+      "Tick bite"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Approximately 50% of HSP cases are preceded by an upper respiratory tract infection.",
+      "images": []
+    }
+  },
+  {
+    "id": "78",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "Which is the most common route of transmission of Shiga-toxin-producing E. coli (STEC) in children?",
+    "questionImage": null,
+    "options": [
+      "Person-to-person",
+      "Ingestion of undercooked meat",
+      "Contaminated water",
+      "Airborne"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "STEC is commonly transmitted by undercooked ground beef, unpasteurized milk, and apple cider.",
+      "images": []
+    }
+  },
+  {
+    "id": "79",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "The following are clinical manifestations of nephrotic syndrome, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Proteinuria",
+      "Hypercholesterolemia",
+      "Thromboembolism",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All options are clinical manifestations of nephrotic syndrome (proteinuria, hyperlipidemia, hypercoagulability).",
+      "images": []
+    }
+  },
+  {
+    "id": "80",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "What is the mainstay treatment for minimal change nephrotic syndrome?",
+    "questionImage": null,
+    "options": [
+      "Antibiotics",
+      "Corticosteroids",
+      "Calcineurin inhibitors",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Corticosteroids (prednisone) are the mainstay of therapy for minimal change nephrotic syndrome.",
+      "images": []
+    }
+  },
+  {
+    "id": "81",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "All of the following are causes of transient proteinuria in children, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Temperature >38.3°C",
+      "Exercise",
+      "Overhydration",
+      "Cold exposure"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Dehydration (not overhydration) is a cause of transient proteinuria, along with fever, exercise, and cold exposure.",
+      "images": []
+    }
+  },
+  {
+    "id": "82",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "What is the leading causative agent for endocarditis in pediatric patients?",
+    "questionImage": null,
+    "options": [
+      "Staphylococcus aureus",
+      "Pseudomonas aeruginosa",
+      "Haemophilus influenzae",
+      "Coxsackievirus A16"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Staphylococcus aureus and viridans group streptococci are the leading causes of infective endocarditis in children.",
+      "images": []
+    }
+  },
+  {
+    "id": "83",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "In TOF, what determines the timing of onset of symptoms and severity of cyanosis?",
+    "questionImage": null,
+    "options": [
+      "Degree of RV outflow obstruction",
+      "Size of VSD",
+      "Degree of overriding aorta",
+      "Degree of RVH"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The degree of right ventricular outflow obstruction determines the severity of cyanosis and symptom onset in Tetralogy of Fallot.",
+      "images": []
+    }
+  },
+  {
+    "id": "84",
+    "subject": "Internal Medicine",
+    "topic": "Oncology",
+    "question": "The single most important prognostic factor in ALL is:",
+    "questionImage": null,
+    "options": [
+      "Presence of genetic abnormalities",
+      "Age",
+      "Comorbidities",
+      "Effective treatment"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Without effective treatment, ALL is fatal; thus, effective treatment is the most important prognostic factor.",
+      "images": []
+    }
+  },
+  {
+    "id": "85",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "Which should be avoided in HUS caused by STEC?",
+    "questionImage": null,
+    "options": [
+      "Red cell transfusions",
+      "Early recognition",
+      "Control of hypertension",
+      "Antibiotics"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Antibiotics may increase Shiga toxin release and worsen HUS; they are generally avoided.",
+      "images": []
+    }
+  },
+  {
+    "id": "86",
+    "subject": "Internal Medicine",
+    "topic": "Pulmonology",
+    "question": "Therapy of childhood asthma can be stepped down after good control for at least how many months?",
+    "questionImage": null,
+    "options": [
+      "3 weeks",
+      "1 month",
+      "3 months",
+      "6 months"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Stepping down therapy should be considered after achieving good asthma control for at least 3 months.",
+      "images": []
+    }
+  },
+  {
+    "id": "87",
+    "subject": "Internal Medicine",
+    "topic": "Hematology",
+    "question": "What is the hallmark of hemophilic bleeding?",
+    "questionImage": null,
+    "options": [
+      "Hemarthrosis",
+      "Epistaxis",
+      "Gum bleeding",
+      "Petechial rashes"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Hemarthrosis (bleeding into joints) is the hallmark of hemophilia, differentiating it from platelet disorders.",
+      "images": []
+    }
+  },
+  {
+    "id": "88",
+    "subject": "Internal Medicine",
+    "topic": "Hematology",
+    "question": "What is the most common inherited bleeding disorder?",
+    "questionImage": null,
+    "options": [
+      "Hemophilia A",
+      "Hemophilia B",
+      "Von Willebrand disease",
+      "Platelet function disorder"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Von Willebrand disease is the most common inherited bleeding disorder, affecting up to 1% of the population.",
+      "images": []
+    }
+  },
+  {
+    "id": "89",
+    "subject": "Internal Medicine",
+    "topic": "Hematology",
+    "question": "Which drug can increase circulating von Willebrand factor from storage?",
+    "questionImage": null,
+    "options": [
+      "Demeclocycline",
+      "Desmopressin",
+      "Plasmapheresis",
+      "Antifibrinolytic"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Desmopressin (DDAVP) releases vWF from endothelial stores and is used in mild von Willebrand disease.",
+      "images": []
+    }
+  },
+  {
+    "id": "90",
+    "subject": "Internal Medicine",
+    "topic": "Neurology",
+    "question": "Among patients with febrile seizure, lumbar puncture should be done in all EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "3-year-old with fever and cough",
+      "Ill-appearing child",
+      "5-month-old with fever and seizure",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "LP is indicated in infants <6 months, ill-appearing children, or those with meningeal signs; a 3-year-old with cough and fever is not an indication.",
+      "images": []
+    }
+  },
+  {
+    "id": "91",
+    "subject": "Internal Medicine",
+    "topic": "Neurology",
+    "question": "Which is a risk factor for recurrence of febrile seizures?",
+    "questionImage": null,
+    "options": [
+      "Male gender",
+      "Higher serum sodium at presentation",
+      "Simple febrile seizure",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Risk factors for recurrence: male gender, daycare, family history, lower age at onset, and lower fever at presentation.",
+      "images": []
+    }
+  },
+  {
+    "id": "92",
+    "subject": "Internal Medicine",
+    "topic": "Gastroenterology",
+    "question": "Repeated vomiting in pyloric stenosis leads to which acid-base disturbance?",
+    "questionImage": null,
+    "options": [
+      "Hypochloremic metabolic acidosis",
+      "Hypochloremic metabolic alkalosis",
+      "Hyperchloremic metabolic acidosis",
+      "Hyperchloremic metabolic alkalosis"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Loss of H+ and Cl- from gastric vomiting causes hypochloremic metabolic alkalosis.",
+      "images": []
+    }
+  },
+  {
+    "id": "93",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "Which anti-TB drug should be used in children old enough to distinguish colors?",
+    "questionImage": null,
+    "options": [
+      "Streptomycin",
+      "Ethambutol",
+      "Isoniazid",
+      "Rifampicin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ethambutol can cause optic neuritis; visual acuity and color discrimination must be monitored.",
+      "images": []
+    }
+  },
+  {
+    "id": "94",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "What is the most common form of extrapulmonary TB in children?",
+    "questionImage": null,
+    "options": [
+      "Scrofula",
+      "TB meningitis",
+      "Miliary TB",
+      "Pericardial TB"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Scrofula (tuberculous lymphadenitis, usually cervical) is the most common extrapulmonary TB in children.",
+      "images": []
+    }
+  },
+  {
+    "id": "95",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "A child with 2-week history of fever, sore throat, difficulty swallowing, and drooling; appears toxic, leaning forward, with muffled voice. Laryngoscopy would show:",
+    "questionImage": null,
+    "options": [
+      "Cherry-red swollen epiglottis",
+      "Subglottic narrowing",
+      "Swollen tonsils",
+      "Any of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Acute epiglottitis (usually Hib) presents with cherry-red swollen epiglottis and is a medical emergency.",
+      "images": []
+    }
+  },
+  {
+    "id": "96",
+    "subject": "Internal Medicine",
+    "topic": "Nephrology",
+    "question": "Post-streptococcal glomerulonephritis is classified as what type of hypersensitivity?",
+    "questionImage": null,
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "PSGN is a type III hypersensitivity reaction with immune complex deposition.",
+      "images": []
+    }
+  },
+  {
+    "id": "97",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "A child with incessant coughing: multiple coughs on a single exhalation followed by a whoop. Which stage of pertussis?",
+    "questionImage": null,
+    "options": [
+      "Catarrhal",
+      "Paroxysmal",
+      "Posttussive",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The paroxysmal stage is characterized by coughing paroxysms followed by a whoop on inspiration.",
+      "images": []
+    }
+  },
+  {
+    "id": "98",
+    "subject": "Internal Medicine",
+    "topic": "Rheumatology",
+    "question": "Which of the following is NOT a clinical criterion for Kawasaki disease?",
+    "questionImage": null,
+    "options": [
+      "Bilateral conjunctival injection",
+      "Strawberry tongue",
+      "Erythema of extremities",
+      "Generalized lymphadenopathy >1.5 cm"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Kawasaki disease requires unilateral cervical lymphadenopathy (not generalized) >1.5 cm.",
+      "images": []
+    }
+  },
+  {
+    "id": "99",
+    "subject": "Internal Medicine",
+    "topic": "Cardiology",
+    "question": "What is the most common cause of morbidity and mortality in Kawasaki disease?",
+    "questionImage": null,
+    "options": [
+      "Large carotid artery aneurysm",
+      "Large coronary artery aneurysm",
+      "Large cranial artery aneurysm",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Coronary artery aneurysms (especially giant) are the major complication, leading to myocardial infarction.",
+      "images": []
+    }
+  },
+  {
+    "id": "100",
+    "subject": "Internal Medicine",
+    "topic": "Infectious Disease",
+    "question": "A child with acute otitis media is treated with amoxicillin. After 48 hours, symptoms worsen. What is the most likely organism?",
+    "questionImage": null,
+    "options": [
+      "Streptococcus pneumoniae",
+      "Haemophilus influenzae",
+      "Moraxella catarrhalis",
+      "Group A Streptococcus"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Beta-lactamase-producing Moraxella catarrhalis is a common cause of amoxicillin failure in AOM.",
+      "images": []
+    }
+  }
+]

@@ -1,0 +1,5402 @@
+[
+  {
+    "id": "1",
+    "subject": "Pharmacology",
+    "topic": "Antihistamine",
+    "question": "The use of which of the following should be avoided before operating machinery?",
+    "questionImage": null,
+    "options": [
+      "Diphenhydramine",
+      "Cetirizine",
+      "Fexofenadine",
+      "Loratadine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Diphenhydramine is a 1st-generation antihistamine with sedating effects. 2nd-generation agents (cetirizine, fexofenadine, loratadine) are less sedating.",
+      "images": []
+    }
+  },
+  {
+    "id": "2",
+    "subject": "Pharmacology",
+    "topic": "Antihistamine",
+    "question": "2nd-generation antihistamines have less autonomic side effects compared to 1st-generation agents because they are:",
+    "questionImage": null,
+    "options": [
+      "Less lipid soluble",
+      "More lipid soluble",
+      "More ionized",
+      "Less protein bound"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "2nd-generation antihistamines are less lipid soluble, so they do not readily enter the CNS, causing fewer sedating and autonomic effects.",
+      "images": []
+    }
+  },
+  {
+    "id": "3",
+    "subject": "Pharmacology",
+    "topic": "Cholinesterase Inhibitor",
+    "question": "The following anticholinesterase drugs are used in the treatment of Alzheimer disease, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Donepezil",
+      "Galantamine",
+      "Rivastigmine",
+      "Neostigmine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Donepezil, rivastigmine, and galantamine are used for Alzheimer's. Neostigmine is a cholinesterase inhibitor used for myasthenia gravis, not Alzheimer's.",
+      "images": []
+    }
+  },
+  {
+    "id": "4",
+    "subject": "Pharmacology",
+    "topic": "Antihypertensive",
+    "question": "Which antihypertensive agent is absolutely contraindicated in pregnant patients because of the risk of major renal damage in the fetus?",
+    "questionImage": null,
+    "options": [
+      "Labetalol",
+      "Losartan",
+      "Hydralazine",
+      "Nifedipine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Losartan is an ARB (ACEi class) and is contraindicated in pregnancy due to fetal renal damage. Labetalol, hydralazine, and nifedipine are safer options in pregnancy.",
+      "images": []
+    }
+  },
+  {
+    "id": "5",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "Tolerance to most of the pharmacologic effects of opioids occurs, EXCEPT for:",
+    "questionImage": null,
+    "options": [
+      "Respiratory depression",
+      "Miosis",
+      "Nausea and vomiting",
+      "Sedation"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tolerance develops to most opioid effects except miosis and constipation. Miosis persists even with chronic use.",
+      "images": []
+    }
+  },
+  {
+    "id": "6",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "One characteristic effect of all opioids is pupillary constriction, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Morphine",
+      "Meperidine",
+      "Fentanyl",
+      "Hydrocodone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "All opioids cause miosis except meperidine. Meperidine is also the only opioid that does not cause biliary tract smooth muscle contraction.",
+      "images": []
+    }
+  },
+  {
+    "id": "7",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "Overdose in opioid analgesics is characterized by the following, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Pupillary constriction",
+      "Comatose",
+      "Respiratory depression",
+      "Diarrhea"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Opioid overdose triad: pupillary constriction (miosis), coma, and respiratory depression. Diarrhea is not a feature; opioids cause constipation.",
+      "images": []
+    }
+  },
+  {
+    "id": "8",
+    "subject": "Pharmacology",
+    "topic": "Antidiabetic",
+    "question": "Which antidiabetic drug works by inhibiting the enzyme that degrades GLP-1?",
+    "questionImage": null,
+    "options": [
+      "Liraglutide",
+      "Linagliptin",
+      "Canagliflozin",
+      "Glipizide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Linagliptin is a DPP-4 inhibitor. DPP-4 deactivates GLP-1. Inhibition increases insulin release and decreases glucagon. Liraglutide is a GLP-1 analog; canagliflozin is SGLT2 inhibitor; glipizide is sulfonylurea.",
+      "images": []
+    }
+  },
+  {
+    "id": "9",
+    "subject": "Pharmacology",
+    "topic": "NSAID",
+    "question": "A neonate was incidentally found to have a cardiac murmur characterized as continuous, machinery-like. Which drug can hasten closure of the patent ductus arteriosus?",
+    "questionImage": null,
+    "options": [
+      "Prostaglandin E",
+      "Indomethacin",
+      "Ibuprofen",
+      "Aspirin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Indomethacin (NSAID) can hasten closure of PDA. PGE is used to maintain patency. Ibuprofen is also used but indomethacin is classic.",
+      "images": []
+    }
+  },
+  {
+    "id": "10",
+    "subject": "Pharmacology",
+    "topic": "SERM",
+    "question": "Which is considered a partial agonist at estrogen receptors and is commonly used to induce ovulation?",
+    "questionImage": null,
+    "options": [
+      "Raloxifene",
+      "Clomiphene",
+      "Danazol",
+      "Flutamide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clomiphene is a SERM used for ovulation induction. Raloxifene is a SERM for osteoporosis, Danazol is for endometriosis, Flutamide is an antiandrogen for prostate cancer.",
+      "images": []
+    }
+  },
+  {
+    "id": "11",
+    "subject": "Pharmacology",
+    "topic": "Antidepressant",
+    "question": "Hypertensive crisis occurs when patients eat tyramine-rich foods while taking which medication?",
+    "questionImage": null,
+    "options": [
+      "SSRIs",
+      "MAO inhibitors",
+      "SNRIs",
+      "TCAs"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "MAO inhibitors + tyramine-rich foods (aged cheese, cured meats) → hypertensive crisis. Tyramine is normally metabolized by MAO; inhibition leads to NE release.",
+      "images": []
+    }
+  },
+  {
+    "id": "12",
+    "subject": "Pharmacology",
+    "topic": "Muscle Relaxant",
+    "question": "Which is considered a skeletal muscle relaxant?",
+    "questionImage": null,
+    "options": [
+      "Eperisone",
+      "Hydrocortisone",
+      "Risperidone",
+      "Dapsone"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Eperisone is a skeletal muscle relaxant used for spasticity and muscle stiffness. Hydrocortisone is a corticosteroid; risperidone is antipsychotic; dapsone is antimicrobial.",
+      "images": []
+    }
+  },
+  {
+    "id": "13",
+    "subject": "Pharmacology",
+    "topic": "Antihistamine",
+    "question": "Which component of drugs used for common cold (e.g., Decolgen Forte) is responsible for causing sedation?",
+    "questionImage": null,
+    "options": [
+      "Phenylpropanolamine",
+      "Chlorpheniramine",
+      "Paracetamol",
+      "Any of the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Chlorpheniramine is a 1st-generation antihistamine responsible for sedating effects. Phenylpropanolamine is a decongestant; paracetamol is an analgesic.",
+      "images": []
+    }
+  },
+  {
+    "id": "14",
+    "subject": "Pharmacology",
+    "topic": "CYP Inhibitor",
+    "question": "Drug metabolism of some drugs may be decreased by which of the following?",
+    "questionImage": null,
+    "options": [
+      "Barbiturates",
+      "Carbamazepine",
+      "Rifampin",
+      "Furanocoumarins"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Furanocoumarins in grapefruit juice inhibit CYP3A4, decreasing drug metabolism. Barbiturates, carbamazepine, and rifampin are CYP inducers.",
+      "images": []
+    }
+  },
+  {
+    "id": "15",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "What is the antidote for heparin overdose?",
+    "questionImage": null,
+    "options": [
+      "Protamine sulfate",
+      "Vitamin K",
+      "Prothrombin complex concentrate",
+      "Any of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Protamine sulfate is the reversal agent for heparin. Vitamin K and PCC are used for warfarin reversal. Idarucizumab reverses dabigatran.",
+      "images": []
+    }
+  },
+  {
+    "id": "16",
+    "subject": "Pharmacology",
+    "topic": "Antihistamine",
+    "question": "The following are side effects of using 1st-generation antihistamine, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Dry mouth",
+      "Blurred vision",
+      "Sedation",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All options are side effects of 1st-generation antihistamines (anticholinergic effects + sedation). So 'None of the above' is correct.",
+      "images": []
+    }
+  },
+  {
+    "id": "17",
+    "subject": "Pharmacology",
+    "topic": "Muscle Relaxant",
+    "question": "Which treatment for muscle spasticity acts as a GABA agonist?",
+    "questionImage": null,
+    "options": [
+      "Dantrolene",
+      "Baclofen",
+      "Tizanidine",
+      "All the above"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Baclofen is a GABA agonist in the spinal cord that decreases spasticity. Dantrolene reduces Ca²⁺ release from SR; tizanidine is an α2 agonist.",
+      "images": []
+    }
+  },
+  {
+    "id": "18",
+    "subject": "Pharmacology",
+    "topic": "Anticholinesterase",
+    "question": "Organophosphate poisoning presents with the following signs and symptoms, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Diarrhea",
+      "Mydriasis",
+      "Bronchospasm",
+      "Emesis"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Organophosphate poisoning causes miosis (not mydriasis). DUMBBELSS: Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.",
+      "images": []
+    }
+  },
+  {
+    "id": "19",
+    "subject": "Pharmacology",
+    "topic": "Muscle Relaxant",
+    "question": "Baclofen is considered a:",
+    "questionImage": null,
+    "options": [
+      "Depolarizing neuromuscular blocker",
+      "Nondepolarizing neuromuscular blocker",
+      "Spasmolytic",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Baclofen is a spasmolytic (reduces spasms without paralysis). Depolarizing and nondepolarizing agents cause muscle paralysis.",
+      "images": []
+    }
+  },
+  {
+    "id": "20",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "Which is used as part of the management of benzodiazepine overdose?",
+    "questionImage": null,
+    "options": [
+      "Flumazenil",
+      "Naloxone",
+      "Atropine",
+      "Pralidoxime"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Flumazenil is a benzodiazepine antagonist, used for overdose. Not used routinely due to seizure risk. Naloxone is for opioid overdose.",
+      "images": []
+    }
+  },
+  {
+    "id": "21",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "In a patient accidentally poisoned with parathion, which is the antidote of first choice?",
+    "questionImage": null,
+    "options": [
+      "Atropine",
+      "Rivastigmine",
+      "Glucagon",
+      "Neostigmine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Atropine is the first-line antidote for organophosphate poisoning (AChE inhibitor). Pralidoxime regenerates cholinesterase but is used adjunctively.",
+      "images": []
+    }
+  },
+  {
+    "id": "22",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "In patients with organophosphate poisoning, which can regenerate cholinesterase?",
+    "questionImage": null,
+    "options": [
+      "Atropine",
+      "Pralidoxime",
+      "Diazepam",
+      "Succinylcholine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Pralidoxime regenerates cholinesterase by reactivating the phosphorylated enzyme. Atropine only blocks muscarinic effects.",
+      "images": []
+    }
+  },
+  {
+    "id": "23",
+    "subject": "Pharmacology",
+    "topic": "Beta Agonist",
+    "question": "Isoproterenol is a:",
+    "questionImage": null,
+    "options": [
+      "Beta agonist",
+      "Beta blocker",
+      "Alpha1-agonist",
+      "Alpha1-antagonist"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Isoproterenol is a non-selective beta agonist (β1 and β2). It is used for bradycardia and bronchospasm but has potent cardiac effects.",
+      "images": []
+    }
+  },
+  {
+    "id": "24",
+    "subject": "Pharmacology",
+    "topic": "Antiarrhythmic",
+    "question": "Which Group 1 antiarrhythmic tends to shorten the action potential in some cardiac tissues?",
+    "questionImage": null,
+    "options": [
+      "Procainamide",
+      "Quinidine",
+      "Disopyramide",
+      "Lidocaine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Lidocaine (Class IB) shortens the action potential duration. Class IA drugs (procainamide, quinidine, disopyramide) prolong AP.",
+      "images": []
+    }
+  },
+  {
+    "id": "25",
+    "subject": "Pharmacology",
+    "topic": "Diuretic",
+    "question": "Which can occur in patients being given thiazides for treatment of hypertension?",
+    "questionImage": null,
+    "options": [
+      "Decreased serum uric acid",
+      "Decreased serum lipid levels",
+      "Hypoglycemia",
+      "Hyperglycemia"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Thiazides cause hyperglycemia, increased serum uric acid, and increased lipid levels. They are associated with metabolic side effects.",
+      "images": []
+    }
+  },
+  {
+    "id": "26",
+    "subject": "Pharmacology",
+    "topic": "Lipid-Lowering",
+    "question": "Which drug is used as treatment for hypertriglyceridemia?",
+    "questionImage": null,
+    "options": [
+      "Cholestyramine",
+      "Ezetimibe",
+      "Fenofibrate",
+      "Any of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Fenofibrate (fibrate) is used for hypertriglyceridemia via PPARα activation. Cholestyramine and ezetimibe are for hypercholesterolemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "27",
+    "subject": "Pharmacology",
+    "topic": "Diuretic",
+    "question": "Diabetes insipidus can occur in patients given any of the following drugs, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Lithium",
+      "Demeclocycline",
+      "Thiazides",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Thiazides do not cause nephrogenic DI; they are actually used to treat it. Lithium and demeclocycline can cause nephrogenic DI.",
+      "images": []
+    }
+  },
+  {
+    "id": "28",
+    "subject": "Pharmacology",
+    "topic": "Cholinergic Agonist",
+    "question": "The following drugs cause mydriasis, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Pilocarpine",
+      "Antihistamines",
+      "Cocaine",
+      "Meperidine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Pilocarpine is a parasympathomimetic that causes miosis. Antihistamines and cocaine cause mydriasis. Meperidine is an opioid (miosis).",
+      "images": []
+    }
+  },
+  {
+    "id": "29",
+    "subject": "Pharmacology",
+    "topic": "Estrogen",
+    "question": "The use of ethinyl estradiol without progesterone can predispose to which of the following, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Endometrial cancer",
+      "DVT",
+      "Hypertriglyceridemia",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All listed are risks of unopposed estrogen: endometrial cancer, DVT, hypertriglyceridemia, hypertension, migraine. So 'None of the above' is correct.",
+      "images": []
+    }
+  },
+  {
+    "id": "30",
+    "subject": "Pharmacology",
+    "topic": "Anesthetic",
+    "question": "Which intravenous anesthetic is used for anesthesia induction for short procedures and is characterized by having a fast onset and short duration?",
+    "questionImage": null,
+    "options": [
+      "Thiopental",
+      "Nitrous oxide",
+      "Sevoflurane",
+      "Midazolam"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Thiopental is a barbiturate with high lipid solubility, fast onset, and short duration. Nitrous oxide and sevoflurane are inhaled; midazolam has slower onset.",
+      "images": []
+    }
+  },
+  {
+    "id": "31",
+    "subject": "Pharmacology",
+    "topic": "Antiseizure",
+    "question": "Which antiseizure medication works by blocking voltage-gated sodium channels?",
+    "questionImage": null,
+    "options": [
+      "Carbamazepine",
+      "Levetiracetam",
+      "Gabapentin",
+      "Ethosuximide"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Carbamazepine blocks voltage-gated sodium channels. Levetiracetam blocks SV2A; gabapentin and ethosuximide block calcium channels.",
+      "images": []
+    }
+  },
+  {
+    "id": "32",
+    "subject": "Pharmacology",
+    "topic": "Antiseizure",
+    "question": "What is the preferred drug for absence seizure which works by blocking voltage-gated calcium channels?",
+    "questionImage": null,
+    "options": [
+      "Carbamazepine",
+      "Levetiracetam",
+      "Gabapentin",
+      "Ethosuximide"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Ethosuximide is the preferred drug for absence seizures, blocking T-type calcium channels. Valproic acid is also used but has more side effects.",
+      "images": []
+    }
+  },
+  {
+    "id": "33",
+    "subject": "Pharmacology",
+    "topic": "Local Anesthetic",
+    "question": "All local anesthetics are vasodilators, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Cocaine",
+      "Lidocaine",
+      "Bupivacaine",
+      "Prilocaine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Cocaine is the only local anesthetic that causes vasoconstriction (by blocking NE reuptake). Others are vasodilators.",
+      "images": []
+    }
+  },
+  {
+    "id": "34",
+    "subject": "Pharmacology",
+    "topic": "Local Anesthetic",
+    "question": "Which local anesthetic cannot be used in patients at risk for cardiac arrhythmias?",
+    "questionImage": null,
+    "options": [
+      "Bupivacaine",
+      "Lidocaine",
+      "Benzocaine",
+      "Prilocaine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Bupivacaine is associated with severe cardiovascular toxicity and should be avoided in patients at risk for cardiac arrhythmias.",
+      "images": []
+    }
+  },
+  {
+    "id": "35",
+    "subject": "Pharmacology",
+    "topic": "Local Anesthetic",
+    "question": "What local anesthetic can lead to development of methemoglobinemia?",
+    "questionImage": null,
+    "options": [
+      "Bupivacaine",
+      "Lidocaine",
+      "Benzocaine",
+      "Prilocaine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Prilocaine can be metabolized to products that convert hemoglobin to methemoglobin. Benzocaine can also cause methemoglobinemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "36",
+    "subject": "Pharmacology",
+    "topic": "Sympathomimetic",
+    "question": "Administration of phenylephrine can result to the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Increased peripheral vascular resistance",
+      "Increased mean BP",
+      "Decreased heart rate",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Phenylephrine (α1 agonist) causes increased peripheral resistance, increased mean BP, and reflex bradycardia. All are true.",
+      "images": []
+    }
+  },
+  {
+    "id": "37",
+    "subject": "Pharmacology",
+    "topic": "Corticosteroid",
+    "question": "What is the most important anti-inflammatory drug used in asthma treatment?",
+    "questionImage": null,
+    "options": [
+      "Corticosteroids",
+      "Leukotriene antagonists",
+      "Theophylline",
+      "Cromolyn"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Inhaled corticosteroids are the most important anti-inflammatory drugs in asthma. They reduce airway inflammation and hyperreactivity.",
+      "images": []
+    }
+  },
+  {
+    "id": "38",
+    "subject": "Pharmacology",
+    "topic": "Monoclonal Antibody",
+    "question": "Which asthma treatment functions as a monoclonal antibody to human IgE?",
+    "questionImage": null,
+    "options": [
+      "Nedocromil",
+      "Omalizumab",
+      "Benralizumab",
+      "Prednisone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Omalizumab is a monoclonal antibody against IgE, used for severe allergic asthma. Benralizumab is anti-IL5.",
+      "images": []
+    }
+  },
+  {
+    "id": "39",
+    "subject": "Pharmacology",
+    "topic": "Anticholinergic",
+    "question": "What drug used in asthma works by blocking muscarinic M3 receptors in the airways to prevent bronchoconstriction?",
+    "questionImage": null,
+    "options": [
+      "Ipratropium",
+      "Budesonide",
+      "Aminophylline",
+      "Salbutamol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ipratropium is a muscarinic antagonist (M3 blocker) used for bronchoconstriction in COPD/asthma. Budesonide is steroid; aminophylline is PDE inhibitor; salbutamol is β2 agonist.",
+      "images": []
+    }
+  },
+  {
+    "id": "40",
+    "subject": "Pharmacology",
+    "topic": "Methylxanthine",
+    "question": "Overdose of methylxanthines, such as theophylline used in treatment of asthma, may lead to:",
+    "questionImage": null,
+    "options": [
+      "Arrhythmias",
+      "Stroke",
+      "Worsening of asthma",
+      "Hypotension"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Theophylline overdose can cause arrhythmias and seizures. It is a methylxanthine with a narrow therapeutic index.",
+      "images": []
+    }
+  },
+  {
+    "id": "41",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Azithromycin can be given to patients with community-acquired pneumonia using once-daily dosing due to its:",
+    "questionImage": null,
+    "options": [
+      "Long half-life",
+      "Extensive drug interactions",
+      "Ability to inhibit cytochrome P450",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Azithromycin has a long half-life (>70 hours), allowing once-daily dosing. It does not significantly inhibit CYP450 unlike erythromycin/clarithromycin.",
+      "images": []
+    }
+  },
+  {
+    "id": "42",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "The following macrolides inhibit cytochrome P450 enzymes which lead to increased serum levels of various drugs (such as warfarin), EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Erythromycin",
+      "Clarithromycin",
+      "Azithromycin",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Azithromycin does not inhibit CYP450, unlike erythromycin and clarithromycin. This makes it safer for drug interactions.",
+      "images": []
+    }
+  },
+  {
+    "id": "43",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "What drug is used as primary prophylaxis against Mycobacterium avium complex (MAC) in AIDS patients with CD4 counts < 50/μL?",
+    "questionImage": null,
+    "options": [
+      "Amikacin",
+      "Azithromycin",
+      "Isoniazid",
+      "Pyrazinamide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Azithromycin (or clarithromycin) is used for MAC prophylaxis in AIDS patients with CD4 < 50/μL. Isoniazid/pyrazinamide are for TB.",
+      "images": []
+    }
+  },
+  {
+    "id": "44",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "What is the drug of choice for treatment of syphilis?",
+    "questionImage": null,
+    "options": [
+      "Penicillin G",
+      "Ceftriaxone",
+      "Oxacillin",
+      "Doxycycline"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Penicillin G is still the drug of choice for syphilis. Ceftriaxone is an alternative. Doxycycline for penicillin-allergic patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "45",
+    "subject": "Pharmacology",
+    "topic": "Parkinson's",
+    "question": "The plasma half-life of levodopa is prolonged with the administration of:",
+    "questionImage": null,
+    "options": [
+      "Pramipexole",
+      "Apomorphine",
+      "Tolcapone",
+      "Carbidopa"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Carbidopa inhibits peripheral dopa decarboxylase, prolonging levodopa's half-life. Tolcapone is a COMT inhibitor.",
+      "images": []
+    }
+  },
+  {
+    "id": "46",
+    "subject": "Pharmacology",
+    "topic": "Parkinson's",
+    "question": "What drug used in Parkinson disease acts by inhibiting the enzyme that converts levodopa to 3-O-methyldopa?",
+    "questionImage": null,
+    "options": [
+      "Tolcapone",
+      "Selegiline",
+      "Levodopa-carbidopa",
+      "Bromocriptine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tolcapone is a COMT inhibitor that prevents conversion of levodopa to 3-O-methyldopa. Selegiline is MAO-B inhibitor.",
+      "images": []
+    }
+  },
+  {
+    "id": "47",
+    "subject": "Pharmacology",
+    "topic": "Antipsychotic",
+    "question": "Hyperprolactinemia is a side effect of which of the following drugs?",
+    "questionImage": null,
+    "options": [
+      "Bromocriptine",
+      "Cabergoline",
+      "Risperidone",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Risperidone is a dopamine receptor blocker → removes tonic inhibition of prolactin → hyperprolactinemia. Bromocriptine and cabergoline are dopamine agonists that lower prolactin.",
+      "images": []
+    }
+  },
+  {
+    "id": "48",
+    "subject": "Pharmacology",
+    "topic": "Alpha Blocker",
+    "question": "Which is used in benign prostatic hyperplasia and acts to reduce prostatic smooth muscle tone?",
+    "questionImage": null,
+    "options": [
+      "Prazosin",
+      "Finasteride",
+      "Dutasteride",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Prazosin (α1 blocker) reduces smooth muscle tone in BPH. Finasteride and dutasteride are 5α-reductase inhibitors that reduce prostate size.",
+      "images": []
+    }
+  },
+  {
+    "id": "49",
+    "subject": "Pharmacology",
+    "topic": "Inotrope",
+    "question": "What drug used in acute decompensated heart failure increases myocardial contractility by increasing cAMP through inhibition of PDE-3?",
+    "questionImage": null,
+    "options": [
+      "Dobutamine",
+      "Milrinone",
+      "Dopamine",
+      "Norepinephrine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Milrinone is a PDE3 inhibitor that increases cAMP → increased contractility. Dobutamine is a β1 agonist. Digoxin inhibits Na/K ATPase.",
+      "images": []
+    }
+  },
+  {
+    "id": "50",
+    "subject": "Pharmacology",
+    "topic": "Antiplatelet",
+    "question": "Which drug inhibits platelet aggregation by increasing levels of platelet cAMP?",
+    "questionImage": null,
+    "options": [
+      "Cilostazol",
+      "Heparin",
+      "Enoxaparin",
+      "Warfarin"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Cilostazol inhibits PDE → increases platelet cAMP → inhibits aggregation. Heparin/enoxaparin activate antithrombin; warfarin inhibits VKOR.",
+      "images": []
+    }
+  },
+  {
+    "id": "51",
+    "subject": "Pharmacology",
+    "topic": "Antiplatelet",
+    "question": "What drug can be used in the treatment of peripheral arterial disease (PAD)?",
+    "questionImage": null,
+    "options": [
+      "Cilostazol",
+      "Heparin",
+      "Enoxaparin",
+      "Warfarin"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Cilostazol is used for intermittent claudication in PAD. It improves walking distance. Anticoagulants are not first-line for PAD.",
+      "images": []
+    }
+  },
+  {
+    "id": "52",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following is NOT a characteristic of Aztreonam?",
+    "questionImage": null,
+    "options": [
+      "No activity against Gram (+) bacteria",
+      "No activity against anaerobes",
+      "Has cross-allergenicity with penicillins",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Aztreonam has NO cross-allergenicity with penicillins. It is a monobactam active against Gram (-), no activity against Gram (+) or anaerobes.",
+      "images": []
+    }
+  },
+  {
+    "id": "53",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Rapid infusion of vancomycin may lead to:",
+    "questionImage": null,
+    "options": [
+      "Red man syndrome",
+      "Jarisch-Herxheimer syndrome",
+      "Cyanosis",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Red man syndrome (diffuse flushing) results from rapid IV vancomycin infusion due to histamine release. Slow infusion prevents it.",
+      "images": []
+    }
+  },
+  {
+    "id": "54",
+    "subject": "Pharmacology",
+    "topic": "Osteoporosis",
+    "question": "Which drug that affects bone mineral metabolism can be administered subcutaneously?",
+    "questionImage": null,
+    "options": [
+      "Alendronate",
+      "Raloxifene",
+      "Denosumab",
+      "Cinacalcet"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Denosumab (anti-RANKL) is given subcutaneously. Alendronate is oral; raloxifene is oral; cinacalcet is oral.",
+      "images": []
+    }
+  },
+  {
+    "id": "55",
+    "subject": "Pharmacology",
+    "topic": "Monoclonal Antibody",
+    "question": "Which drug used in severe plaque psoriasis is a human IgG1 monoclonal antibody that prevents the binding of IL-17A to IL-17A receptor?",
+    "questionImage": null,
+    "options": [
+      "Secukinumab",
+      "Infliximab",
+      "Methotrexate",
+      "Tocilizumab"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Secukinumab is anti-IL17A for psoriasis. Infliximab is anti-TNF; methotrexate is DHFR inhibitor; tocilizumab is anti-IL6.",
+      "images": []
+    }
+  },
+  {
+    "id": "56",
+    "subject": "Pharmacology",
+    "topic": "Diuretic",
+    "question": "A patient with sulfa allergy should avoid thiazides, furosemide, sulfonylureas, but which diuretic is safe?",
+    "questionImage": null,
+    "options": [
+      "Thiazides",
+      "Ethacrynic acid",
+      "Furosemide",
+      "Sulfonylureas"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ethacrynic acid is a non-sulfonamide diuretic, safe in sulfa allergy. Thiazides, furosemide, and sulfonylureas are sulfa-containing.",
+      "images": []
+    }
+  },
+  {
+    "id": "57",
+    "subject": "Pharmacology",
+    "topic": "GnRH Agonist",
+    "question": "Continuous administration of GnRH agonists is used in patients with advanced prostate cancer. Which is a GnRH agonist?",
+    "questionImage": null,
+    "options": [
+      "Leuprolide",
+      "Degarelix",
+      "Clomiphene",
+      "Anastrozole"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Leuprolide is a GnRH agonist. Degarelix is a GnRH antagonist. Clomiphene is a SERM; anastrozole is an aromatase inhibitor.",
+      "images": []
+    }
+  },
+  {
+    "id": "58",
+    "subject": "Pharmacology",
+    "topic": "GnRH Agonist",
+    "question": "Continuous administration of GnRH agonists can result in the following adverse effects, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Hot flushes",
+      "Gynecomastia",
+      "Reduced bone density",
+      "Increased hematocrit"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "GnRH agonists cause decreased hematocrit (not increased). Adverse effects: hot flushes, sweats, gynecomastia, reduced libido, decreased hematocrit, reduced bone density.",
+      "images": []
+    }
+  },
+  {
+    "id": "59",
+    "subject": "Pharmacology",
+    "topic": "Antithyroid",
+    "question": "Methimazole use during pregnancy is associated with which teratogenic effect?",
+    "questionImage": null,
+    "options": [
+      "Aplasia cutis",
+      "Thyroglossal duct cyst",
+      "Agranulocytosis",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Methimazole is teratogenic and can cause aplasia cutis in the newborn. Agranulocytosis is a side effect but not a teratogenic effect.",
+      "images": []
+    }
+  },
+  {
+    "id": "60",
+    "subject": "Pharmacology",
+    "topic": "Vasopressin Analog",
+    "question": "What drug can be used in von Willebrand disease to release vWF from endothelium stores?",
+    "questionImage": null,
+    "options": [
+      "Demecolcycline",
+      "Desmopressin",
+      "Dexamethasone",
+      "Doxycycline"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Desmopressin (DDAVP) releases von Willebrand factor from endothelial stores, used in mild vWD and hemophilia A.",
+      "images": []
+    }
+  },
+  {
+    "id": "61",
+    "subject": "Pharmacology",
+    "topic": "Prostaglandin Analog",
+    "question": "Misoprostol is sometimes used in patients at risk of developing ulcers such as those taking NSAIDs. It acts by:",
+    "questionImage": null,
+    "options": [
+      "Increasing mucosal protection",
+      "Irreversibly inactivating H+/K+ ATPase",
+      "Neutralizing stomach acid",
+      "Acting as H2 receptor antagonist"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Misoprostol is a PGE1 analog that increases mucosal protection. PPIs inactivate H+/K+ ATPase; antacids neutralize; H2 blockers block H2 receptors.",
+      "images": []
+    }
+  },
+  {
+    "id": "62",
+    "subject": "Pharmacology",
+    "topic": "Osteoporosis",
+    "question": "Which drug used in patients with osteoporosis increases osteoblastic activity by acting as PTH analog?",
+    "questionImage": null,
+    "options": [
+      "Bisphosphonates",
+      "Strontium",
+      "Teriparatide",
+      "Glucocorticoids"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Teriparatide is recombinant PTH that increases osteoblastic activity, used for osteoporosis. Bisphosphonates inhibit osteoclasts.",
+      "images": []
+    }
+  },
+  {
+    "id": "63",
+    "subject": "Pharmacology",
+    "topic": "Antifungal",
+    "question": "Amphotericin B acts as an antifungal by creating artificial pores in the fungal cell membrane by binding to:",
+    "questionImage": null,
+    "options": [
+      "Cholesterol",
+      "Ergosterol",
+      "Lanosterol",
+      "Squalene"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Amphotericin B binds to ergosterol in fungal membranes, forming pores. It does not bind to cholesterol (mammalian) as avidly.",
+      "images": []
+    }
+  },
+  {
+    "id": "64",
+    "subject": "Pharmacology",
+    "topic": "Antifungal",
+    "question": "What drug used in dermatophytes acts by interfering with microtubule function?",
+    "questionImage": null,
+    "options": [
+      "Griseofulvin",
+      "Terbinafine",
+      "Amphotericin B",
+      "Ketoconazole"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Griseofulvin interferes with microtubule function, used for dermatophyte infections. Terbinafine inhibits squalene epoxidase; azoles inhibit ergosterol synthesis.",
+      "images": []
+    }
+  },
+  {
+    "id": "65",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which carbapenem is not active against Pseudomonas?",
+    "questionImage": null,
+    "options": [
+      "Ertapenem",
+      "Meropenem",
+      "Imipenem",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ertapenem lacks activity against Pseudomonas aeruginosa. Meropenem, imipenem, and doripenem have Pseudomonas coverage.",
+      "images": []
+    }
+  },
+  {
+    "id": "66",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "What is the suggested treatment for gonorrhea?",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone",
+      "Amoxicillin",
+      "Meropenem",
+      "Piperacillin-tazobactam"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ceftriaxone IM is the treatment of choice for gonorrhea, often combined with azithromycin for chlamydia coverage.",
+      "images": []
+    }
+  },
+  {
+    "id": "67",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which antibiotic can cause tendon rupture in patients >60 years old?",
+    "questionImage": null,
+    "options": [
+      "Daptomycin",
+      "Metronidazole",
+      "Penicillins",
+      "Fluoroquinolones"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Fluoroquinolones are associated with tendinitis and tendon rupture, especially in patients >60, with corticosteroids, and renal impairment.",
+      "images": []
+    }
+  },
+  {
+    "id": "68",
+    "subject": "Pharmacology",
+    "topic": "Antidepressant",
+    "question": "Overdose of which drug can manifest with prolonged QT, convulsions, and coma?",
+    "questionImage": null,
+    "options": [
+      "SSRIs",
+      "Lithium",
+      "TCAs",
+      "Any of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "TCA overdose: prolonged QT, coma, convulsions. SSRIs cause serotonin syndrome; lithium causes nausea, vomiting, seizures, ataxia, nephrogenic DI.",
+      "images": []
+    }
+  },
+  {
+    "id": "69",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "What is considered as the single most important drug used in TB?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Isoniazid is the single most important drug in TB treatment due to its potency and early bactericidal activity. Rifampin is also key but INH is primary.",
+      "images": []
+    }
+  },
+  {
+    "id": "70",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which anti-TB drug can increase the rate of elimination of certain drugs such as contraceptives?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rifampin is a potent CYP450 inducer, increasing elimination of contraceptives, warfarin, and many other drugs. Isoniazid is an inhibitor.",
+      "images": []
+    }
+  },
+  {
+    "id": "71",
+    "subject": "Pharmacology",
+    "topic": "Cardiac Glycoside",
+    "question": "What drug used in heart failure increases cardiac contractility by inhibiting the Na+/K+ ATPase pump?",
+    "questionImage": null,
+    "options": [
+      "Dobutamine",
+      "Norepinephrine",
+      "Digoxin",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Digoxin inhibits Na+/K+ ATPase → increased intracellular Ca²⁺ → increased contractility. Dobutamine is a β1 agonist.",
+      "images": []
+    }
+  },
+  {
+    "id": "72",
+    "subject": "Pharmacology",
+    "topic": "Beta Blocker",
+    "question": "Which of the following conditions can be exacerbated by the administration of metoprolol?",
+    "questionImage": null,
+    "options": [
+      "Asthma",
+      "Vasospastic angina",
+      "COPD",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Metoprolol (β1-selective blocker) can exacerbate asthma, COPD (β2 blockade at high doses), and vasospastic angina (unopposed α constriction).",
+      "images": []
+    }
+  },
+  {
+    "id": "73",
+    "subject": "Pharmacology",
+    "topic": "Anticholinergic",
+    "question": "Administration of typical antipsychotics can precipitate an episode of acute dystonia. Which can be given to treat this condition?",
+    "questionImage": null,
+    "options": [
+      "Benztropine",
+      "Phentolamine",
+      "Lithium",
+      "Cyproheptadine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Benztropine (anticholinergic) or diphenhydramine treats acute dystonia from antipsychotics. Cyproheptadine is for serotonin syndrome.",
+      "images": []
+    }
+  },
+  {
+    "id": "74",
+    "subject": "Pharmacology",
+    "topic": "Chemotherapy",
+    "question": "What can be administered to reduce the incidence of hemorrhagic cystitis in patients being given cyclophosphamide?",
+    "questionImage": null,
+    "options": [
+      "Mesna",
+      "Dexrazoxane",
+      "Leucovorin",
+      "Folic acid"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Mesna traps acrolein, a toxic metabolite of cyclophosphamide, preventing hemorrhagic cystitis. Dexrazoxane protects against anthracycline cardiotoxicity.",
+      "images": []
+    }
+  },
+  {
+    "id": "75",
+    "subject": "Pharmacology",
+    "topic": "Chemotherapy",
+    "question": "Which rescue therapy can be given to patients receiving anthracyclines to reduce the chance of developing cardiotoxicity?",
+    "questionImage": null,
+    "options": [
+      "Mesna",
+      "Dexrazoxane",
+      "Leucovorin",
+      "Folic acid"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Dexrazoxane chelates iron and reduces free radical formation from anthracyclines, protecting against cardiotoxicity. Leucovorin rescues methotrexate toxicity.",
+      "images": []
+    }
+  },
+  {
+    "id": "76",
+    "subject": "Pharmacology",
+    "topic": "Anti-ischemic",
+    "question": "Which anti-ischemic drug acts as a partial fatty acid oxidation inhibitor?",
+    "questionImage": null,
+    "options": [
+      "Metoprolol",
+      "Verapamil",
+      "Trimetazidine",
+      "Ranolazine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Trimetazidine shifts cardiac energy metabolism from fatty acids to glucose, improving efficiency. Ranolazine inhibits late Na⁺ current.",
+      "images": []
+    }
+  },
+  {
+    "id": "77",
+    "subject": "Pharmacology",
+    "topic": "PDE5 Inhibitor",
+    "question": "Which is contraindicated when taking nitroglycerin?",
+    "questionImage": null,
+    "options": [
+      "Sildenafil",
+      "Metoprolol",
+      "Losartan",
+      "Atorvastatin"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Sildenafil (PDE5 inhibitor) with nitrates causes severe hypotension due to synergistic vasodilation. Contraindicated.",
+      "images": []
+    }
+  },
+  {
+    "id": "78",
+    "subject": "Pharmacology",
+    "topic": "Antitussive",
+    "question": "Which antitussive acts as a weak μ receptor agonist?",
+    "questionImage": null,
+    "options": [
+      "Dextromethorphan",
+      "Codeine",
+      "Hydrocodone",
+      "Benzonatate"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Dextromethorphan is a weak μ opioid agonist used as an antitussive. It does not cause significant dependence at therapeutic doses.",
+      "images": []
+    }
+  },
+  {
+    "id": "79",
+    "subject": "Pharmacology",
+    "topic": "Anesthetic",
+    "question": "Propofol is NOT associated with which of the following?",
+    "questionImage": null,
+    "options": [
+      "Antiemetic action",
+      "Marked decrease in BP",
+      "Highly emetogenic",
+      "Rapid induction"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Propofol has antiemetic properties. It is NOT highly emetogenic; it is used for its antiemetic effects. It can cause hypotension.",
+      "images": []
+    }
+  },
+  {
+    "id": "80",
+    "subject": "Pharmacology",
+    "topic": "Anticholinergic",
+    "question": "Which antimuscarinic drug is used in Parkinson disease to improve rigidity and tremors but has minimal effect on bradykinesia?",
+    "questionImage": null,
+    "options": [
+      "Benztropine",
+      "Trihexyphenidyl",
+      "Diphenhydramine",
+      "Amantadine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Benztropine is an anticholinergic used for Parkinson's, improving tremor and rigidity but not bradykinesia. Amantadine is also used.",
+      "images": []
+    }
+  },
+  {
+    "id": "81",
+    "subject": "Pharmacology",
+    "topic": "Serotonin Syndrome",
+    "question": "A patient taking fluoxetine suddenly develops neuromuscular hyperexcitability, autonomic instability, and agitation. What drug most likely precipitated serotonin syndrome?",
+    "questionImage": null,
+    "options": [
+      "Tramadol",
+      "Paracetamol",
+      "Metoprolol",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tramadol (and other serotonergic drugs) with SSRIs can precipitate serotonin syndrome. Others include MAOIs, SNRIs, TCAs, triptans, linezolid.",
+      "images": []
+    }
+  },
+  {
+    "id": "82",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "Which of the following is NOT a characteristic of Tramadol?",
+    "questionImage": null,
+    "options": [
+      "Weak mu receptor agonist",
+      "Blocks reuptake of serotonin",
+      "Should not be given in patients with history of seizure",
+      "None of the above"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "All are true: weak μ agonist, blocks serotonin reuptake, lowers seizure threshold, should be avoided in seizure patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "83",
+    "subject": "Pharmacology",
+    "topic": "Reye Syndrome",
+    "question": "A child with chickenpox given aspirin develops hepatic encephalopathy, vomiting, and hypoglycemia. What is the most likely diagnosis?",
+    "questionImage": null,
+    "options": [
+      "Viral hepatitis A",
+      "Reye syndrome",
+      "Wilson disease",
+      "Acute Hepatitis B"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Reye syndrome: aspirin use during viral infection (VZV, influenza) → hepatic encephalopathy, hypoglycemia, vomiting, hepatomegaly.",
+      "images": []
+    }
+  },
+  {
+    "id": "84",
+    "subject": "Pharmacology",
+    "topic": "Reye Syndrome",
+    "question": "What is the most likely cause of Reye syndrome?",
+    "questionImage": null,
+    "options": [
+      "Administering paracetamol",
+      "Administering aspirin",
+      "Exposure to a virus",
+      "Autosomal recessive mutation"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Reye syndrome is caused by aspirin use during viral infection (VZV, influenza). Acetaminophen is not associated with Reye syndrome.",
+      "images": []
+    }
+  },
+  {
+    "id": "85",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Ceftaroline, a 5th generation cephalosporin, has no coverage against?",
+    "questionImage": null,
+    "options": [
+      "Pseudomonas",
+      "MRSA",
+      "Enterococcus",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ceftaroline covers MRSA and Enterococcus faecalis but lacks activity against Pseudomonas aeruginosa. It is the only cephalosporin with MRSA coverage.",
+      "images": []
+    }
+  },
+  {
+    "id": "86",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which carbapenem should always be administered with cilastatin?",
+    "questionImage": null,
+    "options": [
+      "Meropenem",
+      "Imipenem",
+      "Ertapenem",
+      "Doripenem"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Imipenem is given with cilastatin to inhibit renal dehydropeptidase I, preventing inactivation of imipenem. Other carbapenems do not require cilastatin.",
+      "images": []
+    }
+  },
+  {
+    "id": "87",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which drug can kill more bacteria as its plasma level increases above its minimal inhibitory concentration (MIC)?",
+    "questionImage": null,
+    "options": [
+      "Aminoglycosides",
+      "Cephalosporins",
+      "Penicillins",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Aminoglycosides exhibit concentration-dependent killing. Cephalosporins and penicillins exhibit time-dependent killing (related to time above MIC).",
+      "images": []
+    }
+  },
+  {
+    "id": "88",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which antibiotic functions by binding to the 30S ribosomal subunit?",
+    "questionImage": null,
+    "options": [
+      "Amikacin",
+      "Clindamycin",
+      "Erythromycin",
+      "Linezolid"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Aminoglycosides (amikacin) bind to 30S subunit, causing misreading. Clindamycin, erythromycin, and linezolid bind to 50S subunit.",
+      "images": []
+    }
+  },
+  {
+    "id": "89",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "What is the drug of first choice in prophylaxis against Pneumocystis jirovecii in patients with AIDS?",
+    "questionImage": null,
+    "options": [
+      "Pentamidine",
+      "Atovaquone",
+      "Trimethoprim-sulfamethoxazole",
+      "Melarsoprol"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "TMP-SMZ is first-line for P. jirovecii prophylaxis in AIDS patients. Alternatives include pentamidine and atovaquone.",
+      "images": []
+    }
+  },
+  {
+    "id": "90",
+    "subject": "Pharmacology",
+    "topic": "CYP Inducer",
+    "question": "Which of the following is a CYP450 inducer?",
+    "questionImage": null,
+    "options": [
+      "Rifampin",
+      "Cimetidine",
+      "Ketoconazole",
+      "Grapefruit juice"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Rifampin is a potent CYP450 inducer. Cimetidine, ketoconazole, and grapefruit juice are inhibitors.",
+      "images": []
+    }
+  },
+  {
+    "id": "91",
+    "subject": "Pharmacology",
+    "topic": "CYP Inhibitor",
+    "question": "Which of the following is a CYP450 inhibitor?",
+    "questionImage": null,
+    "options": [
+      "Phenytoin",
+      "Carbamazepine",
+      "Cimetidine",
+      "Chronic alcohol"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cimetidine inhibits CYP450. Phenytoin, carbamazepine, and chronic alcohol are inducers (chronic alcohol induces; acute alcohol inhibits).",
+      "images": []
+    }
+  },
+  {
+    "id": "92",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which antibiotic is associated with red man syndrome?",
+    "questionImage": null,
+    "options": [
+      "Vancomycin",
+      "Teicoplanin",
+      "Daptomycin",
+      "Linezolid"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Rapid IV infusion of vancomycin causes red man syndrome due to histamine release. Teicoplanin has lower risk.",
+      "images": []
+    }
+  },
+  {
+    "id": "93",
+    "subject": "Pharmacology",
+    "topic": "Cardiac Glycoside",
+    "question": "Which drug used in heart failure acts by blocking the Na+/K+ ATPase pump?",
+    "questionImage": null,
+    "options": [
+      "Digoxin",
+      "Dobutamine",
+      "Milrinone",
+      "Norepinephrine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Digoxin inhibits Na+/K+ ATPase. Dobutamine is a β1 agonist; milrinone is a PDE3 inhibitor.",
+      "images": []
+    }
+  },
+  {
+    "id": "94",
+    "subject": "Pharmacology",
+    "topic": "Antidiabetic",
+    "question": "Which drug is a DPP-4 inhibitor used in type 2 diabetes?",
+    "questionImage": null,
+    "options": [
+      "Sitagliptin",
+      "Liraglutide",
+      "Canagliflozin",
+      "Glipizide"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Sitagliptin is a DPP-4 inhibitor. Liraglutide is GLP-1 analog; canagliflozin is SGLT2 inhibitor; glipizide is sulfonylurea.",
+      "images": []
+    }
+  },
+  {
+    "id": "95",
+    "subject": "Pharmacology",
+    "topic": "Antihypertensive",
+    "question": "Which antihypertensive is a direct renin inhibitor?",
+    "questionImage": null,
+    "options": [
+      "Aliskiren",
+      "Losartan",
+      "Enalapril",
+      "Amlodipine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Aliskiren is a direct renin inhibitor. Losartan is ARB, enalapril is ACEi, amlodipine is CCB.",
+      "images": []
+    }
+  },
+  {
+    "id": "96",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which antibiotic inhibits cell wall synthesis by binding to penicillin-binding proteins?",
+    "questionImage": null,
+    "options": [
+      "Penicillins",
+      "Macrolides",
+      "Tetracyclines",
+      "Aminoglycosides"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Penicillins bind to PBPs and inhibit cell wall synthesis. Macrolides, tetracyclines, and aminoglycosides inhibit protein synthesis.",
+      "images": []
+    }
+  },
+  {
+    "id": "97",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "Which drug is used in opioid overdose to reverse respiratory depression?",
+    "questionImage": null,
+    "options": [
+      "Naloxone",
+      "Flumazenil",
+      "Atropine",
+      "Pralidoxime"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Naloxone is a pure opioid antagonist used to reverse opioid overdose. Flumazenil is for benzodiazepines.",
+      "images": []
+    }
+  },
+  {
+    "id": "98",
+    "subject": "Pharmacology",
+    "topic": "PPI",
+    "question": "Which drug is a proton pump inhibitor used for GERD?",
+    "questionImage": null,
+    "options": [
+      "Omeprazole",
+      "Ranitidine",
+      "Misoprostol",
+      "Sucralfate"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Omeprazole is a PPI that irreversibly inhibits H+/K+ ATPase. Ranitidine is H2 blocker; misoprostol is PGE analog; sucralfate forms a protective barrier.",
+      "images": []
+    }
+  },
+  {
+    "id": "99",
+    "subject": "Pharmacology",
+    "topic": "SERM",
+    "question": "Which drug is a selective estrogen receptor modulator used for breast cancer prevention?",
+    "questionImage": null,
+    "options": [
+      "Tamoxifen",
+      "Raloxifene",
+      "Clomiphene",
+      "Letrozole"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tamoxifen is a SERM used for breast cancer prevention and treatment. Raloxifene is for osteoporosis; clomiphene for ovulation; letrozole is aromatase inhibitor.",
+      "images": []
+    }
+  },
+  {
+    "id": "100",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which antibiotic is a 5th generation cephalosporin with MRSA coverage?",
+    "questionImage": null,
+    "options": [
+      "Ceftaroline",
+      "Ceftriaxone",
+      "Cefepime",
+      "Ceftazidime"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ceftaroline is the only 5th generation cephalosporin with MRSA coverage. Ceftriaxone is 3rd gen; cefepime is 4th gen; ceftazidime is 3rd gen with Pseudomonas coverage.",
+      "images": []
+    }
+  },
+  {
+    "id": "101",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Select the antibiotic regimen NOT approved by the Center for Disease Control in the management of pelvic inflammatory disease:",
+    "questionImage": null,
+    "options": [
+      "Clindamycin plus gentamycin",
+      "Ceftriaxone with doxycycline",
+      "Co-amoxiclav plus doxycycline",
+      "Cefoxitin plus doxycycline"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Co-amoxiclav contains amoxicillin and clavulanic acid. The use of Amoxicillin + Clavulanic acid (Co-amoxiclav) is not part of the CDC recommendations for the treatment of PID. The recommended regimens include options with a combination of a cephalosporin (ceftriaxone or cefoxitin) plus doxycycline or a combination of azithromycin plus metronidazole.",
+      "images": []
+    }
+  },
+  {
+    "id": "102",
+    "subject": "Pharmacology",
+    "topic": "Beta Agonist",
+    "question": "Which of the following autonomic nervous system receptors should be targeted and stimulated to control the preterm labor of a pregnant woman?",
+    "questionImage": null,
+    "options": [
+      "Muscarinic receptor",
+      "Beta-2 receptor",
+      "Beta-1 receptor",
+      "Nicotinic receptor"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Beta-2 receptors are primarily found in the lungs and smooth muscles of blood vessels and the uterus. Stimulation of beta-2 receptors leads to relaxation of smooth muscles, including the uterine smooth muscle. Beta-2 agonists are commonly used to inhibit uterine contractions and are, therefore, a suitable target to control preterm labor.",
+      "images": []
+    }
+  },
+  {
+    "id": "103",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Junjun is diagnosed with multiple sexually transmitted diseases namely: syphilis, gonorrhea and chlamydia. Select the antibiotic that can cure all three infections:",
+    "questionImage": null,
+    "options": [
+      "Trimethoprim/Sulfamethoxazole",
+      "Ceftriaxone",
+      "Streptomycin",
+      "Doxycycline"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Causative agents for syphilis (Treponema pallidum), chlamydia (Chlamydia trachomatis), and gonorrhea (Neisseria gonorrheae) are gram-negative bacteria which are covered by ceftriaxone. From the 2015 STD guidelines, the CDC recommends treatment for a gonorrhea-chlamydia coinfection with azithromycin plus ceftriaxone as first-line therapy. Ceftriaxone has also shown antitreponemal activity in clinical trials.",
+      "images": []
+    }
+  },
+  {
+    "id": "104",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Identify the penicillinase-resistant antibiotic:",
+    "questionImage": null,
+    "options": [
+      "Carbenicillin",
+      "Bacampicillin",
+      "Methicillin",
+      "Piperacillin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Penicillinase resistant penicillins are antibiotics which are not inactivated by the penicillinase enzyme. Extended-spectrum penicillins (carbenicillin, bacampicillin, piperacillin) have greater activity against gram-negative bacteria but are inactivated by many β-lactamases. Methicillin is a penicillinase-resistant penicillin.",
+      "images": []
+    }
+  },
+  {
+    "id": "105",
+    "subject": "Pharmacology",
+    "topic": "Prostaglandin Analog",
+    "question": "Select among the following drugs used in gastritis is categorized as pregnancy category X:",
+    "questionImage": null,
+    "options": [
+      "Ranitidine",
+      "Omeprazole",
+      "Sucralfate",
+      "Misoprostol"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Misoprostol is a prostaglandin analog that helps prevent stomach ulcers. It is categorized as pregnancy category X, signifying that studies in animals or humans have shown fetal abnormalities, and the risk of use during pregnancy clearly outweighs any potential benefit.",
+      "images": []
+    }
+  },
+  {
+    "id": "106",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Joel, 23 years old, developed blisters that transformed into open genital sores. The following results can be achieved by giving Joel oral acyclovir:",
+    "questionImage": null,
+    "options": [
+      "Decrease severity of recurrent infection",
+      "No effect on number of lesions of initial infection",
+      "Decrease frequency of recurrent infection",
+      "Reduce pain felt by the patient"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Acyclovir is a purine analog that needs to be converted to nucleoside triphosphate for activity. Acyclovir does not eradicate latent virus; it has good CSF penetration. In first episodes of genital herpes, oral acyclovir shortens the duration of symptoms by approximately 2 days, the time to lesion healing by 4 days, and the duration of viral shedding by 7 days. Treatment of first episode genital herpes does not alter the frequency or severity of recurrent outbreaks.",
+      "images": []
+    }
+  },
+  {
+    "id": "107",
+    "subject": "Pharmacology",
+    "topic": "Anticholinergic",
+    "question": "Jojo is suffering from acute urinary retention. The doctor can prescribe the following medications, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Tamsulosin",
+      "Bethanechol",
+      "Ipratropium",
+      "Dutasteride"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ipratropium is an antimuscarinic bronchodilator commonly used in respiratory conditions. While it is not typically prescribed for urinary retention, it is worth noting that antimuscarinic medications can sometimes contribute to urinary retention. Tamsulosin is an alpha-1 blocker, bethanechol is a cholinergic agonist, and dutasteride is a 5-alpha-reductase inhibitor used in BPH.",
+      "images": []
+    }
+  },
+  {
+    "id": "108",
+    "subject": "Pharmacology",
+    "topic": "Corticosteroid",
+    "question": "Aling Julia has been taking prednisone for her allergy for the last 2 years without consulting a doctor. As a doctor you should warn her regarding the following ill effects of chronic use of this drug, except:",
+    "questionImage": null,
+    "options": [
+      "Hyperglycemia",
+      "Increased bone density",
+      "Decreased secretion of endogenous ACTH",
+      "Increased susceptibility to infection"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Glucocorticoids induced osteoporosis is one of the well-known and devastating adverse effects of long-term use of glucocorticoids. Up to 40% of patients on long-term glucocorticoids develop bone loss leading to fractures. Several mechanisms play a role, including osteoclast activation by promoting RANK-ligand as well as a decrease in function and number of osteoblasts and osteocytes.",
+      "images": []
+    }
+  },
+  {
+    "id": "109",
+    "subject": "Pharmacology",
+    "topic": "ACE Inhibitor",
+    "question": "Julius has been taking Captopril for the last year for hypertension. As an adverse effect of this drug, he has been complaining of:",
+    "questionImage": null,
+    "options": [
+      "Headache",
+      "Vomiting",
+      "Non-healing wound",
+      "Dry cough"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Adverse effects common to all ACE inhibitors include a dry cough and, rarely, angioedema, especially of the face (both due to increased bradykinin levels), hypotension, and hyperkalemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "110",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Sulfamethoxazole may cause precipitation of crystals in the collecting tubules of the kidneys. This crystallization predisposed in:",
+    "questionImage": null,
+    "options": [
+      "Co-administration of trimethoprim",
+      "Acidic urine",
+      "Low urinary concentration of the drug",
+      "High urinary solubility of the drug"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Sulfa crystals can be seen with both sulfamethoxazole and sulfadiazine. The major metabolite of sulfamethoxazole in urine is N-acetyl sulfamethoxazole. The crystals generally are pleomorphic and form in acidic urine. Treatment involves stopping the drug treatment and alkalinizing the urine with intravenous fluids.",
+      "images": []
+    }
+  },
+  {
+    "id": "111",
+    "subject": "Pharmacology",
+    "topic": "Beta Agonist",
+    "question": "Fast acting drug used in the management of bronchial asthma is:",
+    "questionImage": null,
+    "options": [
+      "Montelukast",
+      "Cromolyn sodium",
+      "Methylprednisolone",
+      "Salbutamol"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Albuterol (Salbutamol), terbutaline, pirbuterol, and metaproterenol have enhanced β2-receptor selectivity. These agents are generally administered by inhalation and their onset of action is 1–5 minutes. Some preparations are available for oral administration.",
+      "images": []
+    }
+  },
+  {
+    "id": "112",
+    "subject": "Pharmacology",
+    "topic": "NSAID",
+    "question": "Rofecoxib has been removed from the market due to increased risk of myocardial infarction. This can be a result of:",
+    "questionImage": null,
+    "options": [
+      "Increased atherosclerosis",
+      "Increased risk of GI bleeding",
+      "Increased risk of thrombosis",
+      "Hyponatremia"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Selectivity for the COX-2 enzyme proves to be gastroprotective, which is a major benefit for pain management in patients with GI complications. However, COX-2 selective inhibition can increase the risk of cardiovascular events in patients with preexisting cardiovascular disease. This prothrombotic risk results from thromboxane A2–mediated vasoconstriction and platelet aggregation, which will remain unbalanced and unopposed when prostacyclin activity is suppressed via COX-2 inhibition.",
+      "images": []
+    }
+  },
+  {
+    "id": "113",
+    "subject": "Pharmacology",
+    "topic": "Cholinesterase Inhibitor",
+    "question": "Select the drug that can inhibit the metabolism of acetylcholine:",
+    "questionImage": null,
+    "options": [
+      "Pargyline",
+      "Selegiline",
+      "Tolcapone",
+      "Neostigmine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Neostigmine is an acetylcholinesterase inhibitor. Unlike the other options, neostigmine directly inhibits the breakdown of acetylcholine by inhibiting acetylcholinesterase. This leads to an increase in acetylcholine levels, making it useful in conditions where enhanced cholinergic activity is desired, such as in the treatment of myasthenia gravis.",
+      "images": []
+    }
+  },
+  {
+    "id": "114",
+    "subject": "Pharmacology",
+    "topic": "Botulinum Toxin",
+    "question": "Botulinum (Botox) is being used in dermatology to reduce wrinkles. This is achieved by blocking the interaction between:",
+    "questionImage": null,
+    "options": [
+      "Epinephrine and alpha-1 receptors",
+      "Epinephrine and beta-1 receptors",
+      "Acetylcholine and nicotinic receptors",
+      "Acetylcholine and muscarinic receptors"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Botulinum toxin blocks the release of acetylcholine at the neuromuscular junction by cleaving SNARE proteins, preventing vesicle fusion and neurotransmitter release. This action primarily affects cholinergic synapses involving nicotinic receptors.",
+      "images": []
+    }
+  },
+  {
+    "id": "115",
+    "subject": "Pharmacology",
+    "topic": "Antiplatelet",
+    "question": "Select the anti-platelet drug that works by inhibiting glycoprotein IIb/IIIa:",
+    "questionImage": null,
+    "options": [
+      "Aspirin",
+      "Abciximab",
+      "Cilostazol",
+      "Dipyridamole"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Abciximab is a glycoprotein IIb/IIIa inhibitor. It binds to the glycoprotein IIb/IIIa receptors on the surface of platelets, preventing the final common pathway of platelet aggregation.",
+      "images": []
+    }
+  },
+  {
+    "id": "116",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "The patient was complaining of extreme knee pain associated with erythema, swelling of the knee. Your diagnosis is septic arthritis. Gram stain of the synovial fluid secured through arthrocentesis revealed gram positive cocci. The empiric treatment should be:",
+    "questionImage": null,
+    "options": [
+      "Streptomycin",
+      "Azithromycin",
+      "Vancomycin",
+      "Ceftriaxone"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Vancomycin is a glycopeptide antibiotic with excellent activity against gram-positive cocci, including Staphylococcus aureus, which is a common pathogen in septic arthritis. It is often used as empiric therapy until the specific pathogen is identified.",
+      "images": []
+    }
+  },
+  {
+    "id": "117",
+    "subject": "Pharmacology",
+    "topic": "Cardiac Glycoside",
+    "question": "Which electrolyte disturbance is seen in prolonged digoxin therapy or digoxin overdose?",
+    "questionImage": null,
+    "options": [
+      "Hypomagnesemia",
+      "Hyperkalemia",
+      "Hypocalcemia",
+      "Hypernatremia"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Prolonged digoxin therapy or overdose can lead to hypomagnesemia. Magnesium is essential for proper cardiac function, and low magnesium levels can enhance the toxic effects of digoxin. Hypomagnesemia may contribute to increased digoxin toxicity.",
+      "images": []
+    }
+  },
+  {
+    "id": "118",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "A patient was given a high dose of Physostigmine and is manifesting toxicity. Identify the antidote:",
+    "questionImage": null,
+    "options": [
+      "Acetylcholine",
+      "Pralidoxime",
+      "Flumazenil",
+      "Ipratropium Bromide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Pralidoxime, also known as 2-PAM, is an antidote for organophosphate poisoning, including Physostigmine toxicity. Physostigmine, an acetylcholinesterase inhibitor, can lead to cholinergic toxicity, and Pralidoxime helps regenerate active acetylcholinesterase, reversing the toxic effects.",
+      "images": []
+    }
+  },
+  {
+    "id": "119",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following conditions is resistant to Sulfamethoxazole/Trimethoprim combination?",
+    "questionImage": null,
+    "options": [
+      "Escherichia coli",
+      "Pneumocystis carinii",
+      "Mycobacterium tuberculosis",
+      "Shigella spp."
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Many pathogens are typically resistant to TMP-SMX. These include Pseudomonas aeruginosa, Bacteroides fragilis (and most other anaerobes), Mycobacterium tuberculosis, Treponema pallidum, Campylobacter, penicillin-resistant Streptococcus pneumoniae, and Rickettsiae.",
+      "images": []
+    }
+  },
+  {
+    "id": "120",
+    "subject": "Pharmacology",
+    "topic": "Cardiac Glycoside",
+    "question": "Juan has been diagnosed with rheumatic heart disease. ECG of Juan revealed atrial fibrillation. The consultant started Juan on Digoxin. Select the rationale for such medication.",
+    "questionImage": null,
+    "options": [
+      "Increase conductivity of the AV node",
+      "Increase automaticity of the heart",
+      "Increase in excitability of the atria and ventricles",
+      "Increase the effective refractory period of the AV node"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Digoxin is a cardiac glycoside that primarily acts by inhibiting the sodium-potassium ATPase pump. By inhibiting this pump, Digoxin increases intracellular sodium levels, leading to a subsequent increase in intracellular calcium concentration. The elevated calcium levels enhance cardiac contractility (positive inotropic effect) and also contribute to increased vagal tone, leading to a negative chronotropic effect (slowing of the heart rate). Digoxin's effects on contractility and heart rate are particularly beneficial in conditions like heart failure and atrial fibrillation.",
+      "images": []
+    }
+  },
+  {
+    "id": "121",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "First line drug of treatment of typhoid fever is ____________.",
+    "questionImage": null,
+    "options": [
+      "Co-trimoxazole",
+      "Chloramphenicol",
+      "Ampicillin",
+      "Fluoroquinolone"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "The initial choice of antibiotics depends on the susceptibility of the S. Typhi and S. Paratyphi strains in the area of residence or travel. For treatment of drug-susceptible typhoid fever, fluoroquinolones are the most effective class of agents, with cure rates of ~98% and relapse and fecal carriage rates of <2%. Experience is most extensive with ciprofloxacin.",
+      "images": []
+    }
+  },
+  {
+    "id": "122",
+    "subject": "Pharmacology",
+    "topic": "GnRH Agonist",
+    "question": "Emong, 72 year old has been receiving Leuprolide for 1 year for prostate cancer. Which is the most common complication associated with long term use of Leuprolide?",
+    "questionImage": null,
+    "options": [
+      "Galactorrhea",
+      "Osteoporosis",
+      "Hypothyroidism",
+      "Pain"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Long-term use of Leuprolide, like other forms of androgen deprivation therapy, can be associated with an increased risk of osteoporosis. Androgen deprivation can lead to bone mineral density loss, potentially resulting in osteoporosis and an increased risk of fractures.",
+      "images": []
+    }
+  },
+  {
+    "id": "123",
+    "subject": "Pharmacology",
+    "topic": "STD",
+    "question": "Transmission of Trichomoniasis can be prevented by the following methods, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Treat partner",
+      "Vaginal douching",
+      "Sex avoidance",
+      "Use of condom"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Vaginal douching is not an effective method for preventing the transmission of Trichomoniasis. In fact, it is generally discouraged as it can disrupt the natural balance of the vaginal flora and may even increase the risk of infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "124",
+    "subject": "Pharmacology",
+    "topic": "Benzodiazepine",
+    "question": "Select the benzodiazepine that is short acting with half life of 1-12 hours.",
+    "questionImage": null,
+    "options": [
+      "Diazepam",
+      "Clonazepam",
+      "Alprazolam",
+      "Midazolam"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Alprazolam is a short- to intermediate-acting benzodiazepine. It has a relatively short half-life, typically ranging from 6 to 12 hours. It is often used for the management of anxiety and panic disorders.",
+      "images": []
+    }
+  },
+  {
+    "id": "125",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "A patient was rushed to the ER for overdose of Diazepam. Identify the antidote:",
+    "questionImage": null,
+    "options": [
+      "Pralidoxime",
+      "Atropine",
+      "Acetylcysteine",
+      "Flumazenil"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Flumazenil is a selective antagonist for benzodiazepines, including Diazepam. It works by competitively binding to the benzodiazepine receptor sites, reversing the central nervous system depression caused by excessive benzodiazepine activity.",
+      "images": []
+    }
+  },
+  {
+    "id": "126",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Culture studies showed Klebsiella spp. Select the drug that will NOT be effective for the patient:",
+    "questionImage": null,
+    "options": [
+      "Ceftazidime",
+      "Aztreonam",
+      "Clindamycin",
+      "Imipenem"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Clindamycin is not typically the first choice for treating infections caused by Klebsiella spp. While it has activity against some Gram-positive and anaerobic bacteria, its coverage against aerobic Gram-negative bacteria like Klebsiella is limited.",
+      "images": []
+    }
+  },
+  {
+    "id": "127",
+    "subject": "Pharmacology",
+    "topic": "Anesthesia",
+    "question": "Which of the following is an effect notable with the use of general anesthesia?",
+    "questionImage": null,
+    "options": [
+      "Increase ventilator response to hypoxia",
+      "CNS excitation",
+      "Increase glomerular filtration rate",
+      "Negative inotropic effect"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Halothane, enflurane, isoflurane, desflurane, and sevoflurane all depress normal cardiac contractility (halothane and enflurane more so than isoflurane, desflurane, and sevoflurane). As a result, all volatile agents tend to decrease mean arterial pressure in direct proportion to their alveolar concentration. Nitrous oxide also depresses myocardial function in a concentration-dependent manner.",
+      "images": []
+    }
+  },
+  {
+    "id": "128",
+    "subject": "Pharmacology",
+    "topic": "Sympathomimetic",
+    "question": "Structure activity relationship is important in the physical and drug effect of sympathetic drugs. Catecholamines are usually degraded by enzymes Catechol-O-methyl transferase (COMT) and Monoamine oxidase inhibitors (MAO-I) making them orally non-bioavailable. Which modification can improve oral bioavailability?",
+    "questionImage": null,
+    "options": [
+      "Substitution on the oral beta carbon of the side chain",
+      "Substitution on the alpha carbon of the side chain",
+      "Substitution on the amino group side chain",
+      "Removal of the hydroxyl group from the phenyl ring"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Absence of one or both –OH groups on the phenyl ring increases the bioavailability after oral administration and prolongs the duration of action. Furthermore, absence of ring –OH groups tends to increase the distribution of the molecule to the central nervous system (CNS). For example, ephedrine and amphetamine are orally active, have a prolonged duration of action, and produce central nervous system effects not typically observed with the catecholamines.",
+      "images": []
+    }
+  },
+  {
+    "id": "129",
+    "subject": "Pharmacology",
+    "topic": "Cardiac Glycoside",
+    "question": "Which of the following drugs or conditions does NOT result in increased toxicity when occurring with or concomitantly given during digoxin administration?",
+    "questionImage": null,
+    "options": [
+      "Quinidine",
+      "Hypokalemia",
+      "Cholestyramine",
+      "Renal Failure"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The bile acid-binding resin cholestyramine was administered in a dose of 4 g every six hours to a patient with digoxin intoxication. The serum digoxin concentration declined rapidly, and the digoxin half-life decreased from 75.5 hours to 19.9 hours while cholestyramine was administered. Cholestyramine and a related agent, colestipol, presumably interrupt the enterohepatic recycling of digoxin to enhance elimination.",
+      "images": []
+    }
+  },
+  {
+    "id": "130",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "In addition to the effect of tramadol on pain by affecting opioid receptors, it also affects the following neurotransmitters, EXCEPT___:",
+    "questionImage": null,
+    "options": [
+      "Serotonin (increase release)",
+      "Acetylcholine (receptor antagonist)",
+      "Norepinephrine (inhibit re-uptake)",
+      "Dopamine (increase release)"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tramadol has a dual mechanism of action. It not only acts as an opioid receptor agonist but also increases the release of serotonin in the central nervous system. Tramadol inhibits the reuptake of norepinephrine and also increases the release of dopamine in certain areas of the brain. Tramadol does not have a direct effect on acetylcholine receptors.",
+      "images": []
+    }
+  },
+  {
+    "id": "131",
+    "subject": "Pharmacology",
+    "topic": "Diuretic",
+    "question": "Side effect associated with thiazide diuretics are the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Hyperlipidemia",
+      "Hyperkalemia",
+      "Hyperglycemia",
+      "Hypercalcemia"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Thiazide diuretics can cause an increase in cholesterol and triglyceride levels, leading to hyperlipidemia. Thiazides typically lead to hypokalemia (low potassium levels) due to increased potassium excretion in the urine, not hyperkalemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "132",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Gigi, 30 years old, with acute pyelonephritis. Which of the following intravenous drugs is inappropriate?",
+    "questionImage": null,
+    "options": [
+      "Carbapenem",
+      "Amikacin",
+      "Fosfomycin",
+      "Fluoroquinolone"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Fosfomycin inhibits the enzyme enolpyruvate transferase and thereby interferes downstream with the formation of bacterial wall specific N-acetylmuramic acid. This oral agent is active against both gram-positive and gram-negative organisms. It is used to treat simple lower urinary tract infection, not acute pyelonephritis.",
+      "images": []
+    }
+  },
+  {
+    "id": "133",
+    "subject": "Pharmacology",
+    "topic": "Cardiac Glycoside",
+    "question": "The following drugs can increase the serum level of Digoxin:",
+    "questionImage": null,
+    "options": [
+      "Amiodarone",
+      "Azithromycin",
+      "Antacid",
+      "Quinine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Antacids reduce digoxin absorption. Other drugs that decrease digoxin concentration include rifampicin. Macrolide (i.e. azithromycin) antibiotics increase digoxin concentration. Antiarrhythmics increase digoxin concentration as well, such as amiodarone and quinine.",
+      "images": []
+    }
+  },
+  {
+    "id": "134",
+    "subject": "Pharmacology",
+    "topic": "NMDA Antagonist",
+    "question": "As a N-methyl-D-aspartate (NMDA) receptor blocker, which of the following drugs is used in the treatment of dementia?",
+    "questionImage": null,
+    "options": [
+      "Donepezil",
+      "Sertraline",
+      "Cabergoline",
+      "Memantine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Memantine is an N-methyl-D-aspartate (NMDA) receptor antagonist used in the treatment of moderate to severe Alzheimer's disease. It works by blocking excessive activity of glutamate, which is involved in the pathophysiology of Alzheimer's disease.",
+      "images": []
+    }
+  },
+  {
+    "id": "135",
+    "subject": "Pharmacology",
+    "topic": "Mucolytic",
+    "question": "Which drug facilitates the body's mechanism for clearing mucus from the respiratory tract? It increases the production of serous mucus in the respiratory tract making phlegm thinner and less viscous:",
+    "questionImage": null,
+    "options": [
+      "Butamirate",
+      "Bromhexine",
+      "Dextromethorphan",
+      "Phenylephrine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Bromhexine is a derivative of the Adhatoda vasica plant, and is a mucolytic drug which enhances the secretion of various mucus components by modifying the physicochemical characteristics of mucus. These changes, in turn, increase mucociliary clearance and reduce cough.",
+      "images": []
+    }
+  },
+  {
+    "id": "136",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "Tramadol exerts its effect on pain by reacting with:",
+    "questionImage": null,
+    "options": [
+      "Steroid receptors",
+      "Serotonin receptors",
+      "Mu-opioid receptors",
+      "The enzyme cyclooxygenase"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Tramadol's primary mechanism of action involves acting as a mu-opioid receptor agonist. It binds to and activates mu-opioid receptors in the central nervous system, leading to analgesia (pain relief). Tramadol has a weak opioid mu-receptor agonist activity and weakly blocks reuptake of serotonin and norepinephrine.",
+      "images": []
+    }
+  },
+  {
+    "id": "137",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Cefpirome is superior to Ceftazidime because it has activity against:",
+    "questionImage": null,
+    "options": [
+      "Pseudomonas aeruginosa",
+      "Streptococcus pneumonia",
+      "Enterobacter lactamase",
+      "Haemophilus influenzae"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cefpirome is a 4th class generation cephalosporin known to have strong antimicrobial activity against beta-lactamases and is highly stable to hydrolysis by various P-lactamases. Both cefpirome and ceftazidime have in vitro activity against P. aeruginosa with the same efficacy, yet Ceftazidime is superior when it comes to said in vitro activity as compared to Cefpirome.",
+      "images": []
+    }
+  },
+  {
+    "id": "138",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Select the drug of choice for Cholera:",
+    "questionImage": null,
+    "options": [
+      "Streptomycin",
+      "Doxycycline",
+      "Penicillin",
+      "Imipenem"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Oral or intravenous hydration is the mainstay of cholera treatment. Doxycyline is the recommended first-line treatment for adults, while Azithromycin is recommended as first-line treatment for children and pregnant women.",
+      "images": []
+    }
+  },
+  {
+    "id": "139",
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "question": "Mario was rushed to the emergency room for severe crushing chest pain. ECG showed ST wave elevation. The following medications should be given to Mario, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Clopidogrel",
+      "Atorvastatin",
+      "Mefenamic acid",
+      "Nitroglycerin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) and is not typically used in the acute management of myocardial infarction. NSAIDs may have adverse cardiovascular effects and are generally avoided in this context.",
+      "images": []
+    }
+  },
+  {
+    "id": "140",
+    "subject": "Pharmacology",
+    "topic": "Osteoporosis",
+    "question": "Select the drug for the treatment of osteoporosis that is chemically similar to parathyroid hormone:",
+    "questionImage": null,
+    "options": [
+      "Denosumab",
+      "Teriparatide",
+      "Raloxifene",
+      "Strontium"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Teriparatide is a recombinant form of parathyroid hormone (PTH). It works by stimulating bone formation, increasing bone mineral density. It is used in the treatment of osteoporosis, particularly in individuals at high risk of fractures.",
+      "images": []
+    }
+  },
+  {
+    "id": "141",
+    "subject": "Pharmacology",
+    "topic": "Gastrointestinal",
+    "question": "The following statements about Sucralfate are true, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "It is poorly absorbed from the GI tract.",
+      "It inhibits proton pump that secretes HCl acid in the stomach",
+      "It acts as a protective barrier In the stomach against the action of acid and pepsin.",
+      "It reacts with HCl acid to form a viscous, paste like substance that acts as acid buffer."
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Sucralfate does not directly inhibit proton pumps. Its mechanism of action involves forming a protective barrier at the ulcer site. Sucralfate is a locally acting substance that in an acidic environment (pH < 4), reacts with hydrochloric acid in the stomach to form a cross-linking, viscous, paste-like material capable of acting as an acid buffer.",
+      "images": []
+    }
+  },
+  {
+    "id": "142",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Maricel is suffering from pelvic inflammatory disease complicated by Chlamydia trachomatis. Which of the following drugs is effective for this organism?",
+    "questionImage": null,
+    "options": [
+      "Fosfomycin",
+      "Ciprofloxacin",
+      "Amoxicillin",
+      "Minocycline"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Minocycline, a tetracycline antibiotic, is effective against Chlamydia trachomatis. Tetracyclines are among the antibiotics commonly used for the treatment of chlamydial infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "143",
+    "subject": "Pharmacology",
+    "topic": "Vaccine",
+    "question": "Which of the following vaccine products when given to human is the closest to a natural infection?",
+    "questionImage": null,
+    "options": [
+      "Conjugate vaccine",
+      "Attenuated vaccine",
+      "Subunit vaccine",
+      "Inactivated vaccine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The immune response to a live attenuated vaccine is virtually identical to that produced by a natural infection. The immune system does not differentiate between an infection with a weakened vaccine virus and an infection with a wild virus. Attenuated vaccines closely mimic natural infections as they replicate in the host and elicit a broad immune response.",
+      "images": []
+    }
+  },
+  {
+    "id": "144",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "The nephrotoxicity associated with the use of aminoglycosides is increased in the presence of the following conditions, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Hypovolemia",
+      "Reduced liver function",
+      "Reduced renal function",
+      "Hypernatremia"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Several factors related to the nephrotoxicity of aminoglycosides have been reported: multiple doses, male animals, infection, acidosis, volume depletion, sodium depletion, hyperkalemia, hypomagnesemia, hepatic disease, and concomitant use of other drugs including vancomycin, teicoplanin, cyclosporin, and cisplatin. Hypernatremia is not directly associated with increased nephrotoxicity from aminoglycosides.",
+      "images": []
+    }
+  },
+  {
+    "id": "145",
+    "subject": "Pharmacology",
+    "topic": "Inotrope",
+    "question": "Which of the following is NOT an effect associated with Milrinone?",
+    "questionImage": null,
+    "options": [
+      "Positive inotropic action",
+      "Vasoconstriction",
+      "Fall in peripheral vascular resistance",
+      "Inhibits phosphodiesterase III"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Milrinone does not typically cause vasoconstriction. Instead, it is associated with vasodilation, particularly in arterial and venous vessels. Milrinone is a phosphodiesterase III inhibitor that increases intracellular cAMP, leading to enhanced cardiac contractility and vasodilation.",
+      "images": []
+    }
+  },
+  {
+    "id": "146",
+    "subject": "Pharmacology",
+    "topic": "Biologic",
+    "question": "Select the biologic agent used in the treatment of ulcerative colitis:",
+    "questionImage": null,
+    "options": [
+      "Azathioprine",
+      "Sulfasalazine",
+      "Infliximab",
+      "Dexamethasone"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Infliximab is a biologic agent classified as a tumor necrosis factor (TNF) inhibitor. It binds to and neutralizes TNF, a cytokine involved in the inflammatory response. Infliximab is indicated for the treatment of moderate to severe ulcerative colitis that has not responded to conventional therapy.",
+      "images": []
+    }
+  },
+  {
+    "id": "147",
+    "subject": "Pharmacology",
+    "topic": "Fertility",
+    "question": "In the final maturation induction during fertility treatment and in the presence of mature ovarian follicles, ovulation can be triggered by the administration of ____.",
+    "questionImage": null,
+    "options": [
+      "Clomiphene",
+      "Human chorionic gonadotropin",
+      "Follicular stimulating hormone",
+      "Gonadotropin releasing hormone agonist"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "hCG is a hormone that mimics the action of LH. In fertility treatments, hCG is often used to trigger ovulation. When administered, it mimics the surge of LH that typically triggers the final maturation and release of the egg from the mature ovarian follicle.",
+      "images": []
+    }
+  },
+  {
+    "id": "148",
+    "subject": "Pharmacology",
+    "topic": "Alpha Blocker",
+    "question": "Identify the drug that can antagonize epinephrine at alpha adrenergic receptors:",
+    "questionImage": null,
+    "options": [
+      "Dobutamine",
+      "Phentolamine",
+      "Dopamine",
+      "Isoproterenol"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Phentolamine is an alpha-adrenergic antagonist. It competes with epinephrine for binding to alpha receptors, thereby blocking its vasoconstrictive effects.",
+      "images": []
+    }
+  },
+  {
+    "id": "149",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Select the INCORRECT statement regarding beta lactamase inhibitors:",
+    "questionImage": null,
+    "options": [
+      "Adjustment in patients with CRF is based on the penicillin component",
+      "The new anti-bacterial spectrum of the combination is determined by the beta-lactamase inhibitor",
+      "They have similar appearance to penicillin but with limited antibacterial activity",
+      "Beta-lactamase inhibitors are compounds that irreversibly inactivate bacterial beta-lactamase"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Beta-lactamase inhibitors, such as clavulanic acid or sulbactam, are structurally different from penicillins. They do not exhibit antibacterial activity on their own but enhance the activity of penicillins by preventing their degradation by beta-lactamases.",
+      "images": []
+    }
+  },
+  {
+    "id": "150",
+    "subject": "Pharmacology",
+    "topic": "Fertility",
+    "question": "Controlled ovarian hyperstimulation is achieved using the following drugs, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Human menopausal gonadotropin",
+      "Human chorionic gonadotropin",
+      "Follitropin",
+      "Clomiphene"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Clomiphene is typically not used for controlled ovarian hyperstimulation. It is a selective estrogen receptor modulator (SERM) that works by blocking estrogen receptors in the hypothalamus, leading to an increase in FSH and LH, which stimulates ovulation. However, it is more commonly used to induce ovulation in women with ovulatory dysfunction rather than in controlled ovarian hyperstimulation protocols.",
+      "images": []
+    }
+  },
+  {
+    "id": "151",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "The psychomimetic effect of morphine is associated with reaction of morphine with:",
+    "questionImage": null,
+    "options": [
+      "Sigma opioid receptor",
+      "Delta opioid receptor",
+      "K-opioid receptor",
+      "Mu opioid receptor"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Interaction with μ-receptors contributes to supraspinal and spinal analgesia, respiratory depression, sedation, euphoria, decreased GI transit, and physical dependence. The significance of interaction with κ-receptors is unclear, but it may contribute to analgesia and also psychomimetic effects of some opioids.",
+      "images": []
+    }
+  },
+  {
+    "id": "152",
+    "subject": "Pharmacology",
+    "topic": "Antidote",
+    "question": "The overdose of morphine and other opioid can be reversed by giving __.",
+    "questionImage": null,
+    "options": [
+      "Nalbuphine",
+      "Heroin",
+      "Naloxone",
+      "Hydrocodone"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Naloxone is the preferred and highly effective opioid receptor antagonist used to reverse the effects of opioid overdose. It rapidly displaces opioids from their receptors, restoring respiratory function and consciousness. It is a critical intervention in opioid emergencies.",
+      "images": []
+    }
+  },
+  {
+    "id": "153",
+    "subject": "Pharmacology",
+    "topic": "GnRH Agonist",
+    "question": "Adjunct treatment for prostate cancer is ____?",
+    "questionImage": null,
+    "options": [
+      "Danazol",
+      "Testosterone",
+      "Leuprolide",
+      "Dopamine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The treatment of choice for patients with advanced prostate cancer is elimination of testosterone production by the testes through either surgical or chemical castration. Presently, the use of luteinizing hormone-releasing hormone (LHRH) agonists— including leuprolide and goserelin agonists, alone or in combination with an antiandrogen (eg, flutamide, bicalutamide, or nilutamide)—is the preferred approach.",
+      "images": []
+    }
+  },
+  {
+    "id": "154",
+    "subject": "Pharmacology",
+    "topic": "Vasopressor",
+    "question": "The nurse referred the patient for poor urine output secondary to relative hypotension. The best management is to start ____.",
+    "questionImage": null,
+    "options": [
+      "Epinephrine",
+      "Digoxin",
+      "Dobutamine",
+      "Dopamine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Dopamine is a precursor to norepinephrine and can stimulate both dopaminergic and adrenergic receptors. At low doses, it primarily affects dopaminergic receptors, leading to vasodilation in the renal and mesenteric beds, potentially improving renal perfusion and urine output. It can be a suitable choice for addressing relative hypotension and poor urine output.",
+      "images": []
+    }
+  },
+  {
+    "id": "155",
+    "subject": "Pharmacology",
+    "topic": "Diuretic",
+    "question": "Which of the following diuretics produces alkaline urine?",
+    "questionImage": null,
+    "options": [
+      "Acetazolamide",
+      "Hydrochlorothiazide",
+      "Furosemide",
+      "Spironolactone"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Acetazolamide is a carbonic anhydrase inhibitor. It primarily acts in the proximal convoluted tubule of the nephron, inhibiting the reabsorption of bicarbonate. This leads to the excretion of bicarbonate in the urine, resulting in alkaline urine.",
+      "images": []
+    }
+  },
+  {
+    "id": "156",
+    "subject": "Pharmacology",
+    "topic": "Growth Hormone Antagonist",
+    "question": "Juan is suffering from acromegaly resistant to radiation. You would like to start the patient on an antagonist of growth hormone receptor. Select the appropriate drug:",
+    "questionImage": null,
+    "options": [
+      "Leuprolide",
+      "Mecasermin",
+      "Pegvisomant",
+      "Decapeptyl"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Pegvisomant is a growth hormone receptor antagonist. It competes with endogenous growth hormone for binding to the growth hormone receptor and inhibits the biological actions of excess growth hormone. It is used in the treatment of acromegaly when surgery or radiation therapy is not an option or has not been successful.",
+      "images": []
+    }
+  },
+  {
+    "id": "157",
+    "subject": "Pharmacology",
+    "topic": "Nitrates",
+    "question": "Which of the following statements is INCORRECT regarding tachyphylaxis seen in chronic nitrate use?",
+    "questionImage": null,
+    "options": [
+      "It is a result of release of vasoconstrictors angiotensin II",
+      "Tachyphylaxis can be avoided by having a 6-8 hour nitrate free dose",
+      "Repeated administration of nitrates results in increase in effect",
+      "It is explained by the 'oxidative stress theory'"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "This statement is generally incorrect. Repeated administration of nitrates often leads to tolerance, where the effectiveness of the drug diminishes over time. This phenomenon is known as nitrate tolerance.",
+      "images": []
+    }
+  },
+  {
+    "id": "158",
+    "subject": "Pharmacology",
+    "topic": "GnRH Antagonist",
+    "question": "Among the following drugs that can induce medical menopause, identify the drug that will NOT cause the 'flare effect':",
+    "questionImage": null,
+    "options": [
+      "Leuprolide",
+      "Abarelix",
+      "Triptorelin",
+      "Goserelin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Abarelix is a gonadotropin-releasing hormone (GnRH) antagonist. It works by competitively blocking the GnRH receptors, leading to a rapid and sustained suppression of gonadotropins without an initial flare effect.",
+      "images": []
+    }
+  },
+  {
+    "id": "159",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "After taking her medications for pulmonary TB, Shiela is now complaining of vertigo and inability to perceive termination of movement and difficulty sitting and standing without visual clues. This can be explained as a side effect of ___?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Streptomycin",
+      "Ethambutol",
+      "Pyrazinamide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Streptomycin is known to cause vestibular and auditory toxicity. Vertigo, difficulty perceiving movement termination, and imbalance may occur due to its impact on the vestibular system. The symptoms described (vertigo, difficulty perceiving movement termination, difficulty sitting and standing without visual clues) align more with the side effects of streptomycin.",
+      "images": []
+    }
+  },
+  {
+    "id": "160",
+    "subject": "Pharmacology",
+    "topic": "Antihypertensive",
+    "question": "Reserpine is used in the management of hypertension by __.",
+    "questionImage": null,
+    "options": [
+      "Agonist at muscarinic receptors",
+      "Agonist effect at sympathetic beta receptors",
+      "Inhibiting adrenergic re-uptake at synapses",
+      "Blocking the effect of epinephrine at adrenergic receptors"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Reserpine blocks the ability of aminergic transmitter vesicles to take up and store biogenic amines, probably by interfering with the vesicular membrane-associated transporter. This effect occurs throughout the body, resulting in depletion of norepinephrine, dopamine, and serotonin in both central and peripheral neurons.",
+      "images": []
+    }
+  },
+  {
+    "id": "161",
+    "subject": "Pharmacology",
+    "topic": "5-Alpha Reductase Inhibitor",
+    "question": "Dutasteride is given to Manuel for his prostate hyperplasia. It works __.",
+    "questionImage": null,
+    "options": [
+      "As estrogen receptor antagonist",
+      "By inhibiting aromatase enzyme",
+      "By inhibiting 5-alpha reductase",
+      "As testosterone receptor antagonist"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Dutasteride inhibits the enzyme 5-alpha reductase, which is responsible for the conversion of testosterone to dihydrotestosterone (DHT). By blocking this conversion, dutasteride reduces the levels of DHT, which is implicated in the development and progression of benign prostatic hyperplasia (BPH).",
+      "images": []
+    }
+  },
+  {
+    "id": "162",
+    "subject": "Pharmacology",
+    "topic": "PDE3 Inhibitor",
+    "question": "Among the phosphodiesterase inhibitors, identify the drug that inhibits selectively PDE3 used in patients with cardiac pathology:",
+    "questionImage": null,
+    "options": [
+      "Papaverine",
+      "Tadalafil",
+      "Theophylline",
+      "Milrinone"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Milrinone is a selective phosphodiesterase type 3 (PDE3) inhibitor. It is used for its inotropic (increases contractility) and vasodilatory effects, making it beneficial in the treatment of heart failure.",
+      "images": []
+    }
+  },
+  {
+    "id": "163",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Lymphogranuloma venereum or Climatic bubo is treated with the following drugs, EXCEPT __.",
+    "questionImage": null,
+    "options": [
+      "Azithromycin",
+      "Co-trimoxazole",
+      "Doxycycline",
+      "Tetracycline"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Co-trimoxazole is a combination of two antibiotics, trimethoprim, and sulfamethoxazole. While it is effective against a broad spectrum of bacteria, it may not be the first-line treatment for LGV. Doxycycline, tetracycline, and azithromycin are commonly used for Chlamydia trachomatis infections, including LGV.",
+      "images": []
+    }
+  },
+  {
+    "id": "164",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Spontaneous bacterial peritonitis is treated empirically by giving __.",
+    "questionImage": null,
+    "options": [
+      "Ampicillin",
+      "Aminoglycosides",
+      "Third generation cephalosporin",
+      "Tetracycline"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Third-generation cephalosporins such as cefotaxime (2 g q8h, administered IV) provide reasonable initial coverage in moderately ill patients. Broad-spectrum antibiotics, such as β-lactam/β-lactamase inhibitor combinations (e.g., piperacillin/tazobactam, 3.375 g q6h IV) or ceftriaxone (2 g q24h IV), also are options.",
+      "images": []
+    }
+  },
+  {
+    "id": "165",
+    "subject": "Pharmacology",
+    "topic": "Antidiabetic",
+    "question": "Flatulence is a common side effect of which of the following anti-diabetic drugs?",
+    "questionImage": null,
+    "options": [
+      "Pioglitazone",
+      "Acarbose",
+      "Metformin",
+      "Glibenclamide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "α-Glucosidase inhibitors (acarbose, miglitol, voglibose) reduce intestinal absorption of starch, dextrin, and disaccharides by inhibiting the action of α-glucosidase in the intestinal brush border. The most prominent adverse effects related to α-glucosidase inhibitors are malabsorption, flatulence, diarrhea, and abdominal bloating.",
+      "images": []
+    }
+  },
+  {
+    "id": "166",
+    "subject": "Pharmacology",
+    "topic": "Anticoagulant",
+    "question": "Consuela accidentally took an overdose amount of warfarin. Lab test showed INR is 10, no active bleeding reported. The antidote for warfarin toxicity is __.",
+    "questionImage": null,
+    "options": [
+      "Ethinyl estradiol",
+      "pRBC transfusion",
+      "Dexamethasone",
+      "Phytomenadione"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Phytomenadione is the antidote for warfarin toxicity. Warfarin inhibits vitamin K-dependent clotting factors, and phytomenadione replenishes these factors, helping to normalize the INR and prevent bleeding complications. If the INR is ≥5, vitamin K1 (phytonadione) can be given orally at a dose of 1-2.5 mg (for 5≤ INR ≤9) or 3-5 mg (for INR >9).",
+      "images": []
+    }
+  },
+  {
+    "id": "167",
+    "subject": "Pharmacology",
+    "topic": "Antidiabetic",
+    "question": "Empagliflozin is used in the treatment of diabetes mellitus, it works by ___",
+    "questionImage": null,
+    "options": [
+      "Increasing the insulin effect on peripheral tissues (insulin sensitizer)",
+      "Increasing the release of insulin from pancreatic beta cells (insulin secretagogues)",
+      "Decreasing the amount of sugar absorbed from food",
+      "Decreasing the amount of sugar reabsorbed from the proximal tubules of the kidneys"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Empagliflozin works by inhibiting the sodium-glucose co-transporter-2 (SGLT-2) found in the proximal tubules in the kidneys. Through SGLT2 inhibition, empagliflozin reduces renal reabsorption of glucose and increases urinary excretion of glucose.",
+      "images": []
+    }
+  },
+  {
+    "id": "168",
+    "subject": "Pharmacology",
+    "topic": "Antidiarrheal",
+    "question": "Loperamide slows down gastrointestinal contraction by ___.",
+    "questionImage": null,
+    "options": [
+      "Serotonin receptor effect",
+      "Stimulation of sympathetic system",
+      "Anticholinergic effect",
+      "Opioid receptors"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Loperamide is an opioid-receptor agonist and acts on the μ-opioid receptors in the myenteric plexus of the large intestine. It works like morphine, decreasing the activity of the myenteric plexus, which decreases the tone of the longitudinal and circular smooth muscles of the intestinal wall. This increases the time material stays in the intestine, allowing more water to be absorbed from the fecal matter.",
+      "images": []
+    }
+  },
+  {
+    "id": "169",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Ceftaroline is reserved for the following infections, EXCEPT ___",
+    "questionImage": null,
+    "options": [
+      "Infection with Enterobacter spp.",
+      "MRSA infection",
+      "Complicated skin infection",
+      "Atypical bacteria"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The activity of ceftaroline is limited against Enterococcus sp., beta-lactamase-producing Enterobacteriaceae, and Pseudomonas aeruginosa. Ceftaroline does not have activity against atypical bacteria. Atypical bacteria include organisms like Mycoplasma, Chlamydia, and Legionella.",
+      "images": []
+    }
+  },
+  {
+    "id": "170",
+    "subject": "Pharmacology",
+    "topic": "Antihistamine",
+    "question": "Identify the component that blocks histamine-1 receptors in this cough and cold preparation:",
+    "questionImage": null,
+    "options": [
+      "Paracetamol",
+      "Phenylephrine",
+      "Brompheniramine",
+      "Carbocysteine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Brompheniramine is an antihistamine that blocks histamine-1 receptors. It is used to relieve symptoms of allergy and the common cold, including sneezing, runny nose, and itching.",
+      "images": []
+    }
+  },
+  {
+    "id": "171",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Select the correct statement regarding clindamycin:",
+    "questionImage": null,
+    "options": [
+      "It has activity against both gram positive and gram negative organism",
+      "It has no activity against anaerobic organism",
+      "It can be given to penicillin-allergic patient",
+      "It inhibits bacteria by inhibiting cell wall synthesis"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Clindamycin is a suitable alternative for patients who are allergic to penicillin. However, it's important to note that clindamycin resistance can develop, and its use should be guided by local resistance patterns. Clindamycin is primarily effective against gram-positive bacteria, including anaerobic bacteria, and inhibits bacterial protein synthesis by binding to the 50S subunit of the bacterial ribosome.",
+      "images": []
+    }
+  },
+  {
+    "id": "172",
+    "subject": "Pharmacology",
+    "topic": "Opioid",
+    "question": "The development of tolerance to morphine can be inhibited by:",
+    "questionImage": null,
+    "options": [
+      "Naltrexone",
+      "Naloxone",
+      "Phenobarbital",
+      "Ketamine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "N-methyl-D-aspartate receptor antagonists can attenuate or reverse morphine tolerance. Systemically administered ketamine attenuates and reverses systemically induced morphine tolerance in mice, and intraspinal ketamine attenuates tolerance produced by intraspinal morphine in rats.",
+      "images": []
+    }
+  },
+  {
+    "id": "173",
+    "subject": "Pharmacology",
+    "topic": "Anticoagulant",
+    "question": "Select the INCORRECT statement regarding warfarin:",
+    "questionImage": null,
+    "options": [
+      "Oral antibiotic can potentiate the effect of warfarin by reducing normal bacterial flora",
+      "Hypothyroidism makes the patient less responsive to the effect of warfarin",
+      "Patients on warfarin should have regular aPTT determination",
+      "Broccoli can counteract the effects of warfarin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The activated partial thromboplastin time (aPTT) is not routinely monitored for patients on warfarin. The Prothrombin time (PT) and international normalized ratio (INR) are the standard test used to monitor and adjust warfarin therapy.",
+      "images": []
+    }
+  },
+  {
+    "id": "174",
+    "subject": "Pharmacology",
+    "topic": "Anticholinergic",
+    "question": "Oxybutynin is a drug used for the treatment of overactive bowel. Which of the following side effects is seen with its use?",
+    "questionImage": null,
+    "options": [
+      "Salivation",
+      "Hyperacidity",
+      "Uterine relaxation",
+      "Constipation"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Oxybutynin, which is somewhat selective for M3 receptors, is used to relieve bladder spasm after urologic surgery. It is also valuable in reducing involuntary voiding in patients with neurologic disease. Like other anticholinergics, it can cause constipation.",
+      "images": []
+    }
+  },
+  {
+    "id": "175",
+    "subject": "Pharmacology",
+    "topic": "Sympathomimetic",
+    "question": "Taking phenylephrine can worsen the following co-morbid disease, EXCEPT?",
+    "questionImage": null,
+    "options": [
+      "Peripheral artery disease",
+      "Anxiety disorder",
+      "Orthostatic hypotension",
+      "Benign prostatic hyperplasia"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Phenylephrine is commonly used to treat orthostatic hypotension by causing vasoconstriction and elevating blood pressure. It is not expected to worsen orthostatic hypotension. Phenylephrine can worsen symptoms of BPH by causing smooth muscle contraction in the prostate region, leading to increased difficulty with urination.",
+      "images": []
+    }
+  },
+  {
+    "id": "176",
+    "subject": "Pharmacology",
+    "topic": "GnRH Agonist",
+    "question": "For the treatment of advanced prostate cancer, select the drug that is given to control this condition.",
+    "questionImage": null,
+    "options": [
+      "Anastrozole",
+      "Cyproterone",
+      "Leuprolide",
+      "Dutasteride"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Leuprolide is a luteinizing hormone-releasing hormone (LHRH) agonist. It works by suppressing the production of testosterone, a hormone that fuels the growth of prostate cancer cells. It is commonly used in the treatment of advanced prostate cancer.",
+      "images": []
+    }
+  },
+  {
+    "id": "177",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Shiela was given the antibiotic combination Amoxiclav 625mg 2x a day by her doctor. Clavulanic acid is added to improve the activity of Amoxicillin by ______:",
+    "questionImage": null,
+    "options": [
+      "Reducing the renal elimination",
+      "Reducing degradation",
+      "Improving intestinal absorption",
+      "Displacing amoxicillin from its protein binding site"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clavulanic acid is a beta-lactamase inhibitor. Beta-lactamases are enzymes produced by bacteria that can inactivate antibiotics like amoxicillin by breaking the beta-lactam ring in their structure. Clavulanic acid, being a beta-lactamase inhibitor, protects amoxicillin from degradation by these enzymes, thereby enhancing its antibacterial activity.",
+      "images": []
+    }
+  },
+  {
+    "id": "178",
+    "subject": "Pharmacology",
+    "topic": "Antidiabetic",
+    "question": "A patient is taking acarbose and is now suffering from hypoglycemia. What will you give?",
+    "questionImage": null,
+    "options": [
+      "Glucose tablet",
+      "Intravenous glucose",
+      "Ampalaya capsule",
+      "Prednisone"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "All the manifestations of hypoglycemia are relieved by glucose administration. To expedite absorption, simple sugar or glucose should be given, preferably in liquid form. To treat mild hypoglycemia in a patient who is conscious and able to swallow, dextrose tablets, glucose gel, or any sugar-containing beverage or food may be given.",
+      "images": []
+    }
+  },
+  {
+    "id": "179",
+    "subject": "Pharmacology",
+    "topic": "PPI",
+    "question": "The suggested treatment for laryngopharyngeal reflux is ____:",
+    "questionImage": null,
+    "options": [
+      "Miconazole",
+      "Omeprazole",
+      "Cefuroxime",
+      "Phenylephrine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "PPIs inhibit both fasting and meal-stimulated secretion because they block the final common pathway of acid secretion, the proton pump. In standard doses, PPIs inhibit 90-98% of 24-hour acid secretion.",
+      "images": []
+    }
+  },
+  {
+    "id": "180",
+    "subject": "Pharmacology",
+    "topic": "Antidiabetic",
+    "question": "Julia is diagnosed with diabetes type 2. She is prescribed with Glibenclamide but still with uncontrolled sugar. The doctor would like to add a second drug. The doctor can choose any drug from the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Metformin",
+      "Acarbose",
+      "Glipizide",
+      "Pioglitazone"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Glipizide is a sulfonylurea that stimulates the release of insulin from the pancreas. Since Julia is already taking Glibenclamide (also a sulfonylurea), adding another sulfonylurea might not be the first choice due to the risk of hypoglycemia.",
+      "images": []
+    }
+  },
+  {
+    "id": "181",
+    "subject": "Pharmacology",
+    "topic": "Antitussive",
+    "question": "Cough inhibition of Dextromethorphan is achieved through action on cough center located in the ______.",
+    "questionImage": null,
+    "options": [
+      "Lungs",
+      "Throat",
+      "Brain",
+      "Carotid"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Dextromethorphan is an antitussive medication commonly used to suppress cough. Its mechanism of action involves the central nervous system. The cough center is located in the brain. Dextromethorphan acts centrally to inhibit the cough reflex by affecting signals in the brain.",
+      "images": []
+    }
+  },
+  {
+    "id": "182",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Cielo is suffering from nosocomial pneumonia caused by Pseudomonas aeruginosa. You can use any of the following antibiotics, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Cefpirome",
+      "Ceftazidime",
+      "Cefuroxime",
+      "Ceftobiprole"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cefuroxime is a second-generation cephalosporin with limited activity against Pseudomonas aeruginosa. It may not be the best choice for nosocomial pneumonia caused by this pathogen. Cefpirome, ceftazidime, and ceftobiprole have activity against Pseudomonas aeruginosa.",
+      "images": []
+    }
+  },
+  {
+    "id": "183",
+    "subject": "Pharmacology",
+    "topic": "Parkinson's",
+    "question": "Identify the drug that inhibits the conversion of levodopa to dopamine outside the brain thereby decreasing the side effect and increasing the available levodopa for transport inside the brain:",
+    "questionImage": null,
+    "options": [
+      "Bromocriptine",
+      "Tolcapone",
+      "Carbidopa",
+      "Selegiline"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Carbidopa is a peripheral inhibitor of dopa decarboxylase, an enzyme that converts levodopa to dopamine in peripheral tissues outside the brain. While it does not cross the blood-brain barrier, it plays a crucial role in the treatment of Parkinson's disease when administered in combination with levodopa.",
+      "images": []
+    }
+  },
+  {
+    "id": "184",
+    "subject": "Pharmacology",
+    "topic": "Decongestant",
+    "question": "Identify the drug that causes nasal decongestion in this preparation:",
+    "questionImage": null,
+    "options": [
+      "Paracetamol",
+      "Phenylephrine",
+      "Dextromethorphan",
+      "Chlorpheniramine"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Phenylephrine is a sympathomimetic drug that acts as a selective alpha-1 adrenergic receptor agonist. By activating these receptors, it causes vasoconstriction, particularly in the nasal passages. This vasoconstriction reduces blood flow in the nasal mucosa, leading to a decrease in swelling and congestion.",
+      "images": []
+    }
+  },
+  {
+    "id": "185",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Sheila is suffering from acute bacterial tonsillopharyngitis. She is allergic to food and penicillin. Select the appropriate drug for Sheila:",
+    "questionImage": null,
+    "options": [
+      "Cefaclor",
+      "Cefuroxime",
+      "Azithromycin",
+      "Ampicillin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Azithromycin is a macrolide antibiotic. It is a reasonable alternative for individuals allergic to penicillin, as macrolides have a different structure from beta-lactam antibiotics. Azithromycin is effective against many bacteria causing respiratory tract infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "186",
+    "subject": "Pharmacology",
+    "topic": "STD",
+    "question": "Once the diagnosis of cervicitis is made, drugs should be administered against the following causative agents, if present, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Chlamydia",
+      "Gonorrhea",
+      "Herpes",
+      "Candida"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Candida, a type of yeast, can cause a condition known as yeast infection, which is treated with antifungal agents. The standard treatments for cervicitis caused by Chlamydia, Gonorrhea, and Herpes involve specific antibiotics or antiviral medications. The exception in this context would be treating cervicitis caused by Candida.",
+      "images": []
+    }
+  },
+  {
+    "id": "187",
+    "subject": "Pharmacology",
+    "topic": "Aromatase Inhibitor",
+    "question": "Which drug is given to patients with breast cancer to prevent conversion of androstenedione to estrogen?",
+    "questionImage": null,
+    "options": [
+      "Anastrozole",
+      "Tamoxifen",
+      "Dutasteride",
+      "Buserelin"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Anastrozole is an aromatase inhibitor used in the treatment of breast cancer. It works by inhibiting the enzyme aromatase, thereby reducing the conversion of androgens (like androstenedione) into estrogen. This is significant in postmenopausal women, where most of the estrogen is produced via this conversion in peripheral tissues.",
+      "images": []
+    }
+  },
+  {
+    "id": "188",
+    "subject": "Pharmacology",
+    "topic": "Anticholinergic",
+    "question": "The muscarinic side effects of acetylcholinesterase inhibitors in the treatment of myasthenia gravis can be alleviated by giving:",
+    "questionImage": null,
+    "options": [
+      "Epinephrine",
+      "Bethanechol",
+      "Atropine",
+      "Nicotine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Atropine is a muscarinic receptor antagonist and can be used to alleviate muscarinic side effects caused by excess acetylcholine. It competes with acetylcholine for binding to muscarinic receptors, thereby reducing the excessive cholinergic stimulation.",
+      "images": []
+    }
+  },
+  {
+    "id": "189",
+    "subject": "Pharmacology",
+    "topic": "Antifungal",
+    "question": "Joan, 27/female, complained of curd-like white vaginal discharge, non-foul smelling and accompanied by itchy sensation. Which of the following medications is effective?",
+    "questionImage": null,
+    "options": [
+      "Ciprofloxacin",
+      "Metronidazole",
+      "Fluconazole",
+      "Azithromycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Fluconazole is an antifungal medication that belongs to the azole class. It is commonly used to treat fungal infections, including vaginal candidiasis. A single oral dose of fluconazole is often effective in treating uncomplicated cases of vaginal candidiasis.",
+      "images": []
+    }
+  },
+  {
+    "id": "190",
+    "subject": "Pharmacology",
+    "topic": "Antiflatulent",
+    "question": "Cora has been complaining of gastrointestinal distress. She describes the pain as 'gassy'. Identify the drug that can coalesce smaller gas bubbles into larger bubbles thereby easing the release of gas via burping or flatulence:",
+    "questionImage": null,
+    "options": [
+      "Cimetidine",
+      "Simethicone",
+      "Omeprazole",
+      "Aluminum-magnesium"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Simethicone is an anti-foaming agent that works by coalescing smaller gas bubbles into larger ones, making it easier for the gas to be expelled through burping or flatulence. It is commonly used to relieve symptoms of gas and bloating.",
+      "images": []
+    }
+  },
+  {
+    "id": "191",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "The management of mild leptospirosis is the administration of:",
+    "questionImage": null,
+    "options": [
+      "Chloramphenicol 500mg every 8 hours",
+      "Ciprofloxacin 500mg BID",
+      "Imipenem 1g IV every 12 hours",
+      "Doxycycline 100mg 12-hourly"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Doxycycline is a tetracycline antibiotic and is often considered a first-line treatment for leptospirosis. It is effective against Leptospira and is commonly used in mild cases.",
+      "images": []
+    }
+  },
+  {
+    "id": "192",
+    "subject": "Pharmacology",
+    "topic": "NSAID",
+    "question": "Contraindications to the use of NSAID are the following, EXCEPT:",
+    "questionImage": null,
+    "options": [
+      "Third trimester pregnant woman",
+      "Person with uncontrolled hypertension",
+      "Person who experienced transient ischemic attack",
+      "People taking misoprostol"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Misoprostol is often prescribed with NSAIDs to reduce the risk of gastric ulcers and complications. Therefore, it is not a contraindication, but rather a medication that may be co-prescribed to mitigate the gastrointestinal side effects of NSAIDs.",
+      "images": []
+    }
+  },
+  {
+    "id": "193",
+    "subject": "Pharmacology",
+    "topic": "GnRH Agonist",
+    "question": "Gonadorelin is an agonist of the GnRH receptor. It can stimulate the secretion of follicular stimulating hormone (FSH) and luteinizing hormone (LH). it can inhibit the release of both FSH and LH if given:",
+    "questionImage": null,
+    "options": [
+      "In a pulsatile subcutaneous administration",
+      "Topically from a patch",
+      "Intrathecal",
+      "In a continuous manner through intramuscular injection"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Continuous administration of gonadorelin through intramuscular injection could lead to desensitization of the GnRH receptors, resulting in the inhibition of FSH and LH release. Continuous exposure may suppress the normal pulsatile release pattern.",
+      "images": []
+    }
+  },
+  {
+    "id": "194",
+    "subject": "Pharmacology",
+    "topic": "Cholinesterase Inhibitor",
+    "question": "Select the drug used in the treatment of myasthenia gravis in a 24 year old patient presenting with difficulty of breathing and weakness:",
+    "questionImage": null,
+    "options": [
+      "Digibind",
+      "Duloxetine",
+      "Bretylium",
+      "Neostigmine"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Neostigmine is a cholinesterase inhibitor and is commonly used in the treatment of myasthenia gravis. It helps improve muscle strength by increasing the concentration of acetylcholine at the neuromuscular junction.",
+      "images": []
+    }
+  },
+  {
+    "id": "195",
+    "subject": "Pharmacology",
+    "topic": "Autonomic Nervous System",
+    "question": "Which one of the following is the primary neurotransmitter agent normally released in the sinoatrial node of the heart in response to a blood pressure increase?",
+    "questionImage": null,
+    "options": [
+      "Acetylcholine",
+      "Dopamine",
+      "Epinephrine",
+      "Glutamate"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "When blood pressure increases, the parasympathetic system is activated and heart rate decreases. Acetylcholine is the transmitter at parasympathetic nerve endings innervating the sinus node (nerve endings of the vagus nerve).",
+      "images": []
+    }
+  },
+  {
+    "id": "196",
+    "subject": "Pharmacology",
+    "topic": "Antimigraine",
+    "question": "A 28-year-old office worker suffers from intense migraine headaches. Which of the following is a serotonin 5-HT 1D/1B agonist useful for aborting an acute migraine headache?",
+    "questionImage": null,
+    "options": [
+      "Sumatriptan",
+      "Ondansetron",
+      "Ketanserin",
+      "Ephedrine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Sumatriptan, an agonist at 5-HT 1D/1B receptors, is indicated for prevention or treatment of migraine and cluster headaches. Ergotamine is also effective for acute migraine but is produced by the fungus Claviceps purpurea.",
+      "images": []
+    }
+  },
+  {
+    "id": "197",
+    "subject": "Pharmacology",
+    "topic": "NSAID",
+    "question": "A patient intolerant to opioids received ketorolac for postoperative inflammatory pain control. The main advantage of ketorolac over aspirin is that ketorolac:",
+    "questionImage": null,
+    "options": [
+      "Can be combined more safely with an opioid such as codeine",
+      "Can be obtained as an over-the-counter agent",
+      "Is available in a parenteral formulation that can be injected intramuscularly or intravenously",
+      "Is less likely to cause acute renal failure in patients with some preexisting degree of renal impairment"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ketorolac exerts typical NSAID effects. It prolongs the bleeding time and can impair renal function, especially in a patient with preexisting renal disease. Its primary use is as a parenteral agent for pain management, especially for treatment of postoperative patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "198",
+    "subject": "Pharmacology",
+    "topic": "Chemotherapy",
+    "question": "PB is a 28-year-old male who experienced a dull ache and a sensation of heaviness in the right testicle. On physical exam the right testis appeared to be enlarged. An orchidectomy was performed and chemotherapy started. Which of the following is a drug that is used in combination therapy for testicular carcinoma and is also associated with nephrotoxicity?",
+    "questionImage": null,
+    "options": [
+      "Bleomycin",
+      "Etoposide",
+      "Cisplatin",
+      "Vinblastine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Nephrotoxicity is a characteristic toxicity of cisplatin. Renal toxicity can be reduced by slow intravenous infusion, maintenance of good hydration, and administration of mannitol to maximize urine flow. For testicular cancer, cisplatin is used in combination with etoposide and bleomycin.",
+      "images": []
+    }
+  },
+  {
+    "id": "199",
+    "subject": "Pharmacology",
+    "topic": "Toxicology",
+    "question": "A 2-year-old child was brought to the emergency department 1 hour after ingestion of tablets he had managed to obtain from a bottle on top of the refrigerator. His symptoms included marked gastrointestinal distress, vomiting (with hematemesis), and epigastric pain. Metabolic acidosis and leukocytosis were also present. This patient is most likely to have ingested tablets containing:",
+    "questionImage": null,
+    "options": [
+      "Acetaminophen",
+      "Aspirin",
+      "Vitamin C",
+      "Iron"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "This question emphasizes that the ingestion of iron tablets is a relatively common cause of accidental poisoning in young children. The signs and symptoms described usually occur in the first 6 h after ingestion. In a child whose body weight is 22 pounds, the ingestion of 600 mg can cause severe, perhaps lethal, toxicity.",
+      "images": []
+    }
+  },
+  {
+    "id": "200",
+    "subject": "Pharmacology",
+    "topic": "Cannabinoid",
+    "question": "Which one of the cannabinoids is well tolerated and does not result in reports of unwanted psychotropic effects?",
+    "questionImage": null,
+    "options": [
+      "Anandamide",
+      "Cannabidiol",
+      "Dronabinol",
+      "Nabilone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cannabidiol (CBD) is a cannabinoid derived from the cannabis plant. It is well-tolerated and does not produce the psychotropic effects associated with THC (tetrahydrocannabinol). CBD is being researched for various medical purposes, including its potential anti-seizure effects. Cannabidiol is effective in certain seizure disorders but does not act on CB1 or CB2 receptors.",
+      "images": []
+    }
+  },
+  {
+    "id": "201",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A 65-year-old man with urosepsis was treated with ciprofloxacin in India. Two weeks later he returns to the USA with sepsis. Which organism is most likely if the infection is ciprofloxacin-resistant?",
+    "questionImage": null,
+    "options": [
+      "Methicillin-resistant Staphylococcus aureus",
+      "ESBL-positive Escherichia coli",
+      "Vancomycin-resistant Enterococcus faecium",
+      "Clostridioides difficile"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "ESBL-producing E. coli is an emerging urinary pathogen; ciprofloxacin resistance is common, and carbapenems are recommended for serious infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "202",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following is a siderophore cephalosporin with activity against carbapenem-resistant Gram-negative organisms?",
+    "questionImage": null,
+    "options": [
+      "Ceftaroline",
+      "Ceftolozane-tazobactam",
+      "Cefiderocol",
+      "Ceftazidime-avibactam"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cefiderocol uses active iron transport to enter bacteria and is stable against many β-lactamases, including metallo-β-lactamases.",
+      "images": []
+    }
+  },
+  {
+    "id": "203",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "According to the '10×'20 initiative', how many novel systemic antibacterial agents were approved by the FDA by 2020?",
+    "questionImage": null,
+    "options": [
+      "5",
+      "10",
+      "14",
+      "20"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The initiative aimed for 10, but by 2020, 14 antibacterials received FDA approval, 3 of which were novel agents.",
+      "images": []
+    }
+  },
+  {
+    "id": "204",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following novel agents is a cephalosporin/β-lactamase inhibitor combination active against ESBL and KPC producers?",
+    "questionImage": null,
+    "options": [
+      "Ceftazidime-avibactam",
+      "Ceftolozane-tazobactam",
+      "Imipenem-cilastatin-relebactam",
+      "Eravacycline"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ceftazidime-avibactam is active against ESBL and KPC producers; it is not active against metallo-β-lactamases.",
+      "images": []
+    }
+  },
+  {
+    "id": "205",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with burn wound infection and sepsis is started on tobramycin. Which pharmacodynamic property supports once-daily dosing?",
+    "questionImage": null,
+    "options": [
+      "Time-dependent killing",
+      "Post-antibiotic effect and concentration-dependent killing",
+      "Narrow therapeutic index",
+      "High protein binding"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Aminoglycosides exhibit concentration-dependent killing and a significant post-antibiotic effect, making once-daily dosing effective and less toxic.",
+      "images": []
+    }
+  },
+  {
+    "id": "206",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "What is the recommended once-daily dose of tobramycin for a patient with normal renal function (CrCl >60 mL/min)?",
+    "questionImage": null,
+    "options": [
+      "1-2 mg/kg",
+      "3-4 mg/kg",
+      "5-7 mg/kg",
+      "10-12 mg/kg"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "For gentamicin and tobramycin, once-daily dosing of 5-7 mg/kg is recommended when CrCl >60 mL/min.",
+      "images": []
+    }
+  },
+  {
+    "id": "207",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which aminoglycoside is most likely to cause vestibular toxicity?",
+    "questionImage": null,
+    "options": [
+      "Neomycin",
+      "Amikacin",
+      "Streptomycin",
+      "Tobramycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Streptomycin and gentamicin are the most vestibulotoxic; neomycin and amikacin are more auditory toxic.",
+      "images": []
+    }
+  },
+  {
+    "id": "208",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Plazomicin is a novel aminoglycoside approved for complicated urinary tract infections. Which resistance mechanism does it overcome?",
+    "questionImage": null,
+    "options": [
+      "Altered penicillin-binding proteins",
+      "Efflux pumps",
+      "Aminoglycoside-modifying enzymes",
+      "Ribosomal methylation"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Plazomicin is structurally modified to resist most aminoglycoside-modifying enzymes, retaining activity against resistant pathogens.",
+      "images": []
+    }
+  },
+  {
+    "id": "209",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A woman with chlamydial cervicitis is pregnant. Which treatment is preferred?",
+    "questionImage": null,
+    "options": [
+      "Doxycycline 100 mg BID x7d",
+      "Azithromycin 1 g single dose",
+      "Erythromycin base 500 mg QID x7d",
+      "Levofloxacin 500 mg daily x7d"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tetracyclines are contraindicated in pregnancy; azithromycin is the preferred alternative for chlamydia in pregnancy.",
+      "images": []
+    }
+  },
+  {
+    "id": "210",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Doxycycline is the preferred oral tetracycline for most infections because:",
+    "questionImage": null,
+    "options": [
+      "It has the longest half-life",
+      "It has excellent CNS penetration",
+      "It is well tolerated, twice-daily, and absorption not significantly affected by food",
+      "It is the only tetracycline active against MRSA"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Doxycycline is generally well tolerated, dosed twice daily, and its absorption is minimally affected by food or divalent cations.",
+      "images": []
+    }
+  },
+  {
+    "id": "211",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Tigecycline carries a black box warning due to:",
+    "questionImage": null,
+    "options": [
+      "Severe hepatotoxicity",
+      "Increased risk of death compared to other antibiotics",
+      "High rate of anaphylaxis",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tigecycline has a black box warning for increased mortality seen in meta-analyses; it is reserved for situations where alternatives are not suitable.",
+      "images": []
+    }
+  },
+  {
+    "id": "212",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which macrolide is associated with the lowest risk of CYP3A4 drug interactions?",
+    "questionImage": null,
+    "options": [
+      "Erythromycin",
+      "Clarithromycin",
+      "Azithromycin",
+      "Telithromycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Azithromycin (15-membered ring) does not inactivate CYP450 enzymes, unlike erythromycin and clarithromycin.",
+      "images": []
+    }
+  },
+  {
+    "id": "213",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Clindamycin is used in combination with a beta-lactam for toxic shock syndrome primarily to:",
+    "questionImage": null,
+    "options": [
+      "Enhance bactericidal activity",
+      "Inhibit toxin production",
+      "Prevent emergence of resistance",
+      "Treat polymicrobial infection"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clindamycin inhibits bacterial protein synthesis and toxin production, making it useful in streptococcal toxic shock and necrotizing fasciitis.",
+      "images": []
+    }
+  },
+  {
+    "id": "214",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Linezolid is active against vancomycin-resistant Enterococcus faecium. Its mechanism of action is:",
+    "questionImage": null,
+    "options": [
+      "Inhibition of cell wall synthesis",
+      "Binding to 50S ribosomal subunit to prevent initiation complex",
+      "Inhibition of DNA gyrase",
+      "Disruption of cell membrane"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Linezolid binds to the 23S rRNA of the 50S subunit, preventing formation of the initiation complex; it is bacteriostatic against most gram-positive organisms.",
+      "images": []
+    }
+  },
+  {
+    "id": "215",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient on linezolid and a selective serotonin reuptake inhibitor is at risk for:",
+    "questionImage": null,
+    "options": [
+      "Serotonin syndrome",
+      "QT prolongation",
+      "Hemolytic anemia",
+      "Hepatotoxicity"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Linezolid has weak MAOI properties and can cause serotonin syndrome when combined with serotonergic drugs.",
+      "images": []
+    }
+  },
+  {
+    "id": "216",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Lefamulin is a novel pleuromutilin approved for:",
+    "questionImage": null,
+    "options": [
+      "Complicated skin infections",
+      "Community-acquired pneumonia",
+      "Urinary tract infections",
+      "Diabetic foot infections"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Lefamulin is approved for community-acquired bacterial pneumonia based on noninferiority to moxifloxacin.",
+      "images": []
+    }
+  },
+  {
+    "id": "217",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which penicillin is the drug of choice for syphilis?",
+    "questionImage": null,
+    "options": [
+      "Amoxicillin",
+      "Penicillin G (benzathine)",
+      "Nafcillin",
+      "Piperacillin-tazobactam"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Benzathine penicillin G is the treatment of choice for syphilis, with a single 2.4 million-unit IM dose for primary/secondary syphilis.",
+      "images": []
+    }
+  },
+  {
+    "id": "218",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with a history of penicillin anaphylaxis requires a cephalosporin. Which generation has the lowest cross-reactivity?",
+    "questionImage": null,
+    "options": [
+      "First-generation",
+      "Second-generation",
+      "Third-generation",
+      "Fourth-generation"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Cross-reactivity is lower with later-generation cephalosporins; however, caution is still advised. Third- and fourth-generation cephalosporins are generally safer.",
+      "images": []
+    }
+  },
+  {
+    "id": "219",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Cefazolin is the preferred surgical prophylaxis agent for most procedures because:",
+    "questionImage": null,
+    "options": [
+      "It has excellent CNS penetration",
+      "It covers MRSA and Pseudomonas",
+      "It is active against common skin pathogens and has a favorable half-life",
+      "It is the cheapest antibiotic"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Cefazolin is active against staphylococci and streptococci, has a half-life allowing re-dosing during surgery, and is well-tolerated.",
+      "images": []
+    }
+  },
+  {
+    "id": "220",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which carbapenem is NOT active against Pseudomonas aeruginosa?",
+    "questionImage": null,
+    "options": [
+      "Imipenem",
+      "Meropenem",
+      "Ertapenem",
+      "Doripenem"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ertapenem lacks appreciable activity against Pseudomonas aeruginosa and Acinetobacter species.",
+      "images": []
+    }
+  },
+  {
+    "id": "221",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Aztreonam is a monobactam active against:",
+    "questionImage": null,
+    "options": [
+      "Gram-positive cocci",
+      "Anaerobes",
+      "Aerobic Gram-negative bacteria",
+      "Methicillin-resistant S. aureus"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Aztreonam is active only against aerobic Gram-negative bacteria, including Pseudomonas, but not Gram-positive or anaerobes.",
+      "images": []
+    }
+  },
+  {
+    "id": "222",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Vancomycin-resistant enterococci (VRE) resistance is primarily due to:",
+    "questionImage": null,
+    "options": [
+      "Efflux pumps",
+      "Modification of D-Ala-D-Ala to D-Ala-D-lactate",
+      "β-lactamase production",
+      "Altered penicillin-binding proteins"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "VRE alters the peptidoglycan precursor from D-Ala-D-Ala to D-Ala-D-lactate, reducing vancomycin binding affinity.",
+      "images": []
+    }
+  },
+  {
+    "id": "223",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which lipoglycopeptide has a half-life >10 days and can be given as a single dose for skin infections?",
+    "questionImage": null,
+    "options": [
+      "Vancomycin",
+      "Telavancin",
+      "Dalbavancin",
+      "Oritavancin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Dalbavancin has a half-life >10 days and is approved as a single 1500-mg dose for acute bacterial skin and skin structure infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "224",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Daptomycin is not effective for pneumonia because:",
+    "questionImage": null,
+    "options": [
+      "It is inactivated by pulmonary surfactant",
+      "It does not penetrate lung tissue",
+      "It is bacteriostatic",
+      "It causes severe myopathy"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Daptomycin is inactivated by pulmonary surfactant, so it should not be used for pneumonia; it is effective for skin and bloodstream infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "225",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Fosfomycin trometamol is approved in the USA for:",
+    "questionImage": null,
+    "options": [
+      "Pyelonephritis",
+      "Uncomplicated urinary tract infection in women",
+      "Prostatitis",
+      "Diabetic foot infection"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fosfomycin trometamol is approved as a single 3-g dose for uncomplicated lower UTI in women.",
+      "images": []
+    }
+  },
+  {
+    "id": "226",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following penicillins is stable to staphylococcal β-lactamase?",
+    "questionImage": null,
+    "options": [
+      "Ampicillin",
+      "Penicillin G",
+      "Nafcillin",
+      "Piperacillin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Nafcillin and isoxazolyl penicillins are resistant to staphylococcal β-lactamase; they are used for MSSA infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "227",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with meningitis caused by penicillin-resistant pneumococcus should receive:",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone + vancomycin",
+      "Ampicillin + gentamicin",
+      "Meropenem alone",
+      "Vancomycin + rifampin"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "For penicillin-resistant pneumococcal meningitis, vancomycin plus a third-generation cephalosporin (ceftriaxone) is recommended.",
+      "images": []
+    }
+  },
+  {
+    "id": "228",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which cephalosporin has activity against methicillin-resistant Staphylococcus aureus (MRSA)?",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone",
+      "Cefepime",
+      "Ceftaroline",
+      "Cefoxitin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ceftaroline is a cephalosporin with activity against MRSA due to its affinity for PBP2a.",
+      "images": []
+    }
+  },
+  {
+    "id": "229",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Ceftazidime-avibactam is active against which type of carbapenemase?",
+    "questionImage": null,
+    "options": [
+      "Metallo-β-lactamase (NDM)",
+      "KPC",
+      "AmpC only",
+      "OXA-48"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ceftazidime-avibactam is active against KPC and some OXA enzymes, but not metallo-β-lactamases like NDM.",
+      "images": []
+    }
+  },
+  {
+    "id": "230",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with intra-abdominal infection and ESBL-producing E. coli should be treated with:",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone",
+      "Ciprofloxacin",
+      "Ertapenem",
+      "Piperacillin-tazobactam"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Carbapenems (ertapenem, meropenem, etc.) are the treatment of choice for serious ESBL-producing Enterobacterales infections.",
+      "images": []
+    }
+  },
+  {
+    "id": "231",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which drug is the most appropriate for surgical prophylaxis in colorectal surgery?",
+    "questionImage": null,
+    "options": [
+      "Cefazolin",
+      "Cefoxitin",
+      "Vancomycin",
+      "Ampicillin-sulbactam"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cefoxitin or cefotetan provides coverage against enteric Gram-negative rods and anaerobes, suitable for colorectal prophylaxis.",
+      "images": []
+    }
+  },
+  {
+    "id": "232",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Empiric therapy for febrile neutropenia often includes cefepime. Why?",
+    "questionImage": null,
+    "options": [
+      "Broad Gram-positive coverage",
+      "Anti-pseudomonal and broad Gram-negative activity",
+      "Excellent anaerobic coverage",
+      "Low risk of C. difficile"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Cefepime has broad Gram-negative activity including Pseudomonas, and is commonly used empirically in febrile neutropenia.",
+      "images": []
+    }
+  },
+  {
+    "id": "233",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Aminoglycosides are not effective against anaerobes because:",
+    "questionImage": null,
+    "options": [
+      "They bind to 50S ribosomes",
+      "They require oxygen-dependent active transport",
+      "Anaerobes lack cell walls",
+      "They are inactivated by anaerobic enzymes"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Aminoglycoside uptake is oxygen-dependent, so they are ineffective against anaerobes.",
+      "images": []
+    }
+  },
+  {
+    "id": "234",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which drug should be avoided in pregnancy due to deposition in fetal teeth and bone?",
+    "questionImage": null,
+    "options": [
+      "Azithromycin",
+      "Amoxicillin",
+      "Doxycycline",
+      "Metronidazole"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Tetracyclines bind to calcium in developing teeth and bones, causing discoloration and enamel dysplasia; contraindicated in pregnancy and children <8 years.",
+      "images": []
+    }
+  },
+  {
+    "id": "235",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient on erythromycin develops cholestatic hepatitis. Which formulation is classically associated?",
+    "questionImage": null,
+    "options": [
+      "Erythromycin base",
+      "Erythromycin stearate",
+      "Erythromycin estolate",
+      "Erythromycin ethylsuccinate"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Erythromycin estolate is associated with acute cholestatic hepatitis, likely a hypersensitivity reaction.",
+      "images": []
+    }
+  },
+  {
+    "id": "236",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Clindamycin is a risk factor for Clostridioides difficile infection. Its mechanism is:",
+    "questionImage": null,
+    "options": [
+      "Disruption of normal flora and inhibition of protein synthesis",
+      "Direct toxin production",
+      "Inhibition of cell wall synthesis",
+      "Alteration of gut motility"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Clindamycin suppresses normal flora, allowing C. difficile overgrowth; it also inhibits protein synthesis, but the main risk is alteration of flora.",
+      "images": []
+    }
+  },
+  {
+    "id": "237",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Tedizolid differs from linezolid in that it:",
+    "questionImage": null,
+    "options": [
+      "Has a longer half-life and once-daily dosing",
+      "Is active against Gram-negative bacteria",
+      "Does not cause myelosuppression",
+      "Is only available intravenously"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Tedizolid has a longer half-life (~12 hours) allowing once-daily dosing and may have less myelosuppression.",
+      "images": []
+    }
+  },
+  {
+    "id": "238",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Fidaxomicin is a macrolide used for:",
+    "questionImage": null,
+    "options": [
+      "Community-acquired pneumonia",
+      "C. difficile infection",
+      "Skin infections",
+      "Mycobacterial infections"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Fidaxomicin is a minimally absorbed macrolide approved for treatment of Clostridioides difficile infection, with lower relapse rates.",
+      "images": []
+    }
+  },
+  {
+    "id": "239",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which β-lactamase inhibitor is a non-β-lactam and inhibits KPC and AmpC but not metallo-β-lactamases?",
+    "questionImage": null,
+    "options": [
+      "Clavulanic acid",
+      "Sulbactam",
+      "Tazobactam",
+      "Avibactam"
+    ],
+    "correctAnswer": 3,
+    "rationale": {
+      "text": "Avibactam is a non-β-lactam β-lactamase inhibitor that inhibits class A and C (and some D) enzymes, including KPC.",
+      "images": []
+    }
+  },
+  {
+    "id": "240",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which antibiotic is the drug of choice for Listeria monocytogenes meningitis?",
+    "questionImage": null,
+    "options": [
+      "Ceftriaxone",
+      "Ampicillin",
+      "Vancomycin",
+      "Meropenem"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ampicillin is the drug of choice for Listeria monocytogenes (plus gentamicin in some cases); cephalosporins are not active.",
+      "images": []
+    }
+  },
+  {
+    "id": "241",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Spectinomycin was used for gonorrhea but is no longer available in the USA. Its mechanism is:",
+    "questionImage": null,
+    "options": [
+      "Cell wall inhibition",
+      "Protein synthesis inhibition",
+      "DNA gyrase inhibition",
+      "Cell membrane disruption"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Spectinomycin is an aminocyclitol that inhibits protein synthesis but is structurally related to aminoglycosides.",
+      "images": []
+    }
+  },
+  {
+    "id": "242",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "In a patient with renal insufficiency, which penicillin does NOT require dose adjustment?",
+    "questionImage": null,
+    "options": [
+      "Penicillin G",
+      "Ampicillin",
+      "Nafcillin",
+      "Piperacillin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Nafcillin is primarily cleared by biliary excretion, so no dose adjustment is needed in renal failure.",
+      "images": []
+    }
+  },
+  {
+    "id": "243",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which cephalosporin has activity against Pseudomonas aeruginosa?",
+    "questionImage": null,
+    "options": [
+      "Cephalexin",
+      "Cefuroxime",
+      "Ceftazidime",
+      "Cefotetan"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ceftazidime is the only third-generation cephalosporin with useful activity against Pseudomonas aeruginosa.",
+      "images": []
+    }
+  },
+  {
+    "id": "244",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient on vancomycin develops 'red man syndrome'. This is due to:",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity",
+      "Histamine release",
+      "Ototoxicity",
+      "Thrombocytopenia"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Red man syndrome (flushing, hypotension) is caused by histamine release from rapid vancomycin infusion; can be minimized by slow infusion.",
+      "images": []
+    }
+  },
+  {
+    "id": "245",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "The target AUC:MIC ratio for vancomycin against MRSA is:",
+    "questionImage": null,
+    "options": [
+      "≥200",
+      "≥400",
+      "≥600",
+      "≥800"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "An AUC:MIC ratio of ≥400 mg·h/L is the pharmacodynamic target for vancomycin efficacy against MRSA.",
+      "images": []
+    }
+  },
+  {
+    "id": "246",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which aminoglycoside is most active against Pseudomonas aeruginosa?",
+    "questionImage": null,
+    "options": [
+      "Gentamicin",
+      "Tobramycin",
+      "Amikacin",
+      "Netilmicin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tobramycin is slightly more active than gentamicin against Pseudomonas aeruginosa, though both are used.",
+      "images": []
+    }
+  },
+  {
+    "id": "247",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which of the following is an oral carbapenem under development?",
+    "questionImage": null,
+    "options": [
+      "Doripenem",
+      "Ertapenem",
+      "Tebipenem pivoxil",
+      "Meropenem-vaborbactam"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Tebipenem pivoxil is an orally bioavailable carbapenem in clinical trials; not yet approved in the USA.",
+      "images": []
+    }
+  },
+  {
+    "id": "248",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "A patient with Mycoplasma pneumoniae pneumonia should be treated with:",
+    "questionImage": null,
+    "options": [
+      "Amoxicillin",
+      "Cephalexin",
+      "Doxycycline or azithromycin",
+      "Vancomycin"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Mycoplasma lacks a cell wall, so β-lactams are ineffective; macrolides or tetracyclines are the drugs of choice.",
+      "images": []
+    }
+  },
+  {
+    "id": "249",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Chloramphenicol is rarely used due to the risk of:",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity",
+      "Ototoxicity",
+      "Aplastic anemia",
+      "Hepatotoxicity"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Chloramphenicol can cause dose-related reversible bone marrow suppression and idiosyncratic aplastic anemia (1 in 24,000-40,000 courses).",
+      "images": []
+    }
+  },
+  {
+    "id": "250",
+    "subject": "Pharmacology",
+    "topic": "Antibiotic",
+    "question": "Which drug is used for prophylaxis of Pneumocystis jirovecii pneumonia in HIV patients with CD4 <100?",
+    "questionImage": null,
+    "options": [
+      "Dapsone",
+      "Trimethoprim-sulfamethoxazole",
+      "Pentamidine",
+      "Atovaquone"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Trimethoprim-sulfamethoxazole is the first-line prophylaxis for PJP; alternatives include dapsone and atovaquone.",
+      "images": []
+    }
+  },
+  {
+    "id": "251",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Acyclovir requires three phosphorylation steps for activation. The first phosphorylation is catalyzed by which enzyme?",
+    "questionImage": null,
+    "options": [
+      "Host cell thymidine kinase",
+      "Viral thymidine kinase",
+      "Host cell DNA polymerase",
+      "Viral DNA polymerase"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Acyclovir is first phosphorylated by viral thymidine kinase to the monophosphate, then by host cell enzymes to the triphosphate active form.",
+      "images": []
+    }
+  },
+  {
+    "id": "252",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following antiherpes agents has the highest oral bioavailability and achieves serum levels approaching those of intravenous acyclovir?",
+    "questionImage": null,
+    "options": [
+      "Acyclovir",
+      "Famciclovir",
+      "Valacyclovir",
+      "Penciclovir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Valacyclovir (L-valyl ester of acyclovir) has 54–70% oral bioavailability and achieves serum levels 3–5× higher than oral acyclovir.",
+      "images": []
+    }
+  },
+  {
+    "id": "253",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Ganciclovir is activated by phosphorylation catalyzed by which viral enzyme in cytomegalovirus (CMV)-infected cells?",
+    "questionImage": null,
+    "options": [
+      "UL97 protein kinase",
+      "UL54 DNA polymerase",
+      "Thymidine kinase",
+      "UL56 terminase"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Ganciclovir is initially phosphorylated by the CMV UL97 protein kinase, then by host kinases to the triphosphate active form.",
+      "images": []
+    }
+  },
+  {
+    "id": "254",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Foscarnet inhibits viral DNA polymerase by which mechanism?",
+    "questionImage": null,
+    "options": [
+      "Competitive inhibition of the nucleotide binding site",
+      "Chain termination after incorporation into DNA",
+      "Blocking the pyrophosphate binding site",
+      "Inhibition of viral thymidine kinase"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Foscarnet is a pyrophosphate analog that directly blocks the pyrophosphate binding site of viral DNA polymerase without requiring phosphorylation.",
+      "images": []
+    }
+  },
+  {
+    "id": "255",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which antiretroviral class binds directly to HIV-1 reverse transcriptase at a site distinct from the NRTI binding site and does not require phosphorylation?",
+    "questionImage": null,
+    "options": [
+      "NRTIs",
+      "NNRTIs",
+      "Protease inhibitors",
+      "Integrase inhibitors"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "NNRTIs bind allosterically to HIV-1 reverse transcriptase, do not require phosphorylation, and are not competitive with nucleoside triphosphates.",
+      "images": []
+    }
+  },
+  {
+    "id": "256",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "The M184V mutation in HIV-1 reverse transcriptase confers resistance to which NRTIs?",
+    "questionImage": null,
+    "options": [
+      "Lamivudine and emtricitabine",
+      "Tenofovir and zidovudine",
+      "Abacavir and didanosine",
+      "Stavudine and zalcitabine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The M184V mutation reduces susceptibility to lamivudine and emtricitabine, but may restore phenotypic susceptibility to tenofovir and zidovudine.",
+      "images": []
+    }
+  },
+  {
+    "id": "257",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which protease inhibitor is associated with indirect hyperbilirubinemia and overt jaundice due to inhibition of UGT1A1?",
+    "questionImage": null,
+    "options": [
+      "Darunavir",
+      "Atazanavir",
+      "Lopinavir",
+      "Ritonavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Atazanavir inhibits UGT1A1, causing unconjugated hyperbilirubinemia and jaundice in ~10% of patients, which is reversible on discontinuation.",
+      "images": []
+    }
+  },
+  {
+    "id": "258",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which integrase strand transfer inhibitor (INSTI) is available in a fixed-dose combination with tenofovir alafenamide and emtricitabine as a single daily pill?",
+    "questionImage": null,
+    "options": [
+      "Raltegravir",
+      "Dolutegravir",
+      "Bictegravir",
+      "Elvitegravir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Bictegravir is co-formulated with tenofovir alafenamide and emtricitabine (Biktarvy) as a once-daily single-tablet regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "259",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a first-in-class capsid inhibitor for multidrug-resistant HIV infection, administered subcutaneously every 6 months after oral initiation?",
+    "questionImage": null,
+    "options": [
+      "Lenacapavir",
+      "Fostemsavir",
+      "Ibalizumab",
+      "Maraviroc"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Lenacapavir is a long-acting capsid inhibitor; treatment is initiated orally then continued subcutaneously every 6 months.",
+      "images": []
+    }
+  },
+  {
+    "id": "260",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Baloxavir marboxil, a selective inhibitor of influenza cap-dependent endonuclease, is active against which influenza types?",
+    "questionImage": null,
+    "options": [
+      "Influenza A only",
+      "Influenza B only",
+      "Both influenza A and B",
+      "Influenza A, B, and C"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Baloxavir inhibits cap-dependent endonuclease and is active against both influenza A and B viruses, acting earlier in the replication cycle than neuraminidase inhibitors.",
+      "images": []
+    }
+  },
+  {
+    "id": "261",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which direct-acting antiviral (DAA) for hepatitis C is a nucleotide analog NS5B polymerase inhibitor that causes chain termination after incorporation into HCV RNA?",
+    "questionImage": null,
+    "options": [
+      "Ledipasvir",
+      "Sofosbuvir",
+      "Velpatasvir",
+      "Glecaprevir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Sofosbuvir is a nucleotide prodrug that is converted to a triphosphate which incorporates into HCV RNA and causes chain termination.",
+      "images": []
+    }
+  },
+  {
+    "id": "262",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which antiviral agent is indicated for CMV prophylaxis in adult CMV-seropositive recipients of allogeneic hematopoietic stem cell transplant and inhibits the CMV DNA terminase subunit pUL56?",
+    "questionImage": null,
+    "options": [
+      "Valganciclovir",
+      "Foscarnet",
+      "Letermovir",
+      "Maribavir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Letermovir inhibits the CMV terminase subunit pUL56 required for DNA packaging and processing, with no equivalent human target enzyme.",
+      "images": []
+    }
+  },
+  {
+    "id": "263",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Nirmatrelvir, a protease inhibitor for COVID-19, is co-administered with low-dose ritonavir for which primary purpose?",
+    "questionImage": null,
+    "options": [
+      "To add antiviral activity",
+      "To increase nirmatrelvir concentrations by CYP3A4 inhibition",
+      "To reduce gastrointestinal side effects",
+      "To prevent renal excretion"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ritonavir is a strong CYP3A4 inhibitor that boosts nirmatrelvir concentrations to therapeutic range and prolongs its half-life to ~6 hours.",
+      "images": []
+    }
+  },
+  {
+    "id": "264",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which influenza antiviral is a neuraminidase inhibitor administered as a single intravenous dose for acute uncomplicated influenza in adults?",
+    "questionImage": null,
+    "options": [
+      "Oseltamivir",
+      "Zanamivir",
+      "Peramivir",
+      "Baloxavir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Peramivir is a cyclopentane neuraminidase inhibitor approved as a single 600-mg IV dose for acute uncomplicated influenza in adults.",
+      "images": []
+    }
+  },
+  {
+    "id": "265",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Molnupiravir, an oral prodrug for COVID-19, exerts its antiviral effect through which mechanism?",
+    "questionImage": null,
+    "options": [
+      "Protease inhibition",
+      "RNA-dependent RNA polymerase inhibition with lethal mutagenesis",
+      "Spike protein binding",
+      "Capsid inhibition"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Molnupiravir (prodrug of NHC) is incorporated by viral RNA-dependent RNA polymerase, causing lethal mutagenesis of SARS-CoV-2.",
+      "images": []
+    }
+  },
+  {
+    "id": "266",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Isoniazid inhibits synthesis of which essential component of the mycobacterial cell wall?",
+    "questionImage": null,
+    "options": [
+      "Arabinogalactan",
+      "Mycolic acids",
+      "Peptidoglycan",
+      "Lipopolysaccharide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Isoniazid is a prodrug activated by KatG; the active form blocks mycolic acid synthesis by forming a covalent complex with AcpM and KasA.",
+      "images": []
+    }
+  },
+  {
+    "id": "267",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Rifampin binds to which bacterial target to inhibit RNA synthesis?",
+    "questionImage": null,
+    "options": [
+      "DNA polymerase",
+      "RNA polymerase β subunit",
+      "30S ribosomal subunit",
+      "50S ribosomal subunit"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rifampin binds to the β subunit of bacterial DNA-dependent RNA polymerase, blocking RNA synthesis. Human RNA polymerase is not affected.",
+      "images": []
+    }
+  },
+  {
+    "id": "268",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which first-line antituberculous drug is a \"sterilizing\" agent active against intracellular mycobacteria in acidic lysosomes and allows treatment duration to be shortened to 6 months?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Pyrazinamide is converted to pyrazinoic acid in acidic macrophage lysosomes, disrupting mycobacterial cell membrane function and serving as a sterilizing agent.",
+      "images": []
+    }
+  },
+  {
+    "id": "269",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Ethambutol inhibits mycobacterial arabinosyl transferases, which are involved in the synthesis of which cell wall component?",
+    "questionImage": null,
+    "options": [
+      "Mycolic acids",
+      "Arabinogalactan",
+      "Peptidoglycan",
+      "Lipoarabinomannan"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Ethambutol inhibits arabinosyl transferases (encoded by embCAB) that polymerize arabinoglycan, an essential component of the mycobacterial cell wall.",
+      "images": []
+    }
+  },
+  {
+    "id": "270",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "In the traditional 6-month regimen for drug-susceptible tuberculosis, which two drugs are continued during the continuation phase after the initial 2-month intensive phase?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid and rifampin",
+      "Isoniazid and pyrazinamide",
+      "Rifampin and ethambutol",
+      "Pyrazinamide and ethambutol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The continuation phase consists of isoniazid and rifampin for 4 additional months (total 6 months) in the standard regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "271",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which adverse effect of isoniazid is due to relative pyridoxine deficiency and is more common in slow acetylators, alcohol use disorder, and malnourished patients?",
+    "questionImage": null,
+    "options": [
+      "Hepatitis",
+      "Peripheral neuropathy",
+      "Hemolytic anemia",
+      "Systemic lupus erythematosus"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Isoniazid promotes pyridoxine excretion, leading to peripheral neuropathy; it is more common in slow acetylators and patients with malnutrition or alcohol use.",
+      "images": []
+    }
+  },
+  {
+    "id": "272",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Rifampin is a potent inducer of cytochrome P450 enzymes. Coadministration with rifampin would be expected to decrease serum levels of which drug?",
+    "questionImage": null,
+    "options": [
+      "Phenytoin",
+      "Isoniazid",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Rifampin induces CYP isoforms (1A2, 2C9, 2C19, 2D6, 3A4), increasing elimination of many drugs including phenytoin, methadone, and oral contraceptives.",
+      "images": []
+    }
+  },
+  {
+    "id": "273",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which adverse effect of streptomycin is dose-related and may be permanent, with increased risk in elderly patients?",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity",
+      "Ototoxicity (vertigo and hearing loss)",
+      "Hepatotoxicity",
+      "Peripheral neuropathy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Streptomycin is ototoxic, causing vertigo and hearing loss which may be permanent, especially with high doses and in elderly patients.",
+      "images": []
+    }
+  },
+  {
+    "id": "274",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Bedaquiline, a diarylquinoline, inhibits which mycobacterial target and is used for multidrug-resistant tuberculosis?",
+    "questionImage": null,
+    "options": [
+      "DNA gyrase",
+      "RNA polymerase",
+      "ATP synthase",
+      "Mycolic acid synthase"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Bedaquiline inhibits mycobacterial ATP synthase. It has a black-box warning for QTc prolongation and is used in MDR-TB regimens.",
+      "images": []
+    }
+  },
+  {
+    "id": "275",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Pretomanid, a nitroimidazole, is recommended in combination with bedaquiline and linezolid for which type of tuberculosis?",
+    "questionImage": null,
+    "options": [
+      "Drug-susceptible pulmonary TB",
+      "Multidrug-resistant (MDR) pulmonary TB",
+      "Latent TB infection",
+      "Extrapulmonary TB"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Pretomanid is approved for extensively drug-resistant, pre-extensively drug-resistant, or treatment-nonresponsive MDR pulmonary TB in the BPaL regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "276",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which regimen is recommended for the treatment of disseminated Mycobacterium avium complex (MAC) infection in patients with AIDS?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid, rifampin, pyrazinamide",
+      "Azithromycin or clarithromycin plus ethambutol ± rifabutin",
+      "Dapsone, rifampin, clofazimine",
+      "Amikacin, capreomycin, ethionamide"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The standard regimen for disseminated MAC is a macrolide (azithromycin or clarithromycin) plus ethambutol, with rifabutin as a third agent in some cases.",
+      "images": []
+    }
+  },
+  {
+    "id": "277",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Dapsone, used in the treatment of leprosy, inhibits folate synthesis and is structurally related to which class of antibiotics?",
+    "questionImage": null,
+    "options": [
+      "Sulfonamides",
+      "Tetracyclines",
+      "Macrolides",
+      "Aminoglycosides"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Dapsone (diaminodiphenylsulfone) is a sulfone that inhibits folate synthesis and is structurally related to sulfonamides.",
+      "images": []
+    }
+  },
+  {
+    "id": "278",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "In the treatment of lepromatous leprosy, which three drugs are recommended for initial therapy to prevent emergence of resistance?",
+    "questionImage": null,
+    "options": [
+      "Dapsone, rifampin, clofazimine",
+      "Isoniazid, rifampin, pyrazinamide",
+      "Dapsone, ethambutol, streptomycin",
+      "Clofazimine, ethionamide, cycloserine"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "For lepromatous leprosy, combination therapy with dapsone, rifampin, and clofazimine is recommended to prevent resistance emergence.",
+      "images": []
+    }
+  },
+  {
+    "id": "279",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Clofazimine, a phenazine dye used in leprosy, has which prominent adverse effect that can limit its use?",
+    "questionImage": null,
+    "options": [
+      "Hepatotoxicity",
+      "Discoloration of skin and conjunctivae",
+      "Peripheral neuropathy",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Clofazimine accumulates in skin and reticuloendothelial tissues, causing reddish-black discoloration of the skin and conjunctivae.",
+      "images": []
+    }
+  },
+  {
+    "id": "280",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Linezolid, used for multidrug-resistant tuberculosis, is associated with which serious adverse effects with prolonged use?",
+    "questionImage": null,
+    "options": [
+      "Nephrotoxicity and ototoxicity",
+      "Hepatotoxicity and hyperuricemia",
+      "Bone marrow suppression and irreversible neuropathy",
+      "Cardiac arrhythmias and hyperglycemia"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Linezolid can cause bone marrow suppression and irreversible peripheral and optic neuropathy with prolonged courses, especially at higher doses.",
+      "images": []
+    }
+  },
+  {
+    "id": "281",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Rifabutin is often used in place of rifampin for tuberculosis in HIV-infected patients because it is:",
+    "questionImage": null,
+    "options": [
+      "More potent against M. tuberculosis",
+      "A less potent CYP450 inducer",
+      "Active against rifampin-resistant strains",
+      "Less hepatotoxic"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rifabutin is a less potent CYP450 inducer than rifampin, making it preferred for patients on antiretroviral therapy with protease inhibitors or integrase inhibitors.",
+      "images": []
+    }
+  },
+  {
+    "id": "282",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "The 4-month regimen for drug-susceptible pulmonary tuberculosis consists of which drugs?",
+    "questionImage": null,
+    "options": [
+      "Rifampin, isoniazid, pyrazinamide, ethambutol",
+      "Rifapentine, moxifloxacin, isoniazid, pyrazinamide",
+      "Rifabutin, levofloxacin, isoniazid, ethambutol",
+      "Bedaquiline, pretomanid, linezolid, moxifloxacin"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "The 4-month regimen (for patients ≥12 years, ≥40 kg) uses rifapentine, moxifloxacin, isoniazid, and pyrazinamide, and was noninferior to the standard 6-month regimen.",
+      "images": []
+    }
+  },
+  {
+    "id": "283",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which antituberculous drug is associated with dose-related retrobulbar neuritis and red-green color blindness?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Ethambutol",
+      "Pyrazinamide"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ethambutol causes retrobulbar neuritis with visual acuity loss and red-green color blindness; risk increases with dose >25 mg/kg/day and prolonged use.",
+      "images": []
+    }
+  },
+  {
+    "id": "284",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Resistance to isoniazid in Mycobacterium tuberculosis is most commonly due to mutations in which gene?",
+    "questionImage": null,
+    "options": [
+      "rpoB",
+      "katG",
+      "inhA",
+      "pncA"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Mutations or deletions in katG (encoding catalase-peroxidase) cause high-level isoniazid resistance by preventing activation of the prodrug.",
+      "images": []
+    }
+  },
+  {
+    "id": "285",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which of the following is a first-line antituberculous drug that is active only at acidic pH and is taken up by macrophages to act against intracellular mycobacteria?",
+    "questionImage": null,
+    "options": [
+      "Isoniazid",
+      "Rifampin",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Pyrazinamide is inactive at neutral pH but active at acidic pH (5.5), and is taken up by macrophages to act against mycobacteria in lysosomes.",
+      "images": []
+    }
+  },
+  {
+    "id": "286",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which COVID-19 antiviral agent is an adenosine nucleotide prodrug that causes chain termination of SARS-CoV-2 RNA and is administered intravenously?",
+    "questionImage": null,
+    "options": [
+      "Nirmatrelvir",
+      "Molnupiravir",
+      "Remdesivir",
+      "Baricitinib"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Remdesivir is an IV-administered adenosine nucleotide prodrug that is phosphorylated to the triphosphate and causes chain termination by the SARS-CoV-2 RNA-dependent RNA polymerase.",
+      "images": []
+    }
+  },
+  {
+    "id": "287",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Tecovirimat (TPOXX), used for monkeypox, inhibits which viral target to block release of virus particles from infected cells?",
+    "questionImage": null,
+    "options": [
+      "Viral DNA polymerase",
+      "Viral p37",
+      "Viral thymidine kinase",
+      "Viral RNA polymerase"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tecovirimat inhibits viral p37, blocking the egress of virus particles from infected cells; it is available under Expanded Access for monkeypox.",
+      "images": []
+    }
+  },
+  {
+    "id": "288",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following anti-HIV agents is a monoclonal antibody that binds the CD4 receptor and blocks HIV entry, used for multidrug-resistant HIV?",
+    "questionImage": null,
+    "options": [
+      "Maraviroc",
+      "Fostemsavir",
+      "Ibalizumab",
+      "Enfuvirtide"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ibalizumab is a monoclonal antibody that binds CD4, blocking HIV entry; it is active against both CCR5- and CXCR4-tropic HIV isolates.",
+      "images": []
+    }
+  },
+  {
+    "id": "289",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Ribavirin, used in combination with direct-acting antivirals for hepatitis C, is a guanosine analog that is contraindicated in pregnancy due to which effect?",
+    "questionImage": null,
+    "options": [
+      "Hepatotoxicity",
+      "Hemolytic anemia",
+      "Teratogenicity and embryotoxicity",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Ribavirin is teratogenic and embryotoxic; both sexual partners must use two forms of contraception during and after treatment (females 9 months, males 6 months).",
+      "images": []
+    }
+  },
+  {
+    "id": "290",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following directly-acting antiviral (DAA) combinations for hepatitis C has pangenotypic activity and is the first approved re-treatment option for patients who failed an NS5A inhibitor?",
+    "questionImage": null,
+    "options": [
+      "Ledipasvir/sofosbuvir",
+      "Elbasvir/grazoprevir",
+      "Sofosbuvir/velpatasvir/voxilaprevir",
+      "Glecaprevir/pibrentasvir"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Sofosbuvir/velpatasvir/voxilaprevir (Vosevi) is a pangenotypic regimen approved for re-treatment of patients who failed prior NS5A inhibitor therapy.",
+      "images": []
+    }
+  },
+  {
+    "id": "291",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following drugs is a CCR5 co-receptor antagonist that requires tropism testing before use, as it is only active against CCR5-tropic HIV-1?",
+    "questionImage": null,
+    "options": [
+      "Enfuvirtide",
+      "Maraviroc",
+      "Ibalizumab",
+      "Fostemsavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Maraviroc binds CCR5 and is active only against CCR5-tropic HIV-1; tropism testing is required to rule out CXCR4-tropic or dual-tropic virus.",
+      "images": []
+    }
+  },
+  {
+    "id": "292",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a characteristic adverse effect of tenofovir disoproxil fumarate that is less common with tenofovir alafenamide?",
+    "questionImage": null,
+    "options": [
+      "Weight gain",
+      "Renal toxicity and bone mineral density loss",
+      "Hyperlipidemia",
+      "Peripheral neuropathy"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Tenofovir disoproxil is associated with renal toxicity and bone mineral density loss; tenofovir alafenamide has less renal and bone toxicity but may cause more weight gain.",
+      "images": []
+    }
+  },
+  {
+    "id": "293",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a first-generation NNRTI that is no longer recommended as first-line therapy due to central nervous system side effects and potential fetal neural tube defects?",
+    "questionImage": null,
+    "options": [
+      "Rilpivirine",
+      "Etravirine",
+      "Efavirenz",
+      "Doravirine"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "Efavirenz is associated with CNS side effects and had concern for fetal neural tube defects in animal studies, though human meta-analyses have not confirmed this.",
+      "images": []
+    }
+  },
+  {
+    "id": "294",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Resistance to rifampin in Mycobacterium tuberculosis is due to point mutations in which gene?",
+    "questionImage": null,
+    "options": [
+      "katG",
+      "rpoB",
+      "pncA",
+      "embB"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Rifampin resistance results from point mutations in rpoB, which encodes the β subunit of RNA polymerase, reducing drug binding affinity.",
+      "images": []
+    }
+  },
+  {
+    "id": "295",
+    "subject": "Pharmacology",
+    "topic": "Antimycobacterial",
+    "question": "Which of the following is a contraindication to the use of dapsone in a patient with glucose-6-phosphate dehydrogenase (G6PD) deficiency?",
+    "questionImage": null,
+    "options": [
+      "Hepatotoxicity",
+      "Hemolysis and methemoglobinemia",
+      "Peripheral neuropathy",
+      "Nephrotoxicity"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Dapsone causes hemolysis, which is more severe in G6PD-deficient patients, and methemoglobinemia; dose adjustment or avoidance may be necessary.",
+      "images": []
+    }
+  },
+  {
+    "id": "296",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following antiviral agents for herpes is a helicase-primase inhibitor under development for HSV infection?",
+    "questionImage": null,
+    "options": [
+      "Pritelivir",
+      "Amenamevir",
+      "Brivudine",
+      "Docosanol"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Pritelivir is a helicase-primase inhibitor under development for HSV infection; amenamevir is being studied for VZV infection.",
+      "images": []
+    }
+  },
+  {
+    "id": "297",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a sulfonamide-containing protease inhibitor that should be used with caution in patients with a history of sulfa allergy?",
+    "questionImage": null,
+    "options": [
+      "Atazanavir",
+      "Darunavir",
+      "Lopinavir",
+      "Ritonavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Darunavir contains a sulfonamide moiety and may cause hypersensitivity reactions, particularly in patients with sulfa allergy.",
+      "images": []
+    }
+  },
+  {
+    "id": "298",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following anti-influenza agents is a neuraminidase inhibitor that should be avoided in patients with underlying airway disease due to risk of bronchospasm?",
+    "questionImage": null,
+    "options": [
+      "Oseltamivir",
+      "Zanamivir",
+      "Peramivir",
+      "Baloxavir"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Inhaled zanamivir can cause bronchospasm and is contraindicated in patients with underlying airway disease such as asthma or COPD.",
+      "images": []
+    }
+  },
+  {
+    "id": "299",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following agents is a humanized monoclonal antibody directed against the F protein of RSV, used for prophylaxis in high-risk infants?",
+    "questionImage": null,
+    "options": [
+      "Ribavirin",
+      "Palivizumab",
+      "Imiquimod",
+      "Interferon alfa"
+    ],
+    "correctAnswer": 1,
+    "rationale": {
+      "text": "Palivizumab is a monoclonal antibody against the RSV F protein, given intramuscularly to high-risk infants for RSV prophylaxis during the season.",
+      "images": []
+    }
+  },
+  {
+    "id": "300",
+    "subject": "Pharmacology",
+    "topic": "Antiviral",
+    "question": "Which of the following is a first-in-class oral nucleoside reverse transcriptase translocation inhibitor (NRTTI) being investigated for HIV prevention and treatment?",
+    "questionImage": null,
+    "options": [
+      "Islatravir",
+      "Albuvirtide",
+      "Lenacapavir",
+      "Fostemsavir"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "Islatravir is a first-in-class oral nucleoside reverse transcriptase translocation inhibitor with multiple mechanisms of action, under investigation for HIV.",
+      "images": []
+    }
+  }
+]

@@ -67,6 +67,7 @@
     function init() {
         document.querySelectorAll('.theme-toggle, .dark-toggle').forEach(function (button) {
             button.setAttribute('data-theme-toggle', '');
+            button.addEventListener('click', toggleTheme);
         });
         const initial = getStoredTheme() ||
             document.documentElement.getAttribute('data-theme') ||
