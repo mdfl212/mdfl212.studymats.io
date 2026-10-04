@@ -15,7 +15,10 @@
     "rationale": {
       "text": "The abdominal aorta bifurcates into the right and left common iliac arteries at the level of L4 vertebra.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-002",
@@ -33,7 +36,10 @@
     "rationale": {
       "text": "Beck's triad of cardiac tamponade: hypotension, muffled/distant heart sounds, and jugular venous distension (distended neck veins).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-003",
@@ -51,7 +57,10 @@
     "rationale": {
       "text": "The SA node is supplied by the SA nodal artery, a branch of the right coronary artery in ~60% of people (and the left circumflex in ~40%).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-004",
@@ -69,7 +78,10 @@
     "rationale": {
       "text": "The LAD (widow-maker) supplies the anterior wall of the left ventricle and the anterior 2/3 of the interventricular septum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-005",
@@ -87,7 +99,10 @@
     "rationale": {
       "text": "The sternal angle (angle of Louis) at T4–T5 demarcates the superior from the inferior mediastinum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-006",
@@ -105,7 +120,10 @@
     "rationale": {
       "text": "The thoracic duct drains into the venous angle formed by the junction of the left subclavian vein and left internal jugular vein.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-007",
@@ -123,7 +141,10 @@
     "rationale": {
       "text": "Mitral valve auscultation is best at the cardiac apex: left 5th intercostal space, midclavicular line (the mitral area).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-008",
@@ -141,7 +162,10 @@
     "rationale": {
       "text": "Aortic valve sounds are best heard at the right 2nd intercostal space, parasternal (aortic area).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-009",
@@ -159,7 +183,10 @@
     "rationale": {
       "text": "Ectopia cordis results from failure of the lateral body folds to properly migrate and fuse anteriorly, preventing formation of the ventral thoracic wall, leaving the heart exposed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-010",
@@ -177,7 +204,10 @@
     "rationale": {
       "text": "The SA node is located in the posterolateral wall of the right atrium, near the junction of the superior vena cava.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-011",
@@ -195,7 +225,10 @@
     "rationale": {
       "text": "The carotid sinus (baroreceptor) and carotid body (chemoreceptor) are both located at the bifurcation of the common carotid artery into internal and external carotid arteries.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-012",
@@ -213,7 +246,10 @@
     "rationale": {
       "text": "Elevated BP stretches the carotid sinus baroreceptors → increases afferent signals → increases parasympathetic output (via CN IX/X) → decreases HR and vasodilation → lowers BP.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-013",
@@ -231,7 +267,10 @@
     "rationale": {
       "text": "The vertebral arteries ascend through the transverse foramina of C6–C1 vertebrae, then enter the skull through the foramen magnum to join and form the basilar artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-014",
@@ -249,7 +288,10 @@
     "rationale": {
       "text": "The ophthalmic artery is a branch of the INTERNAL carotid artery. The external carotid artery branches include the superior thyroid, lingual, facial, occipital, posterior auricular, maxillary, and superficial temporal arteries.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-015",
@@ -267,7 +309,10 @@
     "rationale": {
       "text": "Ectopia cordis occurs when the lateral embryonic body folds fail to migrate and fuse at the ventral midline, preventing formation of the anterior thoracic wall and leaving the heart exposed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-016",
@@ -285,7 +330,10 @@
     "rationale": {
       "text": "The apex beat (cardiac impulse) is normally felt at the 5th intercostal space in the midclavicular line, corresponding to the apex of the left ventricle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-017",
@@ -304,7 +352,10 @@
     "rationale": {
       "text": "The first and second posterior intercostal arteries arise from the superior intercostal artery, which is a branch of the costocervical trunk (from the subclavian artery). The remaining posterior intercostals arise directly from the thoracic aorta.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-018",
@@ -323,7 +374,10 @@
     "rationale": {
       "text": "The left subclavian artery is the third and most lateral branch of the arch of the aorta. On the right, the subclavian artery arises from the brachiocephalic trunk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-019",
@@ -342,7 +396,10 @@
     "rationale": {
       "text": "The internal thoracic (mammary) artery has excellent long-term patency (>90% at 10 years) and is remarkably resistant to atherosclerosis, making it the preferred conduit for coronary artery bypass grafting.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-020",
@@ -361,7 +418,10 @@
     "rationale": {
       "text": "For pericardiocentesis and thoracentesis, the needle is inserted just above (superior border of) the lower rib to avoid the neurovascular bundle in the subcostal groove of the upper rib. However, near the sternum the internal thoracic vessels must also be considered.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-021",
@@ -380,7 +440,10 @@
     "rationale": {
       "text": "Persistent truncus arteriosus results from failure of the aorticopulmonary septum to properly divide and spiral the truncus arteriosus into the aorta and pulmonary trunk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-022",
@@ -399,7 +462,10 @@
     "rationale": {
       "text": "Tetralogy of Fallot: (1) VSD, (2) pulmonary stenosis (outflow obstruction), (3) overriding aorta, (4) right ventricular hypertrophy. It results from anterior deviation of the infundibular septum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-023",
@@ -418,7 +484,10 @@
     "rationale": {
       "text": "The ductus arteriosus connects the pulmonary trunk to the descending aorta, shunting blood away from the lungs in fetal circulation. After birth, it closes (due to increased O2 and decreased prostaglandins) to form the ligamentum arteriosum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-024",
@@ -437,7 +506,10 @@
     "rationale": {
       "text": "After birth, increased left atrial pressure closes the foramen ovale, which later fuses to form the fossa ovalis (a depression in the interatrial septum). Failure of closure results in a patent foramen ovale.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-025",
@@ -456,7 +528,10 @@
     "rationale": {
       "text": "After birth, the ductus venosus closes to become the ligamentum venosum, a fibrous remnant in the fissure of the liver between the caudate and left lobes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-026",
@@ -475,7 +550,10 @@
     "rationale": {
       "text": "The umbilical vein obliterates after birth to form the ligamentum teres hepatis (round ligament of the liver), which runs in the free edge of the falciform ligament.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-027",
@@ -493,7 +571,10 @@
     "rationale": {
       "text": "At T12 level, the aorta goes through the aortic hiatus found in the diaphragm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-028",
@@ -511,7 +592,10 @@
     "rationale": {
       "text": "The aortic valve is best heard at the right 2nd ICS.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-029",
@@ -529,7 +613,10 @@
     "rationale": {
       "text": "The SA node is found at the opening of the SVC in the right atrium. The AV node is found in the septal wall of the RA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-030",
@@ -547,7 +634,10 @@
     "rationale": {
       "text": "The RCA provides blood supply to the SA node through the SA nodal artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-031",
@@ -565,7 +655,10 @@
     "rationale": {
       "text": "The azygos vein receives the hemiazygos and accessory hemiazygos veins and directly empties into the SVC.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-032",
@@ -583,7 +676,10 @@
     "rationale": {
       "text": "The brachial artery is found in the cubital fossa. We listen to its arterial pulse when taking blood pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-033",
@@ -601,7 +697,10 @@
     "rationale": {
       "text": "The LAD artery is the main arterial blood supply to the cardiac apex.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-034",
@@ -619,7 +718,10 @@
     "rationale": {
       "text": "The internal carotid artery has NO branches in the neck. The rest of the options are branches of the external carotid artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-035",
@@ -637,7 +739,10 @@
     "rationale": {
       "text": "The left atrium is the most posterior part of the heart and lies close to the esophagus; enlargement can compress it.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-036",
@@ -655,7 +760,10 @@
     "rationale": {
       "text": "The most anterior part of the heart is the right ventricle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular System"
+    ]
   },
   {
     "id": "ANATOMY-037",
@@ -673,7 +781,10 @@
     "rationale": {
       "text": "The intercostal neurovascular bundle (VAN: vein, artery, nerve) runs in the costal groove under the inferior border of the rib above. Insert the needle over the superior border of the lower rib to avoid it.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-038",
@@ -691,7 +802,10 @@
     "rationale": {
       "text": "From superior to inferior: Vein, Artery, Nerve (VAN). All run between the internal and innermost intercostal muscles in the subcostal groove.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-039",
@@ -709,7 +823,10 @@
     "rationale": {
       "text": "The right main bronchus is wider, shorter, and more vertical than the left, making aspiration more likely on the right side.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-040",
@@ -727,7 +844,10 @@
     "rationale": {
       "text": "The sternal angle (angle of Louis) is at the T4–T5 intervertebral disc level, marking the junction of the manubrium and body of sternum, and the level of the 2nd costal cartilage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-041",
@@ -745,7 +865,10 @@
     "rationale": {
       "text": "The pleural reflection (costodiaphragmatic recess) is at the 8th rib in the midclavicular line, 10th rib in the midaxillary line, and 12th rib posteriorly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-042",
@@ -763,7 +886,10 @@
     "rationale": {
       "text": "A Pancoast tumor at the apex of the lung can compress the sympathetic chain ganglia (T1 level), causing Horner's syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-043",
@@ -781,7 +907,10 @@
     "rationale": {
       "text": "The phrenic nerve is derived from C3, C4, and C5 ('C3, 4, 5 keep the diaphragm alive'). It is the sole motor supply to the diaphragm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-044",
@@ -799,7 +928,10 @@
     "rationale": {
       "text": "The lung root (hilum) contains the main bronchus, pulmonary artery, pulmonary veins, bronchial vessels, lymphatics, and autonomic nerves. The thoracic duct is a mediastinal structure and does NOT enter the lung root.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-045",
@@ -817,7 +949,10 @@
     "rationale": {
       "text": "The right lung has 3 lobes (upper, middle, lower) separated by the oblique and horizontal fissures. The left lung has 2 lobes and only an oblique fissure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-046",
@@ -835,7 +970,10 @@
     "rationale": {
       "text": "The external branch of the superior laryngeal nerve innervates the cricothyroid muscle (only intrinsic laryngeal muscle NOT innervated by RLN). It tenses the vocal cords for high-pitched sounds.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-047",
@@ -853,7 +991,10 @@
     "rationale": {
       "text": "The cricothyroid is the only intrinsic laryngeal muscle NOT innervated by the recurrent laryngeal nerve. It is innervated by the external branch of the superior laryngeal nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-048",
@@ -871,7 +1012,10 @@
     "rationale": {
       "text": "The middle meatus receives drainage from the frontal sinus, maxillary sinus, and anterior ethmoid cells via the hiatus semilunaris and infundibulum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-049",
@@ -889,7 +1033,10 @@
     "rationale": {
       "text": "Kartagener syndrome (primary ciliary dyskinesia) is caused by a dynein arm defect. Immotile embryonic node cilia randomize left-right signaling, causing situs inversus in ~50%. Bronchiectasis and male infertility result from immotile respiratory/sperm cilia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-050",
@@ -908,7 +1055,10 @@
     "rationale": {
       "text": "Tension pneumothorax occurs when air continues to enter the pleural space but cannot escape (one-way valve mechanism), compressing the mediastinum and shifting the trachea away from the affected side. This is a medical emergency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-051",
@@ -927,7 +1077,10 @@
     "rationale": {
       "text": "An open (communicating) pneumothorax occurs when a chest wall defect allows atmospheric air to enter the pleural space on inspiration, equalizing pressure and preventing lung expansion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-052",
@@ -946,7 +1099,10 @@
     "rationale": {
       "text": "The intercostal VAN (vein superiormost, then artery, then nerve) runs in the subcostal groove on the inferior surface of each rib. Thoracentesis needles are inserted just above the upper border of the lower rib to avoid injuring the bundle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-053",
@@ -965,7 +1121,10 @@
     "rationale": {
       "text": "Flail chest occurs when a segment of the chest wall loses bony continuity (≥3 consecutive ribs fractured in ≥2 places), causing paradoxical inward movement during inspiration due to negative intrathoracic pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-054",
@@ -984,7 +1143,10 @@
     "rationale": {
       "text": "Phrenic nerve palsy causes paradoxical movement of the diaphragm: on inspiration it is pushed up by rising intraabdominal pressure and descends during expiration — the opposite of normal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-055",
@@ -1003,7 +1165,10 @@
     "rationale": {
       "text": "The costodiaphragmatic recess reaches to approximately T12 posteriorly (12th rib level), T10 laterally (midaxillary line), and T8 anteriorly. This is important for thoracentesis and understanding pleural effusion distribution.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-056",
@@ -1022,7 +1187,10 @@
     "rationale": {
       "text": "Because the right main bronchus is wider, shorter, and more vertical (more in line with the trachea), foreign bodies and aspirated material preferentially enter the right bronchus, particularly the right lower lobe bronchus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-057",
@@ -1041,7 +1209,10 @@
     "rationale": {
       "text": "The subclavian artery becomes the axillary artery as it crosses the lateral border of the first rib. It is the same vessel with different names at different anatomical locations.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-058",
@@ -1060,7 +1231,10 @@
     "rationale": {
       "text": "Thoracic outlet syndrome compresses the brachial plexus (lower trunk — C8, T1) and subclavian vessels between the scalene muscles, cervical rib, and first rib. Horner's syndrome indicates sympathetic chain involvement.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-059",
@@ -1079,7 +1253,10 @@
     "rationale": {
       "text": "The sternal angle (angle of Louis) is at the junction of the manubrium and body of the sternum, at the level of the 2nd rib/2nd intercostal space — a key surface landmark for counting ribs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-060",
@@ -1098,7 +1275,10 @@
     "rationale": {
       "text": "Emergency needle decompression of tension pneumothorax is performed at the 2nd intercostal space, midclavicular line — inserted just above the 3rd rib to avoid the neurovascular bundle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-061",
@@ -1117,7 +1297,10 @@
     "rationale": {
       "text": "The safe triangle for chest drain insertion: anterior — lateral border of pectoralis major; posterior — anterior border of latissimus dorsi; inferior — base of axilla (5th ICS level). This avoids major vessels and organs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-062",
@@ -1136,7 +1319,10 @@
     "rationale": {
       "text": "Massive hemothorax (>1500 mL initial drainage, or >200 mL/hr ongoing) is an indication for emergent thoracotomy to identify and control the bleeding source.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-063",
@@ -1155,7 +1341,10 @@
     "rationale": {
       "text": "The maxillary sinus is the largest paranasal sinus and most commonly involved in sinusitis. Its drainage ostium is located high on its medial wall (near the roof), making gravity-dependent drainage poor and predisposing to fluid accumulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-064",
@@ -1173,7 +1362,10 @@
     "rationale": {
       "text": "Respiratory bronchioles are part of the respiratory portion where gas exchange occurs, not the conduction portion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-065",
@@ -1191,7 +1383,10 @@
     "rationale": {
       "text": "The right main bronchus is shorter, wider, and more vertical, making it more susceptible to obstruction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-066",
@@ -1209,7 +1404,10 @@
     "rationale": {
       "text": "The cricothyroid is innervated by the external laryngeal nerve. All other intrinsic muscles are supplied by the recurrent laryngeal nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-067",
@@ -1227,7 +1425,10 @@
     "rationale": {
       "text": "The pulmonary veins carry oxygenated blood from the lungs to the left atrium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-068",
@@ -1245,7 +1446,10 @@
     "rationale": {
       "text": "The carina lies at the level of the sternal angle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-069",
@@ -1263,7 +1467,10 @@
     "rationale": {
       "text": "The phrenic nerve arises from C3-C5 (Mnemonic: 'C3, 4, 5 keeps the diaphragm alive').",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "ANATOMY-070",
@@ -1281,7 +1488,10 @@
     "rationale": {
       "text": "The spleen lies in the left hypochondriac region (posterior to ribs 9–11). A tube placed too low on the left can injure the spleen or stomach.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-071",
@@ -1299,7 +1509,10 @@
     "rationale": {
       "text": "The spleen lies posterior to ribs 9–11 on the left side. It is separated from the rib cage by the diaphragm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-072",
@@ -1317,7 +1530,10 @@
     "rationale": {
       "text": "The aortic hiatus at T12 transmits the descending aorta, thoracic duct, and azygos vein. Remember: 'At T8 = IVC; T10 = Esophagus; T12 = Aorta.'",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-073",
@@ -1335,7 +1551,10 @@
     "rationale": {
       "text": "The inferior vena cava (IVC) passes through the caval foramen at T8. The esophagus passes at T10, and the aorta at T12.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-074",
@@ -1353,7 +1572,10 @@
     "rationale": {
       "text": "The submandibular (Wharton's) duct opens at the sublingual papilla, on the floor of the mouth lateral to the frenulum of the tongue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-075",
@@ -1371,7 +1593,10 @@
     "rationale": {
       "text": "Early appendicitis presents as vague periumbilical pain (referred through T10–T12 visceral afferents) before localizing to the RLQ (somatic pain via L1 after parietal peritoneum is involved).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-076",
@@ -1389,7 +1614,10 @@
     "rationale": {
       "text": "McBurney's point is located 1/3 of the distance from the right anterior superior iliac spine (ASIS) to the umbilicus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-077",
@@ -1407,7 +1635,10 @@
     "rationale": {
       "text": "Layers of the anterolateral abdominal wall (lateral to rectus): Skin → Camper's (superficial fatty fascia) → Scarpa's (deep membranous fascia) → External oblique → Internal oblique → Transversus abdominis → Transversalis fascia → Extraperitoneal fat → Parietal peritoneum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-078",
@@ -1425,7 +1656,10 @@
     "rationale": {
       "text": "Hesselbach's triangle is bounded by: inferior epigastric artery (lateral), lateral border of rectus abdominis (medial), inguinal ligament (inferior). Direct inguinal hernias protrude through this triangle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-079",
@@ -1443,7 +1677,10 @@
     "rationale": {
       "text": "The portal triad at each corner of the hepatic lobule contains: a branch of the portal vein, a branch of the hepatic artery, and a bile ductule.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-080",
@@ -1461,7 +1698,10 @@
     "rationale": {
       "text": "The celiac trunk supplies foregut derivatives: lower esophagus, stomach, liver, gallbladder, spleen, and the proximal duodenum and pancreas.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-081",
@@ -1479,7 +1719,10 @@
     "rationale": {
       "text": "The SMA supplies midgut structures: 2nd–4th parts of duodenum, jejunum, ileum, cecum, ascending colon, and proximal 2/3 of transverse colon.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-082",
@@ -1497,7 +1740,10 @@
     "rationale": {
       "text": "The spleen filters blood, stores platelets (~30% at any time), serves as a major immune organ, and acts as erythrocyte reservoir. Bile is produced by the LIVER, not the spleen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-083",
@@ -1515,7 +1761,10 @@
     "rationale": {
       "text": "Courvoisier's law: a palpable, non-tender, distended gallbladder with jaundice suggests malignant (rather than stone) obstruction of the common bile duct, most commonly from pancreatic head cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-084",
@@ -1533,7 +1782,10 @@
     "rationale": {
       "text": "Murphy's sign: inspiratory arrest upon deep palpation of the right upper quadrant (RUQ) during inspiration. It is positive in acute cholecystitis due to an inflamed gallbladder descending onto the examiner's fingers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-085",
@@ -1551,7 +1803,10 @@
     "rationale": {
       "text": "Duodenal ulcers (most common PUD) occur most frequently in the first part of the duodenum (D1, the cap). Gastric ulcers are less common and favor the lesser curvature.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-086",
@@ -1569,7 +1824,10 @@
     "rationale": {
       "text": "Femoral hernias pass medial to the femoral vein through the femoral canal. They are more common in females (due to wider pelvis), but inguinal hernias are still more common overall in both sexes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-087",
@@ -1587,7 +1845,10 @@
     "rationale": {
       "text": "The epiploic foramen (foramen of Winslow) connects the greater peritoneal sac (greater sac) with the lesser peritoneal sac (omental bursa/lesser sac) posterior to the hepatoduodenal ligament.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-088",
@@ -1605,7 +1866,10 @@
     "rationale": {
       "text": "The arcuate line is at about halfway between the umbilicus and pubic symphysis. Below this, all aponeuroses pass anterior to the rectus abdominis, leaving the posterior wall as only transversalis fascia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-089",
@@ -1623,7 +1887,10 @@
     "rationale": {
       "text": "The transpyloric plane (L1) passes through the pylorus, neck of pancreas, duodenojejunal flexure, fundus of gallbladder, splenic hilum, and renal hila.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-090",
@@ -1641,7 +1908,10 @@
     "rationale": {
       "text": "Grey Turner's sign (flank bruising) and Cullen's sign (periumbilical bruising) indicate retroperitoneal hemorrhage, classically seen in severe acute pancreatitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-091",
@@ -1659,7 +1929,10 @@
     "rationale": {
       "text": "VACTERL: Vertebral anomalies, Anal atresia, Cardiac defects (VSD most common), Tracheo-Esophageal fistula, Esophageal atresia, Renal anomalies, Limb defects (radial ray anomalies). These often co-occur.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-092",
@@ -1677,7 +1950,10 @@
     "rationale": {
       "text": "The gridiron (muscle-splitting) incision at McBurney's point runs perpendicular to the line from the ASIS to the umbilicus, splitting the external oblique, internal oblique, and transversus abdominis along their fibers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-093",
@@ -1695,7 +1971,10 @@
     "rationale": {
       "text": "FAST evaluates: Pericardial window (cardiac tamponade), Hepatorenal space (Morrison's pouch, most dependent space in supine patient), Splenorenal space, and Pelvis/Douglas' pouch.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-094",
@@ -1714,7 +1993,10 @@
     "rationale": {
       "text": "D2 (descending duodenum) is embraced by the head of the pancreas and receives the common bile duct and main pancreatic duct at the major duodenal papilla.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-095",
@@ -1733,7 +2015,10 @@
     "rationale": {
       "text": "The entry of the bile duct (hepatopancreatic ampulla) into D2 marks the foregut–midgut boundary; the SMA crosses D3.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-096",
@@ -1752,7 +2037,10 @@
     "rationale": {
       "text": "D3 (horizontal duodenum) crosses anterior to the aorta and posterior to the SMA; nutcracker (SMA syndrome) causes compression here.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-097",
@@ -1771,7 +2059,10 @@
     "rationale": {
       "text": "The hepatogastric ligament (part of the lesser omentum) carries the left gastric artery and vein along the lesser curvature.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-098",
@@ -1790,7 +2081,10 @@
     "rationale": {
       "text": "The left gastric artery runs in the lesser omentum along the lesser curvature and is the main landmark for highly selective vagotomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-099",
@@ -1809,7 +2103,10 @@
     "rationale": {
       "text": "Mallory-Weiss tears occur at the GEJ and bleed from esophageal branches of the left gastric artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-100",
@@ -1828,7 +2125,10 @@
     "rationale": {
       "text": "The right gastroepiploic artery (from the gastroduodenal artery) supplies the right portion of the greater curvature.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-101",
@@ -1847,7 +2147,10 @@
     "rationale": {
       "text": "Short gastric arteries are branches of the splenic artery that supply the fundus of the stomach.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-102",
@@ -1866,7 +2169,10 @@
     "rationale": {
       "text": "The left gastric (coronary) vein connects with esophageal veins draining into the azygos system, forming the portosystemic anastomosis at the GEJ responsible for esophageal varices.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-103",
@@ -1885,7 +2191,10 @@
     "rationale": {
       "text": "The celiac trunk is the artery of the foregut, supplying from the lower esophagus to the proximal duodenum, as well as the liver, gallbladder, spleen, and pancreas.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-104",
@@ -1904,7 +2213,10 @@
     "rationale": {
       "text": "The SMA is the artery of the midgut, supplying from the mid-duodenum (D2) to approximately the splenic flexure of the transverse colon.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-105",
@@ -1923,7 +2235,10 @@
     "rationale": {
       "text": "The IMA is the artery of the hindgut, supplying from the splenic flexure/descending colon to the upper rectum via its branches (left colic, sigmoid, superior rectal arteries).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-106",
@@ -1942,7 +2257,10 @@
     "rationale": {
       "text": "Griffith's point at the splenic flexure is a watershed zone between the SMA and IMA territories, making it most vulnerable to ischemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-107",
@@ -1961,7 +2279,10 @@
     "rationale": {
       "text": "Sudeck's point is the watershed zone between the sigmoid arteries and the superior rectal artery, located at the rectosigmoid junction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-108",
@@ -1980,7 +2301,10 @@
     "rationale": {
       "text": "Diverticulosis most commonly affects the sigmoid colon (>90% of cases) due to high intraluminal pressure and the presence of vasa recta penetration points.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-109",
@@ -1999,7 +2323,10 @@
     "rationale": {
       "text": "The jejunum has thicker walls, larger and more numerous plicae circulares (valvulae conniventes), and less mesenteric fat compared to the ileum. Peyer's patches are found in the ileum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-110",
@@ -2018,7 +2345,10 @@
     "rationale": {
       "text": "Peyer's patches are aggregated lymphoid nodules found predominantly in the distal ileum, forming an important component of gut-associated lymphoid tissue (GALT).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-111",
@@ -2037,7 +2367,10 @@
     "rationale": {
       "text": "The Pringle maneuver compresses the hepatoduodenal ligament (free edge of the lesser omentum) to occlude the portal vein and hepatic artery, temporarily halting hepatic blood inflow.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-112",
@@ -2056,7 +2389,10 @@
     "rationale": {
       "text": "The cystic artery (typically a branch of the right hepatic artery) is the key structure found within Calot's triangle, bounded by the cystic duct, common hepatic duct, and the liver.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-113",
@@ -2075,7 +2411,10 @@
     "rationale": {
       "text": "Calot's triangle (hepatocystic triangle) is bounded superiorly by the inferior surface of the liver, medially by the common hepatic duct, and inferiorly by the cystic duct.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-114",
@@ -2094,7 +2433,10 @@
     "rationale": {
       "text": "The umbilicus is innervated by T10. Early appendicitis causes visceral pain referred to the T10 dermatome (periumbilical), before somatic peritoneal involvement shifts pain to the RIF.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-115",
@@ -2113,7 +2455,10 @@
     "rationale": {
       "text": "Diverticula form at the points where vasa recta (blood vessels) penetrate the circular muscle layer alongside the taeniae coli, creating areas of relative weakness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-116",
@@ -2132,7 +2477,10 @@
     "rationale": {
       "text": "The hepatoduodenal ligament (free edge of the lesser omentum containing the portal triad) forms the anterior boundary of the epiploic foramen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-117",
@@ -2151,7 +2499,10 @@
     "rationale": {
       "text": "The superior mesenteric artery crosses anterior to D3 (horizontal part of the duodenum) and must be carefully identified during right hemicolectomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-118",
@@ -2170,7 +2521,10 @@
     "rationale": {
       "text": "D1 is supplied mainly by the superior pancreaticoduodenal artery, a branch of the gastroduodenal artery (from the celiac trunk).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-119",
@@ -2189,7 +2543,10 @@
     "rationale": {
       "text": "The gastroduodenal artery runs posterior to D1; posterior duodenal ulcers can erode into it, causing massive hemorrhage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-120",
@@ -2208,7 +2565,10 @@
     "rationale": {
       "text": "The ligament of Treitz (suspensory muscle of the duodenum) attaches the duodenojejunal flexure to the right crus of the diaphragm and marks the start of the jejunum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-121",
@@ -2227,7 +2587,10 @@
     "rationale": {
       "text": "Mallory-Weiss tears are longitudinal mucosal lacerations at or just below the gastroesophageal junction, caused by forceful vomiting/retching increasing intragastric pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-122",
@@ -2246,7 +2609,10 @@
     "rationale": {
       "text": "The gastrocolic ligament connects the greater curvature of the stomach to the transverse colon and forms part of the greater omentum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-123",
@@ -2265,7 +2631,10 @@
     "rationale": {
       "text": "The falciform ligament is the remnant of the ventral mesentery, connecting the anterior abdominal wall to the liver. It contains the ligamentum teres hepatis (obliterated umbilical vein).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-124",
@@ -2284,7 +2653,10 @@
     "rationale": {
       "text": "The hepatic flexure of the colon is related posteriorly to D2 (descending duodenum); the right kidney lies more posterolateral.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-125",
@@ -2303,7 +2675,10 @@
     "rationale": {
       "text": "Peyer's patches (aggregated lymphoid nodules) are characteristic of the ileum, particularly the distal ileum, and are not found in the jejunum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-126",
@@ -2322,7 +2697,10 @@
     "rationale": {
       "text": "In SMA syndrome, D3 (horizontal/transverse duodenum) is compressed between the SMA anteriorly and the aorta posteriorly, causing obstruction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-127",
@@ -2341,7 +2719,10 @@
     "rationale": {
       "text": "The arc of Riolan (meandering mesenteric artery) is an anastomosis between the middle colic artery (from SMA) and the left colic artery (from IMA), serving as a collateral pathway.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-128",
@@ -2360,7 +2741,10 @@
     "rationale": {
       "text": "The marginal artery of Drummond (and arc of Riolan) provides anastomotic continuity between the SMA and IMA territories, crucial after IMA ligation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-129",
@@ -2379,7 +2763,10 @@
     "rationale": {
       "text": "Rugae are longitudinal folds of the gastric mucosa (and submucosa) that allow stomach distension; they are most prominent along the greater curvature.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-130",
@@ -2398,7 +2785,10 @@
     "rationale": {
       "text": "Mallory-Weiss syndrome describes mucosal (not full-thickness) tears at the GEJ (Z-line). Boerhaave syndrome is full-thickness esophageal rupture.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-131",
@@ -2417,7 +2807,10 @@
     "rationale": {
       "text": "The marginal artery of Drummond runs along the mesenteric border of the entire colon within the mesocolon, forming a continuous arterial arcade from the ileocolic to the superior rectal artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-132",
@@ -2436,7 +2829,10 @@
     "rationale": {
       "text": "The rectum receives blood from three sources (superior rectal from IMA, middle rectal from internal iliac, inferior rectal from pudendal), giving it relative protection against ischemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-133",
@@ -2455,7 +2851,10 @@
     "rationale": {
       "text": "The minor duodenal papilla (opening of Santorini's accessory duct) is located in D2, approximately 2 cm proximal to the major duodenal papilla.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-134",
@@ -2474,7 +2873,10 @@
     "rationale": {
       "text": "The 'string of pearls' sign represents gas trapped between the valvulae conniventes (plicae circulares) of the jejunum in small bowel obstruction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-135",
@@ -2493,7 +2895,10 @@
     "rationale": {
       "text": "The descending colon is supplied by the left colic artery, a branch of the inferior mesenteric artery (IMA).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-136",
@@ -2512,7 +2917,10 @@
     "rationale": {
       "text": "Bile (and pancreatic juice) enter D2 via the major duodenal papilla at the hepatopancreatic ampulla of Vater, controlled by the sphincter of Oddi.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-137",
@@ -2531,7 +2939,10 @@
     "rationale": {
       "text": "The gastrosplenic ligament contains the short gastric arteries and the left gastroepiploic vessels connecting the greater curvature fundus to the spleen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-138",
@@ -2550,7 +2961,10 @@
     "rationale": {
       "text": "The lesser sac (omental bursa) is normally accessed through the epiploic foramen (foramen of Winslow) or by opening the gastrocolic ligament.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-139",
@@ -2569,7 +2983,10 @@
     "rationale": {
       "text": "The appendix attaches to the posteromedial aspect of the cecum, at the point where the three taeniae coli converge.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-140",
@@ -2588,7 +3005,10 @@
     "rationale": {
       "text": "Anterior gastric perforation releases air into the greater peritoneal cavity (greater sac), rising to accumulate under the diaphragm on an erect chest X-ray.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-141",
@@ -2607,7 +3027,10 @@
     "rationale": {
       "text": "The superior rectal artery is the terminal branch of the inferior mesenteric artery, supplying the upper rectum and anastomosing with the middle and inferior rectal arteries.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-142",
@@ -2626,7 +3049,10 @@
     "rationale": {
       "text": "The lesser sac (omental bursa) lies posterior to the stomach and lesser omentum, separated from the greater peritoneal cavity by these structures.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-143",
@@ -2645,7 +3071,10 @@
     "rationale": {
       "text": "Gastric lymphatics drain primarily to the celiac lymph nodes (via left gastric, right gastric, gastroepiploic, and splenic nodal groups), then to the cisterna chyli.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-144",
@@ -2664,7 +3093,10 @@
     "rationale": {
       "text": "The appendicular artery is a branch of the ileocolic artery (from the SMA), found in the mesoappendix.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-145",
@@ -2683,7 +3115,10 @@
     "rationale": {
       "text": "The jejunum has 1–2 tiers of large arterial arcades with long vasa recta; the ileum has 3–5 tiers of smaller arcades with short vasa recta, reflected in the denser mesenteric fat of the ileum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-146",
@@ -2702,7 +3137,10 @@
     "rationale": {
       "text": "Charcot's triad (RUQ pain, fever, jaundice) indicates cholangitis from obstruction of the common bile duct, most commonly by a gallstone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-147",
@@ -2721,7 +3159,10 @@
     "rationale": {
       "text": "The bare area of the liver (between the coronary ligament leaves) is in direct contact with the right diaphragm, right adrenal gland, and right kidney, with no peritoneal covering.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-148",
@@ -2740,7 +3181,10 @@
     "rationale": {
       "text": "Courvoisier's sign (palpable, non-tender gallbladder with jaundice) suggests malignant obstruction of the distal CBD at the head of the pancreas, as the gallbladder is distensible (not scarred from stones).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-149",
@@ -2759,7 +3203,10 @@
     "rationale": {
       "text": "Visceral afferents from the appendix travel with the lesser splanchnic nerves (T10–T11) back to the spinal cord, producing referred pain at the T10 dermatome (periumbilical region) in early appendicitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-150",
@@ -2778,7 +3225,10 @@
     "rationale": {
       "text": "Esophageal varices result from the portosystemic anastomosis between the left gastric (coronary) vein (portal territory) and the esophageal tributaries of the azygos vein (systemic territory).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-151",
@@ -2797,7 +3247,10 @@
     "rationale": {
       "text": "The portal vein is formed by the union of the superior mesenteric vein and the splenic vein (which itself receives the inferior mesenteric vein) posterior to the neck of the pancreas.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-152",
@@ -2816,7 +3269,10 @@
     "rationale": {
       "text": "The Whipple procedure (pancreaticoduodenectomy) removes the head of the pancreas, D1–D4, the distal common bile duct, the gallbladder, and the distal stomach (antrum).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-153",
@@ -2835,7 +3291,10 @@
     "rationale": {
       "text": "The ligament of Treitz (duodenojejunal flexure) is the clinical landmark separating the upper GI tract (proximal to it) from the lower GI tract (distal to it).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-154",
@@ -2854,7 +3313,10 @@
     "rationale": {
       "text": "Below the arcuate line (~halfway between the umbilicus and pubic symphysis), all three aponeuroses pass anterior to the rectus abdominis, leaving only transversalis fascia and peritoneum posteriorly. This creates a point of weakness for herniation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-155",
@@ -2873,7 +3335,10 @@
     "rationale": {
       "text": "A Spigelian hernia protrudes through the semilunar line (linea semilunaris), typically at or near the arcuate line where the posterior sheath is absent, presenting as a lateral abdominal wall mass.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-156",
@@ -2892,7 +3357,10 @@
     "rationale": {
       "text": "The superior epigastric artery (terminal branch of internal thoracic) and inferior epigastric artery (from external iliac) anastomose within the rectus sheath, posterior to the rectus muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-157",
@@ -2911,7 +3379,10 @@
     "rationale": {
       "text": "The linea alba is a relatively avascular midline raphe formed by the interlacing aponeuroses of the three flat abdominal muscles, making it an ideal surgical incision site.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-158",
@@ -2930,7 +3401,10 @@
     "rationale": {
       "text": "Hesselbach's triangle: lateral border = inferior epigastric vessels; medial border = lateral edge of rectus abdominis; inferior border = inguinal ligament.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-159",
@@ -2949,7 +3423,10 @@
     "rationale": {
       "text": "A direct inguinal hernia protrudes directly through Hesselbach's triangle, medial to the inferior epigastric vessels, through the posterior inguinal wall (transversalis fascia).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-160",
@@ -2968,7 +3445,10 @@
     "rationale": {
       "text": "Femoral hernias protrude through the femoral canal, presenting below and lateral to the pubic tubercle (inguinal hernias are above and medial to the pubic tubercle). More common in women due to wider femoral canal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-161",
@@ -2987,7 +3467,10 @@
     "rationale": {
       "text": "The femoral canal: anterior = inguinal ligament; posterior = pectineal (Cooper's) ligament; lateral = femoral vein; medial = lacunar (Gimbernat's) ligament. The narrow medial border from the lacunar ligament makes femoral hernias prone to strangulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-162",
@@ -3006,7 +3489,10 @@
     "rationale": {
       "text": "The lacunar ligament forms the sharp, rigid medial boundary of the femoral canal; its unyielding edge is the main reason femoral hernias are prone to strangulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-163",
@@ -3025,7 +3511,10 @@
     "rationale": {
       "text": "The deep (internal) inguinal ring is an oval aperture in the transversalis fascia, located approximately 1.5 cm above the midpoint of the inguinal ligament, lateral to the inferior epigastric vessels.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-164",
@@ -3044,7 +3533,10 @@
     "rationale": {
       "text": "The superficial (external) inguinal ring is a triangular aperture in the external oblique aponeurosis, located just superolateral to the pubic tubercle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-165",
@@ -3063,7 +3555,10 @@
     "rationale": {
       "text": "The inferior epigastric artery is a branch of the external iliac artery, arising just proximal to the inguinal ligament. It forms the lateral border of Hesselbach's triangle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-166",
@@ -3082,7 +3577,10 @@
     "rationale": {
       "text": "Type I (sliding hiatal hernia) is the most common type (>95%), in which the GEJ and stomach slide up into the thorax through the esophageal hiatus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-167",
@@ -3101,7 +3599,10 @@
     "rationale": {
       "text": "The Bochdalek hernia (congenital diaphragmatic hernia) results from failure of the pleuroperitoneal membranes to fuse, occurring most commonly on the left posterolateral side.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-168",
@@ -3120,7 +3621,10 @@
     "rationale": {
       "text": "An umbilical hernia protrudes through the umbilical ring, which is a point of weakness where the umbilical vessels previously passed. Common in adults with increased intraabdominal pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-169",
@@ -3139,7 +3643,10 @@
     "rationale": {
       "text": "Epigastric hernias occur through defects in the linea alba between the xiphoid process and the umbilicus, typically containing only preperitoneal fat.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-170",
@@ -3158,7 +3665,10 @@
     "rationale": {
       "text": "An obturator hernia passes through the obturator canal (obturator foramen), compressing the obturator nerve and causing medial thigh pain (Howship-Romberg sign) on internal rotation of the hip.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-171",
@@ -3177,7 +3687,10 @@
     "rationale": {
       "text": "The conjoint tendon (inguinal falx) is formed by the combined aponeuroses of the internal oblique and transversus abdominis muscles, reinforcing the posterior wall of the medial inguinal canal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-172",
@@ -3196,7 +3709,10 @@
     "rationale": {
       "text": "The inferior epigastric artery runs obliquely from the external iliac artery medially and superiorly, passing lateral to the deep inguinal ring and forming the lateral border of Hesselbach's triangle — a key landmark in hernia repair.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-173",
@@ -3215,7 +3731,10 @@
     "rationale": {
       "text": "The linea semilunaris (semilunar line) marks the lateral edge of the rectus abdominis muscle, where the aponeuroses of the three flat abdominal muscles fuse to form the rectus sheath.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-174",
@@ -3234,7 +3753,10 @@
     "rationale": {
       "text": "Chest drains for hemothorax (and pleural effusion) are typically inserted in the 5th intercostal space, midaxillary line (the 'safe triangle') to avoid the liver, spleen, and heart.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-175",
@@ -3253,7 +3775,10 @@
     "rationale": {
       "text": "In a supine patient, the apical (superior) segment of the right lower lobe is the most dependent posterior segment and receives aspirated material most readily due to gravity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-176",
@@ -3272,7 +3797,10 @@
     "rationale": {
       "text": "The internal thoracic artery terminates at the 6th intercostal space by dividing into the superior epigastric artery (enters rectus sheath) and the musculophrenic artery (runs along the costal margin).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-177",
@@ -3291,7 +3819,10 @@
     "rationale": {
       "text": "The thoracic duct drains into the venous system at the left venous angle — the junction of the left subclavian vein and left internal jugular vein.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-178",
@@ -3310,7 +3841,10 @@
     "rationale": {
       "text": "The aortic hiatus (T12) transmits the aorta, thoracic duct, and azygos vein. The esophageal hiatus (T10) transmits the esophagus and vagus nerves. The caval foramen (T8) transmits the IVC and right phrenic nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-179",
@@ -3329,7 +3863,10 @@
     "rationale": {
       "text": "Endoderm gives rise to the epithelial lining and glands of the GI tract, respiratory tract, liver, pancreas, and thyroid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-180",
@@ -3348,7 +3885,10 @@
     "rationale": {
       "text": "Splanchnic (visceral) mesoderm gives rise to the smooth muscle, connective tissue, and serosal lining of the GI tract walls.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-181",
@@ -3367,7 +3907,10 @@
     "rationale": {
       "text": "The midgut loop rotates 270° counterclockwise around the superior mesenteric artery as its axis during weeks 6–10 of development. Incomplete rotation causes malrotation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-182",
@@ -3386,7 +3929,10 @@
     "rationale": {
       "text": "Duodenal atresia causes a 'double bubble' sign (stomach + dilated proximal duodenum) and bilious vomiting. It is associated with Down syndrome and results from failure of the duodenal lumen to recanalize.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-183",
@@ -3405,7 +3951,10 @@
     "rationale": {
       "text": "Meckel's diverticulum rule of 2s: occurs in 2% of the population; located 2 feet (60 cm) proximal to the ileocecal valve; approximately 2 inches (5 cm) long; most symptomatic by age 2; may contain 2 types of ectopic tissue (gastric and pancreatic mucosa).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-184",
@@ -3424,7 +3973,10 @@
     "rationale": {
       "text": "Omphalocele = herniation through the umbilical ring, covered by a peritoneal sac (amnion + peritoneum), associated with chromosomal anomalies. Gastroschisis = herniation through a lateral defect (usually right of umbilicus), NO sac, bowel exposed directly to amniotic fluid, typically isolated.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-185",
@@ -3443,7 +3995,10 @@
     "rationale": {
       "text": "Above the pectinate line: columnar epithelium (endoderm-derived proctodeum), internal hemorrhoidal plexus, autonomic innervation (painless), superior rectal artery, internal iliac lymph nodes. Below: stratified squamous, external hemorrhoidal plexus, somatic innervation (painful), inferior rectal artery, superficial inguinal lymph nodes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-186",
@@ -3462,7 +4017,10 @@
     "rationale": {
       "text": "Internal hemorrhoids form above the pectinate line, are covered by columnar mucosa, have autonomic innervation (painless unless prolapsed/strangulated), and drain via the superior rectal vein to the portal system.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-187",
@@ -3481,7 +4039,10 @@
     "rationale": {
       "text": "External hemorrhoids are located below the pectinate line, covered by skin/squamous epithelium, and innervated by the inferior rectal nerve (somatic) — making them exquisitely painful, especially when thrombosed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-188",
@@ -3500,7 +4061,10 @@
     "rationale": {
       "text": "Above the pectinate line: arterial supply from the superior rectal artery (terminal branch of IMA); venous drainage to portal system (superior rectal → IMV); lymphatic drainage to internal iliac nodes. Autonomic innervation makes internal hemorrhoids painless.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-189",
@@ -3519,7 +4083,10 @@
     "rationale": {
       "text": "Below the pectinate line: arterial supply from the inferior rectal artery (branch of internal pudendal); venous drainage to systemic system (inferior rectal → pudendal → internal iliac); lymphatic drainage to superficial inguinal nodes. Somatic innervation makes external hemorrhoids painful.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-190",
@@ -3538,7 +4105,10 @@
     "rationale": {
       "text": "Rectal carcinoma above the pectinate line drains first to inferior mesenteric (pararectal) lymph nodes along the superior rectal artery, then to internal iliac nodes. Tumors below the pectinate line drain to superficial inguinal nodes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-191",
@@ -3557,7 +4127,10 @@
     "rationale": {
       "text": "Wharton's duct (submandibular duct) runs anteriorly along the floor of the mouth and opens at the sublingual papilla (caruncle) on either side of the lingual frenulum. It is prone to calculus formation because saliva flows against gravity and the duct curves around mylohyoid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-192",
@@ -3575,7 +4148,10 @@
     "rationale": {
       "text": "The largest branch of the celiac trunk is the splenic artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-193",
@@ -3593,7 +4169,10 @@
     "rationale": {
       "text": "The foramen of Winslow (epiploic foramen) is bounded: Superiorly by the Caudate lobe of the liver, Inferiorly by 1st part of duodenum, Anteriorly by Free edge of the lesser omentum, Posteriorly by IVC.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-194",
@@ -3611,7 +4190,10 @@
     "rationale": {
       "text": "The portal vein is formed by the merging of the splenic vein and the SMV.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-195",
@@ -3629,7 +4211,10 @@
     "rationale": {
       "text": "The right gastric artery comes from the common hepatic artery, which is a branch of the celiac trunk, not the superior mesenteric artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-196",
@@ -3647,7 +4232,10 @@
     "rationale": {
       "text": "The approximate capacity of the gallbladder is 30-50mL.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-197",
@@ -3665,7 +4253,10 @@
     "rationale": {
       "text": "The common bile and main pancreatic ducts open into the major duodenal papilla which is found in the descending (2nd) part of the duodenum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-198",
@@ -3683,7 +4274,10 @@
     "rationale": {
       "text": "At T10 level, the Vagus nerve and esophagus perforate the diaphragm. IVC is at T8. Aorta is at T12.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-199",
@@ -3701,7 +4295,10 @@
     "rationale": {
       "text": "The Inguinal triangle (Hesselbach triangle) borders: Medial-linea semilunaris, Lateral-Inferior epigastric vessels, Inferior-Inguinal ligament.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-200",
@@ -3719,7 +4316,10 @@
     "rationale": {
       "text": "Femoral hernia is more common in females and more likely presents with incarceration or strangulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-201",
@@ -3737,7 +4337,10 @@
     "rationale": {
       "text": "The hepatoduodenal ligament contains the portal triad (bile duct, proper hepatic artery, portal vein).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-202",
@@ -3755,7 +4358,10 @@
     "rationale": {
       "text": "The uncinate process is formed from the ventral pancreatic bud.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-203",
@@ -3773,7 +4379,10 @@
     "rationale": {
       "text": "The esophagus is lined with nonkeratinized stratified squamous epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-204",
@@ -3791,7 +4400,10 @@
     "rationale": {
       "text": "The jejunum has tall and closely packed plicae circulares, while the ileum is longer and has shorter vasa recta.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-205",
@@ -3809,7 +4421,10 @@
     "rationale": {
       "text": "The hepatoduodenal ligament, containing the portal triad, is clamped during the Pringle maneuver to minimize bleeding.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-206",
@@ -3827,7 +4442,10 @@
     "rationale": {
       "text": "The descending colon is a hindgut structure and is supplied by the inferior mesenteric artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-207",
@@ -3845,7 +4463,10 @@
     "rationale": {
       "text": "Zone III is the least oxygenated and the most sensitive to metabolic toxins such as paracetamol.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-208",
@@ -3863,7 +4484,10 @@
     "rationale": {
       "text": "The thyroid cartilage is not a site of constriction. The 3 sites are at the cricoid cartilage, aortic arch/left main bronchus, and T10 esophageal hiatus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-209",
@@ -3881,7 +4505,10 @@
     "rationale": {
       "text": "The spleen can be located in the left upper quadrant covered by the 9th-11th ribs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal System"
+    ]
   },
   {
     "id": "ANATOMY-210",
@@ -3899,7 +4526,10 @@
     "rationale": {
       "text": "Pelvic fractures shear the membranous (and sometimes prostatic) urethra at its junction, constituting posterior urethral injury.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-211",
@@ -3917,7 +4547,10 @@
     "rationale": {
       "text": "RBC casts and dysmorphic (misshapen) RBCs are formed only when red blood cells pass through the glomerular basement membrane and are molded in the tubules, indicating glomerular origin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-212",
@@ -3935,7 +4568,10 @@
     "rationale": {
       "text": "Ureteral colic (renal colic) causes ipsilateral flank pain radiating to the groin, scrotum, or labia, following the path of the ureter. Upper ureter refers to flank/loin; lower ureter refers toward genitalia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-213",
@@ -3954,7 +4590,10 @@
     "rationale": {
       "text": "Below the 12th rib posteriorly, the costodiaphragmatic recess ends and the kidney lies immediately deep. Needles inserted too inferiorly can injure the kidney.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-214",
@@ -3973,7 +4612,10 @@
     "rationale": {
       "text": "Potter sequence results from bilateral renal agenesis → oligohydramnios (no fetal urine) → compression of fetus → pulmonary hypoplasia (fatal), limb deformities, and characteristic facial features (Potter facies).",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-215",
@@ -3992,7 +4634,10 @@
     "rationale": {
       "text": "The permanent kidney forms from two structures: the ureteric bud (gives rise to ureter, renal pelvis, calyces, collecting ducts) and the metanephric mesoderm/blastema (gives rise to nephrons).",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-216",
@@ -4011,7 +4656,10 @@
     "rationale": {
       "text": "Horseshoe kidney results from fusion of the lower poles of the two metanephroi (developing kidneys) as they ascend, becoming caught on the inferior mesenteric artery and failing to ascend to the normal position.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-217",
@@ -4030,7 +4678,10 @@
     "rationale": {
       "text": "The urachus is the embryonic remnant of the allantois connecting the bladder to the umbilicus. Failure of obliteration results in a patent urachus (urine draining from umbilicus), urachal sinus, urachal cyst, or vesicourachal diverticulum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-218",
@@ -4048,7 +4699,10 @@
     "rationale": {
       "text": "The common constriction points are the ureteropelvic junction, pelvic brim, and ureterovesical junction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-219",
@@ -4066,7 +4720,10 @@
     "rationale": {
       "text": "The distal ureter is supplied by the internal iliac artery and superior vesical artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-220",
@@ -4084,7 +4741,10 @@
     "rationale": {
       "text": "The median umbilical ligament is a remnant of the urachus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-221",
@@ -4102,7 +4762,10 @@
     "rationale": {
       "text": "Only the 2nd to 4th parts of the duodenum are retroperitoneal. The 1st part is intraperitoneal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-222",
@@ -4120,7 +4783,10 @@
     "rationale": {
       "text": "The glomerular basement membrane (GBM) is composed of type IV collagen chains, not type II.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-223",
@@ -4138,7 +4804,10 @@
     "rationale": {
       "text": "The juxtaglomerular cells in the afferent arteriole produce renin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal & Urinary System"
+    ]
   },
   {
     "id": "ANATOMY-224",
@@ -4156,7 +4825,10 @@
     "rationale": {
       "text": "A straddle injury directly compresses the spongy (bulbar) urethra against the pubic symphysis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-225",
@@ -4174,7 +4846,10 @@
     "rationale": {
       "text": "A varicocele (dilated pampiniform plexus veins) presents as a 'bag of worms,' worsens with heat/prolonged standing, and is more common on the left side due to drainage angle of the left gonadal vein.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-226",
@@ -4192,7 +4867,10 @@
     "rationale": {
       "text": "A hydrocele is a fluid collection around the testis that transilluminates (glows when a light is shone through it), distinguishing it from solid masses or varicoceles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-227",
@@ -4210,7 +4888,10 @@
     "rationale": {
       "text": "The levator ani (comprising pubococcygeus, iliococcygeus, puborectalis) forms the pelvic floor. Weakness can result in uterine prolapse, cystocele, rectocele, and urinary incontinence.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-228",
@@ -4228,7 +4909,10 @@
     "rationale": {
       "text": "The cremasteric reflex (L1–L2) is mediated by the genitofemoral nerve. Stroking the inner thigh causes ipsilateral elevation of the testis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-229",
@@ -4246,7 +4930,10 @@
     "rationale": {
       "text": "Indirect inguinal hernias pass through the deep inguinal ring (lateral to inferior epigastric vessels) and travel through the inguinal canal. They follow the path of the processus vaginalis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-230",
@@ -4264,7 +4951,10 @@
     "rationale": {
       "text": "The diaphragm is innervated by the phrenic nerve (C3–C5). Irritation of the diaphragm (blood, pus) causes referred pain at the ipsilateral shoulder tip (C4 dermatome).",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-231",
@@ -4282,7 +4972,10 @@
     "rationale": {
       "text": "The pudendal nerve arises from S2, S3, and S4 ('S2, 3, 4 keep the penis off the floor'). It supplies perineal muscles, external urethral sphincter, and sensation to the perineum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-232",
@@ -4300,7 +4993,10 @@
     "rationale": {
       "text": "An imaginary line connecting the two ischial tuberosities divides the diamond-shaped perineum into the anterior urogenital triangle and posterior anal triangle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-233",
@@ -4318,7 +5014,10 @@
     "rationale": {
       "text": "The lower uterine segment (isthmus) corresponds to the region of the internal os. It is the site of incision in Cesarean section (low transverse uterine incision).",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-234",
@@ -4336,7 +5035,10 @@
     "rationale": {
       "text": "The ovarian arteries are direct branches of the abdominal aorta (analogous to the testicular arteries in males), arising at approximately L2.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-235",
@@ -4354,7 +5056,10 @@
     "rationale": {
       "text": "The ureter passes under (inferior to) the uterine artery at the lateral fornix of the vagina—'water under the bridge.' This is a critical surgical relationship to avoid ureteral ligation during hysterectomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-236",
@@ -4372,7 +5077,10 @@
     "rationale": {
       "text": "The broad ligament contains the uterine tubes, round ligament, ovarian ligament, and their associated vessels. The cardinal (Mackenrodt's) ligament is a condensation of pelvic fascia that supports the cervix, separate from the broad ligament.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-237",
@@ -4390,7 +5098,10 @@
     "rationale": {
       "text": "The testes drain to para-aortic (lumbar) lymph nodes because the testes develop in the abdomen and descend carrying their lymphatic drainage with them. Scrotal skin drains to inguinal nodes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-238",
@@ -4408,7 +5119,10 @@
     "rationale": {
       "text": "The ischiorectal fossa is bounded posteriorly by the sacrotuberous ligament, medially by the levator ani, laterally by the obturator internus, and anteriorly by the urogenital diaphragm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-239",
@@ -4426,7 +5140,10 @@
     "rationale": {
       "text": "The vas deferens is cut and tied during vasectomy for sterilization. It runs within the spermatic cord from the epididymis through the inguinal canal to the seminal vesicle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-240",
@@ -4444,7 +5161,10 @@
     "rationale": {
       "text": "The mediolateral episiotomy angles away from the midline to avoid cutting the external anal sphincter and anal canal, reducing the risk of 3rd/4th degree perineal tears.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-241",
@@ -4463,7 +5183,10 @@
     "rationale": {
       "text": "Camper's fascia is the fatty (superficial) layer of the superficial abdominal fascia. Scarpa's fascia is the deeper membranous layer, which fuses with the fascia lata of the thigh.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-242",
@@ -4482,7 +5205,10 @@
     "rationale": {
       "text": "Scarpa's fascia (membranous layer) fuses with the fascia lata of the thigh laterally, preventing urine from tracking into the thigh. Anteriorly it continues as Colles' fascia in the perineum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-243",
@@ -4501,7 +5227,10 @@
     "rationale": {
       "text": "An indirect inguinal hernia passes through the deep inguinal ring, lateral to the inferior epigastric vessels, and travels along the inguinal canal, often descending into the scrotum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-244",
@@ -4520,7 +5249,10 @@
     "rationale": {
       "text": "The ilioinguinal nerve (L1) passes through the inguinal canal and exits through the superficial ring; it is at risk in inguinal herniorrhaphy and supplies the medial thigh and anterior scrotum/labia majora.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-245",
@@ -4539,7 +5271,10 @@
     "rationale": {
       "text": "The left testicular vein drains into the left renal vein at a nearly right angle (90°), creating relatively higher venous pressure and resistance to flow compared to the right, which drains obliquely into the IVC. This makes left-sided varicoceles much more common (~90% of cases).",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-246",
@@ -4558,7 +5293,10 @@
     "rationale": {
       "text": "Testicular torsion presents with sudden severe scrotal pain, high-riding testis (shortening of spermatic cord), and absent cremasteric reflex. The bell-clapper deformity (horizontal lie of testis) predisposes to torsion. This is a surgical emergency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-247",
@@ -4577,7 +5315,10 @@
     "rationale": {
       "text": "The cremasteric reflex: afferent limb = femoral branch of genitofemoral nerve (L1–L2) — inner thigh stimulus; efferent limb = genital branch of genitofemoral nerve — cremasteric muscle contraction lifting the testis. Absent in testicular torsion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-248",
@@ -4596,7 +5337,10 @@
     "rationale": {
       "text": "The testis drains lymphatically to the para-aortic (lumbar) nodes at L1–L2 (following the gonadal vessels to their origin near the aorta). The scrotum drains to the superficial inguinal nodes. This distinction is critical in testicular cancer staging.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-249",
@@ -4615,7 +5359,10 @@
     "rationale": {
       "text": "The scrotum (as skin of the perineum) drains to the superficial inguinal lymph nodes. This is distinct from the testis itself (para-aortic nodes), an important distinction for cancer spread.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-250",
@@ -4634,7 +5381,10 @@
     "rationale": {
       "text": "The ureter is at high risk during hysterectomy because it passes 1–2 cm lateral to the uterine cervix and then travels under the uterine artery ('water under the bridge' / ureter under artery). The ureter can be ligated or kinked inadvertently.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-251",
@@ -4653,7 +5403,10 @@
     "rationale": {
       "text": "In anteversion (the normal position), the uterus tilts anteriorly over the bladder. The bladder lies immediately anterior to the uterus and cervix. This makes the bladder vulnerable in uterine surgery and explains urinary symptoms in uterine pathology.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-252",
@@ -4672,7 +5425,10 @@
     "rationale": {
       "text": "The perineal body is the convergence point of the external anal sphincter, bulbospongiosus (both sides), superficial and deep transverse perineal muscles, and external urethral sphincter. It is the anchor of the pelvic floor, and its injury (obstetric tear) leads to incontinence and prolapse.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-253",
@@ -4691,7 +5447,10 @@
     "rationale": {
       "text": "A 3rd degree obstetric tear involves the external anal sphincter (and in 4th degree, the rectal mucosa as well). Injury to the external anal sphincter causes fecal incontinence. The internal sphincter provides resting tone; the external provides voluntary control.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-254",
@@ -4710,7 +5469,10 @@
     "rationale": {
       "text": "Bartholin's glands (greater vestibular glands) are located posterolateral to the vaginal introitus (at approximately 4 and 8 o'clock positions). Their ducts open into the groove between the hymen and labia minora. Obstruction causes a Bartholin's cyst or abscess.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-255",
@@ -4729,7 +5491,10 @@
     "rationale": {
       "text": "A Bartholin's gland abscess presents as a tender, fluctuant, unilateral swelling at the posterolateral vaginal introitus (4 or 8 o'clock position). It results from obstruction of the duct with secondary infection. Treatment is incision, drainage, and marsupialization.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-256",
@@ -4748,7 +5513,10 @@
     "rationale": {
       "text": "The three ureteric constrictions: (1) Pelviureteric junction (PUJ) — where the renal pelvis narrows; (2) Pelvic brim — where ureter crosses the iliac vessels; (3) Ureterovesical junction (UVJ) — narrowest point, as ureter enters the bladder obliquely. Most stones lodge at the UVJ.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-257",
@@ -4767,7 +5535,10 @@
     "rationale": {
       "text": "The transverse cervical (cardinal / Mackenrodt's) ligament is the most important structural support of the uterus and cervix, running from the cervix and vaginal vault to the pelvic sidewall. The uterosacral ligaments also contribute significantly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-258",
@@ -4786,7 +5557,10 @@
     "rationale": {
       "text": "The levator ani (composed of puborectalis, pubococcygeus, and iliococcygeus) forms the primary muscular floor of the pelvis, supporting the pelvic organs. Its injury or weakening (childbirth, aging) leads to pelvic organ prolapse.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-259",
@@ -4805,7 +5579,10 @@
     "rationale": {
       "text": "The uterine artery crosses the ureter from lateral to medial, passing superior to the ureter approximately 1–2 cm lateral to the cervix ('water under the bridge' — the ureter is the water, the uterine artery is the bridge). This is the most common site of ureteral injury in hysterectomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-260",
@@ -4824,7 +5601,10 @@
     "rationale": {
       "text": "The pudendal nerve exits the pelvis via the greater sciatic foramen (below piriformis), wraps around the ischial spine and sacrospinous ligament, and re-enters via the lesser sciatic foramen into the pudendal (Alcock's) canal in the lateral wall of the ischiorectal fossa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-261",
@@ -4843,7 +5623,10 @@
     "rationale": {
       "text": "The rectouterine pouch (pouch of Douglas) is bounded anteriorly by the uterus and posteriorly by the rectum, with the posterior vaginal fornix at its most inferior aspect. It is the lowest peritoneal recess in females and collects fluid/blood in pathological states.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-262",
@@ -4862,7 +5645,10 @@
     "rationale": {
       "text": "The rectouterine pouch (pouch of Douglas) is the most dependent part of the peritoneal cavity in an erect female. Blood from a ruptured ectopic pregnancy pools here, detectable by posterior vaginal fornix fullness or culdocentesis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-263",
@@ -4881,7 +5667,10 @@
     "rationale": {
       "text": "BPH most commonly affects the transitional zone (periurethral/central zone) of the prostate, causing urethral compression and obstructive lower urinary tract symptoms. Prostate cancer most commonly arises from the peripheral zone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-264",
@@ -4900,7 +5689,10 @@
     "rationale": {
       "text": "Meralgia paresthetica is compression of the lateral femoral cutaneous nerve (L2–L3) as it passes under or through the inguinal ligament near the ASIS, causing burning paresthesias over the anterolateral thigh. Common in obese patients, pregnant women, and those wearing tight belts.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-265",
@@ -4918,7 +5710,10 @@
     "rationale": {
       "text": "The internal vertebral venous plexus is considered the route of early metastasis to the spine and CNS for carcinomas such as lung cancer, breast cancer, and prostate cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-266",
@@ -4936,7 +5731,10 @@
     "rationale": {
       "text": "The lymphatic drainage of the upper part of the vagina goes into the internal iliac nodes. The lower portion drains into the superficial inguinal nodes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-267",
@@ -4954,7 +5752,10 @@
     "rationale": {
       "text": "The lymphatic drainage of the testes/ovaries/uterine fundus goes into the para-aortic lymph nodes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-268",
@@ -4972,7 +5773,10 @@
     "rationale": {
       "text": "The lymphatic drainage of the labia majora (where the Bartholin glands are located) is through the superficial inguinal lymph nodes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-269",
@@ -4990,7 +5794,10 @@
     "rationale": {
       "text": "Injury to the spongy urethra can occur in a perineal straddle injury. This may manifest as a scrotal hematoma.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-270",
@@ -5008,7 +5815,10 @@
     "rationale": {
       "text": "The internal thoracic artery comes from the subclavian artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-271",
@@ -5026,7 +5836,10 @@
     "rationale": {
       "text": "Indirect inguinal hernias occur LATERAL to the inferior epigastric vessels. Direct hernias occur medial.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-272",
@@ -5044,7 +5857,10 @@
     "rationale": {
       "text": "Internal spermatic fascia arises from the transversalis fascia, not the internal oblique.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-273",
@@ -5062,7 +5878,10 @@
     "rationale": {
       "text": "The ampulla is the widest and longest part of the uterine tubes, and the most common site of fertilization.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-274",
@@ -5080,7 +5899,10 @@
     "rationale": {
       "text": "Prostate cancer typically develops in the peripheral zone of the prostate gland.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-275",
@@ -5098,7 +5920,10 @@
     "rationale": {
       "text": "Breast cancer occurs most commonly in the upper lateral quadrant.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-276",
@@ -5116,7 +5941,10 @@
     "rationale": {
       "text": "Skin dimpling is due to cancer involvement of the suspensory ligament of Cooper.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-277",
@@ -5134,7 +5962,10 @@
     "rationale": {
       "text": "The left testicular vein drains into the left renal vein, whereas the right drains directly into the IVC.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-278",
@@ -5152,7 +5983,10 @@
     "rationale": {
       "text": "Incomplete closure of the processus vaginalis can give rise to a congenital hydrocele.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-279",
@@ -5170,7 +6004,10 @@
     "rationale": {
       "text": "The coccygeus is not part of the levator ani. The levator ani includes the puborectalis, pubococcygeus, and iliococcygeus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-280",
@@ -5188,7 +6025,10 @@
     "rationale": {
       "text": "Ligation of the cardinal ligament (which contains the uterine vessels) may result in ureteral injury.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-281",
@@ -5206,7 +6046,10 @@
     "rationale": {
       "text": "The round ligament connects the uterine horn to the labia majora via the inguinal canal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-282",
@@ -5224,7 +6067,10 @@
     "rationale": {
       "text": "The labia majora is homologous to the scrotum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive System"
+    ]
   },
   {
     "id": "ANATOMY-283",
@@ -5242,7 +6088,10 @@
     "rationale": {
       "text": "The scaphoid lies at the floor of the anatomical snuffbox. Scaphoid fractures present with snuffbox tenderness. The radial artery also traverses the snuffbox.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-284",
@@ -5260,7 +6109,10 @@
     "rationale": {
       "text": "The radial artery runs through the anatomical snuffbox before entering the palm to form the deep palmar arch.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-285",
@@ -5278,7 +6130,10 @@
     "rationale": {
       "text": "The biceps brachii is the primary flexor and supinator of the forearm. It is most powerful when the forearm is already supinated.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-286",
@@ -5296,7 +6151,10 @@
     "rationale": {
       "text": "The brachioradialis is the most efficient flexor when the forearm is in the neutral (mid-prone) position, as it gains the best mechanical advantage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-287",
@@ -5314,7 +6172,10 @@
     "rationale": {
       "text": "The brachialis is the workhorse flexor of the forearm; it acts in all forearm positions because it inserts on the ulna (not the radius), so rotation does not alter its pull.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-288",
@@ -5332,7 +6193,10 @@
     "rationale": {
       "text": "The deltoid is responsible for abduction from approximately 15° to 90°. The supraspinatus initiates and assists in the first 15° of abduction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-289",
@@ -5350,7 +6214,10 @@
     "rationale": {
       "text": "The supraspinatus initiates abduction of the arm for the first 0–15°. Beyond that, the deltoid takes over as the primary abductor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-290",
@@ -5368,7 +6235,10 @@
     "rationale": {
       "text": "The long thoracic nerve innervates the serratus anterior. Injury causes winging of the scapula and difficulty fully abducting the arm above 90°.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-291",
@@ -5386,7 +6256,10 @@
     "rationale": {
       "text": "The rotator cuff = SITS: Subscapularis, Infraspinatus, Teres minor, Supraspinatus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-292",
@@ -5404,7 +6277,10 @@
     "rationale": {
       "text": "Subscapularis is the only rotator cuff muscle that medially (internally) rotates the arm. It also adducts the arm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-293",
@@ -5422,7 +6298,10 @@
     "rationale": {
       "text": "The biceps brachii is the most powerful supinator of the forearm, especially when the elbow is flexed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-294",
@@ -5440,7 +6319,10 @@
     "rationale": {
       "text": "The cephalic vein runs along the lateral aspect of the arm and drains into the axillary vein in the deltopectoral groove.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-295",
@@ -5458,7 +6340,10 @@
     "rationale": {
       "text": "The brachialis forms the floor of the cubital fossa. The roof is formed by the bicipital aponeurosis and deep fascia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-296",
@@ -5476,7 +6361,10 @@
     "rationale": {
       "text": "Pectoralis minor divides the axillary artery into three parts: Part 1 (medial), Part 2 (posterior), and Part 3 (lateral to pec minor).",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-297",
@@ -5494,7 +6382,10 @@
     "rationale": {
       "text": "The supraspinatus is the most commonly torn rotator cuff muscle, often injured during overhead activities or falls on an outstretched hand.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-298",
@@ -5512,7 +6403,10 @@
     "rationale": {
       "text": "The floor of the femoral triangle is formed by iliopsoas (laterally) and pectineus (medially), not the gracilis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-299",
@@ -5530,7 +6424,10 @@
     "rationale": {
       "text": "From lateral to medial in the femoral triangle: Nerve, Artery, Vein, Empty space, Lymphatics (NAVEL).",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-300",
@@ -5548,7 +6445,10 @@
     "rationale": {
       "text": "The anterior cruciate ligament (ACL) prevents anterior translation of the tibia on the femur and is tested by the anterior drawer test.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-301",
@@ -5566,7 +6466,10 @@
     "rationale": {
       "text": "The great saphenous vein, the longest vein in the body, drains into the femoral vein at the saphenous opening in the femoral triangle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-302",
@@ -5584,7 +6487,10 @@
     "rationale": {
       "text": "The unhappy triad (O'Donoghue triad) involves ACL, medial collateral ligament (MCL), and medial meniscus—typically from a lateral blow to the knee (valgus stress).",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-303",
@@ -5602,7 +6508,10 @@
     "rationale": {
       "text": "Anterior compartment syndrome affects the dorsiflexors (tibialis anterior, extensor digitorum, extensor hallucis longus) and is a surgical emergency requiring fasciotomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-304",
@@ -5620,7 +6529,10 @@
     "rationale": {
       "text": "The tensor fasciae latae (TFL) inserts into the iliotibial band. IT band syndrome is common in runners and cyclists.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-305",
@@ -5638,7 +6550,10 @@
     "rationale": {
       "text": "The popliteus unlocks the knee from full extension by laterally rotating the femur on the fixed tibia, allowing flexion to begin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-306",
@@ -5656,7 +6571,10 @@
     "rationale": {
       "text": "The pes anserinus is formed by Sartorius, Gracilis, and Semitendinosus (SGS or 'Say Grace before Tea'). They insert on the anteromedial proximal tibia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-307",
@@ -5674,7 +6592,10 @@
     "rationale": {
       "text": "Thoracic kyphosis and sacral kyphosis are primary curvatures present at birth (concave anteriorly). Cervical and lumbar lordoses are secondary compensatory curvatures that develop after birth.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-308",
@@ -5692,7 +6613,10 @@
     "rationale": {
       "text": "The ligamentum flavum connects adjacent laminae and can hypertrophy with age, narrowing the spinal canal and causing lumbar stenosis (neurogenic claudication).",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-309",
@@ -5710,7 +6634,10 @@
     "rationale": {
       "text": "The erector spinae (sacrospinalis) group consists of (lateral to medial): Iliocostalis, Longissimus, and Spinalis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-310",
@@ -5728,7 +6655,10 @@
     "rationale": {
       "text": "C2 (axis) has the dens (odontoid process), which projects superiorly into the ring of C1 (atlas) and acts as a pivot for rotation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-311",
@@ -5746,7 +6676,10 @@
     "rationale": {
       "text": "Jefferson fracture is a burst fracture of C1 (atlas) typically caused by axial loading (e.g., diving into shallow water). It fractures in multiple places and may be unstable.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-312",
@@ -5764,7 +6697,10 @@
     "rationale": {
       "text": "Adolescent idiopathic scoliosis is the most common form (~80% of cases). It typically presents in girls during the pubertal growth spurt.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-313",
@@ -5782,7 +6718,10 @@
     "rationale": {
       "text": "Zygapophyseal (facet) joints are synovial plane joints. They allow gliding movement and can be a source of axial back pain.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-314",
@@ -5800,7 +6739,10 @@
     "rationale": {
       "text": "Dorsal rami innervate the intrinsic (deep) back muscles (erector spinae, multifidus, etc.) and the overlying skin. Ventral rami form the major plexuses and intercostal nerves.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-315",
@@ -5818,7 +6760,10 @@
     "rationale": {
       "text": "The psoas major arises from the lateral aspects of T12–L5 vertebral bodies and intervertebral discs, then runs with the iliacus (iliopsoas) to insert on the lesser trochanter of the femur.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-316",
@@ -5836,7 +6781,10 @@
     "rationale": {
       "text": "The femoral artery is found at the mid-inguinal point (halfway between ASIS and pubic symphysis). This is distinct from the midpoint of the inguinal ligament (used for internal ring).",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-317",
@@ -5854,7 +6802,10 @@
     "rationale": {
       "text": "The Lachman test is performed at 30° of knee flexion. Increased anterior tibial translation indicates an ACL tear. It is more sensitive than the anterior drawer test for acute ACL injury.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-318",
@@ -5872,7 +6823,10 @@
     "rationale": {
       "text": "The safe (intrinsic plus) position for hand splinting: wrist extended 30°, MCPs at 70–90° (collateral ligaments at maximum length), IPs extended, thumb abducted. This prevents contracture of collateral ligaments.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-319",
@@ -5890,7 +6844,10 @@
     "rationale": {
       "text": "Finkelstein's test: patient clasps thumb in fist, examiner ulnar-deviates the wrist. Pain over the radial styloid indicates De Quervain's tenosynovitis (inflammation of APL and EPB tendons in the 1st extensor compartment).",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-320",
@@ -5909,7 +6866,10 @@
     "rationale": {
       "text": "Transversus abdominis has its fibers running transversely (horizontally), forming the innermost of the three flat abdominal muscles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-321",
@@ -5928,7 +6888,10 @@
     "rationale": {
       "text": "The supraspinatus tendon is by far the most commonly torn rotator cuff muscle, due to its passage under the coracoacromial arch and its relatively poor blood supply at the 'critical zone' near its insertion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-322",
@@ -5947,7 +6910,10 @@
     "rationale": {
       "text": "The forearm has three compartments: anterior (subdivided into superficial and deep), posterior, and the lateral (mobile wad — brachioradialis, ECRL, ECRB). Some classify 4 compartments by separating the superficial and deep anterior.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-323",
@@ -5966,7 +6932,10 @@
     "rationale": {
       "text": "The scaphoid receives its blood supply from the radial artery via branches entering its distal pole. The proximal pole has NO direct blood supply — fractures through the waist disrupt this retrograde supply, leading to avascular necrosis of the proximal fragment.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-324",
@@ -5985,7 +6954,10 @@
     "rationale": {
       "text": "The radial artery passes through the anatomical snuffbox (between extensor pollicis longus and extensor pollicis brevis/abductor pollicis longus tendons), crossing the scaphoid bone — making the snuffbox tender in scaphoid fractures and the radial pulse palpable here.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-325",
@@ -6004,7 +6976,10 @@
     "rationale": {
       "text": "The anterior talofibular ligament (ATFL) is the weakest and most commonly injured ankle ligament in inversion sprains. The calcaneal fibular ligament (CFL) is the second most commonly injured. The strong deltoid ligament resists eversion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-326",
@@ -6023,7 +6998,10 @@
     "rationale": {
       "text": "The femoral head is supplied mainly by the medial femoral circumflex artery via retinacular branches along the femoral neck. Femoral neck fractures disrupt these vessels, causing avascular necrosis of the femoral head. The ligamentum teres artery (from obturator) is insufficient alone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-327",
@@ -6042,7 +7020,10 @@
     "rationale": {
       "text": "Femoral triangle: lateral border = sartorius; medial border = adductor longus; superior border = inguinal ligament. Contents (lateral to medial): femoral Nerve, femoral Artery, femoral Vein, lymphatics (empty space), lymph nodes — mnemonic NAVY.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-328",
@@ -6060,7 +7041,10 @@
     "rationale": {
       "text": "Supraspinatus is responsible for the initial abduction of the arm before the action of the deltoid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-329",
@@ -6078,7 +7062,10 @@
     "rationale": {
       "text": "Supraspinatus is the most commonly injured rotator cuff muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-330",
@@ -6096,7 +7083,10 @@
     "rationale": {
       "text": "Anterior talofibular ligament is the most commonly injured ligament in ankle sprains.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-331",
@@ -6114,7 +7104,10 @@
     "rationale": {
       "text": "L1 dermatomal level corresponds to the inguinal ligament. T10 is the umbilicus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-332",
@@ -6132,7 +7125,10 @@
     "rationale": {
       "text": "The scaphoid is the most commonly fractured carpal bone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-333",
@@ -6150,7 +7146,10 @@
     "rationale": {
       "text": "The abductor pollicis brevis is not a border. The borders are Extensor pollicis longus, Extensor pollicis brevis, and Abductor pollicis longus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-334",
@@ -6168,7 +7167,10 @@
     "rationale": {
       "text": "A dinner fork deformity is characteristic of a Colles fracture, where the distal fragment is displaced posteriorly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-335",
@@ -6186,7 +7188,10 @@
     "rationale": {
       "text": "Proximal scaphoid fractures are prone to nonunion because of the retrograde blood supply from a branch of the radial artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-336",
@@ -6204,7 +7209,10 @@
     "rationale": {
       "text": "Tennis elbow results from inflammation of the origin of the extensor forearm muscles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-337",
@@ -6222,7 +7230,10 @@
     "rationale": {
       "text": "The structures in the femoral triangle, from lateral to medial, are NAVEL: Nerve, Artery, Vein, Empty space, Lymphatics.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-338",
@@ -6240,7 +7251,10 @@
     "rationale": {
       "text": "The remnant of the embryonic notochord is the nucleus pulposus of the intervertebral disc.",
       "images": []
-    }
+    },
+    "tags": [
+      "Musculoskeletal System"
+    ]
   },
   {
     "id": "ANATOMY-339",
@@ -6258,7 +7272,10 @@
     "rationale": {
       "text": "The axillary nerve winds around the surgical neck of the humerus and is vulnerable to injury with surgical neck fractures.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-340",
@@ -6276,7 +7293,10 @@
     "rationale": {
       "text": "The radial nerve runs in the radial groove (spiral groove) at the mid-shaft of the humerus and is damaged by mid-shaft fractures, causing wrist drop.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-341",
@@ -6294,7 +7314,10 @@
     "rationale": {
       "text": "The median nerve provides sensation to the lateral 3½ fingers (thumb, index, middle, and lateral half of ring finger).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-342",
@@ -6312,7 +7335,10 @@
     "rationale": {
       "text": "The median nerve innervates the thenar muscles (LOAF muscles), including the opponens pollicis responsible for thumb opposition.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-343",
@@ -6330,7 +7356,10 @@
     "rationale": {
       "text": "The ulnar nerve runs behind the medial epicondyle ('funny bone'). Injury causes sensory loss in medial 1½ fingers and weakness of intrinsic hand muscles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-344",
@@ -6348,7 +7377,10 @@
     "rationale": {
       "text": "The posterior interosseous nerve (deep branch of the radial nerve) winds around the neck of the radius and can be damaged by fractures at this site.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-345",
@@ -6366,7 +7398,10 @@
     "rationale": {
       "text": "Erb's palsy involves the upper trunk of the brachial plexus (C5–C6), causing the characteristic 'waiter's tip' posture: adduction, medial rotation, and extended elbow.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-346",
@@ -6384,7 +7419,10 @@
     "rationale": {
       "text": "Klumpke's palsy involves the lower trunk (C8–T1), causing intrinsic hand muscle weakness, claw hand, and potential Horner's syndrome if T1 is involved.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-347",
@@ -6402,7 +7440,10 @@
     "rationale": {
       "text": "The carpal tunnel contains the median nerve and nine flexor tendons. The ulnar nerve passes through Guyon's canal, lateral to the carpal tunnel.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-348",
@@ -6420,7 +7461,10 @@
     "rationale": {
       "text": "Carpal tunnel syndrome results from median nerve compression at the carpal tunnel. Classic findings include numbness in radial 3½ digits, thenar atrophy, and a positive Tinel's sign at the wrist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-349",
@@ -6438,7 +7482,10 @@
     "rationale": {
       "text": "The axillary nerve innervates the deltoid and teres minor, and provides sensation to the 'regimental badge' area. Teres major is innervated by the lower subscapular nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-350",
@@ -6456,7 +7503,10 @@
     "rationale": {
       "text": "The median nerve innervates both pronator muscles (pronator teres and pronator quadratus), which are responsible for forearm pronation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-351",
@@ -6474,7 +7524,10 @@
     "rationale": {
       "text": "The brachial plexus lies directly posterior and inferior to the clavicle. Fractures at the classic site (middle third) can injure the brachial plexus or subclavian vessels.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-352",
@@ -6492,7 +7545,10 @@
     "rationale": {
       "text": "From medial to lateral in the cubital fossa: Median nerve, Brachial Artery, Biceps tendon (and the radial nerve/posterior interosseous nerve deeper/laterally).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-353",
@@ -6510,7 +7566,10 @@
     "rationale": {
       "text": "The ulnar nerve and ulnar artery enter the hand through Guyon's canal (ulnar canal), located medial to the carpal tunnel at the wrist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-354",
@@ -6528,7 +7587,10 @@
     "rationale": {
       "text": "A positive Trendelenburg sign indicates weakness of the hip abductors (gluteus medius and minimus), which are innervated by the superior gluteal nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-355",
@@ -6546,7 +7608,10 @@
     "rationale": {
       "text": "The tibial nerve innervates the posterior compartment of the leg, including gastrocnemius and soleus. Damage causes inability to plantarflex the foot.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-356",
@@ -6564,7 +7629,10 @@
     "rationale": {
       "text": "The common peroneal nerve winds around the head of the fibula and innervates the anterior and lateral leg compartments. Injury causes foot drop and loss of dorsiflexion/eversion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-357",
@@ -6582,7 +7650,10 @@
     "rationale": {
       "text": "The superolateral quadrant of the gluteal region is the safe zone for IM injections, avoiding the sciatic nerve and the superior and inferior gluteal vessels.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-358",
@@ -6600,7 +7671,10 @@
     "rationale": {
       "text": "The obturator nerve (L2–L4) innervates the adductor compartment and provides sensation to the medial thigh.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-359",
@@ -6618,7 +7692,10 @@
     "rationale": {
       "text": "The quadriceps femoris (rectus femoris, vastus lateralis, vastus medialis, vastus intermedius) extends the knee. It is innervated by the femoral nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-360",
@@ -6636,7 +7713,10 @@
     "rationale": {
       "text": "The popliteal fossa contains the popliteal artery and vein, tibial nerve, and common peroneal nerve. The femoral artery becomes the popliteal artery after passing through the adductor hiatus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-361",
@@ -6654,7 +7734,10 @@
     "rationale": {
       "text": "The superior gluteal nerve (L4–S1) innervates gluteus medius, gluteus minimus, and tensor fasciae latae—the main hip abductors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-362",
@@ -6672,7 +7755,10 @@
     "rationale": {
       "text": "The inferior gluteal nerve (L5–S2) innervates the gluteus maximus, the prime extensor of the hip.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-363",
@@ -6690,7 +7776,10 @@
     "rationale": {
       "text": "Meralgia paresthetica is caused by compression of the lateral femoral cutaneous nerve (L2–L3) as it passes under the inguinal ligament, causing numbness and paresthesia over the lateral thigh.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-364",
@@ -6708,7 +7797,10 @@
     "rationale": {
       "text": "The tibialis anterior (innervated by the deep peroneal nerve) dorsiflexes and inverts the foot.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-365",
@@ -6726,7 +7818,10 @@
     "rationale": {
       "text": "The deep peroneal nerve (anterior compartment) innervates the tibialis anterior, extensor digitorum longus, extensor hallucis longus, and peroneus tertius.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-366",
@@ -6744,7 +7839,10 @@
     "rationale": {
       "text": "The superficial peroneal nerve innervates peroneus longus and peroneus brevis, which evert the foot.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-367",
@@ -6762,7 +7860,10 @@
     "rationale": {
       "text": "The sciatic nerve arises from the lumbosacral plexus (L4–S3). It is the largest nerve in the body.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-368",
@@ -6780,7 +7881,10 @@
     "rationale": {
       "text": "The adductor canal transmits the femoral artery, femoral vein, and saphenous nerve (branch of femoral nerve). The femoral artery exits as the popliteal artery after passing through the adductor hiatus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-369",
@@ -6798,7 +7902,10 @@
     "rationale": {
       "text": "The femoral nerve is derived from the posterior divisions of L2, L3, and L4.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-370",
@@ -6816,7 +7923,10 @@
     "rationale": {
       "text": "The patellar reflex (knee jerk) is mediated by the femoral nerve at spinal level L3–L4. Loss of this reflex suggests a lesion at this level.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-371",
@@ -6834,7 +7944,10 @@
     "rationale": {
       "text": "The Achilles (ankle jerk) reflex tests the S1 nerve root (and sometimes S2). Loss suggests S1 radiculopathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-372",
@@ -6852,7 +7965,10 @@
     "rationale": {
       "text": "Structures passing below piriformis: sciatic nerve, inferior gluteal nerve/artery, pudendal nerve, posterior femoral cutaneous nerve. Above piriformis: superior gluteal nerve/artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-373",
@@ -6870,7 +7986,10 @@
     "rationale": {
       "text": "Downgaze is produced primarily by the inferior rectus (CN III) and the superior oblique (CN IV). This is why CN IV palsy impairs looking down and inward.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-374",
@@ -6888,7 +8007,10 @@
     "rationale": {
       "text": "CN IV (trochlear nerve) innervates the superior oblique. Mnemonic: SO4 (Superior Oblique = CN4).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-375",
@@ -6906,7 +8028,10 @@
     "rationale": {
       "text": "CN VI (abducens nerve) innervates the lateral rectus. Mnemonic: LR6SO4 (Lateral Rectus = CN6, Superior Oblique = CN4).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-376",
@@ -6924,7 +8049,10 @@
     "rationale": {
       "text": "The facial nerve (CN VII) passes through the parotid gland (but does not innervate it) and divides into its five terminal branches within the gland.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-377",
@@ -6942,7 +8070,10 @@
     "rationale": {
       "text": "CN XII innervates all intrinsic and most extrinsic tongue muscles (except palatoglossus). Damage causes the tongue to deviate toward the side of the lesion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-378",
@@ -6960,7 +8091,10 @@
     "rationale": {
       "text": "The afferent limb of the gag reflex is CN IX (glossopharyngeal), which innervates the posterior 1/3 of tongue and oropharynx. The efferent limb is CN X (vagus).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-379",
@@ -6978,7 +8112,10 @@
     "rationale": {
       "text": "The circle of Willis connects the internal carotid system (via anterior and middle cerebral arteries) and the vertebrobasilar system (via posterior cerebral arteries) through anterior and posterior communicating arteries.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-380",
@@ -6996,7 +8133,10 @@
     "rationale": {
       "text": "CN VII (facial nerve) courses through the parotid gland. Its branches control all facial muscles of expression. Parotid surgery can injure branches causing complete ipsilateral facial nerve palsy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-381",
@@ -7014,7 +8154,10 @@
     "rationale": {
       "text": "The spinal cord ends at the conus medullaris (L1–L2 in adults). Lumbar puncture is performed at L3–L4 or L4–L5 to enter the subarachnoid space (cauda equina) safely.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-382",
@@ -7032,7 +8175,10 @@
     "rationale": {
       "text": "The cauda equina (horse's tail) consists of lumbar, sacral, and coccygeal nerve roots descending below the conus medullaris (L1–L2) within the spinal canal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-383",
@@ -7050,7 +8196,10 @@
     "rationale": {
       "text": "CN IX (glossopharyngeal) carries special visceral afferent (taste) fibers from the posterior 1/3 of the tongue. The facial nerve (CN VII via chorda tympani) serves the anterior 2/3.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-384",
@@ -7068,7 +8217,10 @@
     "rationale": {
       "text": "The pterion is where the frontal, parietal, temporal, and sphenoid bones meet. It is the thinnest part of the skull and overlies the anterior division of the middle meningeal artery. Fracture can cause epidural hematoma.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-385",
@@ -7086,7 +8238,10 @@
     "rationale": {
       "text": "The carotid triangle contains the carotid sheath with the common carotid artery, internal jugular vein, and vagus nerve (CN X).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-386",
@@ -7104,7 +8259,10 @@
     "rationale": {
       "text": "Brown-Séquard (hemisection): ipsilateral UMN signs + ipsilateral loss of vibration/proprioception (posterior column) + contralateral loss of pain and temperature (spinothalamic tract crosses at the level of entry).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-387",
@@ -7122,7 +8280,10 @@
     "rationale": {
       "text": "In adults, the spinal cord ends at L1–L2 (conus medullaris). Below this, the cauda equina continues to lower levels.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-388",
@@ -7140,7 +8301,10 @@
     "rationale": {
       "text": "Nodal (a TGF-β family member) promotes left-sided identity; Lefty inhibits and confines Nodal; Pitx2 is the downstream transcription factor driving left-sided organ development.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-389",
@@ -7158,7 +8322,10 @@
     "rationale": {
       "text": "CN IX (glossopharyngeal nerve) provides parasympathetic innervation to the parotid gland via the lesser petrosal nerve → otic ganglion → auriculotemporal nerve (branch of V3).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-390",
@@ -7176,7 +8343,10 @@
     "rationale": {
       "text": "T4–T8 is a watershed zone for the spinal cord, receiving limited blood supply from the artery of Adamkiewicz (which is more variable). This region is at greatest risk during thoracic aortic surgery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-391",
@@ -7194,7 +8364,10 @@
     "rationale": {
       "text": "A posterolateral herniation at L4–L5 compresses the L5 nerve root (which exits below L5 vertebra). L5 compression causes weakness of big toe dorsiflexion and lateral leg numbness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-392",
@@ -7212,7 +8385,10 @@
     "rationale": {
       "text": "Posterolateral herniation at L5–S1 compresses the S1 root. S1 compression causes loss of ankle reflex, plantarflexion weakness, and lateral foot numbness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-393",
@@ -7230,7 +8406,10 @@
     "rationale": {
       "text": "Cauda equina syndrome is a lower motor neuron lesion; it presents with flaccid paralysis, areflexia, saddle anesthesia, and bowel/bladder dysfunction—NOT spastic paraplegia (which is an UMN sign).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-394",
@@ -7248,7 +8427,10 @@
     "rationale": {
       "text": "The nucleus pulposus is derived from the embryonic notochord. It forms the gelatinous center of each intervertebral disc.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-395",
@@ -7266,7 +8448,10 @@
     "rationale": {
       "text": "The artery of Adamkiewicz (arises from T9–L2, usually on the left) is the major feeder of the anterior spinal artery in the thoracolumbar region.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-396",
@@ -7284,7 +8469,10 @@
     "rationale": {
       "text": "The posterior longitudinal ligament is thinner and weaker than the anterior, so disc herniations most commonly occur posterolaterally, compressing nerve roots.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-397",
@@ -7302,7 +8490,10 @@
     "rationale": {
       "text": "Cerebellar lesions are ipsilateral (the cerebellum projects ipsilaterally to the spinal cord and limbs), unlike cerebral cortex lesions which are contralateral.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-398",
@@ -7320,7 +8511,10 @@
     "rationale": {
       "text": "Broca's area occupies Brodmann areas 44 and 45 in the inferior frontal gyrus of the dominant (usually left) hemisphere. Damage causes Broca's (expressive/non-fluent) aphasia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-399",
@@ -7338,7 +8532,10 @@
     "rationale": {
       "text": "Wernicke's area is in the posterior superior temporal gyrus (Brodmann area 22) of the dominant hemisphere. Damage causes Wernicke's (receptive/fluent) aphasia—fluent but meaningless speech.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-400",
@@ -7356,7 +8553,10 @@
     "rationale": {
       "text": "The dorsal (posterior) columns carry fine discriminative touch, vibration, and conscious proprioception. They ascend ipsilaterally and decussate in the medulla.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-401",
@@ -7374,7 +8574,10 @@
     "rationale": {
       "text": "The lateral spinothalamic tract carries pain and temperature. Fibers cross (decussate) through the anterior commissure at or near their level of entry into the cord, ascending contralaterally.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-402",
@@ -7392,7 +8595,10 @@
     "rationale": {
       "text": "The internal capsule carries corticospinal, corticobulbar, and thalamocortical fibers. The spinothalamic tract travels through the brainstem and thalamus, not primarily through the internal capsule.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-403",
@@ -7410,7 +8616,10 @@
     "rationale": {
       "text": "UMN lesions (cortex to anterior horn) cause: spasticity, hyperreflexia, positive Babinski sign, clonus, and minimal muscle atrophy. LMN lesions cause flaccid paralysis and fasciculations.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-404",
@@ -7428,7 +8637,10 @@
     "rationale": {
       "text": "MCA occlusion causes contralateral face and arm > leg weakness/sensory loss, contralateral homonymous hemianopia, and aphasia (dominant) or neglect (non-dominant). MCA supplies lateral cortex.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-405",
@@ -7446,7 +8658,10 @@
     "rationale": {
       "text": "CN IV (trochlear nerve) is the only cranial nerve to exit from the DORSAL surface of the brainstem (from the inferior colliculus). It also has the longest intracranial course.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-406",
@@ -7464,7 +8679,10 @@
     "rationale": {
       "text": "Parkinson's disease involves degeneration of dopaminergic neurons in the substantia nigra pars compacta, causing loss of dopamine in the striatum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-407",
@@ -7482,7 +8700,10 @@
     "rationale": {
       "text": "Anterior spinal artery syndrome destroys anterior 2/3 of cord: bilateral corticospinal tracts (motor loss) and lateral spinothalamic tracts (pain/temp loss), but spares the dorsal columns (vibration/proprioception preserved).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-408",
@@ -7500,7 +8721,10 @@
     "rationale": {
       "text": "The basal ganglia are involved in voluntary motor control. Huntington's disease preferentially affects the caudate nucleus (along with putamen), causing loss of GABA-ergic neurons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-409",
@@ -7518,7 +8742,10 @@
     "rationale": {
       "text": "The medial longitudinal fasciculus (MLF) connects CN VI on one side to CN III on the other to coordinate lateral gaze. Demyelination (e.g., MS) of the MLF causes internuclear ophthalmoplegia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-410",
@@ -7536,7 +8763,10 @@
     "rationale": {
       "text": "Wallenberg (PICA occlusion) syndrome: ipsilateral face pain/temp loss (V nucleus), contralateral body pain/temp loss (spinothalamic), ipsilateral Horner's, dysarthria, dysphagia, vertigo.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-411",
@@ -7554,7 +8784,10 @@
     "rationale": {
       "text": "The corticospinal tract decussates in the medullary pyramids. A left internal capsule lesion produces right-sided spastic hemiplegia (contralateral to the lesion).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-412",
@@ -7572,7 +8805,10 @@
     "rationale": {
       "text": "Broca's aphasia: non-fluent, effortful speech with intact comprehension. Patients know what they want to say but cannot produce it. Lesion in inferior frontal gyrus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-413",
@@ -7590,7 +8826,10 @@
     "rationale": {
       "text": "A syrinx (fluid-filled cavity) expands centrally and disrupts the crossing spinothalamic fibers at the anterior commissure, causing bilateral loss of pain and temperature in the upper extremities ('cape' distribution). Dorsal columns (proprioception) are initially spared.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-414",
@@ -7608,7 +8847,10 @@
     "rationale": {
       "text": "Nodal cilia at the node create leftward fluid flow → Nodal expression on the LEFT → activates Pitx2 (transcription factor for left-sided organogenesis). Lefty inhibits and confines Nodal signaling.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-415",
@@ -7626,7 +8868,10 @@
     "rationale": {
       "text": "The nucleus pulposus is a remnant of the embryonic notochord, which induces neural tube development and serves as the initial axial skeleton scaffold.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-416",
@@ -7644,7 +8889,10 @@
     "rationale": {
       "text": "T10 corresponds to the umbilicus. T4 = nipple, T6 = xiphoid, T10 = umbilicus, T12 = inguinal fold, L1 = inguinal ligament, L4 = knee.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-417",
@@ -7662,7 +8910,10 @@
     "rationale": {
       "text": "Phalen's test compresses the carpal tunnel by forced wrist flexion for 60 seconds, reproducing median nerve symptoms (numbness/tingling in lateral 3½ fingers) in carpal tunnel syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-418",
@@ -7680,7 +8931,10 @@
     "rationale": {
       "text": "Saturday night palsy compresses the radial nerve in the spiral groove (mid-humerus), typically from prolonged pressure against the humerus. It causes wrist drop and sensory loss over the dorsum of the hand, sparing the brachioradialis and sensation over the posterior arm (branches arise more proximally).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-419",
@@ -7699,7 +8953,10 @@
     "rationale": {
       "text": "Myelomeningocele (spina bifida cystica) results from failure of neural fold fusion during neurulation (3rd–4th week). The neural tube fails to close, leaving the spinal cord exposed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-420",
@@ -7718,7 +8975,10 @@
     "rationale": {
       "text": "Anencephaly results from failure of the anterior (rostral) neuropore to close by day 25. The brain and calvarium fail to develop. Maternal folic acid deficiency is a major risk factor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-421",
@@ -7737,7 +8997,10 @@
     "rationale": {
       "text": "The AER provides signals (FGFs) for proximal-to-distal outgrowth of the limb bud. Removal at any stage truncates the limb at the level of development reached at that point (proximal structures already formed, distal ones absent).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-422",
@@ -7756,7 +9019,10 @@
     "rationale": {
       "text": "The zone of polarizing activity (ZPA) secretes Sonic Hedgehog (Shh) to establish the anterior-posterior (pre-axial to post-axial / thumb to little finger) axis of limb development.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-423",
@@ -7775,7 +9041,10 @@
     "rationale": {
       "text": "The anterior 2/3 of the tongue epithelium arises from the 1st pharyngeal arch (innervated by V3 for general sensation, VII for taste via chorda tympani). The posterior 1/3 arises from the 3rd arch (innervated by IX for both sensation and taste).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-424",
@@ -7794,7 +9063,10 @@
     "rationale": {
       "text": "Wallenberg syndrome (lateral medullary/PICA syndrome): ipsilateral Horner's (sympathetic chain), ipsilateral facial pain/temp loss (spinal trigeminal nucleus), contralateral body pain/temp loss (spinothalamic tract), ipsilateral ataxia (inferior cerebellar peduncle), dysphagia (nucleus ambiguus).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-425",
@@ -7813,7 +9085,10 @@
     "rationale": {
       "text": "Brown-Séquard syndrome (hemisection): ipsilateral loss of fine touch, vibration, and proprioception (dorsal columns); ipsilateral UMN signs (corticospinal tract); contralateral loss of pain and temperature (spinothalamic tract, which crosses within 1–2 levels of entry).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-426",
@@ -7832,7 +9107,10 @@
     "rationale": {
       "text": "Central cord syndrome: injury to the central gray matter and adjacent crossing spinothalamic fibers. Upper extremity weakness > lower extremity (arm fibers more central in corticospinal tract), cape-like bilateral loss of pain/temp (crossing fibers), bladder dysfunction. Most common in elderly with cervical spondylosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-427",
@@ -7851,7 +9129,10 @@
     "rationale": {
       "text": "Anterior cord syndrome: damage to the anterior two-thirds of the spinal cord (corticospinal and spinothalamic tracts), sparing the dorsal columns. Bilateral loss of motor function and pain/temperature with preserved fine touch, vibration, and proprioception.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-428",
@@ -7870,7 +9151,10 @@
     "rationale": {
       "text": "The dorsal column–medial lemniscal system carries fine (discriminative) touch, vibration, proprioception, and 2-point discrimination. Fibers ascend ipsilaterally in the dorsal columns and decussate in the medulla at the level of the nucleus gracilis/cuneatus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-429",
@@ -7889,7 +9173,10 @@
     "rationale": {
       "text": "The lateral spinothalamic tract carries pain and temperature. Afferents synapse in the dorsal horn, then cross in the anterior white commissure within 1–2 spinal segments before ascending in the contralateral lateral funiculus to the thalamus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-430",
@@ -7908,7 +9195,10 @@
     "rationale": {
       "text": "Bilateral spasticity and hyperreflexia (UMN signs) below the lesion indicate bilateral lateral corticospinal tract compression — the hallmark of cervical myelopathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-431",
@@ -7927,7 +9217,10 @@
     "rationale": {
       "text": "Syringomyelia expands from within the central canal, first disrupting the anterior white commissure where pain and temperature fibers cross — causing a bilateral, symmetric, cape-like (shawl) distribution of loss. Dorsal columns are spared until late.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-432",
@@ -7946,7 +9239,10 @@
     "rationale": {
       "text": "The VPM (ventral posteromedial) nucleus of the thalamus relays pain, temperature, and tactile sensation from the face (via trigeminal pathway). VPL relays the same modalities from the body.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-433",
@@ -7965,7 +9261,10 @@
     "rationale": {
       "text": "Cauda equina syndrome (compression of the nerve roots below L1–L2 where the cord ends) presents with LMN signs: flaccid paralysis, areflexia, saddle anesthesia (S3–S5), and sphincter dysfunction (urinary retention, fecal incontinence). A surgical emergency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-434",
@@ -7984,7 +9283,10 @@
     "rationale": {
       "text": "The gracile fasciculus (medial dorsal column) carries fine touch, vibration, and proprioception from the lower limb and trunk below T6. The cuneate fasciculus (lateral dorsal column) carries the same from the upper limb and trunk above T6.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-435",
@@ -8003,7 +9305,10 @@
     "rationale": {
       "text": "The corticospinal tract fibers decussate at the pyramidal decussation at the caudal medulla (medullospinal junction), where approximately 85% cross to form the lateral corticospinal tract. The remaining 15% descend ipsilaterally as the anterior corticospinal tract.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-436",
@@ -8022,7 +9327,10 @@
     "rationale": {
       "text": "A right internal capsule lesion interrupts the corticospinal fibers before they decussate at the pyramidal decussation. The resulting UMN signs (spasticity, hyperreflexia, Babinski sign) appear contralaterally (left side of the body). The face shows contralateral lower face weakness (upper motor neuron facial palsy).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-437",
@@ -8041,7 +9349,10 @@
     "rationale": {
       "text": "Carpal tunnel syndrome involves compression of the median nerve under the flexor retinaculum (transverse carpal ligament) at the wrist, causing thenar atrophy, loss of opposition, and sensory loss in the lateral 3.5 digits.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-438",
@@ -8060,7 +9371,10 @@
     "rationale": {
       "text": "The lateral half of flexor digitorum profundus (supplying the index and middle finger DIP flexion) is innervated by the anterior interosseous nerve (branch of median nerve). Testing FDP of the index finger specifically tests the median nerve at the forearm level.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-439",
@@ -8079,7 +9393,10 @@
     "rationale": {
       "text": "Medial (classic) scapular winging is caused by injury to the long thoracic nerve (C5–C7), denervating the serratus anterior. The scapula loses its stabilization against the chest wall and 'wings' posteromedially, especially on shoulder elevation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-440",
@@ -8098,7 +9415,10 @@
     "rationale": {
       "text": "The axillary nerve passes posterior to the surgical neck of the humerus and through the quadrangular space. It is the most commonly injured nerve in anterior shoulder dislocations, causing deltoid weakness and loss of sensation over the 'regimental badge' area of the lateral upper arm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-441",
@@ -8117,7 +9437,10 @@
     "rationale": {
       "text": "Thoracic outlet syndrome most commonly compresses the lower trunk (C8–T1), producing wasting of the intrinsic hand muscles, sensory loss in the medial forearm and hand (ulnar distribution), and ipsilateral Horner's syndrome if sympathetic fibers are involved.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-442",
@@ -8136,7 +9459,10 @@
     "rationale": {
       "text": "Erb-Duchenne palsy (C5–C6 injury) from excessive lateral flexion/traction: deltoid, supraspinatus, infraspinatus, teres minor, biceps, and brachioradialis denervation → 'waiter's tip' posture (arm adducted, internally rotated, extended, forearm pronated, wrist flexed).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-443",
@@ -8155,7 +9481,10 @@
     "rationale": {
       "text": "The anterior compartment of the leg contains the deep fibular nerve. Compartment syndrome compresses this nerve, causing foot drop (loss of dorsiflexion) and loss of sensation in the first web space.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-444",
@@ -8174,7 +9503,10 @@
     "rationale": {
       "text": "Tarsal tunnel syndrome involves compression of the tibial nerve (or its branches: medial and lateral plantar nerves) as it passes through the tarsal tunnel (flexor retinaculum) posterior to the medial malleolus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-445",
@@ -8193,7 +9525,10 @@
     "rationale": {
       "text": "The L4 dermatome covers the medial leg and medial malleolus. The L4 myotome tests knee extension (quadriceps) and ankle dorsiflexion/inversion. Loss of the patellar reflex indicates L4 involvement.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-446",
@@ -8212,7 +9547,10 @@
     "rationale": {
       "text": "L5 dermatomal territory includes the dorsum of the foot and great toe. The L5 myotome tests great toe extension (extensor hallucis longus) and foot eversion. There is no reliable deep tendon reflex for L5 (the posterior tibialis reflex is inconsistent).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-447",
@@ -8231,7 +9569,10 @@
     "rationale": {
       "text": "S1 supplies the lateral foot, little toe, and posterior calf. The Achilles (ankle jerk) reflex tests S1. Loss of S1 indicates L5–S1 disc herniation (the most common level), causing plantar flexion weakness and diminished Achilles reflex.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-448",
@@ -8250,7 +9591,10 @@
     "rationale": {
       "text": "Trendelenburg gait: failure of the gluteus medius and minimus (superior gluteal nerve, L4–S1) to stabilize the pelvis causes the unsupported side to drop during single-leg stance. The body compensates by shifting the trunk over the affected limb (compensated Trendelenburg).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-449",
@@ -8269,7 +9613,10 @@
     "rationale": {
       "text": "Lower motor neuron (LMN) lesion of CN VII (Bell's palsy) causes ipsilateral complete facial weakness including forehead (frontalis), eye closure (orbicularis oculi), and lower face. UMN lesions spare the forehead (bilateral cortical representation).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-450",
@@ -8288,7 +9635,10 @@
     "rationale": {
       "text": "The cavernous sinus contains: CN III (oculomotor), CN IV (trochlear), CN V1 (ophthalmic), CN V2 (maxillary) — in lateral wall; CN VI (abducens) — runs through the sinus adjacent to the ICA; and the internal carotid artery with its sympathetic plexus. CN VI is most vulnerable to mass lesions within the sinus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-451",
@@ -8307,7 +9657,10 @@
     "rationale": {
       "text": "The transverse sinuses run in the attached margin of the tentorium cerebelli from the confluence of sinuses (torcula Herophili) to the sigmoid sinuses, which drain into the internal jugular veins at the jugular foramina.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-452",
@@ -8326,7 +9679,10 @@
     "rationale": {
       "text": "The loose areolar tissue (4th layer of SCALP) is the 'danger zone' — infections spread freely through this layer and can drain via emissary veins (which have no valves) into the intracranial dural sinuses, risking cavernous sinus thrombosis or meningitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-453",
@@ -8345,7 +9701,10 @@
     "rationale": {
       "text": "Superior orbital fissure transmits: CN III (oculomotor), CN IV (trochlear), CN V1 — nasociliary and frontal branches (ophthalmic), CN VI (abducens), superior ophthalmic vein, and sympathetic fibers. The optic canal separately transmits CN II and ophthalmic artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-454",
@@ -8364,7 +9723,10 @@
     "rationale": {
       "text": "Uncal herniation compresses CN III (oculomotor nerve) at the tentorial notch, interrupting parasympathetic fibers (which run on the outside of the nerve) first — causing ipsilateral mydriasis (blown pupil) before motor deficits. This is a neurosurgical emergency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-455",
@@ -8382,7 +9744,10 @@
     "rationale": {
       "text": "Injury to the common peroneal nerve leads to foot drop ('steppage gait') and loss of dorsal foot sensation. Mnemonic: PED (Peroneal Everts and Dorsiflexes).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-456",
@@ -8400,7 +9765,10 @@
     "rationale": {
       "text": "Disc herniation that affects the L4 nerve root leads to weakness of knee extension and decreased patellar reflex.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-457",
@@ -8418,7 +9786,10 @@
     "rationale": {
       "text": "Injury to the surgical neck of the humerus leads to injury of the axillary nerve and posterior circumflex artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-458",
@@ -8436,7 +9807,10 @@
     "rationale": {
       "text": "Injury to the midshaft of the humerus injures the radial nerve and deep brachial artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-459",
@@ -8454,7 +9828,10 @@
     "rationale": {
       "text": "The inferior gluteal nerve innervates the gluteus maximus and is associated with posterior hip dislocations.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-460",
@@ -8472,7 +9849,10 @@
     "rationale": {
       "text": "CSF flow: Lateral ventricles -> Foramina of Monro -> 3rd ventricle -> Aqueduct of Sylvius -> 4th ventricle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-461",
@@ -8490,7 +9870,10 @@
     "rationale": {
       "text": "Taste from the anterior 2/3 of the tongue is carried by chorda tympani which is a branch of CN VII.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-462",
@@ -8508,7 +9891,10 @@
     "rationale": {
       "text": "The contents of the carotid sheath are: Common and internal carotid arteries, Internal jugular vein, and Vagus nerve. The external jugular vein is not inside the sheath.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-463",
@@ -8526,7 +9912,10 @@
     "rationale": {
       "text": "Telencephalon forms the cerebral hemispheres and basal ganglia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-464",
@@ -8544,7 +9933,10 @@
     "rationale": {
       "text": "Astrocytes are the largest and most abundant glial cells in the central nervous system.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-465",
@@ -8562,7 +9954,10 @@
     "rationale": {
       "text": "Microglia originate from the mesoderm. Astrocytes and oligodendrocytes originate from neural tube (ectoderm).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-466",
@@ -8580,7 +9975,10 @@
     "rationale": {
       "text": "The corticospinal tracts are responsible for voluntary motor function.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-467",
@@ -8598,7 +9996,10 @@
     "rationale": {
       "text": "The lateral area of the hypothalamus is known as the hunger center and is involved in increasing appetite.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-468",
@@ -8616,7 +10017,10 @@
     "rationale": {
       "text": "The loose connective tissue layer of the scalp is the 'danger zone' where infection can spread to intracranial sinuses via emissary veins.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-469",
@@ -8634,7 +10038,10 @@
     "rationale": {
       "text": "The pterion is the thinnest part of the lateral skull. A fracture here can rupture the middle meningeal artery resulting in an epidural hematoma.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-470",
@@ -8652,7 +10059,10 @@
     "rationale": {
       "text": "Eliciting the patellar reflex results in contraction of the quadriceps femoris.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-471",
@@ -8670,7 +10080,10 @@
     "rationale": {
       "text": "Lunate dislocation can impinge the median nerve, leading to carpal tunnel syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-472",
@@ -8688,7 +10101,10 @@
     "rationale": {
       "text": "A proximal median nerve lesion presents as a 'Hand of Benediction' when attempting to make a fist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-473",
@@ -8706,7 +10122,10 @@
     "rationale": {
       "text": "CN II does not pass through the cavernous sinus. Structures that do pass include CN III, IV, V1, V2, VI, and the internal carotid artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-474",
@@ -8724,7 +10143,10 @@
     "rationale": {
       "text": "An MCA (Middle Cerebral Artery) stroke most likely presents with Wernicke aphasia if it affects the dominant temporal lobe.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nervous System"
+    ]
   },
   {
     "id": "ANATOMY-475",
@@ -8742,7 +10164,10 @@
     "rationale": {
       "text": "The chorda tympani (branch of CN VII) carries taste from the anterior 2/3 of tongue and parasympathetic fibers to the submandibular and sublingual glands.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-476",
@@ -8760,7 +10185,10 @@
     "rationale": {
       "text": "Meibomian glands are embedded in the tarsal plate. Infection causes an internal hordeolum/stye, which presents as a deeper swelling toward the conjunctival side of the eyelid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-477",
@@ -8778,7 +10206,10 @@
     "rationale": {
       "text": "Glands of Zeis are sebaceous glands associated with eyelash follicles. Their infection causes an external hordeolum (stye), which presents as superficial swelling near the eyelashes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-478",
@@ -8796,7 +10227,10 @@
     "rationale": {
       "text": "The right optic tract contains fibers from the temporal retina of the right eye and nasal retina of the left eye, representing the left visual field. Lesion causes left homonymous hemianopia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-479",
@@ -8815,7 +10249,10 @@
     "rationale": {
       "text": "The Edinger-Westphal (accessory oculomotor) nucleus is the preganglionic parasympathetic nucleus for the ciliary ganglion, mediating pupillary constriction (miosis) via the pupillary light reflex. It also contributes to accommodation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-480",
@@ -8834,7 +10271,10 @@
     "rationale": {
       "text": "Weber syndrome results from a midbrain lesion involving the CN III fascicles (ipsilateral oculomotor palsy) and the adjacent cerebral peduncle (corticospinal tract — contralateral hemiplegia).",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-481",
@@ -8853,7 +10293,10 @@
     "rationale": {
       "text": "Corneal reflex: afferent = nasociliary branch of ophthalmic division (V1) of trigeminal nerve; efferent = facial nerve (CN VII) causing orbicularis oculi to blink. Testing the corneal reflex assesses both V1 and VII.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-482",
@@ -8872,7 +10315,10 @@
     "rationale": {
       "text": "In cavernous sinus thrombosis or mass lesions, CN VI (abducens) is most vulnerable as it runs through (not just in the lateral wall of) the sinus alongside the ICA. Lateral gaze palsy (loss of abduction) is often the first oculomotor sign.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-483",
@@ -8890,7 +10336,10 @@
     "rationale": {
       "text": "The pupillary reflex: Afferent is CN II, Efferent is CN III.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-484",
@@ -8908,7 +10357,10 @@
     "rationale": {
       "text": "The levator palpebrae superioris is innervated by CN III, which opens the eyelids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "ANATOMY-485",
@@ -8926,7 +10378,10 @@
     "rationale": {
       "text": "The left recurrent laryngeal nerve loops under the aortic arch and can be damaged during aortic arch or thoracic surgery, causing hoarseness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-486",
@@ -8944,7 +10399,10 @@
     "rationale": {
       "text": "The recurrent laryngeal nerve (branch of the vagus, CN X) runs close to the thyroid and is at risk during thyroid surgery. Injury causes hoarseness by paralyzing the vocal cord.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-487",
@@ -8962,7 +10420,10 @@
     "rationale": {
       "text": "The recurrent laryngeal nerve is a branch of the vagus nerve (CN X). Injury during thyroidectomy is a known complication, causing ipsilateral vocal cord paralysis and hoarseness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-488",
@@ -8980,7 +10441,10 @@
     "rationale": {
       "text": "The optic chiasm contains crossing nasal fibers (temporal visual fields). Compression (e.g., pituitary macroadenoma) classically causes bitemporal hemianopia ('tunnel vision').",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-489",
@@ -8998,7 +10462,10 @@
     "rationale": {
       "text": "Conscious proprioception is a function of the dorsal columns and somatosensory cortex, NOT the hypothalamus. The hypothalamus regulates autonomic functions, temperature, hunger, sleep, thirst, and ADH release.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-490",
@@ -9017,7 +10484,10 @@
     "rationale": {
       "text": "The first pharyngeal arch (Meckel's cartilage) derivatives: malleus, incus, anterior ligament of malleus, sphenomandibular ligament, and the muscles of mastication (mandibular nerve, V3).",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-491",
@@ -9036,7 +10506,10 @@
     "rationale": {
       "text": "3rd pharyngeal pouch → thymus (ventral wing) and inferior parathyroid glands (dorsal wing). 4th pharyngeal pouch → superior parathyroid glands (dorsal wing) and ultimobranchial body (parafollicular C cells of thyroid).",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-492",
@@ -9055,7 +10528,10 @@
     "rationale": {
       "text": "DiGeorge syndrome (22q11 deletion) results from failure of development of the 3rd and 4th pharyngeal pouches: absence of thymus (T-cell deficiency), absence of inferior parathyroids (hypocalcemia), and associated conotruncal heart defects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-493",
@@ -9074,7 +10550,10 @@
     "rationale": {
       "text": "Superior parathyroid glands derive from the 4th pharyngeal pouch. Because they travel a shorter distance, they are more predictably located posterior to the upper poles of the thyroid. Inferior parathyroids come from the 3rd pouch and are more variable in position.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-494",
@@ -9093,7 +10572,10 @@
     "rationale": {
       "text": "The right adrenal vein drains directly and very briefly into the IVC. This short course makes right adrenalectomy more challenging. The left adrenal vein drains into the left renal vein.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-495",
@@ -9112,7 +10594,10 @@
     "rationale": {
       "text": "The left adrenal vein drains into the left renal vein (which then drains to the IVC). This is also why left-sided varicoceles are more common — the left gonadal vein similarly drains into the left renal vein at a 90° angle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-496",
@@ -9131,7 +10616,10 @@
     "rationale": {
       "text": "Pheochromocytoma follows the 'rule of 10s': 10% bilateral, 10% malignant, 10% extra-adrenal (paragangliomas), 10% familial, 10% in children. It secretes catecholamines (epinephrine > norepinephrine from adrenal medulla).",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-497",
@@ -9150,7 +10638,10 @@
     "rationale": {
       "text": "The right adrenal gland (pyramidal/triangular shape) lies at T11–T12, superior to the right kidney and posterior to the IVC. The left adrenal is crescentic (semilunar) and more medial.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-498",
@@ -9169,7 +10660,10 @@
     "rationale": {
       "text": "PNMT (phenylethanolamine N-methyltransferase) converts norepinephrine to epinephrine in the adrenal medulla. This reaction requires high cortisol concentrations from the adrenal cortex via the portal vasculature — explaining why adrenal medullary pheochromocytoma produces mainly epinephrine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-499",
@@ -9188,7 +10682,10 @@
     "rationale": {
       "text": "Carcinoid tumor (now classified as well-differentiated neuroendocrine tumor) is the most common neuroendocrine tumor of the GI tract, most often found in the small intestine (ileum), followed by the rectum and appendix.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-500",
@@ -9207,7 +10704,10 @@
     "rationale": {
       "text": "The superior thyroid artery is typically the first anterior branch of the external carotid artery, supplying the upper poles of the thyroid gland and running with the external branch of the superior laryngeal nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-501",
@@ -9226,7 +10726,10 @@
     "rationale": {
       "text": "The inferior thyroid artery arises from the thyrocervical trunk, a branch of the subclavian artery. It supplies the lower poles of the thyroid and the parathyroid glands, and runs close to the recurrent laryngeal nerve.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-502",
@@ -9245,7 +10748,10 @@
     "rationale": {
       "text": "The recurrent laryngeal nerve runs in close proximity to the inferior thyroid artery, crossing either anterior or posterior to it. Ligation close to the gland risks injury to the RLN, causing hoarseness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-503",
@@ -9264,7 +10770,10 @@
     "rationale": {
       "text": "The thyroid gland lies at approximately C5–T1 vertebral levels, with the isthmus overlying the 2nd–4th tracheal rings and the upper poles reaching to C5.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-504",
@@ -9283,7 +10792,10 @@
     "rationale": {
       "text": "Inadvertent removal of parathyroid glands during thyroidectomy causes hypoparathyroidism → hypocalcemia → tetany (Chvostek sign, Trousseau sign, perioral tingling, carpopedal spasm).",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-505",
@@ -9302,7 +10814,10 @@
     "rationale": {
       "text": "Superior parathyroid glands lie posterior to the upper poles of the thyroid (at the junction of the upper and middle thirds), adjacent to where the inferior thyroid artery crosses the RLN. They are more consistent in location than inferior parathyroids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-506",
@@ -9321,7 +10836,10 @@
     "rationale": {
       "text": "The thyroglossal duct cyst is connected to the foramen cecum at the base of the tongue via a fibrous remnant of the thyroglossal duct. Tongue protrusion moves the foramen cecum forward and upward, elevating the cyst — a pathognomonic finding.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-507",
@@ -9340,7 +10858,10 @@
     "rationale": {
       "text": "The Sistrunk procedure removes the thyroglossal duct cyst, the fibrous tract, and the central portion (body) of the hyoid bone, as the tract passes through or posterior to the hyoid. Simple excision has a very high recurrence rate.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-508",
@@ -9359,7 +10880,10 @@
     "rationale": {
       "text": "The external branch of the superior laryngeal nerve innervates the cricothyroid muscle (tensor/lengthener of vocal cords for high pitch). Its injury causes inability to raise pitch — important for singers. The RLN causes hoarseness when injured.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-509",
@@ -9378,7 +10902,10 @@
     "rationale": {
       "text": "The recurrent laryngeal nerve (RLN) supplies all intrinsic muscles of the larynx except the cricothyroid. Its injury causes hoarseness (unilateral) or aphonia and stridor (bilateral). The posterior cricoarytenoid (the only abductor of vocal cords) is also paralyzed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-510",
@@ -9397,7 +10924,10 @@
     "rationale": {
       "text": "The thyroid ima artery (present in ~10% of people) arises from the brachiocephalic trunk or the arch of the aorta and ascends anterior to the trachea to supply the thyroid isthmus. It must be identified before tracheostomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-511",
@@ -9416,7 +10946,10 @@
     "rationale": {
       "text": "Primary hyperparathyroidism is most commonly caused by a single parathyroid adenoma (~80–85% of cases), producing excess PTH leading to hypercalcemia, hypophosphatemia, and bone resorption.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-512",
@@ -9434,7 +10967,10 @@
     "rationale": {
       "text": "The tuberoinfundibular pathway regulates prolactin secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-513",
@@ -9452,7 +10988,10 @@
     "rationale": {
       "text": "Leydig cells produce testosterone under the control of LH.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-514",
@@ -9470,7 +11009,10 @@
     "rationale": {
       "text": "Foramen cecum is the site of an obliterated thyroglossal duct.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-515",
@@ -9488,7 +11030,10 @@
     "rationale": {
       "text": "The thyroid isthmus usually crosses the 2nd and 3rd tracheal rings.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-516",
@@ -9506,7 +11051,10 @@
     "rationale": {
       "text": "Accidental transection of the recurrent laryngeal nerve may occur during ligation of the inferior thyroid artery, leading to hoarseness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-517",
@@ -9524,7 +11072,10 @@
     "rationale": {
       "text": "A lesion at the optic chiasm typically presents with bitemporal hemianopia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-518",
@@ -9542,7 +11093,10 @@
     "rationale": {
       "text": "The suprachiasmatic nucleus is responsible for regulating the circadian rhythm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-519",
@@ -9560,7 +11114,10 @@
     "rationale": {
       "text": "Androgens are produced in the zona reticularis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-520",
@@ -9578,7 +11135,10 @@
     "rationale": {
       "text": "The adrenal medulla is embryologically derived from the neural crest.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "ANATOMY-521",
@@ -9596,7 +11156,10 @@
     "rationale": {
       "text": "The right lymphatic duct drains the right upper quadrant of the body: right upper limb, right head and neck, right thorax. The thoracic duct drains the rest.",
       "images": []
-    }
+    },
+    "tags": [
+      "Lymphatic & Immune System"
+    ]
   },
   {
     "id": "ANATOMY-522",
@@ -9615,7 +11178,10 @@
     "rationale": {
       "text": "Level III (apical) axillary lymph node dissection, medial to the pectoralis minor, is most likely to cause arm lymphedema as it removes the final drainage pathway to the subclavian lymph trunk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Lymphatic & Immune System"
+    ]
   },
   {
     "id": "ANATOMY-523",
@@ -9634,7 +11200,10 @@
     "rationale": {
       "text": "The thoracic duct drains approximately three-quarters of the body — everything except the right upper quadrant (right side of head/neck, right upper limb, right hemithorax), which drains via the right lymphatic duct.",
       "images": []
-    }
+    },
+    "tags": [
+      "Lymphatic & Immune System"
+    ]
   },
   {
     "id": "ANATOMY-524",
@@ -9653,7 +11222,10 @@
     "rationale": {
       "text": "The thymus develops from the ventral wing of the 3rd pharyngeal pouch and descends to the anterior superior mediastinum. It is largest in childhood and involutes after puberty.",
       "images": []
-    }
+    },
+    "tags": [
+      "Lymphatic & Immune System"
+    ]
   },
   {
     "id": "ANATOMY-525",
@@ -9672,6 +11244,9 @@
     "rationale": {
       "text": "Thymoma is strongly associated with myasthenia gravis (~15–20% of MG patients have thymoma; ~30–50% of thymoma patients have MG). The thymus plays a role in the autoimmune response against acetylcholine receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Lymphatic & Immune System"
+    ]
   }
 ]

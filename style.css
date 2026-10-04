@@ -6123,6 +6123,7 @@ body[data-course="quiz"] .header-sub { margin: 0; color: var(--quiz-muted); font
 .subject-picker { flex-wrap: nowrap; }
 .subject-picker { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--quiz-border); }
 .subject-picker label { color: var(--quiz-muted); font: 10px 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
+.year-level-picker { display: flex; margin: 0; }
 body[data-course="quiz"] select, .quiz-actions .btn, body[data-course="quiz"] .btn {
   border: 1px solid var(--quiz-border); border-radius: 6px; padding: 8px 11px;
   background: var(--quiz-surface); color: var(--quiz-text); font: 12px 'JetBrains Mono', monospace;
@@ -6166,6 +6167,7 @@ body[data-course="quiz"] .btn:disabled { cursor: not-allowed; opacity: .45; }
 .badge { padding: 3px 8px; border-radius: 3px; font: 9px 'JetBrains Mono', monospace; text-transform: uppercase; letter-spacing: .08em; }
 .badge-theme { border: 1px solid var(--accent); color: var(--accent); background: var(--accent-soft); }
 .badge-source { color: var(--quiz-muted); border: 1px solid var(--quiz-border); }
+.tag { padding: 3px 8px; border: 1px solid var(--quiz-border); border-radius: 999px; background: var(--quiz-surface); color: var(--quiz-muted); font: 9px 'JetBrains Mono', monospace; }
 .q-stem { margin-bottom: 18px; font-size: 19px; line-height: 1.55; }
 .question-image, .rationale-image { display: block; max-width: 100%; max-height: 280px; margin: 10px auto 18px; border-radius: 6px; }
 .options { display: grid; gap: 8px; }

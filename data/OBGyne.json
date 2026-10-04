@@ -15,7 +15,10 @@
     "rationale": {
       "text": "Halban theory: Endometrial tissue travels through the lymphatics to ectopically implant in the pelvis. Sampson theory: retrograde menstruation through the fallopian tubes. Meyer theory: metaplastic transformation of multipotential cells in peritoneal tissue into endometrial tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometriosis"
+    ]
   },
   {
     "id": "2",
@@ -33,7 +36,10 @@
     "rationale": {
       "text": "Cyclic pelvic pain is the hallmark of endometriosis. The other options are also signs and symptoms but are not considered hallmarks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometriosis"
+    ]
   },
   {
     "id": "3",
@@ -51,7 +57,10 @@
     "rationale": {
       "text": "Letrozole is an aromatase inhibitor used for breast cancer, not for osteoporosis prevention. Approved agents: bisphosphonates, raloxifene, menopausal hormone therapy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Osteoporosis"
+    ]
   },
   {
     "id": "4",
@@ -69,7 +78,10 @@
     "rationale": {
       "text": "The recommended dose is 400 mcg (0.4 mg) daily for all women of childbearing age. For high-risk (e.g., previous NTD), 4 mg (4000 mcg) is given.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "5",
@@ -87,7 +99,10 @@
     "rationale": {
       "text": "For women with diabetes (or other high-risk factors), the recommended dose is 4 mg (4000 mcg) daily, started 1 month before conception.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diabetes"
+    ]
   },
   {
     "id": "6",
@@ -105,7 +120,10 @@
     "rationale": {
       "text": "Term: 37–42 weeks. Previable: 23–24 weeks. Preterm: 24–37 weeks. Postterm: beyond 42 weeks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "7",
@@ -123,7 +141,10 @@
     "rationale": {
       "text": "Combined oral contraceptives (COC) contain estrogen → hypercoagulability. Contraindicated in women >35 who smoke ≥15 cigarettes/day. Progesterone-only methods are safe.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "8",
@@ -141,7 +162,10 @@
     "rationale": {
       "text": "LMWH (enoxaparin) or unfractionated heparin is recommended. Warfarin is contraindicated in pregnancy (teratogenic, crosses placenta). Heparin does not cross the placenta.",
       "images": []
-    }
+    },
+    "tags": [
+      "DVT"
+    ]
   },
   {
     "id": "9",
@@ -159,7 +183,10 @@
     "rationale": {
       "text": "Stage 1: onset of labor to full dilation. Stage 2: full dilation to delivery of infant. Stage 3: delivery of infant to delivery of placenta.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "10",
@@ -177,7 +204,10 @@
     "rationale": {
       "text": "Retained placenta is defined as placenta that does not deliver within 30 minutes after the infant.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "11",
@@ -195,7 +225,10 @@
     "rationale": {
       "text": "Manual extraction is the initial management. If incomplete, curettage may be needed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "12",
@@ -213,7 +246,10 @@
     "rationale": {
       "text": "1st: mucosa/skin; 2nd: perineal body, not sphincter; 3rd: through sphincter; 4th: anal mucosa involved.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "13",
@@ -231,7 +267,10 @@
     "rationale": {
       "text": "Chancroid treatment: ceftriaxone, azithromycin, ciprofloxacin, or erythromycin. Acyclovir is for herpes; doxycycline for LGV.",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "14",
@@ -249,7 +288,10 @@
     "rationale": {
       "text": "The recommended calcium intake during pregnancy is 1.5 g (1500 mg) per day.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "15",
@@ -267,7 +309,10 @@
     "rationale": {
       "text": "Systemic vascular resistance decreases during pregnancy. CO increases 30-50% due to increased stroke volume and heart rate.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "16",
@@ -285,7 +330,10 @@
     "rationale": {
       "text": "Urinary stasis from mechanical compression and progesterone-mediated smooth muscle relaxation increases risk.",
       "images": []
-    }
+    },
+    "tags": [
+      "UTI"
+    ]
   },
   {
     "id": "17",
@@ -303,7 +351,10 @@
     "rationale": {
       "text": "RhoGAM is given to prevent alloimmunization after procedures that may cause fetomaternal hemorrhage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "18",
@@ -321,7 +372,10 @@
     "rationale": {
       "text": "Round ligament: through inguinal canal to labia majora. Ovarian: ovary to uterine horn. Cardinal: cervix to lateral pelvic wall. Uterosacral: cervix to sacrum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anatomy"
+    ]
   },
   {
     "id": "19",
@@ -339,7 +393,10 @@
     "rationale": {
       "text": "Failure to progress in labor is the most common indication for primary cesarean delivery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "20",
@@ -357,7 +414,10 @@
     "rationale": {
       "text": "Magnesium sulfate is the drug of choice for seizure prophylaxis in preeclampsia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "21",
@@ -375,7 +435,10 @@
     "rationale": {
       "text": "Delivery of the baby is the only definitive cure for preeclampsia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "22",
@@ -393,7 +456,10 @@
     "rationale": {
       "text": "Labetalol and hydralazine are used to treat hypertension in eclampsia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Eclampsia"
+    ]
   },
   {
     "id": "23",
@@ -411,7 +477,10 @@
     "rationale": {
       "text": "Calcium gluconate (10 mL of 10% solution) IV is given for magnesium toxicity (loss of DTRs, respiratory depression).",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "24",
@@ -429,7 +498,10 @@
     "rationale": {
       "text": "Screening for gestational diabetes is recommended between 24-28 weeks of gestation.",
       "images": []
-    }
+    },
+    "tags": [
+      "GDM"
+    ]
   },
   {
     "id": "25",
@@ -447,7 +519,10 @@
     "rationale": {
       "text": "Women with GDM should be screened postpartum with fasting glucose or 2-hour 75g OGTT. RBS and HbA1c are not recommended.",
       "images": []
-    }
+    },
+    "tags": [
+      "GDM"
+    ]
   },
   {
     "id": "26",
@@ -465,7 +540,10 @@
     "rationale": {
       "text": "Chemotherapy is the mainstay for malignant GTD. Surgery has a limited role (except for high-risk or placental site tumors).",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "27",
@@ -483,7 +561,10 @@
     "rationale": {
       "text": "Vaginal examination is contraindicated because it can provoke bleeding. Transvaginal ultrasound is safe and more accurate.",
       "images": []
-    }
+    },
+    "tags": [
+      "Placenta Previa"
+    ]
   },
   {
     "id": "28",
@@ -501,7 +582,10 @@
     "rationale": {
       "text": "Cesarean delivery is recommended for complete or partial placenta previa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Placenta Previa"
+    ]
   },
   {
     "id": "29",
@@ -519,7 +603,10 @@
     "rationale": {
       "text": "Fecundability = probability of pregnancy in one cycle. Fecundity = probability of live birth per cycle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "30",
@@ -537,7 +624,10 @@
     "rationale": {
       "text": "E. coli is the most common cause of UTI in pregnancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "UTI"
+    ]
   },
   {
     "id": "31",
@@ -555,7 +645,10 @@
     "rationale": {
       "text": "Semen analysis is the primary tool, evaluating count, volume, motility, morphology, pH, and WBC count.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "32",
@@ -573,7 +666,10 @@
     "rationale": {
       "text": "Clomiphene is a SERM that blocks estrogen receptors in the hypothalamus, increasing GnRH → FSH/LH. Letrozole is an aromatase inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "33",
@@ -591,7 +687,10 @@
     "rationale": {
       "text": "COCs reduce ovarian cancer risk. The other options are absolute contraindications.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "34",
@@ -609,7 +708,10 @@
     "rationale": {
       "text": "Breastfeeding → increased prolactin → decreased GnRH → suppressed ovulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "35",
@@ -627,7 +729,10 @@
     "rationale": {
       "text": "Unilateral salpingo-oophorectomy preserves fertility. Bilateral is for bilateral cancer; hysterectomy is for completed childbearing.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "36",
@@ -645,7 +750,10 @@
     "rationale": {
       "text": "80-90% of VIN lesions are HPV-positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vulvar"
+    ]
   },
   {
     "id": "37",
@@ -663,7 +771,10 @@
     "rationale": {
       "text": "VIN should be suspected in postmenopausal women with pruritic lesions unresponsive to treatment. Biopsy is warranted.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vulvar"
+    ]
   },
   {
     "id": "38",
@@ -681,7 +792,10 @@
     "rationale": {
       "text": "Modified radical vulvectomy is for vulvar carcinoma. VIN treatments: wide local excision, laser ablation, topical imiquimod.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vulvar"
+    ]
   },
   {
     "id": "39",
@@ -699,7 +813,10 @@
     "rationale": {
       "text": "Increased AFP suggests open neural tube defects (spina bifida, anencephaly) or dating errors. Down/Edwards have decreased AFP.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "40",
@@ -717,7 +834,10 @@
     "rationale": {
       "text": "This pattern is characteristic of trisomy 21 (Down syndrome). Trisomy 18 shows decreased hCG, estriol, AFP.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "41",
@@ -735,7 +855,10 @@
     "rationale": {
       "text": "Methotrexate is used for unruptured ectopic with stable vitals and absence of fetal heartbeat. Surgery for ruptured or unstable.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ectopic"
+    ]
   },
   {
     "id": "42",
@@ -753,7 +876,10 @@
     "rationale": {
       "text": "Fetal heartbeat is a contraindication. Other criteria: <5 cm, hCG < 5000, no fetal heartbeat, reliable follow-up.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ectopic"
+    ]
   },
   {
     "id": "43",
@@ -771,7 +897,10 @@
     "rationale": {
       "text": "Turner syndrome (45,XO) presents with these features. 47,XXY is Klinefelter (tall, gynecomastia).",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "44",
@@ -789,7 +918,10 @@
     "rationale": {
       "text": "GBS screening is recommended at 35-37 weeks using a rectovaginal culture.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "45",
@@ -807,7 +939,10 @@
     "rationale": {
       "text": "Nifedipine (calcium channel blocker) reduces myocardial contractility and should be used cautiously in LV dysfunction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "46",
@@ -825,7 +960,10 @@
     "rationale": {
       "text": "Preterm premature ROM = ROM before 37 weeks and before labor onset. Prolonged ROM = >18 hours before delivery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "47",
@@ -843,7 +981,10 @@
     "rationale": {
       "text": "Frank breech: flexed hips, extended knees, feet near head. Complete: flexed hips and knees. Footling: one or both feet below breech.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "48",
@@ -861,7 +1002,10 @@
     "rationale": {
       "text": "Inaccurate dating is the most common cause. Other causes include anencephaly, absent fetal pituitary, but are less common.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "49",
@@ -879,7 +1023,10 @@
     "rationale": {
       "text": "The cardinal movements: engagement, descent, flexion, internal rotation, extension, external rotation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "50",
@@ -897,7 +1044,10 @@
     "rationale": {
       "text": "Dermoid cysts (benign cystic mature teratoma) are the most common germ cell tumors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "51",
@@ -915,7 +1065,10 @@
     "rationale": {
       "text": "Postterm is associated with oligohydramnios (not polyhydramnios), macrosomia, meconium aspiration, and fetal demise.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "52",
@@ -933,7 +1086,10 @@
     "rationale": {
       "text": "All listed are features of Potter sequence from oligohydramnios (pulmonary hypoplasia, limb contractures, facial anomalies).",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "53",
@@ -951,7 +1107,10 @@
     "rationale": {
       "text": "Complete mole karyotype is 46,XX (paternal). 69,XXY is partial mole (maternal and paternal).",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "54",
@@ -969,7 +1128,10 @@
     "rationale": {
       "text": "Yolk sac tumors produce AFP. Dysgerminomas produce hCG and LDH.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "55",
@@ -987,7 +1149,10 @@
     "rationale": {
       "text": "Late menopause increases risk; early menopause decreases risk. Other risk factors: unopposed estrogen, nulliparity, obesity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometrial Cancer"
+    ]
   },
   {
     "id": "56",
@@ -1005,7 +1170,10 @@
     "rationale": {
       "text": "Hysterectomy is the only definitive treatment for adenomyosis. LNG-IUD is for symptom management.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometriosis"
+    ]
   },
   {
     "id": "57",
@@ -1023,7 +1191,10 @@
     "rationale": {
       "text": "Direct visualization with laparoscopy or laparotomy is the gold standard for diagnosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometriosis"
+    ]
   },
   {
     "id": "58",
@@ -1041,7 +1212,10 @@
     "rationale": {
       "text": "Stress incontinence: loss with increased intra-abdominal pressure. Urgency: loss with urge to void. Overflow: overfilling.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "59",
@@ -1059,7 +1233,10 @@
     "rationale": {
       "text": "Urgency incontinence is due to detrusor overactivity. Stress is outlet incompetence; overflow is underactivity/obstruction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "60",
@@ -1077,7 +1254,10 @@
     "rationale": {
       "text": "Sequence: accelerated growth → thelarche → pubarche → menarche.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "61",
@@ -1095,7 +1275,10 @@
     "rationale": {
       "text": "The corpus luteum secretes progesterone. Corpus albicans is the remnant after degeneration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "62",
@@ -1113,7 +1296,10 @@
     "rationale": {
       "text": "Androgen insensitivity (testicular feminization) – 46 XY, female phenotype, testes, blind vagina. Kallman: hypogonadotropic hypogonadism with anosmia. MRKH: congenital absence of uterus/vagina.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "63",
@@ -1131,7 +1317,10 @@
     "rationale": {
       "text": "Stage 2 is the breast bud stage. Stage 1: preadolescent. Stage 3: further enlargement. Stage 4: secondary mound. Stage 5: mature.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "64",
@@ -1149,7 +1338,10 @@
     "rationale": {
       "text": "Sheehan syndrome: pituitary infarction from postpartum hemorrhage → panhypopituitarism. Asherman: intrauterine adhesions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "65",
@@ -1167,7 +1359,10 @@
     "rationale": {
       "text": "Previous ectopic pregnancy is the strongest risk factor. Other factors: PID, prior tubal surgery, IUD use, IVF.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ectopic"
+    ]
   },
   {
     "id": "66",
@@ -1185,7 +1380,10 @@
     "rationale": {
       "text": "Inevitable abortion: bleeding + dilated cervix, no POC expelled. Complete: all POC expelled. Incomplete: partial expulsion. Threatened: bleeding, closed cervix.",
       "images": []
-    }
+    },
+    "tags": [
+      "Abortion"
+    ]
   },
   {
     "id": "67",
@@ -1203,7 +1401,10 @@
     "rationale": {
       "text": "Therapeutic: 4.8–8.4; loss of DTRs: 10; respiratory depression: 15; coma: 17; cardiac arrest: 20–25.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "68",
@@ -1221,7 +1422,10 @@
     "rationale": {
       "text": "CMV is the most common congenital infection and leading cause of congenital hearing loss.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "69",
@@ -1239,7 +1443,10 @@
     "rationale": {
       "text": "Early decelerations: head compression. Variable: cord compression. Late: uteroplacental insufficiency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "70",
@@ -1257,7 +1464,10 @@
     "rationale": {
       "text": "Late decelerations are most concerning and may progress to bradycardia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "71",
@@ -1275,7 +1485,10 @@
     "rationale": {
       "text": "Carpal tunnel syndrome from edema compressing the median nerve is common in pregnancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "72",
@@ -1293,7 +1506,10 @@
     "rationale": {
       "text": "Chadwick sign: bluish discoloration of vagina/cervix. Goodell: softening of cervix. Ladin: softening of uterus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "73",
@@ -1311,7 +1527,10 @@
     "rationale": {
       "text": "Obstructed labor and birth trauma are common causes in developing countries. In the US, pelvic radiation/surgery are more common.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "74",
@@ -1329,7 +1548,10 @@
     "rationale": {
       "text": "Preeclampsia is associated with SGA (not LGA) due to uteroplacental insufficiency, abruption, oligohydramnios, and stillbirth.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "75",
@@ -1347,7 +1569,10 @@
     "rationale": {
       "text": "Smoking reduces the risk of preeclampsia. Other risk factors: chronic hypertension, renal disease, APLS, nulliparity, age <20 or >35.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "76",
@@ -1365,7 +1590,10 @@
     "rationale": {
       "text": "IUD insertion is typically done at 6 weeks postpartum to reduce expulsion risk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "77",
@@ -1383,7 +1611,10 @@
     "rationale": {
       "text": "Uterine atony is the most common cause of PPH, presenting as a soft, boggy uterus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "78",
@@ -1401,7 +1632,10 @@
     "rationale": {
       "text": "Endometritis is common after cesarean with risk factors; diagnosed clinically and treated with broad-spectrum IV antibiotics.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "79",
@@ -1419,7 +1653,10 @@
     "rationale": {
       "text": "Zavanelli maneuver: replace the head into the pelvis and perform cesarean section. McRoberts, suprapubic pressure, and Rubin are initial maneuvers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "80",
@@ -1437,7 +1674,10 @@
     "rationale": {
       "text": "Rubin maneuver: pressure on either accessible shoulder toward the anterior chest wall to free the impacted shoulder.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "81",
@@ -1455,7 +1695,10 @@
     "rationale": {
       "text": "hPL acts as an insulin antagonist, promoting insulin resistance and diabetogenic effect.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diabetes"
+    ]
   },
   {
     "id": "82",
@@ -1473,7 +1716,10 @@
     "rationale": {
       "text": "Trichomoniasis presents with frothy, grayish discharge, itching, and punctate cervical hemorrhages ('strawberry cervix').",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "83",
@@ -1491,7 +1737,10 @@
     "rationale": {
       "text": "Accreta: attaches to myometrium (no invasion). Increta: partial invasion into myometrium. Percreta: through myometrium and serosa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Placenta Previa"
+    ]
   },
   {
     "id": "84",
@@ -1509,7 +1758,10 @@
     "rationale": {
       "text": "For face presentation, the reference point is the chin (mentum). For breech, it is the sacrum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "85",
@@ -1527,7 +1779,10 @@
     "rationale": {
       "text": "Fern test (or nitrazine test) confirms ROM by detecting amniotic fluid crystals.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "86",
@@ -1545,7 +1800,10 @@
     "rationale": {
       "text": "Suction D&C is the treatment of choice for complete mole. Chemotherapy is for malignant GTD.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "87",
@@ -1563,7 +1821,10 @@
     "rationale": {
       "text": "Granulosa-theca cell tumors produce estrogen and resemble fetal ovaries. Sertoli-Leydig produce testosterone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "88",
@@ -1581,7 +1842,10 @@
     "rationale": {
       "text": "Unilateral salpingo-oophorectomy is usual for low-grade, unilateral tumors. Hysterectomy if childbearing complete.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "89",
@@ -1599,7 +1863,10 @@
     "rationale": {
       "text": "Cardinal and uterosacral ligaments suspend the apex. Endopelvic fascia supports midvagina; perineal body supports distal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "90",
@@ -1617,7 +1884,10 @@
     "rationale": {
       "text": "Stage IV is complete eversion. Stage 0: no prolapse. Stage I: >1 cm above hymen. Stage II: ≤1 cm above/below. Stage III: >1 cm below.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "91",
@@ -1635,7 +1905,10 @@
     "rationale": {
       "text": "Vaginal pessaries are the mainstay of conservative management. Other options are also used but pessaries are primary.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "92",
@@ -1653,7 +1926,10 @@
     "rationale": {
       "text": "Lichen simplex chronicus results from chronic scratching, leading to lichenification and thickened skin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vulvar"
+    ]
   },
   {
     "id": "93",
@@ -1671,7 +1947,10 @@
     "rationale": {
       "text": "Lichen simplex chronicus is NOT associated with SCC. Lichen sclerosus is associated with increased SCC risk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vulvar"
+    ]
   },
   {
     "id": "94",
@@ -1689,7 +1968,10 @@
     "rationale": {
       "text": "Epidermal inclusion cyst is the most common vulvar tumor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vulvar"
+    ]
   },
   {
     "id": "95",
@@ -1707,7 +1989,10 @@
     "rationale": {
       "text": "Menopause is defined as 12 months of amenorrhea after the final menstrual period, in the absence of other causes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "96",
@@ -1725,7 +2010,10 @@
     "rationale": {
       "text": "The ampulla is the most common site for ectopic pregnancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ectopic"
+    ]
   },
   {
     "id": "97",
@@ -1743,7 +2031,10 @@
     "rationale": {
       "text": "Screening for GDM is recommended at 24-28 weeks of gestation.",
       "images": []
-    }
+    },
+    "tags": [
+      "GDM"
+    ]
   },
   {
     "id": "98",
@@ -1761,7 +2052,10 @@
     "rationale": {
       "text": "Enoxaparin (LMWH) is safe. Warfarin is contraindicated; thrombolytics are not recommended.",
       "images": []
-    }
+    },
+    "tags": [
+      "DVT"
+    ]
   },
   {
     "id": "99",
@@ -1779,7 +2073,10 @@
     "rationale": {
       "text": "Vaginal bleeding is the most common presentation of placental abruption.",
       "images": []
-    }
+    },
+    "tags": [
+      "Abruption"
+    ]
   },
   {
     "id": "100",
@@ -1797,7 +2094,10 @@
     "rationale": {
       "text": "Nagele rule: subtract 3 months from LMP, add 7 days. January 16 → October 16 + 7 = October 23, 2020.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "101",
@@ -1815,7 +2115,10 @@
     "rationale": {
       "text": "Clomiphene is a SERM that blocks estrogen receptors, increasing GnRH → FSH/LH. It does not inhibit aromatase (that's letrozole).",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "102",
@@ -1833,7 +2136,10 @@
     "rationale": {
       "text": "Meigs syndrome (ovarian fibroma, ascites, pleural effusion) resolves after tumor removal. No chemo/radiotherapy needed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "103",
@@ -1851,7 +2157,10 @@
     "rationale": {
       "text": "The triad of Meigs syndrome: pleural effusion (classically right-sided), ascites, and benign ovarian tumor (usually fibroma).",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "104",
@@ -1869,7 +2178,10 @@
     "rationale": {
       "text": "Metformin is used with Clomiphene in PCOS to improve ovulation by addressing insulin resistance.",
       "images": []
-    }
+    },
+    "tags": [
+      "PCOS"
+    ]
   },
   {
     "id": "105",
@@ -1887,7 +2199,10 @@
     "rationale": {
       "text": "Delayed puberty: no secondary sexual characteristics by 13, or no menses by 16.5 years.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "106",
@@ -1905,7 +2220,10 @@
     "rationale": {
       "text": "All three are differentials for first-trimester bleeding: non-viable pregnancy, molar, and ectopic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Abortion"
+    ]
   },
   {
     "id": "107",
@@ -1923,7 +2241,10 @@
     "rationale": {
       "text": "CDC regimens: Doxycycline + Cefoxitin, or Clindamycin + Gentamicin. Ceftriaxone + Doxycycline lacks Metronidazole.",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "108",
@@ -1941,7 +2262,10 @@
     "rationale": {
       "text": "KOH smear visualizes hyphae and budding yeast in vaginal candidiasis. Whiff test is for BV/Trichomonas.",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "109",
@@ -1959,7 +2283,10 @@
     "rationale": {
       "text": "Stage IIIB cervical cancer is treated with chemoradiation. Surgery is for early-stage disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cervical Cancer"
+    ]
   },
   {
     "id": "110",
@@ -1977,7 +2304,10 @@
     "rationale": {
       "text": "Cytology and pelvic ultrasound are used. CT is not routine for AUB evaluation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "111",
@@ -1995,7 +2325,10 @@
     "rationale": {
       "text": "The optimal time for fetal anomaly scan is 18-20 weeks (16-20 weeks).",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "112",
@@ -2013,7 +2346,10 @@
     "rationale": {
       "text": "Fetal fibronectin and cervical length are used to assess risk of preterm birth.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "113",
@@ -2031,7 +2367,10 @@
     "rationale": {
       "text": "Amsel's criteria: positive whiff test, clue cells, vaginal pH >4.5, homogeneous discharge. Intracellular diplococci = gonorrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "114",
@@ -2049,7 +2388,10 @@
     "rationale": {
       "text": "All three conditions cause elevated vaginal pH (>4.5): Trichomoniasis, BV, and atrophic vaginitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "115",
@@ -2067,7 +2409,10 @@
     "rationale": {
       "text": "Large for gestational age baby suggests gestational diabetes; postpartum OGTT is recommended.",
       "images": []
-    }
+    },
+    "tags": [
+      "GDM"
+    ]
   },
   {
     "id": "116",
@@ -2085,7 +2430,10 @@
     "rationale": {
       "text": "All three criteria can be used to diagnose diabetes mellitus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diabetes"
+    ]
   },
   {
     "id": "117",
@@ -2103,7 +2451,10 @@
     "rationale": {
       "text": "Category I requires all three: baseline 110-160, accelerations, and no decelerations.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "118",
@@ -2121,7 +2472,10 @@
     "rationale": {
       "text": "PTU is preferred in the first trimester for hyperthyroidism. Iodine is avoided.",
       "images": []
-    }
+    },
+    "tags": [
+      "Thyroid"
+    ]
   },
   {
     "id": "119",
@@ -2139,7 +2493,10 @@
     "rationale": {
       "text": "Management includes hot sitz baths, analgesia, and debridement of necrotic tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "120",
@@ -2157,7 +2514,10 @@
     "rationale": {
       "text": "Acute cholecystitis management includes IV fluids, bowel rest, and broad-spectrum antibiotics.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "121",
@@ -2175,7 +2535,10 @@
     "rationale": {
       "text": "Chloasma (mask of pregnancy) is darkening of skin on the face. Linea nigra is the abdominal line.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "122",
@@ -2193,7 +2556,10 @@
     "rationale": {
       "text": "BPS includes fetal movement, breathing, tone, amniotic fluid volume, and NST.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "123",
@@ -2211,7 +2577,10 @@
     "rationale": {
       "text": "Submucous myomas directly affect the endometrial cavity and cause increased menstrual flow.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometrial Cancer"
+    ]
   },
   {
     "id": "124",
@@ -2229,7 +2598,10 @@
     "rationale": {
       "text": "All statements are correct: sitz bath helps, douching is contraindicated, and follow-up at 6 weeks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "125",
@@ -2247,7 +2619,10 @@
     "rationale": {
       "text": "The pelvic outlet is bounded by the ischial tuberosities, coccyx, and pubic symphysis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "126",
@@ -2265,7 +2640,10 @@
     "rationale": {
       "text": "Serum LH peak detection is the most accurate method for predicting ovulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "127",
@@ -2283,7 +2661,10 @@
     "rationale": {
       "text": "Salpingostomy is incision into the tube to remove the ectopic pregnancy while preserving the tube.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ectopic"
+    ]
   },
   {
     "id": "128",
@@ -2301,7 +2682,10 @@
     "rationale": {
       "text": "Finasteride (for hair loss) inhibits DHT and can reduce sperm count and motility.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "129",
@@ -2319,7 +2703,10 @@
     "rationale": {
       "text": "Multigravidas feel quickening earlier, around 16 weeks (primigravidas at ~20 weeks).",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "130",
@@ -2337,7 +2724,10 @@
     "rationale": {
       "text": "Frank breech: hips flexed, knees extended. Complete breech: hips and knees flexed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "131",
@@ -2355,7 +2745,10 @@
     "rationale": {
       "text": "Acetowhite areas after acetic acid application indicate abnormal cervical epithelium for biopsy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cervical Cancer"
+    ]
   },
   {
     "id": "132",
@@ -2373,7 +2766,10 @@
     "rationale": {
       "text": "Incision type depends on peritonitis and uterine size. Gestational age is not a primary factor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "133",
@@ -2391,7 +2787,10 @@
     "rationale": {
       "text": "Cushing syndrome: elevated cortisol, central obesity, striae, hirsutism, and elevated ACTH.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cushing"
+    ]
   },
   {
     "id": "134",
@@ -2409,7 +2808,10 @@
     "rationale": {
       "text": "HELLP = Hemolysis, Elevated Liver enzymes, Low Platelets.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "135",
@@ -2427,7 +2829,10 @@
     "rationale": {
       "text": "McRoberts maneuver: hyperflexion of the mother's legs to widen the pelvis and relieve shoulder dystocia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "136",
@@ -2445,7 +2850,10 @@
     "rationale": {
       "text": "Doppler velocimetry (umbilical artery) is used to assess placental function in IUGR.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "137",
@@ -2463,7 +2871,10 @@
     "rationale": {
       "text": "HRT (estrogen/progesterone) is used for hypergonadotropic hypogonadism (primary ovarian failure).",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "138",
@@ -2481,7 +2892,10 @@
     "rationale": {
       "text": "Cyproterone and drospirenone have antiandrogenic properties. Levonorgestrel does not.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "139",
@@ -2499,7 +2913,10 @@
     "rationale": {
       "text": "PCOS is associated with increased risk of DM, endometrial cancer, and CAD, but not breast cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "PCOS"
+    ]
   },
   {
     "id": "140",
@@ -2517,7 +2934,10 @@
     "rationale": {
       "text": "Visual disturbances (hemianopia) in preeclampsia suggests severe features and requires immediate intervention.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "141",
@@ -2535,7 +2955,10 @@
     "rationale": {
       "text": "Late decelerations are managed with oxygenation, position change, and possibly scalp stimulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "142",
@@ -2553,7 +2976,10 @@
     "rationale": {
       "text": "Prophylactic MTX is used in high-risk moles, invasive mole risk, and rising hCG after plateau.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "143",
@@ -2571,7 +2997,10 @@
     "rationale": {
       "text": "Early screening is recommended for patients with prior GDM/LGA, often at first visit or 24-28 weeks.",
       "images": []
-    }
+    },
+    "tags": [
+      "GDM"
+    ]
   },
   {
     "id": "144",
@@ -2589,7 +3018,10 @@
     "rationale": {
       "text": "PMDD can be treated with SSRIs, combined OCPs (with drospirenone), and GnRH agonists.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "145",
@@ -2607,7 +3039,10 @@
     "rationale": {
       "text": "Atosiban is an oxytocin receptor antagonist used as a tocolytic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "146",
@@ -2625,7 +3060,10 @@
     "rationale": {
       "text": "hCG is detected 7-9 days after conception, and peaks at 8-10 weeks (not 10-12).",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "147",
@@ -2643,7 +3081,10 @@
     "rationale": {
       "text": "Absence of breast development by age 13 (or 16) warrants evaluation for delayed puberty.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "148",
@@ -2661,7 +3102,10 @@
     "rationale": {
       "text": "CAH is a peripheral cause of precocious puberty. Central causes involve the hypothalamus/pituitary.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "149",
@@ -2679,7 +3123,10 @@
     "rationale": {
       "text": "To suppress lactation: avoid nursing, nipple stimulation, and pumping milk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "150",
@@ -2697,7 +3144,10 @@
     "rationale": {
       "text": "Osteoporosis is the most significant health issue due to estrogen deficiency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Osteoporosis"
+    ]
   },
   {
     "id": "151",
@@ -2715,7 +3165,10 @@
     "rationale": {
       "text": "Low hCG (300) without an intrauterine sac is less specific; ectopic is more likely with higher hCG.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ectopic"
+    ]
   },
   {
     "id": "152",
@@ -2733,7 +3186,10 @@
     "rationale": {
       "text": "POPs eliminate estrogen side effects and have no special sequence, but timing is strict (3-hour window).",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "153",
@@ -2751,7 +3207,10 @@
     "rationale": {
       "text": "Desogestrel is a contraceptive; its use is contraindicated in pregnancy, breast cancer, and undiagnosed bleeding.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "154",
@@ -2769,7 +3228,10 @@
     "rationale": {
       "text": "Nonrecurring indication (breech) has the highest VBAC success rate (~90%).",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "155",
@@ -2787,7 +3249,10 @@
     "rationale": {
       "text": "Cyproterone is an anti-androgen used for acne and hirsutism.",
       "images": []
-    }
+    },
+    "tags": [
+      "PCOD"
+    ]
   },
   {
     "id": "156",
@@ -2805,7 +3270,10 @@
     "rationale": {
       "text": "COCs reduce the risk of ovarian cancer and ectopic pregnancy, but do not protect against STIs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "157",
@@ -2823,7 +3291,10 @@
     "rationale": {
       "text": "Placental abruption: sudden severe pain, vaginal bleeding, tetanic contractions, and fetal distress.",
       "images": []
-    }
+    },
+    "tags": [
+      "Abruption"
+    ]
   },
   {
     "id": "158",
@@ -2841,7 +3312,10 @@
     "rationale": {
       "text": "Sperm penetration assay is not part of routine semen analysis; it's a specialized test.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "159",
@@ -2859,7 +3333,10 @@
     "rationale": {
       "text": "GDM management includes diet, exercise, and insulin if needed.",
       "images": []
-    }
+    },
+    "tags": [
+      "GDM"
+    ]
   },
   {
     "id": "160",
@@ -2877,7 +3354,10 @@
     "rationale": {
       "text": "Letrozole is an aromatase inhibitor used in breast cancer and ovulation induction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infertility"
+    ]
   },
   {
     "id": "161",
@@ -2895,7 +3375,10 @@
     "rationale": {
       "text": "Thalidomide is notorious for causing phocomelia (limb defects).",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "162",
@@ -2913,7 +3396,10 @@
     "rationale": {
       "text": "Initial management of late decelerations: left lateral position, oxygen, and IV fluids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "163",
@@ -2931,7 +3417,10 @@
     "rationale": {
       "text": "GnRH agonists like Goserelin reduce fibroid size by inducing hypoestrogenism.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometrial Cancer"
+    ]
   },
   {
     "id": "164",
@@ -2949,7 +3438,10 @@
     "rationale": {
       "text": "Hyperemesis gravidarum is a maternal, not fetal, complication.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diabetes"
+    ]
   },
   {
     "id": "165",
@@ -2967,7 +3459,10 @@
     "rationale": {
       "text": "Estrogen is the dominant hormone during the follicular phase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "166",
@@ -2985,7 +3480,10 @@
     "rationale": {
       "text": "Pyelonephritis: bacteriuria, pyuria, and costovertebral angle tenderness.",
       "images": []
-    }
+    },
+    "tags": [
+      "UTI"
+    ]
   },
   {
     "id": "167",
@@ -3003,7 +3501,10 @@
     "rationale": {
       "text": "KOH preparation revealing hyphae indicates vaginal candidiasis (yeast infection).",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "168",
@@ -3021,7 +3522,10 @@
     "rationale": {
       "text": "Asherman's syndrome (intrauterine adhesions) typically causes hypomenorrhea or amenorrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometrial Cancer"
+    ]
   },
   {
     "id": "169",
@@ -3039,7 +3543,10 @@
     "rationale": {
       "text": "The Mullerian ducts give rise to the uterus, fallopian tubes, and upper vagina.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "170",
@@ -3057,7 +3564,10 @@
     "rationale": {
       "text": "All three are risk factors for uterine atony and postpartum hemorrhage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "171",
@@ -3075,7 +3585,10 @@
     "rationale": {
       "text": "Premature ovarian failure (primary ovarian insufficiency) causes hypogonadotropic hypogonadism.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "172",
@@ -3093,7 +3606,10 @@
     "rationale": {
       "text": "Granulosa cell tumors produce inhibin, which is used as a tumor marker.",
       "images": []
-    }
+    },
+    "tags": [
+      "Ovarian Cancer"
+    ]
   },
   {
     "id": "173",
@@ -3111,7 +3627,10 @@
     "rationale": {
       "text": "All three suggest malignancy: rapid growth, postmenopausal growth, and local invasion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endometrial Cancer"
+    ]
   },
   {
     "id": "174",
@@ -3129,7 +3648,10 @@
     "rationale": {
       "text": "The fourth Leopold maneuver (First Pelvic Grip) locates the fetal brow.",
       "images": []
-    }
+    },
+    "tags": [
+      "Labor"
+    ]
   },
   {
     "id": "175",
@@ -3147,7 +3669,10 @@
     "rationale": {
       "text": "Endometrial regeneration at the placental site takes about 6 weeks postpartum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "176",
@@ -3165,7 +3690,10 @@
     "rationale": {
       "text": "Multiple vaginal exams, CS, and PROM increase the risk of puerperal sepsis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Postpartum"
+    ]
   },
   {
     "id": "177",
@@ -3183,7 +3711,10 @@
     "rationale": {
       "text": "Fetal scalp pH sampling and scalp stimulation are used to assess fetal acidemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "178",
@@ -3201,7 +3732,10 @@
     "rationale": {
       "text": "HELLP: elevated LDH, elevated AST, and low platelets.",
       "images": []
-    }
+    },
+    "tags": [
+      "Preeclampsia"
+    ]
   },
   {
     "id": "179",
@@ -3219,7 +3753,10 @@
     "rationale": {
       "text": "Bilateral oophorectomy causes surgical menopause. The others do not affect ovarian function.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "180",
@@ -3237,7 +3774,10 @@
     "rationale": {
       "text": "COCs work by all three mechanisms: inhibiting ovulation, thickening cervical mucus, and altering endometrium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Contraception"
+    ]
   },
   {
     "id": "181",
@@ -3255,7 +3795,10 @@
     "rationale": {
       "text": "Acute pancreatitis: severe epigastric pain radiating to back, elevated amylase/lipase, Cullen's and Turner's signs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pregnancy"
+    ]
   },
   {
     "id": "182",
@@ -3273,7 +3816,10 @@
     "rationale": {
       "text": "Lifestyle modifications (diet and exercise) are first-line for GDM with mild abnormalities.",
       "images": []
-    }
+    },
+    "tags": [
+      "GDM"
+    ]
   },
   {
     "id": "183",
@@ -3291,7 +3837,10 @@
     "rationale": {
       "text": "Estrogen is the primary hormone during the proliferative phase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "184",
@@ -3309,7 +3858,10 @@
     "rationale": {
       "text": "AIS: 46 XY, female phenotype, absent uterus, and primary amenorrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "185",
@@ -3327,7 +3879,10 @@
     "rationale": {
       "text": "Absolute contraindications to estrogen: thromboembolism and smoking over 35. Uncontrolled HTN is a precaution.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "186",
@@ -3345,7 +3900,10 @@
     "rationale": {
       "text": "CAH (21-hydroxylase deficiency): elevated 17-OHP and DHEA-S, with hirsutism and oligomenorrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "PCOD"
+    ]
   },
   {
     "id": "187",
@@ -3363,7 +3921,10 @@
     "rationale": {
       "text": "POF triad: amenorrhea, hypoestrogenism, and hypergonadotropism (elevated FSH/LH).",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "188",
@@ -3381,7 +3942,10 @@
     "rationale": {
       "text": "Variable decelerations are caused by umbilical cord compression.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fetal"
+    ]
   },
   {
     "id": "189",
@@ -3399,7 +3963,10 @@
     "rationale": {
       "text": "Placenta percreta: invasion through the myometrium to the uterine serosa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Placenta Previa"
+    ]
   },
   {
     "id": "190",
@@ -3417,7 +3984,10 @@
     "rationale": {
       "text": "PID presents with pelvic pain, cervical motion tenderness, uterine/adnexal tenderness, and purulent discharge.",
       "images": []
-    }
+    },
+    "tags": [
+      "STI"
+    ]
   },
   {
     "id": "191",
@@ -3435,7 +4005,10 @@
     "rationale": {
       "text": "Calcitonin lowers serum calcium by inhibiting osteoclasts and promoting bone deposition.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   },
   {
     "id": "192",
@@ -3453,6 +4026,9 @@
     "rationale": {
       "text": "Mammary gland development requires both estrogen (ductal) and progesterone (lobular/alveolar) action.",
       "images": []
-    }
+    },
+    "tags": [
+      "Menopause"
+    ]
   }
 ]

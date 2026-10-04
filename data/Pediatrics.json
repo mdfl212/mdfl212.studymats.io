@@ -15,7 +15,10 @@
     "rationale": {
       "text": "S3 is a low-pitched sound best heard with the bell of the stethoscope at the apex in mid-diastole. Mitral and aortic regurgitation are high-pitched murmurs best heard with the diaphragm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "2",
@@ -33,7 +36,10 @@
     "rationale": {
       "text": "Craniotabes is a softening of the cranial bones, felt as a 'ping-pong ball' sensation, seen in vitamin D deficiency, osteogenesis imperfecta, and syphilis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nutrition"
+    ]
   },
   {
     "id": "3",
@@ -51,7 +57,10 @@
     "rationale": {
       "text": "Recurrent infections with catalase-positive organisms (Pseudomonas, E. coli, Candida, Staphylococcus) suggest Chronic Granulomatous Disease (CGD) due to defective NADPH oxidase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "4",
@@ -69,7 +78,10 @@
     "rationale": {
       "text": "Flow cytometry using dihydrorhodamine (DHR) is the current standard for diagnosing CGD. NBT test is older and rarely used.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "5",
@@ -87,7 +99,10 @@
     "rationale": {
       "text": "Hematopoietic stem cell transplantation (HSCT) is the only curative therapy for CGD. Prophylactic antibiotics help reduce infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "6",
@@ -105,7 +120,10 @@
     "rationale": {
       "text": "Primary aldosteronism causes hypertension, hypokalemia (not hyperkalemia), high aldosterone:renin ratio, and metabolic alkalosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "7",
@@ -123,7 +141,10 @@
     "rationale": {
       "text": "At 6 months, infants typically produce monosyllabic babble. Thumb-finger grasp and banging cubes appear around 8-9 months; following a command with gesture at 7 months.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "8",
@@ -141,7 +162,10 @@
     "rationale": {
       "text": "Parvovirus B19 infects erythroid progenitor cells, causing transient aplastic crisis in patients with hemolytic anemias like sickle cell disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "9",
@@ -159,7 +183,10 @@
     "rationale": {
       "text": "All options are manifestations of congenital varicella syndrome (also limb hypoplasia, chorioretinitis, hydronephrosis, etc.).",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "10",
@@ -177,7 +204,10 @@
     "rationale": {
       "text": "Aortic regurgitation produces an early diastolic blowing murmur. MR, VSD, and TR are holosystolic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "11",
@@ -195,7 +225,10 @@
     "rationale": {
       "text": "Duchenne muscular dystrophy is an X-linked recessive disorder presenting before age 5 with Gowers' sign and waddling gait.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "12",
@@ -213,7 +246,10 @@
     "rationale": {
       "text": "Kartagener syndrome (primary ciliary dyskinesia) is associated with dextrocardia, situs inversus, and chronic sinusitis/bronchiectasis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "13",
@@ -231,7 +267,10 @@
     "rationale": {
       "text": "Pulmonary hypertension causes a narrowly split and loud S2. RBBB gives wide splitting, ASD fixed splitting, LBBB paradoxical splitting.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "14",
@@ -249,7 +288,10 @@
     "rationale": {
       "text": "In IV drug users, Staphylococcus aureus is the most common cause, along with Pseudomonas aeruginosa and Serratia marcescens.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "15",
@@ -267,7 +309,10 @@
     "rationale": {
       "text": "Central venous lines are the major risk factor for infective endocarditis in neonates due to catheter-related bacteremia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "16",
@@ -285,7 +330,10 @@
     "rationale": {
       "text": "Right ventricular hypertrophy causes the cardiac apex to be uptilted, giving the characteristic boot-shaped silhouette.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "17",
@@ -303,7 +351,10 @@
     "rationale": {
       "text": "APGAR: HR 2, Resp 2, Tone 1, Reflex 2, Color 1 = 8. Color is 1 (pink body, blue extremities).",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "18",
@@ -321,7 +372,10 @@
     "rationale": {
       "text": "Apgar score is NOT used to determine the need for resuscitation or guide resuscitation steps; it assesses the infant's condition and response.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "19",
@@ -339,7 +393,10 @@
     "rationale": {
       "text": "Respiratory distress syndrome (RDS) is common in premature infants, especially with maternal diabetes and cesarean delivery, due to surfactant deficiency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "20",
@@ -357,7 +414,10 @@
     "rationale": {
       "text": "RDS shows fine reticular granularity (ground-glass) with air bronchograms and low lung volumes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "21",
@@ -375,7 +435,10 @@
     "rationale": {
       "text": "Antenatal corticosteroids given before 37 weeks reduce the incidence of RDS and neonatal mortality.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "22",
@@ -393,7 +456,10 @@
     "rationale": {
       "text": "Rabies vaccine is inactivated. Live attenuated vaccines include MMR, varicella, rotavirus, BCG, oral polio, and yellow fever.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vaccines"
+    ]
   },
   {
     "id": "23",
@@ -411,7 +477,10 @@
     "rationale": {
       "text": "Meningococcal polysaccharide vaccine is given SC. The other options are administered IM.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vaccines"
+    ]
   },
   {
     "id": "24",
@@ -429,7 +498,10 @@
     "rationale": {
       "text": "G6PD deficiency causes normocytic anemia. Microcytic anemias include iron deficiency, thalassemia, lead poisoning, and sideroblastic anemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "25",
@@ -447,7 +519,10 @@
     "rationale": {
       "text": "This pattern indicates acute hepatitis B infection (high infectivity).",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "26",
@@ -465,7 +540,10 @@
     "rationale": {
       "text": "Measles (rubeola) presents with cough, coryza, conjunctivitis, Koplik spots, and a maculopapular rash starting on the face.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "27",
@@ -483,7 +561,10 @@
     "rationale": {
       "text": "Pneumonia (giant cell or secondary bacterial) is the most common cause of measles-related death.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "28",
@@ -501,7 +582,10 @@
     "rationale": {
       "text": "Down syndrome is associated with duodenal atresia, Hirschsprung, AVSD, leukemia, and early Alzheimer's, but NOT pyloric stenosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "29",
@@ -519,7 +603,10 @@
     "rationale": {
       "text": "Endocarditis (valvulitis) is a universal finding in rheumatic carditis; myocarditis and pericarditis are variable.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "30",
@@ -537,7 +624,10 @@
     "rationale": {
       "text": "For rheumatic fever with carditis but no residual heart disease, prophylaxis is recommended for 10 years or until age 21, whichever is longer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "31",
@@ -555,7 +645,10 @@
     "rationale": {
       "text": "Zinc is used in acrodermatitis enteropathica, reduces severity of pneumonia, and shortens cholera diarrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nutrition"
+    ]
   },
   {
     "id": "32",
@@ -573,7 +666,10 @@
     "rationale": {
       "text": "Vitamin A therapy reduces morbidity and mortality in measles; recommended for all patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "33",
@@ -591,7 +687,10 @@
     "rationale": {
       "text": "Retinoblastoma is the most common intraocular malignancy in children, typically presenting with leukocoria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "34",
@@ -609,7 +708,10 @@
     "rationale": {
       "text": "Thyroid dysgenesis (abnormal formation) is the most common cause of congenital hypothyroidism.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "35",
@@ -627,7 +729,10 @@
     "rationale": {
       "text": "Congenital hypothyroidism causes prolonged indirect (not direct) hyperbilirubinemia due to delayed conjugation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "36",
@@ -645,7 +750,10 @@
     "rationale": {
       "text": "These are features of acrodermatitis enteropathica (severe zinc deficiency).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nutrition"
+    ]
   },
   {
     "id": "37",
@@ -663,7 +771,10 @@
     "rationale": {
       "text": "Malnourished children are prone to hypothermia (not hyperthermia) due to reduced heat production.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nutrition"
+    ]
   },
   {
     "id": "38",
@@ -681,7 +792,10 @@
     "rationale": {
       "text": "Obesity: BMI ≥95th percentile. Overweight: 85th to <95th percentile.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nutrition"
+    ]
   },
   {
     "id": "39",
@@ -699,7 +813,10 @@
     "rationale": {
       "text": "Patients with only hives after egg exposure can receive flu vaccine with appropriate precautions; it is not a contraindication.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vaccines"
+    ]
   },
   {
     "id": "40",
@@ -717,7 +834,10 @@
     "rationale": {
       "text": "Intussusception is most commonly ileocolic, where the ileum invaginates into the colon.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "41",
@@ -735,7 +855,10 @@
     "rationale": {
       "text": "All statements are true. Meckel diverticulum is the most common GI congenital anomaly and is diagnosed with Tc-99m pertechnetate scan.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "42",
@@ -753,7 +876,10 @@
     "rationale": {
       "text": "A previous rotavirus vaccine (RotaShield) was associated with intussusception; current vaccines have lower risk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vaccines"
+    ]
   },
   {
     "id": "43",
@@ -771,7 +897,10 @@
     "rationale": {
       "text": "ALL can spread to the testes and CNS; testicular involvement is a common site of extramedullary relapse.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "44",
@@ -789,7 +918,10 @@
     "rationale": {
       "text": "All options are true. Wilms tumor is associated with WT1/WT2 mutations, WAGR complex, and presents as a flank mass. No option is false.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "45",
@@ -807,7 +939,10 @@
     "rationale": {
       "text": "Laxative abuse causes osmotic diarrhea. Amebiasis is mucosal invasion, pseudoobstruction is motility, cholera is secretory.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "46",
@@ -825,7 +960,10 @@
     "rationale": {
       "text": "Rectal suction biopsy showing absence of ganglion cells is the gold standard.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "47",
@@ -843,7 +981,10 @@
     "rationale": {
       "text": "Rotavirus is the most common cause of acute gastroenteritis in children globally.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "48",
@@ -861,7 +1002,10 @@
     "rationale": {
       "text": "Rotavirus typically presents with vomiting followed by watery diarrhea and fever; stools are non-bloody.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "49",
@@ -879,7 +1023,10 @@
     "rationale": {
       "text": "Biliary atresia shows bile plugs and bile duct proliferation; neonatal hepatitis shows diffuse hepatocellular disease and inflammation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "50",
@@ -897,7 +1044,10 @@
     "rationale": {
       "text": "In APSGN, C3 is significantly reduced (not normal). C3 differentiates it from IgA nephropathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "51",
@@ -915,7 +1065,10 @@
     "rationale": {
       "text": "Alport syndrome (X-linked) presents with hematuria, progressive hearing loss, and ocular abnormalities (anterior lenticonus).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "52",
@@ -933,7 +1086,10 @@
     "rationale": {
       "text": "Membranous nephropathy is associated with renal vein thrombosis due to hypercoagulability from proteinuria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "53",
@@ -951,7 +1107,10 @@
     "rationale": {
       "text": "Malaria is the most common infectious cause of nephrotic syndrome globally (especially in endemic areas).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "54",
@@ -969,7 +1128,10 @@
     "rationale": {
       "text": "HSP tetrad includes palpable purpura (not non-palpable), arthritis, abdominal pain, and renal involvement.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "55",
@@ -987,7 +1149,10 @@
     "rationale": {
       "text": "Both IgA nephropathy and HSP nephritis show IgA deposition in the mesangium and share pathogenesis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "56",
@@ -1005,7 +1170,10 @@
     "rationale": {
       "text": "Approximately 50% of HSP cases are preceded by an upper respiratory tract infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "57",
@@ -1023,7 +1191,10 @@
     "rationale": {
       "text": "STEC is commonly transmitted by undercooked ground beef, unpasteurized milk, and apple cider.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "58",
@@ -1041,7 +1212,10 @@
     "rationale": {
       "text": "All options are clinical manifestations of nephrotic syndrome (proteinuria, hyperlipidemia, hypercoagulability).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "59",
@@ -1059,7 +1233,10 @@
     "rationale": {
       "text": "Corticosteroids (prednisone) are the mainstay of therapy for minimal change nephrotic syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "60",
@@ -1077,7 +1254,10 @@
     "rationale": {
       "text": "Dehydration (not overhydration) is a cause of transient proteinuria, along with fever, exercise, and cold exposure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "61",
@@ -1095,7 +1275,10 @@
     "rationale": {
       "text": "Staphylococcus aureus and viridans group streptococci are the leading causes of infective endocarditis in children.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "62",
@@ -1113,7 +1296,10 @@
     "rationale": {
       "text": "The degree of right ventricular outflow obstruction determines the severity of cyanosis and symptom onset in Tetralogy of Fallot.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "63",
@@ -1131,7 +1317,10 @@
     "rationale": {
       "text": "Without effective treatment, ALL is fatal; thus, effective treatment is the most important prognostic factor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "64",
@@ -1149,7 +1338,10 @@
     "rationale": {
       "text": "Trisomy 10 is a favorable feature; poor prognostic factors include hypodiploidy, Philadelphia chromosome, and MLL rearrangements.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "65",
@@ -1167,7 +1359,10 @@
     "rationale": {
       "text": "Antibiotics may increase Shiga toxin release and worsen HUS; they are generally avoided.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "66",
@@ -1185,7 +1380,10 @@
     "rationale": {
       "text": "HUS is characterized by microangiopathic hemolytic anemia, thrombocytopenia (not thrombocytosis), and acute kidney injury.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "67",
@@ -1203,7 +1401,10 @@
     "rationale": {
       "text": "Intermittent dry cough and expiratory wheezing are the most common chronic symptoms of asthma.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "68",
@@ -1221,7 +1422,10 @@
     "rationale": {
       "text": "Stepping down therapy should be considered after achieving good asthma control for at least 3 months.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "69",
@@ -1239,7 +1443,10 @@
     "rationale": {
       "text": "Low-dose inhaled corticosteroids are the preferred therapy for persistent asthma (Step 2).",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "70",
@@ -1257,7 +1464,10 @@
     "rationale": {
       "text": "After hospitalization, patients are typically discharged with a 3-7 day course of oral corticosteroids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "71",
@@ -1275,7 +1485,10 @@
     "rationale": {
       "text": "Hemarthrosis (bleeding into joints) is the hallmark of hemophilia, differentiating it from platelet disorders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "72",
@@ -1293,7 +1506,10 @@
     "rationale": {
       "text": "Severe hemophilia: <1% factor activity; moderate: 1-5%; mild: >5%.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "73",
@@ -1311,7 +1527,10 @@
     "rationale": {
       "text": "Von Willebrand disease is the most common inherited bleeding disorder, affecting up to 1% of the population.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "74",
@@ -1329,7 +1548,10 @@
     "rationale": {
       "text": "Desmopressin (DDAVP) releases vWF from endothelial stores and is used in mild von Willebrand disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "75",
@@ -1347,7 +1569,10 @@
     "rationale": {
       "text": "LP is indicated in infants <6 months, ill-appearing children, or those with meningeal signs; a 3-year-old with cough and fever is not an indication.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "76",
@@ -1365,7 +1590,10 @@
     "rationale": {
       "text": "Risk factors for recurrence: male gender, daycare, family history, lower age at onset, and lower fever at presentation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "77",
@@ -1383,7 +1611,10 @@
     "rationale": {
       "text": "All statements are true: intussusception is more common in males, associated with erythromycin, and nonbilious vomiting is an early sign.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "78",
@@ -1401,7 +1632,10 @@
     "rationale": {
       "text": "Loss of H+ and Cl- from gastric vomiting causes hypochloremic metabolic alkalosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "79",
@@ -1419,7 +1653,10 @@
     "rationale": {
       "text": "Intranasal corticosteroids are the most effective for allergic rhinitis and also improve conjunctivitis symptoms.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "80",
@@ -1437,7 +1674,10 @@
     "rationale": {
       "text": "Intense pruritus is the cardinal feature of atopic dermatitis, often worse at night.",
       "images": []
-    }
+    },
+    "tags": [
+      "Dermatology"
+    ]
   },
   {
     "id": "81",
@@ -1455,7 +1695,10 @@
     "rationale": {
       "text": "Moisturizers (emollients) are the first-line therapy; topical corticosteroids are for acute flares.",
       "images": []
-    }
+    },
+    "tags": [
+      "Dermatology"
+    ]
   },
   {
     "id": "82",
@@ -1473,7 +1716,10 @@
     "rationale": {
       "text": "Ethambutol can cause optic neuritis; visual acuity and color discrimination must be monitored.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "83",
@@ -1491,7 +1737,10 @@
     "rationale": {
       "text": "Scrofula (tuberculous lymphadenitis, usually cervical) is the most common extrapulmonary TB in children.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "84",
@@ -1509,7 +1758,10 @@
     "rationale": {
       "text": "Tuberculous meningitis typically causes communicating hydrocephalus (not noncommunicating).",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "85",
@@ -1527,7 +1779,10 @@
     "rationale": {
       "text": "Acute epiglottitis (usually Hib) presents with cherry-red swollen epiglottis and is a medical emergency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "86",
@@ -1545,7 +1800,10 @@
     "rationale": {
       "text": "PSGN is a type III hypersensitivity reaction with immune complex deposition.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "87",
@@ -1563,7 +1821,10 @@
     "rationale": {
       "text": "The paroxysmal stage is characterized by coughing paroxysms followed by a whoop on inspiration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "88",
@@ -1581,7 +1842,10 @@
     "rationale": {
       "text": "Kawasaki disease requires unilateral cervical lymphadenopathy (not generalized) >1.5 cm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "89",
@@ -1599,7 +1863,10 @@
     "rationale": {
       "text": "Kawasaki treatment includes IVIG, aspirin, and sometimes corticosteroids; antibiotics are not used.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "90",
@@ -1617,7 +1884,10 @@
     "rationale": {
       "text": "Coronary artery aneurysms (especially giant) are the major complication, leading to myocardial infarction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "91",
@@ -1635,7 +1905,10 @@
     "rationale": {
       "text": "Waterhouse-Friderichsen syndrome is adrenal hemorrhage due to fulminant meningococcal sepsis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "92",
@@ -1653,7 +1926,10 @@
     "rationale": {
       "text": "Chiari II malformation includes downward displacement of the cerebellar tonsils and medulla, associated with myelomeningocele and hydrocephalus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "93",
@@ -1671,7 +1947,10 @@
     "rationale": {
       "text": "In immunosuppressed children (including HIV), ≥5 mm is considered positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "94",
@@ -1689,7 +1968,10 @@
     "rationale": {
       "text": "Microscopic hematuria may persist for 1-2 years after the acute episode, though proteinuria resolves within weeks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "95",
@@ -1707,7 +1989,10 @@
     "rationale": {
       "text": "All are classic clinical criteria for Kawasaki disease (fever + 4 of 5 criteria).",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "96",
@@ -1725,7 +2010,10 @@
     "rationale": {
       "text": "Endocarditis in rheumatic carditis refers to valvulitis, which is universal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "97",
@@ -1743,7 +2031,10 @@
     "rationale": {
       "text": "MMR is a live attenuated vaccine. Hepatitis A and IPV are inactivated; rabies is inactivated.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vaccines"
+    ]
   },
   {
     "id": "98",
@@ -1761,7 +2052,10 @@
     "rationale": {
       "text": "AVSD (endocardial cushion defect) is the most common congenital heart defect in Down syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "99",
@@ -1779,7 +2073,10 @@
     "rationale": {
       "text": "All are risk factors for early-onset neonatal sepsis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "100",
@@ -1797,7 +2094,10 @@
     "rationale": {
       "text": "Beta-lactamase-producing Moraxella catarrhalis is a common cause of amoxicillin failure in AOM.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "101",
@@ -1815,7 +2115,10 @@
     "rationale": {
       "text": "Eye gazing, head turning, and sucking are indicative of an infant's developing sensory and motor skills. Eye gazing demonstrates visual engagement and recognition, head turning signifies responsiveness to auditory stimuli, and sucking is a reflexive response linked to feeding and comfort.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "102",
@@ -1833,7 +2136,10 @@
     "rationale": {
       "text": "11-13 hours is the recommended sleep duration for toddlers and preschoolers during early childhood to support their physical and cognitive development.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "103",
@@ -1851,7 +2157,10 @@
     "rationale": {
       "text": "By 9 months, infants commonly exhibit the described milestones. They engage in social games like peek-a-boo, imitate sounds and movements, stand with support, crawl, and can pull themselves to a standing position.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "104",
@@ -1869,7 +2178,10 @@
     "rationale": {
       "text": "Directly engaging with the child through eye contact and conversation can help build rapport and establish a connection. However, for some infants, direct eye contact may be perceived as intimidating, leading to resistance during the examination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "105",
@@ -1887,7 +2199,10 @@
     "rationale": {
       "text": "Digital clubbing is most commonly linked to chronic hypoxia and chronic lung diseases such as COPD, interstitial lung disease, and cystic fibrosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "106",
@@ -1905,7 +2220,10 @@
     "rationale": {
       "text": "The receptors for chronic cough are primarily located in the upper respiratory tract. Conditions affecting the upper airway, like postnasal drip, sinusitis, or irritants in the throat, can trigger chronic cough reflexes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "107",
@@ -1923,7 +2241,10 @@
     "rationale": {
       "text": "The fusion of the paired dorsal aortae contributes to the formation of the descending aorta.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "108",
@@ -1941,7 +2262,10 @@
     "rationale": {
       "text": "Prostaglandins help maintain the patency of the ductus arteriosus in conditions like transposition of the great arteries, where it serves as a vital shunt allowing mixing of oxygenated and deoxygenated blood until surgical correction can be performed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "109",
@@ -1959,7 +2283,10 @@
     "rationale": {
       "text": "Cyanosis at rest can be challenging to detect in children due to variations in skin color. It may be more apparent in individuals with darker skin tones, and healthcare professionals need to be vigilant in assessing for subtle signs of cyanosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "110",
@@ -1977,7 +2304,10 @@
     "rationale": {
       "text": "Heart murmurs are abnormal sounds heard during the cardiac cycle, and they result from turbulent blood flow. Turbulence can occur due to structural abnormalities (e.g., valve defects) or functional issues (e.g., high blood flow).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "111",
@@ -1995,7 +2325,10 @@
     "rationale": {
       "text": "Congenital rubella may also present with VSD. However, the most common congenital heart defect associated is PDA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "112",
@@ -2013,7 +2346,10 @@
     "rationale": {
       "text": "Eisenmenger syndrome occurs when a large, unrepaired ventricular septal defect (VSD) or other congenital heart defect allows blood to shunt from the left side of the heart to the right side, leading to increased pulmonary blood flow. Over time, this increased blood flow causes pulmonary vascular disease, and the shunt can reverse, causing deoxygenated blood to be pumped into the systemic circulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "113",
@@ -2031,7 +2367,10 @@
     "rationale": {
       "text": "The boot-shaped heart sign is a conventional radiographic finding in patients with TOF. The toe of the boot is formed by the upward pointing cardiac apex, which makes an acute angle with the diaphragm. The upturned cardiac apex is ascribed to right ventricular hypertrophy and occurs in 65% of patients with TOF.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "114",
@@ -2049,7 +2388,10 @@
     "rationale": {
       "text": "Type II: Cardiac. This is the second most common type, accounting for approximately 30% of cases. In Type II, the pulmonary venous connection occurs at the cardiac level. The drainage is into the coronary sinus, and then into the right atrium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "115",
@@ -2067,7 +2409,10 @@
     "rationale": {
       "text": "Ventricular septal defect is one of the most common congenital heart lesions. It involves an abnormal opening in the septum (wall) between the heart's ventricles, allowing blood to flow from the left ventricle to the right ventricle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "116",
@@ -2085,7 +2430,10 @@
     "rationale": {
       "text": "Left ventricular hypertrophy is not traditionally considered one of the four main defects in Tetralogy of Fallot. The main components are pulmonary stenosis, VSD, overriding aorta, and right ventricular hypertrophy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "117",
@@ -2103,7 +2451,10 @@
     "rationale": {
       "text": "CSF flows from the lateral ventricles through the foramina of Monro to the third ventricle, then through the aqueduct of Sylvius to reach the fourth ventricle. From there, it can exit through the foramina of Magendie and Luschka.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "118",
@@ -2121,7 +2472,10 @@
     "rationale": {
       "text": "By the age of 1, children are often developing the ability to throw objects, although the accuracy and coordination may vary. They are exploring their motor skills and may enjoy activities that involve throwing and dropping objects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "119",
@@ -2139,7 +2493,10 @@
     "rationale": {
       "text": "Febrile seizures are the most likely diagnosis in this case. Febrile seizures are seizures that occur in association with a fever, often due to a common childhood illness like a respiratory tract infection. They are common in children aged 6 months to 5 years and are usually brief, lasting less than 15 minutes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "120",
@@ -2157,7 +2514,10 @@
     "rationale": {
       "text": "The presence of television or other external stimuli can influence neonatal alertness. However, it is essential to provide a suitable and safe environment for the neonate. Excessive exposure to stimulating factors, such as television, may disrupt sleep patterns and contribute to overstimulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "121",
@@ -2175,7 +2535,10 @@
     "rationale": {
       "text": "Neurofibromatosis type I (NF1), also known as von Recklinghausen disease, is the most likely diagnosis based on the described features. Café au lait spots, axillary freckling (Crowe sign), and 'ballotable' nodules (neurofibromas) are characteristic features of NF1.",
       "images": []
-    }
+    },
+    "tags": [
+      "Genetics"
+    ]
   },
   {
     "id": "122",
@@ -2193,7 +2556,10 @@
     "rationale": {
       "text": "Skull flattening, especially in infants, can occur due to external factors such as positioning during sleep (plagiocephaly) or pressure on the back of the head. While persistent skull flattening may warrant evaluation and intervention, not all cases require extensive investigation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "123",
@@ -2211,7 +2577,10 @@
     "rationale": {
       "text": "The Babinski reflex is elicited by stroking the lateral surface of the sole of the foot. In infants up to around 1 year of age, a normal response involves dorsiflexion (curling up) of the big toe and fanning out of the other toes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "124",
@@ -2229,7 +2598,10 @@
     "rationale": {
       "text": "Nasal or oropharyngeal bleeding is not expected to give a positive guaiac test in stools. The guaiac test (or fecal occult blood test) detects the presence of blood in the gastrointestinal (GI) tract, and bleeding from the nose or mouth does not typically contribute to positive results.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "125",
@@ -2247,7 +2619,10 @@
     "rationale": {
       "text": "The hypothalamus plays a crucial role in the regulation of hunger and satiety. It contains specific nuclei, such as the arcuate nucleus and the ventromedial nucleus, that are involved in appetite control.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "126",
@@ -2265,7 +2640,10 @@
     "rationale": {
       "text": "Infants can swallow air while feeding, and if this air is not expelled, it can lead to abdominal distention and discomfort. Burping helps release the trapped air and prevents excessive gas in the digestive system.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "127",
@@ -2283,7 +2661,10 @@
     "rationale": {
       "text": "Obesity is considered one of the most important risk factors for type 2 diabetes mellitus. Excess adipose tissue, particularly around the abdomen, is associated with insulin resistance and an increased risk of developing diabetes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "128",
@@ -2301,7 +2682,10 @@
     "rationale": {
       "text": "The most common cause of diabetes insipidus is vasopressin deficiency or the impaired response of the kidneys to vasopressin. Vasopressin, also known as antidiuretic hormone (ADH), regulates water reabsorption in the kidneys.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "129",
@@ -2319,7 +2703,10 @@
     "rationale": {
       "text": "One distinguishing feature of the thyroid unresponsive variant is the failure of thyroid-stimulating hormone (TSH) levels to suppress in response to elevated thyroid hormone levels. In classic hyperthyroidism, TSH levels are usually suppressed due to the negative feedback loop.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "130",
@@ -2337,7 +2724,10 @@
     "rationale": {
       "text": "Normalizing ACTH levels is unnecessary and can require excessive doses of hydrocortisone; generally morning ACTH levels high in the normal range to 3-4 times normal are satisfactory.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "131",
@@ -2355,7 +2745,10 @@
     "rationale": {
       "text": "The presence of thyrotropin receptor-stimulating antibodies (TRSABs) is a hallmark of Graves' disease. These antibodies stimulate the thyroid gland to produce excess thyroid hormones, leading to hyperthyroidism.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "132",
@@ -2373,7 +2766,10 @@
     "rationale": {
       "text": "Serum ferritin levels are often increased in Anemia of Chronic Disease. Ferritin is an acute-phase reactant, and its levels rise in response to inflammation. Despite the increased ferritin levels, iron is often sequestered within cells, leading to functional iron deficiency and impaired erythropoiesis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "133",
@@ -2391,7 +2787,10 @@
     "rationale": {
       "text": "Retinoblastoma is a malignant tumor of the retina that primarily affects young children. The most common sign is leukocoria, where the pupil appears white instead of the normal red reflex. Retinoblastoma is a serious condition that requires prompt evaluation and intervention.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "134",
@@ -2409,7 +2808,10 @@
     "rationale": {
       "text": "Acute Myelogenous Leukemia accounts for 11% of the cases of childhood leukemia. In the United States, it is diagnosed in approximately 370 children annually. The relative frequency of AML increases in adolescence, representing 36% of cases of leukemia in 15-19 years olds.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "135",
@@ -2427,7 +2829,10 @@
     "rationale": {
       "text": "Thymoma is a neoplasm originating from the thymic epithelial cells located in the anterior mediastinum. It can present with symptoms related to compression of nearby structures, including the SVC. Symptoms may include cough, shortness of breath, and SVC syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "136",
@@ -2445,7 +2850,10 @@
     "rationale": {
       "text": "Multiple lymphadenopathy is typically associated with conditions affecting the lymphatic system, such as lymphomas, rather than direct bone marrow compromise. Lymphomas often involve lymph nodes and may lead to generalized lymphadenopathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "137",
@@ -2463,7 +2871,10 @@
     "rationale": {
       "text": "Osteosarcoma is the MOST common primary malignant bone tumor in children and adolescents beyond 10 years of age. It typically arises in the metaphysis of long bones, such as the distal femur, proximal tibia, and proximal humerus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "138",
@@ -2481,7 +2892,10 @@
     "rationale": {
       "text": "On average, babies cry 2 hours per day, peaking at 6 weeks of age. Premature infants will have peak crying age at 6 weeks corrected age.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "139",
@@ -2499,7 +2913,10 @@
     "rationale": {
       "text": "While the child's nutrition is crucial for overall well-being, persistent crying and fussiness may not be directly related to nutritional issues after the first few months of life. In cases of prolonged crying, it's essential to consider other factors, such as developmental stages, sleep patterns, or potential medical concerns.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "140",
@@ -2517,7 +2934,10 @@
     "rationale": {
       "text": "A meta-analysis indicated that colic may be a form of migraine headache rather than, as has been proposed, a GI condition. The analysis utilized 3 studies, one of which indicated that there is a greater likelihood of colic in infants whose mothers have migraine headaches and the other two of which indicated that infants with colic are more likely to experience migraine in childhood and adolescence.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "141",
@@ -2535,7 +2955,10 @@
     "rationale": {
       "text": "Mandibular central incisors specifically refer to the lower central incisors. These are the first two teeth to erupt in the lower jaw during the teething process in infants, usually at 5-7 months of age.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "142",
@@ -2553,7 +2976,10 @@
     "rationale": {
       "text": "Object permanence is the correct definition. At around 9 months of age, infants develop the cognitive ability to understand that objects and people continue to exist even when they are not currently being perceived. This milestone is often demonstrated through games like peek-a-boo.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "143",
@@ -2571,7 +2997,10 @@
     "rationale": {
       "text": "Stranger anxiety is manifested by crying when an unfamiliar person approaches. It is normal when it starts at about 8 to 9 months and usually abates by age 2 years. Stranger anxiety is linked with the infant's developmental task of distinguishing the familiar from the unfamiliar.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth"
+    ]
   },
   {
     "id": "144",
@@ -2589,7 +3018,10 @@
     "rationale": {
       "text": "Poxviruses, specifically Molluscum contagiosum, are known to cause dome-shaped, umbilicated lesions. Molluscum contagiosum is a viral skin infection that results in small, flesh-colored to pearly, dome-shaped bumps. The lesions may have a central dimple or umbilication.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "145",
@@ -2607,7 +3039,10 @@
     "rationale": {
       "text": "Molluscum contagiosum is highly contagious and is mainly transmitted through direct skin contact. The virus can be spread by touching the lesions on an infected person and then touching another part of the body or another person.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "146",
@@ -2625,7 +3060,10 @@
     "rationale": {
       "text": "Molluscum contagiosum is a viral skin infection caused by the poxvirus. It typically presents with dome-shaped, pearly nodules on the skin. The lesions often have a central dimple and can be multiple.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "147",
@@ -2643,7 +3081,10 @@
     "rationale": {
       "text": "Tinea pedis, or athlete's foot, is a fungal infection that commonly affects the skin between the toes. It can cause maceration, itching, and scaly plaques. The warm and moist environment created by sweaty feet and closed shoes is conducive to fungal growth.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "148",
@@ -2661,7 +3102,10 @@
     "rationale": {
       "text": "A 10% KOH mount is used to examine skin scrapings for fungal elements. In the case of tinea pedis (athlete's foot), microscopic examination of skin scrapings treated with KOH may reveal fungal hyphae, aiding in the diagnosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "149",
@@ -2679,7 +3123,10 @@
     "rationale": {
       "text": "Wearing open sandals promotes aeration and reduces moisture, hindering fungal growth. Additionally, applying antifungal cream directly addresses the fungal infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "150",
@@ -2697,7 +3144,10 @@
     "rationale": {
       "text": "Cholera is characterized by profuse watery diarrhea often described as 'rice water stools.' The stools have a pale, milky appearance resembling water in which rice has been rinsed.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "151",
@@ -2715,7 +3165,10 @@
     "rationale": {
       "text": "Cholera toxin primarily acts by stimulating the secretion of water and electrolytes rather than directly destroying intestinal mucosal cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "152",
@@ -2733,7 +3186,10 @@
     "rationale": {
       "text": "Rehydration is the mainstay of therapy. When available, rice-based ORS should be used during rehydration, because this fluid has been shown to be superior to standard ORS in children and adults with cholera.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "153",
@@ -2751,7 +3207,10 @@
     "rationale": {
       "text": "The clinical diagnosis of acute bacterial sinusitis is based on history. Persistent symptoms of upper respiratory tract infection, including nasal discharge and cough, for longer than 10 days without improvement, or severe respiratory symptoms, including temperature of at least 39°C (102°F) and purulent nasal discharge for 3-4 consecutive days, suggest a complicating acute bacterial sinusitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "154",
@@ -2769,7 +3228,10 @@
     "rationale": {
       "text": "Amoxicillin is often considered the first-line antibiotic for uncomplicated bacterial sinusitis. It is a broad-spectrum penicillin derivative and is effective against many common bacterial pathogens associated with sinus infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "155",
@@ -2787,7 +3249,10 @@
     "rationale": {
       "text": "Orbital cellulitis is a severe infection involving the tissues within the eye socket. It can lead to proptosis, chemosis, decreased visual acuity, double vision, impaired extraocular movements, and eye pain. This condition requires prompt medical attention and may result from the spread of sinusitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "156",
@@ -2805,7 +3270,10 @@
     "rationale": {
       "text": "Croup is a common childhood condition characterized by a 'barking' cough, hoarseness, and inspiratory stridor. It is often caused by viral infections affecting the upper airway, particularly the larynx. Symptoms can worsen at night, and respiratory distress may occur.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "157",
@@ -2823,7 +3291,10 @@
     "rationale": {
       "text": "Parainfluenza viruses, especially type 1, are a common cause of croup. Parainfluenza A is known to be associated with the severity of croup symptoms, contributing to the characteristic cough and respiratory distress seen in affected children.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "158",
@@ -2841,7 +3312,10 @@
     "rationale": {
       "text": "Most cases of croup show significant improvement within a week, with the 'barking' cough and respiratory distress gradually diminishing.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "159",
@@ -2859,7 +3333,10 @@
     "rationale": {
       "text": "In asthma, the FEV1 is reduced, and the FEV1/FVC ratio is often decreased due to the difficulty in exhaling air rapidly. PEF is a valuable measure of how fast a person can exhale.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "160",
@@ -2877,7 +3354,10 @@
     "rationale": {
       "text": "Objective measurements of lung function, such as spirometry, are crucial for confirming the diagnosis of asthma. These tests assess airflow limitation, bronchial hyperresponsiveness, and reversibility of airway obstruction, providing objective evidence of asthma.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "161",
@@ -2895,7 +3375,10 @@
     "rationale": {
       "text": "Bronchodilators primarily act on smooth muscles in the airways, causing relaxation and reversing bronchoconstriction. This helps in relieving symptoms such as wheezing and shortness of breath.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "162",
@@ -2913,7 +3396,10 @@
     "rationale": {
       "text": "Treating frequent headaches is crucial to prevent their transformation into chronic daily headaches. Chronic migraine, defined as headaches occurring on 15 or more days per month for at least three months, can significantly impact a patient's life. Timely intervention can help avoid this transformation and improve outcomes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "163",
@@ -2931,7 +3417,10 @@
     "rationale": {
       "text": "Photopsia is a classic symptom associated with migraine aura. It refers to the perception of flashes of light or flickering lights. This visual disturbance is one of the characteristic features of migraine aura.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "164",
@@ -2949,7 +3438,10 @@
     "rationale": {
       "text": "The duration of a typical migraine aura is usually less than 60 minutes. If the aura lasts longer than this, it might be indicative of other conditions or complications.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "165",
@@ -2967,7 +3459,10 @@
     "rationale": {
       "text": "Shigella infections are almost always limited to the gastrointestinal tract; bloodstream invasion is quite rare. A patient can pass Shigella in their stool for up to four weeks (possibly longer in asymptomatic people).",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "166",
@@ -2985,7 +3480,10 @@
     "rationale": {
       "text": "While different types of bacteria can cause diarrhea, attributing the consistency of the stool solely to the type of bacteria may oversimplify the complex mechanisms involved in diarrhea. Factors such as the mode of action of toxins, invasiveness, and host response also play crucial roles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "167",
@@ -3003,7 +3501,10 @@
     "rationale": {
       "text": "The 'Enteric Fevers' (Typhoid fever): The ingested salmonellae reach the small intestine, from which they enter the lymphatics (Peyer's patches) and then the bloodstream. They are carried by the blood to many organs, including the intestine. The organisms multiply in intestinal lymphoid tissue and are excreted in stools.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "168",
@@ -3021,7 +3522,10 @@
     "rationale": {
       "text": "Vibrio cholera is a leading cause of 'rice water' diarrhea. The symptoms described, especially profuse watery diarrhea after attending a fiesta, align well with cholera caused by V. cholera. Cholera toxins lead to massive fluid and electrolyte loss, resulting in the characteristic watery stools.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "169",
@@ -3039,7 +3543,10 @@
     "rationale": {
       "text": "Vibrio cholera is oxidase positive. This means that the bacterium produces the enzyme oxidase, which can be detected using an oxidase test. The oxidase test is commonly used to differentiate between bacterial genera, and a positive result indicates the presence of certain respiratory enzymes. Among the notable bacteria that cause diarrhea, Vibrio is the only oxidase positive bacteria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "170",
@@ -3057,7 +3564,10 @@
     "rationale": {
       "text": "Secretory diarrhea typically does not stop with fasting. Unlike osmotic diarrhea, which may improve with fasting as the undigested substances are not entering the intestines, secretory diarrhea continues because it is driven by active secretion of fluids and electrolytes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "171",
@@ -3075,7 +3585,10 @@
     "rationale": {
       "text": "The primary cause of pain in primary dysmenorrhea is an excessive production of prostaglandins in the uterus. Prostaglandins stimulate vasoconstriction of blood vessels in the uterus and cause increased uterine contractions, leading to pain.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gynecology"
+    ]
   },
   {
     "id": "172",
@@ -3093,7 +3606,10 @@
     "rationale": {
       "text": "Routine internal pelvic examination is not typically necessary for the diagnosis of primary dysmenorrhea, especially in young, sexually inactive girls. It may be considered if there are specific indications or if the patient is sexually active and there are concerns about other gynecological issues.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gynecology"
+    ]
   },
   {
     "id": "173",
@@ -3111,7 +3627,10 @@
     "rationale": {
       "text": "Treatment for primary dysmenorrhea is aimed at decreasing levels of prostaglandins, preferably before they are produced. Thus, the mainstay treatment is with prostaglandin synthetase inhibition by either nonsteroidal anti-inflammatory drugs, hormonal contraception, or a gonadotropin-releasing hormone agonist beginning at, or preferably the day prior to, menstruation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gynecology"
+    ]
   },
   {
     "id": "174",
@@ -3129,7 +3648,10 @@
     "rationale": {
       "text": "Hypertension is not typically a part of the classic presentation of nephrotic syndrome. However, it's essential to monitor blood pressure regularly in pediatric patients with nephrotic syndrome as secondary hypertension can occur, possibly due to renal parenchymal disease or the use of corticosteroids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "175",
@@ -3147,7 +3669,10 @@
     "rationale": {
       "text": "Minimal change nephrotic syndrome (MCNS) is the most common histologic form of primary NS in children. More than 80% of children less than 7 years of age with NS have MCNS.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "176",
@@ -3165,7 +3690,10 @@
     "rationale": {
       "text": "In the case of uncomplicated nephrotic syndrome in children aged 1-8 years, the first-line treatment is often initiated without the need for a diagnostic renal biopsy. Steroid therapy, specifically with corticosteroids such as prednisone, is the mainstay of treatment.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "177",
@@ -3183,7 +3711,10 @@
     "rationale": {
       "text": "For children with their first episode of febrile urinary tract infection (UTI), the initial recommended imaging study for the evaluation of kidney and bladder anatomy is a Kidney and Urinary Bladder ultrasound. This non-invasive imaging modality allows visualization of the kidneys and bladder without exposing the child to ionizing radiation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "178",
@@ -3201,7 +3732,10 @@
     "rationale": {
       "text": "DMSA Renal Scan is a nuclear medicine imaging modality that is particularly useful for assessing both acute pyelonephritis and renal scarring. In cases of acute pyelonephritis, DMSA can detect areas of the kidneys that are inflamed or infected. Additionally, it is commonly used to identify renal scarring, a potential consequence of recurrent or severe urinary tract infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "179",
@@ -3219,7 +3753,10 @@
     "rationale": {
       "text": "VCUG remains the diagnostic test of choice for the detection of VUR and its use is widespread in clinical practice. VUR is detected in 25% to 40% of children presenting with a first episode of pyelonephritis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "180",
@@ -3237,7 +3774,10 @@
     "rationale": {
       "text": "Primary amenorrhea is defined as the failure of initiation of menses by age 14 in the absence of secondary sexual characteristics or the absence of menarche by age 16 regardless of the presence of normal growth and development of secondary sexual characteristics.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "181",
@@ -3255,7 +3795,10 @@
     "rationale": {
       "text": "Elevated levels of FSH can suggest primary gonadal failure. In conditions where the ovaries or testes are not functioning properly, the pituitary gland increases the production of FSH in an attempt to stimulate the gonads. Elevated FSH levels are indicative of reduced feedback inhibition from the gonads.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "182",
@@ -3273,7 +3816,10 @@
     "rationale": {
       "text": "Regardless of the patient's history or sexual activity, a pregnancy test is crucial in the evaluation of amenorrhea. Pregnancy is a common cause of missed menstrual periods, and ruling out pregnancy is a fundamental step in the assessment.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "183",
@@ -3291,7 +3837,10 @@
     "rationale": {
       "text": "Hypothalamic hamartomas are non-neoplastic lesions that can disrupt the normal functioning of the hypothalamus, leading to the early onset of puberty. These hamartomas may cause an overactivation of the GnRH (gonadotropin-releasing hormone) secretion, resulting in premature activation of the reproductive axis and early development of secondary sexual characteristics.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "184",
@@ -3309,7 +3858,10 @@
     "rationale": {
       "text": "Cranial MRI (Magnetic Resonance Imaging) is considered the best imaging modality for evaluating precocious puberty associated with organic brain lesions. It provides detailed images of the brain structures and allows for the visualization of abnormalities in the hypothalamus, pituitary gland, or other brain regions that may be causing the early onset of puberty.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "185",
@@ -3327,7 +3879,10 @@
     "rationale": {
       "text": "Hypothalamic hamartomas are often associated with rapidly progressive sexual precocity, especially in very young children. These hamartomas are non-cancerous malformations of the hypothalamus and can cause the premature activation of the hypothalamic-pituitary-gonadal axis, leading to early onset of puberty.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "186",
@@ -3345,7 +3900,10 @@
     "rationale": {
       "text": "Sensitization involves the binding of allergen-specific IgE antibodies to the surface of mast cells and basophils, which, upon re-exposure to the allergen, triggers the release of inflammatory mediators.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "187",
@@ -3363,7 +3921,10 @@
     "rationale": {
       "text": "Rhinitis caused by allergens like animal dander and pollen is due to an allergic reaction. In the nasal passages, allergens can lead to the release of histamine and other inflammatory mediators, causing increased mucus production and swelling of the mucosal turbinates. This can result in symptoms such as nasal congestion, runny nose, and sneezing.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "188",
@@ -3381,7 +3942,10 @@
     "rationale": {
       "text": "Laryngeal edema, the most feared complication of HAE, can cause complete respiratory obstruction. Although life-threatening attacks are infrequent, more than half of patients with HAE experience laryngeal involvement at some time during their lives.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "189",
@@ -3399,7 +3963,10 @@
     "rationale": {
       "text": "Rodney's symptoms align with acute urticaria. Acute urticaria refers to the sudden onset of hives and can be triggered by various factors, including food allergies. It typically resolves within a short period, but the symptoms can be severe.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "190",
@@ -3417,7 +3984,10 @@
     "rationale": {
       "text": "Tang orange juice, has been marketed as 'Allergen-free', it uses artificial orange juice flavor and is Dairy Free, Gluten Free, Gelatine Free, Celery Free, and Wheat Free.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "191",
@@ -3435,7 +4005,10 @@
     "rationale": {
       "text": "Hydroxyzine is a first-generation antihistamine that has sedating effects and can cause drowsiness. It may impair cognitive function and is not ideal for use when studying or reviewing for an exam.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "192",
@@ -3453,7 +4026,10 @@
     "rationale": {
       "text": "Exposure to pollen extracts, such as those from flowers, grass, or trees, can trigger allergic reactions, including the formation of wheals and hives. Individuals with pollen allergies may experience these skin symptoms upon exposure. Considering the scenario of Anna playing in the garden with flowers for the festival in Baguio, pollen extracts are the most likely cause of Anna's urticaria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "193",
@@ -3471,7 +4047,10 @@
     "rationale": {
       "text": "Laryngeal edema involves swelling of the larynx, which can lead to a feeling of a 'lump' in the throat. This condition can occur in allergic reactions, such as anaphylaxis, where there is generalized swelling, including the laryngeal area.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "194",
@@ -3489,7 +4068,10 @@
     "rationale": {
       "text": "Urticarial eruptions are typically transient and often resolve within 24 hours. Persistence beyond 48 hours is less characteristic of acute urticaria, which is often triggered by allergens, infections, or other factors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "195",
@@ -3507,7 +4089,10 @@
     "rationale": {
       "text": "Anemia and thrombocytopenia are common findings in ALL. Leukemia cells replace normal cells in the bone marrow, leading to a decrease in the production of red blood cells and platelets, causing anemia and thrombocytopenia, respectively.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "196",
@@ -3525,7 +4110,10 @@
     "rationale": {
       "text": "Pallor can result from anemia due to decreased red blood cell production. Pruritic/petechial skin lesions and mucous membrane hemorrhage may occur due to a decrease in platelet production, leading to bleeding tendencies.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "197",
@@ -3543,7 +4131,10 @@
     "rationale": {
       "text": "Bone marrow evaluation, often through bone marrow aspiration and biopsy, is a key diagnostic step for ALL. It allows for the examination of the bone marrow cells to identify the presence of leukemic cells, their characteristics, and the degree of infiltration. This is the gold standard investigation to diagnose Leukemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "198",
@@ -3561,7 +4152,10 @@
     "rationale": {
       "text": "Any patient with persistent, unexplained lymphadenopathy unassociated with an obvious underlying inflammatory or infectious process should undergo chest radiography to identify the presence of a large mediastinal mass before undergoing lymph node biopsy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "199",
@@ -3579,7 +4173,10 @@
     "rationale": {
       "text": "Hodgkin Lymphoma: Systemic symptoms, classified as B symptoms that are considered important in staging, are unexplained fever >38C (100.4F), weight loss >10% total body weight over 6 months, and drenching night sweats. Patients commonly present with painless, nontender, firm, rubbery, cervical or supraclavicular lymphadenopathy and usually some degree of mediastinal involvement.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "200",
@@ -3597,6 +4194,9 @@
     "rationale": {
       "text": "The stage of diagnosis is a crucial prognostic factor in Hodgkin lymphoma. Generally, early-stage diagnosis is associated with a better prognosis compared to advanced-stage disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   }
 ]

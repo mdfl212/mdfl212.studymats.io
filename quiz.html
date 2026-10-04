@@ -36,6 +36,21 @@
         <button class="btn primary" id="scoreButton" type="button">📊 Score</button>
         <button class="btn danger" id="resetButton" type="button">↺ Reset</button>
         <button class="btn table-toggle" id="tableToggleButton" type="button">📋 Table</button>
+        <div class="year-level-picker">
+            <aside class="yl-nav" aria-label="Year level navigation">
+                <button class="yl-nav-trigger" id="ylNavTrigger" type="button" aria-expanded="false" aria-controls="ylNavFlyout">
+                    <span class="yl-nav-tag">YL</span>
+                    <span class="yl-nav-trigger-label" id="ylNavTriggerLabel">YL1</span>
+                    <span class="yl-nav-caret" aria-hidden="true">▾</span>
+                </button>
+                <div class="yl-nav-flyout" id="ylNavFlyout" role="menu" aria-label="Choose year level">
+                    <button class="yl-nav-link active" type="button" data-yl="YL1" role="menuitem">YL1</button>
+                    <button class="yl-nav-link" type="button" data-yl="YL2" role="menuitem">YL2</button>
+                    <button class="yl-nav-link" type="button" data-yl="YL3" role="menuitem">YL3</button>
+                    <button class="yl-nav-link" type="button" data-yl="YL4" role="menuitem">YL4</button>
+                </div>
+            </aside>
+        </div>
     </div>
     <div id="statusMessage" class="status-message" role="status"></div>
     <section id="tablePanel" class="table-panel hidden" aria-live="polite">
@@ -68,19 +83,6 @@
                 <button class="btn" id="nextButton" type="button">Next →</button>
             </nav>
             <section class="subject-picker" aria-label="Subject selection">
-                <aside class="yl-nav" aria-label="Year level navigation">
-                    <button class="yl-nav-trigger" id="ylNavTrigger" type="button" aria-expanded="false" aria-controls="ylNavFlyout">
-                        <span class="yl-nav-tag">YL</span>
-                        <span class="yl-nav-trigger-label" id="ylNavTriggerLabel">YL1</span>
-                        <span class="yl-nav-caret" aria-hidden="true">▾</span>
-                    </button>
-                    <div class="yl-nav-flyout" id="ylNavFlyout" role="menu" aria-label="Choose year level">
-                        <button class="yl-nav-link active" type="button" data-yl="YL1" role="menuitem">YL1</button>
-                        <button class="yl-nav-link" type="button" data-yl="YL2" role="menuitem">YL2</button>
-                        <button class="yl-nav-link" type="button" data-yl="YL3" role="menuitem">YL3</button>
-                        <button class="yl-nav-link" type="button" data-yl="YL4" role="menuitem">YL4</button>
-                    </div>
-                </aside>
                 <label for="subjectSelect">Subject</label>
                 <select id="subjectSelect"></select>
                 <label for="topicFilter">Topic</label>

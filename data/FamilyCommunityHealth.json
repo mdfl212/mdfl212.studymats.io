@@ -16,7 +16,10 @@
     "rationale": {
       "text": "Community Diagnosis is an in-depth process of finding out the health profiles, health status, and factors affecting the present status of the community — not just listing diseases or individual patients. It gives the full picture of a community's health.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "2",
@@ -35,7 +38,10 @@
     "rationale": {
       "text": "Before collecting any data, you must define WHY you are there. Determining the objectives (general and specific) is always Step 1 — like setting your GPS destination before driving.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "3",
@@ -54,7 +60,10 @@
     "rationale": {
       "text": "Proper community engagement requires a courtesy call to the barangay captain FIRST. This respects local leadership and gains community trust before any data gathering — just as you'd knock before entering someone's home.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "4",
@@ -73,7 +82,10 @@
     "rationale": {
       "text": "Analysis of Population covers total population, geographic distribution, age and sex structure, vital indices, and population projections. Age and sex structure tells us WHO lives in the community — shaping what health needs exist.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "5",
@@ -92,7 +104,10 @@
     "rationale": {
       "text": "Manpower-to-population ratios fall under Analysis of Health Resources. This component looks at who provides care and what facilities/equipment are available in the community.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "6",
@@ -111,7 +126,10 @@
     "rationale": {
       "text": "Education level and occupation (farming) are classic socio-economic indicators. The Analysis of Socio-economic Factors covers education, employment, income, social support, community safety, and cultural practices — all of which influence health outcomes.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "7",
@@ -130,7 +148,10 @@
     "rationale": {
       "text": "The four stages: (1) Initiation — getting established in the community; (2) Data Collection and Analysis; (3) Diagnosis/Situational Analysis — interpreting findings; (4) Dissemination — sharing results. Think: START → GATHER → UNDERSTAND → SHARE.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "8",
@@ -149,7 +170,10 @@
     "rationale": {
       "text": "The community assembly serves two purposes: (1) inform people WHY you are there, and (2) share initial findings — especially about infectious diseases, their mode of transmission, and signs and symptoms. It is your introduction and public health education moment combined.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "9",
@@ -168,7 +192,10 @@
     "rationale": {
       "text": "Sanitation practices and water sources are Environmental Indicators under the Socio-economic component. Poor sanitation directly correlates with infectious disease rates and tells you what environmental risk factors exist.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "10",
@@ -187,7 +214,10 @@
     "rationale": {
       "text": "Health STATUS indicators measure how healthy (or sick) the population actually is — mortality rates (maternal, infant, neonatal) and morbidity data are the actual health outcomes of the community. GNP and hospital beds are resource or policy indicators, not direct health status measures.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "11",
@@ -206,7 +236,10 @@
     "rationale": {
       "text": "A spot map is a visual geographic tool showing WHERE things are located — households, health facilities, disease clusters, water sources, etc. It reveals spatial patterns (e.g., disease cases clustering near a contaminated water source) that raw numbers cannot easily show.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "12",
@@ -225,7 +258,10 @@
     "rationale": {
       "text": "Economic indicators include employment/job status, income level, and family/social support. These determine if people can afford healthcare, nutritious food, and healthy living conditions. Poverty and unemployment are powerful drivers of poor health outcomes.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "13",
@@ -244,7 +280,10 @@
     "rationale": {
       "text": "Community diagnosis is ongoing — not a one-shot deal. As a PROCESS, it has definite periods (phases) with minimum and maximum expectations. Communities change, health problems evolve, so the diagnosis must continue to update over time.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "14",
@@ -263,7 +302,10 @@
     "rationale": {
       "text": "Number and type of health facilities (RHU, BHS) and nurse-to-population ratios are HEALTH RESOURCE indicators — specifically manpower and material resources. These tell you if the community has enough healthcare infrastructure to meet its needs.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "15",
@@ -282,7 +324,10 @@
     "rationale": {
       "text": "Interviews provide first-hand information because you hear directly from the person. Records review and surveys give data collected by others. Interviews allow clarification, deeper probing, and understanding context — making the information richer and more personal.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "16",
@@ -301,7 +346,10 @@
     "rationale": {
       "text": "The ecological approach is holistic — it looks at the WHOLE picture: community features (demographics, sociocultural, political, economic), health indices (IMR, MMR, morbidity), and health resources (essential services, PHC elements). It identifies health problems AND the factors causing them.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "17",
@@ -320,7 +368,10 @@
     "rationale": {
       "text": "WHO states that community diagnosis aims to: DEFINE existing problems, IDENTIFY available resources, and SET priorities for planning, implementing, and evaluating health actions. Know the problem → find your tools → plan what to do.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "18",
@@ -339,7 +390,10 @@
     "rationale": {
       "text": "Key guiding principles: the vision statement should guide the assessment, it should focus on SPECIFIC information topics, and assessment is an ONGOING process — not a one-time event. Community participation, not exclusion, is also a core principle.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "19",
@@ -358,7 +412,10 @@
     "rationale": {
       "text": "When existing data is insufficient, additional information is gathered through Surveys, Focus Group Discussions (FGDs), Public Meetings and Forums, and Interviews. These participatory methods gather primary data directly from community members.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "20",
@@ -377,7 +434,10 @@
     "rationale": {
       "text": "Community mobilization means: transforming awareness into collective action, planning achievable early wins to build momentum, engaging the broader community in implementation, and celebrating successes together. It converts knowledge into community-driven change.",
       "images": []
-    }
+    },
+    "tags": [
+      "comdiag"
+    ]
   },
   {
     "id": "21",
@@ -396,7 +456,10 @@
     "rationale": {
       "text": "WHO's definition: Health Promotion is 'the process of ENABLING people to INCREASE CONTROL over and to IMPROVE their health and its determinants.' The key idea is giving people the POWER to help themselves — not doing it FOR them.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "22",
@@ -415,7 +478,10 @@
     "rationale": {
       "text": "The SEMoF formula: 80% of health is determined by MULTI-SECTORAL factors (education, employment, environment, social support), and only 20% by the health sector itself. This explains why doctors alone cannot make a community healthy — education, housing, and economic policies matter MORE.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "23",
@@ -434,7 +500,10 @@
     "rationale": {
       "text": "The Ottawa Charter has 5 action areas: (1) Develop healthy public policy, (2) Create supportive environments, (3) Strengthen community action, (4) Develop personal skills, (5) Reorient health services. These go far beyond hospitals — they involve policy, community, and personal empowerment.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "24",
@@ -453,7 +522,10 @@
     "rationale": {
       "text": "Socioeconomic factors at the BASE of the Health Impact Pyramid have the LARGEST impact because they affect the most people simultaneously. Changing context (built environment, policies) is next, then protective interventions (vaccines), then clinical care at the top — which affects fewer people.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "25",
@@ -472,7 +544,10 @@
     "rationale": {
       "text": "Healthy Pilipinas rests on 3 pillars: (1) HEALTHY GOVERNANCE — policies and leadership; (2) HEALTHY SETTINGS — promoting health where people live, work, and learn; (3) HEALTH LITERACY — enabling Filipinos to understand and act on health information.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "26",
@@ -491,7 +566,10 @@
     "rationale": {
       "text": "SBCC = Social and Behavioral Change Communication. It is a strategy that uses communication and social approaches to CHANGE BEHAVIORS — not just increase knowledge. The goal is to move people from awareness → attitude change → behavior change → social norm change.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "27",
@@ -510,7 +588,10 @@
     "rationale": {
       "text": "DIKAR = Data → Information → Knowledge → Action → Results. It's the logical flow of SBCC: raw DATA becomes meaningful INFORMATION, builds KNOWLEDGE, that knowledge drives ACTION, and action produces RESULTS (better health outcomes).",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "28",
@@ -529,7 +610,10 @@
     "rationale": {
       "text": "RAKID = Results → Action → Knowledge → Information → Data. You start with the end in mind (what results do you want?), then work BACKWARD to figure out: what actions are needed? what knowledge must people have? what data will you collect? It's backward planning.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "29",
@@ -548,7 +632,10 @@
     "rationale": {
       "text": "COM-B = Capability + Opportunity + Motivation → Behavior. For any behavior change: does the person have CAPABILITY (physical/psychological ability)? OPPORTUNITY (environment, resources, social norms)? MOTIVATION (intrinsic/extrinsic desire)? All three must align for behavior change to happen.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "30",
@@ -567,7 +654,10 @@
     "rationale": {
       "text": "When people KNOW the problem but continue because 'everyone does it,' the barrier is OPPORTUNITY — specifically SOCIAL NORMS. The COM-B solution is to change the social norm (e.g., smoke-free workplace policy) rather than just re-educating people.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "31",
@@ -586,7 +676,10 @@
     "rationale": {
       "text": "The community has 4 levels of influence: Individual (knowledge/attitudes), Interpersonal (family/friends), Community (norms/culture), and INSTITUTIONAL (laws, policies, enforcement, media, resources). Institutional factors shape the rules everyone lives by.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "32",
@@ -605,7 +698,10 @@
     "rationale": {
       "text": "The 4 principles: EQUITY (address health disparities), PARTICIPATION (involve people in decisions), PARTNERSHIPS (collaborate across sectors), and RESPONSIVENESS (adapt to population needs). These guide how health promotion is done in the Philippines.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "33",
@@ -624,7 +720,10 @@
     "rationale": {
       "text": "Human Centered Design starts with EMPATHY — deeply understanding the people affected. You design WITH them, not FOR them, and you test solutions based on their actual needs, not assumptions. In health, this makes interventions more relevant, accepted, and effective.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "34",
@@ -643,7 +742,10 @@
     "rationale": {
       "text": "The key benefit statement answers 'WHAT'S IN IT FOR ME?' from the audience's perspective. People are motivated by PERSONAL BENEFITS, not medical facts. A good benefit statement clearly communicates how taking action will improve THEIR life.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "35",
@@ -662,7 +764,10 @@
     "rationale": {
       "text": "Health Literacy is the capacity to FIND, UNDERSTAND, and USE health information to make good decisions. It's more than reading — it includes understanding prescriptions, navigating health systems, evaluating health information online, and knowing when to seek care.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "36",
@@ -681,7 +786,10 @@
     "rationale": {
       "text": "Healthy Settings include: Healthy Communities, Healthy Schools (using the 6-component framework: policy, physical environment, social environment, community links, health skills, health care), Healthy Workplaces, and Healthy Hospitals. Every place where Filipinos live, learn, and work should promote health.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "37",
@@ -700,7 +808,10 @@
     "rationale": {
       "text": "Before designing any message or material, you must do AUDIENCE ANALYSIS — understand WHO your audience is, what they know, what barriers they face, and what motivates them. Distributing soap helps, but if the real barrier is time or cultural norms, soap alone won't change behavior.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "38",
@@ -719,7 +830,10 @@
     "rationale": {
       "text": "Administrative Order 2021-0063 established the Health Promotion Framework Strategy 2030 — the DOH's blueprint for health promotion from 2021 to 2030. It defines the direction for planning, developing, and implementing health promotion policies in the Philippines.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "39",
@@ -738,7 +852,10 @@
     "rationale": {
       "text": "A health promoter DESIGNS environments, programs, and policies that SHAPE behavior toward healthy choices. Like an engineer designs a bridge to make crossing easy, a health promoter designs systems that make healthy living the easier, default choice.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "40",
@@ -757,7 +874,10 @@
     "rationale": {
       "text": "Rate of Natural Increase = CBR − CDR = 28 − 8 = 20 per 1,000. Natural increase does NOT include migration — only births and deaths. A rate of 20/1,000 means the community is growing by 20 per year per 1,000 people from births alone.",
       "images": []
-    }
+    },
+    "tags": [
+      "hprom"
+    ]
   },
   {
     "id": "41",
@@ -776,7 +896,10 @@
     "rationale": {
       "text": "The Five-Star Doctor (WHO) is an IDEAL PROFILE — not a ranking or grade. It describes a doctor with the RIGHT MIX of roles and aptitudes to serve relevance, quality, cost-effectiveness, and equity. It's about being a COMPLETE physician, not just a clinician.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "42",
@@ -795,7 +918,10 @@
     "rationale": {
       "text": "The 5 roles: (1) CARE PROVIDER — holistic patient care; (2) DECISION-MAKER — evidence-based, ethical decisions; (3) COMMUNICATOR — effective communication; (4) COMMUNITY LEADER — serves and advocates for the community; (5) MANAGER — manages resources and teams.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "43",
@@ -814,7 +940,10 @@
     "rationale": {
       "text": "RELEVANCE = focusing on what MATTERS MOST to the population. It asks: 'Are we addressing the most important health problems?' A relevant doctor prioritizes the real needs of the community — not just interesting cases or profitable procedures.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "44",
@@ -833,7 +962,10 @@
     "rationale": {
       "text": "The Care Provider role is HOLISTIC and INTEGRATED. The patient is part of a FAMILY and COMMUNITY. Care should be continuous (ongoing), complementary (curative + preventive + rehabilitative working together), and of the HIGHEST quality.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "45",
@@ -852,7 +984,10 @@
     "rationale": {
       "text": "EQUITY means distributing healthcare based on NEED, not wealth, status, or privilege. A Five-Star Doctor strives to make quality care accessible to ALL — especially the poor and marginalized — because health is a right, not a privilege.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "46",
@@ -871,7 +1006,10 @@
     "rationale": {
       "text": "EBM = BEST RESEARCH EVIDENCE + CLINICAL EXPERTISE + PATIENT VALUES. All three must be integrated. Research alone ignores clinical judgment; clinical expertise alone ignores current evidence; both without patient values ignores patient autonomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "47",
@@ -890,7 +1028,10 @@
     "rationale": {
       "text": "By educating families (COMMUNICATOR) and organizing community action while coordinating with local officials (COMMUNITY LEADER), she demonstrates these two roles. She goes BEYOND the clinic to address health at the population level — exactly what a Five-Star Doctor does.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "48",
@@ -909,7 +1050,10 @@
     "rationale": {
       "text": "All 7 aspects emphasize that medicine is BOTH science AND art, deeply human, cultural, ritual, communicative, trust-based, and spiritually connected. Medicine is NEVER 'exclusively' a natural science — that statement contradicts all 7 aspects.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "49",
@@ -928,7 +1072,10 @@
     "rationale": {
       "text": "As a Decision-Maker, the Five-Star Doctor makes EVIDENCE-BASED, ETHICAL decisions in a climate of TRANSPARENCY. This means being honest about options, risks, and limitations, while upholding ethical principles (autonomy, beneficence, non-maleficence, justice).",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "50",
@@ -947,7 +1094,10 @@
     "rationale": {
       "text": "Medicine as an ART recognizes that: patients are HUMANS with feelings (not just diseased organs), medicine is about COMMUNICATION and RELATIONSHIPS, it deals with the PHILOSOPHY of the human person, and integrates with other humanities and disciplines. Science + Art = Healing.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "51",
@@ -966,7 +1116,10 @@
     "rationale": {
       "text": "COST-EFFECTIVENESS = GREATEST POSITIVE HEALTH IMPACT for the resources used. It's NOT about being cheap — it's about being EFFICIENT. A cost-effective intervention delivers the most health benefit per peso spent.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "52",
@@ -985,7 +1138,10 @@
     "rationale": {
       "text": "As a Manager, the Five-Star Doctor uses SCARCE RESOURCES wisely — human, physical, financial. They lead healthcare teams, organize services for maximum effectiveness, and balance quality with cost-effectiveness. In a country with limited resources like the Philippines, this role is critical.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "53",
@@ -1004,7 +1160,10 @@
     "rationale": {
       "text": "The Community Leader role means the doctor is ACTIVELY ENGAGED in the community — not just in the clinic. They advocate for health equity, participate in community health programs, and help mobilize collective action. A doctor who only stays in the clinic fulfills only ONE of the five roles.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "54",
@@ -1023,7 +1182,10 @@
     "rationale": {
       "text": "The Communicator role means being able to communicate effectively with EVERYONE: patients (explaining diagnoses in understandable language), families (involving them in care), colleagues (coordinating care), and communities (health education and advocacy). Communication is THE core skill of healing.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "55",
@@ -1042,7 +1204,10 @@
     "rationale": {
       "text": "The Researcher/Lifelong Learner (often discussed as a 6th role) means using EBM in practice, choosing technology ETHICALLY and cost-effectively, and constantly UPDATING one's knowledge. In a rapidly evolving medical landscape, a doctor who stops learning becomes dangerous.",
       "images": []
-    }
+    },
+    "tags": [
+      "fivestar"
+    ]
   },
   {
     "id": "56",
@@ -1061,7 +1226,10 @@
     "rationale": {
       "text": "The 3 PHC components: (1) PRIMARY CARE + essential public health functions as the CORE of integrated services; (2) MULTISECTORAL POLICY AND ACTION — addressing determinants beyond health; (3) EMPOWERED PEOPLE AND COMMUNITIES — as advocates, co-developers, and self-carers. All three MUST work together.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "57",
@@ -1080,7 +1248,10 @@
     "rationale": {
       "text": "The Alma-Ata Declaration (1978) — jointly convened by WHO and UNICEF — proclaimed 'HEALTH FOR ALL BY THE YEAR 2000' through primary health care. It recognized that health equity requires going beyond hospitals to communities, families, and social determinants.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "58",
@@ -1099,7 +1270,10 @@
     "rationale": {
       "text": "Astana (2018) was a RENEWAL — it didn't replace Alma-Ata but REINFORCED it. It emphasized making PHC the cornerstone of achieving UHC and the SDGs, and updated strategies for the modern era. Both declarations are milestones of global commitment to PHC.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "59",
@@ -1118,7 +1292,10 @@
     "rationale": {
       "text": "The 5 Cs: (1) FIRST CONTACT — first entry point into the health system; (2) COMPREHENSIVENESS — covers all health needs; (3) COORDINATION — links to other services; (4) CONTINUITY — ongoing relationship over time; (5) PERSON-CENTEREDNESS — treats the whole person, not just the disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "60",
@@ -1137,7 +1314,10 @@
     "rationale": {
       "text": "UHC = access to QUALITY health services WITHOUT FINANCIAL HARDSHIP. It does NOT mean everything is free — it means people are financially protected from catastrophic health expenses. The 3 UHC dimensions: who is covered, which services are covered, and how much of the cost is covered.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "61",
@@ -1156,7 +1336,10 @@
     "rationale": {
       "text": "WHO's 6 Building Blocks: (1) SERVICE DELIVERY, (2) HEALTH WORKFORCE, (3) HEALTH INFORMATION SYSTEMS, (4) MEDICAL PRODUCTS/VACCINES/TECHNOLOGIES, (5) HEALTH FINANCING, and (6) LEADERSHIP/GOVERNANCE. All six must function well AND work together.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "62",
@@ -1175,7 +1358,10 @@
     "rationale": {
       "text": "KEY DISTINCTION: PHC = broad FRAMEWORK and APPROACH (society-level, multisectoral); PRIMARY CARE = specific LEVEL OF CARE (first-contact clinical services, framed by the 5Cs). Primary care is one COMPONENT of PHC.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "63",
@@ -1194,7 +1380,10 @@
     "rationale": {
       "text": "SYNERGISTIC = working TOGETHER, each making the others more powerful. You cannot have effective PHC with only clinical services and no multisectoral action; or with empowered communities but no health services. All three components are NECESSARY and INTERDEPENDENT.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "64",
@@ -1213,7 +1402,10 @@
     "rationale": {
       "text": "This demonstrates WHOLE-PERSON CARE + CONTINUITY + COORDINATION. The BHW provides care at home (accessibility), links to the RHU (coordination), and connects to PhilHealth (coverage). This is PHC in action — integrated, person-centered, and continuous.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "65",
@@ -1232,7 +1424,10 @@
     "rationale": {
       "text": "Empowerment in PHC has THREE dimensions: (1) ADVOCATES — demanding their right to health; (2) CO-DEVELOPERS — actively participating in designing health services; (3) SELF-CARERS and CAREGIVERS — managing their own health and supporting family/community members.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "66",
@@ -1251,7 +1446,10 @@
     "rationale": {
       "text": "PHC workers have FIVE roles: (1) HEALTH CARE PROVIDER; (2) HEALTH EDUCATOR; (3) SOCIAL/COMMUNITY MOBILIZER; (4) RESEARCHER — using evidence to improve care; (5) COORDINATOR for CONTINUITY OF CARE — ensuring patients move smoothly through the system.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "67",
@@ -1270,7 +1468,10 @@
     "rationale": {
       "text": "PHC Principle 3: health requires 'HEALTH IN ALL POLICIES' — meaning agriculture, education, housing, transportation, and economic policies must ALL consider their impact on health. A road without sidewalks harms health. Health is EVERYONE's business, not just the DOH's.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "68",
@@ -1289,7 +1490,10 @@
     "rationale": {
       "text": "RA 11223 establishes HEALTH CARE PROVIDER NETWORKS (HCPNs) — integrated, province-wide or city-wide networks that link all levels of care. A Health Care Coordinator ensures continuity and navigation. This replaces fragmented, facility-centric care with integrated, population-based care.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "69",
@@ -1308,7 +1512,10 @@
     "rationale": {
       "text": "Brain drain of nurses directly weakens the HEALTH WORKFORCE building block — the most critical resource in healthcare. Without enough nurses, service delivery collapses, quality of care declines, and health information is poorly managed.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "70",
@@ -1327,7 +1534,10 @@
     "rationale": {
       "text": "PHC Principle 4: PHC addresses the BROADER DETERMINANTS — physical health, mental health, social well-being, AND socioeconomic circumstances. This aligns with WHO's definition of health: 'complete physical, mental, and social well-being.'",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "71",
@@ -1346,7 +1556,10 @@
     "rationale": {
       "text": "PHC is a WHOLE-OF-SOCIETY approach — meaning it involves government, communities, individuals, and all sectors (not just health). Its three components: (1) primary care as the core, (2) multisectoral policy and action, and (3) empowered people and communities.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "72",
@@ -1365,7 +1578,10 @@
     "rationale": {
       "text": "PHC Principle 5 states that PHC provides WHOLE-PERSON CARE for health needs THROUGHOUT THE LIFESPAN — from promotion to prevention to diagnosis to treatment to rehabilitation to palliative care. It is not limited to any specific disease or life stage.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "73",
@@ -1384,7 +1600,10 @@
     "rationale": {
       "text": "PHC Principle 6: PHC ensures quality comprehensive care — ranging from promotion and prevention to treatment, rehabilitation, and palliative care — AS CLOSE AS FEASIBLE to people's everyday environment. This emphasizes accessibility and community-based care delivery.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "74",
@@ -1403,7 +1622,10 @@
     "rationale": {
       "text": "PHC is the FOUNDATION for achieving UHC. Strong primary care prevents unnecessary hospitalization, catches diseases early, manages chronic conditions — all at lower cost. Countries with strong PHC systems consistently achieve better UHC outcomes.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "75",
@@ -1422,7 +1644,10 @@
     "rationale": {
       "text": "Health Financing has THREE functions: (1) REVENUE COLLECTION — raising funds; (2) POOLING — sharing financial risk across populations; (3) PURCHASING — paying for services effectively. The ultimate goal: ensure people can use health services WITHOUT FINANCIAL RUIN.",
       "images": []
-    }
+    },
+    "tags": [
+      "phc"
+    ]
   },
   {
     "id": "76",
@@ -1441,7 +1666,10 @@
     "rationale": {
       "text": "A RATE has THREE components: (1) numerator = people who EXPERIENCED the event; (2) denominator = people EXPOSED TO THE RISK; (3) a TIME period. The denominator must include only those at risk. This distinguishes rates from simple counts or general ratios.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "77",
@@ -1460,7 +1688,10 @@
     "rationale": {
       "text": "CBR = (Total live births registered ÷ Estimated midyear population) × 1,000. 'Crude' means it uses the TOTAL population as the denominator. The midyear population (July 1 estimate) best represents the average population exposed throughout the year.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "78",
@@ -1479,7 +1710,10 @@
     "rationale": {
       "text": "IMR = (Deaths under 1 year ÷ Total live births of the same year) × 1,000. The IMR is one of the MOST IMPORTANT health indicators because it reflects the overall health and environmental conditions — sanitation, nutrition, access to care, and maternal health all directly affect infant survival.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "79",
@@ -1498,7 +1732,10 @@
     "rationale": {
       "text": "Infants are EXTREMELY vulnerable to environmental, nutritional, and medical conditions. High IMR means poor sanitation, malnutrition, inadequate prenatal care, or poor access to medical services. When a community improves its health programs, the IMR drops quickly — making it a SENSITIVE indicator of real change.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "80",
@@ -1517,7 +1754,10 @@
     "rationale": {
       "text": "NDR = (Deaths under 28 days of age ÷ Total live births of the same year) × 1,000. The neonatal period (first 28 days) is when babies are most vulnerable to conditions related to birth — prematurity, birth asphyxia, infections. NDR is an index of the quality of PRENATAL CARE and OBSTETRICAL MANAGEMENT.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "81",
@@ -1536,7 +1776,10 @@
     "rationale": {
       "text": "MMR = (Maternal deaths related to pregnancy, childbirth, and puerperium ÷ Total live births of the same year) × 1,000. It specifically measures the RISK OF DYING FROM PREGNANCY-RELATED CAUSES and serves as an index of the QUALITY AND AVAILABILITY OF OBSTETRICAL CARE.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "82",
@@ -1555,7 +1798,10 @@
     "rationale": {
       "text": "SPECIFIC RATES refine the analysis by focusing on a SPECIFIC GROUP — those truly exposed to the risk. Examples: Age-Specific Death Rate, Sex-Specific Death Rate, Cause-Specific Death Rate. Specific rates are MORE INFORMATIVE than crude rates because they control for confounding factors.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "83",
@@ -1574,7 +1820,10 @@
     "rationale": {
       "text": "GFR = (Live births ÷ Women of childbearing age 15–49) × 1,000. Unlike the Crude Birth Rate (which uses the TOTAL population), the GFR uses ONLY WOMEN AT RISK of childbearing as the denominator — making it a more accurate measure of actual fertility.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "84",
@@ -1593,7 +1842,10 @@
     "rationale": {
       "text": "TFR = the average number of children a woman would have over her ENTIRE REPRODUCTIVE LIFE (ages 15–49) if current age-specific fertility rates remained constant. TFR of 2.1 = 'replacement level.' TFR > 2.1 = population growth; TFR < 2.1 = potential population decline.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "85",
@@ -1612,7 +1864,10 @@
     "rationale": {
       "text": "MMR = (Maternal deaths ÷ Live births) × 1,000 = (3 ÷ 120) × 1,000 = 25 per 1,000 live births. REMEMBER: MMR uses LIVE BIRTHS as the denominator (not total population or women). The trap answer is using total population as denominator — that's wrong.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "86",
@@ -1631,7 +1886,10 @@
     "rationale": {
       "text": "IMR = (Deaths under 1 year ÷ Total live births of the same year) × 1,000 = (15 ÷ 500) × 1,000 = 30 per 1,000 live births. KEY: use LIVE BIRTHS as the denominator, NOT total population.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "87",
@@ -1650,7 +1908,10 @@
     "rationale": {
       "text": "Child/Women Ratio = (Living children 0–4 years) ÷ (Women of childbearing age 15–44). This is a SIMPLE MEASURE of recent fertility — useful when birth registration is incomplete. More living young children relative to reproductive-age women = higher recent fertility.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "88",
@@ -1669,7 +1930,10 @@
     "rationale": {
       "text": "GRR = average number of DAUGHTERS a newborn girl will bear in her lifetime, assuming FIXED age-specific fertility rates — but ignoring mortality (assuming she survives). The limitation: it assumes zero mortality, which is unrealistic.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "89",
@@ -1688,7 +1952,10 @@
     "rationale": {
       "text": "Age-Specific Death Rate = (Deaths in a specific age group ÷ Estimated population in THAT SAME age group) × 1,000. This is more informative than the crude death rate because it compares populations at similar biological risk, revealing if young adults, elderly, or children are disproportionately dying.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "90",
@@ -1707,7 +1974,10 @@
     "rationale": {
       "text": "The NEONATAL DEATH RATE (first 28 days) is the BEST index of prenatal care quality and obstetrical management. Most neonatal deaths are caused by conditions present at or around birth: prematurity, birth asphyxia, congenital anomalies, and neonatal sepsis — all preventable with good prenatal and delivery care.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "91",
@@ -1726,7 +1996,10 @@
     "rationale": {
       "text": "Pregnancy Rate = ALL PREGNANCIES (live births + stillbirths + abortions + still ongoing) ÷ Women of reproductive age. It captures the TOTAL fertility experience — including pregnancies that don't end in live births. It is broader than the birth rate.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "92",
@@ -1745,7 +2018,10 @@
     "rationale": {
       "text": "A RATIO simply compares two numbers — the numerator and denominator do NOT need to represent the same entities or time period. A RATE requires that the numerator comes FROM the denominator (people at risk). Ratios are more general; rates are more specific.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "93",
@@ -1764,7 +2040,10 @@
     "rationale": {
       "text": "Cause-Specific Death Rate = (Deaths from a specific cause ÷ Estimated midyear population) × 1,000. This helps identify which diseases are KILLING THE MOST PEOPLE in a community, guiding resource allocation and program priorities.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "94",
@@ -1783,7 +2062,10 @@
     "rationale": {
       "text": "A DROP in IMR from 45 to 18 reflects REAL IMPROVEMENT in the factors that keep infants alive: better sanitation, improved nutrition, increased breastfeeding, better prenatal care, accessible immunizations, and trained health workers. A decreasing IMR is one of the strongest signs that health programs are WORKING.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "95",
@@ -1802,7 +2084,10 @@
     "rationale": {
       "text": "Cause-Specific Death Rate = (200 ÷ 400,000) × 1,000 = 0.5 per 1,000 (also expressed as 50 per 100,000 — how TB rates are commonly reported). This means for every 1,000 people, 0.5 died from TB — useful for comparing TB burden across regions.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "96",
@@ -1821,7 +2106,10 @@
     "rationale": {
       "text": "The CBR and CDR use MIDYEAR POPULATION because population changes throughout the year. The JULY 1 ESTIMATE represents the MIDPOINT of the year — the best approximation of the average population at risk during that entire year.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "97",
@@ -1840,7 +2128,10 @@
     "rationale": {
       "text": "Sex-Specific Death Rate = (Deaths of a specific sex ÷ Estimated population of THAT SAME sex) × 1,000. This tells you if men or women are dying at higher rates, helping plan gender-targeted interventions.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "98",
@@ -1859,7 +2150,10 @@
     "rationale": {
       "text": "Fetal death (stillbirth) = death of the product of conception BEFORE complete expulsion, regardless of weeks of pregnancy. It measures PREGNANCY WASTAGE — how many pregnancies end in fetal death rather than live births, reflecting conditions like maternal infections, placental problems, and genetic abnormalities.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "99",
@@ -1878,7 +2172,10 @@
     "rationale": {
       "text": "CDR = (Total deaths from ALL causes ÷ Midyear population) × 1,000. 'Crude' means it applies to the ENTIRE population, regardless of age, sex, or cause. It measures the overall risk of dying in a given year and reflects the general mortality burden of a community.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "100",
@@ -1897,7 +2194,10 @@
     "rationale": {
       "text": "A RATIO simply compares two numbers — the numerator and denominator do NOT need to represent the same entities or time period. Example: maternal mortality RATIO. A RATE requires the numerator to come FROM the denominator (people at risk). Ratios are more general; rates are more specific.",
       "images": []
-    }
+    },
+    "tags": [
+      "vitalstats"
+    ]
   },
   {
     "id": "101",
@@ -1916,7 +2216,10 @@
     "rationale": {
       "text": "'Externally patriarchal' means the father is the publicly recognized head; 'internally matriarchal' means the mother actually runs the household and exerts significant influence over family decisions. This dual structure is a defining characteristic of the Filipino family.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "102",
@@ -1935,7 +2238,10 @@
     "rationale": {
       "text": "The BIOLOGIC function of the family covers: Reproduction, Child rearing/caring, Nutrition, Health maintenance, and Recreation. These are the basic biological activities that ensure the survival and physical well-being of family members.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "103",
@@ -1954,7 +2260,10 @@
     "rationale": {
       "text": "Doherty and McCubbin identified: health promotion/maintenance, coping with stress, family-based health appraisal, family interaction in response to illness, help-seeking decisions, and family adaptation/coping. Replacing hospitals is NOT one of these roles — families COMPLEMENT health care, not replace it.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "104",
@@ -1973,7 +2282,10 @@
     "rationale": {
       "text": "90% of cases are AMBULATORY — outpatient consultations with home confinement and prescriptions. This means the family is present for 90% of all care episodes, making it the most important ally in treatment compliance, recovery, and lifestyle modification.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "105",
@@ -1992,7 +2304,10 @@
     "rationale": {
       "text": "Commuter marriage: voluntary arrangement where dual-career couples maintain TWO RESIDENCES in different geographic locations, separated at LEAST THREE NIGHTS PER WEEK for a MINIMUM OF THREE MONTHS. It differs from regular long-distance relationships in its voluntary, structured nature.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "106",
@@ -2011,7 +2326,10 @@
     "rationale": {
       "text": "A COMMUNAL FAMILY is composed of a group of individuals formed for specific ideological or societal purposes. It is considered an alternative lifestyle for people who feel alienated from the predominantly economically-oriented society. It varies within social context.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "107",
@@ -2030,7 +2348,10 @@
     "rationale": {
       "text": "This is a SINGLE PARENT FAMILY because one parent is working outside the Philippines (OFW/DHW). The definition includes children living with only one parent — whether due to death, separation, or one parent working abroad. The absent parent doesn't make it nuclear; it functions as a single-parent unit.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "108",
@@ -2049,7 +2370,10 @@
     "rationale": {
       "text": "Joint families consist of two or more married couples (or divorced persons, widows, or widowers) of the SAME generation. This distinguishes them from extended families which include multiple GENERATIONS.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "109",
@@ -2068,7 +2392,10 @@
     "rationale": {
       "text": "Weakened kinship ties (due to urbanization, migration, mass media, occupational specialization) have led to: less time for strong bonds, decreased social interaction, psychiatric disorders, and communication gaps. When kinship ties weaken, family members become more prone to illnesses due to decreased social support.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "110",
@@ -2087,7 +2414,10 @@
     "rationale": {
       "text": "The NUCLEAR FAMILY = parents and their STILL-DEPENDENT children in a SEPARATE dwelling not shared with either spouse's family of origin. The household is economically independent, subsisting on the occupational earnings of the husband/father. It is the BASIC UNIT from which all other forms evolve.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "111",
@@ -2106,7 +2436,10 @@
     "rationale": {
       "text": "Smilkstein (1978) defined the family as: Adult partners with/without children AND single parents with children who function in a setting with a SENSE OF HOME and who have an agreement to establish NURTURING RELATIONSHIPS. This definition is notably inclusive and functional rather than purely structural.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "112",
@@ -2125,7 +2458,10 @@
     "rationale": {
       "text": "The PSYCHOLOGIC/AFFECTION function: (1) Promotes natural development of personalities; (2) Offers optimum psychological protection; (3) Promotes ability to form relationships with people in the family circle. This is the emotional and psychological foundation that the family provides to each member.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "113",
@@ -2144,7 +2480,10 @@
     "rationale": {
       "text": "Marriage fragility stems from: the shift from utilitarian basis (economic arrangement by kin) to SENTIMENTAL/SELF-REALIZATION basis. When emotional satisfaction is not found, the marriage crumbles. Additionally, social pressure to stay together has weakened — young people are more independent and laws are more relaxed.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "114",
@@ -2163,7 +2502,10 @@
     "rationale": {
       "text": "Article XV Section 1 states: 'The state recognizes the Filipino Family as the foundation of the nation. Accordingly, it shall strengthen its solidarity and actively promote its total development.' This is the constitutional basis for family-centered health care and social policy in the Philippines.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "115",
@@ -2182,7 +2524,10 @@
     "rationale": {
       "text": "'FLEXIBILITY OF FAMILY FUNCTIONS AND ROLES' refers to family members' ability to 'fill in' for one another during times of illness or when needed. This adaptability is crucial when a primary caregiver, breadwinner, or decision-maker is temporarily unavailable.",
       "images": []
-    }
+    },
+    "tags": [
+      "famunit"
+    ]
   },
   {
     "id": "116",
@@ -2201,7 +2546,10 @@
     "rationale": {
       "text": "The Regenerative Family (McCubbins) = HIGH FAMILY HARDINESS (internal strengths and durability) + HIGH FAMILY COHERENCE (emphasis on acceptance, loyalty, pride, faith, trust, respect, caring, and shared values). These families cope by working together to solve problems and feel in control of their circumstances.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "117",
@@ -2220,7 +2568,10 @@
     "rationale": {
       "text": "The Rhythmic Family = HIGH FAMILY TIME AND ROUTINES + HIGH VALUING OF FAMILY TIME AND ROUTINES. These families have a shared sense of purpose through regularity and predictability. They maintain continuity and stability through specific family activities repeated on a routine basis.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "118",
@@ -2239,7 +2590,10 @@
     "rationale": {
       "text": "The Versatile Family = HIGH FAMILY FLEXIBILITY (ability to change rules, boundaries, and roles to accommodate changing pressures) + HIGH FAMILY BONDING. These families can say what they want, give input into major decisions, shape rules, and compromise. They shift responsibilities and experiment with new ways of solving problems.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "119",
@@ -2258,7 +2612,10 @@
     "rationale": {
       "text": "Using the Family Hardiness-Coherence grid: LOW coherence + LOW hardiness = VULNERABLE. Vulnerable families are more complacent, less likely to try new things, tend to repeat the same behaviors, and are less likely to encourage each other to be active or learn new things.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "120",
@@ -2277,7 +2634,10 @@
     "rationale": {
       "text": "DURABLE families have LESSER basic internal strength (low hardiness) but compensate with a STRONG COPING REPERTOIRE characterized by caring, respect, trust, reduced tension, and calmness. They may seem weak internally but cope well through strong relational skills.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "121",
@@ -2296,7 +2656,10 @@
     "rationale": {
       "text": "The Circumplex Model (Olson) has THREE key concepts: (1) COHESION — emotional bonding between family members; (2) FLEXIBILITY — quality and expression of leadership, organization, role relationships, and rule negotiation; (3) COMMUNICATION — positive communication skills utilized by the family system.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "122",
@@ -2315,7 +2678,10 @@
     "rationale": {
       "text": "The Circumplex Model's main hypothesis: BALANCED levels of cohesion and flexibility (neither too low nor too high) are MOST conducive to healthy family functioning. Unbalanced levels (very low or very high) are associated with PROBLEMATIC family functioning.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "123",
@@ -2334,7 +2700,10 @@
     "rationale": {
       "text": "PERMISSIVE parenting: parents let the child's preferences take priority over their ideals and rarely force the child to conform to their standards. The children are in control rather than the parents. Located in the upper right quadrant (high chaos and enmeshment) of the Circumplex Model. Children exhibit impulsive-aggressive behavior.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "124",
@@ -2353,7 +2722,10 @@
     "rationale": {
       "text": "Children of DEMOCRATIC parents (Baumrind, 1995) exhibit ENERGETIC-FRIENDLY behavior: very self-reliant, cheerful, cope well with stress, and are achievement oriented. Democratic parents establish clear rules and expectations, discuss them with the child, and use both reason and power to enforce their standards.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "125",
@@ -2372,7 +2744,10 @@
     "rationale": {
       "text": "AUTHORITARIAN parenting = lower right quadrant = high RIGIDITY + high ENMESHMENT. These parents have rigid rules and expect/demand obedience and loyalty. As the style becomes more intense, the family moves toward 'rigidly enmeshed.' Children tend to be conflicted-irritable, moody, unhappy, and unfriendly.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "126",
@@ -2391,7 +2766,10 @@
     "rationale": {
       "text": "UNINVOLVED parenting = upper left quadrant = high CHAOS + DISENGAGEMENT. Parents often ignore the child, letting preferences prevail as long as they don't interfere with the parents' activities. As it becomes more extreme, it moves toward 'chaotic disengaged.' Children are often withdrawn loners and low achievers.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "127",
@@ -2410,7 +2788,10 @@
     "rationale": {
       "text": "PLIANT families feel EMOTIONALLY DISCONNECTED (low bonding) but prefer support from people outside the family and are ABLE to handle stress in a flexible way — shifting roles, making decisions, compromising, and altering family patterns as needed. They are flexible but not emotionally bonded.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "128",
@@ -2429,7 +2810,10 @@
     "rationale": {
       "text": "FRAGILE families LACK EMOTIONAL BONDING between members AND are unable to deal with stress in a flexible, participatory way. They are doubly disadvantaged — no closeness AND no adaptability — making them most vulnerable to dysfunction when stress occurs.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "129",
@@ -2448,7 +2832,10 @@
     "rationale": {
       "text": "This describes a VERSATILE FAMILY — high flexibility AND high bonding. They: say what they want, give input into major decisions, shape rules and practices, compromise, shift responsibilities, and experiment with new ways of dealing with problems and issues.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "130",
@@ -2467,7 +2854,10 @@
     "rationale": {
       "text": "INTENTIONAL families VALUE family routines and RECOGNIZE their importance, but are UNABLE OR UNWILLING to actually implement them. The intention is there, but execution fails. Compare: STRUCTURALIZED families implement routines rigorously but don't perceive their value; UNPATTERNED families neither value nor implement routines.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtypology"
+    ]
   },
   {
     "id": "131",
@@ -2486,7 +2876,10 @@
     "rationale": {
       "text": "The Family Life Cycle is the NORMAL PROCESS of family development. It involves a sequence of STRESSFUL CHANGES that require compensating or reciprocal readjustment by the family to maintain viability. Each stage has a developmental task that must be accomplished to proceed to the next stage.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "132",
@@ -2505,7 +2898,10 @@
     "rationale": {
       "text": "SECOND ORDER CHANGES: 'NEED TO BE' — involve TRANSFORMATION of an individual's state and meaning; change in the VERY BASIC ATTRIBUTES of the family system; change in the ROLE AND IDENTITY of family members; occur BETWEEN stages of the Family Life Cycle. Example: when the first child is born, the husband becomes the FATHER and the wife becomes the MOTHER.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "133",
@@ -2524,7 +2920,10 @@
     "rationale": {
       "text": "FIRST ORDER CHANGES: 'NEED TO DO' — involve INCREMENTS OF MASTERY AND ADAPTATION; do NOT involve change in the main structure of the family; do NOT involve a change in individual identity; are ADDITIONS to the existing state. Example: a family moving to a new residence — adapting to the new environment without changing who they are.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "134",
@@ -2543,7 +2942,10 @@
     "rationale": {
       "text": "The LAUNCHING FAMILY key principle: ACCEPTING A MULTITUDE OF ENTRIES AND EXITS to the family system. This stage begins when the FIRST CHILD LEAVES HOME and ends when the LAST CHILD LEAVES HOME. In the Philippines, this is prolonged because unmarried children usually stay with parents.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "135",
@@ -2562,7 +2964,10 @@
     "rationale": {
       "text": "Family with Adolescents key principle: INCREASING FLEXIBILITY OF FAMILY BOUNDARIES to include children's independence (and grandparent's frailties). This stage starts when the first child reaches adolescent age (12 in the Philippines). Not only teenagers but also parents are undergoing identity crisis at this stage.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "136",
@@ -2581,7 +2986,10 @@
     "rationale": {
       "text": "The THREE HALLMARKS of the Family with Adolescents stage: (1) Changes in the BALANCE OF RESPONSIBILITY along with overfunctioning and underfunctioning; (2) MARKED SHIFTS IN INTENSITY OF RELATIONSHIPS; (3) SURGE OF EXCHANGE WITH THE COMMUNITY AT LARGE. These reflect the adolescent's developmental need for autonomy.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "137",
@@ -2600,7 +3008,10 @@
     "rationale": {
       "text": "The HONEYMOON STAGE (0-2 years): emotional issue = COMMITMENT TO THE MARRIAGE. Critical tasks include: differentiation from family of origin, making room for spouse with family and friends, and adjusting career demands. This is when the couple establishes their identity as a unit.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "138",
@@ -2619,7 +3030,10 @@
     "rationale": {
       "text": "The MIDDLE MARRIAGE STAGE (10-25 years): emotional issue = POST-CARE REVIEW. Critical tasks include: adjusting to mid-life changes, renegotiating the relationship, and renewing marriage commitment. Parents are often dealing with both adolescent children and aging parents simultaneously during this stage.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "139",
@@ -2638,7 +3052,10 @@
     "rationale": {
       "text": "The FAMILY IN LATER YEARS: begins with the DEPARTURE OF THE LAST CHILD and continues through retirement of one or both of the couple, ending when both are dead. The key principle is 'accepting the shifting of generational goals' — the middle generation becomes more central.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "140",
@@ -2656,7 +3073,10 @@
     "rationale": {
       "text": "With a 10-year-old daughter (young child), they are in the FAMILY WITH YOUNG CHILDREN stage. The key principle is: ACCEPTING MARITAL SYSTEM TO MAKE SPACE FOR CHILDREN. Key tasks include taking on parenting roles and realigning relationships with extended family to include parenting and grandparenting roles.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "141",
@@ -2674,7 +3094,10 @@
     "rationale": {
       "text": "For Family in Later Years, the 2nd Order Change includes: SUPPORT FOR A MORE CENTRAL ROLE FOR MIDDLE GENERATION. The elderly generation must accept that the middle generation (their adult children) now takes on more central family leadership, while the elderly's role shifts to providing wisdom and experience.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "142",
@@ -2692,7 +3115,10 @@
     "rationale": {
       "text": "With a 4-year-old child and an OFW father, this is a FAMILY WITH YOUNG CHILDREN stage. The key 2nd Order Change (adaptive task) = ACCEPTING MARITAL SYSTEM TO MAKE SPACE FOR CHILDREN; TAKING ON PARENTING ROLES. For an OFW family, this also includes realigning roles when a parent is absent.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "143",
@@ -2711,7 +3137,10 @@
     "rationale": {
       "text": "The UNATTACHED YOUNG ADULT stage key principle: ACCEPTING PARENT-OFFSPRING SEPARATION. The young adult has come to terms with the family of origin and formulates personal goals as an individual, including forming a new family. Second-order changes include: differentiation of self in relation to family of origin, development of intimate peer relationships, and establishment of self in work.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "144",
@@ -2729,7 +3158,10 @@
     "rationale": {
       "text": "Gender identity and sexual orientation issues typically emerge during the FAMILY WITH ADOLESCENTS stage — this is when adolescents are exploring their identity, including sexual identity. This is listed as one of the common problems encountered during this stage (along with drug abuse, STDs, juvenile delinquency, and suicidal tendencies).",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "145",
@@ -2748,7 +3180,10 @@
     "rationale": {
       "text": "The 'EMPTINESS SYNDROME' (empty nest syndrome) is associated with the LAUNCHING FAMILY stage — when children leave home and parents experience feelings of emptiness, purposelessness, and loss of role. Parents may also experience career stagnation, depression, and the burden of over-dependent married children.",
       "images": []
-    }
+    },
+    "tags": [
+      "famlc"
+    ]
   },
   {
     "id": "146",
@@ -2767,7 +3202,10 @@
     "rationale": {
       "text": "The Family Illness Trajectory has FIVE STAGES: (1) ONSET OF ILLNESS; (2) REACTION TO DIAGNOSIS — Impact Phase; (3) MAJOR THERAPEUTIC EFFORTS; (4) RECOVERY PHASE — Early Adjustment to Outcome; (5) ADJUSTMENT TO THE PERMANENCY OF THE OUTCOME. Each stage has specific family and physician roles.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "147",
@@ -2786,7 +3224,10 @@
     "rationale": {
       "text": "STAGE I is the stage experienced PRIOR TO CONTACT WITH HEALTH CARE PROVIDERS. It is initiated by the warning sign of malaise. Medical beliefs and previous experiences influence the meaning of illness at this stage. The nature of onset (acute vs. gradual) plays an important role in the family's response.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "148",
@@ -2804,7 +3245,10 @@
     "rationale": {
       "text": "STAGE IV: RECOVERY PHASE — EARLY ADJUSTMENT TO OUTCOME. The patient is returning home after major therapy (surgery). The physician checks how the family is coping with the patient's return — adjusting roles, re-integrating the patient, and adapting to any remaining limitations.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "149",
@@ -2822,7 +3266,10 @@
     "rationale": {
       "text": "STAGE V: ADJUSTMENT TO THE PERMANENCY OF THE OUTCOME. The family is realizing they must ACCEPT and ADJUST to a PERMANENT DISABILITY. The second crisis occurs when the family realizes the pattern they thought was temporary must be accepted as permanent. The inability to reorganize roles signals this stage.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "150",
@@ -2840,7 +3287,10 @@
     "rationale": {
       "text": "STAGE II: REACTION TO DIAGNOSIS — IMPACT PHASE. The patient is emotionally reacting (sobbing), the partner is cognitively processing (quiet), and the patient is asking about treatment. These are characteristic of the Impact Phase — emotional response on one plane, cognitive processing on another.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "151",
@@ -2859,7 +3309,10 @@
     "rationale": {
       "text": "'Aid the patient and the family in efficient and functional readjustment' is the responsibility in STAGE IV (Recovery Phase), not Stage II. In Stage II, the physician must judge how much information to give, give information in doses, provide support, and interpret misunderstood findings.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "152",
@@ -2877,7 +3330,10 @@
     "rationale": {
       "text": "COGNITIVE PLANE Phase IV: EVENTUAL ACCEPTANCE OF DIAGNOSIS enables the family to MOBILIZE RESOURCES and REORGANIZE the family. The quality of family reorganization at this phase determines if they achieve healthy adaptation or reorganize at a more dysfunctional level.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "153",
@@ -2896,7 +3352,10 @@
     "rationale": {
       "text": "When the MOTHER is hospitalized: GREATEST IMPACT on other family members + HIGHEST RISK OF FAMILY DYSFUNCTION. The mother typically manages household and caregiving roles, so her absence disrupts the entire family system most severely.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "154",
@@ -2915,7 +3374,10 @@
     "rationale": {
       "text": "For TERMINAL ILLNESS: the initial response is SHOCK AND OVERWHELMING ANXIETY. As they respond to the pain with DENIAL. If the family is functional, members draw close together to provide care and support. If dysfunctional, this can be the seed for future family discord and breakdown.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "155",
@@ -2933,7 +3395,10 @@
     "rationale": {
       "text": "STAGE V: ADJUSTMENT TO THE PERMANENCY OF THE OUTCOME. With terminal cancer refusing chemotherapy and choosing home care, the family must ACCEPT AND ADJUST to the PERMANENCY of the illness outcome. The whole family must give up hope for full return to health and accept that life must go forward with this new reality.",
       "images": []
-    }
+    },
+    "tags": [
+      "famillness"
+    ]
   },
   {
     "id": "156",
@@ -2952,7 +3417,10 @@
     "rationale": {
       "text": "The Family APGAR (Smilkstein) is a rapid screening instrument for FAMILY DYSFUNCTION measuring the individual's level of SATISFACTION about family relationships. It has 5 items: (A) Adaptation, (P) Partnership, (G) Growth, (A) Affection, (R) Resolve. Scores: 8-10 = highly functional, 4-7 = moderately dysfunctional, 0-3 = severely dysfunctional.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "157",
@@ -2971,7 +3439,10 @@
     "rationale": {
       "text": "RESOLVE = how TIME, SPACE, and MONEY are SHARED. It measures members' SATISFACTION WITH THE COMMITMENT made by other members of the family. For example, 'I am satisfied with the way my family and I share time together.'",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "158",
@@ -2990,7 +3461,10 @@
     "rationale": {
       "text": "PARTNERSHIP = SHARING OF DECISION-MAKING. It measures the satisfaction attained in solving problems by COMMUNICATING. For example, 'I am satisfied with the way my family talks over things with me and shares problems with me.'",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "159",
@@ -3009,7 +3483,10 @@
     "rationale": {
       "text": "Total score = 6 = MODERATELY DYSFUNCTIONAL FAMILY (4-7 points). Note the lowest score is in R (Resolve = time sharing), suggesting dissatisfaction with how the family shares time together. This warrants further family assessment.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "160",
@@ -3028,7 +3505,10 @@
     "rationale": {
       "text": "The FAMILY CIRCLE: a brief, graphic method where the physician draws a LARGE CIRCLE and instructs the patient to draw SMALLER CIRCLES representing themselves and all important people. People can be inside or outside, touching or far apart, large or small depending on significance. Through this tool, one can assess openness, boundaries, support, function, triangulation, and interdependence.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "161",
@@ -3047,7 +3527,10 @@
     "rationale": {
       "text": "SCREEM = Social, Cultural, Religious, Economic, Educational, and Medical factors affecting health. It assesses the family's capacity to participate in provision of health care or to cope with crisis. Each factor can be a RESOURCE (strength) or PATHOLOGY (weakness/barrier) for the family.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "162",
@@ -3066,7 +3549,10 @@
     "rationale": {
       "text": "SCREEM is most commonly used when the NEED FOR CARE IS LONG OR LASTS A LIFETIME — such as in chronically-ill, terminally-ill, and hospice care patients. It identifies what resources the family has (social support, financial capacity, education, medical access) and what barriers (pathologies) exist.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "163",
@@ -3085,7 +3571,10 @@
     "rationale": {
       "text": "The Family Genogram must consist of 3 OR MORE GENERATIONS, each identified by Roman numerals. The first-born of each generation is farthest to the left, with siblings following to the right in order of birth. It serves three purposes: overview of interrelationships, looking at medical/psychosocial problems, and understanding multigenerational family systems.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "164",
@@ -3104,7 +3593,10 @@
     "rationale": {
       "text": "The INDEX PATIENT (proband) is the family member of GREATER MEDICAL SIGNIFICANCE because of an illness, identified with an ARROW on the genogram. Persons living in the same household are enclosed with a heavy line. Significant diseases are illustrated using symbols that must appear in the legend.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "165",
@@ -3123,7 +3615,10 @@
     "rationale": {
       "text": "The ECOMAP is a PICTORIAL REPRESENTATION of the elements of the patient's environment and the NATURE AND QUALITY OF INTERACTIONS between those elements. It illustrates 3 dimensions for each connection: STRENGTH (weak, tenuous, strong), IMPACT (draining or providing resources), and QUALITY (stressful or not stressful).",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "166",
@@ -3142,7 +3637,10 @@
     "rationale": {
       "text": "ENMESHMENT occurs when boundaries are DIFFUSE — parents have no privacy from children, members are OVERLY REACTIVE to stress on one member, and there is LACK OF INDIVIDUAL AUTONOMY. When families care for young children, high enmeshment is appropriate; but at later life cycle stages, it can inhibit individual development.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "167",
@@ -3161,7 +3659,10 @@
     "rationale": {
       "text": "TRIANGULATION: a third person is drawn into a TWO-PERSON SYSTEM to DIFFUSE ANXIETY OR CONFLICT. Example: rather than arguing with each other about marital issues, parents express their discontent by arguing over parenting their son. The son (third person) is triangulated by the parents' conflict.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "168",
@@ -3180,7 +3681,10 @@
     "rationale": {
       "text": "DISENGAGEMENT: characterized by boundaries that are TOO RIGID — members are EMOTIONALLY DISTANT and UNRESPONSIVE to each other. Example: a husband who does not tell his wife or children about any of his health problems. The mother-child subsystem that excludes the father's involvement in parenting is also disengagement.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "169",
@@ -3199,7 +3703,10 @@
     "rationale": {
       "text": "The FAMILY LIFELINE is most useful when ANTICIPATING A LONG-TERM ILLNESS, the presence of DIFFICULT CAREGIVING, or NON-ADHERENCE TO TREATMENT. It summarizes the family's significant experiences chronologically, helps process family flexibility when dealing with changes, and includes both normative and non-normative crises.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "170",
@@ -3218,7 +3725,10 @@
     "rationale": {
       "text": "SCREEM-RES scoring: 13-18 = ADEQUATE family resources; 7-12 = MODERATELY INADEQUATE family resources; 0-6 = SEVERELY INADEQUATE family resources. Lower scores indicate the family has fewer resources to cope with illness and provide care, requiring more external support and intervention.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "171",
@@ -3237,7 +3747,10 @@
     "rationale": {
       "text": "DRAFT is a PROJECTIVE TECHNIQUE that: provides clues on individual family members' personalities AND serves as a diagnostic device. Family members draw their family, revealing unconscious dynamics. Drawings are first to show incipient psychopathology and the last to lose signs of illness after recovery. Interpretation is made by a Clinical Psychologist.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "172",
@@ -3256,7 +3769,10 @@
     "rationale": {
       "text": "ADAPTATION = the capability of the family to UTILIZE AND SHARE INHERENT RESOURCES (intra-familial or extra-familial). Mang Krenz cannot turn to his family for help (financial resources) when something is troubling him — this is the ADAPTATION component of the APGAR.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "173",
@@ -3275,7 +3791,10 @@
     "rationale": {
       "text": "Total score = 9 = HIGHLY FUNCTIONAL FAMILY (8-10 points). All components score well except Partnership (sharing of decision-making and communication about problems) which scores 'some of the time.' This would warrant gentle exploration of communication patterns in the family.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "174",
@@ -3294,7 +3813,10 @@
     "rationale": {
       "text": "In Smilkstein's cycle: Stressful life event → Disequilibrium. If family resources are adequate → Adaptation → Functional equilibrium. If inadequate → CRISIS. If extra-familial resources are adequate → Adaptation. If extra-familial resources are ALSO inadequate → MALADAPTATION using pathologic defense mechanisms (denial, repression, somatization, projection) → Terminal disequilibrium or Pathologic equilibrium.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "175",
@@ -3313,7 +3835,10 @@
     "rationale": {
       "text": "Minuchin's Family Map boundary symbols: CLEAR = dashed line (- - - - ); RIGID = solid line (———); DIFFUSE = dotted line (. . . . . . .). Clear boundaries prevent interference but allow contact; rigid boundaries lead to disengagement; diffuse boundaries lead to enmeshment.",
       "images": []
-    }
+    },
+    "tags": [
+      "famtools"
+    ]
   },
   {
     "id": "176",
@@ -3332,7 +3857,10 @@
     "rationale": {
       "text": "ABLe-ReP = Attending, Bracketing, Leading, Reflecting (Content, Feeling, Experience), Probing. These are the 5 active listening skills from Carl Rogers' humanistic client-centered counseling model. They turn a biomedical consult into a biopsychosocial one.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "177",
@@ -3351,7 +3879,10 @@
     "rationale": {
       "text": "BRACKETING is primarily a MENTAL SKILL (not verbal or non-verbal). It means SETTING ASIDE our biases, prejudices, and pre-conceived notions to make way for what the patient is REALLY saying. When a patient shares alternative treatment choices, bracketing allows the physician to listen without judgment.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "178",
@@ -3370,7 +3901,10 @@
     "rationale": {
       "text": "LOVERS = Leaning forward, Open stance/posture, Voice of empathy/compassion, Eye contact, Relaxed setting, Sit at an angle (45°). These are the NONVERBAL attending skills that communicate 'I am listening to you / I am paying attention' without words.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "179",
@@ -3389,7 +3923,10 @@
     "rationale": {
       "text": "REFLECTING EXPERIENCE = verbalizing the NONVERBAL CUES given by the patient. These cues are UNCONSCIOUS and are valuable clues to emotions. Example: 'I noticed that a while ago, you looked out at the door at your wife then you shut it. Could you tell me what was behind that action?'",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "180",
@@ -3408,7 +3945,10 @@
     "rationale": {
       "text": "EDUCATION in CEA addresses EMOTIONALLY CRITICAL MISPERCEPTIONS (ECMs) — the misperceptions causing the GREATEST EMOTIONAL UPSET. The ECM is addressed FIRST (before pathophysiology and pharmacology) because the patient is distracted by emotions. Explanations must be in the patient's language — simple, avoiding scientific jargon.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "181",
@@ -3427,7 +3967,10 @@
     "rationale": {
       "text": "P = PERCEPTION: 'BEFORE YOU TELL, ASK.' Use open-ended questions to assess the patient's current understanding of their medical situation. Establish what the patient already knows or expects. This helps tailor how the bad news is delivered and can also serve as a 'warning shot.'",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "182",
@@ -3446,7 +3989,10 @@
     "rationale": {
       "text": "K = KNOWLEDGE: GIVING INFORMATION. This involves: warning the patient bad news is coming, starting at the patient's level of comprehension and vocabulary, using non-technical words, avoiding excessive bluntness, and giving information in SMALL CHUNKS, periodically checking for understanding. Allow pauses for the patient to digest.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "183",
@@ -3465,7 +4011,10 @@
     "rationale": {
       "text": "NURSE = Name ('I imagine this must be upsetting' — name the emotion), Understand ('I expect most people would feel that way in a situation like this'), Respect ('I'm impressed with how well you've handled such a tough situation'), Support ('I'll be here to help you through this'), Explore ('Tell me more about how you're feeling and what this means for you').",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "184",
@@ -3484,7 +4033,10 @@
     "rationale": {
       "text": "LEVEL 4: SYSTEMATIC FAMILY ASSESSMENT AND PLANNED INTERVENTION. Physicians have background knowledge of Family Systems Theory, should be skilled enough to assess family functions and carry out short-term family-level interventions. Uses Rogerian counseling and some forms of cognitive behavior therapy. Requires DIPLOMATE level training.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "185",
@@ -3503,7 +4055,10 @@
     "rationale": {
       "text": "The MOST APPROPRIATE degree of involvement with most families is LEVELS 2 AND 3. Level 2: providing ongoing medical information and advice. Level 3: eliciting feelings and providing emotional support (CEA model). Level 4 requires more intensive training; Level 5 (Family Therapy) is beyond the scope of family practice.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "186",
@@ -3522,7 +4077,10 @@
     "rationale": {
       "text": "LEVEL 1: MINIMAL EMPHASIS ON THE FAMILY. Physicians at this level consider dealing with families as necessary only for practical and medico-legal reasons. They focus on the BIOMEDICAL PROBLEM and ONE-WAY COMMUNICATION prevails. They are typically physicians with very busy clinical practices owing to time pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "187",
@@ -3540,7 +4098,10 @@
     "rationale": {
       "text": "LEVEL 3: ELICITING FEELINGS AND PROVIDING EMOTIONAL SUPPORT. Key features: meeting with families, providing information and medical advice, responding to emotional needs, supporting the psychosocial impact of illness, and using the CATHARSIS-EDUCATION-ACTION (CEA) model for individual health education.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "188",
@@ -3559,7 +4120,10 @@
     "rationale": {
       "text": "SETTING: arrange for PRIVACY (never break bad news standing in a corridor!), involve significant others, SIT DOWN (both physician and patient), maintain eye contact, manage time constraints (turn off beepers/phones), have tissues available, and arrange chairs at approximately 45° angles to avoid physical barriers between physician and patient.",
       "images": []
-    }
+    },
+    "tags": [
+      "commskills"
+    ]
   },
   {
     "id": "189",
@@ -3578,7 +4142,10 @@
     "rationale": {
       "text": "COPC (Abramson and Kark) = a strategy whereby elements of PRIMARY HEALTH CARE and COMMUNITY MEDICINE are SYSTEMATICALLY DEVELOPED and BROUGHT TOGETHER in a COORDINATED PRACTICE. It unifies clinical care of individuals with community medicine — using both epidemiologic and clinical skills as complementary functions.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "190",
@@ -3597,7 +4164,10 @@
     "rationale": {
       "text": "The 5 ESSENTIAL FEATURES of COPC: (1) Use of EPIDEMIOLOGIC AND CLINICAL SKILLS as complementary functions; (2) DEFINED POPULATION as target; (3) DEFINED PROGRAMS to deal with community health problems; (4) INVOLVEMENT OF THE COMMUNITY in promoting its health; (5) ACCESSIBILITY — not just geographic but free from fiscal, social, cultural, and communication barriers.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "191",
@@ -3616,7 +4186,10 @@
     "rationale": {
       "text": "The 6 STEPS: (1) DEFINE AND CHARACTERIZE the community; (2) PRIORITIZATION of health problems; (3) DETAILED ASSESSMENT of the selected health problem; (4) INTERVENTION PLANNING AND IMPLEMENTATION; (5) MONITORING; (6) EVALUATION AND RE-ASSESSMENT. COPC is a continuous cycle.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "192",
@@ -3635,7 +4208,10 @@
     "rationale": {
       "text": "CENTRAL/NUCLEAR MEMBERS of the COPC team: PHYSICIANS, NURSES, SOCIAL CASE WORKERS, and COMMUNITY ORGANIZERS/HEALTH EDUCATORS. SUPPORTIVE MEMBERS include: administrators, laboratory, pharmacy, secretarial, and health records. CONSULTATIVE MEMBERS include: epidemiologists, biostatisticians, and medical sociologists.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "193",
@@ -3654,7 +4230,10 @@
     "rationale": {
       "text": "PRIORITIZATION criteria (mutually agreed upon with the community): SEVERITY (morbidity and mortality) of the health problem + PREVALENCE among the defined population. Because of limited resources, the COPC team must choose ONE problem to focus on. Prioritization INVOLVES THE COMMUNITY — it cannot be imposed by health professionals alone.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "194",
@@ -3673,7 +4252,10 @@
     "rationale": {
       "text": "In COPC, the 'community' (in order of preference): (1) a 'true' sociological community; (2) a defined neighborhood; (3) workers in a factory/students in a school; (4) people registered as potential users of a health service; (5) users/repeated users of a defined service. The term is broad and not limited to 'true' communities.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "195",
@@ -3692,7 +4274,10 @@
     "rationale": {
       "text": "Clinical 'Continuing Observation' (evaluation of patient's progress) → Epidemiologic 'CONTINUING SURVEILLANCE' (surveillance of health state of community and ensuring continuing action, evaluation of intervention programs). Clinical skills focus on individuals; epidemiologic skills focus on population groups.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "196",
@@ -3710,7 +4295,10 @@
     "rationale": {
       "text": "Identifying hypertension and diabetes as the PREVALENT health problems in the community represents COMMUNITY HEALTH DIAGNOSIS AND HEALTH SURVEILLANCE. This step requires epidemiologic study of the differential distribution of particular health conditions and the factors that determine their distribution.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "197",
@@ -3729,7 +4317,10 @@
     "rationale": {
       "text": "INVOLVEMENT OF THE COMMUNITY in the promotion of its health is an ABSOLUTE ESSENTIAL feature of COPC. Community involvement may be seen as a PREREQUISITE for the satisfactory and continued functioning of a COPC service. Multidisciplinary team and mobility are DESIRABLE but not essential features.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "198",
@@ -3747,7 +4338,10 @@
     "rationale": {
       "text": "The established COPC development processes: Preliminary steps; Community health diagnosis and health surveillance; Planning of intervention; Implementation; Evaluation; Decision making for future action. 'PROMOTING COMMUNITY INVOLVEMENT' per se is not listed as a separate PROCESS — it is embedded throughout all processes, but it is not a standalone step in the classic framework.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "199",
@@ -3766,7 +4360,10 @@
     "rationale": {
       "text": "The Institute of Medicine's 5 essential attributes of good primary care: (1) ACCESSIBILITY; (2) COMPREHENSIVENESS; (3) COORDINATION; (4) CONTINUITY; (5) ACCOUNTABILITY. Note: the PHC 5Cs are similar but slightly different — First Contact, Comprehensiveness, Coordination, Continuity, Person-Centeredness.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   },
   {
     "id": "200",
@@ -3785,6 +4382,9 @@
     "rationale": {
       "text": "Once a successful intervention is in place, COPC cycles back to the PRIORITIZATION STAGE to choose a NEW health problem. The definition and characterization generally remain appropriate for some time with only intermittent updates. COPC is a CONTINUOUS CYCLE — there is always a next health problem to address.",
       "images": []
-    }
+    },
+    "tags": [
+      "copc"
+    ]
   }
 ]

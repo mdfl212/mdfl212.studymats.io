@@ -15,7 +15,12 @@
     "rationale": {
       "text": "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia, appearing as gram-positive lancet-shaped diplococci. S. aureus appears as grape-like clusters, H. influenzae are small gram-negative coccobacilli, M. catarrhalis are gram-negative diplococci.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Diplococci"
+    ]
   },
   {
     "id": "2",
@@ -33,7 +38,12 @@
     "rationale": {
       "text": "Clostridium perfringens causes gas gangrene (myonecrosis) with gas formation, especially in diabetics and trauma. C. tetani causes tetanus, B. anthracis causes anthrax, L. monocytogenes causes meningitis in immunocompromised.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Bacilli"
+    ]
   },
   {
     "id": "3",
@@ -51,7 +61,12 @@
     "rationale": {
       "text": "Neisseria meningitidis is a gram-negative diplococcus that causes epidemic meningitis with petechial rash. Pneumococcus is gram-positive diplococcus; Listeria is gram-positive rod; Haemophilus is a small coccobacillus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Negative",
+      "Diplococci"
+    ]
   },
   {
     "id": "4",
@@ -69,7 +84,10 @@
     "rationale": {
       "text": "S. pneumoniae is the most common bacterial cause of acute otitis media, followed by non-typeable H. influenzae and M. catarrhalis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "5",
@@ -87,7 +105,10 @@
     "rationale": {
       "text": "Pseudomonas aeruginosa produces mucoid colonies, is oxidase-positive, and causes pneumonia in immunocompromised or patients with chronic lung disease. Klebsiella is oxidase-negative and ferments lactose; Enterobacter and Acinetobacter are also oxidase-negative.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "6",
@@ -105,7 +126,12 @@
     "rationale": {
       "text": "E. coli is the most common cause of catheter-associated UTI, being a lactose-fermenting gram-negative rod. Klebsiella and Proteus are also common but less frequent; Pseudomonas is non-lactose-fermenting.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Bacilli"
+    ]
   },
   {
     "id": "7",
@@ -123,7 +149,10 @@
     "rationale": {
       "text": "Klebsiella pneumoniae causes a lobar pneumonia with thick, blood-tinged 'currant jelly' sputum, especially in alcoholics and debilitated patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "8",
@@ -141,7 +170,12 @@
     "rationale": {
       "text": "Corynebacterium diphtheriae causes diphtheria with a pseudomembrane. S. pyogenes causes pharyngitis without pseudomembrane. Arcanobacterium and Fusobacterium can cause pharyngitis but not the classic pseudomembrane.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Bacilli"
+    ]
   },
   {
     "id": "9",
@@ -159,7 +193,12 @@
     "rationale": {
       "text": "Enterococci (E. faecalis) are a common cause of infective endocarditis on prosthetic valves, and are gram-positive cocci in chains. S. aureus causes acute endocarditis on native valves. Viridans group is associated with dental procedures. S. bovis is linked to colon cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Cocci"
+    ]
   },
   {
     "id": "10",
@@ -177,7 +216,10 @@
     "rationale": {
       "text": "Group B Streptococcus (S. agalactiae) is the most common cause of early-onset neonatal meningitis. E. coli is second. Listeria is associated with unpasteurized dairy. N. meningitidis affects older children and young adults.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "11",
@@ -195,7 +237,10 @@
     "rationale": {
       "text": "Borrelia burgdorferi causes Lyme disease, with erythema migrans as the classic rash. Rickettsia rickettsii causes Rocky Mountain spotted fever (petechial rash). Ehrlichia causes fever without rash. Babesia causes hemolytic anemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "12",
@@ -213,7 +258,11 @@
     "rationale": {
       "text": "E. coli O157:H7 (enterohemorrhagic) produces Shiga toxin and is the leading cause of HUS. Shigella can also cause HUS but is less common. Salmonella and Campylobacter are not typically associated with HUS.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria",
+      "Escherichia"
+    ]
   },
   {
     "id": "13",
@@ -231,7 +280,12 @@
     "rationale": {
       "text": "Salmonella typhi causes typhoid fever: high fever, relative bradycardia, rose spots, and positive blood culture. Dengue and malaria have different presentations; scrub typhus has an eschar.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Bacilli"
+    ]
   },
   {
     "id": "14",
@@ -249,7 +303,11 @@
     "rationale": {
       "text": "Clostridium perfringens is a gram-positive anaerobe associated with gas gangrene and abdominal infections. Bacteroides fragilis is gram-negative. Actinomyces is gram-positive but not a common cause of intra-abdominal abscess. Peptostreptococcus is a gram-positive anaerobe but less common in abdominal abscesses than B. fragilis (gram-negative). The question asks specifically for gram-positive anaerobe, and C. perfringens is a classic one.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive"
+    ]
   },
   {
     "id": "15",
@@ -267,7 +325,12 @@
     "rationale": {
       "text": "Asplenic patients are at high risk for encapsulated organisms, especially S. pneumoniae. It appears as gram-positive diplococci. N. meningitidis is gram-negative diplococci. H. influenzae is a gram-negative coccobacillus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Cocci"
+    ]
   },
   {
     "id": "16",
@@ -285,7 +348,10 @@
     "rationale": {
       "text": "Campylobacter jejuni is the most common cause of bacterial foodborne illness in the U.S., followed by Salmonella. E. coli O157 and Listeria are less frequent but more severe.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "17",
@@ -303,7 +369,12 @@
     "rationale": {
       "text": "Disseminated gonococcal infection (DGI) causes tenosynovitis, dermatitis, and septic arthritis with gram-negative diplococci. N. meningitidis can cause arthritis but is rare. S. aureus and S. pyogenes are gram-positive cocci.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Negative",
+      "Diplococci"
+    ]
   },
   {
     "id": "18",
@@ -321,7 +392,10 @@
     "rationale": {
       "text": "H. influenzae type b was the most common cause of epiglottitis (steeple sign is croup, but epiglottitis shows thumb sign). For croup, it's viral (parainfluenza). For bacterial tracheitis, S. aureus. But classic bacterial epiglottitis is H. influenzae type b. The question might be ambiguous, but H. influenzae is the classic bacterial cause of acute epiglottitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "19",
@@ -339,7 +413,10 @@
     "rationale": {
       "text": "Helicobacter pylori is associated with chronic gastritis, peptic ulcers, and gastric MALT lymphoma. Watermelon stomach is not associated with H. pylori; it's a vascular condition. But among the options, H. pylori is the most common gastric pathogen. The question might be a distractor; the correct answer is H. pylori as a gastric pathogen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "20",
@@ -357,7 +434,10 @@
     "rationale": {
       "text": "Clostridium difficile causes pseudomembranous colitis after antibiotic use, with watery diarrhea and positive toxin A/B. The others are not classically associated with antibiotic use.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "21",
@@ -375,7 +455,12 @@
     "rationale": {
       "text": "Pseudomonas aeruginosa produces a green pigment (pyocyanin), is oxidase-positive, and causes UTIs in catheterized patients. E. coli and Klebsiella are oxidase-negative.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Bacilli"
+    ]
   },
   {
     "id": "22",
@@ -393,7 +478,10 @@
     "rationale": {
       "text": "Coxiella burnetii causes Q fever. Rickettsia causes spotted fever, Ehrlichia and Anaplasma cause ehrlichiosis and anaplasmosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "23",
@@ -411,7 +499,10 @@
     "rationale": {
       "text": "Bartonella henselae causes cat-scratch disease: papule/pustule at inoculation site followed by lymphadenopathy. P. multocida causes cellulitis after animal bites. F. tularensis causes tularemia (ulceroglandular). Y. pestis causes plague.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "24",
@@ -429,7 +520,12 @@
     "rationale": {
       "text": "S. aureus is the most common cause of infective endocarditis in IV drug users, affecting the tricuspid valve, with septic emboli. S. epidermidis is associated with prosthetic devices. S. pneumoniae causes pneumonia. Enterococcus is associated with colon/GU.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Cocci"
+    ]
   },
   {
     "id": "25",
@@ -447,7 +543,10 @@
     "rationale": {
       "text": "Gardnerella vaginalis is the most common organism associated with bacterial vaginosis. Lactobacillus is part of normal flora. Candida causes yeast infection. Trichomonas causes trichomoniasis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "26",
@@ -465,7 +564,12 @@
     "rationale": {
       "text": "Proteus mirabilis is a gram-negative rod, oxidase-negative, lactose-negative on MacConkey, and produces a foul smell. It causes diabetic foot infections and UTIs. K. pneumoniae is lactose-fermenting. E. coli is lactose-fermenting. P. aeruginosa is oxidase-positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Bacilli"
+    ]
   },
   {
     "id": "27",
@@ -483,7 +587,10 @@
     "rationale": {
       "text": "Scarlet fever is caused by S. pyogenes (Group A strep) producing erythrogenic toxin, leading to a sandpaper rash with perioral pallor. S. aureus causes staphylococcal scalded skin syndrome (different rash).",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "28",
@@ -501,7 +608,10 @@
     "rationale": {
       "text": "S. pyogenes (Group A strep) is the most common cause of cellulitis, followed by S. aureus. S. pneumoniae causes pneumonia. C. perfringens causes gas gangrene.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "29",
@@ -519,7 +629,12 @@
     "rationale": {
       "text": "Klebsiella pneumoniae is a gram-negative rod with a large capsule, causing lobar pneumonia in alcoholics. S. pneumoniae is gram-positive diplococci. H. influenzae is a small coccobacillus. P. aeruginosa is oxidase-positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Negative",
+      "Bacilli"
+    ]
   },
   {
     "id": "30",
@@ -537,7 +652,10 @@
     "rationale": {
       "text": "Borrelia burgdorferi causes Lyme disease with erythema migrans (bull's-eye rash), transmitted by Ixodes ticks. Rickettsia causes RMSF (spotted rash). Ehrlichia causes fever without rash. Babesia causes hemolytic anemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "31",
@@ -555,7 +673,12 @@
     "rationale": {
       "text": "Staphylococcus epidermidis is a coagulase-negative staphylococcus that causes prosthetic joint infections. S. aureus is coagulase-positive. S. viridans and Enterococcus are not typical for prosthetic joints.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Cocci"
+    ]
   },
   {
     "id": "32",
@@ -573,7 +696,12 @@
     "rationale": {
       "text": "Listeria monocytogenes is a gram-positive rod with tumbling motility, causing sepsis and meningitis in immunocompromised, pregnant, and elderly. B. cereus causes food poisoning. C. perfringens causes gas gangrene. C. diphtheriae causes diphtheria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Bacilli"
+    ]
   },
   {
     "id": "33",
@@ -591,7 +719,11 @@
     "rationale": {
       "text": "E. coli is the most common cause of pyelonephritis in pregnancy, as in general UTIs. K. pneumoniae, Proteus, and Enterococcus are less common.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria",
+      "Escherichia"
+    ]
   },
   {
     "id": "34",
@@ -609,7 +741,12 @@
     "rationale": {
       "text": "Neisseria meningitidis causes meningococcemia, often with petechial rash, and gram-negative diplococci in CSF. The others have different Gram stain appearances.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Diplococci"
+    ]
   },
   {
     "id": "35",
@@ -627,7 +764,12 @@
     "rationale": {
       "text": "Viridans group streptococci are part of the oral flora, optochin-resistant, and bile-insoluble (unlike S. pneumoniae which is optochin-sensitive and bile-soluble). They cause subacute endocarditis after dental procedures.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Cocci"
+    ]
   },
   {
     "id": "36",
@@ -645,7 +787,11 @@
     "rationale": {
       "text": "E. coli is the most common cause of acute bacterial prostatitis. Other gram-negative rods can cause it but E. coli predominates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Escherichia"
+    ]
   },
   {
     "id": "37",
@@ -663,7 +809,10 @@
     "rationale": {
       "text": "Taenia solium is the pork tapeworm, acquired by eating undercooked pork. T. saginata is beef tapeworm. D. latum is fish tapeworm. H. nana is dwarf tapeworm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "38",
@@ -681,7 +830,10 @@
     "rationale": {
       "text": "The Quellung reaction is used to identify S. pneumoniae by demonstrating capsular swelling with specific antisera.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "39",
@@ -699,7 +851,12 @@
     "rationale": {
       "text": "H. influenzae is a small gram-negative coccobacillus that causes pneumonia in patients with chronic lung disease. M. catarrhalis is a gram-negative diplococcus. S. pneumoniae is gram-positive. K. pneumoniae is a large rod.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Negative",
+      "Coccobacilli"
+    ]
   },
   {
     "id": "40",
@@ -717,7 +874,10 @@
     "rationale": {
       "text": "H. pylori is the cause of most gastric ulcers and is diagnosed by urea breath test. Campylobacter causes enteritis. C. difficile causes pseudomembranous colitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "41",
@@ -735,7 +895,10 @@
     "rationale": {
       "text": "S. pneumoniae and H. influenzae are common causes. However, S. pneumoniae is the most common in children. Some sources say H. influenzae. The question expects S. pneumoniae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "42",
@@ -753,7 +916,12 @@
     "rationale": {
       "text": "S. epidermidis is a coagulase-negative staphylococcus that commonly infects prosthetic devices and cardiac pacemakers. S. aureus is coagulase-positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Cocci"
+    ]
   },
   {
     "id": "43",
@@ -771,13 +939,18 @@
     "rationale": {
       "text": "Neisseria gonorrhoeae is a gram-negative diplococcus found intracellularly in neutrophils. Chlamydia is an obligate intracellular organism not seen on Gram stain. Trichomonas is a parasite. Gardnerella is a gram-variable rod.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Diplococci"
+    ]
   },
   {
     "id": "44",
     "subject": "Microbiology",
     "topic": "Bacteria",
-    "question": "Which organism is the most common cause of bacterial meningitis in adults 18\u201350 years?",
+    "question": "Which organism is the most common cause of bacterial meningitis in adults 18–50 years?",
     "questionImage": null,
     "options": [
       "Neisseria meningitidis",
@@ -787,9 +960,12 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "N. meningitidis is the most common cause in adults 18\u201350, though S. pneumoniae is common in the elderly. Overall, S. pneumoniae is more common, but in young adults, N. meningitidis is typical.",
+      "text": "N. meningitidis is the most common cause in adults 18–50, though S. pneumoniae is common in the elderly. Overall, S. pneumoniae is more common, but in young adults, N. meningitidis is typical.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "45",
@@ -807,7 +983,10 @@
     "rationale": {
       "text": "M. marinum causes fish tank granuloma (swimming pool granuloma), a skin infection in aquatic environments. M. tuberculosis causes TB. M. leprae causes leprosy. MAC causes disseminated disease in AIDS.",
       "images": []
-    }
+    },
+    "tags": [
+      "TB"
+    ]
   },
   {
     "id": "46",
@@ -825,7 +1004,10 @@
     "rationale": {
       "text": "Measles (rubeola) is characterized by fever, cough, coryza, conjunctivitis (3 C's) and a maculopapular rash starting on the face. Rubella has milder symptoms and postauricular lymphadenopathy. Chickenpox is vesicular. Roseola (HHV-6) has high fever then rash as fever breaks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "47",
@@ -843,7 +1025,10 @@
     "rationale": {
       "text": "Rubella virus causes congenital rubella syndrome with cataracts, deafness, and heart defects if acquired in the first trimester. Measles can cause miscarriage but not the classic triad. Varicella causes congenital varicella syndrome but is less common. Parvovirus B19 causes fetal hydrops (anemia).",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "48",
@@ -861,7 +1046,10 @@
     "rationale": {
       "text": "Acute HBV: HBsAg positive, IgM anti-HBc positive. Chronic: HBsAg positive >6 months, IgG anti-HBc. Hepatitis A: IgM anti-HAV. Hepatitis C: anti-HCV.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "49",
@@ -879,7 +1067,11 @@
     "rationale": {
       "text": "Hepatitis B is a DNA virus (partially double-stranded). Hepatitis A, C, and E are RNA viruses.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro",
+      "DNA Virus"
+    ]
   },
   {
     "id": "50",
@@ -897,7 +1089,10 @@
     "rationale": {
       "text": "PML, caused by JC virus, presents with focal neurological deficits and white matter lesions. Toxoplasmosis (Toxoplasma gondii) is a parasite causing ring-enhancing lesions. Cryptococcosis is a fungus causing meningitis. CMV causes retinitis and encephalitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "51",
@@ -915,7 +1110,10 @@
     "rationale": {
       "text": "Rotavirus is the most common cause of severe viral gastroenteritis in children. Norovirus is more common in adults.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "52",
@@ -933,7 +1131,10 @@
     "rationale": {
       "text": "Herpes zoster ophthalmicus can cause corneal ulcers and scarring, which can lead to blindness. Uveitis and glaucoma can also occur, but corneal involvement is the most serious acute complication.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "53",
@@ -951,7 +1152,10 @@
     "rationale": {
       "text": "Infectious mononucleosis is caused by EBV, with positive Monospot (heterophile antibody). CMV can cause a similar syndrome but Monospot is negative. HIV causes acute retroviral syndrome. Adenovirus causes pharyngitis without lymphadenopathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "54",
@@ -969,7 +1173,10 @@
     "rationale": {
       "text": "HPV (especially types 16 and 18) is associated with cervical cancer. HSV-2 causes genital herpes. EBV causes Burkitt lymphoma and nasopharyngeal carcinoma. HIV causes immunodeficiency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "55",
@@ -987,7 +1194,10 @@
     "rationale": {
       "text": "Hepatitis C is transmitted via blood and causes chronic hepatitis. Anti-HCV indicates exposure. Hepatitis B is also bloodborne but anti-HBc would be positive. Hepatitis A is fecal-oral. Hepatitis D requires HBV.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "56",
@@ -1005,7 +1215,10 @@
     "rationale": {
       "text": "Herpes zoster (shingles) is reactivation of varicella-zoster virus in adults, often with a vesicular rash in a dermatome. Primary varicella (chickenpox) is usually in children. Herpes simplex causes genital/oral lesions. Smallpox is eradicated.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "57",
@@ -1023,7 +1236,10 @@
     "rationale": {
       "text": "Rhinovirus is the most common cause of the common cold, accounting for ~50% of cases. Coronaviruses are also common but less frequent.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "58",
@@ -1041,7 +1257,10 @@
     "rationale": {
       "text": "Parainfluenza virus is the most common cause of croup (laryngotracheobronchitis) in children. RSV causes bronchiolitis. Influenza causes flu. Adenovirus causes pharyngitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "59",
@@ -1059,7 +1278,10 @@
     "rationale": {
       "text": "Hantavirus pulmonary syndrome (HPS) is caused by hantavirus, transmitted by rodent droppings, and presents with fever, myalgia, and rapid progression to respiratory failure with hypotension. West Nile causes encephalitis. Colorado tick fever is a benign febrile illness. RMSF is a bacterial infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "60",
@@ -1075,9 +1297,12 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "RSV is the most common cause of bronchiolitis in infants, with peak incidence at 2\u20136 months of age.",
+      "text": "RSV is the most common cause of bronchiolitis in infants, with peak incidence at 2–6 months of age.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "61",
@@ -1095,7 +1320,10 @@
     "rationale": {
       "text": "Enteroviruses (especially Coxsackie and echovirus) are the most common cause of viral meningitis in immunocompetent patients. HSV can cause encephalitis. VZV and mumps are less common due to vaccination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "62",
@@ -1113,7 +1341,10 @@
     "rationale": {
       "text": "Herpes simplex virus (HSV-2) causes genital herpes, with painful vesicular lesions and multinucleated giant cells on Tzanck. VZV causes shingles (dermatomal). Molluscum is a poxvirus (umbilicated lesions). HPV causes warts.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "63",
@@ -1131,7 +1362,10 @@
     "rationale": {
       "text": "EBV is associated with African Burkitt lymphoma. HIV is associated with Kaposi sarcoma and non-Hodgkin lymphoma. HTLV-1 causes adult T-cell leukemia/lymphoma. HPV causes cervical cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "64",
@@ -1149,7 +1383,10 @@
     "rationale": {
       "text": "Antiviral therapy (acyclovir) is recommended for pregnant women with varicella zoster reactivation (shingles) to reduce symptoms. If primary varicella in pregnancy, VZIG may be given. Supportive care is not adequate.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "65",
@@ -1167,7 +1404,10 @@
     "rationale": {
       "text": "Infectious mononucleosis (EBV) can cause exudative pharyngitis with a membrane. Diphtheria (bacterial) is more likely to cause a pseudomembrane, but among viruses, EBV is the classic. Adenovirus can cause pharyngitis without membrane. CMV can cause mononucleosis-like illness but less commonly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "66",
@@ -1185,7 +1425,10 @@
     "rationale": {
       "text": "HSV is the most common cause of sporadic viral encephalitis in the U.S. West Nile is the most common arthropod-borne encephalitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "67",
@@ -1203,7 +1446,10 @@
     "rationale": {
       "text": "Chickenpox (varicella) presents with vesicles on an erythematous base (dewdrop on a rose petal). Measles is maculopapular. Hand-foot-mouth (Coxsackie) has vesicles on palms/soles and oral ulcers. Impetigo is bacterial.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "68",
@@ -1221,7 +1467,10 @@
     "rationale": {
       "text": "Avian influenza (H5N1 or H7N9) can cause severe pneumonia with bilateral infiltrates in patients with poultry exposure. SARS-CoV-2 is also possible, but the occupational exposure to poultry points to avian flu.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "69",
@@ -1239,7 +1488,10 @@
     "rationale": {
       "text": "Parvovirus B19 causes fifth disease (slapped cheek rash). Rubella is German measles, measles is rubeola, roseola is HHV-6.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "70",
@@ -1257,7 +1509,10 @@
     "rationale": {
       "text": "Hepatitis D requires hepatitis B. Superinfection with HDV can cause severe hepatitis. Hepatitis C and A are independent. Hepatitis E is waterborne.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "71",
@@ -1275,7 +1530,10 @@
     "rationale": {
       "text": "Oseltamivir (Tamiflu) is an oral neuraminidase inhibitor effective for influenza A and B. Rimantadine is for influenza A only and has resistance. Zanamivir is inhaled. Supportive care is not as effective.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "72",
@@ -1293,7 +1551,10 @@
     "rationale": {
       "text": "Adenovirus is a common cause of epidemic keratoconjunctivitis, a highly contagious eye infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "73",
@@ -1311,7 +1572,10 @@
     "rationale": {
       "text": "JC virus causes progressive multifocal leukoencephalopathy (PML), with demyelinating white matter lesions. HIV encephalopathy causes cognitive decline but usually atrophy. CMV causes retinitis and encephalitis. HSV causes temporal lobe lesions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "74",
@@ -1329,7 +1593,10 @@
     "rationale": {
       "text": "Roseola infantum (HHV-6) presents with high fever for 3 days followed by rash as fever breaks (exanthem subitum). Parvovirus B19 causes slapped cheek. Measles rash appears during fever. Rubella rash appears with fever.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "75",
@@ -1347,7 +1614,10 @@
     "rationale": {
       "text": "Hepatitis C is the most common chronic viral hepatitis in the U.S., with many cases from past blood transfusions. Hepatitis A is more common in outbreaks. Hepatitis B is less common due to vaccination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "76",
@@ -1365,7 +1635,10 @@
     "rationale": {
       "text": "CMV causes hepatitis in transplant patients, with intranuclear inclusion bodies. EBV can cause post-transplant lymphoproliferative disorder. HHV-6 and adenovirus are less common.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "77",
@@ -1383,7 +1656,10 @@
     "rationale": {
       "text": "Rubella (German measles) presents with a maculopapular rash starting on the face, postauricular lymphadenopathy, and mild fever. Measles has more severe symptoms (3 C's). Scarlet fever is bacterial (sandpaper rash). Roseola has fever then rash.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "78",
@@ -1401,7 +1677,10 @@
     "rationale": {
       "text": "Rubella is now rare due to vaccination, but when it occurs, it's a mild febrile illness with rash. Measles is more severe and still occurs in outbreaks. The question is tricky, but rubella is the classic mild rash illness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "79",
@@ -1419,7 +1698,10 @@
     "rationale": {
       "text": "Herpes zoster ophthalmicus is reactivation of VZV in the ophthalmic branch of the trigeminal nerve, with vesicles in the V1 dermatome and severe pain. Herpes simplex usually causes cold sores on the lips. Bell's palsy is facial nerve paralysis without rash. Contact dermatitis is not vesicular.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "80",
@@ -1437,7 +1719,10 @@
     "rationale": {
       "text": "Infectious mononucleosis (EBV) presents with fever, sore throat, lymphadenopathy, and atypical lymphocytes. CMV can cause a similar picture but is less common. HIV causes acute retroviral syndrome with fever, rash, and lymphadenopathy but not typically tonsillar exudates. Adenovirus causes pharyngitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "81",
@@ -1455,7 +1740,10 @@
     "rationale": {
       "text": "EBV is associated with nasopharyngeal carcinoma, especially in Asian populations. HPV causes oropharyngeal cancer. HSV-2 causes genital herpes. HIV is not directly oncogenic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "82",
@@ -1473,7 +1761,10 @@
     "rationale": {
       "text": "Parainfluenza virus, especially type 1, is the most common cause of croup. RSV causes bronchiolitis. Influenza causes flu with systemic symptoms. Adenovirus causes pharyngitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "83",
@@ -1491,7 +1782,10 @@
     "rationale": {
       "text": "Colorado tick fever is a viral infection transmitted by ticks, with fever, headache, myalgia, and sometimes a petechial rash. West Nile is transmitted by mosquitoes. Powassan is also tick-borne but less common. Yellow fever is mosquito-borne.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "84",
@@ -1509,7 +1803,10 @@
     "rationale": {
       "text": "CMV is the most common congenital infection and leading cause of non-genetic hearing loss. Rubella is less common due to vaccination. Toxoplasma and syphilis are less common causes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "85",
@@ -1527,7 +1824,10 @@
     "rationale": {
       "text": "Remdesivir is an antiviral that inhibits viral RNA polymerase. Dexamethasone is a corticosteroid. Tocilizumab is an IL-6 inhibitor. Baricitinib is a JAK inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "86",
@@ -1545,7 +1845,10 @@
     "rationale": {
       "text": "Enteroviruses are the most common cause of viral meningitis. Mumps is rare due to vaccination. HSV causes encephalitis. VZV causes encephalitis/meningitis in immunocompromised.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "87",
@@ -1563,7 +1866,10 @@
     "rationale": {
       "text": "HHV-8 (Kaposi sarcoma-associated herpesvirus) causes Kaposi's sarcoma. HIV increases risk but is not the direct cause. EBV causes Burkitt lymphoma. HPV causes cervical cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "88",
@@ -1581,7 +1887,10 @@
     "rationale": {
       "text": "Acute HBV: HBsAg +, IgM anti-HBc +. Chronic: HBsAg +, IgG anti-HBc +, >6 months. HCV would show anti-HCV. HAV would show IgM anti-HAV.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "89",
@@ -1599,7 +1908,10 @@
     "rationale": {
       "text": "Scarlet fever (bacterial) causes strawberry tongue, fever, and a sandpaper rash. Measles has cough/coryza/conjunctivitis. Kawasaki disease has strawberry tongue but is a vasculitis. Rubella has milder symptoms.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "90",
@@ -1617,7 +1929,10 @@
     "rationale": {
       "text": "HSV-2 is the most common cause of viral meningitis in neonates, often from perinatal transmission. Enteroviruses are more common in older children.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "91",
@@ -1635,7 +1950,10 @@
     "rationale": {
       "text": "Pneumocystis jirovecii causes pneumonia in AIDS patients with CD4 <200, presenting with bilateral interstitial infiltrates. Cryptococcus causes meningitis. Histoplasma causes disseminated disease. Coccidioides causes pneumonia in endemic areas.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "92",
@@ -1653,7 +1971,10 @@
     "rationale": {
       "text": "Mucormycosis (Rhizopus, Mucor) causes rhinocerebral infection in diabetics, with black eschar, broad nonseptate hyphae, right-angle branching. Aspergillus has septate hyphae with acute-angle branching. Cryptococcus is yeast. Candida is budding yeast.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "93",
@@ -1671,7 +1992,10 @@
     "rationale": {
       "text": "Aspergillus causes aspergilloma in pre-existing lung cavities, with septate hyphae and acute-angle branching. Mucor has right-angle branching. Histoplasma and Blastomyces are dimorphic fungi.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "94",
@@ -1689,7 +2013,10 @@
     "rationale": {
       "text": "Cryptococcus neoformans is the most common cause of fungal meningitis in HIV/AIDS, with a positive cryptococcal antigen test in CSF.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "95",
@@ -1707,7 +2034,10 @@
     "rationale": {
       "text": "Candida albicans causes oropharyngeal and esophageal candidiasis in AIDS, presenting with white plaques. Aspergillus causes invasive pulmonary disease. Histoplasma causes disseminated disease. Cryptococcus causes meningitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "96",
@@ -1725,7 +2055,10 @@
     "rationale": {
       "text": "Blastomyces dermatitidis is a dimorphic fungus with broad-based budding in tissue, causing pneumonia in endemic areas (Ohio/Mississippi valleys). Histoplasma is small intracellular yeast. Coccidioides is a spherule. Paracoccidioides has multiple buds (steering wheel).",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "97",
@@ -1743,7 +2076,10 @@
     "rationale": {
       "text": "Histoplasma capsulatum is found in bird and bat droppings, causing pneumonia with hilar lymphadenopathy and erythema nodosum. Coccidioides causes valley fever in arid regions. Blastomyces causes pneumonia with skin lesions. Cryptococcus is yeast.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "98",
@@ -1761,7 +2097,10 @@
     "rationale": {
       "text": "Aspergillus fumigatus forms aspergillomas in pre-existing cavities, often seen on imaging as a mass with air crescent sign. Mucor causes angioinvasion. Candida causes thrush. Cryptococcus causes meningitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "99",
@@ -1779,13 +2118,16 @@
     "rationale": {
       "text": "Cryptococcus neoformans causes meningitis in AIDS, with high CSF pressure and positive India ink stain (encapsulated yeast). Toxoplasma causes ring-enhancing brain lesions. TB causes chronic meningitis. HIV causes HIV encephalopathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "100",
     "subject": "Microbiology",
     "topic": "Myco",
-    "question": "A 25-year-old presents with a painless, ulcerated skin lesion on the hand. He is a gardener. Culture grows a mold that converts to yeast at 37\u00b0C. What organism?",
+    "question": "A 25-year-old presents with a painless, ulcerated skin lesion on the hand. He is a gardener. Culture grows a mold that converts to yeast at 37°C. What organism?",
     "questionImage": null,
     "options": [
       "Sporothrix schenckii",
@@ -1795,9 +2137,12 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Sporothrix schenckii causes sporotrichosis (rose gardener's disease), with ulcerated skin lesions and lymphatic spread. It is dimorphic (mold at 25\u00b0C, yeast at 37\u00b0C). Histoplasma is inhaled, causing pulmonary disease. Blastomyces causes pneumonia. Coccidioides causes valley fever.",
+      "text": "Sporothrix schenckii causes sporotrichosis (rose gardener's disease), with ulcerated skin lesions and lymphatic spread. It is dimorphic (mold at 25°C, yeast at 37°C). Histoplasma is inhaled, causing pulmonary disease. Blastomyces causes pneumonia. Coccidioides causes valley fever.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "101",
@@ -1815,7 +2160,10 @@
     "rationale": {
       "text": "Candida albicans is the most common cause of oral thrush. Aspergillus causes invasive disease. Cryptococcus causes meningitis. Histoplasma causes pulmonary disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "102",
@@ -1833,7 +2181,10 @@
     "rationale": {
       "text": "The air crescent sign is characteristic of aspergilloma (fungal ball) in a pre-existing cavity. Mucor causes black eschar and right-angle branching. Candida causes thrush. Cryptococcus causes meningitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "103",
@@ -1851,7 +2202,10 @@
     "rationale": {
       "text": "Molluscum contagiosum is a poxvirus causing umbilicated papules, common in AIDS patients. HPV causes warts. HSV causes vesicular lesions. Varicella causes vesicles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "104",
@@ -1869,7 +2223,10 @@
     "rationale": {
       "text": "Trichophyton rubrum is the most common cause of onychomycosis (nail fungus). Candida can cause nail infections but less common. Aspergillus is a mold. Epidermophyton causes tinea cruris.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "105",
@@ -1887,7 +2244,10 @@
     "rationale": {
       "text": "Rhinocerebral mucormycosis occurs in diabetics with ketoacidosis, with black eschar, nonseptate hyphae, and right-angle branching. Aspergillosis has septate hyphae. Cryptococcus is yeast. Candidiasis is yeast.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "106",
@@ -1905,7 +2265,10 @@
     "rationale": {
       "text": "Histoplasmosis is endemic to the Ohio and Mississippi River valleys. It presents with pneumonia, hilar lymphadenopathy, and erythema nodosum. Blastomycosis is also endemic but less common. Coccidioidomycosis is in the Southwest. Paracoccidioidomycosis is in South America.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "107",
@@ -1923,7 +2286,10 @@
     "rationale": {
       "text": "Coccidioides immitis causes San Joaquin Valley fever (coccidioidomycosis) in the southwestern U.S. It is a dimorphic fungus (mold in soil, spherules in tissue).",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "108",
@@ -1941,7 +2307,10 @@
     "rationale": {
       "text": "Aspergillus causes invasive pulmonary aspergillosis in immunocompromised patients, with septate hyphae and acute-angle branching. Mucor has nonseptate hyphae. Candida is yeast. Cryptococcus is yeast.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "109",
@@ -1959,7 +2328,10 @@
     "rationale": {
       "text": "Candida albicans causes vulvovaginal candidiasis with thick white discharge, budding yeast, and pseudohyphae. Trichomonas causes frothy greenish discharge. Gardnerella causes bacterial vaginosis. Neisseria causes cervicitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "110",
@@ -1977,7 +2349,10 @@
     "rationale": {
       "text": "Coccidioides immitis can cause meningitis (coccidioidal meningitis) in immunocompetent patients in endemic areas. Cryptococcus is more common in immunocompromised. Histoplasma and Blastomyces rarely cause meningitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "111",
@@ -1995,7 +2370,10 @@
     "rationale": {
       "text": "Disseminated histoplasmosis occurs in AIDS with CD4 <100, causing fever, weight loss, hepatosplenomegaly, and positive blood culture for Histoplasma. Cryptococcus causes meningitis. Candida causes thrush. Aspergillus causes pulmonary disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "112",
@@ -2013,7 +2391,10 @@
     "rationale": {
       "text": "Sporotrichosis (rose gardener's disease) causes a painless ulcer at the inoculation site with nodular lymphangitis (sporotrichoid spread). Chromoblastomycosis causes warty lesions. Mycetoma causes tumefaction and sinuses. Histoplasmosis is systemic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "113",
@@ -2031,7 +2412,10 @@
     "rationale": {
       "text": "Cryptococcus neoformans is found in pigeon droppings and causes cryptococcosis, especially in immunocompromised patients. Histoplasma is in bird/bat droppings, causing histoplasmosis. Coccidioides is in soil. Blastomyces is in soil.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "114",
@@ -2049,7 +2433,10 @@
     "rationale": {
       "text": "Cryptococcus neoformans meningitis in HIV presents with fever, headache, photophobia, and positive India ink stain. TB meningitis has similar CSF but acid-fast bacilli. Toxoplasma causes brain abscesses. Histoplasma causes disseminated disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "115",
@@ -2067,7 +2454,10 @@
     "rationale": {
       "text": "Allergic bronchopulmonary aspergillosis (ABPA) occurs in asthmatic patients, with fever, cough, wheezing, eosinophilia, and septate hyphae in sputum. Aspergilloma is a fungal ball. Invasive aspergillosis is in immunocompromised. Mucormycosis is in diabetics.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "116",
@@ -2085,7 +2475,10 @@
     "rationale": {
       "text": "Sporothrix schenckii causes sporotrichosis, which can present with a painless chancre and regional lymphadenopathy. Paracoccidioides causes mucocutaneous lesions. Histoplasma causes pulmonary disease. Coccidioides causes valley fever.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "117",
@@ -2103,7 +2496,10 @@
     "rationale": {
       "text": "Invasive aspergillosis occurs in neutropenic patients, with septate hyphae and acute-angle branching. Mucor has nonseptate hyphae. Candida is yeast. Cryptococcus is yeast.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "118",
@@ -2121,7 +2517,10 @@
     "rationale": {
       "text": "Aspergilloma forms in pre-existing lung cavities (e.g., tuberculosis, sarcoidosis), appearing as a mobile mass with an air crescent sign. Tuberculosis and lung cancer can cause cavities but not a mobile mass. Coccidioidoma is a granulomatous nodule.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "119",
@@ -2139,7 +2538,10 @@
     "rationale": {
       "text": "Candida albicans is the most common cause of fungal endocarditis in IV drug users. Aspergillus can also cause endocarditis but is less common. Histoplasma and Cryptococcus rarely cause endocarditis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "120",
@@ -2157,7 +2559,10 @@
     "rationale": {
       "text": "Histoplasma capsulatum can cause oral ulcers in disseminated disease, with small intracellular yeast. Cryptococcus causes meningitis. Candida causes white plaques. Penicillium causes skin lesions in Southeast Asia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "121",
@@ -2175,7 +2580,10 @@
     "rationale": {
       "text": "Malaria is caused by Plasmodium species, with ring forms inside RBCs on blood smear. Dengue has thrombocytopenia and bleeding. Yellow fever causes jaundice. Typhoid has rose spots.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "122",
@@ -2193,7 +2601,10 @@
     "rationale": {
       "text": "P. falciparum causes the most severe malaria, including cerebral malaria, because it infects RBCs of all ages and causes sequestration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "123",
@@ -2211,7 +2622,10 @@
     "rationale": {
       "text": "Giardia lamblia causes giardiasis with foul-smelling diarrhea, flatulence, and trophozoites with falling leaf motility. Entamoeba causes bloody diarrhea (amebic dysentery). Cryptosporidium causes watery diarrhea in AIDS. Cyclospora causes watery diarrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "124",
@@ -2229,7 +2643,10 @@
     "rationale": {
       "text": "Bartonella henselae causes cat-scratch disease, with a pustule and lymphadenopathy. Toxoplasma causes toxoplasmosis (congenital or in immunocompromised). Plasmodium causes malaria. Leishmania causes skin ulcers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "125",
@@ -2247,7 +2664,10 @@
     "rationale": {
       "text": "Plasmodium is transmitted by Anopheles mosquitoes. Dengue, yellow fever, and chikungunya are transmitted by Aedes mosquitoes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "126",
@@ -2265,7 +2685,10 @@
     "rationale": {
       "text": "Toxoplasma gondii causes cerebral toxoplasmosis in AIDS with ring-enhancing lesions. Cryptococcus causes meningitis. TB causes tuberculoma. JC virus causes PML.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "127",
@@ -2283,7 +2706,10 @@
     "rationale": {
       "text": "Cryptosporidium causes watery diarrhea in immunocompetent and immunocompromised, with oocysts in stool. Giardia causes foul-smelling diarrhea. Entamoeba causes bloody diarrhea. Cyclospora causes watery diarrhea but is less common.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "128",
@@ -2301,7 +2727,10 @@
     "rationale": {
       "text": "Trypanosoma cruzi causes Chagas disease (American trypanosomiasis), transmitted by triatomine bugs. T. brucei causes African sleeping sickness. Leishmania causes leishmaniasis. Plasmodium causes malaria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "129",
@@ -2319,7 +2748,10 @@
     "rationale": {
       "text": "Trichinella spiralis causes trichinosis from undercooked pork, with fever, myalgia, periorbital edema, and muscle cysts. Taenia solium causes cysticercosis (neurocysticercosis). Toxoplasma causes toxoplasmosis. Ascaris causes intestinal obstruction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "130",
@@ -2337,7 +2769,10 @@
     "rationale": {
       "text": "Leishmania causes cutaneous leishmaniasis with painless ulcers. Trypanosoma causes Chagas disease. Plasmodium causes malaria. Entamoeba causes amebiasis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "131",
@@ -2355,7 +2790,10 @@
     "rationale": {
       "text": "Ascaris lumbricoides is the most common intestinal nematode worldwide, infecting over 1 billion people. Enterobius (pinworm) is common in children. Trichuris (whipworm) and hookworm are also common but less than Ascaris.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "132",
@@ -2373,7 +2811,10 @@
     "rationale": {
       "text": "Enterobius vermicularis (pinworm) causes perianal itching, diagnosed by Scotch tape test. Ascaris causes intestinal obstruction. Trichuris causes bloody diarrhea. Hookworm causes anemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "133",
@@ -2391,7 +2832,10 @@
     "rationale": {
       "text": "Clonorchis sinensis (Chinese liver fluke) is acquired by eating raw freshwater fish, causing cholangitis, hepatomegaly, and eosinophilia. Fasciola is from watercress (sheep liver fluke). Paragonimus is from raw crabs (lung fluke). Schistosoma is from cercariae in water.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "134",
@@ -2409,7 +2853,10 @@
     "rationale": {
       "text": "Trypanosoma brucei causes African sleeping sickness, transmitted by tsetse flies. T. cruzi causes Chagas disease. Leishmania causes leishmaniasis. Plasmodium causes malaria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "135",
@@ -2427,7 +2874,10 @@
     "rationale": {
       "text": "Paragonimus westermani (lung fluke) causes hemoptysis, cough, and operculated eggs in sputum. Clonorchis causes cholangitis. Fasciola causes liver disease. Schistosoma causes hematuria or intestinal symptoms.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "136",
@@ -2445,7 +2895,10 @@
     "rationale": {
       "text": "Blackwater fever (hemoglobinuria) is a complication of severe P. falciparum malaria. P. vivax and ovale cause relapsing fevers. P. malariae causes quartan fever.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "137",
@@ -2463,7 +2916,10 @@
     "rationale": {
       "text": "P. vivax (and P. ovale) have hypnozoites in the liver that cause relapse. P. falciparum and P. malariae do not.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "138",
@@ -2481,7 +2937,10 @@
     "rationale": {
       "text": "Schistosoma (cercarial dermatitis) causes swimmers' itch in freshwater. Naegleria causes primary amebic meningoencephalitis. Toxoplasma is from cat feces. Giardia is from contaminated water.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "139",
@@ -2499,7 +2958,10 @@
     "rationale": {
       "text": "Entamoeba histolytica causes amebic colitis with flask-shaped ulcers and bloody diarrhea. Giardia causes non-bloody diarrhea. Shigella causes shigellosis. Campylobacter causes enteritis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "140",
@@ -2517,7 +2979,10 @@
     "rationale": {
       "text": "Onchocerca volvulus causes river blindness (onchocerciasis), transmitted by blackflies. Trachoma is bacterial. Toxoplasma causes chorioretinitis. Loiasis causes eye worm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "141",
@@ -2535,7 +3000,10 @@
     "rationale": {
       "text": "Toxoplasma gondii is transmitted by cats, but also by undercooked meat. It can cause flu-like symptoms and lymphadenopathy. Echinococcus causes hydatid cysts. Leishmania causes ulcers. Plasmodium causes malaria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "142",
@@ -2553,7 +3021,10 @@
     "rationale": {
       "text": "Echinococcus granulosus causes hydatid cysts in the liver, often in sheep-farming areas. Fasciola causes liver fluke disease. Clonorchis causes cholangitis. Entamoeba causes amebic liver abscess.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "143",
@@ -2571,7 +3042,10 @@
     "rationale": {
       "text": "Hookworms (Ancylostoma duodenale, Necator americanus) cause iron-deficiency anemia by blood loss. Ascaris causes obstruction. Trichuris causes bloody diarrhea. Enterobius causes itching.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "144",
@@ -2589,7 +3063,10 @@
     "rationale": {
       "text": "Bartonella henselae causes cat-scratch disease. Toxoplasma is from cat feces but causes flu-like illness or congenital. Leishmania causes ulcers. Trypanosoma causes Chagas.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "145",
@@ -2607,7 +3084,10 @@
     "rationale": {
       "text": "Naegleria fowleri causes primary amebic meningoencephalitis, associated with warm freshwater swimming. Acanthamoeba causes granulomatous amebic encephalitis. Balamuthia causes encephalitis. Entamoeba causes colitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "146",
@@ -2625,7 +3105,10 @@
     "rationale": {
       "text": "Trypanosoma brucei is transmitted by tsetse flies. T. cruzi is by triatomine bugs. Leishmania by sandflies. Plasmodium by Anopheles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "147",
@@ -2643,7 +3126,10 @@
     "rationale": {
       "text": "Babesia microti causes babesiosis, with hemolytic anemia and intraerythrocytic ring forms, transmitted by ticks. Plasmodium also has ring forms but is usually from malaria-endemic areas; Babesia is more common in the northeastern US.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "148",
@@ -2661,7 +3147,10 @@
     "rationale": {
       "text": "Taenia saginata is the beef tapeworm, acquired by eating undercooked beef. T. solium is pork tapeworm. D. latum is fish tapeworm. H. nana is dwarf tapeworm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "149",
@@ -2679,7 +3168,10 @@
     "rationale": {
       "text": "Taenia solium (pork tapeworm) causes neurocysticercosis when the larval stage (cysticercus) develops in the brain. T. saginata does not cause cysticercosis. Echinococcus causes hydatid cysts. Diphyllobothrium causes vitamin B12 deficiency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "150",
@@ -2697,7 +3189,10 @@
     "rationale": {
       "text": "P. falciparum is the most common in Southeast Asia and causes severe malaria with jaundice and hepatosplenomegaly. P. vivax is more common in Central/South America.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "151",
@@ -2715,7 +3210,10 @@
     "rationale": {
       "text": "Toxoplasma can cause lymphadenopathy in immunocompetent patients. Bartonella causes cat-scratch disease (lymphadenopathy with a bite history). TB causes lymphadenopathy. Cryptococcus causes meningitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "152",
@@ -2733,7 +3231,10 @@
     "rationale": {
       "text": "T. cruzi causes Chagas disease, leading to megacolon and megaesophagus due to autonomic ganglion destruction. T. brucei causes sleeping sickness. Leishmania causes kala-azar. Schistosoma causes portal hypertension.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "153",
@@ -2751,7 +3252,10 @@
     "rationale": {
       "text": "Schistosoma haematobium causes urinary schistosomiasis with hematuria and eggs with a terminal spine. S. mansoni has a lateral spine, causes intestinal schistosomiasis. S. japonicum has a small spine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "154",
@@ -2769,7 +3273,10 @@
     "rationale": {
       "text": "Cutaneous leishmaniasis (Leishmania braziliensis) causes a painless ulcer at the bite site, often on exposed skin. Trypanosoma causes Chagas. Plasmodium causes malaria. Bartonella causes Carrion's disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "155",
@@ -2787,7 +3294,10 @@
     "rationale": {
       "text": "Giardia lamblia is the most common intestinal protozoan in the U.S., causing waterborne outbreaks. Entamoeba is less common. Cryptosporidium is common in AIDS.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "156",
@@ -2805,7 +3315,10 @@
     "rationale": {
       "text": "Fasciola hepatica (sheep liver fluke) is acquired by eating raw watercress, causing fever, hepatomegaly, and eosinophilia. Clonorchis is from raw fish. Paragonimus is from raw crabs. Schistosoma is from freshwater cercariae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "157",
@@ -2823,7 +3336,10 @@
     "rationale": {
       "text": "Cutaneous leishmaniasis is common in West Africa. Trypanosoma causes sleeping sickness. Plasmodium causes malaria. Onchocerca causes river blindness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "158",
@@ -2841,7 +3357,10 @@
     "rationale": {
       "text": "Leishmania is transmitted by sandflies. T. cruzi by triatomine bugs. Plasmodium by Anopheles. Toxoplasma by cats.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "159",
@@ -2859,7 +3378,10 @@
     "rationale": {
       "text": "Diphyllobothrium latum (fish tapeworm) is acquired by eating raw fish. Its eggs have a small knob. T. saginata is beef. T. solium is pork. H. nana is dwarf tapeworm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "160",
@@ -2877,7 +3399,10 @@
     "rationale": {
       "text": "Paragonimus westermani (lung fluke) causes hemoptysis and operculated eggs in sputum. Clonorchis causes cholangitis. Fasciola causes liver disease. Schistosoma causes hematuria or intestinal symptoms.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "161",
@@ -2895,7 +3420,10 @@
     "rationale": {
       "text": "IgG is the most abundant immunoglobulin in serum, provides long-term immunity, and crosses the placenta. IgA is in secretions. IgM is the first antibody produced. IgE is involved in allergies.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "162",
@@ -2913,7 +3441,10 @@
     "rationale": {
       "text": "X-linked agammaglobulinemia (Bruton's) presents with recurrent infections, low immunoglobulins, and absent B cells. Selective IgA deficiency has normal other Igs. CVID has low IgG and IgA with normal B cells. DiGeorge is T-cell deficiency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "163",
@@ -2931,7 +3462,10 @@
     "rationale": {
       "text": "CVID presents with recurrent infections, autoimmune manifestations, and low IgG/IgA, with normal B cells. Hyper-IgM syndrome has high IgM.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "164",
@@ -2949,7 +3483,10 @@
     "rationale": {
       "text": "IgM is the first antibody produced in a primary immune response, followed by class switching to IgG.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "165",
@@ -2967,7 +3504,10 @@
     "rationale": {
       "text": "IgE is responsible for type I hypersensitivity (anaphylaxis, allergies). IgG is involved in type II/III. IgM in type II. IgA in mucosal immunity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "166",
@@ -2985,7 +3525,10 @@
     "rationale": {
       "text": "C3b is the main opsonin, enhancing phagocytosis. C5a is a chemoattractant. C1q and C4b are involved in the classical pathway.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "167",
@@ -3003,7 +3546,10 @@
     "rationale": {
       "text": "Deficiency in C5-C9 (membrane attack complex) predisposes to Neisseria infections. C1, C4, C2 deficiencies cause immune complex diseases. C3 deficiency causes severe infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "168",
@@ -3021,7 +3567,10 @@
     "rationale": {
       "text": "Type IV hypersensitivity is T-cell mediated (CD4+ T cells). B cells and antibodies are involved in types I, II, III.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "169",
@@ -3039,7 +3588,10 @@
     "rationale": {
       "text": "Transplant rejection is type IV hypersensitivity (T-cell mediated). Antibody-mediated rejection is type II.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "170",
@@ -3048,16 +3600,19 @@
     "question": "Which cytokine is the main activator of macrophages and is important in granuloma formation?",
     "questionImage": null,
     "options": [
-      "IFN-\u03b3",
+      "IFN-γ",
       "IL-4",
       "IL-10",
-      "TNF-\u03b1"
+      "TNF-α"
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "IFN-\u03b3 is produced by Th1 cells and activates macrophages, important for granuloma formation. IL-4 drives Th2. IL-10 is anti-inflammatory. TNF-\u03b1 is pro-inflammatory.",
+      "text": "IFN-γ is produced by Th1 cells and activates macrophages, important for granuloma formation. IL-4 drives Th2. IL-10 is anti-inflammatory. TNF-α is pro-inflammatory.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "171",
@@ -3075,7 +3630,10 @@
     "rationale": {
       "text": "Chronic mucocutaneous candidiasis is associated with T-cell defects, presenting with persistent Candida infections and endocrinopathies. SCID causes severe infections. DiGeorge causes thymic aplasia. CVID causes low Igs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "172",
@@ -3093,7 +3651,10 @@
     "rationale": {
       "text": "MHC class II is found on APCs and presents exogenous antigens to CD4+ T cells. MHC class I presents endogenous antigens to CD8+ T cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "173",
@@ -3111,7 +3672,10 @@
     "rationale": {
       "text": "SLE is a type III hypersensitivity (immune complex-mediated), with deposition of antigen-antibody complexes in tissues. Type II is antibody-mediated (e.g., autoimmune hemolytic anemia). Type IV is T-cell mediated.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "174",
@@ -3129,7 +3693,10 @@
     "rationale": {
       "text": "IgA is the main immunoglobulin in mucosal secretions (secretory IgA). IgG is in serum. IgM is in serum. IgE is in allergic reactions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "175",
@@ -3147,7 +3714,10 @@
     "rationale": {
       "text": "Complement deficiency leads to recurrent infections and autoimmune diseases. Low C3 and C4 suggest complement activation or deficiency. Low CH50 indicates complement deficiency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "176",
@@ -3165,7 +3735,10 @@
     "rationale": {
       "text": "NK cells mediate ADCC by recognizing antibody-coated target cells. Cytotoxic T cells are MHC-restricted. Macrophages and neutrophils are phagocytes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "177",
@@ -3183,7 +3756,10 @@
     "rationale": {
       "text": "Hereditary angioedema is due to C1 inhibitor deficiency, causing angioedema without urticaria. C1q deficiency is associated with SLE. C3 deficiency causes severe infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "178",
@@ -3193,15 +3769,18 @@
     "questionImage": null,
     "options": [
       "IL-4",
-      "IFN-\u03b3",
+      "IFN-γ",
       "IL-2",
-      "TNF-\u03b1"
+      "TNF-α"
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "IL-4 is produced by Th2 cells and promotes B-cell class switching to IgE. IFN-\u03b3 is Th1. IL-2 is T-cell growth factor. TNF-\u03b1 is pro-inflammatory.",
+      "text": "IL-4 is produced by Th2 cells and promotes B-cell class switching to IgE. IFN-γ is Th1. IL-2 is T-cell growth factor. TNF-α is pro-inflammatory.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "179",
@@ -3219,7 +3798,10 @@
     "rationale": {
       "text": "Autoimmune hemolytic anemia is type II hypersensitivity (antibody-mediated cytotoxicity), with antibodies directed against RBC antigens. Direct Coombs test positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "180",
@@ -3237,7 +3819,10 @@
     "rationale": {
       "text": "The lectin pathway is activated by MBL binding to mannose residues on pathogens. The classical pathway is activated by C1q (antibody). The alternative pathway is activated by microbial surfaces.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "201",
@@ -3253,9 +3838,12 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "The great majority of cases are monomicrobial. Of episodes of acute vertebral osteomyelitis, 40\u201350% are caused by Staphylococcus aureus, 12% by streptococci, and 20% by gram-negative bacilli\u2014mainly E. coli (9%) and P. aeruginosa (6%). Subacute vertebral osteomyelitis is typically caused by M. tuberculosis or Brucella species. S. aureus is the most consistent cause.",
+      "text": "The great majority of cases are monomicrobial. Of episodes of acute vertebral osteomyelitis, 40–50% are caused by Staphylococcus aureus, 12% by streptococci, and 20% by gram-negative bacilli—mainly E. coli (9%) and P. aeruginosa (6%). Subacute vertebral osteomyelitis is typically caused by M. tuberculosis or Brucella species. S. aureus is the most consistent cause.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "202",
@@ -3271,9 +3859,12 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "HBV is transmitted by percutaneous or permucosal exposure to infectious body fluids, by sexual contact, and by perinatal transmission from an infected mother to her infant \u2014 but not typically transplacentally. Syphilis, rubella, and CMV are classic TORCH infections with transplacental transmission.",
+      "text": "HBV is transmitted by percutaneous or permucosal exposure to infectious body fluids, by sexual contact, and by perinatal transmission from an infected mother to her infant — but not typically transplacentally. Syphilis, rubella, and CMV are classic TORCH infections with transplacental transmission.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "203",
@@ -3291,7 +3882,10 @@
     "rationale": {
       "text": "Streptolysin O is an immunogenic, beta-hemolysin. Antibody to Streptolysin O is a marker of recent mucosal infections used in the diagnosis of rheumatic heart disease (ASO titer) along with clinical symptoms. Anti-DNase B is also elevated in skin infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "204",
@@ -3309,7 +3903,10 @@
     "rationale": {
       "text": "A Suggestive diagnosis is defined by the presence of a mucopurulent endocervical or urethral exudate. A Presumptive diagnosis is made on the basis of typical gram-negative intracellular diplococci on microscopic examination of a smear of urethral exudate from men or endocervical secretions from women. The observation of gram-negative, intracellular diplococci on microscopic examination of endocervical secretions must be supported by a positive result from a nonculture test.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "205",
@@ -3327,7 +3924,10 @@
     "rationale": {
       "text": "Someone who had rheumatic fever in the past is more likely to get rheumatic fever again if they get strep throat or scarlet fever again. ARF is exclusively caused by infection of the upper respiratory tract with group A streptococci. Antistreptococcal chemoprophylaxis is recommended for rheumatic fever patients, not glomerulonephritis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "206",
@@ -3345,7 +3945,10 @@
     "rationale": {
       "text": "HSV is transmitted by contact of a susceptible person with an individual excreting virus. Viral replication occurs first at the site of infection. Virus then invades local nerve endings and is transported by retrograde axonal flow to dorsal root ganglia, where, after further replication, latency is established. Spontaneous reactivations occur despite HSV-specific humoral and cellular immunity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "207",
@@ -3363,7 +3966,10 @@
     "rationale": {
       "text": "Human papillomaviruses are the most common sexually transmitted viruses and include strains that cause genital warts as well as strains that cause cervical cancer. Several strains of HPV cause venereal warts, the most common STD. Some types (most commonly 16 and 18) are also associated with cervical dysplasia and cervical intraepithelial neoplasia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "208",
@@ -3381,7 +3987,10 @@
     "rationale": {
       "text": "In contrast to the enteric gram-negative rods, gonococcal lipopolysaccharide (LPS) does not have long O-antigen side chains and is called a lipooligosaccharide (LOS). Toxicity in gonococcal infections is largely attributable to the endotoxic effects of LOS. Specifically, in the fallopian tube explant model, LOS causes ciliary loss and mucosal cell death.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "209",
@@ -3399,7 +4008,10 @@
     "rationale": {
       "text": "Enterococci have the potential for resistance to virtually all clinically useful antibiotics. Their emergence as important nosocomial pathogens has coincided with increased expression of antimicrobial resistance by members of the genus. The mechanisms underlying antibiotic resistance may be intrinsic or acquired through mutation or horizontal exchange of genetic material.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "210",
@@ -3417,7 +4029,10 @@
     "rationale": {
       "text": "An echocardiogram, particularly a transesophageal echocardiogram (TEE), is strongly suggestive of endocarditis. Echocardiography allows visualization of heart valves, detection of vegetations, assessment of valvular function, and identification of complications such as abscess formation or valve perforation. Blood cultures remain the standard test for microbial diagnosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "211",
@@ -3435,7 +4050,11 @@
     "rationale": {
       "text": "Viridans streptococci, especially within the S. viridans group, are the most commonly involved group of streptococci as causative agents of acute and subacute endocarditis. These bacteria are part of the normal flora of the oral cavity and can enter the bloodstream during dental procedures or due to mucosal disruptions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria",
+      "Streptococcus"
+    ]
   },
   {
     "id": "212",
@@ -3453,7 +4072,10 @@
     "rationale": {
       "text": "In adults, Staphylococcus aureus is the most common organism isolated. Hematogenous osteomyelitis usually involves the metaphysis of long bones in children or the vertebral bodies in adults. With hematogenous osteomyelitis, the joint is usually spared from infection in children, unless the metaphysis is intracapsular.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "213",
@@ -3471,7 +4093,10 @@
     "rationale": {
       "text": "Researchers believe that Ebola virus is a zoonotic pathogen, and that bats are the most likely natural reservoir. However, the exact reservoir species that harbors the virus has yet to be determined.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "214",
@@ -3489,7 +4114,10 @@
     "rationale": {
       "text": "Gross morphology of eggs is not a differentiating factor between Taenia saginata and Taenia solium. The eggs of these two species are morphologically indistinguishable. Microscopic examination, as well as consideration of other features like the number of uterine branches and appearance of the scolex, is necessary for accurate identification.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "215",
@@ -3505,9 +4133,12 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Incubation times will vary, from approximately 2 days for growth of yeast colonies to 2 to 4 weeks for growth of dermatophytes or dimorphic fungi such as Histoplasma capsulatum. Cultures are examined at least weekly for fungal growth and held for 4 \u2013 6 weeks before being reported as negative.",
+      "text": "Incubation times will vary, from approximately 2 days for growth of yeast colonies to 2 to 4 weeks for growth of dermatophytes or dimorphic fungi such as Histoplasma capsulatum. Cultures are examined at least weekly for fungal growth and held for 4 – 6 weeks before being reported as negative.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "216",
@@ -3525,7 +4156,10 @@
     "rationale": {
       "text": "ETEC produce the toxic agents heat-labile (LT) and heat-stable (ST) enterotoxin. Upon ingestion, ETEC colonize the small intestine through an interaction of fimbrial and non-fimbrial adhesins with specific receptors in the apical membrane of the small intestinal epithelium. Only one of the 2 classes (STa) affect humans. STb affects swine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "217",
@@ -3543,7 +4177,10 @@
     "rationale": {
       "text": "Epidemiologic investigation demonstrated that TSS cases were highly associated with the use of absorbent tampons. Subsequent studies established the role of TSST-1 in these illnesses. Most S. aureus strains isolated from patients with toxic shock syndrome produce TSST-1, which is the prototypical superantigen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "218",
@@ -3559,9 +4196,12 @@
     ],
     "correctAnswer": 2,
     "rationale": {
-      "text": "TSS results from the ability of TSST-1 and enterotoxins to function as T cell mitogens. The enterotoxins bind directly to the invariant region of MHC and to T cell receptors via the v\u03b2 chain, resulting in a dramatic overexpansion of T cell clones (up to 20% of the total T cell population). The consequence is a 'cytokine storm,' with the release of inflammatory mediators that include interferon \u03b3, IL-1, IL-6, TNF-\u03b1, and TNF-\u03b2.",
+      "text": "TSS results from the ability of TSST-1 and enterotoxins to function as T cell mitogens. The enterotoxins bind directly to the invariant region of MHC and to T cell receptors via the vβ chain, resulting in a dramatic overexpansion of T cell clones (up to 20% of the total T cell population). The consequence is a 'cytokine storm,' with the release of inflammatory mediators that include interferon γ, IL-1, IL-6, TNF-α, and TNF-β.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "219",
@@ -3579,7 +4219,10 @@
     "rationale": {
       "text": "TSS is most commonly caused by a toxigenic strain of Staphylococcus aureus or Group A Strep (Streptococcus pyogenes). Staphylococcal TSS is typically the result of a localized infection such as an abscess, whereas streptococcal TSS may result from bacteremia, necrotizing fasciitis, or cellulitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "220",
@@ -3597,7 +4240,10 @@
     "rationale": {
       "text": "Toxicity in gonococcal infections is largely attributable to the endotoxic effects of LOS. Gonococcal lipopolysaccharide (LPS) does not have long O-antigen side chains and is called a lipooligosaccharide (LOS). Specifically, in the fallopian tube explant model, LOS causes ciliary loss and mucosal cell death.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "221",
@@ -3613,9 +4259,12 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Gonococci have evolved mechanisms for frequently switching from one antigenic form (pilin, Opa, or LPS) to another antigenic form of the same molecule. This switching takes place in one in every 102.5\u2013103 gonococci, an extremely rapid rate of change for bacteria. Because pilin, Opa, and LPS are surface-exposed antigens, their rapid switching helps the gonococci elude the host immune system.",
+      "text": "Gonococci have evolved mechanisms for frequently switching from one antigenic form (pilin, Opa, or LPS) to another antigenic form of the same molecule. This switching takes place in one in every 102.5–103 gonococci, an extremely rapid rate of change for bacteria. Because pilin, Opa, and LPS are surface-exposed antigens, their rapid switching helps the gonococci elude the host immune system.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "222",
@@ -3633,7 +4282,10 @@
     "rationale": {
       "text": "Gram-stained smears of urethral or endocervical exudate reveal many diplococci within pus cells. Stained smears of the urethral exudate from men have a sensitivity of about 90% and a specificity of 99%. Stained smears of endocervical exudate have a sensitivity of about 50% and a specificity of about 95% when examined by an experienced microscopist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "223",
@@ -3651,7 +4303,10 @@
     "rationale": {
       "text": "HSV infection of the newborn may be acquired in utero, during birth, or after birth. The mother is the most common source of infection. The most common route of infection (~75% of cases) is for HSV to be transmitted to a newborn during birth by contact with herpetic lesions in the birth canal. Neonatal herpes is estimated to occur in about 1 in 5000 deliveries per year.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "224",
@@ -3669,7 +4324,10 @@
     "rationale": {
       "text": "The overall mortality rate of untreated disease is 50%. Babies with neonatal herpes exhibit three categories: (1) localized to skin, eye, and mouth; (2) encephalitis with or without localized skin involvement; and (3) disseminated disease involving multiple organs, including the CNS. The worst prognosis (~80% mortality rate) applies to infants with disseminated infection, many of whom develop encephalitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "225",
@@ -3687,13 +4345,16 @@
     "rationale": {
       "text": "Many survivors of severe infections are left with permanent neurologic impairment. The worst prognosis applies to infants with disseminated infection, many of whom develop encephalitis. The cause of death of babies with disseminated disease is usually viral pneumonitis or intravascular coagulopathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "226",
     "subject": "Microbiology",
     "topic": "Gram Pos",
-    "question": "Situation 4 - A 38-year-old female in-patient was noted to have developed a heart murmur after a bout of high-grade fever for 5 days and was eventually diagnosed with endocarditis. Past medical records prior to her admission showed no abnormal heart findings. She underwent appendectomy one week before the onset of fever. The surgical wounds were noted to have erythematous edges during dressing on the 2nd post-op day. Blood culture was able to isolate gram-positive non-hemolytic cocci. The organism was observed to grow on bile and on 6.5% NaCl and survived at a temperature range of 10 and 45\u00b0C. Which of the following is the MOST likely causative organism?",
+    "question": "Situation 4 - A 38-year-old female in-patient was noted to have developed a heart murmur after a bout of high-grade fever for 5 days and was eventually diagnosed with endocarditis. Past medical records prior to her admission showed no abnormal heart findings. She underwent appendectomy one week before the onset of fever. The surgical wounds were noted to have erythematous edges during dressing on the 2nd post-op day. Blood culture was able to isolate gram-positive non-hemolytic cocci. The organism was observed to grow on bile and on 6.5% NaCl and survived at a temperature range of 10 and 45°C. Which of the following is the MOST likely causative organism?",
     "questionImage": null,
     "options": [
       "Staphylococcus epidermidis",
@@ -3703,9 +4364,14 @@
     ],
     "correctAnswer": 1,
     "rationale": {
-      "text": "Enterococci are part of the normal enteric microbiota. They are usually nonhemolytic. They grow in the presence of bile, hydrolyze esculin (bile esculin positive) and in contrast to non-enterococcal group D streptococci, they grow well in 6.5% NaCl. Whereas enterococci grow well at between 10 and 45\u00b0C, streptococci generally grow at a much narrower temperature range.",
+      "text": "Enterococci are part of the normal enteric microbiota. They are usually nonhemolytic. They grow in the presence of bile, hydrolyze esculin (bile esculin positive) and in contrast to non-enterococcal group D streptococci, they grow well in 6.5% NaCl. Whereas enterococci grow well at between 10 and 45°C, streptococci generally grow at a much narrower temperature range.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Gram Positive",
+      "Cocci"
+    ]
   },
   {
     "id": "227",
@@ -3723,7 +4389,10 @@
     "rationale": {
       "text": "Enterococci have the potential for resistance to virtually all clinically useful antibiotics. Their emergence as important nosocomial pathogens has coincided with increased expression of antimicrobial resistance by members of the genus. The mechanisms underlying antibiotic resistance may be intrinsic or acquired.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "228",
@@ -3741,7 +4410,10 @@
     "rationale": {
       "text": "Antibiotic susceptibility testing helps identify the most effective antibiotics for treating bacterial endocarditis. Since different bacteria may exhibit varying levels of susceptibility to antibiotics, performing susceptibility tests allows healthcare providers to select the most appropriate antibiotic regimen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "229",
@@ -3759,7 +4431,10 @@
     "rationale": {
       "text": "All primate lentiviruses use as a receptor the CD4 molecule, which is expressed on macrophages and T lymphocytes. A second coreceptor in addition to CD4 is necessary for HIV-1 to gain entry to cells. Chemokine receptors serve as HIV-1 second receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "230",
@@ -3775,9 +4450,12 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "The cardinal feature of HIV infection is the depletion of T helper-inducer lymphocytes\u2014the result of HIV replication in this population of lymphocytes as well as of the death of uninfected T cells by indirect mechanisms. The T cells express the CD4 phenotypic marker on their surface.",
+      "text": "The cardinal feature of HIV infection is the depletion of T helper-inducer lymphocytes—the result of HIV replication in this population of lymphocytes as well as of the death of uninfected T cells by indirect mechanisms. The T cells express the CD4 phenotypic marker on their surface.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "231",
@@ -3793,9 +4471,12 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Cells contain intracellular antiviral inhibitory proteins referred to as restriction factors. One type is APOBEC3G, a cytidine deaminase that inhibits HIV replication. The Vif protein promotes viral infectivity by suppressing the effects of APOBEC3G. Another inhibitory protein is TRIM5\u03b1, which binds to incoming retrovirus particles and recruits them to proteasomes.",
+      "text": "Cells contain intracellular antiviral inhibitory proteins referred to as restriction factors. One type is APOBEC3G, a cytidine deaminase that inhibits HIV replication. The Vif protein promotes viral infectivity by suppressing the effects of APOBEC3G. Another inhibitory protein is TRIM5α, which binds to incoming retrovirus particles and recruits them to proteasomes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "232",
@@ -3813,7 +4494,10 @@
     "rationale": {
       "text": "The patient presented with purulent vaginal discharge and works as a female sex worker. Disseminated gonococcal infections include septic arthritis, wherein Neisseria gonorrhoeae is the most common cause in sexually active adults. In this form of disseminated infection, there is presence of arthritis, tenosynovitis, or pustules in the skin as seen on the patient.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "233",
@@ -3831,7 +4515,10 @@
     "rationale": {
       "text": "NAAT, such as PCR, is a highly sensitive and specific method for detecting the genetic material of Neisseria gonorrhoeae. It is a rapid and effective diagnostic tool, especially in cases where culture may be challenging or has lower sensitivity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "234",
@@ -3849,7 +4536,10 @@
     "rationale": {
       "text": "Antigen heterogeneity is a major consideration when studying humoral immunity in gonococcal infection. Pili, protein II (PII), and lipooligosaccharide (LOS) are the most important antigens, quantitatively, in generating antibody responses. These three antigens shift from one antigenic form to another at a frequency of 1 in 10^3 or greater. Because of the rapid shifting from one antigenic form to another, nearly every strain of N. gonorrhoeae may be antigenically distinct.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "235",
@@ -3867,7 +4557,10 @@
     "rationale": {
       "text": "Impetigo is a common acute superficial bacterial skin infection (pyoderma) which is highly contagious. It is characterized by pustules and honey-colored crusted erosions. Impetigo involves the epidermis and is seen mostly in preschool children. It is caused by two microorganisms: S. aureus and Group A Streptococcus (Streptococcus pyogenes).",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "236",
@@ -3885,7 +4578,10 @@
     "rationale": {
       "text": "In the past, impetigo was either caused by either S. aureus or Group A Beta-hemolytic streptococci. Currently, however, the most frequently isolated pathogen in cases of impetigo is S. aureus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "237",
@@ -3903,7 +4599,10 @@
     "rationale": {
       "text": "The anterior nares are frequently swabbed to determine nasal colonization, either by culture or nucleic acid amplification tests, for epidemiological purposes. Typical staphylococci appear as gram-positive cocci in clusters in Gram-stained smears of pus or sputum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos"
+    ]
   },
   {
     "id": "238",
@@ -3921,26 +4620,32 @@
     "rationale": {
       "text": "The term psittacosis is applied to the human C. psittaci disease acquired from contact with birds and also the infection of psittacine birds. In humans, C. psittaci produces a spectrum of clinical manifestations ranging from severe pneumonia and sepsis with a high mortality rate to a mild inapparent infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
-{
-  "id": "239",
-  "subject": "Microbiology",
-  "topic": "Chlamydia / STI",
-  "question": "A 21-year-old sexually active woman presents with 5 days of mucopurulent vaginal discharge, dysuria, and postcoital bleeding. She is afebrile, and pelvic examination shows a friable, erythematous cervix with mucopurulent endocervical discharge. Urine pregnancy test is negative. Which of the following is the most appropriate diagnostic test to confirm the suspected infection?",
-  "questionImage": null,
-  "options": [
-    "Nucleic acid amplification test (NAAT) of first-catch urine or endocervical/vaginal swab",
-    "Gram stain of vaginal discharge showing gram-negative intracellular diplococci",
-    "Culture on Thayer-Martin agar",
-    "Darkfield microscopy of vaginal discharge",
-    "Serum IgM ELISA for Chlamydia trachomatis"
-  ],
-  "correctAnswer": 0,
-  "rationale": {
-    "text": "The presentation is classic for urogenital Chlamydia trachomatis infection (cervicitis). C. trachomatis is an obligate intracellular bacterium with a unique developmental cycle, including an infectious elementary body and a replicative reticulate body. NAAT is the preferred diagnostic test because it has high sensitivity and specificity and can be performed on first-catch urine, an endocervical swab, or a self-collected vaginal swab. Gram stain is not useful for chlamydia; it may suggest gonorrhea if intracellular gram-negative diplococci are seen. Culture is specific but technically difficult, expensive, and not routinely used. Darkfield microscopy is used for syphilis, and serology is not recommended for uncomplicated genital chlamydia. Treatment is typically doxycycline 100 mg PO BID for 7 days; azithromycin 1 g PO once may be used in some situations, including pregnancy depending on guidelines. Patients should also be tested for gonorrhea, HIV, syphilis, and trichomonas; partners should be evaluated and treated; and complications include pelvic inflammatory disease, infertility, ectopic pregnancy, and Fitz-Hugh-Curtis syndrome.",
-    "images": []
-    }
+  {
+    "id": "239",
+    "subject": "Microbiology",
+    "topic": "Chlamydia / STI",
+    "question": "A 21-year-old sexually active woman presents with 5 days of mucopurulent vaginal discharge, dysuria, and postcoital bleeding. She is afebrile, and pelvic examination shows a friable, erythematous cervix with mucopurulent endocervical discharge. Urine pregnancy test is negative. Which of the following is the most appropriate diagnostic test to confirm the suspected infection?",
+    "questionImage": null,
+    "options": [
+      "Nucleic acid amplification test (NAAT) of first-catch urine or endocervical/vaginal swab",
+      "Gram stain of vaginal discharge showing gram-negative intracellular diplococci",
+      "Culture on Thayer-Martin agar",
+      "Darkfield microscopy of vaginal discharge",
+      "Serum IgM ELISA for Chlamydia trachomatis"
+    ],
+    "correctAnswer": 0,
+    "rationale": {
+      "text": "The presentation is classic for urogenital Chlamydia trachomatis infection (cervicitis). C. trachomatis is an obligate intracellular bacterium with a unique developmental cycle, including an infectious elementary body and a replicative reticulate body. NAAT is the preferred diagnostic test because it has high sensitivity and specificity and can be performed on first-catch urine, an endocervical swab, or a self-collected vaginal swab. Gram stain is not useful for chlamydia; it may suggest gonorrhea if intracellular gram-negative diplococci are seen. Culture is specific but technically difficult, expensive, and not routinely used. Darkfield microscopy is used for syphilis, and serology is not recommended for uncomplicated genital chlamydia. Treatment is typically doxycycline 100 mg PO BID for 7 days; azithromycin 1 g PO once may be used in some situations, including pregnancy depending on guidelines. Patients should also be tested for gonorrhea, HIV, syphilis, and trichomonas; partners should be evaluated and treated; and complications include pelvic inflammatory disease, infertility, ectopic pregnancy, and Fitz-Hugh-Curtis syndrome.",
+      "images": []
+    },
+    "tags": [
+      "Chlamydia / STI"
+    ]
   },
   {
     "id": "240",
@@ -3958,13 +4663,16 @@
     "rationale": {
       "text": "Infectious elementary bodies enter respiratory epithelial cells and convert to replicating reticulate bodies, which are metabolically active structures that are 10 to 100 times larger than elementary bodies. These subsequently change back to elementary bodies that are released to infect other cells in the same individual or to infect others.",
       "images": []
-    }
+    },
+    "tags": [
+      "Atypicals"
+    ]
   },
   {
     "id": "241",
     "subject": "Microbiology",
     "topic": "Bacteria",
-    "question": "Situation 9 \u2013 A 28 yo female consulted at the clinic because of sudden onset 3-4 days ago of dysuria, mucopurulent discharge, and frequent urination. Microscopic examination of the discharge did not show any fixed or motile organism. Gram-stained smear of the urethral discharge failed to show any intracellular diplococci. What is the MOST probable causative organism?",
+    "question": "Situation 9 – A 28 yo female consulted at the clinic because of sudden onset 3-4 days ago of dysuria, mucopurulent discharge, and frequent urination. Microscopic examination of the discharge did not show any fixed or motile organism. Gram-stained smear of the urethral discharge failed to show any intracellular diplococci. What is the MOST probable causative organism?",
     "questionImage": null,
     "options": [
       "Candida albicans",
@@ -3976,7 +4684,11 @@
     "rationale": {
       "text": "Chlamydia trachomatis is a bacterium responsible for chlamydia, one of the most common sexually transmitted infections worldwide. Chlamydia infection can manifest with symptoms such as dysuria, mucopurulent discharge, and frequent urination. However, Chlamydia trachomatis is an obligate intracellular bacterium and may not always be visible on Gram stain.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria",
+      "Diplococci"
+    ]
   },
   {
     "id": "242",
@@ -3994,7 +4706,10 @@
     "rationale": {
       "text": "Nucleic acid amplification testing (NAAT) methodology consists of amplifying C. trachomatis DNA or RNA sequences using PCR, TMA, or SDA. These sensitive, specific tests have become the 'gold standard' and are the preferred diagnostic method, if available.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "243",
@@ -4012,13 +4727,16 @@
     "rationale": {
       "text": "Chlamydia trachomatis is an obligate intracellular bacterium, meaning it cannot replicate outside of a host cell. It has a distinctive developmental cycle that occurs within the cytoplasm of host cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "244",
     "subject": "Microbiology",
     "topic": "Bacteria",
-    "question": "Situation 10\u2014A previously healthy young man was brought to the ER because of progressive general weakening with symmetrical involvement of both upper and lower extremities. This was preceded by sudden onset of doubling of vision, difficulty of swallowing and slurring of speech. He was afebrile. In the ER, he suddenly went into respiratory difficulty and irreversible cardiac arrest. Upon interview of the relative, it was revealed that he had eaten leftover canned sardines for lunch. What is the MOST PROBABLE diagnosis?",
+    "question": "Situation 10—A previously healthy young man was brought to the ER because of progressive general weakening with symmetrical involvement of both upper and lower extremities. This was preceded by sudden onset of doubling of vision, difficulty of swallowing and slurring of speech. He was afebrile. In the ER, he suddenly went into respiratory difficulty and irreversible cardiac arrest. Upon interview of the relative, it was revealed that he had eaten leftover canned sardines for lunch. What is the MOST PROBABLE diagnosis?",
     "questionImage": null,
     "options": [
       "Tetanus",
@@ -4030,7 +4748,10 @@
     "rationale": {
       "text": "Foodborne botulism is caused by ingestion of food contaminated by preformed botulinum toxin. Toxin types A, B, and E have all been associated with foodborne botulism. These cases are most commonly recognized as small outbreaks, usually involving home-canned foods such as fruits, vegetables, and fish. Botulism is classically described as the acute onset of bilateral cranial neuropathies associated with symmetric descending weakness. Absence of fever, symmetric neurologic deficits, the patient remains responsive, normal or slow heart rate and normal blood pressure, no sensory deficits with the exception of blurred vision.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "245",
@@ -4048,7 +4769,10 @@
     "rationale": {
       "text": "Clostridium botulinum is the bacterium responsible for producing the botulinum toxin, causing botulism. This toxin is potent and affects the nervous system, leading to the characteristic symptoms observed in the patient, such as double vision, difficulty swallowing, slurred speech, and symmetrical descending weakness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "246",
@@ -4066,7 +4790,10 @@
     "rationale": {
       "text": "Steps in neurotoxin activity include heavy-chain binding to nerve terminals, internalization in endocytic vesicles, translocation of the light chain to cytosol, and light-chain serotype-specific cleavage of one of several proteins involved in the release of the neurotransmitter acetylcholine. Inhibition of acetylcholine release by any of the seven toxin serotypes results in characteristic flaccid paralysis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "247",
@@ -4082,9 +4809,12 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "There is a latent period of ~3 weeks (1\u20135 weeks) between the precipitating group A streptococcal infection and the appearance of the clinical features of ARF. As many as two-thirds of patients with an acute episode of rheumatic fever have a history of an upper respiratory tract infection several weeks before, and the peak age and seasonal incidence of acute rheumatic fever closely parallel that of GAS pharyngitis.",
+      "text": "There is a latent period of ~3 weeks (1–5 weeks) between the precipitating group A streptococcal infection and the appearance of the clinical features of ARF. As many as two-thirds of patients with an acute episode of rheumatic fever have a history of an upper respiratory tract infection several weeks before, and the peak age and seasonal incidence of acute rheumatic fever closely parallel that of GAS pharyngitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "248",
@@ -4102,7 +4832,10 @@
     "rationale": {
       "text": "Rheumatic fever is the most probable cause of the girl's symptoms. The clinical presentation of fever, malaise, migratory joint pains, and carditis is consistent with acute rheumatic fever, which is an immune-mediated response to Group A Streptococcus (GAS) infection, particularly untreated streptococcal pharyngitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "249",
@@ -4120,7 +4853,10 @@
     "rationale": {
       "text": "The most widely accepted theory of rheumatic fever pathogenesis is based on the concept of molecular mimicry, whereby an immune response targeted at streptococcal antigens (mainly thought to be on the M protein and the N-acetylglucosamine of group A streptococcal carbohydrate) also recognizes human tissues. Cross-reactive antibodies bind to endothelial cells on the heart valve, leading to activation of VCAM-1, recruitment of activated lymphocytes, and lysis of endothelial cells in the presence of complement.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immunology"
+    ]
   },
   {
     "id": "250",
@@ -4138,7 +4874,11 @@
     "rationale": {
       "text": "Bacterial vaginosis is the most prevalent cause of symptomatic vaginitis. The vaginal discharge associated with bacterial vaginosis is thin and gray-white. Speculum examination reveals that the discharge is mildly adherent to the vaginal walls. The four criteria for the diagnosis of bacterial vaginosis are: homogeneous vaginal discharge, pH of 4.5 or higher, amine-like odor when mixed with KOH (whiff test), and clue cells >20% of vaginal epithelial cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco",
+      "Bacilli"
+    ]
   },
   {
     "id": "251",
@@ -4156,7 +4896,10 @@
     "rationale": {
       "text": "Bacterial vaginosis reflects a shift in vaginal flora from lactobacilli-dominant to mixed flora, including genital mycoplasmas, G. vaginalis, and anaerobes, such as peptostreptococci, and Prevotella and Mobiluncus spp. Although Gardnerella and anaerobic organisms can be found in women with normal vaginal flora, their concentration increased several fold in women with bacterial vaginosis concurrent with a marked decrease in lactobacilli.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "252",
@@ -4174,7 +4917,10 @@
     "rationale": {
       "text": "This is the correct treatment for bacterial vaginosis. Metronidazole is an antibiotic effective against anaerobic bacteria, including Gardnerella vaginalis, the causative agent of bacterial vaginosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "253",
@@ -4190,9 +4936,12 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Cryptosporidium species, typically Cryptosporidium hominis, can infect the intestine in immunocompromised persons (eg, those with AIDS) and cause severe, intractable diarrhea. They have long been known as parasites of rodents, fowl, rhesus monkeys, cattle, and other herbivores and have probably been an unrecognized cause of self-limited, mild gastroenteritis and diarrhea in humans. The prominent clinical feature of cryptosporidiosis is watery diarrhea, which is mild and self-limited (1\u20132 weeks) in normal persons but may be severe and prolonged in immunocompromised or very young or old individuals.",
+      "text": "Cryptosporidium species, typically Cryptosporidium hominis, can infect the intestine in immunocompromised persons (eg, those with AIDS) and cause severe, intractable diarrhea. They have long been known as parasites of rodents, fowl, rhesus monkeys, cattle, and other herbivores and have probably been an unrecognized cause of self-limited, mild gastroenteritis and diarrhea in humans. The prominent clinical feature of cryptosporidiosis is watery diarrhea, which is mild and self-limited (1–2 weeks) in normal persons but may be severe and prolonged in immunocompromised or very young or old individuals.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "254",
@@ -4210,7 +4959,10 @@
     "rationale": {
       "text": "Cryptosporidium hominis is a member of the class Sporozoan, which is a subgroup within the phylum Apicomplexa. Sporozoans are characterized by the presence of spore-like stages in their life cycle, and Cryptosporidium species exhibit this feature.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos"
+    ]
   },
   {
     "id": "255",
@@ -4228,7 +4980,10 @@
     "rationale": {
       "text": "Cryptosporidium is a protozoan parasite that infects the epithelial cells of the gastrointestinal tract, particularly the surface of the villi in the lower small bowel. It attaches to the brush border of mucosal epithelial cells, causing damage and inflammation. This habitation leads to the characteristic clinical signs and symptoms associated with Cryptosporidium infection, such as diarrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parasite"
+    ]
   },
   {
     "id": "256",
@@ -4246,7 +5001,10 @@
     "rationale": {
       "text": "V. vulnificus is particularly apt to be found in oysters, especially in warm months. Bacteremia with no focus of infection occurs in persons who have eaten infected oysters and who have alcoholism or liver disease. Infection often proceeds rapidly, with development of severe disease. Wound infections may be mild but often proceed rapidly (over a few hours), with development of bullous skin lesions, cellulitis, and myositis with necrosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "257",
@@ -4264,7 +5022,10 @@
     "rationale": {
       "text": "Vibrio species are halophilic, oxidase-positive, motile, curved, Gram-negative rods that are found in surface waters worldwide.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos"
+    ]
   },
   {
     "id": "258",
@@ -4282,7 +5043,10 @@
     "rationale": {
       "text": "Diagnosis is by culturing the organism on standard laboratory media; TCBS is the preferred medium for stool cultures, where most strains produce blue-green (sucrose negative) colonies.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "259",
@@ -4298,9 +5062,12 @@
     ],
     "correctAnswer": 1,
     "rationale": {
-      "text": "When an individual susceptible to infection is exposed to the virus, the response ranges from inapparent infection without symptoms to a mild febrile illness to severe and permanent paralysis. Most infections are subclinical; only about 1% of infections result in clinical illness. The incubation period is usually 7\u201314 days, but it may range from 3 to 35 days.",
+      "text": "When an individual susceptible to infection is exposed to the virus, the response ranges from inapparent infection without symptoms to a mild febrile illness to severe and permanent paralysis. Most infections are subclinical; only about 1% of infections result in clinical illness. The incubation period is usually 7–14 days, but it may range from 3 to 35 days.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "260",
@@ -4318,7 +5085,10 @@
     "rationale": {
       "text": "Poliomyelitis is an acute infectious disease that in its serious form affects the central nervous system (CNS). The destruction of motor neurons in the spinal cord results in flaccid paralysis. Poliovirus can spread along axons of peripheral nerves to the CNS, where it continues to progress along the fibers of the lower motor neurons to increasingly involve the spinal cord or the brain.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "261",
@@ -4336,13 +5106,16 @@
     "rationale": {
       "text": "A major campaign was launched by the World Health Organization in 1988 to eradicate poliovirus from the world as was done for smallpox virus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "262",
     "subject": "Microbiology",
     "topic": "Bacteria",
-    "question": "Situation 16 \u2013 Escherichia coli is a member of the normal intestinal microbiota. However, certain strains cause diarrheal disease which are extremely common worldwide. Which of the following causes intense and prolonged hypersecretion of water and chlorides and inhibition of the reabsorption of sodium, with ensuing hypermotility and diarrhea lasting for days, similar to Vibrio cholera?",
+    "question": "Situation 16 – Escherichia coli is a member of the normal intestinal microbiota. However, certain strains cause diarrheal disease which are extremely common worldwide. Which of the following causes intense and prolonged hypersecretion of water and chlorides and inhibition of the reabsorption of sodium, with ensuing hypermotility and diarrhea lasting for days, similar to Vibrio cholera?",
     "questionImage": null,
     "options": [
       "Shiga toxin-producing E. coli (STEC)",
@@ -4354,7 +5127,10 @@
     "rationale": {
       "text": "Enterotoxigenic E. coli (ETEC) are a common cause of 'traveler's diarrhea' and a very important cause of diarrhea in children less than 5 years of age in developing countries. This markedly increases the local concentration of cyclic adenosine monophosphate (cAMP) after which ensues a complex cascade that involves the cystic fibrosis transmembrane conductance regulator. The end result is an intense and prolonged hypersecretion of water and chlorides and inhibition of the reabsorption of sodium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "263",
@@ -4372,7 +5148,10 @@
     "rationale": {
       "text": "Shiga toxin-producing E. coli (STEC) are named for the cytotoxic toxins they produce. There are at least two antigenic forms of the toxin referred to as Shiga-like toxin 1 and Shiga-like toxin 2. STEC has been associated with mild non-bloody diarrhea, hemorrhagic colitis, a severe form of diarrhea, and with hemolytic uremic syndrome, a disease resulting in acute renal failure, microangiopathic hemolytic anemia, and thrombocytopenia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "264",
@@ -4390,13 +5169,16 @@
     "rationale": {
       "text": "Enteroinvasive E. coli (EIEC) produce a disease very similar to shigellosis. The disease occurs most commonly in children in developing countries and in travelers to these countries. Similar to Shigella, EIEC strains are non-lactose or late lactose fermenters and are nonmotile. EIEC produce disease by invading intestinal mucosal epithelial cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "265",
     "subject": "Microbiology",
     "topic": "TB",
-    "question": "Situation 17 \u2013 For the past few days, a 35-year old lady had dry cough associated with low-grade afternoon fever. Physical examinations revealed an emaciated patient with harsh breath sounds on auscultation of the lungs. No enlarged lymph node was observed or palpated. X-ray showed increased density of both upper lung fields. Which of the following forms of tuberculosis is the patient manifesting?",
+    "question": "Situation 17 – For the past few days, a 35-year old lady had dry cough associated with low-grade afternoon fever. Physical examinations revealed an emaciated patient with harsh breath sounds on auscultation of the lungs. No enlarged lymph node was observed or palpated. X-ray showed increased density of both upper lung fields. Which of the following forms of tuberculosis is the patient manifesting?",
     "questionImage": null,
     "options": [
       "Ghon complex",
@@ -4408,7 +5190,10 @@
     "rationale": {
       "text": "Post-primary (Adult-Type) Disease Also referred to as reactivation or secondary TB, post-primary TB is probably most accurately termed adult-type TB because it may result from endogenous reactivation of distant LTBI or recent infection. It is usually localized to the apical and posterior segments of the upper lobes, where the substantially higher mean oxygen tension favors mycobacterial growth. Early in the course of disease, symptoms and signs are often nonspecific and insidious, consisting mainly of diurnal fever and night sweats due to defervescence, weight loss, anorexia, general malaise, and weakness.",
       "images": []
-    }
+    },
+    "tags": [
+      "TB"
+    ]
   },
   {
     "id": "266",
@@ -4426,7 +5211,10 @@
     "rationale": {
       "text": "A positive tuberculin test result indicates that an individual has been infected in the past. It does not imply that active disease or immunity to disease is present. Tuberculin-positive persons are at risk of developing disease from reactivation of the primary infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "TB"
+    ]
   },
   {
     "id": "267",
@@ -4444,7 +5232,11 @@
     "rationale": {
       "text": "The central zone of the TB granuloma is the caseous necrotic core. In this region, there is a collection of caseous material, which is a cheese-like, necrotic substance. The central zone is often hypoxic and acidic, creating an environment conducive to the persistence of Mycobacterium tuberculosis. TB bacilli can be found in the central necrotic area of the granuloma, and culturing from this zone can help confirm the presence of the bacteria.",
       "images": []
-    }
+    },
+    "tags": [
+      "TB",
+      "Bacilli"
+    ]
   },
   {
     "id": "268",
@@ -4462,7 +5254,11 @@
     "rationale": {
       "text": "The human herpesviruses share four significant biologic properties: they code for unique enzymes involved in biosynthesis of viral nucleic acids; synthesis and assembly of viral DNA is initiated in the nucleus; release of progeny virus from the infected cell is accompanied by cell death; and all herpesviruses establish latent infection within tissues that are characteristic for each virus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro",
+      "Herpesvirus"
+    ]
   },
   {
     "id": "269",
@@ -4478,9 +5274,12 @@
     ],
     "correctAnswer": 2,
     "rationale": {
-      "text": "Nine herpesvirus types are known to infect humans: herpes simplex viruses 1 and 2 (HSV-1 and HSV-2), varicella-zoster virus (VZV), Epstein\u2013Barr virus (EBV), human cytomegalovirus (HCMV), human herpesvirus 6A and 6B, human herpesvirus 7, and Kaposi's sarcoma-associated herpesvirus (KSHV).",
+      "text": "Nine herpesvirus types are known to infect humans: herpes simplex viruses 1 and 2 (HSV-1 and HSV-2), varicella-zoster virus (VZV), Epstein–Barr virus (EBV), human cytomegalovirus (HCMV), human herpesvirus 6A and 6B, human herpesvirus 7, and Kaposi's sarcoma-associated herpesvirus (KSHV).",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "270",
@@ -4498,7 +5297,10 @@
     "rationale": {
       "text": "CMV causes the most common congenital infection that almost always accompanies a primary infection in a pregnant woman. Infections are usually asymptomatic at birth, but approximately 25% will develop deafness and neurological problems. CMV can infect neonates during delivery through an infected birth canal or via breastfeeding, but infants usually remain healthy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "271",
@@ -4516,7 +5318,10 @@
     "rationale": {
       "text": "AIDS is caused by human immunodeficiency virus (HIV) whose major target cell is the CD4 Th cell and its lysis. Macrophages, astrocytes, and dendritic cells with much lower membrane levels of CD4 also can be infected. Depletion of the Th cell population results in a loss of cytokines and the capacity to activate other immunocompetent cells. Consequently, infections by endogenous and nosocomial agents predominate.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "272",
@@ -4534,7 +5339,10 @@
     "rationale": {
       "text": "When HIV enters a new host, there is typically a burst of viremia that is then inhibited by the onset of immune responses. The subsequent level of plasma virus is a reflection of the equilibrium reached between the virus and the host after the initial battle and is generally maintained for years. This steady-state level varies from individual to individual and is predictive of the long-term clinical outcome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "273",
@@ -4552,7 +5360,10 @@
     "rationale": {
       "text": "HIV treatment has dramatically improved the health, quality of life, and life expectancy of people with HIV. HIV treatment has also transformed the HIV prevention landscape. Over the last decade, research has shown the profound impact of HIV treatment in preventing the sexual transmission of HIV, sometimes called 'Treatment as Prevention' (TasP). People with HIV who take HIV medicine as prescribed and get and keep an undetectable viral load (or stay virally suppressed) have effectively no risk of transmitting HIV to their HIV-negative sexual partners.",
       "images": []
-    }
+    },
+    "tags": [
+      "Viro"
+    ]
   },
   {
     "id": "274",
@@ -4570,7 +5381,12 @@
     "rationale": {
       "text": "Shigellosis is characterized by abdominal cramps, diarrhea, fever, and bloody stools. The first sign of infection (profuse watery diarrhea without histologic evidence of mucosal invasion) is mediated by an enterotoxin. However, the cardinal feature of shigellosis is lower abdominal cramps and tenesmus, with abundant pus and blood in the stool. Rare but severe symptoms include delirium, encephalopathy, anuria, seizures, meningismus, and coma.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Bacilli"
+    ]
   },
   {
     "id": "275",
@@ -4588,7 +5404,10 @@
     "rationale": {
       "text": "Seizures are the most common neurologic manifestation, followed by lethargy and disorientation or coma, which often are referred to as encephalopathy. The pathophysiology of Shigella encephalopathy has not been elucidated. Often encephalopathy results in the early development of brain edema. During the acute stage of encephalopathy serum and cerebrospinal fluid concentrations of inflammatory cytokines such as TNF-alpha, IL-1, and IL-6 become elevated.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "276",
@@ -4606,7 +5425,10 @@
     "rationale": {
       "text": "Shigella dysenteriae is a non-lactose fermenter. It does not utilize lactose, which distinguishes it on differential media. Most Shigella species, including S. dysenteriae, do not produce gas from the fermentation of glucose.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "277",
@@ -4622,9 +5444,13 @@
     ],
     "correctAnswer": 0,
     "rationale": {
-      "text": "Pneumococcal pneumonia is caused by Streptococcus pneumoniae. The pneumococcus does not have Lancefield Antigens. Under the microscope, they appear as lancet-shaped gram-positive cocci arranged in pairs (diplococci). The major virulence factor of the pneumococcus is its polysaccharide capsule, which protects the organism from phagocytosis. The onset of the clinical manifestations is abrupt, consisting of a severe shaking chill and sustained fever of 39\u00b0C to 41\u00b0C. Most patients have a productive cough with blood-tinged sputum, and they commonly have chest pain (pleurisy).",
+      "text": "Pneumococcal pneumonia is caused by Streptococcus pneumoniae. The pneumococcus does not have Lancefield Antigens. Under the microscope, they appear as lancet-shaped gram-positive cocci arranged in pairs (diplococci). The major virulence factor of the pneumococcus is its polysaccharide capsule, which protects the organism from phagocytosis. The onset of the clinical manifestations is abrupt, consisting of a severe shaking chill and sustained fever of 39°C to 41°C. Most patients have a productive cough with blood-tinged sputum, and they commonly have chest pain (pleurisy).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos",
+      "Diplococci"
+    ]
   },
   {
     "id": "278",
@@ -4642,7 +5468,10 @@
     "rationale": {
       "text": "The pneumonic lesion progresses as pneumococci multiply in the alveolus and invade the alveolar epithelium. Pneumococci pass from alveolus to alveolus through the pores of Cohn, thereby creating inflammation and consolidation strictly along lobar compartments.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "279",
@@ -4658,9 +5487,12 @@
     ],
     "correctAnswer": 3,
     "rationale": {
-      "text": "Pneumococci can multiply in tissue as part of the infection process. The bacteria's ability to survive and proliferate in the host's tissues contributes to the pathogenesis of pneumococcal infections. However, the least likely reason among the options is not their ability to multiply, but rather the fact that they are part of the normal flora\u2014which is a predisposing factor, not a mechanism of disease production.",
+      "text": "Pneumococci can multiply in tissue as part of the infection process. The bacteria's ability to survive and proliferate in the host's tissues contributes to the pathogenesis of pneumococcal infections. However, the least likely reason among the options is not their ability to multiply, but rather the fact that they are part of the normal flora—which is a predisposing factor, not a mechanism of disease production.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "280",
@@ -4678,7 +5510,10 @@
     "rationale": {
       "text": "A man who has unprotected sex with an infected person can acquire a Neisseria gonorrhoeae infection. This organism penetrates the mucous membranes of the urethra, causing inflammation of the urethra (urethritis). Most men will complain of painful urination along with a purulent urethral discharge. Kidney bean-shaped with concave sides facing each other, forming the appearance of a doughnut; Gram-negative diplococci; grows best in a high CO2 environment; ferments only glucose.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "281",
@@ -4696,7 +5531,11 @@
     "rationale": {
       "text": "Most common in 15-25-years old. Urethritis in men is characterized by thick, yellow, purulent exudate containing bacteria and numerous neutrophils; frequent, painful urination; and possibly an erythematous meatus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria",
+      "Neisseria"
+    ]
   },
   {
     "id": "282",
@@ -4714,7 +5553,10 @@
     "rationale": {
       "text": "Stained smears of endocervical exudates have a sensitivity of about 50% and a specificity of about 95% when examined by experienced microscopist. Stained smears of the urethral exudate from men have a sensitivity of about 90% and a specificity of 99%. Most laboratories have abandoned culture in favor of NAATs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "283",
@@ -4730,9 +5572,12 @@
     ],
     "correctAnswer": 2,
     "rationale": {
-      "text": "Legionella Pneumophilia \u2013 Gram (-) rod. Gram stains poorly \u2013 use silver stain. Grown on charcoal yeast extract medium with iron and cysteine. Colonies are round or flat with entire edges. They vary in color from colorless to iridescent pink or blue and are translucent or speckled. Legionnaire's disease \u2013 severe pneumonia, fever, GI and CNS symptoms.",
+      "text": "Legionella Pneumophilia – Gram (-) rod. Gram stains poorly – use silver stain. Grown on charcoal yeast extract medium with iron and cysteine. Colonies are round or flat with entire edges. They vary in color from colorless to iridescent pink or blue and are translucent or speckled. Legionnaire's disease – severe pneumonia, fever, GI and CNS symptoms.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "284",
@@ -4750,7 +5595,10 @@
     "rationale": {
       "text": "Legionella pneumophila is a gram-negative, facultative intracellular bacillus. It is often described as coccobacilli. It is associated with Legionnaire's disease, a severe form of pneumonia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Pos"
+    ]
   },
   {
     "id": "285",
@@ -4768,7 +5616,10 @@
     "rationale": {
       "text": "Treatment of Legionella pneumonia involves antibiotics that target intracellular pathogens. Macrolides and fluoroquinolones are the first-line agents. Macrolides disrupt protein production critical for survival of the organism. Although erythromycin or clarithromycin is effective, azithromycin is the preferred agent, as it is easier to tolerate and is involved in fewer drug-drug interactions. Azithromycin and clarithromycin also reach higher intracellular concentrations than erythromycin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "286",
@@ -4784,9 +5635,12 @@
     ],
     "correctAnswer": 1,
     "rationale": {
-      "text": "Microorganisms produce enzymes that destroy the active drug. Examples: Staphylococci resistant to penicillin G produce a \u03b2-lactamase that destroys the drug. Other \u03b2-lactamases are produced by gram-negative rods. Gram-negative bacteria resistant to aminoglycosides (by virtue of a plasmid) produce adenylating, phosphorylating, or acetylating enzymes that destroy the drug.",
+      "text": "Microorganisms produce enzymes that destroy the active drug. Examples: Staphylococci resistant to penicillin G produce a β-lactamase that destroys the drug. Other β-lactamases are produced by gram-negative rods. Gram-negative bacteria resistant to aminoglycosides (by virtue of a plasmid) produce adenylating, phosphorylating, or acetylating enzymes that destroy the drug.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "287",
@@ -4804,7 +5658,10 @@
     "rationale": {
       "text": "CA-MRSA strains often exhibit greater tissue invasiveness. They are associated with skin and soft tissue infections, abscesses, and can cause severe invasive diseases.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "288",
@@ -4822,7 +5679,10 @@
     "rationale": {
       "text": "Panton-Valentine Leukocidin (PVL) is a crucial virulence factor in CA-MRSA. It is a toxin that forms pores in leukocyte membranes, leading to cell lysis. PVL is associated with skin and soft tissue infections and may contribute to the severity of CA-MRSA infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "289",
@@ -4840,7 +5700,10 @@
     "rationale": {
       "text": "Sporotrichosis ('rose gardener's disease') is caused by the dimorphic fungus Sporothrix schenckii. S. schenckii is found in or on plant materials such as rose, plum trees, or sphagnum moss. It is traumatically introduced by florist's wire, splinters, or rose or plum tree thorns into subcutaneous tissues. This subcutaneous, nodular fungal disease is generally not painful. When it spreads via the lymphatics, it produces a chain of lesions on the extremities, with the older lesions ulcerating and the newer ones starting nodular.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "290",
@@ -4858,7 +5721,10 @@
     "rationale": {
       "text": "The most reliable method of diagnosis is culture. Specimens are streaked on inhibitory mold agar or Sabouraud's agar containing antibacterial antibiotics and incubated at 25-30C. This identification is confirmed by growth at 35C and conversion to the yeast form.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "291",
@@ -4876,7 +5742,10 @@
     "rationale": {
       "text": "Oral itraconazole is considered the treatment of choice for sporotrichosis. It is an azole antifungal medication with good efficacy against Sporothrix schenckii. It is generally well-tolerated and is preferred over potassium iodide. Treatment duration may vary depending on the extent and severity of the infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Myco"
+    ]
   },
   {
     "id": "292",
@@ -4894,7 +5763,10 @@
     "rationale": {
       "text": "Clinical manifestations of plague depend on the route of exposure. After an incubation period of 2-7 days, there is high fever and painful lymphadenopathy, commonly with greatly enlarged, tender nodes (buboes) in the neck, groin, or axillae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "293",
@@ -4912,7 +5784,10 @@
     "rationale": {
       "text": "Bubonic plague is the most common form of plague. This occurs when an infected flea bites a person or when materials contaminated with Y. pestis enter through a break in a person's skin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Zoonoses"
+    ]
   },
   {
     "id": "294",
@@ -4930,7 +5805,10 @@
     "rationale": {
       "text": "The virulent yersiniae produce V and W antigens, which are encoded by genes on a plasmid of approximately 70kb. This is essential for virulence; the V and W antigens yield the requirement for calcium for growth.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "295",
@@ -4948,7 +5826,10 @@
     "rationale": {
       "text": "Clinical findings: Incubation period varies from 1-3wks. Onset is usually insidious, with malaise, fever, headache, sore throat, and cough. Initially, the cough is nonproductive, but it is occasionally paroxysmal. Later, there may be blood streaked sputum and chest pain. Early in the course, the patient appears only moderately ill, and physical signs of pulmonary consolidation are often negligible compared with the striking consolidation seen on radiograph. Treatment: Tetracyclines, macrolides, fluoroquinolones.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "296",
@@ -4966,7 +5847,10 @@
     "rationale": {
       "text": "Mycoplasma pneumonia lacks a cell wall, making it inherently resistant to antibiotics that target cell wall synthesis, such as penicillin and other beta-lactam antibiotics. Beta-lactam antibiotics like penicillin work by inhibiting cell wall synthesis, and their efficacy depends on the presence of a cell wall in bacteria. Mycoplasma pneumonia has a unique cell membrane structure and does not possess a cell wall, rendering it insensitive to beta-lactam antibiotics. Tetracycline and erythromycin, which target bacterial protein synthesis, are effective alternatives.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "297",
@@ -4984,7 +5868,10 @@
     "rationale": {
       "text": "The diagnosis of M. pneumoniae pneumonia is primarily based on clinical recognition of the characteristic syndrome. Clinical features include an insidious onset with malaise, fever, headache, sore throat, and cough. The cough may become productive with blood-streaked sputum, and chest radiographs may show pulmonary consolidation. Patients often appear moderately ill despite radiographic findings. The term 'Walking pneumonia' applies to Mycoplasma infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "298",
@@ -5002,7 +5889,10 @@
     "rationale": {
       "text": "Enterocolitis is the most prevalent manifestation of salmonella infection. In the United States, prominent causative agents of enterocolitis include S. typhimurium and Salmonella Enteritidis, although any of the more than 1400 serotypes of salmonellae can also cause this condition. Following the ingestion of salmonellae, symptoms typically appear within 8-48 hours, including nausea, headache, vomiting, and profuse diarrhea with few leukocytes in the stools. Low-grade fever is common, but the episode usually resolves in 2-3 days. Inflammatory lesions of the small and large intestine are typically present. Bacteremia is rare, occurring in only 2-4% of cases, except in immunodeficient individuals. Blood culture results are usually negative, but stool culture results are positive for salmonellae and may remain positive for several weeks after clinical recovery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "299",
@@ -5020,7 +5910,10 @@
     "rationale": {
       "text": "Bacteremia with focal lesions: This is associated commonly with S serotype cholerasuis but may be caused by any salmonella serotype. After oral infection, there is early invasion of the bloodstream (with possible focal lesions in lungs, bones, meninges, etc.), but intestinal manifestations are often absent. Blood culture results are positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "300",
@@ -5038,7 +5931,10 @@
     "rationale": {
       "text": "The 'Enteric Fevers' (Typhoid fever): The ingested salmonellae reach the small intestine, from which they enter the lymphatics (Peyer's patches) and then the bloodstream. They are carried by the blood to many organs, including the intestine. The organisms multiply in intestinal lymphoid tissue and are excreted in stools.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bacteria"
+    ]
   },
   {
     "id": "301",
@@ -5057,7 +5953,10 @@
     "rationale": {
       "text": "Lipid A is the endotoxin component of LPS that binds TLR4, triggering systemic inflammatory cascades leading to shock and fever.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "302",
@@ -5076,7 +5975,10 @@
     "rationale": {
       "text": "LT ADP-ribosylates Gs alpha subunit, permanently activating adenylate cyclase to increase cAMP, leading to Cl- secretion and watery diarrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "303",
@@ -5095,7 +5997,10 @@
     "rationale": {
       "text": "Klebsiella species possess prominent polysaccharide capsules responsible for their characteristic large, hypermucoid colony morphology and non-motile state.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "304",
@@ -5114,7 +6019,10 @@
     "rationale": {
       "text": "Proteus mirabilis is a non-lactose fermenter that produces potent urease (alkalinizing urine) and exhibits characteristic swarming motility on agar plates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "305",
@@ -5133,7 +6041,10 @@
     "rationale": {
       "text": "EPEC uses a Type III Secretion System (encoded by LEE) to inject its own receptor (Tir) into host cells, recruiting actin to form characteristic pedestals beneath bacteria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "306",
@@ -5152,7 +6063,10 @@
     "rationale": {
       "text": "Antibiotic treatment damages bacterial DNA/membranes, triggering lambdoid prophage induction and dramatically increasing Shiga toxin release, which precipitates HUS.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "307",
@@ -5171,7 +6085,10 @@
     "rationale": {
       "text": "Unlike ~95% of E. coli strains, EHEC O157:H7 does NOT ferment sorbitol within 24 hours, yielding characteristic colorless colonies on Sorbitol-MacConkey agar.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "308",
@@ -5190,7 +6107,10 @@
     "rationale": {
       "text": "P. aeruginosa produces pyocyanin (blue pigment) and pyoverdin (fluorescent yellow-green pigment), which combine to generate its classic blue-green appearance.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "309",
@@ -5209,7 +6129,10 @@
     "rationale": {
       "text": "Exotoxin A inhibits eukaryotic protein synthesis by ADP-ribosylating EF-2, identical to the mechanism of action of Diphtheria toxin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "310",
@@ -5228,7 +6151,10 @@
     "rationale": {
       "text": "Acinetobacter species are strictly oxidase-negative non-fermenters, whereas Pseudomonas species are oxidase-positive.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "311",
@@ -5247,7 +6173,10 @@
     "rationale": {
       "text": "Stenotrophomonas maltophilia is intrinsically resistant to carbapenems (via L1 metallo-beta-lactamase) and aminoglycosides; TMP-SMX is the drug of choice.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "312",
@@ -5266,7 +6195,10 @@
     "rationale": {
       "text": "Vibrio cholerae ferments sucrose, producing bright yellow colonies on selective Thiosulfate-Citrate-Bile Salts-Sucrose (TCBS) agar.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "313",
@@ -5285,7 +6217,10 @@
     "rationale": {
       "text": "Cholera toxin A1 subunit continuously activates Gs, stimulating adenylate cyclase to generate elevated cAMP levels. This triggers hypersecretion of Cl- and water.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "314",
@@ -5304,7 +6239,10 @@
     "rationale": {
       "text": "C. jejuni is microaerophilic and thermophilic, growing optimally at 42°C on selective media (e.g., Skirrow's/Campy-BAP) which suppresses normal fecal flora.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "315",
@@ -5323,7 +6261,10 @@
     "rationale": {
       "text": "H. pylori produces potent urease, which hydrolyzes gastric urea into ammonia and CO2, creating a protective alkaline microenvironment around the bacterium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "316",
@@ -5342,7 +6283,10 @@
     "rationale": {
       "text": "Pertussis toxin ADP-ribosylates Gi proteins, blocking chemokine receptor signaling required for lymphocytes to extravasate, resulting in marked peripheral lymphocytosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "317",
@@ -5361,7 +6305,10 @@
     "rationale": {
       "text": "Rhinoscleroma biopsy reveals Mikulicz cells—large vacuolated histiocytes/macrophages packed with K. rhinoscleromatis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "318",
@@ -5380,7 +6327,10 @@
     "rationale": {
       "text": "Erythritol, a sugar alcohol found in animal placentas, stimulates growth of Brucella spp., predisposing livestock to contagious abortion (absent in human placentas).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "319",
@@ -5399,7 +6349,10 @@
     "rationale": {
       "text": "Eikenella corrodens is a fastidious GNB of human oral flora that pits agar, smells like hypochlorite bleach, and causes endocarditis and bite-wound infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "320",
@@ -5418,7 +6371,11 @@
     "rationale": {
       "text": "Chromobacterium violaceum produces violacein, a natural violet antioxidant pigment, and can cause rare but severe skin/systemic infections after water exposure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative"
+    ]
   },
   {
     "id": "321",
@@ -5437,7 +6394,10 @@
     "rationale": {
       "text": "Cross-reactive antibodies formed against C. jejuni LOS epitopes target nerve GM1 gangliosides, resulting in autoimmune peripheral demyelination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "322",
@@ -5456,7 +6416,10 @@
     "rationale": {
       "text": "Burkholderia mallei is a non-motile Gram-negative bacillus causing glanders in equines and humans; B. pseudomallei causes melioidosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "323",
@@ -5475,7 +6438,10 @@
     "rationale": {
       "text": "Tularemia is a zoonosis acquired via skin contact with infected lagomorphs (rabbits), tick/deer fly vectors, or aerosols, causing ulceroglandular or pneumonic forms.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "324",
@@ -5494,7 +6460,10 @@
     "rationale": {
       "text": "The Sereny test assesses local invasive capacity of EIEC and Shigella strains by instilling bacteria into a guinea pig's eye to observe purulent keratoconjunctivitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "325",
@@ -5513,7 +6482,10 @@
     "rationale": {
       "text": "Kingella kingae colonizes the child's respiratory tract and enters the bloodstream via minor oral trauma, causing pediatric septic arthritis and osteomyelitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   },
   {
     "id": "326",
@@ -5532,7 +6504,12 @@
     "rationale": {
       "text": "Uropathogenic E. coli (UPEC) is the leading cause of catheter-associated UTIs. It is a rapid lactose fermenter (pink on MacConkey) and IMViC test pattern ++-- (Indole+, MR+).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg",
+      "Gram Negative",
+      "Bacilli"
+    ]
   },
   {
     "id": "327",
@@ -5551,6 +6528,9 @@
     "rationale": {
       "text": "ETEC is the primary agent of traveler's diarrhea. Its heat-labile toxin (LT) is structurally and functionally homologous to Cholera toxin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gram Neg"
+    ]
   }
 ]
