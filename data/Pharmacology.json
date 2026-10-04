@@ -15,7 +15,10 @@
     "rationale": {
       "text": "Diphenhydramine is a 1st-generation antihistamine with sedating effects. 2nd-generation agents (cetirizine, fexofenadine, loratadine) are less sedating.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihistamine"
+    ]
   },
   {
     "id": "2",
@@ -33,7 +36,10 @@
     "rationale": {
       "text": "2nd-generation antihistamines are less lipid soluble, so they do not readily enter the CNS, causing fewer sedating and autonomic effects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihistamine"
+    ]
   },
   {
     "id": "3",
@@ -51,7 +57,10 @@
     "rationale": {
       "text": "Donepezil, rivastigmine, and galantamine are used for Alzheimer's. Neostigmine is a cholinesterase inhibitor used for myasthenia gravis, not Alzheimer's.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cholinesterase Inhibitor"
+    ]
   },
   {
     "id": "4",
@@ -69,7 +78,10 @@
     "rationale": {
       "text": "Losartan is an ARB (ACEi class) and is contraindicated in pregnancy due to fetal renal damage. Labetalol, hydralazine, and nifedipine are safer options in pregnancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihypertensive"
+    ]
   },
   {
     "id": "5",
@@ -87,7 +99,10 @@
     "rationale": {
       "text": "Tolerance develops to most opioid effects except miosis and constipation. Miosis persists even with chronic use.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "6",
@@ -105,7 +120,10 @@
     "rationale": {
       "text": "All opioids cause miosis except meperidine. Meperidine is also the only opioid that does not cause biliary tract smooth muscle contraction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "7",
@@ -123,7 +141,10 @@
     "rationale": {
       "text": "Opioid overdose triad: pupillary constriction (miosis), coma, and respiratory depression. Diarrhea is not a feature; opioids cause constipation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "8",
@@ -141,7 +162,10 @@
     "rationale": {
       "text": "Linagliptin is a DPP-4 inhibitor. DPP-4 deactivates GLP-1. Inhibition increases insulin release and decreases glucagon. Liraglutide is a GLP-1 analog; canagliflozin is SGLT2 inhibitor; glipizide is sulfonylurea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidiabetic"
+    ]
   },
   {
     "id": "9",
@@ -159,7 +183,10 @@
     "rationale": {
       "text": "Indomethacin (NSAID) can hasten closure of PDA. PGE is used to maintain patency. Ibuprofen is also used but indomethacin is classic.",
       "images": []
-    }
+    },
+    "tags": [
+      "NSAID"
+    ]
   },
   {
     "id": "10",
@@ -177,7 +204,10 @@
     "rationale": {
       "text": "Clomiphene is a SERM used for ovulation induction. Raloxifene is a SERM for osteoporosis, Danazol is for endometriosis, Flutamide is an antiandrogen for prostate cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "SERM"
+    ]
   },
   {
     "id": "11",
@@ -195,7 +225,10 @@
     "rationale": {
       "text": "MAO inhibitors + tyramine-rich foods (aged cheese, cured meats) → hypertensive crisis. Tyramine is normally metabolized by MAO; inhibition leads to NE release.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidepressant"
+    ]
   },
   {
     "id": "12",
@@ -213,7 +246,10 @@
     "rationale": {
       "text": "Eperisone is a skeletal muscle relaxant used for spasticity and muscle stiffness. Hydrocortisone is a corticosteroid; risperidone is antipsychotic; dapsone is antimicrobial.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Relaxant"
+    ]
   },
   {
     "id": "13",
@@ -231,7 +267,10 @@
     "rationale": {
       "text": "Chlorpheniramine is a 1st-generation antihistamine responsible for sedating effects. Phenylpropanolamine is a decongestant; paracetamol is an analgesic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihistamine"
+    ]
   },
   {
     "id": "14",
@@ -249,7 +288,10 @@
     "rationale": {
       "text": "Furanocoumarins in grapefruit juice inhibit CYP3A4, decreasing drug metabolism. Barbiturates, carbamazepine, and rifampin are CYP inducers.",
       "images": []
-    }
+    },
+    "tags": [
+      "CYP Inhibitor"
+    ]
   },
   {
     "id": "15",
@@ -267,7 +309,10 @@
     "rationale": {
       "text": "Protamine sulfate is the reversal agent for heparin. Vitamin K and PCC are used for warfarin reversal. Idarucizumab reverses dabigatran.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "16",
@@ -285,7 +330,10 @@
     "rationale": {
       "text": "All options are side effects of 1st-generation antihistamines (anticholinergic effects + sedation). So 'None of the above' is correct.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihistamine"
+    ]
   },
   {
     "id": "17",
@@ -303,7 +351,10 @@
     "rationale": {
       "text": "Baclofen is a GABA agonist in the spinal cord that decreases spasticity. Dantrolene reduces Ca²⁺ release from SR; tizanidine is an α2 agonist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Relaxant"
+    ]
   },
   {
     "id": "18",
@@ -321,7 +372,10 @@
     "rationale": {
       "text": "Organophosphate poisoning causes miosis (not mydriasis). DUMBBELSS: Diarrhea, Urination, Miosis, Bronchospasm, Bradycardia, Emesis, Lacrimation, Sweating, Salivation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticholinesterase"
+    ]
   },
   {
     "id": "19",
@@ -339,7 +393,10 @@
     "rationale": {
       "text": "Baclofen is a spasmolytic (reduces spasms without paralysis). Depolarizing and nondepolarizing agents cause muscle paralysis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Relaxant"
+    ]
   },
   {
     "id": "20",
@@ -357,7 +414,10 @@
     "rationale": {
       "text": "Flumazenil is a benzodiazepine antagonist, used for overdose. Not used routinely due to seizure risk. Naloxone is for opioid overdose.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "21",
@@ -375,7 +435,10 @@
     "rationale": {
       "text": "Atropine is the first-line antidote for organophosphate poisoning (AChE inhibitor). Pralidoxime regenerates cholinesterase but is used adjunctively.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "22",
@@ -393,7 +456,10 @@
     "rationale": {
       "text": "Pralidoxime regenerates cholinesterase by reactivating the phosphorylated enzyme. Atropine only blocks muscarinic effects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "23",
@@ -411,7 +477,10 @@
     "rationale": {
       "text": "Isoproterenol is a non-selective beta agonist (β1 and β2). It is used for bradycardia and bronchospasm but has potent cardiac effects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Beta Agonist"
+    ]
   },
   {
     "id": "24",
@@ -429,7 +498,10 @@
     "rationale": {
       "text": "Lidocaine (Class IB) shortens the action potential duration. Class IA drugs (procainamide, quinidine, disopyramide) prolong AP.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiarrhythmic"
+    ]
   },
   {
     "id": "25",
@@ -447,7 +519,10 @@
     "rationale": {
       "text": "Thiazides cause hyperglycemia, increased serum uric acid, and increased lipid levels. They are associated with metabolic side effects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diuretic"
+    ]
   },
   {
     "id": "26",
@@ -465,7 +540,10 @@
     "rationale": {
       "text": "Fenofibrate (fibrate) is used for hypertriglyceridemia via PPARα activation. Cholestyramine and ezetimibe are for hypercholesterolemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Lipid-Lowering"
+    ]
   },
   {
     "id": "27",
@@ -483,7 +561,10 @@
     "rationale": {
       "text": "Thiazides do not cause nephrogenic DI; they are actually used to treat it. Lithium and demeclocycline can cause nephrogenic DI.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diuretic"
+    ]
   },
   {
     "id": "28",
@@ -501,7 +582,10 @@
     "rationale": {
       "text": "Pilocarpine is a parasympathomimetic that causes miosis. Antihistamines and cocaine cause mydriasis. Meperidine is an opioid (miosis).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cholinergic Agonist"
+    ]
   },
   {
     "id": "29",
@@ -519,7 +603,10 @@
     "rationale": {
       "text": "All listed are risks of unopposed estrogen: endometrial cancer, DVT, hypertriglyceridemia, hypertension, migraine. So 'None of the above' is correct.",
       "images": []
-    }
+    },
+    "tags": [
+      "Estrogen"
+    ]
   },
   {
     "id": "30",
@@ -537,7 +624,10 @@
     "rationale": {
       "text": "Thiopental is a barbiturate with high lipid solubility, fast onset, and short duration. Nitrous oxide and sevoflurane are inhaled; midazolam has slower onset.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anesthetic"
+    ]
   },
   {
     "id": "31",
@@ -555,7 +645,10 @@
     "rationale": {
       "text": "Carbamazepine blocks voltage-gated sodium channels. Levetiracetam blocks SV2A; gabapentin and ethosuximide block calcium channels.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiseizure"
+    ]
   },
   {
     "id": "32",
@@ -573,7 +666,10 @@
     "rationale": {
       "text": "Ethosuximide is the preferred drug for absence seizures, blocking T-type calcium channels. Valproic acid is also used but has more side effects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiseizure"
+    ]
   },
   {
     "id": "33",
@@ -591,7 +687,10 @@
     "rationale": {
       "text": "Cocaine is the only local anesthetic that causes vasoconstriction (by blocking NE reuptake). Others are vasodilators.",
       "images": []
-    }
+    },
+    "tags": [
+      "Local Anesthetic"
+    ]
   },
   {
     "id": "34",
@@ -609,7 +708,10 @@
     "rationale": {
       "text": "Bupivacaine is associated with severe cardiovascular toxicity and should be avoided in patients at risk for cardiac arrhythmias.",
       "images": []
-    }
+    },
+    "tags": [
+      "Local Anesthetic"
+    ]
   },
   {
     "id": "35",
@@ -627,7 +729,10 @@
     "rationale": {
       "text": "Prilocaine can be metabolized to products that convert hemoglobin to methemoglobin. Benzocaine can also cause methemoglobinemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Local Anesthetic"
+    ]
   },
   {
     "id": "36",
@@ -645,7 +750,10 @@
     "rationale": {
       "text": "Phenylephrine (α1 agonist) causes increased peripheral resistance, increased mean BP, and reflex bradycardia. All are true.",
       "images": []
-    }
+    },
+    "tags": [
+      "Sympathomimetic"
+    ]
   },
   {
     "id": "37",
@@ -663,7 +771,10 @@
     "rationale": {
       "text": "Inhaled corticosteroids are the most important anti-inflammatory drugs in asthma. They reduce airway inflammation and hyperreactivity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Corticosteroid"
+    ]
   },
   {
     "id": "38",
@@ -681,7 +792,10 @@
     "rationale": {
       "text": "Omalizumab is a monoclonal antibody against IgE, used for severe allergic asthma. Benralizumab is anti-IL5.",
       "images": []
-    }
+    },
+    "tags": [
+      "Monoclonal Antibody"
+    ]
   },
   {
     "id": "39",
@@ -699,7 +813,10 @@
     "rationale": {
       "text": "Ipratropium is a muscarinic antagonist (M3 blocker) used for bronchoconstriction in COPD/asthma. Budesonide is steroid; aminophylline is PDE inhibitor; salbutamol is β2 agonist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticholinergic"
+    ]
   },
   {
     "id": "40",
@@ -717,7 +834,10 @@
     "rationale": {
       "text": "Theophylline overdose can cause arrhythmias and seizures. It is a methylxanthine with a narrow therapeutic index.",
       "images": []
-    }
+    },
+    "tags": [
+      "Methylxanthine"
+    ]
   },
   {
     "id": "41",
@@ -735,7 +855,10 @@
     "rationale": {
       "text": "Azithromycin has a long half-life (>70 hours), allowing once-daily dosing. It does not significantly inhibit CYP450 unlike erythromycin/clarithromycin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "42",
@@ -753,7 +876,10 @@
     "rationale": {
       "text": "Azithromycin does not inhibit CYP450, unlike erythromycin and clarithromycin. This makes it safer for drug interactions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "43",
@@ -771,7 +897,10 @@
     "rationale": {
       "text": "Azithromycin (or clarithromycin) is used for MAC prophylaxis in AIDS patients with CD4 < 50/μL. Isoniazid/pyrazinamide are for TB.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "44",
@@ -789,7 +918,10 @@
     "rationale": {
       "text": "Penicillin G is still the drug of choice for syphilis. Ceftriaxone is an alternative. Doxycycline for penicillin-allergic patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "45",
@@ -807,7 +939,10 @@
     "rationale": {
       "text": "Carbidopa inhibits peripheral dopa decarboxylase, prolonging levodopa's half-life. Tolcapone is a COMT inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parkinson's"
+    ]
   },
   {
     "id": "46",
@@ -825,7 +960,10 @@
     "rationale": {
       "text": "Tolcapone is a COMT inhibitor that prevents conversion of levodopa to 3-O-methyldopa. Selegiline is MAO-B inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parkinson's"
+    ]
   },
   {
     "id": "47",
@@ -843,7 +981,10 @@
     "rationale": {
       "text": "Risperidone is a dopamine receptor blocker → removes tonic inhibition of prolactin → hyperprolactinemia. Bromocriptine and cabergoline are dopamine agonists that lower prolactin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antipsychotic"
+    ]
   },
   {
     "id": "48",
@@ -861,7 +1002,10 @@
     "rationale": {
       "text": "Prazosin (α1 blocker) reduces smooth muscle tone in BPH. Finasteride and dutasteride are 5α-reductase inhibitors that reduce prostate size.",
       "images": []
-    }
+    },
+    "tags": [
+      "Alpha Blocker"
+    ]
   },
   {
     "id": "49",
@@ -879,7 +1023,10 @@
     "rationale": {
       "text": "Milrinone is a PDE3 inhibitor that increases cAMP → increased contractility. Dobutamine is a β1 agonist. Digoxin inhibits Na/K ATPase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Inotrope"
+    ]
   },
   {
     "id": "50",
@@ -897,7 +1044,10 @@
     "rationale": {
       "text": "Cilostazol inhibits PDE → increases platelet cAMP → inhibits aggregation. Heparin/enoxaparin activate antithrombin; warfarin inhibits VKOR.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiplatelet"
+    ]
   },
   {
     "id": "51",
@@ -915,7 +1065,10 @@
     "rationale": {
       "text": "Cilostazol is used for intermittent claudication in PAD. It improves walking distance. Anticoagulants are not first-line for PAD.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiplatelet"
+    ]
   },
   {
     "id": "52",
@@ -933,7 +1086,10 @@
     "rationale": {
       "text": "Aztreonam has NO cross-allergenicity with penicillins. It is a monobactam active against Gram (-), no activity against Gram (+) or anaerobes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "53",
@@ -951,7 +1107,10 @@
     "rationale": {
       "text": "Red man syndrome (diffuse flushing) results from rapid IV vancomycin infusion due to histamine release. Slow infusion prevents it.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "54",
@@ -969,7 +1128,10 @@
     "rationale": {
       "text": "Denosumab (anti-RANKL) is given subcutaneously. Alendronate is oral; raloxifene is oral; cinacalcet is oral.",
       "images": []
-    }
+    },
+    "tags": [
+      "Osteoporosis"
+    ]
   },
   {
     "id": "55",
@@ -987,7 +1149,10 @@
     "rationale": {
       "text": "Secukinumab is anti-IL17A for psoriasis. Infliximab is anti-TNF; methotrexate is DHFR inhibitor; tocilizumab is anti-IL6.",
       "images": []
-    }
+    },
+    "tags": [
+      "Monoclonal Antibody"
+    ]
   },
   {
     "id": "56",
@@ -1005,7 +1170,10 @@
     "rationale": {
       "text": "Ethacrynic acid is a non-sulfonamide diuretic, safe in sulfa allergy. Thiazides, furosemide, and sulfonylureas are sulfa-containing.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diuretic"
+    ]
   },
   {
     "id": "57",
@@ -1023,7 +1191,10 @@
     "rationale": {
       "text": "Leuprolide is a GnRH agonist. Degarelix is a GnRH antagonist. Clomiphene is a SERM; anastrozole is an aromatase inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "GnRH Agonist"
+    ]
   },
   {
     "id": "58",
@@ -1041,7 +1212,10 @@
     "rationale": {
       "text": "GnRH agonists cause decreased hematocrit (not increased). Adverse effects: hot flushes, sweats, gynecomastia, reduced libido, decreased hematocrit, reduced bone density.",
       "images": []
-    }
+    },
+    "tags": [
+      "GnRH Agonist"
+    ]
   },
   {
     "id": "59",
@@ -1059,7 +1233,10 @@
     "rationale": {
       "text": "Methimazole is teratogenic and can cause aplasia cutis in the newborn. Agranulocytosis is a side effect but not a teratogenic effect.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antithyroid"
+    ]
   },
   {
     "id": "60",
@@ -1077,7 +1254,10 @@
     "rationale": {
       "text": "Desmopressin (DDAVP) releases von Willebrand factor from endothelial stores, used in mild vWD and hemophilia A.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vasopressin Analog"
+    ]
   },
   {
     "id": "61",
@@ -1095,7 +1275,10 @@
     "rationale": {
       "text": "Misoprostol is a PGE1 analog that increases mucosal protection. PPIs inactivate H+/K+ ATPase; antacids neutralize; H2 blockers block H2 receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Prostaglandin Analog"
+    ]
   },
   {
     "id": "62",
@@ -1113,7 +1296,10 @@
     "rationale": {
       "text": "Teriparatide is recombinant PTH that increases osteoblastic activity, used for osteoporosis. Bisphosphonates inhibit osteoclasts.",
       "images": []
-    }
+    },
+    "tags": [
+      "Osteoporosis"
+    ]
   },
   {
     "id": "63",
@@ -1131,7 +1317,10 @@
     "rationale": {
       "text": "Amphotericin B binds to ergosterol in fungal membranes, forming pores. It does not bind to cholesterol (mammalian) as avidly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antifungal"
+    ]
   },
   {
     "id": "64",
@@ -1149,7 +1338,10 @@
     "rationale": {
       "text": "Griseofulvin interferes with microtubule function, used for dermatophyte infections. Terbinafine inhibits squalene epoxidase; azoles inhibit ergosterol synthesis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antifungal"
+    ]
   },
   {
     "id": "65",
@@ -1167,7 +1359,10 @@
     "rationale": {
       "text": "Ertapenem lacks activity against Pseudomonas aeruginosa. Meropenem, imipenem, and doripenem have Pseudomonas coverage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "66",
@@ -1185,7 +1380,10 @@
     "rationale": {
       "text": "Ceftriaxone IM is the treatment of choice for gonorrhea, often combined with azithromycin for chlamydia coverage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "67",
@@ -1203,7 +1401,10 @@
     "rationale": {
       "text": "Fluoroquinolones are associated with tendinitis and tendon rupture, especially in patients >60, with corticosteroids, and renal impairment.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "68",
@@ -1221,7 +1422,10 @@
     "rationale": {
       "text": "TCA overdose: prolonged QT, coma, convulsions. SSRIs cause serotonin syndrome; lithium causes nausea, vomiting, seizures, ataxia, nephrogenic DI.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidepressant"
+    ]
   },
   {
     "id": "69",
@@ -1239,7 +1443,10 @@
     "rationale": {
       "text": "Isoniazid is the single most important drug in TB treatment due to its potency and early bactericidal activity. Rifampin is also key but INH is primary.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "70",
@@ -1257,7 +1464,10 @@
     "rationale": {
       "text": "Rifampin is a potent CYP450 inducer, increasing elimination of contraceptives, warfarin, and many other drugs. Isoniazid is an inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "71",
@@ -1275,7 +1485,10 @@
     "rationale": {
       "text": "Digoxin inhibits Na+/K+ ATPase → increased intracellular Ca²⁺ → increased contractility. Dobutamine is a β1 agonist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiac Glycoside"
+    ]
   },
   {
     "id": "72",
@@ -1293,7 +1506,10 @@
     "rationale": {
       "text": "Metoprolol (β1-selective blocker) can exacerbate asthma, COPD (β2 blockade at high doses), and vasospastic angina (unopposed α constriction).",
       "images": []
-    }
+    },
+    "tags": [
+      "Beta Blocker"
+    ]
   },
   {
     "id": "73",
@@ -1311,7 +1527,10 @@
     "rationale": {
       "text": "Benztropine (anticholinergic) or diphenhydramine treats acute dystonia from antipsychotics. Cyproheptadine is for serotonin syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticholinergic"
+    ]
   },
   {
     "id": "74",
@@ -1329,7 +1548,10 @@
     "rationale": {
       "text": "Mesna traps acrolein, a toxic metabolite of cyclophosphamide, preventing hemorrhagic cystitis. Dexrazoxane protects against anthracycline cardiotoxicity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Chemotherapy"
+    ]
   },
   {
     "id": "75",
@@ -1347,7 +1569,10 @@
     "rationale": {
       "text": "Dexrazoxane chelates iron and reduces free radical formation from anthracyclines, protecting against cardiotoxicity. Leucovorin rescues methotrexate toxicity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Chemotherapy"
+    ]
   },
   {
     "id": "76",
@@ -1365,7 +1590,10 @@
     "rationale": {
       "text": "Trimetazidine shifts cardiac energy metabolism from fatty acids to glucose, improving efficiency. Ranolazine inhibits late Na⁺ current.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anti-ischemic"
+    ]
   },
   {
     "id": "77",
@@ -1383,7 +1611,10 @@
     "rationale": {
       "text": "Sildenafil (PDE5 inhibitor) with nitrates causes severe hypotension due to synergistic vasodilation. Contraindicated.",
       "images": []
-    }
+    },
+    "tags": [
+      "PDE5 Inhibitor"
+    ]
   },
   {
     "id": "78",
@@ -1401,7 +1632,10 @@
     "rationale": {
       "text": "Dextromethorphan is a weak μ opioid agonist used as an antitussive. It does not cause significant dependence at therapeutic doses.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antitussive"
+    ]
   },
   {
     "id": "79",
@@ -1419,7 +1653,10 @@
     "rationale": {
       "text": "Propofol has antiemetic properties. It is NOT highly emetogenic; it is used for its antiemetic effects. It can cause hypotension.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anesthetic"
+    ]
   },
   {
     "id": "80",
@@ -1437,7 +1674,10 @@
     "rationale": {
       "text": "Benztropine is an anticholinergic used for Parkinson's, improving tremor and rigidity but not bradykinesia. Amantadine is also used.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticholinergic"
+    ]
   },
   {
     "id": "81",
@@ -1455,7 +1695,10 @@
     "rationale": {
       "text": "Tramadol (and other serotonergic drugs) with SSRIs can precipitate serotonin syndrome. Others include MAOIs, SNRIs, TCAs, triptans, linezolid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Serotonin Syndrome"
+    ]
   },
   {
     "id": "82",
@@ -1473,7 +1716,10 @@
     "rationale": {
       "text": "All are true: weak μ agonist, blocks serotonin reuptake, lowers seizure threshold, should be avoided in seizure patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "83",
@@ -1491,7 +1737,10 @@
     "rationale": {
       "text": "Reye syndrome: aspirin use during viral infection (VZV, influenza) → hepatic encephalopathy, hypoglycemia, vomiting, hepatomegaly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reye Syndrome"
+    ]
   },
   {
     "id": "84",
@@ -1509,7 +1758,10 @@
     "rationale": {
       "text": "Reye syndrome is caused by aspirin use during viral infection (VZV, influenza). Acetaminophen is not associated with Reye syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reye Syndrome"
+    ]
   },
   {
     "id": "85",
@@ -1527,7 +1779,10 @@
     "rationale": {
       "text": "Ceftaroline covers MRSA and Enterococcus faecalis but lacks activity against Pseudomonas aeruginosa. It is the only cephalosporin with MRSA coverage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "86",
@@ -1545,7 +1800,10 @@
     "rationale": {
       "text": "Imipenem is given with cilastatin to inhibit renal dehydropeptidase I, preventing inactivation of imipenem. Other carbapenems do not require cilastatin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "87",
@@ -1563,7 +1821,10 @@
     "rationale": {
       "text": "Aminoglycosides exhibit concentration-dependent killing. Cephalosporins and penicillins exhibit time-dependent killing (related to time above MIC).",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "88",
@@ -1581,7 +1842,10 @@
     "rationale": {
       "text": "Aminoglycosides (amikacin) bind to 30S subunit, causing misreading. Clindamycin, erythromycin, and linezolid bind to 50S subunit.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "89",
@@ -1599,7 +1863,10 @@
     "rationale": {
       "text": "TMP-SMZ is first-line for P. jirovecii prophylaxis in AIDS patients. Alternatives include pentamidine and atovaquone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "90",
@@ -1617,7 +1884,10 @@
     "rationale": {
       "text": "Rifampin is a potent CYP450 inducer. Cimetidine, ketoconazole, and grapefruit juice are inhibitors.",
       "images": []
-    }
+    },
+    "tags": [
+      "CYP Inducer"
+    ]
   },
   {
     "id": "91",
@@ -1635,7 +1905,10 @@
     "rationale": {
       "text": "Cimetidine inhibits CYP450. Phenytoin, carbamazepine, and chronic alcohol are inducers (chronic alcohol induces; acute alcohol inhibits).",
       "images": []
-    }
+    },
+    "tags": [
+      "CYP Inhibitor"
+    ]
   },
   {
     "id": "92",
@@ -1653,7 +1926,10 @@
     "rationale": {
       "text": "Rapid IV infusion of vancomycin causes red man syndrome due to histamine release. Teicoplanin has lower risk.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "93",
@@ -1671,7 +1947,10 @@
     "rationale": {
       "text": "Digoxin inhibits Na+/K+ ATPase. Dobutamine is a β1 agonist; milrinone is a PDE3 inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiac Glycoside"
+    ]
   },
   {
     "id": "94",
@@ -1689,7 +1968,10 @@
     "rationale": {
       "text": "Sitagliptin is a DPP-4 inhibitor. Liraglutide is GLP-1 analog; canagliflozin is SGLT2 inhibitor; glipizide is sulfonylurea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidiabetic"
+    ]
   },
   {
     "id": "95",
@@ -1707,7 +1989,10 @@
     "rationale": {
       "text": "Aliskiren is a direct renin inhibitor. Losartan is ARB, enalapril is ACEi, amlodipine is CCB.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihypertensive"
+    ]
   },
   {
     "id": "96",
@@ -1725,7 +2010,10 @@
     "rationale": {
       "text": "Penicillins bind to PBPs and inhibit cell wall synthesis. Macrolides, tetracyclines, and aminoglycosides inhibit protein synthesis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "97",
@@ -1743,7 +2031,10 @@
     "rationale": {
       "text": "Naloxone is a pure opioid antagonist used to reverse opioid overdose. Flumazenil is for benzodiazepines.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "98",
@@ -1761,7 +2052,10 @@
     "rationale": {
       "text": "Omeprazole is a PPI that irreversibly inhibits H+/K+ ATPase. Ranitidine is H2 blocker; misoprostol is PGE analog; sucralfate forms a protective barrier.",
       "images": []
-    }
+    },
+    "tags": [
+      "PPI"
+    ]
   },
   {
     "id": "99",
@@ -1779,7 +2073,10 @@
     "rationale": {
       "text": "Tamoxifen is a SERM used for breast cancer prevention and treatment. Raloxifene is for osteoporosis; clomiphene for ovulation; letrozole is aromatase inhibitor.",
       "images": []
-    }
+    },
+    "tags": [
+      "SERM"
+    ]
   },
   {
     "id": "100",
@@ -1797,7 +2094,10 @@
     "rationale": {
       "text": "Ceftaroline is the only 5th generation cephalosporin with MRSA coverage. Ceftriaxone is 3rd gen; cefepime is 4th gen; ceftazidime is 3rd gen with Pseudomonas coverage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "101",
@@ -1815,7 +2115,10 @@
     "rationale": {
       "text": "Co-amoxiclav contains amoxicillin and clavulanic acid. The use of Amoxicillin + Clavulanic acid (Co-amoxiclav) is not part of the CDC recommendations for the treatment of PID. The recommended regimens include options with a combination of a cephalosporin (ceftriaxone or cefoxitin) plus doxycycline or a combination of azithromycin plus metronidazole.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "102",
@@ -1833,7 +2136,10 @@
     "rationale": {
       "text": "Beta-2 receptors are primarily found in the lungs and smooth muscles of blood vessels and the uterus. Stimulation of beta-2 receptors leads to relaxation of smooth muscles, including the uterine smooth muscle. Beta-2 agonists are commonly used to inhibit uterine contractions and are, therefore, a suitable target to control preterm labor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Beta Agonist"
+    ]
   },
   {
     "id": "103",
@@ -1851,7 +2157,10 @@
     "rationale": {
       "text": "Causative agents for syphilis (Treponema pallidum), chlamydia (Chlamydia trachomatis), and gonorrhea (Neisseria gonorrheae) are gram-negative bacteria which are covered by ceftriaxone. From the 2015 STD guidelines, the CDC recommends treatment for a gonorrhea-chlamydia coinfection with azithromycin plus ceftriaxone as first-line therapy. Ceftriaxone has also shown antitreponemal activity in clinical trials.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "104",
@@ -1869,7 +2178,10 @@
     "rationale": {
       "text": "Penicillinase resistant penicillins are antibiotics which are not inactivated by the penicillinase enzyme. Extended-spectrum penicillins (carbenicillin, bacampicillin, piperacillin) have greater activity against gram-negative bacteria but are inactivated by many β-lactamases. Methicillin is a penicillinase-resistant penicillin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "105",
@@ -1887,7 +2199,10 @@
     "rationale": {
       "text": "Misoprostol is a prostaglandin analog that helps prevent stomach ulcers. It is categorized as pregnancy category X, signifying that studies in animals or humans have shown fetal abnormalities, and the risk of use during pregnancy clearly outweighs any potential benefit.",
       "images": []
-    }
+    },
+    "tags": [
+      "Prostaglandin Analog"
+    ]
   },
   {
     "id": "106",
@@ -1905,7 +2220,10 @@
     "rationale": {
       "text": "Acyclovir is a purine analog that needs to be converted to nucleoside triphosphate for activity. Acyclovir does not eradicate latent virus; it has good CSF penetration. In first episodes of genital herpes, oral acyclovir shortens the duration of symptoms by approximately 2 days, the time to lesion healing by 4 days, and the duration of viral shedding by 7 days. Treatment of first episode genital herpes does not alter the frequency or severity of recurrent outbreaks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "107",
@@ -1923,7 +2241,10 @@
     "rationale": {
       "text": "Ipratropium is an antimuscarinic bronchodilator commonly used in respiratory conditions. While it is not typically prescribed for urinary retention, it is worth noting that antimuscarinic medications can sometimes contribute to urinary retention. Tamsulosin is an alpha-1 blocker, bethanechol is a cholinergic agonist, and dutasteride is a 5-alpha-reductase inhibitor used in BPH.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticholinergic"
+    ]
   },
   {
     "id": "108",
@@ -1941,7 +2262,10 @@
     "rationale": {
       "text": "Glucocorticoids induced osteoporosis is one of the well-known and devastating adverse effects of long-term use of glucocorticoids. Up to 40% of patients on long-term glucocorticoids develop bone loss leading to fractures. Several mechanisms play a role, including osteoclast activation by promoting RANK-ligand as well as a decrease in function and number of osteoblasts and osteocytes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Corticosteroid"
+    ]
   },
   {
     "id": "109",
@@ -1959,7 +2283,10 @@
     "rationale": {
       "text": "Adverse effects common to all ACE inhibitors include a dry cough and, rarely, angioedema, especially of the face (both due to increased bradykinin levels), hypotension, and hyperkalemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "ACE Inhibitor"
+    ]
   },
   {
     "id": "110",
@@ -1977,7 +2304,10 @@
     "rationale": {
       "text": "Sulfa crystals can be seen with both sulfamethoxazole and sulfadiazine. The major metabolite of sulfamethoxazole in urine is N-acetyl sulfamethoxazole. The crystals generally are pleomorphic and form in acidic urine. Treatment involves stopping the drug treatment and alkalinizing the urine with intravenous fluids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "111",
@@ -1995,7 +2325,10 @@
     "rationale": {
       "text": "Albuterol (Salbutamol), terbutaline, pirbuterol, and metaproterenol have enhanced β2-receptor selectivity. These agents are generally administered by inhalation and their onset of action is 1–5 minutes. Some preparations are available for oral administration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Beta Agonist"
+    ]
   },
   {
     "id": "112",
@@ -2013,7 +2346,10 @@
     "rationale": {
       "text": "Selectivity for the COX-2 enzyme proves to be gastroprotective, which is a major benefit for pain management in patients with GI complications. However, COX-2 selective inhibition can increase the risk of cardiovascular events in patients with preexisting cardiovascular disease. This prothrombotic risk results from thromboxane A2–mediated vasoconstriction and platelet aggregation, which will remain unbalanced and unopposed when prostacyclin activity is suppressed via COX-2 inhibition.",
       "images": []
-    }
+    },
+    "tags": [
+      "NSAID"
+    ]
   },
   {
     "id": "113",
@@ -2031,7 +2367,10 @@
     "rationale": {
       "text": "Neostigmine is an acetylcholinesterase inhibitor. Unlike the other options, neostigmine directly inhibits the breakdown of acetylcholine by inhibiting acetylcholinesterase. This leads to an increase in acetylcholine levels, making it useful in conditions where enhanced cholinergic activity is desired, such as in the treatment of myasthenia gravis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cholinesterase Inhibitor"
+    ]
   },
   {
     "id": "114",
@@ -2049,7 +2388,10 @@
     "rationale": {
       "text": "Botulinum toxin blocks the release of acetylcholine at the neuromuscular junction by cleaving SNARE proteins, preventing vesicle fusion and neurotransmitter release. This action primarily affects cholinergic synapses involving nicotinic receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Botulinum Toxin"
+    ]
   },
   {
     "id": "115",
@@ -2067,7 +2409,10 @@
     "rationale": {
       "text": "Abciximab is a glycoprotein IIb/IIIa inhibitor. It binds to the glycoprotein IIb/IIIa receptors on the surface of platelets, preventing the final common pathway of platelet aggregation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiplatelet"
+    ]
   },
   {
     "id": "116",
@@ -2085,7 +2430,10 @@
     "rationale": {
       "text": "Vancomycin is a glycopeptide antibiotic with excellent activity against gram-positive cocci, including Staphylococcus aureus, which is a common pathogen in septic arthritis. It is often used as empiric therapy until the specific pathogen is identified.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "117",
@@ -2103,7 +2451,10 @@
     "rationale": {
       "text": "Prolonged digoxin therapy or overdose can lead to hypomagnesemia. Magnesium is essential for proper cardiac function, and low magnesium levels can enhance the toxic effects of digoxin. Hypomagnesemia may contribute to increased digoxin toxicity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiac Glycoside"
+    ]
   },
   {
     "id": "118",
@@ -2121,7 +2472,10 @@
     "rationale": {
       "text": "Pralidoxime, also known as 2-PAM, is an antidote for organophosphate poisoning, including Physostigmine toxicity. Physostigmine, an acetylcholinesterase inhibitor, can lead to cholinergic toxicity, and Pralidoxime helps regenerate active acetylcholinesterase, reversing the toxic effects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "119",
@@ -2139,7 +2493,10 @@
     "rationale": {
       "text": "Many pathogens are typically resistant to TMP-SMX. These include Pseudomonas aeruginosa, Bacteroides fragilis (and most other anaerobes), Mycobacterium tuberculosis, Treponema pallidum, Campylobacter, penicillin-resistant Streptococcus pneumoniae, and Rickettsiae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "120",
@@ -2157,7 +2514,10 @@
     "rationale": {
       "text": "Digoxin is a cardiac glycoside that primarily acts by inhibiting the sodium-potassium ATPase pump. By inhibiting this pump, Digoxin increases intracellular sodium levels, leading to a subsequent increase in intracellular calcium concentration. The elevated calcium levels enhance cardiac contractility (positive inotropic effect) and also contribute to increased vagal tone, leading to a negative chronotropic effect (slowing of the heart rate). Digoxin's effects on contractility and heart rate are particularly beneficial in conditions like heart failure and atrial fibrillation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiac Glycoside"
+    ]
   },
   {
     "id": "121",
@@ -2175,7 +2535,10 @@
     "rationale": {
       "text": "The initial choice of antibiotics depends on the susceptibility of the S. Typhi and S. Paratyphi strains in the area of residence or travel. For treatment of drug-susceptible typhoid fever, fluoroquinolones are the most effective class of agents, with cure rates of ~98% and relapse and fecal carriage rates of <2%. Experience is most extensive with ciprofloxacin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "122",
@@ -2193,7 +2556,10 @@
     "rationale": {
       "text": "Long-term use of Leuprolide, like other forms of androgen deprivation therapy, can be associated with an increased risk of osteoporosis. Androgen deprivation can lead to bone mineral density loss, potentially resulting in osteoporosis and an increased risk of fractures.",
       "images": []
-    }
+    },
+    "tags": [
+      "GnRH Agonist"
+    ]
   },
   {
     "id": "123",
@@ -2211,7 +2577,10 @@
     "rationale": {
       "text": "Vaginal douching is not an effective method for preventing the transmission of Trichomoniasis. In fact, it is generally discouraged as it can disrupt the natural balance of the vaginal flora and may even increase the risk of infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "STD"
+    ]
   },
   {
     "id": "124",
@@ -2229,7 +2598,10 @@
     "rationale": {
       "text": "Alprazolam is a short- to intermediate-acting benzodiazepine. It has a relatively short half-life, typically ranging from 6 to 12 hours. It is often used for the management of anxiety and panic disorders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Benzodiazepine"
+    ]
   },
   {
     "id": "125",
@@ -2247,7 +2619,10 @@
     "rationale": {
       "text": "Flumazenil is a selective antagonist for benzodiazepines, including Diazepam. It works by competitively binding to the benzodiazepine receptor sites, reversing the central nervous system depression caused by excessive benzodiazepine activity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "126",
@@ -2265,7 +2640,10 @@
     "rationale": {
       "text": "Clindamycin is not typically the first choice for treating infections caused by Klebsiella spp. While it has activity against some Gram-positive and anaerobic bacteria, its coverage against aerobic Gram-negative bacteria like Klebsiella is limited.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "127",
@@ -2283,7 +2661,10 @@
     "rationale": {
       "text": "Halothane, enflurane, isoflurane, desflurane, and sevoflurane all depress normal cardiac contractility (halothane and enflurane more so than isoflurane, desflurane, and sevoflurane). As a result, all volatile agents tend to decrease mean arterial pressure in direct proportion to their alveolar concentration. Nitrous oxide also depresses myocardial function in a concentration-dependent manner.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anesthesia"
+    ]
   },
   {
     "id": "128",
@@ -2301,7 +2682,10 @@
     "rationale": {
       "text": "Absence of one or both –OH groups on the phenyl ring increases the bioavailability after oral administration and prolongs the duration of action. Furthermore, absence of ring –OH groups tends to increase the distribution of the molecule to the central nervous system (CNS). For example, ephedrine and amphetamine are orally active, have a prolonged duration of action, and produce central nervous system effects not typically observed with the catecholamines.",
       "images": []
-    }
+    },
+    "tags": [
+      "Sympathomimetic"
+    ]
   },
   {
     "id": "129",
@@ -2319,7 +2703,10 @@
     "rationale": {
       "text": "The bile acid-binding resin cholestyramine was administered in a dose of 4 g every six hours to a patient with digoxin intoxication. The serum digoxin concentration declined rapidly, and the digoxin half-life decreased from 75.5 hours to 19.9 hours while cholestyramine was administered. Cholestyramine and a related agent, colestipol, presumably interrupt the enterohepatic recycling of digoxin to enhance elimination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiac Glycoside"
+    ]
   },
   {
     "id": "130",
@@ -2337,7 +2724,10 @@
     "rationale": {
       "text": "Tramadol has a dual mechanism of action. It not only acts as an opioid receptor agonist but also increases the release of serotonin in the central nervous system. Tramadol inhibits the reuptake of norepinephrine and also increases the release of dopamine in certain areas of the brain. Tramadol does not have a direct effect on acetylcholine receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "131",
@@ -2355,7 +2745,10 @@
     "rationale": {
       "text": "Thiazide diuretics can cause an increase in cholesterol and triglyceride levels, leading to hyperlipidemia. Thiazides typically lead to hypokalemia (low potassium levels) due to increased potassium excretion in the urine, not hyperkalemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diuretic"
+    ]
   },
   {
     "id": "132",
@@ -2373,7 +2766,10 @@
     "rationale": {
       "text": "Fosfomycin inhibits the enzyme enolpyruvate transferase and thereby interferes downstream with the formation of bacterial wall specific N-acetylmuramic acid. This oral agent is active against both gram-positive and gram-negative organisms. It is used to treat simple lower urinary tract infection, not acute pyelonephritis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "133",
@@ -2391,7 +2787,10 @@
     "rationale": {
       "text": "Antacids reduce digoxin absorption. Other drugs that decrease digoxin concentration include rifampicin. Macrolide (i.e. azithromycin) antibiotics increase digoxin concentration. Antiarrhythmics increase digoxin concentration as well, such as amiodarone and quinine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiac Glycoside"
+    ]
   },
   {
     "id": "134",
@@ -2409,7 +2808,10 @@
     "rationale": {
       "text": "Memantine is an N-methyl-D-aspartate (NMDA) receptor antagonist used in the treatment of moderate to severe Alzheimer's disease. It works by blocking excessive activity of glutamate, which is involved in the pathophysiology of Alzheimer's disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "NMDA Antagonist"
+    ]
   },
   {
     "id": "135",
@@ -2427,7 +2829,10 @@
     "rationale": {
       "text": "Bromhexine is a derivative of the Adhatoda vasica plant, and is a mucolytic drug which enhances the secretion of various mucus components by modifying the physicochemical characteristics of mucus. These changes, in turn, increase mucociliary clearance and reduce cough.",
       "images": []
-    }
+    },
+    "tags": [
+      "Mucolytic"
+    ]
   },
   {
     "id": "136",
@@ -2445,7 +2850,10 @@
     "rationale": {
       "text": "Tramadol's primary mechanism of action involves acting as a mu-opioid receptor agonist. It binds to and activates mu-opioid receptors in the central nervous system, leading to analgesia (pain relief). Tramadol has a weak opioid mu-receptor agonist activity and weakly blocks reuptake of serotonin and norepinephrine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "137",
@@ -2463,7 +2871,10 @@
     "rationale": {
       "text": "Cefpirome is a 4th class generation cephalosporin known to have strong antimicrobial activity against beta-lactamases and is highly stable to hydrolysis by various P-lactamases. Both cefpirome and ceftazidime have in vitro activity against P. aeruginosa with the same efficacy, yet Ceftazidime is superior when it comes to said in vitro activity as compared to Cefpirome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "138",
@@ -2481,7 +2892,10 @@
     "rationale": {
       "text": "Oral or intravenous hydration is the mainstay of cholera treatment. Doxycyline is the recommended first-line treatment for adults, while Azithromycin is recommended as first-line treatment for children and pregnant women.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "139",
@@ -2499,7 +2913,10 @@
     "rationale": {
       "text": "Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) and is not typically used in the acute management of myocardial infarction. NSAIDs may have adverse cardiovascular effects and are generally avoided in this context.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiovascular"
+    ]
   },
   {
     "id": "140",
@@ -2517,7 +2934,10 @@
     "rationale": {
       "text": "Teriparatide is a recombinant form of parathyroid hormone (PTH). It works by stimulating bone formation, increasing bone mineral density. It is used in the treatment of osteoporosis, particularly in individuals at high risk of fractures.",
       "images": []
-    }
+    },
+    "tags": [
+      "Osteoporosis"
+    ]
   },
   {
     "id": "141",
@@ -2535,7 +2955,10 @@
     "rationale": {
       "text": "Sucralfate does not directly inhibit proton pumps. Its mechanism of action involves forming a protective barrier at the ulcer site. Sucralfate is a locally acting substance that in an acidic environment (pH < 4), reacts with hydrochloric acid in the stomach to form a cross-linking, viscous, paste-like material capable of acting as an acid buffer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "142",
@@ -2553,7 +2976,10 @@
     "rationale": {
       "text": "Minocycline, a tetracycline antibiotic, is effective against Chlamydia trachomatis. Tetracyclines are among the antibiotics commonly used for the treatment of chlamydial infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "143",
@@ -2571,7 +2997,10 @@
     "rationale": {
       "text": "The immune response to a live attenuated vaccine is virtually identical to that produced by a natural infection. The immune system does not differentiate between an infection with a weakened vaccine virus and an infection with a wild virus. Attenuated vaccines closely mimic natural infections as they replicate in the host and elicit a broad immune response.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vaccine"
+    ]
   },
   {
     "id": "144",
@@ -2589,7 +3018,10 @@
     "rationale": {
       "text": "Several factors related to the nephrotoxicity of aminoglycosides have been reported: multiple doses, male animals, infection, acidosis, volume depletion, sodium depletion, hyperkalemia, hypomagnesemia, hepatic disease, and concomitant use of other drugs including vancomycin, teicoplanin, cyclosporin, and cisplatin. Hypernatremia is not directly associated with increased nephrotoxicity from aminoglycosides.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "145",
@@ -2607,7 +3039,10 @@
     "rationale": {
       "text": "Milrinone does not typically cause vasoconstriction. Instead, it is associated with vasodilation, particularly in arterial and venous vessels. Milrinone is a phosphodiesterase III inhibitor that increases intracellular cAMP, leading to enhanced cardiac contractility and vasodilation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Inotrope"
+    ]
   },
   {
     "id": "146",
@@ -2625,7 +3060,10 @@
     "rationale": {
       "text": "Infliximab is a biologic agent classified as a tumor necrosis factor (TNF) inhibitor. It binds to and neutralizes TNF, a cytokine involved in the inflammatory response. Infliximab is indicated for the treatment of moderate to severe ulcerative colitis that has not responded to conventional therapy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Biologic"
+    ]
   },
   {
     "id": "147",
@@ -2643,7 +3081,10 @@
     "rationale": {
       "text": "hCG is a hormone that mimics the action of LH. In fertility treatments, hCG is often used to trigger ovulation. When administered, it mimics the surge of LH that typically triggers the final maturation and release of the egg from the mature ovarian follicle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fertility"
+    ]
   },
   {
     "id": "148",
@@ -2661,7 +3102,10 @@
     "rationale": {
       "text": "Phentolamine is an alpha-adrenergic antagonist. It competes with epinephrine for binding to alpha receptors, thereby blocking its vasoconstrictive effects.",
       "images": []
-    }
+    },
+    "tags": [
+      "Alpha Blocker"
+    ]
   },
   {
     "id": "149",
@@ -2679,7 +3123,10 @@
     "rationale": {
       "text": "Beta-lactamase inhibitors, such as clavulanic acid or sulbactam, are structurally different from penicillins. They do not exhibit antibacterial activity on their own but enhance the activity of penicillins by preventing their degradation by beta-lactamases.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "150",
@@ -2697,7 +3144,10 @@
     "rationale": {
       "text": "Clomiphene is typically not used for controlled ovarian hyperstimulation. It is a selective estrogen receptor modulator (SERM) that works by blocking estrogen receptors in the hypothalamus, leading to an increase in FSH and LH, which stimulates ovulation. However, it is more commonly used to induce ovulation in women with ovulatory dysfunction rather than in controlled ovarian hyperstimulation protocols.",
       "images": []
-    }
+    },
+    "tags": [
+      "Fertility"
+    ]
   },
   {
     "id": "151",
@@ -2715,7 +3165,10 @@
     "rationale": {
       "text": "Interaction with μ-receptors contributes to supraspinal and spinal analgesia, respiratory depression, sedation, euphoria, decreased GI transit, and physical dependence. The significance of interaction with κ-receptors is unclear, but it may contribute to analgesia and also psychomimetic effects of some opioids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "152",
@@ -2733,7 +3186,10 @@
     "rationale": {
       "text": "Naloxone is the preferred and highly effective opioid receptor antagonist used to reverse the effects of opioid overdose. It rapidly displaces opioids from their receptors, restoring respiratory function and consciousness. It is a critical intervention in opioid emergencies.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidote"
+    ]
   },
   {
     "id": "153",
@@ -2751,7 +3207,10 @@
     "rationale": {
       "text": "The treatment of choice for patients with advanced prostate cancer is elimination of testosterone production by the testes through either surgical or chemical castration. Presently, the use of luteinizing hormone-releasing hormone (LHRH) agonists— including leuprolide and goserelin agonists, alone or in combination with an antiandrogen (eg, flutamide, bicalutamide, or nilutamide)—is the preferred approach.",
       "images": []
-    }
+    },
+    "tags": [
+      "GnRH Agonist"
+    ]
   },
   {
     "id": "154",
@@ -2769,7 +3228,10 @@
     "rationale": {
       "text": "Dopamine is a precursor to norepinephrine and can stimulate both dopaminergic and adrenergic receptors. At low doses, it primarily affects dopaminergic receptors, leading to vasodilation in the renal and mesenteric beds, potentially improving renal perfusion and urine output. It can be a suitable choice for addressing relative hypotension and poor urine output.",
       "images": []
-    }
+    },
+    "tags": [
+      "Vasopressor"
+    ]
   },
   {
     "id": "155",
@@ -2787,7 +3249,10 @@
     "rationale": {
       "text": "Acetazolamide is a carbonic anhydrase inhibitor. It primarily acts in the proximal convoluted tubule of the nephron, inhibiting the reabsorption of bicarbonate. This leads to the excretion of bicarbonate in the urine, resulting in alkaline urine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Diuretic"
+    ]
   },
   {
     "id": "156",
@@ -2805,7 +3270,10 @@
     "rationale": {
       "text": "Pegvisomant is a growth hormone receptor antagonist. It competes with endogenous growth hormone for binding to the growth hormone receptor and inhibits the biological actions of excess growth hormone. It is used in the treatment of acromegaly when surgery or radiation therapy is not an option or has not been successful.",
       "images": []
-    }
+    },
+    "tags": [
+      "Growth Hormone Antagonist"
+    ]
   },
   {
     "id": "157",
@@ -2823,7 +3291,10 @@
     "rationale": {
       "text": "This statement is generally incorrect. Repeated administration of nitrates often leads to tolerance, where the effectiveness of the drug diminishes over time. This phenomenon is known as nitrate tolerance.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nitrates"
+    ]
   },
   {
     "id": "158",
@@ -2841,7 +3312,10 @@
     "rationale": {
       "text": "Abarelix is a gonadotropin-releasing hormone (GnRH) antagonist. It works by competitively blocking the GnRH receptors, leading to a rapid and sustained suppression of gonadotropins without an initial flare effect.",
       "images": []
-    }
+    },
+    "tags": [
+      "GnRH Antagonist"
+    ]
   },
   {
     "id": "159",
@@ -2859,7 +3333,10 @@
     "rationale": {
       "text": "Streptomycin is known to cause vestibular and auditory toxicity. Vertigo, difficulty perceiving movement termination, and imbalance may occur due to its impact on the vestibular system. The symptoms described (vertigo, difficulty perceiving movement termination, difficulty sitting and standing without visual clues) align more with the side effects of streptomycin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "160",
@@ -2877,7 +3354,10 @@
     "rationale": {
       "text": "Reserpine blocks the ability of aminergic transmitter vesicles to take up and store biogenic amines, probably by interfering with the vesicular membrane-associated transporter. This effect occurs throughout the body, resulting in depletion of norepinephrine, dopamine, and serotonin in both central and peripheral neurons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihypertensive"
+    ]
   },
   {
     "id": "161",
@@ -2895,7 +3375,10 @@
     "rationale": {
       "text": "Dutasteride inhibits the enzyme 5-alpha reductase, which is responsible for the conversion of testosterone to dihydrotestosterone (DHT). By blocking this conversion, dutasteride reduces the levels of DHT, which is implicated in the development and progression of benign prostatic hyperplasia (BPH).",
       "images": []
-    }
+    },
+    "tags": [
+      "5-Alpha Reductase Inhibitor"
+    ]
   },
   {
     "id": "162",
@@ -2913,7 +3396,10 @@
     "rationale": {
       "text": "Milrinone is a selective phosphodiesterase type 3 (PDE3) inhibitor. It is used for its inotropic (increases contractility) and vasodilatory effects, making it beneficial in the treatment of heart failure.",
       "images": []
-    }
+    },
+    "tags": [
+      "PDE3 Inhibitor"
+    ]
   },
   {
     "id": "163",
@@ -2931,7 +3417,10 @@
     "rationale": {
       "text": "Co-trimoxazole is a combination of two antibiotics, trimethoprim, and sulfamethoxazole. While it is effective against a broad spectrum of bacteria, it may not be the first-line treatment for LGV. Doxycycline, tetracycline, and azithromycin are commonly used for Chlamydia trachomatis infections, including LGV.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "164",
@@ -2949,7 +3438,10 @@
     "rationale": {
       "text": "Third-generation cephalosporins such as cefotaxime (2 g q8h, administered IV) provide reasonable initial coverage in moderately ill patients. Broad-spectrum antibiotics, such as β-lactam/β-lactamase inhibitor combinations (e.g., piperacillin/tazobactam, 3.375 g q6h IV) or ceftriaxone (2 g q24h IV), also are options.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "165",
@@ -2967,7 +3459,10 @@
     "rationale": {
       "text": "α-Glucosidase inhibitors (acarbose, miglitol, voglibose) reduce intestinal absorption of starch, dextrin, and disaccharides by inhibiting the action of α-glucosidase in the intestinal brush border. The most prominent adverse effects related to α-glucosidase inhibitors are malabsorption, flatulence, diarrhea, and abdominal bloating.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidiabetic"
+    ]
   },
   {
     "id": "166",
@@ -2985,7 +3480,10 @@
     "rationale": {
       "text": "Phytomenadione is the antidote for warfarin toxicity. Warfarin inhibits vitamin K-dependent clotting factors, and phytomenadione replenishes these factors, helping to normalize the INR and prevent bleeding complications. If the INR is ≥5, vitamin K1 (phytonadione) can be given orally at a dose of 1-2.5 mg (for 5≤ INR ≤9) or 3-5 mg (for INR >9).",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticoagulant"
+    ]
   },
   {
     "id": "167",
@@ -3003,7 +3501,10 @@
     "rationale": {
       "text": "Empagliflozin works by inhibiting the sodium-glucose co-transporter-2 (SGLT-2) found in the proximal tubules in the kidneys. Through SGLT2 inhibition, empagliflozin reduces renal reabsorption of glucose and increases urinary excretion of glucose.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidiabetic"
+    ]
   },
   {
     "id": "168",
@@ -3021,7 +3522,10 @@
     "rationale": {
       "text": "Loperamide is an opioid-receptor agonist and acts on the μ-opioid receptors in the myenteric plexus of the large intestine. It works like morphine, decreasing the activity of the myenteric plexus, which decreases the tone of the longitudinal and circular smooth muscles of the intestinal wall. This increases the time material stays in the intestine, allowing more water to be absorbed from the fecal matter.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidiarrheal"
+    ]
   },
   {
     "id": "169",
@@ -3039,7 +3543,10 @@
     "rationale": {
       "text": "The activity of ceftaroline is limited against Enterococcus sp., beta-lactamase-producing Enterobacteriaceae, and Pseudomonas aeruginosa. Ceftaroline does not have activity against atypical bacteria. Atypical bacteria include organisms like Mycoplasma, Chlamydia, and Legionella.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "170",
@@ -3057,7 +3564,10 @@
     "rationale": {
       "text": "Brompheniramine is an antihistamine that blocks histamine-1 receptors. It is used to relieve symptoms of allergy and the common cold, including sneezing, runny nose, and itching.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antihistamine"
+    ]
   },
   {
     "id": "171",
@@ -3075,7 +3585,10 @@
     "rationale": {
       "text": "Clindamycin is a suitable alternative for patients who are allergic to penicillin. However, it's important to note that clindamycin resistance can develop, and its use should be guided by local resistance patterns. Clindamycin is primarily effective against gram-positive bacteria, including anaerobic bacteria, and inhibits bacterial protein synthesis by binding to the 50S subunit of the bacterial ribosome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "172",
@@ -3093,7 +3606,10 @@
     "rationale": {
       "text": "N-methyl-D-aspartate receptor antagonists can attenuate or reverse morphine tolerance. Systemically administered ketamine attenuates and reverses systemically induced morphine tolerance in mice, and intraspinal ketamine attenuates tolerance produced by intraspinal morphine in rats.",
       "images": []
-    }
+    },
+    "tags": [
+      "Opioid"
+    ]
   },
   {
     "id": "173",
@@ -3111,7 +3627,10 @@
     "rationale": {
       "text": "The activated partial thromboplastin time (aPTT) is not routinely monitored for patients on warfarin. The Prothrombin time (PT) and international normalized ratio (INR) are the standard test used to monitor and adjust warfarin therapy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticoagulant"
+    ]
   },
   {
     "id": "174",
@@ -3129,7 +3648,10 @@
     "rationale": {
       "text": "Oxybutynin, which is somewhat selective for M3 receptors, is used to relieve bladder spasm after urologic surgery. It is also valuable in reducing involuntary voiding in patients with neurologic disease. Like other anticholinergics, it can cause constipation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticholinergic"
+    ]
   },
   {
     "id": "175",
@@ -3147,7 +3669,10 @@
     "rationale": {
       "text": "Phenylephrine is commonly used to treat orthostatic hypotension by causing vasoconstriction and elevating blood pressure. It is not expected to worsen orthostatic hypotension. Phenylephrine can worsen symptoms of BPH by causing smooth muscle contraction in the prostate region, leading to increased difficulty with urination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Sympathomimetic"
+    ]
   },
   {
     "id": "176",
@@ -3165,7 +3690,10 @@
     "rationale": {
       "text": "Leuprolide is a luteinizing hormone-releasing hormone (LHRH) agonist. It works by suppressing the production of testosterone, a hormone that fuels the growth of prostate cancer cells. It is commonly used in the treatment of advanced prostate cancer.",
       "images": []
-    }
+    },
+    "tags": [
+      "GnRH Agonist"
+    ]
   },
   {
     "id": "177",
@@ -3183,7 +3711,10 @@
     "rationale": {
       "text": "Clavulanic acid is a beta-lactamase inhibitor. Beta-lactamases are enzymes produced by bacteria that can inactivate antibiotics like amoxicillin by breaking the beta-lactam ring in their structure. Clavulanic acid, being a beta-lactamase inhibitor, protects amoxicillin from degradation by these enzymes, thereby enhancing its antibacterial activity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "178",
@@ -3201,7 +3732,10 @@
     "rationale": {
       "text": "All the manifestations of hypoglycemia are relieved by glucose administration. To expedite absorption, simple sugar or glucose should be given, preferably in liquid form. To treat mild hypoglycemia in a patient who is conscious and able to swallow, dextrose tablets, glucose gel, or any sugar-containing beverage or food may be given.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidiabetic"
+    ]
   },
   {
     "id": "179",
@@ -3219,7 +3753,10 @@
     "rationale": {
       "text": "PPIs inhibit both fasting and meal-stimulated secretion because they block the final common pathway of acid secretion, the proton pump. In standard doses, PPIs inhibit 90-98% of 24-hour acid secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "PPI"
+    ]
   },
   {
     "id": "180",
@@ -3237,7 +3774,10 @@
     "rationale": {
       "text": "Glipizide is a sulfonylurea that stimulates the release of insulin from the pancreas. Since Julia is already taking Glibenclamide (also a sulfonylurea), adding another sulfonylurea might not be the first choice due to the risk of hypoglycemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antidiabetic"
+    ]
   },
   {
     "id": "181",
@@ -3255,7 +3795,10 @@
     "rationale": {
       "text": "Dextromethorphan is an antitussive medication commonly used to suppress cough. Its mechanism of action involves the central nervous system. The cough center is located in the brain. Dextromethorphan acts centrally to inhibit the cough reflex by affecting signals in the brain.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antitussive"
+    ]
   },
   {
     "id": "182",
@@ -3273,7 +3816,10 @@
     "rationale": {
       "text": "Cefuroxime is a second-generation cephalosporin with limited activity against Pseudomonas aeruginosa. It may not be the best choice for nosocomial pneumonia caused by this pathogen. Cefpirome, ceftazidime, and ceftobiprole have activity against Pseudomonas aeruginosa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "183",
@@ -3291,7 +3837,10 @@
     "rationale": {
       "text": "Carbidopa is a peripheral inhibitor of dopa decarboxylase, an enzyme that converts levodopa to dopamine in peripheral tissues outside the brain. While it does not cross the blood-brain barrier, it plays a crucial role in the treatment of Parkinson's disease when administered in combination with levodopa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Parkinson's"
+    ]
   },
   {
     "id": "184",
@@ -3309,7 +3858,10 @@
     "rationale": {
       "text": "Phenylephrine is a sympathomimetic drug that acts as a selective alpha-1 adrenergic receptor agonist. By activating these receptors, it causes vasoconstriction, particularly in the nasal passages. This vasoconstriction reduces blood flow in the nasal mucosa, leading to a decrease in swelling and congestion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Decongestant"
+    ]
   },
   {
     "id": "185",
@@ -3327,7 +3879,10 @@
     "rationale": {
       "text": "Azithromycin is a macrolide antibiotic. It is a reasonable alternative for individuals allergic to penicillin, as macrolides have a different structure from beta-lactam antibiotics. Azithromycin is effective against many bacteria causing respiratory tract infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "186",
@@ -3345,7 +3900,10 @@
     "rationale": {
       "text": "Candida, a type of yeast, can cause a condition known as yeast infection, which is treated with antifungal agents. The standard treatments for cervicitis caused by Chlamydia, Gonorrhea, and Herpes involve specific antibiotics or antiviral medications. The exception in this context would be treating cervicitis caused by Candida.",
       "images": []
-    }
+    },
+    "tags": [
+      "STD"
+    ]
   },
   {
     "id": "187",
@@ -3363,7 +3921,10 @@
     "rationale": {
       "text": "Anastrozole is an aromatase inhibitor used in the treatment of breast cancer. It works by inhibiting the enzyme aromatase, thereby reducing the conversion of androgens (like androstenedione) into estrogen. This is significant in postmenopausal women, where most of the estrogen is produced via this conversion in peripheral tissues.",
       "images": []
-    }
+    },
+    "tags": [
+      "Aromatase Inhibitor"
+    ]
   },
   {
     "id": "188",
@@ -3381,7 +3942,10 @@
     "rationale": {
       "text": "Atropine is a muscarinic receptor antagonist and can be used to alleviate muscarinic side effects caused by excess acetylcholine. It competes with acetylcholine for binding to muscarinic receptors, thereby reducing the excessive cholinergic stimulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Anticholinergic"
+    ]
   },
   {
     "id": "189",
@@ -3399,7 +3963,10 @@
     "rationale": {
       "text": "Fluconazole is an antifungal medication that belongs to the azole class. It is commonly used to treat fungal infections, including vaginal candidiasis. A single oral dose of fluconazole is often effective in treating uncomplicated cases of vaginal candidiasis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antifungal"
+    ]
   },
   {
     "id": "190",
@@ -3417,7 +3984,10 @@
     "rationale": {
       "text": "Simethicone is an anti-foaming agent that works by coalescing smaller gas bubbles into larger ones, making it easier for the gas to be expelled through burping or flatulence. It is commonly used to relieve symptoms of gas and bloating.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiflatulent"
+    ]
   },
   {
     "id": "191",
@@ -3435,7 +4005,10 @@
     "rationale": {
       "text": "Doxycycline is a tetracycline antibiotic and is often considered a first-line treatment for leptospirosis. It is effective against Leptospira and is commonly used in mild cases.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "192",
@@ -3453,7 +4026,10 @@
     "rationale": {
       "text": "Misoprostol is often prescribed with NSAIDs to reduce the risk of gastric ulcers and complications. Therefore, it is not a contraindication, but rather a medication that may be co-prescribed to mitigate the gastrointestinal side effects of NSAIDs.",
       "images": []
-    }
+    },
+    "tags": [
+      "NSAID"
+    ]
   },
   {
     "id": "193",
@@ -3471,7 +4047,10 @@
     "rationale": {
       "text": "Continuous administration of gonadorelin through intramuscular injection could lead to desensitization of the GnRH receptors, resulting in the inhibition of FSH and LH release. Continuous exposure may suppress the normal pulsatile release pattern.",
       "images": []
-    }
+    },
+    "tags": [
+      "GnRH Agonist"
+    ]
   },
   {
     "id": "194",
@@ -3489,7 +4068,10 @@
     "rationale": {
       "text": "Neostigmine is a cholinesterase inhibitor and is commonly used in the treatment of myasthenia gravis. It helps improve muscle strength by increasing the concentration of acetylcholine at the neuromuscular junction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cholinesterase Inhibitor"
+    ]
   },
   {
     "id": "195",
@@ -3507,7 +4089,10 @@
     "rationale": {
       "text": "When blood pressure increases, the parasympathetic system is activated and heart rate decreases. Acetylcholine is the transmitter at parasympathetic nerve endings innervating the sinus node (nerve endings of the vagus nerve).",
       "images": []
-    }
+    },
+    "tags": [
+      "Autonomic Nervous System"
+    ]
   },
   {
     "id": "196",
@@ -3525,7 +4110,10 @@
     "rationale": {
       "text": "Sumatriptan, an agonist at 5-HT 1D/1B receptors, is indicated for prevention or treatment of migraine and cluster headaches. Ergotamine is also effective for acute migraine but is produced by the fungus Claviceps purpurea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimigraine"
+    ]
   },
   {
     "id": "197",
@@ -3543,7 +4131,10 @@
     "rationale": {
       "text": "Ketorolac exerts typical NSAID effects. It prolongs the bleeding time and can impair renal function, especially in a patient with preexisting renal disease. Its primary use is as a parenteral agent for pain management, especially for treatment of postoperative patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "NSAID"
+    ]
   },
   {
     "id": "198",
@@ -3561,7 +4152,10 @@
     "rationale": {
       "text": "Nephrotoxicity is a characteristic toxicity of cisplatin. Renal toxicity can be reduced by slow intravenous infusion, maintenance of good hydration, and administration of mannitol to maximize urine flow. For testicular cancer, cisplatin is used in combination with etoposide and bleomycin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Chemotherapy"
+    ]
   },
   {
     "id": "199",
@@ -3579,7 +4173,10 @@
     "rationale": {
       "text": "This question emphasizes that the ingestion of iron tablets is a relatively common cause of accidental poisoning in young children. The signs and symptoms described usually occur in the first 6 h after ingestion. In a child whose body weight is 22 pounds, the ingestion of 600 mg can cause severe, perhaps lethal, toxicity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Toxicology"
+    ]
   },
   {
     "id": "200",
@@ -3597,7 +4194,10 @@
     "rationale": {
       "text": "Cannabidiol (CBD) is a cannabinoid derived from the cannabis plant. It is well-tolerated and does not produce the psychotropic effects associated with THC (tetrahydrocannabinol). CBD is being researched for various medical purposes, including its potential anti-seizure effects. Cannabidiol is effective in certain seizure disorders but does not act on CB1 or CB2 receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cannabinoid"
+    ]
   },
   {
     "id": "201",
@@ -3615,7 +4215,10 @@
     "rationale": {
       "text": "ESBL-producing E. coli is an emerging urinary pathogen; ciprofloxacin resistance is common, and carbapenems are recommended for serious infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "202",
@@ -3633,7 +4236,10 @@
     "rationale": {
       "text": "Cefiderocol uses active iron transport to enter bacteria and is stable against many β-lactamases, including metallo-β-lactamases.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "203",
@@ -3651,7 +4257,10 @@
     "rationale": {
       "text": "The initiative aimed for 10, but by 2020, 14 antibacterials received FDA approval, 3 of which were novel agents.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "204",
@@ -3669,7 +4278,10 @@
     "rationale": {
       "text": "Ceftazidime-avibactam is active against ESBL and KPC producers; it is not active against metallo-β-lactamases.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "205",
@@ -3687,7 +4299,10 @@
     "rationale": {
       "text": "Aminoglycosides exhibit concentration-dependent killing and a significant post-antibiotic effect, making once-daily dosing effective and less toxic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "206",
@@ -3705,7 +4320,10 @@
     "rationale": {
       "text": "For gentamicin and tobramycin, once-daily dosing of 5-7 mg/kg is recommended when CrCl >60 mL/min.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "207",
@@ -3723,7 +4341,10 @@
     "rationale": {
       "text": "Streptomycin and gentamicin are the most vestibulotoxic; neomycin and amikacin are more auditory toxic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "208",
@@ -3741,7 +4362,10 @@
     "rationale": {
       "text": "Plazomicin is structurally modified to resist most aminoglycoside-modifying enzymes, retaining activity against resistant pathogens.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "209",
@@ -3759,7 +4383,10 @@
     "rationale": {
       "text": "Tetracyclines are contraindicated in pregnancy; azithromycin is the preferred alternative for chlamydia in pregnancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "210",
@@ -3777,7 +4404,10 @@
     "rationale": {
       "text": "Doxycycline is generally well tolerated, dosed twice daily, and its absorption is minimally affected by food or divalent cations.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "211",
@@ -3795,7 +4425,10 @@
     "rationale": {
       "text": "Tigecycline has a black box warning for increased mortality seen in meta-analyses; it is reserved for situations where alternatives are not suitable.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "212",
@@ -3813,7 +4446,10 @@
     "rationale": {
       "text": "Azithromycin (15-membered ring) does not inactivate CYP450 enzymes, unlike erythromycin and clarithromycin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "213",
@@ -3831,7 +4467,10 @@
     "rationale": {
       "text": "Clindamycin inhibits bacterial protein synthesis and toxin production, making it useful in streptococcal toxic shock and necrotizing fasciitis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "214",
@@ -3849,7 +4488,10 @@
     "rationale": {
       "text": "Linezolid binds to the 23S rRNA of the 50S subunit, preventing formation of the initiation complex; it is bacteriostatic against most gram-positive organisms.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "215",
@@ -3867,7 +4509,10 @@
     "rationale": {
       "text": "Linezolid has weak MAOI properties and can cause serotonin syndrome when combined with serotonergic drugs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "216",
@@ -3885,7 +4530,10 @@
     "rationale": {
       "text": "Lefamulin is approved for community-acquired bacterial pneumonia based on noninferiority to moxifloxacin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "217",
@@ -3903,7 +4551,10 @@
     "rationale": {
       "text": "Benzathine penicillin G is the treatment of choice for syphilis, with a single 2.4 million-unit IM dose for primary/secondary syphilis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "218",
@@ -3921,7 +4572,10 @@
     "rationale": {
       "text": "Cross-reactivity is lower with later-generation cephalosporins; however, caution is still advised. Third- and fourth-generation cephalosporins are generally safer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "219",
@@ -3939,7 +4593,10 @@
     "rationale": {
       "text": "Cefazolin is active against staphylococci and streptococci, has a half-life allowing re-dosing during surgery, and is well-tolerated.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "220",
@@ -3957,7 +4614,10 @@
     "rationale": {
       "text": "Ertapenem lacks appreciable activity against Pseudomonas aeruginosa and Acinetobacter species.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "221",
@@ -3975,7 +4635,10 @@
     "rationale": {
       "text": "Aztreonam is active only against aerobic Gram-negative bacteria, including Pseudomonas, but not Gram-positive or anaerobes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "222",
@@ -3993,7 +4656,10 @@
     "rationale": {
       "text": "VRE alters the peptidoglycan precursor from D-Ala-D-Ala to D-Ala-D-lactate, reducing vancomycin binding affinity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "223",
@@ -4011,7 +4677,10 @@
     "rationale": {
       "text": "Dalbavancin has a half-life >10 days and is approved as a single 1500-mg dose for acute bacterial skin and skin structure infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "224",
@@ -4029,7 +4698,10 @@
     "rationale": {
       "text": "Daptomycin is inactivated by pulmonary surfactant, so it should not be used for pneumonia; it is effective for skin and bloodstream infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "225",
@@ -4047,7 +4719,10 @@
     "rationale": {
       "text": "Fosfomycin trometamol is approved as a single 3-g dose for uncomplicated lower UTI in women.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "226",
@@ -4065,7 +4740,10 @@
     "rationale": {
       "text": "Nafcillin and isoxazolyl penicillins are resistant to staphylococcal β-lactamase; they are used for MSSA infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "227",
@@ -4083,7 +4761,10 @@
     "rationale": {
       "text": "For penicillin-resistant pneumococcal meningitis, vancomycin plus a third-generation cephalosporin (ceftriaxone) is recommended.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "228",
@@ -4101,7 +4782,10 @@
     "rationale": {
       "text": "Ceftaroline is a cephalosporin with activity against MRSA due to its affinity for PBP2a.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "229",
@@ -4119,7 +4803,10 @@
     "rationale": {
       "text": "Ceftazidime-avibactam is active against KPC and some OXA enzymes, but not metallo-β-lactamases like NDM.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "230",
@@ -4137,7 +4824,10 @@
     "rationale": {
       "text": "Carbapenems (ertapenem, meropenem, etc.) are the treatment of choice for serious ESBL-producing Enterobacterales infections.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "231",
@@ -4155,7 +4845,10 @@
     "rationale": {
       "text": "Cefoxitin or cefotetan provides coverage against enteric Gram-negative rods and anaerobes, suitable for colorectal prophylaxis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "232",
@@ -4173,7 +4866,10 @@
     "rationale": {
       "text": "Cefepime has broad Gram-negative activity including Pseudomonas, and is commonly used empirically in febrile neutropenia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "233",
@@ -4191,7 +4887,10 @@
     "rationale": {
       "text": "Aminoglycoside uptake is oxygen-dependent, so they are ineffective against anaerobes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "234",
@@ -4209,7 +4908,10 @@
     "rationale": {
       "text": "Tetracyclines bind to calcium in developing teeth and bones, causing discoloration and enamel dysplasia; contraindicated in pregnancy and children <8 years.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "235",
@@ -4227,7 +4929,10 @@
     "rationale": {
       "text": "Erythromycin estolate is associated with acute cholestatic hepatitis, likely a hypersensitivity reaction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "236",
@@ -4245,7 +4950,10 @@
     "rationale": {
       "text": "Clindamycin suppresses normal flora, allowing C. difficile overgrowth; it also inhibits protein synthesis, but the main risk is alteration of flora.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "237",
@@ -4263,7 +4971,10 @@
     "rationale": {
       "text": "Tedizolid has a longer half-life (~12 hours) allowing once-daily dosing and may have less myelosuppression.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "238",
@@ -4281,7 +4992,10 @@
     "rationale": {
       "text": "Fidaxomicin is a minimally absorbed macrolide approved for treatment of Clostridioides difficile infection, with lower relapse rates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "239",
@@ -4299,7 +5013,10 @@
     "rationale": {
       "text": "Avibactam is a non-β-lactam β-lactamase inhibitor that inhibits class A and C (and some D) enzymes, including KPC.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "240",
@@ -4317,7 +5034,10 @@
     "rationale": {
       "text": "Ampicillin is the drug of choice for Listeria monocytogenes (plus gentamicin in some cases); cephalosporins are not active.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "241",
@@ -4335,7 +5055,10 @@
     "rationale": {
       "text": "Spectinomycin is an aminocyclitol that inhibits protein synthesis but is structurally related to aminoglycosides.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "242",
@@ -4353,7 +5076,10 @@
     "rationale": {
       "text": "Nafcillin is primarily cleared by biliary excretion, so no dose adjustment is needed in renal failure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "243",
@@ -4371,7 +5097,10 @@
     "rationale": {
       "text": "Ceftazidime is the only third-generation cephalosporin with useful activity against Pseudomonas aeruginosa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "244",
@@ -4389,7 +5118,10 @@
     "rationale": {
       "text": "Red man syndrome (flushing, hypotension) is caused by histamine release from rapid vancomycin infusion; can be minimized by slow infusion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "245",
@@ -4407,7 +5139,10 @@
     "rationale": {
       "text": "An AUC:MIC ratio of ≥400 mg·h/L is the pharmacodynamic target for vancomycin efficacy against MRSA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "246",
@@ -4425,7 +5160,10 @@
     "rationale": {
       "text": "Tobramycin is slightly more active than gentamicin against Pseudomonas aeruginosa, though both are used.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "247",
@@ -4443,7 +5181,10 @@
     "rationale": {
       "text": "Tebipenem pivoxil is an orally bioavailable carbapenem in clinical trials; not yet approved in the USA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "248",
@@ -4461,7 +5202,10 @@
     "rationale": {
       "text": "Mycoplasma lacks a cell wall, so β-lactams are ineffective; macrolides or tetracyclines are the drugs of choice.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "249",
@@ -4479,7 +5223,10 @@
     "rationale": {
       "text": "Chloramphenicol can cause dose-related reversible bone marrow suppression and idiosyncratic aplastic anemia (1 in 24,000-40,000 courses).",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "250",
@@ -4497,7 +5244,10 @@
     "rationale": {
       "text": "Trimethoprim-sulfamethoxazole is the first-line prophylaxis for PJP; alternatives include dapsone and atovaquone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antibiotic"
+    ]
   },
   {
     "id": "251",
@@ -4515,7 +5265,10 @@
     "rationale": {
       "text": "Acyclovir is first phosphorylated by viral thymidine kinase to the monophosphate, then by host cell enzymes to the triphosphate active form.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "252",
@@ -4533,7 +5286,10 @@
     "rationale": {
       "text": "Valacyclovir (L-valyl ester of acyclovir) has 54–70% oral bioavailability and achieves serum levels 3–5× higher than oral acyclovir.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "253",
@@ -4551,7 +5307,10 @@
     "rationale": {
       "text": "Ganciclovir is initially phosphorylated by the CMV UL97 protein kinase, then by host kinases to the triphosphate active form.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "254",
@@ -4569,7 +5328,10 @@
     "rationale": {
       "text": "Foscarnet is a pyrophosphate analog that directly blocks the pyrophosphate binding site of viral DNA polymerase without requiring phosphorylation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "255",
@@ -4587,7 +5349,10 @@
     "rationale": {
       "text": "NNRTIs bind allosterically to HIV-1 reverse transcriptase, do not require phosphorylation, and are not competitive with nucleoside triphosphates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "256",
@@ -4605,7 +5370,10 @@
     "rationale": {
       "text": "The M184V mutation reduces susceptibility to lamivudine and emtricitabine, but may restore phenotypic susceptibility to tenofovir and zidovudine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "257",
@@ -4623,7 +5391,10 @@
     "rationale": {
       "text": "Atazanavir inhibits UGT1A1, causing unconjugated hyperbilirubinemia and jaundice in ~10% of patients, which is reversible on discontinuation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "258",
@@ -4641,7 +5412,10 @@
     "rationale": {
       "text": "Bictegravir is co-formulated with tenofovir alafenamide and emtricitabine (Biktarvy) as a once-daily single-tablet regimen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "259",
@@ -4659,7 +5433,10 @@
     "rationale": {
       "text": "Lenacapavir is a long-acting capsid inhibitor; treatment is initiated orally then continued subcutaneously every 6 months.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "260",
@@ -4677,7 +5454,10 @@
     "rationale": {
       "text": "Baloxavir inhibits cap-dependent endonuclease and is active against both influenza A and B viruses, acting earlier in the replication cycle than neuraminidase inhibitors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "261",
@@ -4695,7 +5475,10 @@
     "rationale": {
       "text": "Sofosbuvir is a nucleotide prodrug that is converted to a triphosphate which incorporates into HCV RNA and causes chain termination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "262",
@@ -4713,7 +5496,10 @@
     "rationale": {
       "text": "Letermovir inhibits the CMV terminase subunit pUL56 required for DNA packaging and processing, with no equivalent human target enzyme.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "263",
@@ -4731,7 +5517,10 @@
     "rationale": {
       "text": "Ritonavir is a strong CYP3A4 inhibitor that boosts nirmatrelvir concentrations to therapeutic range and prolongs its half-life to ~6 hours.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "264",
@@ -4749,7 +5538,10 @@
     "rationale": {
       "text": "Peramivir is a cyclopentane neuraminidase inhibitor approved as a single 600-mg IV dose for acute uncomplicated influenza in adults.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "265",
@@ -4767,7 +5559,10 @@
     "rationale": {
       "text": "Molnupiravir (prodrug of NHC) is incorporated by viral RNA-dependent RNA polymerase, causing lethal mutagenesis of SARS-CoV-2.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "266",
@@ -4785,7 +5580,10 @@
     "rationale": {
       "text": "Isoniazid is a prodrug activated by KatG; the active form blocks mycolic acid synthesis by forming a covalent complex with AcpM and KasA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "267",
@@ -4803,7 +5601,10 @@
     "rationale": {
       "text": "Rifampin binds to the β subunit of bacterial DNA-dependent RNA polymerase, blocking RNA synthesis. Human RNA polymerase is not affected.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "268",
@@ -4821,7 +5622,10 @@
     "rationale": {
       "text": "Pyrazinamide is converted to pyrazinoic acid in acidic macrophage lysosomes, disrupting mycobacterial cell membrane function and serving as a sterilizing agent.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "269",
@@ -4839,7 +5643,10 @@
     "rationale": {
       "text": "Ethambutol inhibits arabinosyl transferases (encoded by embCAB) that polymerize arabinoglycan, an essential component of the mycobacterial cell wall.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "270",
@@ -4857,7 +5664,10 @@
     "rationale": {
       "text": "The continuation phase consists of isoniazid and rifampin for 4 additional months (total 6 months) in the standard regimen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "271",
@@ -4875,7 +5685,10 @@
     "rationale": {
       "text": "Isoniazid promotes pyridoxine excretion, leading to peripheral neuropathy; it is more common in slow acetylators and patients with malnutrition or alcohol use.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "272",
@@ -4893,7 +5706,10 @@
     "rationale": {
       "text": "Rifampin induces CYP isoforms (1A2, 2C9, 2C19, 2D6, 3A4), increasing elimination of many drugs including phenytoin, methadone, and oral contraceptives.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "273",
@@ -4911,7 +5727,10 @@
     "rationale": {
       "text": "Streptomycin is ototoxic, causing vertigo and hearing loss which may be permanent, especially with high doses and in elderly patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "274",
@@ -4929,7 +5748,10 @@
     "rationale": {
       "text": "Bedaquiline inhibits mycobacterial ATP synthase. It has a black-box warning for QTc prolongation and is used in MDR-TB regimens.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "275",
@@ -4947,7 +5769,10 @@
     "rationale": {
       "text": "Pretomanid is approved for extensively drug-resistant, pre-extensively drug-resistant, or treatment-nonresponsive MDR pulmonary TB in the BPaL regimen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "276",
@@ -4965,7 +5790,10 @@
     "rationale": {
       "text": "The standard regimen for disseminated MAC is a macrolide (azithromycin or clarithromycin) plus ethambutol, with rifabutin as a third agent in some cases.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "277",
@@ -4983,7 +5811,10 @@
     "rationale": {
       "text": "Dapsone (diaminodiphenylsulfone) is a sulfone that inhibits folate synthesis and is structurally related to sulfonamides.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "278",
@@ -5001,7 +5832,10 @@
     "rationale": {
       "text": "For lepromatous leprosy, combination therapy with dapsone, rifampin, and clofazimine is recommended to prevent resistance emergence.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "279",
@@ -5019,7 +5853,10 @@
     "rationale": {
       "text": "Clofazimine accumulates in skin and reticuloendothelial tissues, causing reddish-black discoloration of the skin and conjunctivae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "280",
@@ -5037,7 +5874,10 @@
     "rationale": {
       "text": "Linezolid can cause bone marrow suppression and irreversible peripheral and optic neuropathy with prolonged courses, especially at higher doses.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "281",
@@ -5055,7 +5895,10 @@
     "rationale": {
       "text": "Rifabutin is a less potent CYP450 inducer than rifampin, making it preferred for patients on antiretroviral therapy with protease inhibitors or integrase inhibitors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "282",
@@ -5073,7 +5916,10 @@
     "rationale": {
       "text": "The 4-month regimen (for patients ≥12 years, ≥40 kg) uses rifapentine, moxifloxacin, isoniazid, and pyrazinamide, and was noninferior to the standard 6-month regimen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "283",
@@ -5091,7 +5937,10 @@
     "rationale": {
       "text": "Ethambutol causes retrobulbar neuritis with visual acuity loss and red-green color blindness; risk increases with dose >25 mg/kg/day and prolonged use.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "284",
@@ -5109,7 +5958,10 @@
     "rationale": {
       "text": "Mutations or deletions in katG (encoding catalase-peroxidase) cause high-level isoniazid resistance by preventing activation of the prodrug.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "285",
@@ -5127,7 +5979,10 @@
     "rationale": {
       "text": "Pyrazinamide is inactive at neutral pH but active at acidic pH (5.5), and is taken up by macrophages to act against mycobacteria in lysosomes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "286",
@@ -5145,7 +6000,10 @@
     "rationale": {
       "text": "Remdesivir is an IV-administered adenosine nucleotide prodrug that is phosphorylated to the triphosphate and causes chain termination by the SARS-CoV-2 RNA-dependent RNA polymerase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "287",
@@ -5163,7 +6021,10 @@
     "rationale": {
       "text": "Tecovirimat inhibits viral p37, blocking the egress of virus particles from infected cells; it is available under Expanded Access for monkeypox.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "288",
@@ -5181,7 +6042,10 @@
     "rationale": {
       "text": "Ibalizumab is a monoclonal antibody that binds CD4, blocking HIV entry; it is active against both CCR5- and CXCR4-tropic HIV isolates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "289",
@@ -5199,7 +6063,10 @@
     "rationale": {
       "text": "Ribavirin is teratogenic and embryotoxic; both sexual partners must use two forms of contraception during and after treatment (females 9 months, males 6 months).",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "290",
@@ -5217,7 +6084,10 @@
     "rationale": {
       "text": "Sofosbuvir/velpatasvir/voxilaprevir (Vosevi) is a pangenotypic regimen approved for re-treatment of patients who failed prior NS5A inhibitor therapy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "291",
@@ -5235,7 +6105,10 @@
     "rationale": {
       "text": "Maraviroc binds CCR5 and is active only against CCR5-tropic HIV-1; tropism testing is required to rule out CXCR4-tropic or dual-tropic virus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "292",
@@ -5253,7 +6126,10 @@
     "rationale": {
       "text": "Tenofovir disoproxil is associated with renal toxicity and bone mineral density loss; tenofovir alafenamide has less renal and bone toxicity but may cause more weight gain.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "293",
@@ -5271,7 +6147,10 @@
     "rationale": {
       "text": "Efavirenz is associated with CNS side effects and had concern for fetal neural tube defects in animal studies, though human meta-analyses have not confirmed this.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "294",
@@ -5289,7 +6168,10 @@
     "rationale": {
       "text": "Rifampin resistance results from point mutations in rpoB, which encodes the β subunit of RNA polymerase, reducing drug binding affinity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "295",
@@ -5307,7 +6189,10 @@
     "rationale": {
       "text": "Dapsone causes hemolysis, which is more severe in G6PD-deficient patients, and methemoglobinemia; dose adjustment or avoidance may be necessary.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antimycobacterial"
+    ]
   },
   {
     "id": "296",
@@ -5325,7 +6210,10 @@
     "rationale": {
       "text": "Pritelivir is a helicase-primase inhibitor under development for HSV infection; amenamevir is being studied for VZV infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "297",
@@ -5343,7 +6231,10 @@
     "rationale": {
       "text": "Darunavir contains a sulfonamide moiety and may cause hypersensitivity reactions, particularly in patients with sulfa allergy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "298",
@@ -5361,7 +6252,10 @@
     "rationale": {
       "text": "Inhaled zanamivir can cause bronchospasm and is contraindicated in patients with underlying airway disease such as asthma or COPD.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "299",
@@ -5379,7 +6273,10 @@
     "rationale": {
       "text": "Palivizumab is a monoclonal antibody against the RSV F protein, given intramuscularly to high-risk infants for RSV prophylaxis during the season.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   },
   {
     "id": "300",
@@ -5397,6 +6294,9 @@
     "rationale": {
       "text": "Islatravir is a first-in-class oral nucleoside reverse transcriptase translocation inhibitor with multiple mechanisms of action, under investigation for HIV.",
       "images": []
-    }
+    },
+    "tags": [
+      "Antiviral"
+    ]
   }
 ]

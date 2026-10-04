@@ -16,7 +16,10 @@
     "rationale": {
       "text": "Pseudostratified ciliated columnar epithelium with goblet cells characterizes the trachea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "2",
@@ -35,7 +38,10 @@
     "rationale": {
       "text": "Thick, multilayered keratinized epithelium with a prominent stratum corneum is typical of palmar or plantar skin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "3",
@@ -54,7 +60,10 @@
     "rationale": {
       "text": "The microvilli of intestinal columnar cells increase surface area for active ion and nutrient transport.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "4",
@@ -73,7 +82,10 @@
     "rationale": {
       "text": "Transitional epithelium with dome-shaped umbrella cells lines the urinary bladder and can flatten on distension.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "5",
@@ -92,7 +104,10 @@
     "rationale": {
       "text": "Tight junctions seal the intercellular clefts and prevent paracellular leakage of luminal material.",
       "images": []
-    }
+    },
+    "tags": [
+      "Epithelial Tissue"
+    ]
   },
   {
     "id": "6",
@@ -111,7 +126,10 @@
     "rationale": {
       "text": "The basolateral labyrinth increases surface area for Na⁺/K⁺-ATPase-dependent ion transport.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "7",
@@ -130,7 +148,10 @@
     "rationale": {
       "text": "Simple squamous epithelium of alveolar walls is specialized for gas exchange.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "8",
@@ -149,7 +170,10 @@
     "rationale": {
       "text": "The multilayered, distensible epithelium of the bladder is transitional epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "9",
@@ -168,7 +192,10 @@
     "rationale": {
       "text": "A simple squamous epithelium covering the peritoneum is mesothelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Epithelial Tissue"
+    ]
   },
   {
     "id": "10",
@@ -187,7 +214,10 @@
     "rationale": {
       "text": "Lieberkühn crypts are tubular epithelial invaginations of the small intestine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "11",
@@ -206,7 +236,10 @@
     "rationale": {
       "text": "Collagen type III (reticulin) forms a delicate, branch-like network often seen in trichrome stains.",
       "images": []
-    }
+    },
+    "tags": [
+      "Connective Tissue"
+    ]
   },
   {
     "id": "12",
@@ -225,7 +258,10 @@
     "rationale": {
       "text": "Dense regular connective tissue with parallel collagen bundles defines tendons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Connective Tissue"
+    ]
   },
   {
     "id": "13",
@@ -244,7 +280,10 @@
     "rationale": {
       "text": "Elastin fibers in the aortic media give the characteristic wavy purple bands in elastin stains.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "14",
@@ -263,7 +302,10 @@
     "rationale": {
       "text": "Collagen type III forms a fine reticular network in the lung interstitium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "15",
@@ -282,7 +324,10 @@
     "rationale": {
       "text": "Fibroblasts are the primary synthetic cells in loose connective tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Connective Tissue"
+    ]
   },
   {
     "id": "16",
@@ -301,7 +346,10 @@
     "rationale": {
       "text": "Large spherical cells with a thin cytoplasmic rim indicate white (unilocular) adipocytes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Connective Tissue"
+    ]
   },
   {
     "id": "17",
@@ -320,7 +368,10 @@
     "rationale": {
       "text": "Glycogen-rich macrophages show strong PAS positivity in the spleen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "18",
@@ -339,7 +390,10 @@
     "rationale": {
       "text": "The basement membrane is rich in collagen type IV and other glycoproteins.",
       "images": []
-    }
+    },
+    "tags": [
+      "Epithelial Tissue"
+    ]
   },
   {
     "id": "19",
@@ -358,7 +412,10 @@
     "rationale": {
       "text": "The PAS-positive thin line at the dermal-epidermal junction corresponds to the basement membrane.",
       "images": []
-    }
+    },
+    "tags": [
+      "Epithelial Tissue"
+    ]
   },
   {
     "id": "20",
@@ -377,7 +434,10 @@
     "rationale": {
       "text": "Plasma cells have a clock-face nucleus and extensive rough ER for immunoglobulin synthesis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Connective Tissue"
+    ]
   },
   {
     "id": "21",
@@ -396,7 +456,10 @@
     "rationale": {
       "text": "The basophilia of hyaline cartilage is due to sulfated proteoglycans such as aggrecan.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cartilage"
+    ]
   },
   {
     "id": "22",
@@ -415,7 +478,10 @@
     "rationale": {
       "text": "Elastic cartilage with embedded elastic fibers is found in the external ear.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cartilage"
+    ]
   },
   {
     "id": "23",
@@ -434,7 +500,10 @@
     "rationale": {
       "text": "Fibrocartilage in the intervertebral disc has abundant collagen and rows of chondrocytes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cartilage"
+    ]
   },
   {
     "id": "24",
@@ -453,7 +522,10 @@
     "rationale": {
       "text": "The proliferative zone of the epiphyseal plate has columnar chondrocytes and is highly basophilic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bone"
+    ]
   },
   {
     "id": "25",
@@ -472,7 +544,10 @@
     "rationale": {
       "text": "Woven bone is disorganized and lacks the lamellar pattern of mature bone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bone"
+    ]
   },
   {
     "id": "26",
@@ -491,7 +566,10 @@
     "rationale": {
       "text": "The osteon is the cylindrical structural unit of compact bone built around a central canal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bone"
+    ]
   },
   {
     "id": "27",
@@ -510,7 +588,10 @@
     "rationale": {
       "text": "Osteoclasts are multinucleated resorptive cells with a ruffled border.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bone"
+    ]
   },
   {
     "id": "28",
@@ -529,7 +610,10 @@
     "rationale": {
       "text": "Spongy (cancellous) bone is characterized by trabeculae and marrow spaces.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bone"
+    ]
   },
   {
     "id": "29",
@@ -548,7 +632,10 @@
     "rationale": {
       "text": "Articular hyaline cartilage is produced by chondrocytes in the joint.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cartilage"
+    ]
   },
   {
     "id": "30",
@@ -567,7 +654,10 @@
     "rationale": {
       "text": "The perichondrial cambium layer mediates appositional cartilage growth.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cartilage"
+    ]
   },
   {
     "id": "31",
@@ -586,7 +676,10 @@
     "rationale": {
       "text": "The I band contains only thin (actin) filaments.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "32",
@@ -605,7 +698,10 @@
     "rationale": {
       "text": "Central nuclei and peripheral sarcoplasmic 'rim' are characteristic of regenerating skeletal muscle fibers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "33",
@@ -624,7 +720,10 @@
     "rationale": {
       "text": "The triad is formed by a T tubule flanked by two sarcoplasmic-reticulum cisternae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "34",
@@ -643,7 +742,10 @@
     "rationale": {
       "text": "Intercalated discs contain desmosomes and gap junctions that provide mechanical and electrical coupling.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "35",
@@ -662,7 +764,10 @@
     "rationale": {
       "text": "The circular smooth muscle layer of the small intestine lacks striations and appears as spindle-shaped cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "36",
@@ -681,7 +786,10 @@
     "rationale": {
       "text": "Dense bodies and dense plaques anchor actin filaments in smooth muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "37",
@@ -700,7 +808,10 @@
     "rationale": {
       "text": "The urinary bladder wall contains smooth muscle arranged in interlacing bundles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "38",
@@ -719,7 +830,10 @@
     "rationale": {
       "text": "PTAH highlights myofilament bands (Z, M, H) as dark bands.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "39",
@@ -738,7 +852,10 @@
     "rationale": {
       "text": "Abundant mitochondria in cardiac muscle support oxidative phosphorylation for sustained contraction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "40",
@@ -757,7 +874,10 @@
     "rationale": {
       "text": "Spindle-shaped smooth muscle cells with diffuse actin and myosin staining characterize involuntary muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "41",
@@ -776,7 +896,10 @@
     "rationale": {
       "text": "The H zone contains only thick (myosin) filaments.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "42",
@@ -795,7 +918,10 @@
     "rationale": {
       "text": "Intercalated discs are specialized junctional complexes at the ends of cardiac muscle cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "43",
@@ -814,7 +940,10 @@
     "rationale": {
       "text": "Circumferential elongated cells in the vessel wall correspond to smooth muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "44",
@@ -833,7 +962,10 @@
     "rationale": {
       "text": "The lower esophagus contains smooth muscle that appears as unstriated elongated cells in trichrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "45",
@@ -852,7 +984,10 @@
     "rationale": {
       "text": "Intestinal smooth muscle generates peristaltic movements.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "46",
@@ -871,7 +1006,10 @@
     "rationale": {
       "text": "Large polygonal cortical cells with prominent Nissl bodies are neurons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "47",
@@ -890,7 +1028,10 @@
     "rationale": {
       "text": "Dorsal root ganglion cells are pseudounipolar sensory neurons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "48",
@@ -909,7 +1050,10 @@
     "rationale": {
       "text": "Purkinje cells in the cerebellum have extensive, branched dendritic arbors.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "49",
@@ -928,7 +1072,10 @@
     "rationale": {
       "text": "The substantia gelatinosa of the dorsal horn is densely packed with small neurons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "50",
@@ -947,7 +1094,10 @@
     "rationale": {
       "text": "Myelin in peripheral nerves is formed by Schwann cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "51",
@@ -966,7 +1116,10 @@
     "rationale": {
       "text": "Oligodendrocytes form myelin sheaths in CNS white matter.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "52",
@@ -985,7 +1138,10 @@
     "rationale": {
       "text": "Microglia are small, irregular cells with short processes and relatively dense cytoplasm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "53",
@@ -1004,7 +1160,10 @@
     "rationale": {
       "text": "Protoplasmic astrocytes in the cortex have star-shaped processes contacting vessels and pia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "54",
@@ -1023,7 +1182,10 @@
     "rationale": {
       "text": "Choroid plexus epithelium consists of cuboidal or columnar ependymal cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "55",
@@ -1042,7 +1204,10 @@
     "rationale": {
       "text": "Endoneurial collagen sheaths outline individual axons and appear as pale wavy bands in trichrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "56",
@@ -1061,7 +1226,10 @@
     "rationale": {
       "text": "The epineurium is the thick, outer connective-tissue sheath of peripheral nerves.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "57",
@@ -1080,7 +1248,10 @@
     "rationale": {
       "text": "Nodes of Ranvier are the unmyelinated gaps between myelin segments.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "58",
@@ -1099,7 +1270,10 @@
     "rationale": {
       "text": "Astrocyte endfeet contribute to the blood-brain barrier around cerebral capillaries.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "59",
@@ -1118,7 +1292,10 @@
     "rationale": {
       "text": "Schwann cells closely associate with individual axons in peripheral nerves.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "60",
@@ -1137,7 +1314,10 @@
     "rationale": {
       "text": "Ventral spinal-horn motor neurons sending long axons into white-matter tracts are multipolar, not unipolar — the single process visible in a section is still a multipolar motor neuron profile; if only one process is clearly visible entering white matter, it is characteristic of a pseudounipolar configuration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "61",
@@ -1156,7 +1336,10 @@
     "rationale": {
       "text": "The myocardium is composed of cardiac muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "62",
@@ -1175,7 +1358,10 @@
     "rationale": {
       "text": "Circularly arranged cardiac muscle fibers generate the force needed for ejection of blood.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "63",
@@ -1194,7 +1380,10 @@
     "rationale": {
       "text": "The endocardial epithelium is a simple squamous endothelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "64",
@@ -1213,7 +1402,10 @@
     "rationale": {
       "text": "The epicardium is the visceral pericardium, containing a mesothelial layer and underlying connective tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Bone"
+    ]
   },
   {
     "id": "65",
@@ -1232,7 +1424,10 @@
     "rationale": {
       "text": "The internal elastic lamina separates the tunica intima from the tunica media.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "66",
@@ -1251,7 +1446,10 @@
     "rationale": {
       "text": "Muscular arteries have a prominent smooth-muscle media and no large elastic lamellae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "67",
@@ -1270,7 +1468,10 @@
     "rationale": {
       "text": "Arterioles have a thick media, a prominent internal elastic lamina, and a small lumen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "68",
@@ -1289,7 +1490,10 @@
     "rationale": {
       "text": "Continuous capillaries consist of endothelium and a thin basement membrane with no fenestrations.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "69",
@@ -1308,7 +1512,10 @@
     "rationale": {
       "text": "Fenestrated capillaries with diaphragms line the glomerulus and allow high-flux filtration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "70",
@@ -1327,7 +1534,10 @@
     "rationale": {
       "text": "Sinusoidal capillaries in the liver have incomplete basement membrane and large gaps.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "71",
@@ -1346,7 +1556,10 @@
     "rationale": {
       "text": "Veins have thinner walls and less elastic content compared with similar-sized arteries.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "72",
@@ -1365,7 +1578,10 @@
     "rationale": {
       "text": "Arterioles regulate peripheral resistance and thus systemic blood pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "73",
@@ -1384,7 +1600,10 @@
     "rationale": {
       "text": "The aortic media contains concentric elastic lamellae visible with elastin-specific stains.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "74",
@@ -1403,7 +1622,10 @@
     "rationale": {
       "text": "The fibrosa is the thin, collagen-rich connective-tissue layer on the ventricular side of heart valves.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "75",
@@ -1422,7 +1644,10 @@
     "rationale": {
       "text": "The pulmonary artery qualitatively resembles a large elastic artery.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "76",
@@ -1441,7 +1666,10 @@
     "rationale": {
       "text": "The thymus is the primary site of T-lymphocyte maturation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "77",
@@ -1460,7 +1688,10 @@
     "rationale": {
       "text": "Hassall's corpuscles are concentric epithelial structures in the thymic medulla.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "78",
@@ -1479,7 +1710,10 @@
     "rationale": {
       "text": "Lymph nodes have a cortex with nodules and a medulla with cords and sinuses.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "79",
@@ -1498,7 +1732,10 @@
     "rationale": {
       "text": "Germinal centers are the pale, proliferating centers of lymphoid nodules.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "80",
@@ -1517,7 +1754,10 @@
     "rationale": {
       "text": "The mantle zone is the darker ring of densely packed B cells around the germinal center.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "81",
@@ -1536,7 +1776,10 @@
     "rationale": {
       "text": "Lymph node sinuses are lined by endothelial cells and reticular cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "82",
@@ -1555,7 +1798,10 @@
     "rationale": {
       "text": "The white pulp is dominated by lymphocytes and antigen-presenting cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "83",
@@ -1574,7 +1820,10 @@
     "rationale": {
       "text": "The periarteriolar lymphoid sheath surrounds the central arteriole and is rich in T cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "84",
@@ -1593,7 +1842,10 @@
     "rationale": {
       "text": "The marginal zone is the interface zone between red and white pulp.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "85",
@@ -1612,7 +1864,10 @@
     "rationale": {
       "text": "The red pulp filters blood and removes aged erythrocytes via macrophages.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "86",
@@ -1631,7 +1886,10 @@
     "rationale": {
       "text": "Tonsils are mucosa-associated lymphoid organs with epithelial crypts.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "87",
@@ -1650,7 +1908,10 @@
     "rationale": {
       "text": "Crypts allow sampling of luminal antigens by underlying lymphoid tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "88",
@@ -1669,7 +1930,10 @@
     "rationale": {
       "text": "The appendix is a secondary lymphoid organ with a prominent lymphoid nodule.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "89",
@@ -1688,7 +1952,10 @@
     "rationale": {
       "text": "Peyer's patches in the ileum are classic examples of MALT.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "90",
@@ -1707,7 +1974,10 @@
     "rationale": {
       "text": "The red pulp cord network is supported by reticular cells and their fibers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Immune & Lymphoid Organs"
+    ]
   },
   {
     "id": "91",
@@ -1726,7 +1996,10 @@
     "rationale": {
       "text": "Oral mucosa is lined by nonkeratinized stratified squamous epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Circulatory System"
+    ]
   },
   {
     "id": "92",
@@ -1745,7 +2018,10 @@
     "rationale": {
       "text": "Esophageal glands proper (glands of the esophagus) are submucosal mucous glands.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "93",
@@ -1764,7 +2040,10 @@
     "rationale": {
       "text": "Parietal cells are located in the gastric glands (fundic) and not in the surface epithelium itself.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "94",
@@ -1783,7 +2062,10 @@
     "rationale": {
       "text": "Fundic (oxyntic) glands contain parietal and chief cells in the body/fundus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "95",
@@ -1802,7 +2084,10 @@
     "rationale": {
       "text": "Pyloric glands are short, mucous-dominant glands in the antrum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "96",
@@ -1821,7 +2106,10 @@
     "rationale": {
       "text": "Villi are the finger-like epithelial projections of the small intestine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "97",
@@ -1840,7 +2128,10 @@
     "rationale": {
       "text": "The lamina propria of the villus contains a central lacteal and capillaries in loose connective tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "98",
@@ -1859,7 +2150,10 @@
     "rationale": {
       "text": "Brunner glands are submucosal tubuloalveolar mucous glands in the duodenum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "99",
@@ -1878,7 +2172,10 @@
     "rationale": {
       "text": "The jejunum shows abundant villi and crypts but lacks prominent submucosal glands.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "100",
@@ -1897,7 +2194,10 @@
     "rationale": {
       "text": "Peyer's patches are large lymphoid nodules in the ileal mucosa and submucosa.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "101",
@@ -1916,7 +2216,10 @@
     "rationale": {
       "text": "The colonic epithelium absorbs water and secretes mucus via numerous goblet cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "102",
@@ -1935,7 +2238,10 @@
     "rationale": {
       "text": "Goblet cells in the colon stain strongly with PAS due to neutral mucins.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "103",
@@ -1954,7 +2260,10 @@
     "rationale": {
       "text": "The rectal transition involves a shift from simple columnar to stratified squamous epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "104",
@@ -1973,7 +2282,10 @@
     "rationale": {
       "text": "Hepatocytes are arranged in plates to form hepatic lobules around central veins.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "105",
@@ -1992,7 +2304,10 @@
     "rationale": {
       "text": "The portal triad contains a portal venule, hepatic arteriole, and bile ductule in Glisson's capsule.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "106",
@@ -2011,7 +2326,10 @@
     "rationale": {
       "text": "Trichrome-stained connective-tissue rim outlining the portal triad is Glisson's capsule.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "107",
@@ -2030,7 +2348,10 @@
     "rationale": {
       "text": "Small tubular structures lined by cuboidal epithelium between hepatocytes are bile ductules.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "108",
@@ -2049,7 +2370,10 @@
     "rationale": {
       "text": "Fenestrated sinusoidal endothelium without a continuous basement membrane permits efficient plasma-hepatocyte exchange.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "109",
@@ -2068,7 +2392,10 @@
     "rationale": {
       "text": "Pancreatic acini are exocrine structures with basophilic basal cytoplasm and apical zymogen granules.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "110",
@@ -2087,7 +2414,10 @@
     "rationale": {
       "text": "Paneth cells in the small-intestine crypts display basophilic granules and robust rough endoplasmic reticulum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "111",
@@ -2106,7 +2436,10 @@
     "rationale": {
       "text": "The ventral tongue usually has a thin, nonkeratinized epithelium with visible papillae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "112",
@@ -2125,7 +2458,10 @@
     "rationale": {
       "text": "The gallbladder epithelium absorbs water and salts to concentrate stored bile.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "113",
@@ -2144,7 +2480,10 @@
     "rationale": {
       "text": "The islets of Langerhans are endocrine clusters amid the pancreatic exocrine tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "114",
@@ -2163,7 +2502,10 @@
     "rationale": {
       "text": "The reticulin network around sinusoids is formed by reticular cells and their fibers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "115",
@@ -2182,7 +2524,10 @@
     "rationale": {
       "text": "A villus contains a core of lamina propria and smooth-muscle strands covered by epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "116",
@@ -2201,7 +2546,10 @@
     "rationale": {
       "text": "Ciliated cells in the trachea propel mucus and trapped particles upward.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "117",
@@ -2220,7 +2568,10 @@
     "rationale": {
       "text": "Large bronchi are lined by pseudostratified ciliated columnar epithelium with cartilage plates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "118",
@@ -2239,7 +2590,10 @@
     "rationale": {
       "text": "Terminal bronchioles mark the end of the conducting portion and are lined by simple cuboidal epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "119",
@@ -2258,7 +2612,10 @@
     "rationale": {
       "text": "Respiratory bronchioles have cuboidal epithelium and alveoli opening into the lumen.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "120",
@@ -2277,7 +2634,10 @@
     "rationale": {
       "text": "Alveoli are thin-walled air sacs lined by simple squamous epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "121",
@@ -2296,7 +2656,10 @@
     "rationale": {
       "text": "Type I pneumocytes are thin, flattened cells that form the vast majority of the alveolar gas-exchange surface.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "122",
@@ -2315,7 +2678,10 @@
     "rationale": {
       "text": "Type II pneumocyte lamellar bodies produce and store pulmonary surfactant.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "123",
@@ -2334,7 +2700,10 @@
     "rationale": {
       "text": "Type II pneumocytes proliferate to regenerate the epithelium after injury.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "124",
@@ -2353,7 +2722,10 @@
     "rationale": {
       "text": "Pleural mesothelium consists of simple squamous mesothelial cells overlying connective tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Epithelial Tissue"
+    ]
   },
   {
     "id": "125",
@@ -2372,7 +2744,10 @@
     "rationale": {
       "text": "Elastic fibers in the lung interstitium prevent alveolar collapse during expiration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "126",
@@ -2391,7 +2766,10 @@
     "rationale": {
       "text": "Clara cells are nonciliated secretory cells in bronchioles that produce surfactant-like substances.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "127",
@@ -2410,7 +2788,10 @@
     "rationale": {
       "text": "Cartilage rings and double-layered epithelium are characteristic of the trachea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "128",
@@ -2429,7 +2810,10 @@
     "rationale": {
       "text": "Alveolar sacs consist of clusters of alveoli with a common opening.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "129",
@@ -2448,7 +2832,10 @@
     "rationale": {
       "text": "Alveoli and respiratory bronchioles together constitute the respiratory portion of the lung.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "130",
@@ -2467,7 +2854,10 @@
     "rationale": {
       "text": "The thin type I pneumocyte and underlying capillary endothelial cell form the blood-air barrier.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "131",
@@ -2486,7 +2876,10 @@
     "rationale": {
       "text": "Each renal corpuscle consists of a glomerulus and Bowman's capsule.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "132",
@@ -2505,7 +2898,10 @@
     "rationale": {
       "text": "The proximal convoluted tubule has a prominent brush border and highly infolded basal membrane.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "133",
@@ -2524,7 +2920,10 @@
     "rationale": {
       "text": "The thin descending limb of the loop of Henle is lined by simple squamous epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "134",
@@ -2543,7 +2942,10 @@
     "rationale": {
       "text": "The distal convoluted tubule has a relatively smooth luminal surface and fewer mitochondria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "135",
@@ -2562,7 +2964,10 @@
     "rationale": {
       "text": "The juxtaglomerular apparatus includes the macula densa and associated granular cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "136",
@@ -2581,7 +2986,10 @@
     "rationale": {
       "text": "Juxtaglomerular (granular) cells are modified smooth-muscle cells that secrete renin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "137",
@@ -2600,7 +3008,10 @@
     "rationale": {
       "text": "The glomerular basement membrane is produced jointly by endothelial cells, mesangial cells, and podocytes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "138",
@@ -2619,7 +3030,10 @@
     "rationale": {
       "text": "Podocyte foot processes and intervening slit diaphragms form the filtration slits.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "139",
@@ -2638,7 +3052,10 @@
     "rationale": {
       "text": "The urinary bladder's transitional epithelium is continuous with the ureteral epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "140",
@@ -2657,7 +3074,10 @@
     "rationale": {
       "text": "The ureter is lined by distensible transitional epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "141",
@@ -2676,7 +3096,10 @@
     "rationale": {
       "text": "The ureteric muscular coat produces peristaltic waves that propel urine toward the bladder.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "142",
@@ -2695,7 +3118,10 @@
     "rationale": {
       "text": "The detrusor muscle of the bladder consists of smooth muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "143",
@@ -2714,7 +3140,10 @@
     "rationale": {
       "text": "The juxtaglomerular apparatus lies at the vascular pole of the renal corpuscle, where juxtaglomerular cells release renin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "144",
@@ -2733,7 +3162,10 @@
     "rationale": {
       "text": "The proximal convoluted tubule has a prominent PAS-positive brush border and abundant cytoplasmic granules.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "145",
@@ -2752,7 +3184,10 @@
     "rationale": {
       "text": "Loss of podocyte foot-process integrity and slit-diaphragm structure underlies proteinuric glomerular disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "146",
@@ -2771,7 +3206,10 @@
     "rationale": {
       "text": "The pars distalis (anterior pituitary) contains cords and plates of endocrine cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "147",
@@ -2790,7 +3228,10 @@
     "rationale": {
       "text": "The anterior pituitary contains acidophils, basophils, and chromophobes as endocrine cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "148",
@@ -2809,7 +3250,10 @@
     "rationale": {
       "text": "The posterior pituitary stores and releases hormones synthesized in hypothalamic neurons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "149",
@@ -2828,7 +3272,10 @@
     "rationale": {
       "text": "Follicular epithelial cells produce and store thyroid hormone (T4/T3) in the colloid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "150",
@@ -2847,7 +3294,10 @@
     "rationale": {
       "text": "Parafollicular (C-) cells between follicles secrete calcitonin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "151",
@@ -2866,7 +3316,10 @@
     "rationale": {
       "text": "Adrenal medulla cells are chromaffin cells that secrete catecholamines.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "152",
@@ -2885,7 +3338,10 @@
     "rationale": {
       "text": "The zona fasciculata is a lipid-rich, foamy zone of the adrenal cortex that secretes glucocorticoids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "153",
@@ -2904,7 +3360,10 @@
     "rationale": {
       "text": "The zona glomerulosa is the outermost, thin zone of the cortex that secretes mineralocorticoids.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "154",
@@ -2923,7 +3382,10 @@
     "rationale": {
       "text": "The zona reticularis contains interconnected cords of cells that secrete androgens.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "155",
@@ -2942,7 +3404,10 @@
     "rationale": {
       "text": "Glucagon-producing cells in the pancreas are α-cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "156",
@@ -2961,7 +3426,10 @@
     "rationale": {
       "text": "β-cells are insulin-producing cells in the pancreatic islets.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "157",
@@ -2980,7 +3448,10 @@
     "rationale": {
       "text": "PP-(pancreatic polypeptide) cells are usually located at the periphery of the islets.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "158",
@@ -2999,7 +3470,10 @@
     "rationale": {
       "text": "The PAS-positive peri-follicular basement-membrane-like layer in the thyroid is rich in glycosaminoglycans.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "159",
@@ -3018,7 +3492,10 @@
     "rationale": {
       "text": "Neurosecretory granules in chromaffin cells store catecholamines and are visible with silver-based stains.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "160",
@@ -3037,7 +3514,10 @@
     "rationale": {
       "text": "The parathyroid glands are small, compact, pale-staining glands posterior to the thyroid follicles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "161",
@@ -3056,7 +3536,10 @@
     "rationale": {
       "text": "Seminiferous tubules harbor the germinal epithelium where spermatogenesis occurs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "162",
@@ -3075,7 +3558,10 @@
     "rationale": {
       "text": "The seminiferous epithelium is a stratified germinal epithelium containing germ cells and Sertoli cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "163",
@@ -3094,7 +3580,10 @@
     "rationale": {
       "text": "Sertoli cells are large, pale cells with irregular nuclei located near the basement membrane.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "164",
@@ -3113,7 +3602,10 @@
     "rationale": {
       "text": "Interstitial (Leydig) cells are polygonal endocrine cells that secrete testosterone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "165",
@@ -3132,7 +3624,10 @@
     "rationale": {
       "text": "Sertoli cells span the tubule from basement membrane to lumen and support germ-cell development.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "166",
@@ -3151,7 +3646,10 @@
     "rationale": {
       "text": "Stereocilia of the epididymis are elongated microvilli that increase surface area for absorption.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "167",
@@ -3170,7 +3668,10 @@
     "rationale": {
       "text": "The thick muscular wall of the vas deferens propels sperm during ejaculation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "168",
@@ -3189,7 +3690,10 @@
     "rationale": {
       "text": "The prostate is a mixed exocrine gland with mucous-secreting acini and stromal smooth muscle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "169",
@@ -3208,7 +3712,10 @@
     "rationale": {
       "text": "Penile sinusoids fill with blood to produce erection and compress draining veins.",
       "images": []
-    }
+    },
+    "tags": [
+      "Male Reproductive System"
+    ]
   },
   {
     "id": "170",
@@ -3227,7 +3734,10 @@
     "rationale": {
       "text": "The ovarian surface epithelium resembles mesothelium and is often termed 'mesothelial-like.'",
       "images": []
-    }
+    },
+    "tags": [
+      "Female Reproductive System"
+    ]
   },
   {
     "id": "171",
@@ -3246,7 +3756,10 @@
     "rationale": {
       "text": "A primordial follicle consists of a small oocyte surrounded by a single layer of flat follicular cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Female Reproductive System"
+    ]
   },
   {
     "id": "172",
@@ -3265,7 +3778,10 @@
     "rationale": {
       "text": "A mature (Graafian) follicle has a large antrum and multiple layers of granulosa and theca cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "Female Reproductive System"
+    ]
   },
   {
     "id": "173",
@@ -3284,7 +3800,10 @@
     "rationale": {
       "text": "The corpus luteum is a solid, luteinized structure derived from the ruptured follicle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Female Reproductive System"
+    ]
   },
   {
     "id": "174",
@@ -3303,7 +3822,10 @@
     "rationale": {
       "text": "The squamocolumnar junction (transformation zone) is where cervical columnar epithelium meets squamous epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Female Reproductive System"
+    ]
   },
   {
     "id": "175",
@@ -3322,7 +3844,10 @@
     "rationale": {
       "text": "The main pancreatic duct is lined by simple columnar epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "176",
@@ -3341,7 +3866,10 @@
     "rationale": {
       "text": "The epidermis of thick skin includes a distinct stratum granulosum and corneum.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "177",
@@ -3360,7 +3888,10 @@
     "rationale": {
       "text": "The dermis is rich in collagen type I fibers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "178",
@@ -3379,7 +3910,10 @@
     "rationale": {
       "text": "Elastin-specific stains reveal the network of elastic fibers in the dermis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "179",
@@ -3398,7 +3932,10 @@
     "rationale": {
       "text": "The dermal papilla is a mesenchymal core that provides vascular and inductive signals to the hair follicle.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "180",
@@ -3417,7 +3954,10 @@
     "rationale": {
       "text": "The nail plate is formed by a thick, highly keratinized epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "181",
@@ -3436,7 +3976,10 @@
     "rationale": {
       "text": "Corneal stroma is composed of collagen type I arranged in regular lamellae with little ground substance.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "182",
@@ -3455,7 +3998,10 @@
     "rationale": {
       "text": "Photoreceptor cells (rods and cones) are the primary light-sensitive neurons of the retina.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "183",
@@ -3474,7 +4020,10 @@
     "rationale": {
       "text": "The organ of Corti in the cochlea contains hair cells and supporting cells for auditory transduction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "184",
@@ -3493,7 +4042,10 @@
     "rationale": {
       "text": "The palpebral conjunctiva is a mucous epithelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "185",
@@ -3512,7 +4064,10 @@
     "rationale": {
       "text": "The external auditory meatus is lined by stratified squamous epithelium with associated glands and hair follicles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Special Senses"
+    ]
   },
   {
     "id": "186",
@@ -3531,7 +4086,10 @@
     "rationale": {
       "text": "The Z line is the lateral boundary of each sarcomere and anchors thin filaments.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle Tissue"
+    ]
   },
   {
     "id": "187",
@@ -3550,7 +4108,10 @@
     "rationale": {
       "text": "Myelin in peripheral nerves is formed by Schwann cells whose processes spiral around axons.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nerve Tissue"
+    ]
   },
   {
     "id": "188",
@@ -3569,7 +4130,10 @@
     "rationale": {
       "text": "The glomerular basement membrane appears as a thick PAS-positive structure underlying the endothelium.",
       "images": []
-    }
+    },
+    "tags": [
+      "Urinary System"
+    ]
   },
   {
     "id": "189",
@@ -3588,7 +4152,10 @@
     "rationale": {
       "text": "The trichrome-stained thin line at the base of the intestinal epithelium is the basement membrane.",
       "images": []
-    }
+    },
+    "tags": [
+      "Digestive System"
+    ]
   },
   {
     "id": "190",
@@ -3607,7 +4174,10 @@
     "rationale": {
       "text": "Thyroid follicular epithelium secretes and stores thyroglobulin-rich colloid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "191",
@@ -3626,7 +4196,10 @@
     "rationale": {
       "text": "Adrenal medullary cells are chromaffin cells that secrete catecholamines.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "192",
@@ -3645,7 +4218,10 @@
     "rationale": {
       "text": "Fat stains highlight lipid-filled droplets in hepatocytes.",
       "images": []
-    }
+    },
+    "tags": [
+      "Glands Associated with Digestion"
+    ]
   },
   {
     "id": "193",
@@ -3664,7 +4240,10 @@
     "rationale": {
       "text": "Rete pegs are best developed in the thick, glabrous skin of the palm and sole.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "194",
@@ -3683,7 +4262,10 @@
     "rationale": {
       "text": "Emphysema destroys alveolar walls and their capillary networks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory System"
+    ]
   },
   {
     "id": "195",
@@ -3702,7 +4284,10 @@
     "rationale": {
       "text": "Cutis laxa is characterized by a deficiency of elastic fibers in the dermis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "196",
@@ -3721,7 +4306,10 @@
     "rationale": {
       "text": "In Hashimoto's thyroiditis, lymphocytic infiltration collapses follicles and reduces colloid-filled follicles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrine System"
+    ]
   },
   {
     "id": "197",
@@ -3740,7 +4328,10 @@
     "rationale": {
       "text": "The hair follicle contains the hair shaft and is associated with sebaceous glands.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "198",
@@ -3759,7 +4350,10 @@
     "rationale": {
       "text": "Eccrine sweat glands are coiled glands with ducts opening directly onto the skin surface.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "199",
@@ -3778,7 +4372,10 @@
     "rationale": {
       "text": "Apocrine sweat glands secrete by decapitation and open into hair follicles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   },
   {
     "id": "200",
@@ -3797,6 +4394,9 @@
     "rationale": {
       "text": "Palmar and plantar skin have a thick stratum lucidum and prominent granular layer.",
       "images": []
-    }
+    },
+    "tags": [
+      "Skin"
+    ]
   }
 ]

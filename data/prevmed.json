@@ -15,7 +15,10 @@
     "rationale": {
       "text": "Steps for prevention of monkeypox include: ·Avoiding direct skin-to-skin contact, any sexual activity, or direct contact with contaminated materials of probable or confirmed case of monkeypox; Washing with water and soap or alcohol; Maintain respiratory etiquette by using face masks. \n\n**Reference:** Department of Health. (2022, May 24). Interim technical guidelines for the implementation of monkeypox surveillance, Screening, management, and infection control. https://drive.google.com/drive/folders/1F8gG XSwNeKTYwHGFg5BCbcBItM-t1u5K",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-002",
@@ -33,7 +36,10 @@
     "rationale": {
       "text": "A probable case of monkeypox is one who had exposure to a probable or confirmed case of monkeypox in the 21 days before symptom onset. \n\n**Reference:** Department of Health. (2022, May 24). Interim technical guidelines for the implementation of monkeypox surveillance, Screening, management, and infection control. https://drive.google.com/drive/folders/1F8gG XSwNeKTYwHGFg5BCbcBltM-t1u5K",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-003",
@@ -51,7 +57,10 @@
     "rationale": {
       "text": "Alert Level 1 – areas wherein case transmission is low and decreasing, total bed utilization rate, and intensive care unit utilization rate is low. Alert Level 2 – areas wherein case transmission is low and decreasing, healthcare utilization is low, or case counts are low but increasing, or case counts are low and decreasing but total bed utilization rate and intensive care unit utilization rate is increasing. Alert Level 3 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at increasing utilization. Alert Level 4 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at high utilization. Alert Level 5 – areas wherein case counts are alarming, with total bed utilization rate and intensive care unit utilization rate at critical utilization. \n\n**Reference:** Inter-Agency Task Force for the Management of Emerging Infectious Diseases. (2021, November 18). Guidelines on the nationwide implementation of alert level system for covid-19 response. https://www.officialgazette.gov.ph/downloads/2021/11nov/20211118-IATF-GUIDELINES-RRD.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-004",
@@ -69,7 +78,10 @@
     "rationale": {
       "text": "SARS-CoV-2 variants of concern: Alpha: United Kingdom; Beta: South Africa; Gamma: Brazil; Delta: India; Omicron: South Africa and Botswana. \n\n**Reference:** World Health Organization. (2023, February 23). Tracking SARS-CoV-2 variants. https://www.who.int/activities/tracking-SARS-CoV-2-variants",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-005",
@@ -87,7 +99,10 @@
     "rationale": {
       "text": "An experimental study is where subjects are randomized into two intervention groups. In this case, treatment vs placebo. The subjects are then monitored to identify therapeutic outcomes. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-006",
@@ -105,7 +120,10 @@
     "rationale": {
       "text": "A cohort study determines whether an exposure or a risk factor is associated with the later development of a disease. It can either be prospective or retrospective. \n\n**References:** ·CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023. · Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-007",
@@ -123,7 +141,10 @@
     "rationale": {
       "text": "A case-control study retrospectively compares a group of subjects with a disease to a group without disease to determine if odds of prior exposure or risk factor differ by disease state. \n\n**References:** ·CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023. · Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-008",
@@ -141,7 +162,10 @@
     "rationale": {
       "text": "Airborne transmission is described as when an infectious agent is carried by droplet nuclei suspended in air. Droplet spread refers to spray with large, short-range aerosols. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-009",
@@ -159,7 +183,10 @@
     "rationale": {
       "text": "A cross-sectional study provides information on disease prevalence rather than incidence. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-010",
@@ -177,7 +204,10 @@
     "rationale": {
       "text": "Risk ratio is the recommended measure of association for a retrospective cohort study. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-011",
@@ -195,7 +225,10 @@
     "rationale": {
       "text": "Case fatality rate refers to the proportion of clinically ill persons who die. Mortality rate is the number of deaths within a population over a defined period. \n\n**References:** ·Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education. · Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 19). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-012",
@@ -213,7 +246,10 @@
     "rationale": {
       "text": "The Infant mortality rate is used as an overall index of the health status of a nation. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S. C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 27). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-013",
@@ -231,7 +267,10 @@
     "rationale": {
       "text": "Examples of primary prevention: ·Healthy lifestyle change; ·Immunization; ·Health education and promotion. Examples of secondary prevention: ·Screening (self-breast examination, pap smear). Examples of tertiary prevention: ·Cardiac and stroke rehabilitation programs. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 176). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-014",
@@ -249,7 +288,10 @@
     "rationale": {
       "text": "Examples of primary prevention: ·Healthy lifestyle change; ·Immunization; ·Health education and promotion. Examples of secondary prevention: ·Screening (self-breast examination, pap smear). Examples of tertiary prevention: ·Cardiac and stroke rehabilitation programs. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 176). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-015",
@@ -267,7 +309,10 @@
     "rationale": {
       "text": "Primary prevention – keeps disease process from becoming established by eliminating causes of disease or increasing resistance to disease. Secondary prevention – interrupts disease process before symptoms appear. Tertiary prevention – refers to limiting the physical and social consequences of a symptomatic disease. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 175). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-016",
@@ -285,7 +330,10 @@
     "rationale": {
       "text": "Gross domestic product refers to the value of the finished domestic goods and services produced within a country's border. Gross national product refers to the value of all finished goods and services owned by a country's citizens, whether or not those goods are produced in that country. (Yes, unfortunately, this sort of question came up in the most recent October 2022 PLE). \n\n**Reference:** Seth, S. (2015, March 4). GDP vs. GNP: What's the difference? Investopedia. https://www.investopedia.com/ask/answers/030415/what-functional-difference-between-gdp-and-gnp.asp",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-017",
@@ -303,7 +351,10 @@
     "rationale": {
       "text": "Among the measures of central tendency, the mean is the most affected by extreme values (outliers). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-018",
@@ -321,7 +372,10 @@
     "rationale": {
       "text": "Mode is the most commonly observed value in a data set. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 111). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-019",
@@ -339,7 +393,10 @@
     "rationale": {
       "text": "The mode of transmission of typhoid fever is through contaminated food and water. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 240). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-020",
@@ -357,7 +414,10 @@
     "rationale": {
       "text": "Airborne precautions are recommended for: ·TB; ·Varicella; ·Measles. Droplet precautions are recommended for: ·Meningococcus; ·Pertussis; ·Diphtheria; ·Rubella; ·Mumps; ·Influenza. Contact precautions are recommended for: ·Scabies; ·Impetigo; ·Enteric infections. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 240). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-021",
@@ -375,7 +435,10 @@
     "rationale": {
       "text": "Alert Level 1 – areas wherein case transmission is low and decreasing, total bed utilization rate, and intensive care unit utilization rate is low. Alert Level 2 – areas wherein case transmission is low and decreasing, healthcare utilization is low, or case counts are low but increasing, or case counts are low and decreasing but total bed utilization rate and intensive care unit utilization rate is increasing. Alert Level 3 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at increasing utilization. Alert Level 4 – areas wherein case counts are high and/or increasing, with total bed utilization rate and intensive care unit utilization rate at high utilization. Alert Level 5 – areas wherein case counts are alarming, with total bed utilization rate and intensive care unit utilization rate at critical utilization. \n\n**Reference:** Inter-Agency Task Force for the Management of Emerging Infectious Diseases. (2021, November 18). Guidelines on the nationwide implementation of alert level system for covid-19 response. https://www.officialgazette.gov.ph/downloads/2021/11nov/20211118-IATF-GUIDELINES-RRD.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-022",
@@ -393,7 +456,10 @@
     "rationale": {
       "text": "Malaria: Anopheles. Dengue: Aedes aegypti. African sleeping sickness: tsetse fly. \n\n**Reference:** CDC-Malaria. https://www.cdc.gov/malaria/about/biology/index.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-023",
@@ -411,7 +477,10 @@
     "rationale": {
       "text": "Quarantine is the separation and restriction of the mobility of individuals who were exposed to a contagious disease to observe whether they would become sick. Isolation is the separation of sick people with a contagious disease from those who do not have the disease. \n\n**Reference:** CDC-Quarantine and isolation. https://www.cdc.gov/quarantine/index.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-024",
@@ -429,7 +498,10 @@
     "rationale": {
       "text": "Endemic refers to the constant presence of a disease in a specific geographic area or population. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-025",
@@ -447,7 +519,10 @@
     "rationale": {
       "text": "Tsetse fly: African sleeping sickness. Kissing bug: Chagas disease. Anopheles: Malaria. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 153, p. 155). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-026",
@@ -465,7 +540,10 @@
     "rationale": {
       "text": "Fogging is only during outbreaks. Enhanced 4S strategy against dengue from the DOH: ·Search and destroy; ·Seek early consultation; ·Self-protection measures; ·Say yes to fogging only during outbreaks. \n\n**Reference:** Department of Health-Dengue. https://doh.gov.ph/Health-Advisory/Dengue. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-027",
@@ -483,7 +561,10 @@
     "rationale": {
       "text": "Persons with disability are included as indirect contributors. The other options are considered direct contributors. Other indirect contributors include: ·Senior citizens; ·Indigents; ·Beneficiaries of 4Ps; ·Sangguniang Kabataan officials; ·Filipinos >21 years old with no capacity to pay premiums. \n\n**Reference:** PhilHealth. https://www.philhealth.gov.ph/members/. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-028",
@@ -501,7 +582,10 @@
     "rationale": {
       "text": "MDR-TB – resistant to isoniazid and rifampin. RR-TB – resistant to rifampin. XDR-TB – resistant to 2nd line TB medicines. \n\n**Reference:** DOH National Tuberculosis Control Program Manual of Procedures. 2020. https://doh.gov.ph/sites/default/files/publications/NTP_MOP_6th_Edition.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-029",
@@ -519,7 +603,10 @@
     "rationale": {
       "text": "Nibbling of uncovered skin with or without bruising or hematoma is classified as Category II. Category of rabies exposure: **Category I** – ·Feeding/touching an animal; ·Licking of intact skin; ·Exposure to a patient with signs and symptoms of rabies by sharing of eating or drinking utensils; ·Casual contact and routine delivery of health care to a patient with signs and symptoms of rabies. **Category II** – ·Nibbling of uncovered skin with or without bruising/hematoma; ·Minor/superficial scratches/abrasions without bleeding, including those induced to bleed; ·All Category II exposures on the head and neck area are considered Category III and shall be managed as such. **Category III** – ·Transdermal bites (puncture wounds, lacerations, avulsions) or scratches/abrasions with spontaneous bleeding; ·Licks on broken skin or mucous membrane; ·Exposure to a rabies patient through bites, contamination of mucous membranes (eyes, oral/nasal mucosa, genital/anal mucous membrane) or open skin lesions with body fluids through splattering and mouth-to-mouth resuscitation; ·Unprotected handling of infected carcass; ·Ingestion of raw infected meat; ·Exposure to bats; ·All Category II exposures on head and neck area. \n\n**Reference:** National Rabies Prevention and Control Program, Manual of Procedures. 2019. https://doh.gov.ph/sites/default/files/publications/Rabies%20Manual_MOP_2019%20nov28.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-030",
@@ -537,7 +624,10 @@
     "rationale": {
       "text": "The management for category II rabies exposure is starting vaccine immediately but no rabies immunoglobulin (RIG) is needed. \n\n**Reference:** National Rabies Prevention and Control Program, Manual of Procedures. 2019. https://doh.gov.ph/sites/default/files/publications/Rabies%20Manual_MOP_2019%20nov28.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-031",
@@ -555,7 +645,10 @@
     "rationale": {
       "text": "Pathogenicity refers to the proportion of infected individuals who eventually develop clinical disease. Virulence refers to the proportion of clinically apparent cases that are severe or fatal. Infectivity refers to the proportion of exposed individuals who become infected. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology, Section 9: Natural History and Spectrum of Disease. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section9.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-032",
@@ -573,7 +666,10 @@
     "rationale": {
       "text": "Pathogenicity refers to the proportion of infected individuals who eventually develop clinical disease. Virulence refers to the proportion of clinically apparent cases that are severe or fatal. Infectivity refers to the proportion of exposed individuals who become infected. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology, Section 9: Natural History and Spectrum of Disease. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section9.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-033",
@@ -591,7 +687,10 @@
     "rationale": {
       "text": "Type II error – Aka false negative error; Not rejecting the null hypothesis when it is false; β – probability of committing a type II error. Type I error – Aka false positive error; Rejecting the null hypothesis when it is true; α – probability of committing a type I error. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 265). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-034",
@@ -609,7 +708,10 @@
     "rationale": {
       "text": "Statistical power is directly proportional to sample size, such that as the sample size increases, the power also increases. Other factors that may increase the statistical power include: ·Increased expected effect size; ·Increased precision of measurement; ·Increased statistical significance level (α). Recall: ·β – probability of committing a type II error; ·(1-β) – statistical power. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 265). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-035",
@@ -627,7 +729,10 @@
     "rationale": {
       "text": "NONparametric tests are used for ordinal and nominal data, not parametric. Parametric tests are used to analyze continuous variables (ratio and interval data). Parametric tests can be used when the following assumptions are met: Normally distributed sample; ·Sample is randomly selected; Homogenous variances if 2-or more groups are sampled. If these assumptions are not met, non-parametric test can be used. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 117, p. 135, p. 138). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-036",
@@ -645,7 +750,10 @@
     "rationale": {
       "text": "This illustrates selection bias. In this case, controls chosen from the hospital is not representative of the prevalence of smoking in the community where COPD cases arise. The association of the exposure to the disease is weakened by the selection of hospital controls because smoking causes many diseases resulting in hospitalization, thereby leading to selection bias. Other examples of selection bias: ·An example is convenience sampling wherein patients are assigned based on ease of contact (as in the case question); ·Attrition bias: participants lost to follow up; ·Berkson bias: cases and/or controls selected from hospitals. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-037",
@@ -663,7 +771,10 @@
     "rationale": {
       "text": "Paired t-test is appropriate to use in studies that investigate if there is a change in the value of some continuous variable. Paired t-test – ·Typically occurs in a \"before-and-after treatment\" type of study; ·Considers the variation in only one group of people. Student's t-test – ·Considers the variation in two groups of people. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 129). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-038",
@@ -681,7 +792,10 @@
     "rationale": {
       "text": "Attack rate = (no. of persons with the disease / no. of persons exposed to the disease) × 100 = (300/1000) × 100 = 30%. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 188). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-040",
@@ -699,7 +813,10 @@
     "rationale": {
       "text": "Cross-sectional studies investigate the frequency of disease and risk-related factors assessed at a single point in time. The measure of disease frequency of cross-sectional studies is disease prevalence. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 256). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-041",
@@ -717,7 +834,10 @@
     "rationale": {
       "text": "If the p-value  level of significance (α), do not reject the null hypothesis. In this question, therefore you must NOT reject the null hypothesis. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 121). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-042",
@@ -735,7 +855,10 @@
     "rationale": {
       "text": "Precision refers to the consistency and reproducibility of a test. Accuracy refers to the closeness of test results to the true values. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-043",
@@ -753,7 +876,10 @@
     "rationale": {
       "text": "Secondary attack rate is the difference between the transmission of disease in the household and other closed population versus community transmission. Attack rate is the risk of acquiring the disease during a specified period and is calculated by getting the total number of new cases of the disease divided by the total population. Point prevalence is the number of new and pre-existing cases at a certain point in time. Incidence rate is the number of new cases of the disease during a specified time interval. The denominator is the sum of the person-years of observation. \n\n**Reference:** CDC-Lesson 3: Measures of Risk. https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section2.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-044",
@@ -771,7 +897,10 @@
     "rationale": {
       "text": "This is an example of cohort study since it wants to investigate if the exposure (smoking) is associated with the development of the disease (lung cancer). The measure of disease frequency of cohort studies is relative risk. For case-control studies: odds ratio. For cross-sectional studies: disease prevalence. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 256). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-045",
@@ -789,7 +918,10 @@
     "rationale": {
       "text": "Phase of Clinical Trials: **Phase 1** – Involves a small group of people (20-80); Purpose: study the safety and identify side effects. **Phase 2** – Involves a larger group of people (100-300); Purpose: Determine the effectiveness and further study safety. **Phase 3** – Involves large groups of people (1,000-3,000); Purpose: To confirm the effectiveness, monitor side effects, compare with standard treatment, and collect data for the safe use of the drug. **Phase 4** – Safety is tracked in the general population after FDA approval; Purpose: Collect data on the treatment benefits and optimal use of the drug. \n\n**Reference:** U.S. Department of Health and Human Services, National Institutes of Health. (2022, October 3). The basics. Retrieved February 27, 2023, from https://www.nih.gov/health-information/nih-clinical-research-trials-you/basics",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-046",
@@ -807,7 +939,10 @@
     "rationale": {
       "text": "Phase of Clinical Trials: **Phase 1** – Involves a small group of people (20-80); Purpose: study the safety and identify side effects. **Phase 2** – Involves a larger group of people (100-300); Purpose: Determine the effectiveness and further study safety. **Phase 3** – Involves large groups of people (1,000-3,000); Purpose: To confirm the effectiveness, monitor side effects, compare with standard treatment, and collect data for the safe use of the drug. **Phase 4** – Safety is tracked in the general population after FDA approval; Purpose: Collect data on the treatment benefits and optimal use of the drug. \n\n**Reference:** U.S. Department of Health and Human Services, National Institutes of Health. (2022, October 3). The basics. Retrieved February 27, 2023, from https://www.nih.gov/health-information/nih-clinical-research-trials-you/basics",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-047",
@@ -825,7 +960,10 @@
     "rationale": {
       "text": "Measurement bias occurs when the data is gathered in a non-systematic way. Examples of measurement bias include: ·Using faulty measuring equipment; ·Hawthorne effect: subjects adjust their behavior upon being aware that they are being observed. Procedure bias occurs when the study participants in the treatment and non-treatment group are not treated the same. Observer-expectancy bias is influenced by the investigator's belief in the efficacy of the treatment which results in the alteration of the outcome (also called Pygmalion effect). Selection bias occurs when the sampling or intervention allocation is not random resulting to a nonrepresentative sample. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-048",
@@ -843,7 +981,10 @@
     "rationale": {
       "text": "Procedure bias occurs when the study participants in the treatment and non-treatment group are not treated the same. Observer-expectancy bias is influenced by the investigator's belief in the efficacy of the treatment which results in the alteration of the outcome (also called Pygmalion effect). Selection bias occurs when the sampling or intervention allocation is not random resulting to a nonrepresentative sample. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-049",
@@ -861,7 +1002,10 @@
     "rationale": {
       "text": "Perinatal mortality rate is the number of infant deaths under age 7 days and fetal deaths at 28 weeks gestation or more per 1,000 live births and fetal deaths at 28 weeks of gestation or more. Infant mortality rate is the number of deaths to infants <1 year of age per 1,000 live births. Neonatal mortality rate is the number of deaths of infants <28 days old per 1,000 live births. Maternal mortality rate is the number of pregnancy-related deaths per 100,000 live births. \n\n**References:** Centers for Disease Control and Prevention. (2015, November 6). Trends in Fetal and Perinatal Mortality in the United States, 2006-2012. Retrieved February 27, 2023, from https://www.cdc.gov/nchs/products/databriefs/db169.htm; Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., pp. 28-29). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-050",
@@ -879,7 +1023,10 @@
     "rationale": {
       "text": "Note that there is a difference between random sampling and randomization. Random sampling refers to the random selection of a small group of subjects from a larger group of target study participants. Randomization is the random allocation of study participants into separate groups (i.e., treatment vs. control group) such that neither the investigator nor participant chooses the group in which the participant is assigned. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 159). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-051",
@@ -897,7 +1044,10 @@
     "rationale": {
       "text": "The most appropriate statistical test to use is analysis of variance (ANOVA). This test is used to analyze if there is a difference between the means of 3 or more groups. T-test is used to analyze if there is a difference between the means of only 2 groups. Fisher's exact test analyzes the differences between 2 percentages or proportions of categorical/nominal variables. Chi-square test analyzes the differences between 2 or more percentages or proportions of categorical outcomes (not mean values). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 266). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-052",
@@ -915,7 +1065,10 @@
     "rationale": {
       "text": "Isolation – Those who are ill with a contagious sickness are isolated from healthy individuals. Quarantine – Those who have been exposed to an infectious disease are segregated and given movement restrictions to see if they become ill. \n\n**Reference:** Centers for Disease Control and Prevention. (2017, September 29). Quarantine and isolation. Centers for Disease Control and Prevention. Retrieved February 27, 2023, from https://www.cdc.gov/quarantine/index.html",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-053",
@@ -933,7 +1086,10 @@
     "rationale": {
       "text": "Randomization refers to the unbiased allocation of participants into treatment and control groups. Other statements are false. Note that there is a difference between random sampling and randomization. Random sampling refers to the random selection of a small group of subjects from a larger group of target study participants. It ensures the external validity of a study because its goal is to get a representative sample of the target population. Randomization is the random allocation of study participants into separate groups (i.e., treatment vs. control group) such that neither the investigator nor participant chooses the group in which the participant is assigned. It ensures the internal validity of a study because it decreases the chances of bias. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 159). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-054",
@@ -951,7 +1107,10 @@
     "rationale": {
       "text": "The most appropriate statistical test to use is Chi-square test. This test analyzes the differences between 2 or more percentages or proportions of categorical outcomes (not mean values). In this example, we will obtain 3 proportions from the 3 age groups. Fisher's exact test analyzes the differences between 2 percentages or proportions of categorical/nominal variables. Analysis of variance (ANOVA) is used to analyze if there is a difference between the means of 3 or more groups (not proportions). T-test is used to analyze if there is a difference between the means of only 2 groups. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-055",
@@ -969,7 +1128,10 @@
     "rationale": {
       "text": "The infant mortality rate is often used as an overall index of the health status of a nation because the health of infants is unusually sensitive to maternal health practices (especially maternal nutrition and exposure to tobacco, alcohol, and drugs), environmental factors, and the quality of health services. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 27). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-056",
@@ -987,7 +1149,10 @@
     "rationale": {
       "text": "Shigella infection can spread through contaminated water. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 45). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-057",
@@ -1005,7 +1170,10 @@
     "rationale": {
       "text": "The underlying cause of death is described as the disease or injury which initiated the train of morbid events leading to death. The most important entry in the medical certificate is the underlying cause of death since mortality statistics is based on this underlying cause. The immediate cause of death is the most recent condition that directly leads to death and is written on the top line of the certificate. The antecedent cause of death are the other intervening cause (or causes) of death occurring between the underlying and immediate causes. \n\n**Reference:** Medical Certification of Death, Handbook for Filipino Physicians. (2015). Knowledge Management and Information Technology Service, Department of Health. https://doh.gov.ph/sites/default/files/publications/MEDICAL_CERTIFICATION_OF_DEATH_O.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-058",
@@ -1023,7 +1191,10 @@
     "rationale": {
       "text": "All are included in the millennium development goals. Goal 1. Eradicate extreme poverty and hunger. Goal 2. Achieve universal primary education. Goal 3. Promote gender equality and empower women. Goal 4. Reduce child mortality. Goal 5. Improve maternal health. Goal 6. Combat HIV/AIDS, malaria, and other diseases. Goal 7. Ensure environmental sustainability. Goal 8. Develop a global partnership development. \n\n**Reference:** The Millenium Development Goals Report. (2015). https://www.un.org/millenniumgoals/2015_MDG_Report/pdf/MDG%202015%20rev%20(July%201).pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-059",
@@ -1041,7 +1212,10 @@
     "rationale": {
       "text": "Independent variable – variable that researchers manipulate to create effect and influence the dependent variable. Dependent variable – is what happens as a result of the independent variable. Confounding variable – or confounder, affects the relationship between the independent and dependent variables. \n\n**Reference:** U.S. Department of Health and Human Services, National Institutes of Health, Finding and Using Health Statistics. Retrieved February 25, 2023, from https://www.nlm.nih.gov/nichsr/stats_tutorial/section2/mod4_variables.html",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-060",
@@ -1059,7 +1233,10 @@
     "rationale": {
       "text": "The prevalence will decrease when a disease has a faster recovery time. Other situations that may decrease disease prevalence include: ·Increased mortality; ·Extensive vaccine administration; ·Decreased risk factors; ·New effective treatment started; ·Decreased contact between infected and noninfected patients with airborne infectious disease. The following situations may increase disease prevalence: ·Increased survival time; ·Increased diagnostic sensitivity. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-061",
@@ -1077,7 +1254,10 @@
     "rationale": {
       "text": "The following situations may increase disease prevalence: ·Increased survival time; ·Increased diagnostic sensitivity. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-062",
@@ -1095,7 +1275,10 @@
     "rationale": {
       "text": "The data set is precise because there is small variability among the values, however, it is not accurate because the values are far from the true value. Difference between precision and accuracy – Precision (reliability): Defines the consistency and reproducibility of a test; Random variation is absent. Accuracy (validity): How close the test results are to the true value; Systematic error or bias is absent. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-063",
@@ -1113,7 +1296,10 @@
     "rationale": {
       "text": "Crude birth rate refers to the number of live births divided by the midperiod population. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 27). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-064",
@@ -1131,7 +1317,10 @@
     "rationale": {
       "text": "Recall bias occurs when, for example, people with a certain disease are more likely to recall previous risk factors than those who have never had the disease. \n\n**Reference:** Katz, D.L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 56). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-065",
@@ -1149,7 +1338,10 @@
     "rationale": {
       "text": "Increasing the sensitivity of a diagnostic test also increases the incidence of the disease as you can capture more cases. In contrast, situations that may decrease the incidence include: ·Extensive vaccine administration; ·Decreased risk factors; ·Decreased contact between infected and noninfected individuals with an airborne infectious disease. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-066",
@@ -1167,7 +1359,10 @@
     "rationale": {
       "text": "The Department of Health and the Bureau of Food and Drugs recommends the mandatory food fortification of the following food substances: ·Rice with Iron; ·Wheat flour with vitamin A and Iron; ·Refined sugar with vitamin A; ·Cooking oil with vitamin A; ·Other staple foods with nutrients as required by the Governing Board of the National Nutrition Council (NCC). \n\n**Reference:** World Health Organization, Policy-Philippine Food Fortification Act of 2000. (2000). https://extranet.who.int/nutrition/gina/en/node/17865",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-067",
@@ -1185,7 +1380,10 @@
     "rationale": {
       "text": "Screening for diseases is under the secondary level of prevention. Levels of Prevention: 1. Primary Prevention – ·Intervening before health effects occur; ·Examples: vaccinations, altering risky behaviors (poor eating habits, tobacco use), and banning substances known to be associated with a disease or health condition. 2. Secondary prevention – ·Screening to identify diseases in the earliest stages, before the onset of signs and symptoms; ·Examples: mammography and regular blood pressure testing. 3. Tertiary Prevention – ·Managing disease post-diagnosis to slow or stop disease progression; ·Examples: Chemotherapy, rehabilitation, and screening for complications. \n\n**Reference:** Picture of America Prevention-Centers for Disease Control and Prevention. (n.d.). Retrieved February 27, 2023, from https://www.cdc.gov/pictureofamerica/pdfs/picture_of_america_prevention.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-068",
@@ -1203,7 +1401,10 @@
     "rationale": {
       "text": "Capreomycin can be an alternative drug for PTB but is of limited use because of its adverse effects, ototoxicity, and renal dysfunction. \n\n**Reference:** Trevor, A. J., Katzung, B. G., & Kruidering-Hall, M. (2018). Antimycobacterial drugs. In Katzung & Trevor's Pharmacology Examination and Board Review (12th ed., p. 391). New York, NY: McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-069",
@@ -1221,7 +1422,10 @@
     "rationale": {
       "text": "A systematic error will decrease more of the accuracy of a test, not the precision. The following factors will decrease the precision of a test: ·Decreased statistical power; ·Increased standard deviation (more variability); ·Random error. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 261). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-070",
@@ -1239,7 +1443,10 @@
     "rationale": {
       "text": "Type I error – Aka false positive error; Rejecting the null hypothesis when it is true; α – the probability of committing a type I error. Type II error – Aka false negative error; Not rejecting the null hypothesis when it is false; β – the probability of committing a type II error. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 265). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-071",
@@ -1257,7 +1464,10 @@
     "rationale": {
       "text": "Rifampin induces the formation of P450 leading to decreased efficacy of many drugs. Rifampin strongly induces liver drug-metabolizing enzymes and enhances the elimination rate of many drugs, including anticonvulsants, contraceptive steroids, cyclosporine, ketoconazole, methadone, terbinafine, and warfarin. \n\n**Reference:** Trevor, A. J., Katzung, B. G., & Kruidering-Hall, M. (2018). Antimycobacterial drugs. In Katzung & Trevor's Pharmacology Examination and Board Review (12th ed., p. 390, p. 394). New York, NY: McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-072",
@@ -1275,7 +1485,10 @@
     "rationale": {
       "text": "Vaccination against disease is under the primary level of prevention. Levels of Prevention: 1. Primary Prevention – ·Intervening before health effects occur; ·Examples: vaccinations, altering risky behaviors (poor eating habits, tobacco use), and banning substances known to be associated with a disease or health condition. 2. Secondary prevention – ·Screening to identify diseases in the earliest stages, before the onset of signs and symptoms; ·Examples: mammography and regular blood pressure testing. 3. Tertiary Prevention – ·Managing disease post-diagnosis to slow or stop disease progression; ·Examples: Chemotherapy, rehabilitation, and screening for complications. \n\n**Reference:** Picture of America Prevention-Centers for Disease Control and Prevention. (n.d.). Retrieved February 27, 2023, from https://www.cdc.gov/pictureofamerica/pdfs/picture_of_america_prevention.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-073",
@@ -1293,7 +1506,10 @@
     "rationale": {
       "text": "Treatment after lost to follow-up (TALF) – patient has previously been declared lost to follow-up after interruption of at least 2 consecutive months at the end of most recent course of treatment and is now bacteriologically confirmed or clinically diagnosed TB (previously known as Return After Default). Relapse – patient has previously been declared cured or treatment completed at the end of most recent course of treatment, and is now diagnosed with bacteriologically confirmed or clinically diagnosed TB. Treatment after Failure – patient has previously been treated for TB and has been declared failed at the end of most recent course of treatment. Retreatment – patient who has received 1 month or more of anti-TB drugs in the past (excluding prophylaxis or treatment for latent TB infection). \n\n**Reference:** Philippine Coalition Against Tuberculosis. (2016). Clinical Practice Guidelines for the Diagnosis, Treatment, Prevention and Control of Tuberculosis in Adult Filipinos: 2016 Update. https://www.psmid.org/clinical-practice-guidelines-for-the-diagnosis-treatment-prevention-and-control-of-tuberculosis-in-adult-filipinos-2016/",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-074",
@@ -1311,7 +1527,10 @@
     "rationale": {
       "text": "Phase 1 – small number of healthy volunteers. Safety assessment is done via dose escalation. Phase 2 – moderate number of patients with disease of interest. Efficacy assessment is done (does it work?). Phase 3 – Large number of patients with disease of interest. Effectiveness assessment via comparison with current standard of care (is there any improvement?). Phase 4 – post-marketing surveillance. Provides data on long-term of rare adverse effects (can it stay on the market?). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 257). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-075",
@@ -1329,7 +1548,10 @@
     "rationale": {
       "text": "Incubation period is the stage of subclinical disease, extending from the time of exposure to onset of disease symptoms for infectious diseases. Latency period is for chronic diseases. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 24, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-076",
@@ -1347,7 +1569,10 @@
     "rationale": {
       "text": "In a prospective cohort study, the investigator assembles the study groups in the present, collects baseline data on them, and continues to collect data for a period that can last many years. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J.G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 63). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-077",
@@ -1365,7 +1590,10 @@
     "rationale": {
       "text": "MDR-TB – Resistant to isoniazid and rifampin. RR-TB – Resistant to rifampin. XDR-TB – Resistant to 2nd line TB medicines. \n\n**Reference:** Department of Health. (2020). DOH National Tuberculosis Program Manual of Procedures (6th ed.). https://doh.gov.ph/sites/default/files/publications/NTP_MOP_6th_Edition.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-078",
@@ -1383,7 +1611,10 @@
     "rationale": {
       "text": "Quarantine guidelines for asymptomatic close contacts: Those with at least a primary series: No need to quarantine. Those who were partially vaccinated or unvaccinated: Quarantine for at least 14 days. \n\n**Reference:** Administrative order 2021-0043: \"Omnibus Guidelines on the Minimum Public Health Standards for the Safe Reopening of Institutions\", (2022). https://doh.gov.ph/sites/default/files/health-update/dm2022-0433.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-079",
@@ -1401,7 +1632,10 @@
     "rationale": {
       "text": "Relapse – patient has previously been declared cured or treatment completed at the end of most recent course of treatment, and is now diagnosed with bacteriologically confirmed or clinically diagnosed TB. Treatment after lost to follow-up (TALF) – patient has previously been declared lost to follow-up after interruption of at least 2 consecutive months at the end of most recent course of treatment and is now bacteriologically confirmed or clinically diagnosed TB (previously known as Return After Default). Treatment after Failure – patient has previously been treated for TB and has been declared failed at the end of most recent course of treatment. Retreatment – patient who has received 1 month or more of anti-TB drugs in the past (excluding prophylaxis or treatment for latent TB infection). \n\n**Reference:** Philippine Coalition Against Tuberculosis. (2016). Clinical Practice Guidelines for the Diagnosis, Treatment, Prevention and Control of Tuberculosis in Adult Filipinos: 2016 Update. https://www.psmid.org/clinical-practice-guidelines-for-the-diagnosis-treatment-prevention-and-control-of-tuberculosis-in-adult-filipinos-2016/",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-080",
@@ -1419,7 +1653,10 @@
     "rationale": {
       "text": "All of the choices are signs of SEVERE dehydration. Signs and symptoms of Dehydration – Some dehydration: No danger signs AND at least two of the following: Irritable or restless; Sunken eyes; Rapid pulse; Thirsty (drinks eagerly); Skin pinch goes back slowly. Severe dehydration: One or more danger signs: Lethargic or unconscious; Absent or weak pulse; Respiratory distress; OR at least two of the following: Sunken eyes; Not able to drink or drinks poorly; Skin pinch goes back very slowly. \n\n**Reference:** Centers for Disease Control and Prevention. (2022, November 14). Rehydration therapy. Centers for Disease Control and Prevention. Retrieved February 27, 2023, from https://www.cdc.gov/cholera/treatment/rehydration-therapy.html",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-081",
@@ -1437,7 +1674,10 @@
     "rationale": {
       "text": "In a randomized controlled trial (RCT), patients are enrolled in a study and randomly assigned to one of the following groups: Intervention or treatment group – receives the experimental treatment; Control group – receives the nonexperimental treatment, consisting of either a placebo (inert substance) or a standard treatment method. \n\n**Reference:** Katz, D. L., Wild, D., Elmore, J. G., & Lucan, S.C. (2014). Jekel's epidemiology, biostatistics, preventive medicine, and public health (4th ed., p. 65). W B Saunders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-082",
@@ -1455,7 +1695,10 @@
     "rationale": {
       "text": "A propagated outbreak results from transmission from one person to another. Usually, transmission is by direct person-to-person contact, as with syphilis. Transmission may also be vehicleborne (e.g., transmission of hepatitis B or HIV by sharing needles) or vectorborne (e.g., transmission of yellow fever by mosquitoes). In a continuous common-source outbreak, the range of exposures and range of incubation periods tend to flatten and widen the peaks of the epidemic curve. The epidemic curve of an intermittent common-source outbreak often has a pattern reflecting the intermittent nature of the exposure. If the group is exposed over a relatively brief period, so that everyone who becomes ill does so within one incubation period, then the common-source outbreak is further classified as a point-source outbreak. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-083",
@@ -1473,7 +1716,10 @@
     "rationale": {
       "text": "Mean – the balance point for all the data. Median – middle of the data with half the observed values below the median and half the observed values above it. Mode – the peak or most prevalent value. The median when arranged from lowest to highest (50, 50, 60, 60, 60, 70, 70) is 60. The mode is 60 as it is the most frequent weight among the adolescents. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-084",
@@ -1491,7 +1737,10 @@
     "rationale": {
       "text": "Case fatality rate (CFR) is the percentage of deaths among those who were diseased. CFR = (number of deaths / number of cases) × 100 = (6/10) × 100 = 60%. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 258). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-085",
@@ -1509,7 +1758,10 @@
     "rationale": {
       "text": "Mixed epidemics have features of both common-source epidemics and propagated epidemics. The pattern of a common-source outbreak followed by secondary person-to-person spread is not uncommon. \n\n**Reference:** CDC-Lesson 1: Introduction to Epidemiology. https://www.cdc.gov/csels/dsepd/ss1978/lesson1/quizanswers.html. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-086",
@@ -1527,7 +1779,10 @@
     "rationale": {
       "text": "Confounder – Factor related to both exposure and outcome (but not on causal path); Distorts effect on outcome; No true association exist. Independent variable – variable that researchers manipulate to create effect and influence the dependent variable. Dependent variable – is what happens as a result of the independent variable. Responding variable is synonymous to the dependent variable. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 263). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-087",
@@ -1545,7 +1800,10 @@
     "rationale": {
       "text": "The mean is most affected by outliers or extreme values. The mode is the least affected by outliers. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-088",
@@ -1563,7 +1821,10 @@
     "rationale": {
       "text": "D is false because this is a characteristic of skewed data, not a normally distributed data set. In a normally distributed data set, the following are true: It assumes a bell-shaped curve (Gaussian curve); The mean, median, mode are all equal; The mean is the best measure of central tendency. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-089",
@@ -1581,7 +1842,10 @@
     "rationale": {
       "text": "Lead-time bias occurs when early detection of the disease is interpreted as increased survival even though the disease course has not changed. Length-time bias occurs when diseases with a long latency period are detected by screening tests, while those with a shorter latency period manifest their symptoms earlier. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-090",
@@ -1599,7 +1863,10 @@
     "rationale": {
       "text": "Length-time bias occurs when diseases with a long latency period are detected by screening tests, while those with a shorter latency period manifest their symptoms earlier. Lead-time bias occurs when early detection of the disease is interpreted as increased survival even though the disease course has not changed. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-091",
@@ -1617,7 +1884,10 @@
     "rationale": {
       "text": "Phase 1 – small number of healthy volunteers. Safety assessment is done via dose escalation. Phase 2 – moderate number of patients with disease of interest. Efficacy assessment is done (does it work?). Phase 3 – Large number of patients with disease of interest. Effectiveness assessment via comparison with current standard of care (is there any improvement?). Phase 4 – post-marketing surveillance. Provides data on long-term of rare adverse effects (can it stay on the market?). \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 257). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-092",
@@ -1635,7 +1905,10 @@
     "rationale": {
       "text": "In a positively skewed data set, the following are true: Mean > median > mode; Asymmetry with longer tail on right; Mean falls closer to tail. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 264). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-093",
@@ -1653,7 +1926,10 @@
     "rationale": {
       "text": "The recommended treatment for schistosomiasis is praziquantel. \n\n**Reference:** CDC-Parasites-Schistosomiasis, Treatment. https://www.cdc.gov/parasites/schistosomiasis/treatment.html. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-094",
@@ -1671,7 +1947,10 @@
     "rationale": {
       "text": "According to the WHO, the recommended environmental noise level over 24 hours to prevent noise-induced hearing loss is below 70 dBA (75 dBA over 8 hours). \n\n**Reference:** CDC-Loud Noise Can Cause Hearing Loss. https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-095",
@@ -1689,7 +1968,10 @@
     "rationale": {
       "text": "Although leprosy transmission is not yet completely understood, it is believed to spread through respiratory means. One cannot get leprosy from casual contact. \n\n**Reference:** CDC-Hansen's disease (Leprosy). https://www.cdc.gov/leprosy/transmission/index.html. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-096",
@@ -1707,7 +1989,10 @@
     "rationale": {
       "text": "The CDC-recommended chemoprophylaxis for persons traveling to the Philippines include: ·Atovaquone-proguanil; ·Doxycycline; ·Mefloquine; ·Tafenoquine. \n\n**Reference:** CDC-Malaria Information and Prophylaxis By Country. https://www.cdc.gov/malaria/travelers/country_table/p.html. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-097",
@@ -1725,7 +2010,10 @@
     "rationale": {
       "text": "Sambong tablets are effective in treating patients with kidney stones by radiographic evidence of a decrease in size and/or number of stones. Asthma – Lagundi. Diabetes – Ampalaya. Hypertension – Garlic. \n\n**Reference:** Philippine Institute of Traditional and Alternative Health Care-Directory of Herbs. https://pitahc.gov.ph/directory-of-herbs/. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-098",
@@ -1743,7 +2031,10 @@
     "rationale": {
       "text": "Humans can become infected with leptospirosis through: ·Contact with urine (or other body fluids, except saliva) from infected animals; ·Contact with water, soil, or food contaminated with the urine of infected animals. Other water-borne diseases include typhoid fever, cholera, and hepatitis A. Hepatitis B – hematogenous spread. Scabies – direct skin-to-skin contact. Malaria – vector-borne disease. \n\n**References:** Centers for Disease Control and Prevention. (2015, June 9). Leptospirosis. https://www.cdc.gov/leptospirosis/infection/index.html; Department of Health. (2017). Water-borne diseases advisory 29 July 2017. https://doh.gov.ph/node/10648. February 27, 2023.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-099",
@@ -1761,7 +2052,10 @@
     "rationale": {
       "text": "Simple random sampling is the simplest form of probability sampling. In this type of sampling there is an equal probability that each eligible member of the target population will be chosen for the study. A sample of people from this population is chosen at random for the study or survey. Convenience sampling is not a type of probability sampling because it is based on ease of contact. A list of the primary clusters is necessary for one-stage sampling. In a cluster sample, smaller sampling units known as observation units are combined into larger sampling units known as clusters. \n\n**Reference:** Guidance, examples and tools for probability sampling when designing a population-based biomonitoring study (n.d.). Retrieved February 27, 2023, from https://www.cdc.gov/nceh/tracking/pdfs/BiomonitoringStudyGuidance-508.pdf",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   },
   {
     "id": "PM-100",
@@ -1779,6 +2073,9 @@
     "rationale": {
       "text": "Convenience sampling occurs when patients are assigned based on ease of contact. Using volunteers as study participants is an example of this. \n\n**Reference:** Le, T., Bhushan, V., & Sochat, M. (2023). First Aid for the USMLE Step 1 2022, Thirty Third Edition (33rd ed., p. 262). McGraw-Hill Education.",
       "images": []
-    }
+    },
+    "tags": [
+      "Uncategorized"
+    ]
   }
 ]

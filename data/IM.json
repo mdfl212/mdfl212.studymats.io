@@ -15,7 +15,10 @@
     "rationale": {
       "text": "Chest pain caused by myocardial ischemia can be characterized as aching, heavy, squeezing, crushing or constricting. The location is retrosternal. Radiation usually occurs to the ulnar surface of the left arm, neck, jaw, shoulders, and even the right arm. Chest pain exacerbated by changes in position is usually associated with pleuritic pain of pericarditis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "2",
@@ -33,7 +36,10 @@
     "rationale": {
       "text": "To diagnose NSTEMI: (1) Characteristic ischemic chest pain, (2) ECG with NO ST elevations (e.g., ST depression), (3) Troponin I elevation. All 3 are present. STEMI would show ST elevation. Unstable angina would show no Troponin I elevation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "3",
@@ -51,7 +57,10 @@
     "rationale": {
       "text": "In NSTEMI patients classified as high-risk, an invasive strategy (coronary arteriography followed by PCI or CABG) is indicated. Nitrates are contraindicated in patients with hypotension. Oxygen is not the most appropriate management in a patient with hypotension.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "4",
@@ -69,7 +78,10 @@
     "rationale": {
       "text": "Of all the listed bisphosphonates, only Zoledronic acid can be given in IV form. The rest run the risk of esophageal irritation and are therefore contraindicated in patients with esophageal strictures.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "5",
@@ -87,7 +99,10 @@
     "rationale": {
       "text": "Sharp pain is associated with a decreased likelihood of AMI. The other choices are associated with an increased likelihood of AMI.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "6",
@@ -105,7 +120,10 @@
     "rationale": {
       "text": "Metoprolol is the beta-blocker of choice in acute coronary syndrome. The presence of hypotension and a history of diabetes/hypertension requires careful selection. Metoprolol is cardioselective and has a favorable safety profile.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "7",
@@ -123,7 +141,10 @@
     "rationale": {
       "text": "Ventricular fibrillation (VFib) is the most common cause of out-of-hospital deaths in STEMI. Most deaths from VFib happen in the first 24 hours from onset of symptoms, with half occurring in the first hour. Pump failure is the main cause of in-hospital deaths.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "8",
@@ -141,7 +162,10 @@
     "rationale": {
       "text": "NYHA Class II: Slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, or dyspnea. Class I: No limitation. Class III: Marked limitation. Class IV: Inability to carry out physical activity without discomfort.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "9",
@@ -159,7 +183,10 @@
     "rationale": {
       "text": "Joints usually spared in OA: Ankle, Wrist, Elbow. Mnemonic: 'AWE' – Ankle, Wrist, Elbow. The other joints mentioned (fingers, knees, cervical spine) are usually involved in OA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "10",
@@ -177,7 +204,10 @@
     "rationale": {
       "text": "Small joints of hands and feet are usually the earliest involved in RA. Knees (weight-bearing joints) are usually involved in OA, not RA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "11",
@@ -195,7 +225,10 @@
     "rationale": {
       "text": "Orthopnea occurs when patients are in the recumbent position and results from redistribution of fluid from the lower body into the chest leading to dyspnea. PND occurs during recumbency and results from airway compression due to increased bronchial arterial pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "12",
@@ -213,7 +246,10 @@
     "rationale": {
       "text": "Hypoglycemia usually happens in patients being given insulin or insulin secretagogues (e.g., SUs or meglitinides). Repaglinide is a meglitinide. Acarbose causes GI flatulence. Pioglitazone causes peripheral edema, HF, weight gain. Canagliflozin causes urinary/genital infections, polyuria, dehydration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "13",
@@ -231,7 +267,10 @@
     "rationale": {
       "text": "Secondary Sjogren syndrome occurs in association with a connective tissue disease such as RA. Symptoms include dry eyes (keratoconjunctivitis sicca) and dry mouth (xerostomia).",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "14",
@@ -249,7 +288,10 @@
     "rationale": {
       "text": "RBS ≥200 mg/dL with classic symptoms of hyperglycemia satisfies criteria. Fasting should be at least 8 hours. OGTT should use 75g glucose. HbA1c should be ≥6.5%.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "15",
@@ -267,7 +309,10 @@
     "rationale": {
       "text": "Cushing's ulcer – Stress ulceration that occurs in patients after head trauma. Curling ulcer occurs in patients after severe burns. Mnemonic: 'Burned by the CURLing iron, CUSHion the brain.'",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "16",
@@ -285,7 +330,10 @@
     "rationale": {
       "text": "For LGIB, if hemodynamically stable, ask for age. If ≥40 years, do colonoscopy. If <40 years, may do sigmoidoscopy or colonoscopy. If hemodynamically unstable, first step is upper endoscopy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "17",
@@ -303,7 +351,10 @@
     "rationale": {
       "text": "Methotrexate is the first choice DMARD for the treatment of early RA. Other meds are not the first choice.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "18",
@@ -321,7 +372,10 @@
     "rationale": {
       "text": "A 14-day combination therapy provides the greatest efficacy for the treatment of H. pylori. Therapy with only 2 drugs is not recommended due to low eradication rates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "19",
@@ -339,7 +393,10 @@
     "rationale": {
       "text": "Congestive splenomegaly with hypersplenism is usually the first indication of the presence of portal hypertension. The other options are complications of cirrhosis but are not the first indication.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "20",
@@ -357,7 +414,10 @@
     "rationale": {
       "text": "Conventional DMARDs: Hydroxychloroquine, Methotrexate, Sulfasalazine, Leflunomide. The rest are biological DMARDs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "21",
@@ -375,7 +435,10 @@
     "rationale": {
       "text": "Budd-Chiari syndrome is posthepatic. Portal vein thrombosis and Banti's syndrome are prehepatic. Schistosomiasis is hepatic, presinusoidal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "22",
@@ -393,7 +456,10 @@
     "rationale": {
       "text": "The malar rash is a clinical criterion for SLE. The patient needs 4 of 11 criteria for diagnosis; this presentation suggests a clinical criterion is met.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "23",
@@ -411,7 +477,10 @@
     "rationale": {
       "text": "Diabetic nephropathy is the most common cause of CKD worldwide and in the US.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "24",
@@ -429,7 +498,10 @@
     "rationale": {
       "text": "Diagnosis of acute pancreatitis requires 2 of 3: (1) Abdominal pain radiating to the back, (2) 3x or greater elevation in serum lipase and/or amylase, (3) Confirmatory findings on cross-sectional abdominal imaging. 2x elevation is not sufficient.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "25",
@@ -447,7 +519,10 @@
     "rationale": {
       "text": "Abatacept is a biological DMARD that inhibits the co-stimulation of T cells by blocking CD28-CD80/86 interactions. Sulfasalazine is conventional. Anakinra is an IL-1 receptor antagonist. Rituximab is a chimeric monoclonal antibody against CD20.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "26",
@@ -465,7 +540,10 @@
     "rationale": {
       "text": "Mnemonic: 'Lupus Makes My HIPS Extremely Painful' – Methyldopa, Minocycline, Hydralazine, Isoniazid, Phenytoin, Sulfa drugs, Etanercept, Procainamide. Prednisone is not a cause of drug-induced lupus.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "27",
@@ -483,7 +561,10 @@
     "rationale": {
       "text": "Adenosine can precipitate bronchospasm, theoretically, so it should be used with caution in patients with asthma.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "28",
@@ -501,7 +582,10 @@
     "rationale": {
       "text": "Reversibility in asthma is defined as ≥12% increase in FEV1 and an absolute increase of ≥200 mL at least 15 minutes after administration of a β2-agonist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "29",
@@ -519,7 +603,10 @@
     "rationale": {
       "text": "Aside from asthma, other extraesophageal syndromes with established association with GERD: chronic cough, laryngitis, dental erosions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "30",
@@ -537,7 +624,10 @@
     "rationale": {
       "text": "Bisphosphonates, such as zoledronic acid and pamidronate, are commonly used for management of hypercalcemia of malignancy. Hydration (4-6L IV saline in first 24h) is used in initial therapy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "31",
@@ -555,7 +645,10 @@
     "rationale": {
       "text": "Periarticular osteopenia is the classical initial radiographic finding in RA. Subchondral erosions can also be found in RA. Bone spurs and osteophytes are found in OA.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "32",
@@ -573,7 +666,10 @@
     "rationale": {
       "text": "Low doses of prednisone are used to treat RA flares during pregnancy. Methotrexate and leflunomide are teratogenic and not used in pregnancy. Safest DMARDs in pregnancy are sulfasalazine and hydroxychloroquine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "33",
@@ -591,7 +687,10 @@
     "rationale": {
       "text": "After confirming the diagnosis of clinical or subclinical hypothyroidism, the etiology is determined by requesting TPO and Tg antibodies. If (+), then it's most likely autoimmune hypothyroidism.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "34",
@@ -609,7 +708,10 @@
     "rationale": {
       "text": "If TSH high, FT4 normal → Mild hypothyroidism. If TSH high, FT4 low → Primary hypothyroidism. If TSH normal, FT4 low → Rule out drug effects, sick euthyroid syndrome, evaluate anterior pituitary function.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "35",
@@ -627,7 +729,10 @@
     "rationale": {
       "text": "The requirements for thyroid hormone increase in hypothyroid women during pregnancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "36",
@@ -645,7 +750,10 @@
     "rationale": {
       "text": "Starting dose for elderly patients with known CAD is 12.5-25 µg/d. For adults <60 years with no known heart disease, starting dose is usually 50-100 µg/day.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "37",
@@ -663,7 +771,10 @@
     "rationale": {
       "text": "All listed conditions (celiac disease, H. pylori-related gastritis, ingestion with iron) are causes of increased LT4 requirements. Also: malabsorption, oral estrogen, ingestion with meal, and various drugs.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "38",
@@ -681,7 +792,10 @@
     "rationale": {
       "text": "Sudden-onset paralysis and loss of sensation on one side involving the upper limb with aphasia are usually associated with MCA stroke. ACA stroke involves lower limb with urinary incontinence.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "39",
@@ -699,7 +813,10 @@
     "rationale": {
       "text": "Dexamethasone has the strongest evidence for mortality benefit in COVID-19. Other drugs with evidence: Remdesivir (with/without baricitinib), Tocilizumab, SARS-CoV-2 specific human monoclonal antibodies.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "40",
@@ -717,7 +834,10 @@
     "rationale": {
       "text": "Advanced age is the principal risk factor for severe illness from COVID-19, associated with need for hospitalization, intensive care, and mechanical ventilation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "41",
@@ -735,7 +855,10 @@
     "rationale": {
       "text": "Cerebrovascular hemorrhage at any time is a contraindication. Menses is not a contraindication. Nonhemorrhagic stroke within the past year (not 10 years) is a contraindication. Marked hypertension: SBP >180 or DBP >110.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "42",
@@ -753,7 +876,10 @@
     "rationale": {
       "text": "The most frequent and potentially the most serious complication of fibrinolytic therapy is hemorrhage.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "43",
@@ -771,7 +897,10 @@
     "rationale": {
       "text": "Hypomagnesemia may manifest with neuromuscular excitability leading to tetany and positive Trousseau and Chvostek signs. Hypocalcemia may also be present in these patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "44",
@@ -789,7 +918,10 @@
     "rationale": {
       "text": "All three interventions improve survival of COPD patients: Smoking cessation, Oxygen therapy in chronically hypoxemic patients, LVRS in selected patients with emphysema.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "45",
@@ -807,7 +939,10 @@
     "rationale": {
       "text": "Anorexia and nausea should not be attributable to reversible causes such as PUD for it to be a clear indication for starting RRT. Other indications: refractory hyperkalemia, refractory ECFV overload, malnutrition, fluid or electrolyte abnormalities.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "46",
@@ -825,7 +960,10 @@
     "rationale": {
       "text": "An IV 3rd generation cephalosporin (such as ceftriaxone and cefotaxime) should be given as empiric therapy for patients whose synovial fluid Gram stain shows gram-negative bacilli. If gram-positive cocci appear, IV Vancomycin should be empirically started.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "47",
@@ -843,7 +981,10 @@
     "rationale": {
       "text": "Tocilizumab is a monoclonal antibody against the IL-6 receptor. Anakinra is an IL-1 receptor antagonist. Baricitinib is a Janus kinase 1 and 2 inhibitor. Dexamethasone is an anti-inflammatory glucocorticoid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "48",
@@ -861,7 +1002,10 @@
     "rationale": {
       "text": "The most common form of AKI is prerenal azotemia. Ischemia, sepsis, and nephrotoxins are causes of intrinsic AKI.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "49",
@@ -879,7 +1023,10 @@
     "rationale": {
       "text": "Ischemia, sepsis, and nephrotoxins are causes of intrinsic AKI. Prerenal AKI is caused by hypovolemia, heart failure, liver failure, NSAIDs, ACEIs, ARBs, cyclosporine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "50",
@@ -897,7 +1044,10 @@
     "rationale": {
       "text": "According to several treatment algorithms by professional societies, metformin is suggested as the initial therapy for T2DM.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "51",
@@ -915,7 +1065,10 @@
     "rationale": {
       "text": "Overall, the most common cause of Cushing syndrome is the medical use of glucocorticoids. Cushing's syndrome caused by a pituitary corticotroph adenoma is called Cushing's disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "52",
@@ -933,7 +1086,10 @@
     "rationale": {
       "text": "In Cushing syndrome, proximal myopathy is present, instead of distal myopathy. The rest of the options are present in patients with Cushing's syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "53",
@@ -951,7 +1107,10 @@
     "rationale": {
       "text": "In ectopic ACTH secretion (e.g., small cell lung cancer), basal ACTH levels are very high. In ACTH-secreting pituitary tumors, ACTH is inappropriately high but not as high.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "54",
@@ -969,7 +1128,10 @@
     "rationale": {
       "text": "Urea breath test, stool antigen test, and biopsy-based tests can be used to assess treatment success in patients with H. pylori. These tests may yield false-negative results if done <4 weeks after treatment.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "55",
@@ -987,7 +1149,10 @@
     "rationale": {
       "text": "Superficial spreading melanoma is the most common type. May appear at any site on the body. Lesions have asymmetry, border irregularity, and color variegation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "56",
@@ -1005,7 +1170,10 @@
     "rationale": {
       "text": "Tapering at the LES with a beak-like appearance after barium swallow is consistent with a diagnosis of Achalasia. Volvulus would show a 'coffee bean'-shaped appearance on x-ray.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "57",
@@ -1023,7 +1191,10 @@
     "rationale": {
       "text": "Ischemic changes in leads II, III, and aVF reflect inferior wall infarct. Anteroseptal: V1-V2. Anteroapical: V3-V4. Anterolateral: V5-V6. Lateral: I, aVL.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "58",
@@ -1041,7 +1212,10 @@
     "rationale": {
       "text": "COPD is not associated with clubbing of the digits. If clubbing is found in COPD patients, this should prompt investigation for possible causes such as lung cancer (same risk factor).",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "59",
@@ -1059,7 +1233,10 @@
     "rationale": {
       "text": "PaO2/FiO2 (PF) ratio: 50/100 × 100 = 50. Severe ARDS: PF ≤100. Mild: ≤300. Moderate: ≤200.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "60",
@@ -1077,7 +1254,10 @@
     "rationale": {
       "text": "IV rtPA for acute ischemic stroke can be given within 0-3 hours of stroke onset. Stroke onset is defined as the time the patient was last seen normal or when symptoms began.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "61",
@@ -1095,7 +1275,10 @@
     "rationale": {
       "text": "On the 3rd and 4th week of illness in patients with Typhoid fever, life-threatening complications such as GI bleeding and Intestinal perforation may occur. Meningitis and GBS may also occur as neurologic manifestations.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "62",
@@ -1113,7 +1296,10 @@
     "rationale": {
       "text": "ATRA is an oral drug that induces the differentiation of promyelocytes. Imatinib is the treatment for CML.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "63",
@@ -1131,7 +1317,10 @@
     "rationale": {
       "text": "The development of optic neuritis in patients taking ethambutol should prompt permanent discontinuation of the drug.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "64",
@@ -1149,7 +1338,10 @@
     "rationale": {
       "text": "The development of autoimmune thrombocytopenia in patients taking rifampin should be an indication to stop the drug and refer to a specialist for proper guidance.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "65",
@@ -1167,7 +1359,10 @@
     "rationale": {
       "text": "IgM anti-HAV is used to diagnose Hepatitis A during acute illness because fecal or serum HAV is not available routinely.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "66",
@@ -1185,7 +1380,10 @@
     "rationale": {
       "text": "Increased residual volume is often seen in asthma from the exaggerated closure of airways at low lung volumes. FRC may be dynamically elevated. TLC is usually normal in asthma patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "67",
@@ -1203,7 +1401,10 @@
     "rationale": {
       "text": "Hunger is one of the triggers of migraines, not satiety. Other triggers: bright lights, lack of or excess sleep, let-down from stress, hormonal fluctuations, alcohol, nitrates.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "68",
@@ -1221,7 +1422,10 @@
     "rationale": {
       "text": "Malabsorption of cobalamin may occur when using PPIs but is not sufficiently severe to cause megaloblastic anemia. Other conditions: pernicious anemia, congenital absence of IF, total/partial gastrectomy, intestinal stagnant loop, ileal resection, Crohn's, tropical sprue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "69",
@@ -1239,7 +1443,10 @@
     "rationale": {
       "text": "False-negative reactions: Immunosuppression, Overwhelming TB. False-positive reactions: Infection with nontuberculous mycobacteria, BCG vaccination.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "70",
@@ -1257,7 +1464,10 @@
     "rationale": {
       "text": "Prerenal AKI causes: hypovolemia, heart failure, liver failure, NSAIDs, ACEIs, ARBs, cyclosporine. Intrinsic AKI: sepsis, infection, ischemia, nephrotoxins.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "71",
@@ -1275,7 +1485,10 @@
     "rationale": {
       "text": "Fever is the most common clinical feature of patients with IE (80-90%). Heart murmur: 80-85%.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "72",
@@ -1293,7 +1506,10 @@
     "rationale": {
       "text": "Positive echocardiogram is a major criterion. Fever, Osler nodes, and Janeway lesions are minor criteria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "73",
@@ -1311,7 +1527,10 @@
     "rationale": {
       "text": "Membranous nephropathy is associated with renal vein thrombosis due to hypercoagulability from proteinuria.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "74",
@@ -1329,7 +1548,10 @@
     "rationale": {
       "text": "Malaria is the most common infectious cause of nephrotic syndrome globally (especially in endemic areas).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "75",
@@ -1347,7 +1569,10 @@
     "rationale": {
       "text": "HSP tetrad includes palpable purpura (not non-palpable), arthritis, abdominal pain, and renal involvement.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "76",
@@ -1365,7 +1590,10 @@
     "rationale": {
       "text": "Both IgA nephropathy and HSP nephritis show IgA deposition in the mesangium and share pathogenesis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "77",
@@ -1383,7 +1611,10 @@
     "rationale": {
       "text": "Approximately 50% of HSP cases are preceded by an upper respiratory tract infection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "78",
@@ -1401,7 +1632,10 @@
     "rationale": {
       "text": "STEC is commonly transmitted by undercooked ground beef, unpasteurized milk, and apple cider.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "79",
@@ -1419,7 +1653,10 @@
     "rationale": {
       "text": "All options are clinical manifestations of nephrotic syndrome (proteinuria, hyperlipidemia, hypercoagulability).",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "80",
@@ -1437,7 +1674,10 @@
     "rationale": {
       "text": "Corticosteroids (prednisone) are the mainstay of therapy for minimal change nephrotic syndrome.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "81",
@@ -1455,7 +1695,10 @@
     "rationale": {
       "text": "Dehydration (not overhydration) is a cause of transient proteinuria, along with fever, exercise, and cold exposure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "82",
@@ -1473,7 +1716,10 @@
     "rationale": {
       "text": "Staphylococcus aureus and viridans group streptococci are the leading causes of infective endocarditis in children.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "83",
@@ -1491,7 +1737,10 @@
     "rationale": {
       "text": "The degree of right ventricular outflow obstruction determines the severity of cyanosis and symptom onset in Tetralogy of Fallot.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "84",
@@ -1509,7 +1758,10 @@
     "rationale": {
       "text": "Without effective treatment, ALL is fatal; thus, effective treatment is the most important prognostic factor.",
       "images": []
-    }
+    },
+    "tags": [
+      "Oncology"
+    ]
   },
   {
     "id": "85",
@@ -1527,7 +1779,10 @@
     "rationale": {
       "text": "Antibiotics may increase Shiga toxin release and worsen HUS; they are generally avoided.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "86",
@@ -1545,7 +1800,10 @@
     "rationale": {
       "text": "Stepping down therapy should be considered after achieving good asthma control for at least 3 months.",
       "images": []
-    }
+    },
+    "tags": [
+      "Pulmonology"
+    ]
   },
   {
     "id": "87",
@@ -1563,7 +1821,10 @@
     "rationale": {
       "text": "Hemarthrosis (bleeding into joints) is the hallmark of hemophilia, differentiating it from platelet disorders.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "88",
@@ -1581,7 +1842,10 @@
     "rationale": {
       "text": "Von Willebrand disease is the most common inherited bleeding disorder, affecting up to 1% of the population.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "89",
@@ -1599,7 +1863,10 @@
     "rationale": {
       "text": "Desmopressin (DDAVP) releases vWF from endothelial stores and is used in mild von Willebrand disease.",
       "images": []
-    }
+    },
+    "tags": [
+      "Hematology"
+    ]
   },
   {
     "id": "90",
@@ -1617,7 +1884,10 @@
     "rationale": {
       "text": "LP is indicated in infants <6 months, ill-appearing children, or those with meningeal signs; a 3-year-old with cough and fever is not an indication.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "91",
@@ -1635,7 +1905,10 @@
     "rationale": {
       "text": "Risk factors for recurrence: male gender, daycare, family history, lower age at onset, and lower fever at presentation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurology"
+    ]
   },
   {
     "id": "92",
@@ -1653,7 +1926,10 @@
     "rationale": {
       "text": "Loss of H+ and Cl- from gastric vomiting causes hypochloremic metabolic alkalosis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastroenterology"
+    ]
   },
   {
     "id": "93",
@@ -1671,7 +1947,10 @@
     "rationale": {
       "text": "Ethambutol can cause optic neuritis; visual acuity and color discrimination must be monitored.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "94",
@@ -1689,7 +1968,10 @@
     "rationale": {
       "text": "Scrofula (tuberculous lymphadenitis, usually cervical) is the most common extrapulmonary TB in children.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "95",
@@ -1707,7 +1989,10 @@
     "rationale": {
       "text": "Acute epiglottitis (usually Hib) presents with cherry-red swollen epiglottis and is a medical emergency.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "96",
@@ -1725,7 +2010,10 @@
     "rationale": {
       "text": "PSGN is a type III hypersensitivity reaction with immune complex deposition.",
       "images": []
-    }
+    },
+    "tags": [
+      "Nephrology"
+    ]
   },
   {
     "id": "97",
@@ -1743,7 +2031,10 @@
     "rationale": {
       "text": "The paroxysmal stage is characterized by coughing paroxysms followed by a whoop on inspiration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   },
   {
     "id": "98",
@@ -1761,7 +2052,10 @@
     "rationale": {
       "text": "Kawasaki disease requires unilateral cervical lymphadenopathy (not generalized) >1.5 cm.",
       "images": []
-    }
+    },
+    "tags": [
+      "Rheumatology"
+    ]
   },
   {
     "id": "99",
@@ -1779,7 +2073,10 @@
     "rationale": {
       "text": "Coronary artery aneurysms (especially giant) are the major complication, leading to myocardial infarction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "100",
@@ -1797,6 +2094,9 @@
     "rationale": {
       "text": "Beta-lactamase-producing Moraxella catarrhalis is a common cause of amoxicillin failure in AOM.",
       "images": []
-    }
+    },
+    "tags": [
+      "Infectious Disease"
+    ]
   }
 ]

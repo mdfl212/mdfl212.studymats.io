@@ -16,7 +16,10 @@
     "rationale": {
       "text": "Na⁺-K⁺ ATPase actively transports 3 Na⁺ out and 2 K⁺ in, maintaining the ionic gradients essential for resting potential.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "2",
@@ -35,7 +38,10 @@
     "rationale": {
       "text": "Na⁺-K⁺ ATPase establishes the K⁺ gradient, which dominates the resting potential; its block leads to K⁺ efflux and depolarization.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "3",
@@ -54,7 +60,10 @@
     "rationale": {
       "text": "Inward-rectifying K⁺ channels conduct better at hyperpolarized potentials (more negative than their activation threshold).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "4",
@@ -73,7 +82,10 @@
     "rationale": {
       "text": "Na⁺-K⁺ ATPase pumps Na⁺ out against its electrochemical gradient using ATP hydrolysis.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "5",
@@ -92,7 +104,10 @@
     "rationale": {
       "text": "E_K = (61/1) × log(5/150) ≈ 61 × (−1.477) ≈ −90 mV at 37°C.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "6",
@@ -111,7 +126,10 @@
     "rationale": {
       "text": "Decreased P_K shifts the resting potential away from E_K (−90 mV) and toward E_Na (+60 mV), causing depolarization to −40 mV.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "7",
@@ -130,7 +148,10 @@
     "rationale": {
       "text": "The Nernst equation for K⁺ shows that raising [K⁺]o reduces the concentration gradient, depolarizing the cell (less negative E_K).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "8",
@@ -149,7 +170,10 @@
     "rationale": {
       "text": "At −90 mV, the membrane potential equals E_K for these concentrations; therefore the electrochemical driving force is zero and net K⁺ flux is zero.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "9",
@@ -168,7 +192,10 @@
     "rationale": {
       "text": "The nicotinic ACh receptor is a ligand-gated, non-selective cation channel; curare (tubocurarine) is its classic competitive antagonist.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "10",
@@ -187,7 +214,10 @@
     "rationale": {
       "text": "Exocytosis describes the fusion of secretory vesicles (from the Golgi) with the plasma membrane to release contents extracellularly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "11",
@@ -206,7 +236,10 @@
     "rationale": {
       "text": "The NKCC cotransporter requires Cl⁻ as a co-substrate; removing luminal Cl⁻ abolishes transport.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "12",
@@ -225,7 +258,10 @@
     "rationale": {
       "text": "In the GHK equation, increasing P_Cl weights the potential toward E_Cl (approximately −65 to −70 mV), which is slightly hyperpolarizing.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "13",
@@ -244,7 +280,10 @@
     "rationale": {
       "text": "Ca²⁺-activated K⁺ channels (BK/SK channels) open in response to elevated intracellular Ca²⁺, allowing K⁺ efflux and membrane hyperpolarization.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "14",
@@ -263,7 +302,10 @@
     "rationale": {
       "text": "Elevated intracellular Na⁺ reverses the NCX, causing Ca²⁺ influx instead of efflux — the mechanism of cardiac glycoside inotropy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "15",
@@ -282,7 +324,10 @@
     "rationale": {
       "text": "Na⁺-K⁺ ATPase failure prevents Na⁺ extrusion, leading to Na⁺ accumulation, osmotic water influx, and cell swelling.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cell Physiology"
+    ]
   },
   {
     "id": "16",
@@ -301,7 +346,10 @@
     "rationale": {
       "text": "Action potentials are all-or-none: once threshold is reached, the amplitude is fixed regardless of stimulus intensity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "17",
@@ -320,7 +368,10 @@
     "rationale": {
       "text": "Larger axon diameter lowers internal (axial) resistance, allowing faster electrotonic spread of current ahead of the action potential.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "18",
@@ -339,7 +390,10 @@
     "rationale": {
       "text": "The rapid upstroke (phase 0 depolarization) is driven by Na⁺ influx through voltage-gated Na⁺ channels; blocking them prevents this phase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "19",
@@ -358,7 +412,10 @@
     "rationale": {
       "text": "Delayed rectifier K⁺ channels mediate repolarization; blocking them prolongs the action potential duration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "20",
@@ -377,7 +434,10 @@
     "rationale": {
       "text": "TTX specifically blocks voltage-gated Na⁺ channels; fast activation and inactivation kinetics are hallmarks of I_Na.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "21",
@@ -396,7 +456,10 @@
     "rationale": {
       "text": "High-frequency stimulation prevents complete relaxation between twitches, causing summation to produce tetanic (fused) contraction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "22",
@@ -415,7 +478,10 @@
     "rationale": {
       "text": "A subthreshold depolarization at a synapse is an excitatory postsynaptic potential (EPSP); it brings the membrane closer to threshold without firing an action potential.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "23",
@@ -434,7 +500,10 @@
     "rationale": {
       "text": "GABA_A receptors are Cl⁻ channels; blocking them reduces Cl⁻ influx, preventing hyperpolarization and thus decreasing inhibition.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "24",
@@ -453,7 +522,10 @@
     "rationale": {
       "text": "A-alpha fibers are the largest myelinated fibers (12–20 µm) and conduct at 70–120 m/s — the fastest of all peripheral nerve fibers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "25",
@@ -472,7 +544,10 @@
     "rationale": {
       "text": "IPSPs are generated by K⁺ efflux (through GABA_B/glycine receptors) or Cl⁻ influx (through GABA_A/glycine receptors), both of which hyperpolarize the membrane.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "26",
@@ -491,7 +566,10 @@
     "rationale": {
       "text": "Temporal summation occurs when EPSPs from successive stimuli overlap in time, adding to reach threshold.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "27",
@@ -510,7 +588,10 @@
     "rationale": {
       "text": "Botulinum toxin cleaves SNARE proteins (SNAP-25, synaptobrevin), preventing synaptic vesicle fusion and ACh release from presynaptic terminals.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "28",
@@ -529,7 +610,10 @@
     "rationale": {
       "text": "Ca²⁺ entry via presynaptic voltage-gated Ca²⁺ channels triggers vesicle fusion; higher [Ca²⁺]o increases Ca²⁺ influx and therefore transmitter release.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "29",
@@ -548,7 +632,10 @@
     "rationale": {
       "text": "Ipsilateral flexion (withdrawal) combined with contralateral extension (to maintain balance) defines the flexor reflex and crossed extensor reflex.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "30",
@@ -567,7 +654,10 @@
     "rationale": {
       "text": "The monosynaptic stretch reflex depends on Ia afferents from the muscle spindle; their impairment abolishes or reduces the reflex.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "31",
@@ -586,7 +676,10 @@
     "rationale": {
       "text": "Ca²⁺ influx through presynaptic P/Q-type (and N-type) Ca²⁺ channels triggers synaptic vesicle fusion with the active zone membrane.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "32",
@@ -605,7 +698,10 @@
     "rationale": {
       "text": "Non-selective cation channels (e.g., nicotinic receptors, AMPA receptors) pass both Na⁺ and K⁺; their reversal potential is near 0 mV, reflecting the mix of E_Na (+60 mV) and E_K (−90 mV).",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "33",
@@ -624,7 +720,10 @@
     "rationale": {
       "text": "HCN (I_h / 'funny') channels provide depolarizing inward current during hyperpolarization; combined with slow K⁺ channels, they generate rhythmic pacemaker activity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "34",
@@ -643,7 +742,10 @@
     "rationale": {
       "text": "Reduced myelin thickness (demyelination) is the most common cause of decreased conduction velocity in peripheral nerves (e.g., Guillain-Barré, carpal tunnel myelin loss).",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "35",
@@ -662,7 +764,10 @@
     "rationale": {
       "text": "The question describes BOTH divergence (one pre → many post) AND convergence (many pre → one post). This combined arrangement is characteristic of parallel processing in neural circuits.",
       "images": []
-    }
+    },
+    "tags": [
+      "Neurophysiology"
+    ]
   },
   {
     "id": "36",
@@ -681,7 +786,10 @@
     "rationale": {
       "text": "CO = HR × SV = 72 × 70 mL = 5,040 mL/min ≈ 5.0 L/min.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "37",
@@ -700,7 +808,10 @@
     "rationale": {
       "text": "The Frank-Starling mechanism states that increased ventricular filling (preload) stretches myofibers, enhancing Ca²⁺ sensitivity and increasing stroke volume.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "38",
@@ -719,7 +830,10 @@
     "rationale": {
       "text": "During isovolumetric contraction, both the mitral (AV) and aortic (semilunar) valves are closed — pressure rises without ejection.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "39",
@@ -738,7 +852,10 @@
     "rationale": {
       "text": "First-degree AV block is defined by a PR interval > 0.20 s with 1:1 AV conduction; all P waves conduct to the ventricles.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "40",
@@ -757,7 +874,10 @@
     "rationale": {
       "text": "During exercise, both HR (sympathetic) and SV (Frank-Starling + enhanced contractility) increase to raise cardiac output.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "41",
@@ -776,7 +896,10 @@
     "rationale": {
       "text": "A rightward-shifted, wider loop with elevated ESVI indicates dilated cardiomyopathy — increased preload (EDV) and reduced contractility (elevated ESV, reduced ejection fraction).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "42",
@@ -795,7 +918,10 @@
     "rationale": {
       "text": "Higher extracellular Ca²⁺ increases Ca²⁺ influx through L-type channels, augmenting contractility; the stronger, faster contraction also shortens systole duration.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "43",
@@ -814,7 +940,10 @@
     "rationale": {
       "text": "Hypertensive hypertrophy causes diastolic dysfunction: the stiff ventricle generates high filling pressures at lower volumes, shifting the diastolic pressure-volume curve upward and leftward.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "44",
@@ -833,7 +962,10 @@
     "rationale": {
       "text": "The T wave on the surface ECG corresponds to ventricular repolarization, which reflects Phase 3 (rapid repolarization via I_Ks and I_Kr).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "45",
@@ -852,7 +984,10 @@
     "rationale": {
       "text": "In atrial fibrillation, chaotic atrial impulses bombard the AV node at ~350–600/min; the node conducts them irregularly due to concealed conduction, producing an irregular ventricular response.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "46",
@@ -871,7 +1006,10 @@
     "rationale": {
       "text": "SVR = (MAP − CVP) / CO = (95 − 0) / 5.25 ≈ 18 mm Hg·min/L (Wood units).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "47",
@@ -890,7 +1028,10 @@
     "rationale": {
       "text": "L-type Ca²⁺ channels sustain the phase 2 plateau; blocking them shortens the plateau and reduces Ca²⁺ entry, decreasing contractility.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "48",
@@ -909,7 +1050,10 @@
     "rationale": {
       "text": "The arterial baroreceptor reflex detects elevated BP, increases parasympathetic and decreases sympathetic output, returning HR and BP toward baseline.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "49",
@@ -928,7 +1072,10 @@
     "rationale": {
       "text": "Sarcomere stretch increases myofilament Ca²⁺ sensitivity (titin-mediated) and promotes Ca²⁺ release from the SR, increasing cross-bridge recruitment.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "50",
@@ -947,7 +1094,10 @@
     "rationale": {
       "text": "Low cardiac index (<2.2 L/min/m²) with signs of venous congestion (elevated JVP, edema) indicates low-output heart failure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "51",
@@ -966,7 +1116,10 @@
     "rationale": {
       "text": "MAP = diastolic + 1/3 × pulse pressure = 90 + 1/3 × (140−90) = 90 + 16.7 ≈ 107 mm Hg. [CORRECTED from original answer key]",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "52",
@@ -985,7 +1138,10 @@
     "rationale": {
       "text": "Stiff (less compliant) arteries cannot buffer stroke volume, causing greater systolic pressure rises and larger pulse pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "53",
@@ -1004,7 +1160,10 @@
     "rationale": {
       "text": "Net filtration pressure = (35 − 5) − (25 − 2) = 30 − 23 = +7 mm Hg (outward); net filtration occurs at the arterial end.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "54",
@@ -1023,7 +1182,10 @@
     "rationale": {
       "text": "Liver disease impairs albumin synthesis; hypoalbuminemia reduces plasma oncotic pressure, favoring net filtration and edema formation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "55",
@@ -1042,7 +1204,10 @@
     "rationale": {
       "text": "Pulse pressure = systolic − diastolic = 160 − 100 = 60 mm Hg.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "56",
@@ -1061,7 +1226,10 @@
     "rationale": {
       "text": "Right axis deviation is defined as a QRS axis > +90°; +110° falls within the right axis deviation range (+90° to +180°).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "57",
@@ -1080,7 +1248,10 @@
     "rationale": {
       "text": "The right coronary artery (RCA) supplies the inferior wall of the LV (and the inferior portion of the RV) in most patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "58",
@@ -1099,7 +1270,10 @@
     "rationale": {
       "text": "Poiseuille's law: Q ∝ r⁴. Doubling radius → 2⁴ = 16-fold increase in flow.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "59",
@@ -1118,7 +1292,10 @@
     "rationale": {
       "text": "Athletic bradycardia is accompanied by increased stroke volume (enhanced filling time and ventricular compliance), maintaining normal CO.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "60",
@@ -1137,7 +1314,10 @@
     "rationale": {
       "text": "Upright P wave in lead II (normal P axis ~0–75°) followed by narrow QRS indicates normal SA node origin with intact AV conduction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "61",
@@ -1156,7 +1336,10 @@
     "rationale": {
       "text": "Peripheral arterial disease (atherosclerosis) causes high upstream resistance and decreased distal perfusion — cool, pale skin and absent pulses are the hallmarks. [CORRECTED from original]",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "62",
@@ -1175,7 +1358,10 @@
     "rationale": {
       "text": "Vasomotion — rhythmic spontaneous contraction and relaxation of terminal arterioles — intermittently opens and closes capillary beds.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "63",
@@ -1194,7 +1380,10 @@
     "rationale": {
       "text": "In PDA, aortic pressure > pulmonary artery pressure; blood shunts left-to-right throughout the cardiac cycle, increasing pulmonary flow and LV volume overload (wide pulse pressure from diastolic runoff).",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "64",
@@ -1213,7 +1402,10 @@
     "rationale": {
       "text": "The QT interval encompasses the entire ventricular electrical cycle (depolarization + repolarization); prolonged QT primarily reflects delayed ventricular repolarization.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "65",
@@ -1232,7 +1424,10 @@
     "rationale": {
       "text": "Polycythemia (elevated hematocrit) increases blood viscosity proportionally; by Poiseuille's law, increased viscosity reduces flow at the same pressure gradient.",
       "images": []
-    }
+    },
+    "tags": [
+      "Cardiology"
+    ]
   },
   {
     "id": "66",
@@ -1251,7 +1446,10 @@
     "rationale": {
       "text": "Alveolar gas equation: PAO₂ = PIO₂ − PaCO₂/RQ = (760−47)×0.21 − 40/0.8 = 150 − 50 = 100 mm Hg.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "67",
@@ -1270,7 +1468,10 @@
     "rationale": {
       "text": "A-a gradient = PAO₂ − PaO₂ = 105 − 65 = 40 mm Hg.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "68",
@@ -1289,7 +1490,10 @@
     "rationale": {
       "text": "RV = FRC − ERV = 4.5 − 1.0 = 3.5 L; VC = TLC − RV = 7.5 − 3.5 = 4.0 L; IC = VC − ERV = 4.0 − 1.0 = 3.0 L.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "69",
@@ -1308,7 +1512,10 @@
     "rationale": {
       "text": "Gravity preferentially distributes blood flow to the base; the apex receives relatively more ventilation for its blood flow, giving a high V/Q ratio.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "70",
@@ -1327,7 +1534,10 @@
     "rationale": {
       "text": "Hypoxemia refractory to 100% O₂ is the hallmark of an anatomic right-to-left shunt; shunted blood bypasses ventilated alveoli entirely.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "71",
@@ -1346,7 +1556,10 @@
     "rationale": {
       "text": "FEV₁/FVC < 70% (here 60%) defines obstruction; both FVC and FEV₁ may be reduced but FEV₁ falls proportionally more.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "72",
@@ -1365,7 +1578,10 @@
     "rationale": {
       "text": "Only peripheral chemoreceptors (carotid bodies primarily) respond to low PaO₂; central chemoreceptors respond to CO₂/H⁺, not hypoxia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "73",
@@ -1384,7 +1600,10 @@
     "rationale": {
       "text": "DKA causes metabolic acidosis; respiratory compensation is Kussmaul hyperventilation (deep, rapid breaths) to blow off CO₂ and raise pH.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "74",
@@ -1403,7 +1622,10 @@
     "rationale": {
       "text": "AG = Na⁺ − (Cl⁻ + HCO₃⁻) = 140 − (100 + 12) = 28 mEq/L. [CORRECTED — original key listed A (12), which is incorrect]",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "75",
@@ -1422,7 +1644,10 @@
     "rationale": {
       "text": "A rightward shift (decreased O₂ affinity, higher P50) is caused by acidosis, hyperthermia, hypercapnia, and increased 2,3-BPG — the Bohr effect.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "76",
@@ -1441,7 +1666,10 @@
     "rationale": {
       "text": "Chronic hypoxia stimulates erythropoietin release, increasing RBC production — secondary (reactive) polycythemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "77",
@@ -1460,7 +1688,10 @@
     "rationale": {
       "text": "VA = (TV − VD) × RR = (0.5 − 0.15) × 12 = 0.35 × 12 = 4.2 L/min. [CORRECTED — original key listed B (3.6), which is incorrect]",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "78",
@@ -1479,7 +1710,10 @@
     "rationale": {
       "text": "Tissues produce CO₂ through aerobic metabolism; it diffuses into venous blood, raising venous PCO₂ (≈46 mm Hg) above arterial PCO₂ (≈40 mm Hg); the lungs then eliminate it.",
       "images": []
-    }
+    },
+    "tags": [
+      "Respiratory"
+    ]
   },
   {
     "id": "79",
@@ -1498,7 +1732,10 @@
     "rationale": {
       "text": "Prerenal AKI: reduced perfusion pressure decreases RBF and GFR proportionally; filtration fraction (GFR/RBF) is initially preserved or elevated due to efferent arteriolar constriction by angiotensin II.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal"
+    ]
   },
   {
     "id": "80",
@@ -1517,7 +1754,10 @@
     "rationale": {
       "text": "CKD is characterized by progressive glomerulosclerosis, tubular atrophy, and interstitial fibrosis — the final common pathway regardless of etiology.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal"
+    ]
   },
   {
     "id": "81",
@@ -1536,7 +1776,10 @@
     "rationale": {
       "text": "ADH-regulated urea transporters (UT-A1/UT-A3) in the inner medullary collecting duct reabsorb urea, recycling it into the medullary interstitium to maintain the osmotic gradient.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal"
+    ]
   },
   {
     "id": "82",
@@ -1555,7 +1798,10 @@
     "rationale": {
       "text": "Renal compensation for respiratory alkalosis: the kidney reduces H⁺ secretion and excretes excess HCO₃⁻, lowering plasma HCO₃⁻ toward normal.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal"
+    ]
   },
   {
     "id": "83",
@@ -1574,7 +1820,10 @@
     "rationale": {
       "text": "AG = Na⁺ − (Cl⁻ + HCO₃⁻) = 140 − (102 + 15) = 23 mEq/L.",
       "images": []
-    }
+    },
+    "tags": [
+      "Renal"
+    ]
   },
   {
     "id": "84",
@@ -1593,7 +1842,10 @@
     "rationale": {
       "text": "During the cephalic phase, vagal stimulation releases ACh (directly stimulating parietal cells) and GRP, causing antral G cells to secrete gastrin, which is the primary hormonal stimulus for acid secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "85",
@@ -1612,7 +1864,10 @@
     "rationale": {
       "text": "Histamine from ECL cells acts on H2 receptors to raise cAMP in parietal cells, amplifying the stimulatory effects of both ACh and gastrin.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "86",
@@ -1631,7 +1886,10 @@
     "rationale": {
       "text": "Acid penetrates and erodes the mucosal layer first, damaging the surface epithelium and underlying glands before reaching deeper layers.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "87",
@@ -1650,7 +1908,10 @@
     "rationale": {
       "text": "The half-time of gastric emptying is defined as the time required for 50% of the meal to empty from the stomach — 60 minutes by the data given.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "88",
@@ -1669,7 +1930,10 @@
     "rationale": {
       "text": "Pancreatic lipase is the primary enzyme for triglyceride hydrolysis; its deficiency in chronic pancreatitis leads to fat malabsorption (steatorrhea).",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "89",
@@ -1688,7 +1952,10 @@
     "rationale": {
       "text": "Interstitial cells of Cajal generate slow waves (3–12/min depending on segment) that set the maximum frequency of peristaltic contractions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "90",
@@ -1707,7 +1974,10 @@
     "rationale": {
       "text": "Bile duct obstruction prevents bile salt delivery to the duodenum; without bile salts for emulsification, fat digestion and absorption are severely impaired.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "91",
@@ -1726,7 +1996,10 @@
     "rationale": {
       "text": "Secretin, released by S cells in response to duodenal acidification, stimulates pancreatic ductal cells to secrete large volumes of HCO₃⁻-rich fluid.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "92",
@@ -1745,7 +2018,10 @@
     "rationale": {
       "text": "Intestinal distension activates the intestinointestinal inhibitory reflex, which inhibits motility in segments distal to the obstruction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "93",
@@ -1764,7 +2040,10 @@
     "rationale": {
       "text": "Celiac disease causes T-cell-mediated destruction of enterocytes, resulting in villous atrophy (decreased absorptive surface) and compensatory crypt hyperplasia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "94",
@@ -1783,7 +2062,10 @@
     "rationale": {
       "text": "Na⁺-coupled nutrient cotransporters (SGLT1, etc.) on the apical membrane drive Na⁺ and solute entry; basolateral Na⁺-K⁺ ATPase then extrudes Na⁺, creating an osmotic gradient that pulls water.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "95",
@@ -1802,7 +2084,10 @@
     "rationale": {
       "text": "Gastric parietal cells secrete intrinsic factor (IF); gastrectomy removes parietal cell mass, reducing IF and preventing ileal absorption of vitamin B12, causing pernicious-type megaloblastic anemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "96",
@@ -1821,7 +2106,10 @@
     "rationale": {
       "text": "Bile salts (amphipathic molecules) emulsify dietary fat into micelles, increasing the surface area available for pancreatic lipase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "97",
@@ -1840,7 +2128,10 @@
     "rationale": {
       "text": "Duodenal distension and fatty/acidic chyme trigger the enterogastric reflex and release CCK and secretin, which inhibit gastric emptying to allow duodenal processing.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "98",
@@ -1859,7 +2150,10 @@
     "rationale": {
       "text": "Proton-pump inhibitors (omeprazole, etc.) irreversibly inhibit the H⁺-K⁺ ATPase on the secretory canalicular membrane of parietal cells, blocking the final step of acid secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "99",
@@ -1878,7 +2172,10 @@
     "rationale": {
       "text": "Pancreatic alpha-amylase cleaves alpha-1,4-glycosidic bonds in starch to produce maltose and oligosaccharides — the primary enzyme for starch digestion.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "100",
@@ -1897,7 +2194,10 @@
     "rationale": {
       "text": "SGLT1 uses the inwardly directed Na⁺ electrochemical gradient (maintained by basolateral Na⁺-K⁺ ATPase) to co-transport glucose uphill — secondary active transport.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "101",
@@ -1916,7 +2216,10 @@
     "rationale": {
       "text": "Lactase (on the brush border of enterocytes) cleaves lactose into glucose and galactose; its deficiency leaves unabsorbed lactose, which is fermented by colonic bacteria, causing bloating, cramps, and osmotic diarrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "102",
@@ -1935,7 +2238,10 @@
     "rationale": {
       "text": "Cirrhosis increases intrahepatic resistance → portal hypertension; compensatory splanchnic vasodilation (NO-mediated) further increases portal inflow and blood flow.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "103",
@@ -1954,7 +2260,10 @@
     "rationale": {
       "text": "CCK, released by I cells in response to fat and protein in the duodenum, is the primary stimulus for gallbladder contraction and relaxation of the sphincter of Oddi.",
       "images": []
-    }
+    },
+    "tags": [
+      "Gastrointestinal"
+    ]
   },
   {
     "id": "104",
@@ -1973,7 +2282,10 @@
     "rationale": {
       "text": "Prolactinoma is the most common functional pituitary adenoma; galactorrhea, amenorrhea, and hyperprolactinemia are the classic triad.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "105",
@@ -1992,7 +2304,10 @@
     "rationale": {
       "text": "The hypothalamus secretes CRH, which drives ACTH release from the anterior pituitary; hypothalamic failure causes both low CRH and thus low ACTH and low cortisol.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "106",
@@ -2011,7 +2326,10 @@
     "rationale": {
       "text": "Posm = 2×Na + glucose/18 + BUN/2.8 = 2×140 + 180/18 + 28/2.8 = 280 + 10 + 10 = 300 mOsm/kg. [CORRECTED from original key]",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "107",
@@ -2030,7 +2348,10 @@
     "rationale": {
       "text": "Central DI results from insufficient ADH secretion from the posterior pituitary; without ADH, the collecting duct is impermeable to water, producing large volumes of dilute urine.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "108",
@@ -2049,7 +2370,10 @@
     "rationale": {
       "text": "Hyperthyroidism is defined by excess T3/T4; TSH is suppressed by negative feedback. T3 and T4 increase basal metabolic rate, causing weight loss, heat intolerance, and tachycardia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "109",
@@ -2068,7 +2392,10 @@
     "rationale": {
       "text": "Primary hypothyroidism = thyroid gland failure; the pituitary compensates by raising TSH. Low T4 + high TSH points to the thyroid as the primary defect.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "110",
@@ -2087,7 +2414,10 @@
     "rationale": {
       "text": "Pheochromocytoma is a catecholamine-secreting tumor of the adrenal medulla; excess epinephrine and norepinephrine cause episodic hypertension, palpitations, headache, and sweating.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "111",
@@ -2106,7 +2436,10 @@
     "rationale": {
       "text": "Conn's syndrome = primary hyperaldosteronism; excess aldosterone causes Na⁺ retention (hypertension), K⁺ wasting (hypokalemia), and H⁺ loss (metabolic alkalosis).",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "112",
@@ -2125,7 +2458,10 @@
     "rationale": {
       "text": "Hyperglycemia in diabetes results from absolute (T1DM) or relative (T2DM) insulin deficiency or peripheral insulin resistance.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "113",
@@ -2144,7 +2480,10 @@
     "rationale": {
       "text": "Hypothyroidism (low T3/T4) reduces basal metabolic rate, causing weight gain, cold intolerance, bradycardia, and fatigue.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "114",
@@ -2163,7 +2502,10 @@
     "rationale": {
       "text": "Addison's disease = primary adrenal insufficiency; deficiency of both cortisol (hypotension, fatigue) and aldosterone (hyponatremia, hyperkalemia) is characteristic.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "115",
@@ -2182,7 +2524,10 @@
     "rationale": {
       "text": "Cushing's syndrome results from chronic glucocorticoid (cortisol) excess — the classic features are central obesity, moon facies, buffalo hump, and purple striae.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "116",
@@ -2201,7 +2546,10 @@
     "rationale": {
       "text": "Graves' disease is caused by TSI (thyroid-stimulating immunoglobulins) that bind and activate TSH receptors, causing unregulated thyroid hormone production.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "117",
@@ -2220,7 +2568,10 @@
     "rationale": {
       "text": "Without insulin, glucagon dominates; hepatic glycogenolysis and gluconeogenesis are maximally activated, raising plasma glucose further despite already elevated levels.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "118",
@@ -2239,7 +2590,10 @@
     "rationale": {
       "text": "In T2DM, the primary sites of insulin resistance are liver (increased hepatic glucose output) and skeletal muscle (decreased glucose uptake).",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "119",
@@ -2258,7 +2612,10 @@
     "rationale": {
       "text": "Excess PTH activates osteoclasts, increasing bone resorption and causing osteoporosis and subperiosteal erosions (osteitis fibrosa cystica in severe cases).",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "120",
@@ -2277,7 +2634,10 @@
     "rationale": {
       "text": "Hypoparathyroidism (low PTH) causes hypocalcemia (and hyperphosphatemia); tetany and seizures result from reduced ionized calcium. [NOTE: Question corrected — original said 'elevated PTH' which is contradictory; low PTH is consistent with hypoparathyroidism]",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "121",
@@ -2296,7 +2656,10 @@
     "rationale": {
       "text": "Alpha-blockade (phenoxybenzamine) must precede beta-blockade to prevent unopposed alpha-adrenergic vasoconstriction (hypertensive crisis) that would result from beta-blockade alone.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "122",
@@ -2315,7 +2678,10 @@
     "rationale": {
       "text": "Vitamin D deficiency reduces Ca²⁺ absorption, leading to hypocalcemia that stimulates PTH (secondary hyperparathyroidism); calcitriol supplementation corrects this.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "123",
@@ -2334,7 +2700,10 @@
     "rationale": {
       "text": "Acromegaly (in adults) results from excess GH (and IGF-1), causing soft-tissue and bony overgrowth — acral enlargement, coarsening of facial features, macroglossia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "124",
@@ -2353,7 +2722,10 @@
     "rationale": {
       "text": "IPSS is the gold-standard test to confirm a pituitary (Cushing's disease) vs ectopic ACTH source, showing central-to-peripheral ACTH gradient.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "125",
@@ -2372,7 +2744,10 @@
     "rationale": {
       "text": "Nutritional stress suppresses hypothalamic GnRH pulse frequency, reducing LH and FSH, leading to hypogonadotropic hypogonadism and amenorrhea.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "126",
@@ -2391,7 +2766,10 @@
     "rationale": {
       "text": "Chronic hyperglycemia causes microvascular damage through advanced glycation end products (AGEs) and polyol pathway activation, leading to retinopathy, nephropathy, and neuropathy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "127",
@@ -2410,7 +2788,10 @@
     "rationale": {
       "text": "Primary ovarian failure: the ovaries cannot produce estrogen; loss of negative feedback elevates FSH. High FSH + low estradiol = primary (ovarian) etiology.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "128",
@@ -2429,7 +2810,10 @@
     "rationale": {
       "text": "PTHrP is produced by many tumors (especially prostate, breast, lung); it activates PTH receptors, causing osteolytic hypercalcemia of malignancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "Endocrinology"
+    ]
   },
   {
     "id": "129",
@@ -2448,7 +2832,10 @@
     "rationale": {
       "text": "The LH surge on approximately day 13–14 triggers ovulation; ovulation predictor tests detect this surge.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "130",
@@ -2467,7 +2854,10 @@
     "rationale": {
       "text": "Primary hypogonadism = testicular failure; testosterone (and inhibin B) are low, with compensatory rise in LH and FSH.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "131",
@@ -2486,7 +2876,10 @@
     "rationale": {
       "text": "hCG produced by the trophoblast rescues the corpus luteum from luteal regression, maintaining progesterone secretion until the placenta takes over at ~10 weeks.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "132",
@@ -2505,7 +2898,10 @@
     "rationale": {
       "text": "In PCOS, the LH:FSH ratio is elevated, preventing normal follicular maturation and the mid-cycle LH surge, thus disrupting ovulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "133",
@@ -2524,7 +2920,10 @@
     "rationale": {
       "text": "Klinefelter syndrome causes primary testicular failure; loss of negative feedback by testosterone and inhibin B leads to elevated FSH and LH.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "134",
@@ -2543,7 +2942,10 @@
     "rationale": {
       "text": "After ovulation, the granulosa cells luteinize to form the corpus luteum, which secretes progesterone during the luteal phase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "135",
@@ -2562,7 +2964,10 @@
     "rationale": {
       "text": "Varicocele causes venous reflux that raises scrotal temperature; spermatogenesis requires a temperature 2–3°C below body temperature and is impaired by this increase.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "136",
@@ -2581,7 +2986,10 @@
     "rationale": {
       "text": "Oxytocin (from the posterior pituitary) acts on myometrial oxytocin receptors (upregulated by estrogen near term) to stimulate and coordinate uterine contractions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "137",
@@ -2600,7 +3008,10 @@
     "rationale": {
       "text": "Low LH and FSH indicate hypothalamic or pituitary suppression (hypogonadotropic hypogonadism); hypothalamic amenorrhea (stress, weight loss, exercise) is the most common cause.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "138",
@@ -2619,7 +3030,10 @@
     "rationale": {
       "text": "Low testosterone with elevated FSH suggests Leydig cell dysfunction (LH-dependent testosterone production is impaired), while Sertoli cells and spermatogenesis may be partially preserved.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "139",
@@ -2638,7 +3052,10 @@
     "rationale": {
       "text": "FSH drives follicular growth and maturation in the early follicular phase; it stimulates granulosa cell proliferation and aromatase activity.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "140",
@@ -2657,7 +3074,10 @@
     "rationale": {
       "text": "Endometriosis is caused by retrograde flow of menstrual debris through the fallopian tubes; ectopic endometrial implants cause inflammation, adhesions, and infertility.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "141",
@@ -2676,7 +3096,10 @@
     "rationale": {
       "text": "Urine pregnancy tests detect the beta subunit of hCG; hCG rises steeply from implantation. A negative test at 4 weeks may reflect very early timing (hCG below detection threshold).",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "142",
@@ -2695,7 +3118,10 @@
     "rationale": {
       "text": "Normal FSH + normal testosterone + azoospermia = obstructive azoospermia; the epididymis or vas deferens is the most common site of obstruction (e.g., post-vasectomy, congenital absence of vas).",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "143",
@@ -2714,7 +3140,10 @@
     "rationale": {
       "text": "Progesterone (from the corpus luteum) transforms the proliferative endometrium into the secretory endometrium — coiled glands, increased vascularity, glycogen accumulation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Reproductive"
+    ]
   },
   {
     "id": "144",
@@ -2733,7 +3162,10 @@
     "rationale": {
       "text": "Muscle fatigue is primarily caused by ATP depletion and Pi accumulation, impairing myosin ATPase activity and reducing the rate of cross-bridge detachment.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "145",
@@ -2752,7 +3184,10 @@
     "rationale": {
       "text": "Summation of twitches at high stimulus frequency produces tetanic contraction (tetanus) — smooth, sustained, maximal tension.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "146",
@@ -2771,7 +3206,10 @@
     "rationale": {
       "text": "Neostigmine is a reversible acetylcholinesterase inhibitor; it prevents ACh breakdown, prolonging end-plate potentials.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "147",
@@ -2790,7 +3228,10 @@
     "rationale": {
       "text": "MG is caused by IgG autoantibodies against postsynaptic nicotinic AChRs, reducing receptor density and causing fatigable weakness.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "148",
@@ -2809,7 +3250,10 @@
     "rationale": {
       "text": "At 2.2 µm sarcomere length, actin and myosin filaments overlap maximally, allowing the greatest number of cross-bridge interactions.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "149",
@@ -2828,7 +3272,10 @@
     "rationale": {
       "text": "Eccentric contractions generate high mechanical stress, causing sarcomere disruption and microtears; the resulting inflammatory response (prostaglandins, cytokines) causes delayed soreness 24–72 hours later.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "150",
@@ -2847,7 +3294,10 @@
     "rationale": {
       "text": "Skeletal muscle action potentials last ~2–5 ms (vs ~1 ms in nerve) largely because of a more prolonged K⁺ conductance, which slightly delays full repolarization.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "151",
@@ -2866,7 +3316,10 @@
     "rationale": {
       "text": "Type IIx (fast glycolytic) fibers are the largest, fastest, and most fatigable; they are recruited for high-force, short-duration activities.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "152",
@@ -2885,7 +3338,10 @@
     "rationale": {
       "text": "Ryanodine receptors (RyR1) are the SR Ca²⁺ release channels; blocking them prevents the Ca²⁺ transient required for troponin C activation and cross-bridge cycling.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "153",
@@ -2904,7 +3360,10 @@
     "rationale": {
       "text": "Lambert-Eaton syndrome: autoantibodies against presynaptic voltage-gated Ca²⁺ channels reduce ACh release; repeated stimulation allows Ca²⁺ accumulation and improvement.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "154",
@@ -2923,7 +3382,10 @@
     "rationale": {
       "text": "Treppe (staircase effect): each successive twitch is slightly stronger than the last due to residual Ca²⁺ and warming, until a steady-state is reached.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "155",
@@ -2942,7 +3404,10 @@
     "rationale": {
       "text": "Type II (fast-twitch) fibers rely primarily on anaerobic glycolysis, have fast myosin ATPase, generate high peak force rapidly, but fatigue quickly.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "156",
@@ -2961,7 +3426,10 @@
     "rationale": {
       "text": "Voltage-gated Na⁺ channels initiate and propagate the muscle action potential along the sarcolemma and into the T tubular system, triggering excitation-contraction coupling.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "157",
@@ -2980,7 +3448,10 @@
     "rationale": {
       "text": "Malignant hyperthermia is caused by RyR1 mutations that allow uncontrolled Ca²⁺ release from the SR in response to volatile anesthetics, causing sustained muscle contraction and hyperthermia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "158",
@@ -2999,7 +3470,10 @@
     "rationale": {
       "text": "Smooth muscle myosin has a very low ATPase rate; the latch state allows sustained tension with minimal ATP consumption and slow, tonic contraction.",
       "images": []
-    }
+    },
+    "tags": [
+      "Muscle"
+    ]
   },
   {
     "id": "159",
@@ -3018,7 +3492,10 @@
     "rationale": {
       "text": "Maximal exercise increases CO through both HR (up to ~200/min) and SV (Frank-Starling + enhanced contractility + reduced afterload).",
       "images": []
-    }
+    },
+    "tags": [
+      "Integrative Physiology"
+    ]
   },
   {
     "id": "160",
@@ -3037,7 +3514,10 @@
     "rationale": {
       "text": "At high altitude, barometric pressure falls, reducing the PO₂ of inspired air; this lowers alveolar PO₂ and arterial PaO₂, causing hypoxic hypoxia.",
       "images": []
-    }
+    },
+    "tags": [
+      "Integrative Physiology"
+    ]
   },
   {
     "id": "161",
@@ -3056,7 +3536,10 @@
     "rationale": {
       "text": "In a hot, humid environment, evaporation of sweat is the dominant mechanism of heat loss; radiation and convection are less effective when ambient temperature approaches body temperature.",
       "images": []
-    }
+    },
+    "tags": [
+      "Integrative Physiology"
+    ]
   },
   {
     "id": "162",
@@ -3075,7 +3558,10 @@
     "rationale": {
       "text": "During exercise, sympathetic activity constricts splanchnic (and renal) vessels, while local metabolites override sympathetic tone in active muscle, causing net vasodilation.",
       "images": []
-    }
+    },
+    "tags": [
+      "Integrative Physiology"
+    ]
   },
   {
     "id": "163",
@@ -3094,7 +3580,10 @@
     "rationale": {
       "text": "Thyroid hormones are essential for nonshivering thermogenesis (upregulating UCP1 in brown fat and increasing mitochondrial uncoupling); hypothyroidism impairs this pathway, making the patient cold-intolerant and reliant on shivering.",
       "images": []
-    }
+    },
+    "tags": [
+      "Integrative Physiology"
+    ]
   },
   {
     "id": "164",
@@ -3112,7 +3601,10 @@
     "rationale": {
       "text": "Gap junctions allow the flow of current between myocardial cells. Tight junctions, also called zonula occludens, may either be tight or leaky.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "165",
@@ -3130,7 +3622,10 @@
     "rationale": {
       "text": "Hemidesmosomes connect the basal cells to the basement membrane underneath it.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "166",
@@ -3148,7 +3643,10 @@
     "rationale": {
       "text": "GABA is an inhibitory neurotransmitter. The rest of the options are excitatory.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "167",
@@ -3166,7 +3664,10 @@
     "rationale": {
       "text": "Troponin C allows the binding of actin to myosin by exposing the myosin-binding sites. Troponin I inhibits the binding. Troponin T attaches tropomyosin to the troponin complex.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "168",
@@ -3184,7 +3685,10 @@
     "rationale": {
       "text": "Smooth muscle. The molecular basis of contraction of skeletal and cardiac muscle is Ca²⁺-troponin C.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "169",
@@ -3202,7 +3706,10 @@
     "rationale": {
       "text": "Type II: Fast contraction velocity, White fiber color, Anaerobic glycolysis. Type I: Slow contraction, Red color, Oxidative phosphorylation.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "170",
@@ -3220,7 +3727,10 @@
     "rationale": {
       "text": "Optic nerve lesions result in ipsilateral eye blindness. Optic chiasm = bitemporal hemianopia. Optic tract = homonymous contralateral hemianopia.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "171",
@@ -3238,7 +3748,10 @@
     "rationale": {
       "text": "Myopia is corrected with a biconcave lens. Hyperopia is corrected with a biconvex lens. Astigmatism is corrected with a cylindric lens.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "172",
@@ -3256,7 +3769,10 @@
     "rationale": {
       "text": "The medulla contains vasomotor, respiratory, swallowing, coughing, and vomiting centers. The pneumotaxic center is in the pons.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "173",
@@ -3274,7 +3790,10 @@
     "rationale": {
       "text": "Increased dromotropic effect means increased conduction velocity through the AV node. Chronotropic = heart rate. Inotropic = contractility.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "174",
@@ -3292,7 +3811,10 @@
     "rationale": {
       "text": "A sarcomere is defined as the segment between two neighboring Z lines.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "175",
@@ -3310,7 +3832,10 @@
     "rationale": {
       "text": "During muscle contraction or shortening, the A band remains the same length. The I band and the H band both shorten.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "176",
@@ -3328,7 +3853,10 @@
     "rationale": {
       "text": "GLUT 4 is found in adipose tissue and striated muscles and is an insulin-dependent glucose transporter. GLUT 1, 2, and 3 are insulin-independent.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "177",
@@ -3346,7 +3874,10 @@
     "rationale": {
       "text": "Conditions that shift the curve to the RIGHT (reduced Hgb affinity): Exercise, Decreased pH, Increased PCO₂, Increased temperature, Hypoxia, Increased 2,3 DPG.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "178",
@@ -3364,7 +3895,10 @@
     "rationale": {
       "text": "The majority of blood CO₂ is transported to lungs in the form of HCO₃⁻.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "179",
@@ -3382,7 +3916,10 @@
     "rationale": {
       "text": "Central chemoreceptors are stimulated by a decrease in pH of the CSF. H⁺ does not cross the blood-brain barrier. They do not respond directly to changes in PO₂.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "180",
@@ -3400,7 +3937,10 @@
     "rationale": {
       "text": "An awake, alert patient with eyes open will show beta waves. An awake, alert patient with eyes closed will show alpha waves.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "181",
@@ -3418,7 +3958,10 @@
     "rationale": {
       "text": "Sleep spindles and K complexes in the EEG are found in stage N2 of non-REM sleep.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "182",
@@ -3436,7 +3979,10 @@
     "rationale": {
       "text": "The PR interval is influenced by the conduction velocity through the AV node. If conduction velocity slows down, the PR interval becomes prolonged.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "183",
@@ -3454,7 +4000,10 @@
     "rationale": {
       "text": "Ventricular repolarization is represented by the T wave. P wave = atrial depolarization. QRS complex = ventricular depolarization.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "184",
@@ -3472,7 +4021,10 @@
     "rationale": {
       "text": "Phospholamban phosphorylation leads to increased activity of the Ca²⁺ ATPase, increasing Ca²⁺ stored in the sarcoplasmic reticulum, making more calcium available for the next cardiac beats.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "185",
@@ -3490,7 +4042,10 @@
     "rationale": {
       "text": "Factors that increase myocardial oxygen demand: Increased cardiac contractility, Increased afterload, Increased HR, and Increased ventricular diameter. Reduced afterload decreases it.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "186",
@@ -3508,7 +4063,10 @@
     "rationale": {
       "text": "Dopamine tonically inhibits prolactin secretion from the anterior pituitary. Dopamine antagonists can cause hyperprolactinemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "187",
@@ -3526,7 +4084,10 @@
     "rationale": {
       "text": "TSH, FSH, and LH have the same alpha subunits because they belong to the same glycoprotein family. ACTH is derived from proopiomelanocortin (POMC).",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "188",
@@ -3544,7 +4105,10 @@
     "rationale": {
       "text": "Lesions of the substantia nigra may result in Parkinson disease. Lesions of the striatum may occur in Huntington disease. Lesions of the subthalamic nucleus may give rise to hemiballismus.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "189",
@@ -3562,7 +4126,10 @@
     "rationale": {
       "text": "Damage to the Broca area may result in motor aphasia, where understanding is intact, but speech and writing are impaired.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "190",
@@ -3580,7 +4147,10 @@
     "rationale": {
       "text": "Parafollicular cells (C cells) of the thyroid produce calcitonin.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "191",
@@ -3598,7 +4168,10 @@
     "rationale": {
       "text": "Aldosterone is produced in the zona glomerulosa. Cortisol = zona fasciculata. Androgens = zona reticularis.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "192",
@@ -3616,7 +4189,10 @@
     "rationale": {
       "text": "Cortisol has all the listed effects to stimulate gluconeogenesis: Increased protein catabolism, Decreased glucose utilization, and Increased lipolysis.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "193",
@@ -3634,7 +4210,10 @@
     "rationale": {
       "text": "The external intercostals and accessory muscles are not used during quiet inspiration. They are only used during exercise or respiratory distress.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "194",
@@ -3652,7 +4231,10 @@
     "rationale": {
       "text": "ADH increases water permeability via a V2 receptor using the cAMP signaling pathway. The IP3 pathway is used via a V1 receptor for vasoconstriction.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "195",
@@ -3670,7 +4252,10 @@
     "rationale": {
       "text": "This is the Haldane effect. The Bohr effect occurs at the cellular level where increased hydrogen and CO₂ lead to increased unloading of oxygen at the tissues.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "196",
@@ -3688,7 +4273,10 @@
     "rationale": {
       "text": "Na/Ca²⁺ exchange is an example of secondary active transport where energy is indirectly provided from the Na gradient. The rest are examples of primary active transport.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "197",
@@ -3706,7 +4294,10 @@
     "rationale": {
       "text": "In this example, Na⁺ is transported 'downhill' while glucose is transported 'uphill'. Therefore, it is an example of secondary active transport.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "198",
@@ -3724,7 +4315,10 @@
     "rationale": {
       "text": "Oligodendrocytes synthesize myelin in the CNS. Schwann cells produce myelin in the PNS.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "199",
@@ -3742,7 +4336,10 @@
     "rationale": {
       "text": "Arterioles provide the highest resistance in the cardiovascular system.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "200",
@@ -3760,7 +4357,10 @@
     "rationale": {
       "text": "Veins contain the highest proportion of blood in the CV system. Capillaries comprise the largest total cross-sectional area.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "201",
@@ -3778,7 +4378,10 @@
     "rationale": {
       "text": "Na-K-2Cl transport is an example of cotransport (secondary active transport). Na/Ca exchange is an example of countertransport or antiport.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "202",
@@ -3796,7 +4399,10 @@
     "rationale": {
       "text": "Phase 3 of the SA node action potential is Repolarization, caused by increased K⁺ efflux. There is no Phase 1 and Phase 2 in a pacemaker action potential.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "203",
@@ -3814,7 +4420,10 @@
     "rationale": {
       "text": "Phase 4: Slow depolarization caused by inward Na⁺ current called If (funny current). This accounts for automaticity of the SA and AV node.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "204",
@@ -3832,7 +4441,10 @@
     "rationale": {
       "text": "Submucosal plexus controls secretion and blood flow in the GI tract. Myenteric plexus controls GI smooth muscle motility.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "205",
@@ -3850,7 +4462,10 @@
     "rationale": {
       "text": "Increased afterload results in a decrease in stroke volume. The rest of the choices result in an increase in stroke volume.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "206",
@@ -3868,7 +4483,10 @@
     "rationale": {
       "text": "Accessory sex organs such as the prostate convert testosterone to dihydrotestosterone using 5 alpha-reductase.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "207",
@@ -3886,7 +4504,10 @@
     "rationale": {
       "text": "Leydig cells secrete testosterone.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "208",
@@ -3904,7 +4525,10 @@
     "rationale": {
       "text": "PTH-rp released by certain tumors, such as breast cancers and squamous cell carcinoma of the lung, increases bone resorption leading to hypercalcemia.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "209",
@@ -3922,7 +4546,10 @@
     "rationale": {
       "text": "CCK is secreted by I cells and increases secretion of amylase, lipases, and proteases. S cells secrete secretin.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "210",
@@ -3940,7 +4567,10 @@
     "rationale": {
       "text": "Vitamin B12 is absorbed in the ileum and requires intrinsic factor.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "211",
@@ -3958,7 +4588,10 @@
     "rationale": {
       "text": "Fructose is transported through facilitated diffusion (GLUT5). Glucose and galactose are transported using Na-dependent cotransport (SGLT1).",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "212",
@@ -3976,7 +4609,10 @@
     "rationale": {
       "text": "The main regulator of insulin release is glucose.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "213",
@@ -3994,7 +4630,10 @@
     "rationale": {
       "text": "ACTH, MSH, Beta-lipotropin, and Beta-endorphin are derived from POMC. GHRH is not.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "214",
@@ -4012,7 +4651,10 @@
     "rationale": {
       "text": "Secretion of GH is increased by: Sleep, Stress, Puberty hormones, Starvation, Hypoglycemia, and Exercise. It is decreased by: Somatostatin, Somatomedin, Obesity, Hyperglycemia, and Pregnancy.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "215",
@@ -4030,7 +4672,10 @@
     "rationale": {
       "text": "Increased linear growth which happens during a pubertal growth spurt is due to actions of growth hormone through IGF-1, not a direct action of growth hormone.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "216",
@@ -4048,7 +4693,10 @@
     "rationale": {
       "text": "Vital capacity (VC) is the sum of tidal volume (TV), IRV and ERV. FRC is the volume remaining after a TV is expired. IC is the sum of TV and IRV. TLC is the sum of all 4 lung volumes.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "217",
@@ -4066,7 +4714,10 @@
     "rationale": {
       "text": "Lung surfactant is made up primarily of dipalmitoylphosphatidylcholine (DPPC) by type II alveolar cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "218",
@@ -4084,7 +4735,10 @@
     "rationale": {
       "text": "Hypoxia causes vasoconstriction of the pulmonary vessels. In most organs in the body, hypoxia causes vasodilation.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "219",
@@ -4102,7 +4756,10 @@
     "rationale": {
       "text": "Prostaglandins dilate the afferent arteriole while angiotensin II constricts the efferent arteriole.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "220",
@@ -4120,7 +4777,10 @@
     "rationale": {
       "text": "GH and prolactin are secreted by acidophils. FSH, LH, TSH, ACTH are secreted by basophils.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "221",
@@ -4138,7 +4798,10 @@
     "rationale": {
       "text": "Renal blood flow is 25% of the cardiac output.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "222",
@@ -4156,7 +4819,10 @@
     "rationale": {
       "text": "The volume of the conducting airways is called anatomic dead space.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "223",
@@ -4174,7 +4840,10 @@
     "rationale": {
       "text": "Excretion of glucose in the urine happens when the plasma glucose reaches 250 mg/dL. This is also called the threshold.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "224",
@@ -4192,7 +4861,10 @@
     "rationale": {
       "text": "Principal cells secrete K⁺ and reabsorb Na⁺. Alpha-intercalated cells reabsorb K⁺.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "225",
@@ -4210,7 +4882,10 @@
     "rationale": {
       "text": "The Cushing reflex occurs in patients with increased intracranial pressure. Components include: Hypertension, Bradycardia, and Respiratory depression.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "226",
@@ -4228,7 +4903,10 @@
     "rationale": {
       "text": "If the reflection coefficient is 1 (such as albumin), the solute does not pass through the membrane, creating an osmotic pressure that drives water flow. If 0, it passes easily and does not create osmotic pressure.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "227",
@@ -4246,7 +4924,10 @@
     "rationale": {
       "text": "Sphincter muscle contraction in the bladder is a result of stimulation of α1 adrenergic receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "228",
@@ -4264,7 +4945,10 @@
     "rationale": {
       "text": "Stimulation of β2 adrenergic receptors causes bronchodilation. Inhibition of β2 receptors by using beta blockers will result in bronchoconstriction, exacerbating asthma.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "229",
@@ -4282,7 +4966,10 @@
     "rationale": {
       "text": "All choices are correct characteristics of the parasympathetic nervous system.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "230",
@@ -4300,7 +4987,10 @@
     "rationale": {
       "text": "The origin of preganglionic nerves of the sympathetic nervous system is in spinal cord segments T1-T12 and L1-L3.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "231",
@@ -4318,7 +5008,10 @@
     "rationale": {
       "text": "The adrenal medulla is innervated by preganglionic sympathetic fibers.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "232",
@@ -4336,7 +5029,10 @@
     "rationale": {
       "text": "Muscarinic antagonists in the bladder promote relaxation of the detrusor muscle by blocking M3 cholinergic receptors.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "233",
@@ -4354,7 +5050,10 @@
     "rationale": {
       "text": "The site of absorption of bile acids and Vitamin B12 is in the ileum.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "234",
@@ -4372,7 +5071,10 @@
     "rationale": {
       "text": "Iron is transported in the blood bound to transferrin. Ferritin is the storage protein.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "235",
@@ -4390,7 +5092,10 @@
     "rationale": {
       "text": "1,25 dihydroxycholecalciferol is the active form of Vitamin D.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "236",
@@ -4408,7 +5113,10 @@
     "rationale": {
       "text": "The dorsal column receives fine touch, vibration, pressure, 2-point discrimination, and proprioception. The anterolateral system handles temperature, pain, and light touch.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "237",
@@ -4426,7 +5134,10 @@
     "rationale": {
       "text": "Increased serum osmolality increases ADH secretion, not decreased osmolality. Volume contraction, pain, nausea, hypoglycemia, nicotine, and opiates also increase ADH.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "238",
@@ -4444,7 +5155,10 @@
     "rationale": {
       "text": "Thyroxine, dopamine, and melanin are all derived from tyrosine.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "239",
@@ -4462,7 +5176,10 @@
     "rationale": {
       "text": "All are part of the limbic system, which includes the hippocampus, amygdala, mammillary bodies, anterior thalamic nuclei, cingulate gyrus, and entorhinal cortex.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "240",
@@ -4480,7 +5197,10 @@
     "rationale": {
       "text": "Nigrostriatal: motor control. Mesocortical and mesolimbic: motivation and reward. Tuberoinfundibular: regulates prolactin secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "241",
@@ -4498,7 +5218,10 @@
     "rationale": {
       "text": "PGE2 is responsible for increasing the set-point temperature in the hypothalamus to produce a fever.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "242",
@@ -4516,7 +5239,10 @@
     "rationale": {
       "text": "Thromboxane A2 is a vasoconstrictor.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "243",
@@ -4534,7 +5260,10 @@
     "rationale": {
       "text": "An increased PCO₂ in the cerebral circulation causes vasodilation.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "244",
@@ -4552,7 +5281,10 @@
     "rationale": {
       "text": "The primary ion secreted in the intestinal lumen is chloride.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "245",
@@ -4570,7 +5302,10 @@
     "rationale": {
       "text": "1,25 dihydroxycholecalciferol is the active form of Vitamin D and is necessary in calcium absorption in the small intestine.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "246",
@@ -4588,7 +5323,10 @@
     "rationale": {
       "text": "Proton pump (H⁺/K⁺ ATPase) inhibitors such as omeprazole inhibit a transport pump that is classified as an example of primary active transport.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "247",
@@ -4606,7 +5344,10 @@
     "rationale": {
       "text": "Gastrin is secreted by G cells in the stomach antrum and increases gastric acid secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "248",
@@ -4624,7 +5365,10 @@
     "rationale": {
       "text": "Lateral nucleus is stimulated by ghrelin which is responsible for the feeling of hunger. Ventromedial nucleus is stimulated by leptin responsible for satiety.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "249",
@@ -4642,7 +5386,10 @@
     "rationale": {
       "text": "Patients with thyroid storm are given potassium iodide to decrease the synthesis of thyroid hormones. This is called the Wolff Chaikoff effect.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "250",
@@ -4660,7 +5407,10 @@
     "rationale": {
       "text": "Ionized calcium is the primary regulator of PTH.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "251",
@@ -4678,7 +5428,10 @@
     "rationale": {
       "text": "Examples of multiunit smooth muscles: Iris, Ciliary muscle of the lens, Vas deferens. Unitary smooth muscles: Uterus, GI tract, Ureter, Bladder.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "252",
@@ -4696,7 +5449,10 @@
     "rationale": {
       "text": "Exchange of nutrients, water and gases occur in the capillaries.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "253",
@@ -4714,7 +5470,10 @@
     "rationale": {
       "text": "Of the options, only the thick ascending limb of the loop of Henle is impermeable to water.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "254",
@@ -4732,7 +5491,10 @@
     "rationale": {
       "text": "CN IX: Taste on posterior 1/3 of the tongue. CN VII: Taste on anterior 2/3 of the tongue.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "255",
@@ -4750,7 +5512,10 @@
     "rationale": {
       "text": "Presence of fat stimulates the release of CCK which slows gastric emptying. Gastrin increases gastric motility.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "256",
@@ -4768,7 +5533,10 @@
     "rationale": {
       "text": "Ovulation occurs 14 days before menses.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "257",
@@ -4786,7 +5554,10 @@
     "rationale": {
       "text": "Ovulation occurs from estrogen-induced surge of LH.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "258",
@@ -4804,7 +5575,10 @@
     "rationale": {
       "text": "T3 is 3-4x more potent than T4. rT3 is inactive.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "259",
@@ -4822,7 +5596,10 @@
     "rationale": {
       "text": "ADH is synthesized in the supraoptic nuclei of the hypothalamus and is stored and released in the posterior pituitary.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "260",
@@ -4840,7 +5617,10 @@
     "rationale": {
       "text": "Aldosterone promotes Na⁺ reabsorption, K⁺ secretion, and H⁺ secretion in the collecting duct. It does NOT promote bicarbonate secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "261",
@@ -4858,7 +5638,10 @@
     "rationale": {
       "text": "The mitral and tricuspid valves open during diastole (not systole), allowing ventricular filling. During systole, AV valves are closed and semilunar valves are open.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "262",
@@ -4876,7 +5659,10 @@
     "rationale": {
       "text": "The bicarbonate-carbonic acid buffer system is the primary extracellular buffer in the blood, although hemoglobin is the most important intracellular buffer.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "263",
@@ -4894,7 +5680,10 @@
     "rationale": {
       "text": "Prerenal azotemia: BUN:Cr ratio > 20:1 because the kidney reabsorbs more urea (with sodium and water) when perfusion is decreased. Intrinsic disease gives a ratio ~10-15:1.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "264",
@@ -4912,7 +5701,10 @@
     "rationale": {
       "text": "ADH (vasopressin) acts on V2 receptors in the collecting duct to insert aquaporin-2 channels, promoting water reabsorption.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "265",
@@ -4930,7 +5722,10 @@
     "rationale": {
       "text": "The nephron is the functional unit of the kidney, consisting of the glomerulus, Bowman's capsule, proximal tubule, loop of Henle, distal tubule, and collecting duct.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "266",
@@ -4948,7 +5743,10 @@
     "rationale": {
       "text": "The urinary bladder is lined by transitional epithelium (urothelium), which can stretch and accommodate changes in volume.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "267",
@@ -4966,7 +5764,10 @@
     "rationale": {
       "text": "Insulin stimulates lipogenesis (fatty acid and triglyceride synthesis) and inhibits lipolysis (breakdown of stored fat) in adipose tissue.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "268",
@@ -4984,7 +5785,10 @@
     "rationale": {
       "text": "Estrogen synthesis requires both theca cells (which produce androgens under LH stimulation) and granulosa cells (which convert androgens to estrogens via aromatase under FSH stimulation) — the two-cell theory.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "269",
@@ -5002,7 +5806,10 @@
     "rationale": {
       "text": "Approximately 70% of CO₂ is transported as bicarbonate ions (HCO₃⁻) in plasma, formed by the action of carbonic anhydrase in red blood cells.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "270",
@@ -5020,7 +5827,10 @@
     "rationale": {
       "text": "Increased respiratory rate with unchanged tidal volume increases minute ventilation but also increases dead space ventilation proportionally. Net alveolar ventilation depends on the tidal volume minus dead space.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "271",
@@ -5038,7 +5848,10 @@
     "rationale": {
       "text": "Primary hyperparathyroidism: elevated PTH causes hypercalcemia (increased Ca absorption and bone resorption) and hypophosphatemia (increased urinary phosphate excretion).",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "272",
@@ -5056,7 +5869,10 @@
     "rationale": {
       "text": "Secretin is released by S cells in the duodenum in response to acidic chyme (low pH); it stimulates pancreatic bicarbonate secretion to neutralize the acid.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "273",
@@ -5074,7 +5890,10 @@
     "rationale": {
       "text": "Albumin is the most abundant plasma protein, responsible for maintaining oncotic pressure and transporting various substances including bilirubin, drugs, and fatty acids.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "274",
@@ -5092,7 +5911,10 @@
     "rationale": {
       "text": "Parasympathetic ganglia are located near or within the target organ (short postganglionic fibers). Sympathetic ganglia are in paravertebral chains (short preganglionic, long postganglionic). Sweat glands are an exception — they receive sympathetic innervation but release ACh.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "275",
@@ -5110,7 +5932,10 @@
     "rationale": {
       "text": "Renal autoregulation maintains relatively constant GFR and RBF over a range of arterial pressures (80–180 mmHg) through the myogenic response and tubuloglomerular feedback.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "276",
@@ -5128,7 +5953,10 @@
     "rationale": {
       "text": "The Fick principle: CO = VO₂ / (CaO₂ − CvO₂), where VO₂ is O₂ consumption and the denominator is the arteriovenous O₂ difference.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "277",
@@ -5146,7 +5974,10 @@
     "rationale": {
       "text": "The thick ascending limb is called the diluting segment because it actively reabsorbs NaCl without water (impermeable to water), generating free water and dilute tubular fluid.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "278",
@@ -5164,7 +5995,10 @@
     "rationale": {
       "text": "In metabolic acidosis, the immediate respiratory compensation is hyperventilation to blow off CO₂, raising pH toward normal.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "279",
@@ -5182,7 +6016,10 @@
     "rationale": {
       "text": "Hyperkalemia causes peaked T waves on ECG, along with muscle weakness and potential cardiac arrhythmias. Hypokalemia causes flattened T waves and U waves.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "280",
@@ -5200,7 +6037,10 @@
     "rationale": {
       "text": "The posterior pituitary (neurohypophysis) releases ADH (vasopressin) and oxytocin, which are actually synthesized in the hypothalamus (supraoptic and paraventricular nuclei) and transported to the posterior pituitary for storage and release.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "281",
@@ -5218,7 +6058,10 @@
     "rationale": {
       "text": "ACE (angiotensin-converting enzyme) converts angiotensin I to angiotensin II. Renin converts angiotensinogen to angiotensin I. Aldosterone is released from the zona glomerulosa of the adrenal cortex in response to angiotensin II.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "282",
@@ -5236,7 +6079,10 @@
     "rationale": {
       "text": "ANP is released from cardiac atria in response to increased atrial stretch (volume overload). It causes vasodilation, increases GFR, and inhibits sodium reabsorption, promoting natriuresis and diuresis.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "283",
@@ -5254,7 +6100,10 @@
     "rationale": {
       "text": "Normal resting cardiac output is approximately 4–6 L/min (commonly cited as ~5 L/min) for an average adult.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "284",
@@ -5272,7 +6121,10 @@
     "rationale": {
       "text": "Adult hemoglobin A (HbA) consists of two alpha (α) and two beta (β) chains. Fetal hemoglobin (HbF) has two alpha and two gamma chains, giving it a higher O₂ affinity.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "285",
@@ -5290,7 +6142,10 @@
     "rationale": {
       "text": "Aldosterone stimulates Na⁺ reabsorption and K⁺ excretion (and H⁺ secretion) in principal cells of the collecting duct by upregulating ENaC and Na⁺-K⁺ ATPase.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "286",
@@ -5308,7 +6163,10 @@
     "rationale": {
       "text": "Thiazide diuretics impair free water excretion by blocking NaCl cotransport in the distal convoluted tubule. This, combined with continued water intake, can cause severe dilutional hyponatremia, especially in elderly patients.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "287",
@@ -5326,7 +6184,10 @@
     "rationale": {
       "text": "Surfactant (primarily DPPC) is produced by type II pneumocytes and reduces alveolar surface tension, preventing alveolar collapse at end-expiration and reducing the work of breathing.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "288",
@@ -5344,7 +6205,10 @@
     "rationale": {
       "text": "Sperm are produced in the seminiferous tubules, mature in the epididymis, travel through the vas deferens, pass through the ejaculatory duct, and exit through the urethra during ejaculation.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "289",
@@ -5362,7 +6226,10 @@
     "rationale": {
       "text": "Ventricular action potential: Phase 0 = rapid Na⁺ influx (depolarization), Phase 1 = transient K⁺ efflux, Phase 2 = Ca²⁺ influx = plateau (no change in net charge), Phase 3 = K⁺ efflux (repolarization), Phase 4 = resting membrane potential.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "290",
@@ -5380,7 +6247,10 @@
     "rationale": {
       "text": "FRC is the volume of air remaining in the lungs at the end of a normal quiet expiration (passive equilibrium between lung recoil and chest wall expansion). FRC = ERV + RV.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "291",
@@ -5398,7 +6268,10 @@
     "rationale": {
       "text": "The primary auditory cortex (A1) is located in the superior temporal gyrus (specifically in Heschl's transverse gyri, within the lateral sulcus). The postcentral gyrus is the primary somatosensory cortex.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "292",
@@ -5416,7 +6289,10 @@
     "rationale": {
       "text": "The countercurrent multiplier in the loop of Henle generates the medullary concentration gradient. The ascending limb actively reabsorbs NaCl (impermeable to water), while the descending limb is permeable to water but not NaCl — creating the gradient.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "293",
@@ -5434,7 +6310,10 @@
     "rationale": {
       "text": "In adults, erythropoietin (EPO) is primarily produced by peritubular interstitial cells in the kidneys (cortex and outer medulla) in response to hypoxia. The liver produces a small amount.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "294",
@@ -5452,7 +6331,10 @@
     "rationale": {
       "text": "S1 is caused by the closure of the mitral (bicuspid) and tricuspid valves at the onset of systole. S2 is caused by the closure of the aortic and pulmonic (semilunar) valves at the onset of diastole.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "295",
@@ -5470,7 +6352,10 @@
     "rationale": {
       "text": "The afferent limb of the corneal reflex is CN V1 (ophthalmic branch of trigeminal). The efferent limb is CN VII (facial nerve), which innervates the orbicularis oculi muscle to close the eyelid.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "296",
@@ -5488,7 +6373,10 @@
     "rationale": {
       "text": "At the NMJ, acetylcholine (ACh) released from motor neurons binds to postsynaptic nicotinic AChRs, causing Na⁺ and K⁺ flux (Na⁺ dominates → depolarization), generating an end-plate potential (EPP) that triggers a muscle action potential.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "297",
@@ -5506,7 +6394,10 @@
     "rationale": {
       "text": "The gastric phase begins when food enters the stomach, stimulating gastric distension and protein digestion products, leading to gastrin release and increased acid secretion.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "298",
@@ -5524,7 +6415,10 @@
     "rationale": {
       "text": "Parietal cells (oxyntic cells) of the gastric fundus and body secrete both hydrochloric acid (HCl) and intrinsic factor. Intrinsic factor is essential for vitamin B12 absorption in the terminal ileum.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "299",
@@ -5542,7 +6436,10 @@
     "rationale": {
       "text": "The BBB is formed primarily by tight junctions between cerebral capillary endothelial cells, with astrocyte foot processes providing support. It restricts passage of most water-soluble and large molecules, protecting the CNS.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   },
   {
     "id": "300",
@@ -5560,6 +6457,9 @@
     "rationale": {
       "text": "The Hering-Breuer reflex: stretch receptors in the lung parenchyma detect lung inflation and send afferent signals via the vagus nerve to the respiratory center, inhibiting further inspiration — preventing over-inflation of the lungs.",
       "images": []
-    }
+    },
+    "tags": [
+      "General"
+    ]
   }
 ]

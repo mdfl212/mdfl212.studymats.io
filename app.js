@@ -186,7 +186,7 @@ async function selectSubject(subjectId) {
 }
 
 function populateTopics() {
-    const topics = [...new Set(state.questions.map((question) => question.topic).filter(Boolean))].sort();
+    const topics = [...new Set(state.questions.flatMap(getQuestionTags))].sort();
     $('topicFilter').innerHTML = '<option value="all">All topics</option>' +
         topics.map((topic) => `<option value="${escapeHtml(topic)}">${escapeHtml(topic)}</option>`).join('');
     state.filters.topic = 'all';
@@ -195,9 +195,35 @@ function populateTopics() {
     }
 }
 
+function getQuestionTags(question) {
+    return [...new Set([
+        question.topic,
+        ...(Array.isArray(question.tags) ? question.tags : [])
+    ].filter(Boolean))];
+}
+
+function tagMayRevealAnswer(tag, answer) {
+    const normalize = (value) => String(value).normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, ' ')
+        .trim();
+    const tagText = normalize(tag);
+    const answerText = normalize(answer);
+    const tagWords = tagText.split(' ');
+    const answerWords = answerText.split(' ');
+
+    if (!tagText || !answerText) return false;
+    return tagText === answerText ||
+        answerText.includes(tagText) ||
+        tagText.includes(answerText) ||
+        tagWords.every((word) => answerWords.some((answerWord) =>
+            word === answerWord || (word.length === 1 && answerWord.startsWith(word))));
+}
+
 function applyFilters() {
     state.filteredQuestions = state.questions.filter((question) =>
-        state.filters.topic === 'all' || question.topic === state.filters.topic);
+        state.filters.topic === 'all' || getQuestionTags(question).includes(state.filters.topic));
     state.currentIndex = Math.min(state.currentIndex, Math.max(state.filteredQuestions.length - 1, 0));
     render();
 }
@@ -326,10 +352,15 @@ function render() {
     const rationale = revealed ? `<div class="rationale"><strong>Answer: ${String.fromCharCode(65 + question.correctAnswer)}</strong> - ${escapeHtml(question.rationale?.text || '')}
         ${imageMarkup(pathologyImageForQuestion(question), 'rationale-image', 'Pathology illustration')}</div>` : '';
     const showQuestionImage = answer !== undefined || revealed;
+    const correctAnswer = question.options[question.correctAnswer];
+    const questionTags = getQuestionTags(question)
+        .filter((tag) => !tagMayRevealAnswer(tag, correctAnswer))
+        .map((tag, index) =>
+            `<span class="${index === 0 ? 'badge badge-theme' : 'tag'}">${escapeHtml(tag)}</span>`).join('');
     $('questionContent').innerHTML = `
         <div class="q-meta"><span class="q-num">Q${state.currentIndex + 1}</span>
             <span class="q-json-id">ID: ${escapeHtml(question.id)}</span>
-            <span class="badge badge-theme">${escapeHtml(question.topic)}</span>
+            ${questionTags}
         </div>
         <div class="q-stem">${escapeHtml(question.question)}</div>
         <div class="options">${options}</div>

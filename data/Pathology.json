@@ -17,7 +17,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/kwashiorkor.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Kwashiorkor"
+    ]
   },
   {
     "id": "PATH-CH9-002",
@@ -37,7 +40,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Vitamin C"
+    ]
   },
   {
     "id": "PATH-CH9-003",
@@ -57,7 +63,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Tobacco – Lung Cancer"
+    ]
   },
   {
     "id": "PATH-CH9-004",
@@ -77,7 +86,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Vitamin B6"
+    ]
   },
   {
     "id": "PATH-CH9-005",
@@ -97,7 +109,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Physical Injury – Carbon Monoxide"
+    ]
   },
   {
     "id": "PATH-CH9-006",
@@ -117,7 +132,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Rickets"
+    ]
   },
   {
     "id": "PATH-CH9-007",
@@ -137,7 +155,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Osteomalacia"
+    ]
   },
   {
     "id": "PATH-CH9-008",
@@ -157,7 +178,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – DOAC"
+    ]
   },
   {
     "id": "PATH-CH9-009",
@@ -177,7 +201,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Heavy Metals – Mercury"
+    ]
   },
   {
     "id": "PATH-CH9-010",
@@ -197,7 +224,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Abuse – IVDU"
+    ]
   },
   {
     "id": "PATH-CH9-011",
@@ -217,7 +247,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Vitamin A"
+    ]
   },
   {
     "id": "PATH-CH9-012",
@@ -237,7 +270,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – SERM"
+    ]
   },
   {
     "id": "PATH-CH9-013",
@@ -257,7 +293,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/cirrhosis.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Alcohol – Alcoholic Hepatitis"
+    ]
   },
   {
     "id": "PATH-CH9-014",
@@ -277,7 +316,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Anorexia Nervosa"
+    ]
   },
   {
     "id": "PATH-CH9-015",
@@ -297,7 +339,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Occupational – Asbestos"
+    ]
   },
   {
     "id": "PATH-CH9-016",
@@ -317,7 +362,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Physical Injury – Radiation"
+    ]
   },
   {
     "id": "PATH-CH9-017",
@@ -337,7 +385,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Cyclophosphamide"
+    ]
   },
   {
     "id": "PATH-CH9-018",
@@ -357,7 +408,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Occupational – Berylliosis"
+    ]
   },
   {
     "id": "PATH-CH9-019",
@@ -377,7 +431,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Triptans"
+    ]
   },
   {
     "id": "PATH-CH9-020",
@@ -397,7 +454,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Obesity – SGLT2 Inhibitors"
+    ]
   },
   {
     "id": "PATH-CH9-021",
@@ -417,7 +477,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Abuse – Naloxone"
+    ]
   },
   {
     "id": "PATH-CH9-022",
@@ -437,7 +500,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Statins"
+    ]
   },
   {
     "id": "PATH-CH9-023",
@@ -457,7 +523,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Vitamin A Deficiency"
+    ]
   },
   {
     "id": "PATH-CH9-024",
@@ -477,7 +546,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Warfarin"
+    ]
   },
   {
     "id": "PATH-CH9-025",
@@ -497,7 +569,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Methotrexate"
+    ]
   },
   {
     "id": "PATH-CH9-026",
@@ -517,7 +592,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Obesity – Hypoventilation"
+    ]
   },
   {
     "id": "PATH-CH9-027",
@@ -537,7 +615,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Folate Deficiency"
+    ]
   },
   {
     "id": "PATH-CH9-028",
@@ -557,7 +638,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Acetaminophen"
+    ]
   },
   {
     "id": "PATH-CH9-029",
@@ -577,7 +661,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Alcohol & Tobacco – Synergism"
+    ]
   },
   {
     "id": "PATH-CH9-030",
@@ -597,7 +684,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Vitamin B12"
+    ]
   },
   {
     "id": "PATH-CH9-031",
@@ -617,7 +707,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Pellagra"
+    ]
   },
   {
     "id": "PATH-CH9-032",
@@ -637,7 +730,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Bisphosphonates"
+    ]
   },
   {
     "id": "PATH-CH9-033",
@@ -657,7 +753,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Abuse – Anabolic Steroids"
+    ]
   },
   {
     "id": "PATH-CH9-034",
@@ -677,7 +776,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/cirrhosis.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Carcinogenesis – Aflatoxin"
+    ]
   },
   {
     "id": "PATH-CH9-035",
@@ -697,7 +799,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Hydroxychloroquine"
+    ]
   },
   {
     "id": "PATH-CH9-036",
@@ -717,7 +822,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Occupational – Mesothelioma"
+    ]
   },
   {
     "id": "PATH-CH9-037",
@@ -737,7 +845,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Metformin"
+    ]
   },
   {
     "id": "PATH-CH9-038",
@@ -757,7 +868,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Bulimia"
+    ]
   },
   {
     "id": "PATH-CH9-039",
@@ -777,7 +891,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/cirrhosis.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Occupational – Vinyl Chloride"
+    ]
   },
   {
     "id": "PATH-CH9-040",
@@ -797,7 +914,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Infantile B12 Deficiency"
+    ]
   },
   {
     "id": "PATH-CH9-041",
@@ -817,7 +937,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Oral Contraceptives"
+    ]
   },
   {
     "id": "PATH-CH9-042",
@@ -837,7 +960,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Heavy Metals – Lead"
+    ]
   },
   {
     "id": "PATH-CH9-043",
@@ -857,7 +983,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Vitamin A Malabsorption"
+    ]
   },
   {
     "id": "PATH-CH9-044",
@@ -877,7 +1006,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Obesity – Aromatase"
+    ]
   },
   {
     "id": "PATH-CH9-045",
@@ -897,7 +1029,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Vitamin D Malabsorption"
+    ]
   },
   {
     "id": "PATH-CH9-046",
@@ -917,7 +1052,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/kwashiorkor.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Kwashiorkor vs Marasmus"
+    ]
   },
   {
     "id": "PATH-CH9-047",
@@ -937,7 +1075,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/cirrhosis.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Drug Injury – Sofosbuvir"
+    ]
   },
   {
     "id": "PATH-CH9-048",
@@ -957,7 +1098,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Hypomagnesemia"
+    ]
   },
   {
     "id": "PATH-CH9-049",
@@ -977,7 +1121,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Wernicke Encephalopathy"
+    ]
   },
   {
     "id": "PATH-CH9-050",
@@ -997,7 +1144,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Nutrition – Retinoids"
+    ]
   },
   {
     "id": "PATH-REVIEW-001",
@@ -1017,7 +1167,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-002",
@@ -1037,7 +1190,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-003",
@@ -1057,7 +1213,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-004",
@@ -1077,7 +1236,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-005",
@@ -1097,7 +1259,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/tb.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-006",
@@ -1117,7 +1282,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-007",
@@ -1137,7 +1305,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-008",
@@ -1157,7 +1328,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-009",
@@ -1177,7 +1351,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-010",
@@ -1197,7 +1374,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-011",
@@ -1217,7 +1397,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-012",
@@ -1237,7 +1420,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-013",
@@ -1257,7 +1443,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-014",
@@ -1277,7 +1466,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-015",
@@ -1297,7 +1489,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-016",
@@ -1317,7 +1512,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-017",
@@ -1337,7 +1535,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-018",
@@ -1357,7 +1558,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-019",
@@ -1377,7 +1581,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-020",
@@ -1397,7 +1604,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-021",
@@ -1417,7 +1627,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-022",
@@ -1437,7 +1650,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-023",
@@ -1457,7 +1673,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-024",
@@ -1477,7 +1696,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-025",
@@ -1497,7 +1719,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-026",
@@ -1517,7 +1742,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-027",
@@ -1537,7 +1765,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-028",
@@ -1557,7 +1788,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-029",
@@ -1577,7 +1811,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-030",
@@ -1597,7 +1834,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-031",
@@ -1617,7 +1857,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-032",
@@ -1637,7 +1880,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-033",
@@ -1657,7 +1903,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-034",
@@ -1677,7 +1926,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-035",
@@ -1697,7 +1949,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-036",
@@ -1717,7 +1972,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-037",
@@ -1737,7 +1995,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-038",
@@ -1757,7 +2018,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-039",
@@ -1777,7 +2041,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-040",
@@ -1797,7 +2064,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/tb.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-041",
@@ -1817,7 +2087,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-042",
@@ -1837,7 +2110,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-043",
@@ -1857,7 +2133,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-044",
@@ -1877,7 +2156,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-045",
@@ -1897,7 +2179,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/tb.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-046",
@@ -1917,7 +2202,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-047",
@@ -1937,7 +2225,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-048",
@@ -1957,7 +2248,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-049",
@@ -1977,7 +2271,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-050",
@@ -1997,7 +2294,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-051",
@@ -2017,7 +2317,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-052",
@@ -2037,7 +2340,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-053",
@@ -2057,7 +2363,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-054",
@@ -2077,7 +2386,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-055",
@@ -2097,7 +2409,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-056",
@@ -2117,7 +2432,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-057",
@@ -2137,7 +2455,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-058",
@@ -2157,7 +2478,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-059",
@@ -2177,7 +2501,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-060",
@@ -2197,7 +2524,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-061",
@@ -2217,7 +2547,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-062",
@@ -2237,7 +2570,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-063",
@@ -2257,7 +2593,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-064",
@@ -2277,7 +2616,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-065",
@@ -2297,7 +2639,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-066",
@@ -2317,7 +2662,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-067",
@@ -2337,7 +2685,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-068",
@@ -2357,7 +2708,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-069",
@@ -2377,7 +2731,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-070",
@@ -2397,7 +2754,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-071",
@@ -2417,7 +2777,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-072",
@@ -2437,7 +2800,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-073",
@@ -2457,7 +2823,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-074",
@@ -2477,7 +2846,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-075",
@@ -2497,7 +2869,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-076",
@@ -2517,7 +2892,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-077",
@@ -2537,7 +2915,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-078",
@@ -2557,7 +2938,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-079",
@@ -2577,7 +2961,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-080",
@@ -2597,7 +2984,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-081",
@@ -2617,7 +3007,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-082",
@@ -2637,7 +3030,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-083",
@@ -2657,7 +3053,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-084",
@@ -2677,7 +3076,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-085",
@@ -2697,7 +3099,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-086",
@@ -2717,7 +3122,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-087",
@@ -2737,7 +3145,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-088",
@@ -2757,7 +3168,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-089",
@@ -2777,7 +3191,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-090",
@@ -2797,7 +3214,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-091",
@@ -2817,7 +3237,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-092",
@@ -2837,7 +3260,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-093",
@@ -2857,7 +3283,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-094",
@@ -2877,7 +3306,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-095",
@@ -2897,7 +3329,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-096",
@@ -2917,7 +3352,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-097",
@@ -2937,7 +3375,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-098",
@@ -2957,7 +3398,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-099",
@@ -2977,7 +3421,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-100",
@@ -2997,7 +3444,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-101",
@@ -3017,7 +3467,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-102",
@@ -3037,7 +3490,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-103",
@@ -3057,7 +3513,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-104",
@@ -3077,7 +3536,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-105",
@@ -3097,7 +3559,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-106",
@@ -3117,7 +3582,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-107",
@@ -3137,7 +3605,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-108",
@@ -3157,7 +3628,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-109",
@@ -3177,7 +3651,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-110",
@@ -3197,7 +3674,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-111",
@@ -3217,7 +3697,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-112",
@@ -3237,7 +3720,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-113",
@@ -3257,7 +3743,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-114",
@@ -3277,7 +3766,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-115",
@@ -3297,7 +3789,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-116",
@@ -3317,7 +3812,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-117",
@@ -3337,7 +3835,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-118",
@@ -3357,7 +3858,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-119",
@@ -3377,7 +3881,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-120",
@@ -3397,7 +3904,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-121",
@@ -3417,7 +3927,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-122",
@@ -3437,7 +3950,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-123",
@@ -3457,7 +3973,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-124",
@@ -3477,7 +3996,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-125",
@@ -3497,7 +4019,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-126",
@@ -3517,7 +4042,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-127",
@@ -3537,7 +4065,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-128",
@@ -3557,7 +4088,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-129",
@@ -3577,7 +4111,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-130",
@@ -3597,7 +4134,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-131",
@@ -3617,7 +4157,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/cirrhosis.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-132",
@@ -3637,7 +4180,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-133",
@@ -3657,7 +4203,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-134",
@@ -3677,7 +4226,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-135",
@@ -3697,7 +4249,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-136",
@@ -3717,7 +4272,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-137",
@@ -3737,7 +4295,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-138",
@@ -3757,7 +4318,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-139",
@@ -3777,7 +4341,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-140",
@@ -3797,7 +4364,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/cirrhosis.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-141",
@@ -3817,7 +4387,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-142",
@@ -3837,7 +4410,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-143",
@@ -3857,7 +4433,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-144",
@@ -3877,7 +4456,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-145",
@@ -3897,7 +4479,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-146",
@@ -3917,7 +4502,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-147",
@@ -3937,7 +4525,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-148",
@@ -3957,7 +4548,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-149",
@@ -3977,7 +4571,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-150",
@@ -3997,7 +4594,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-151",
@@ -4017,7 +4617,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-152",
@@ -4037,7 +4640,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-153",
@@ -4057,7 +4663,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-154",
@@ -4077,7 +4686,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-155",
@@ -4097,7 +4709,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/acute_inflammation.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Cell Pathology & Inflammation"
+    ]
   },
   {
     "id": "PATH-REVIEW-156",
@@ -4117,7 +4732,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/tb.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-157",
@@ -4137,7 +4755,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-158",
@@ -4157,7 +4778,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-159",
@@ -4177,7 +4801,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-160",
@@ -4197,7 +4824,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-161",
@@ -4217,7 +4847,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-162",
@@ -4237,7 +4870,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-163",
@@ -4257,7 +4893,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-164",
@@ -4277,7 +4916,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-165",
@@ -4297,7 +4939,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-166",
@@ -4317,7 +4962,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-167",
@@ -4337,7 +4985,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-168",
@@ -4357,7 +5008,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-169",
@@ -4377,7 +5031,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-170",
@@ -4397,7 +5054,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-171",
@@ -4417,7 +5077,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-172",
@@ -4437,7 +5100,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-173",
@@ -4457,7 +5123,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-174",
@@ -4477,7 +5146,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-175",
@@ -4497,7 +5169,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-176",
@@ -4517,7 +5192,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-177",
@@ -4537,7 +5215,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-178",
@@ -4557,7 +5238,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-179",
@@ -4577,7 +5261,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-180",
@@ -4597,7 +5284,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-181",
@@ -4617,7 +5307,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-182",
@@ -4637,7 +5330,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-183",
@@ -4657,7 +5353,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-184",
@@ -4677,7 +5376,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-185",
@@ -4697,7 +5399,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-186",
@@ -4717,7 +5422,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-187",
@@ -4737,7 +5445,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-188",
@@ -4757,7 +5468,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetic & Developmental"
+    ]
   },
   {
     "id": "PATH-REVIEW-189",
@@ -4777,7 +5491,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-190",
@@ -4797,7 +5514,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-191",
@@ -4817,7 +5537,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Infectious Diseases"
+    ]
   },
   {
     "id": "PATH-REVIEW-192",
@@ -4837,7 +5560,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-193",
@@ -4857,7 +5583,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-194",
@@ -4877,7 +5606,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Immune & Connective Tissue"
+    ]
   },
   {
     "id": "PATH-REVIEW-195",
@@ -4897,7 +5629,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-196",
@@ -4917,7 +5652,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-197",
@@ -4937,7 +5675,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Organ System Pathology"
+    ]
   },
   {
     "id": "PATH-REVIEW-198",
@@ -4957,7 +5698,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-199",
@@ -4977,7 +5721,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-REVIEW-200",
@@ -4997,7 +5744,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Neoplasia"
+    ]
   },
   {
     "id": "PATH-GEN-001",
@@ -5017,7 +5767,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Marfan Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-002",
@@ -5037,7 +5790,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Marfan Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-003",
@@ -5057,7 +5813,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Ehlers-Danlos Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-004",
@@ -5077,7 +5836,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Ehlers-Danlos Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-005",
@@ -5097,7 +5859,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Familial Hypercholesterolemia"
+    ]
   },
   {
     "id": "PATH-GEN-006",
@@ -5117,7 +5882,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Tay-Sachs Disease"
+    ]
   },
   {
     "id": "PATH-GEN-007",
@@ -5137,7 +5905,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Niemann-Pick Disease"
+    ]
   },
   {
     "id": "PATH-GEN-008",
@@ -5157,7 +5928,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Gaucher Disease"
+    ]
   },
   {
     "id": "PATH-GEN-009",
@@ -5177,7 +5951,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Mucopolysaccharidoses"
+    ]
   },
   {
     "id": "PATH-GEN-010",
@@ -5197,7 +5974,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/cirrhosis.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Glycogen Storage Disease"
+    ]
   },
   {
     "id": "PATH-GEN-011",
@@ -5217,7 +5997,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Glycogen Storage Disease"
+    ]
   },
   {
     "id": "PATH-GEN-012",
@@ -5237,7 +6020,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Pompe Disease"
+    ]
   },
   {
     "id": "PATH-GEN-013",
@@ -5257,7 +6043,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Rett Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-014",
@@ -5277,7 +6066,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Chromosomal Abnormalities"
+    ]
   },
   {
     "id": "PATH-GEN-015",
@@ -5297,7 +6089,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Down Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-016",
@@ -5317,7 +6112,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Down Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-017",
@@ -5337,7 +6135,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Down Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-018",
@@ -5357,7 +6158,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – 22q11.2 Deletion Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-019",
@@ -5377,7 +6181,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – 22q11.2 Deletion Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-020",
@@ -5397,7 +6204,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Klinefelter Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-021",
@@ -5417,7 +6227,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Turner Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-022",
@@ -5437,7 +6250,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Turner Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-023",
@@ -5457,7 +6273,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Prader-Willi Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-024",
@@ -5477,7 +6296,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Angelman Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-025",
@@ -5497,7 +6319,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Uniparental Disomy"
+    ]
   },
   {
     "id": "PATH-GEN-026",
@@ -5517,7 +6342,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Fragile X Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-027",
@@ -5537,7 +6365,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Fragile X Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-028",
@@ -5557,7 +6388,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – FXTAS"
+    ]
   },
   {
     "id": "PATH-GEN-029",
@@ -5577,7 +6411,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Mitochondrial Inheritance"
+    ]
   },
   {
     "id": "PATH-GEN-030",
@@ -5597,7 +6434,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Huntington Disease"
+    ]
   },
   {
     "id": "PATH-GEN-031",
@@ -5617,7 +6457,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Polyglutamine Diseases"
+    ]
   },
   {
     "id": "PATH-GEN-032",
@@ -5637,7 +6480,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Angelman Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-033",
@@ -5657,7 +6503,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Germline Mutations"
+    ]
   },
   {
     "id": "PATH-GEN-034",
@@ -5677,7 +6526,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – FISH"
+    ]
   },
   {
     "id": "PATH-GEN-035",
@@ -5697,7 +6549,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – EGFR Testing"
+    ]
   },
   {
     "id": "PATH-GEN-036",
@@ -5717,7 +6572,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – qPCR"
+    ]
   },
   {
     "id": "PATH-GEN-037",
@@ -5737,7 +6595,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Aneuploidy"
+    ]
   },
   {
     "id": "PATH-GEN-038",
@@ -5757,7 +6618,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Balanced Translocation"
+    ]
   },
   {
     "id": "PATH-GEN-039",
@@ -5777,7 +6641,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – APL Diagnosis"
+    ]
   },
   {
     "id": "PATH-GEN-040",
@@ -5797,7 +6664,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Tumor Mutational Burden"
+    ]
   },
   {
     "id": "PATH-GEN-041",
@@ -5817,7 +6687,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/PATH/adenocarcinoma.jpg"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Li-Fraumeni Syndrome"
+    ]
   },
   {
     "id": "PATH-GEN-042",
@@ -5837,7 +6710,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Neurofibromatosis"
+    ]
   },
   {
     "id": "PATH-GEN-043",
@@ -5857,7 +6733,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Huntington Inheritance"
+    ]
   },
   {
     "id": "PATH-GEN-044",
@@ -5877,7 +6756,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – X-Linked Inheritance"
+    ]
   },
   {
     "id": "PATH-GEN-045",
@@ -5897,7 +6779,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – PCSK9 Mutation"
+    ]
   },
   {
     "id": "PATH-GEN-046",
@@ -5917,7 +6802,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Founder Effect"
+    ]
   },
   {
     "id": "PATH-GEN-047",
@@ -5937,7 +6825,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Myotonic Dystrophy"
+    ]
   },
   {
     "id": "PATH-GEN-048",
@@ -5957,7 +6848,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Somatic Mutation"
+    ]
   },
   {
     "id": "PATH-GEN-049",
@@ -5977,7 +6871,10 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – FXPOI"
+    ]
   },
   {
     "id": "PATH-GEN-050",
@@ -5997,6 +6894,9 @@
       "images": [
         "https://library.med.utah.edu/WebPath/GIFS/WEBLOGO.gif"
       ]
-    }
+    },
+    "tags": [
+      "Genetics – Leber Hereditary Optic Neuropathy"
+    ]
   }
 ]
