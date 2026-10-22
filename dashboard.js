@@ -66,13 +66,17 @@ function importBackup(file){
  };reader.readAsText(file);
 }
 function applyImport(p,mode){
+ const snapshot={progress:records().map(x=>({key:x.key,value:localStorage.getItem(x.key)})),activity:localStorage.getItem(ACTIVITY),profile:localStorage.getItem(PROFILE)};
  try{
-  if(mode==='replace')records().forEach(x=>localStorage.removeItem(x.key));
+  if(mode==='replace'){records().forEach(x=>localStorage.removeItem(x.key));localStorage.removeItem(ACTIVITY)}
   p.progress.forEach(x=>{const k=PREFIX+encodeURIComponent(x.subjectId),old=mode==='merge'?parse(localStorage.getItem(k),{}):{},d=x.data;localStorage.setItem(k,JSON.stringify({...old,...d,answers:{...(old.answers||{}),...(d.answers||{})},revealed:{...(old.revealed||{}),...(d.revealed||{})}}))});
   if(p.profile)saveProfile(p.profile);
-  if(p.activity&&typeof p.activity==='object'){const cur=mode==='merge'?activity():{};Object.entries(p.activity).forEach(([day,items])=>{if(/^\d{4}-\d{2}-\d{2}$/.test(day)&&Array.isArray(items))cur[day]=[...new Set([...(cur[day]||[]),...items.filter(x=>typeof x==='string')])]});localStorage.setItem(ACTIVITY,JSON.stringify(cur))}
+  if(p.activity&&typeof p.activity==='object'){const cur=mode==='merge'?activity():{};Object.entries(p.activity).forEach(([day,items])=>{if(/^\\d{4}-\\d{2}-\\d{2}$/.test(day)&&Array.isArray(items))cur[day]=[...new Set([...(cur[day]||[]),...items.filter(x=>typeof x==='string')])]});localStorage.setItem(ACTIVITY,JSON.stringify(cur))}
   $('importModal').hidden=true;$('importModal').classList.remove('is-open');$('dashDataMessage').textContent='Progress '+(mode==='merge'?'merged':'replaced')+' successfully.';$('dashDataMessage').classList.remove('is-error');render();
- }catch{$('dashDataMessage').textContent='Import failed. Check browser storage and try again.';$('dashDataMessage').classList.add('is-error')}
+ }catch(error){
+  try{records().forEach(x=>localStorage.removeItem(x.key));snapshot.progress.forEach(x=>localStorage.setItem(x.key,x.value));if(snapshot.activity===null)localStorage.removeItem(ACTIVITY);else localStorage.setItem(ACTIVITY,snapshot.activity);if(snapshot.profile===null)localStorage.removeItem(PROFILE);else localStorage.setItem(PROFILE,snapshot.profile)}catch(rollbackError){console.error('StudyMats import rollback failed.',rollbackError)}
+  $('dashDataMessage').textContent='Import failed; the app attempted to restore your previous saved data. Check browser storage and try again.';$('dashDataMessage').classList.add('is-error');
+ }
 }
 function reset(){
  if(!confirm('Reset all saved quiz progress and daily activity on this device? This cannot be undone without a backup. Your profile settings will be kept.'))return;
@@ -81,7 +85,7 @@ function reset(){
 document.addEventListener('DOMContentLoaded',()=>{
  $('profileForm')?.addEventListener('submit',e=>{e.preventDefault();saveProfile({name:$('profileName').value.trim().slice(0,60),showName:$('profileShowName').checked});closeProfile()});
  $('profileSkipButton')?.addEventListener('click',()=>{if(!profile())saveProfile({name:'',showName:true});closeProfile()});
- $('profileModal')?.addEventListener('click',e=>{if(e.target===$('profileModal'))closeProfile()});
+ $('profileModal')?.addEventListener('click',e=>{if(e.target===$('profileModal')&&profile())closeProfile()});
  $('dashProfileButton')?.addEventListener('click',openProfile);$('dashExportButton')?.addEventListener('click',exportBackup);$('dashImportButton')?.addEventListener('click',()=>$('dashImportFile').click());
  $('dashImportFile')?.addEventListener('change',e=>{const f=e.target.files&&e.target.files[0];if(f)importBackup(f);e.target.value=''});
  $('importCancelButton')?.addEventListener('click',()=>{$('importModal').hidden=true;$('importModal').classList.remove('is-open')});
