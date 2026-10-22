@@ -1,0 +1,94 @@
+(() => {
+'use strict';
+const PREFIX='studymats-progress-v1:', ACTIVITY='studymats-activity-v1', PROFILE='studymats-profile-v1';
+const $=id=>document.getElementById(id);
+const parse=(v,f)=>{try{return JSON.parse(v)||f}catch{return f}};
+const esc=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dateKey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const dateLabel=k=>new Date(k+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
+const profile=()=>parse(localStorage.getItem(PROFILE),null);
+const activity=()=>parse(localStorage.getItem(ACTIVITY),{});
+const records=()=>Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}));
+let subjects=[], dataBySubject=new Map(), range=365;
+function saveProfile(p){localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}))}
+function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
+function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
+function donut(pct,color,label,detail){const c=2*Math.PI*42,v=c*Math.max(0,Math.min(100,Number(pct)||0))/100;return '<div class="dash-donut-wrap"><svg class="dash-donut" viewBox="0 0 108 108" role="img" aria-label="'+esc(label)+': '+Math.round(pct)+' percent"><circle class="dash-donut-track" cx="54" cy="54" r="42"></circle><circle class="dash-donut-value" cx="54" cy="54" r="42" stroke="'+color+'" stroke-dasharray="'+v+' '+(c-v)+'" transform="rotate(-90 54 54)"></circle><text x="54" y="52" class="dash-donut-number">'+Math.round(pct)+'%</text><text x="54" y="67" class="dash-donut-small">complete</text></svg><div class="dash-donut-label">'+esc(label)+'</div><div class="dash-donut-detail">'+esc(detail)+'</div></div>'}
+function buildHeatmap(){
+ const a=activity(), today=new Date();today.setHours(12,0,0,0);const start=new Date(today);start.setDate(start.getDate()-range+1);
+ const days=[];for(let i=0;i<range;i++){const d=new Date(start);d.setDate(start.getDate()+i);const k=dateKey(d);days.push({key:k,date:d,count:Array.isArray(a[k])?a[k].length:0})}
+ const vals=days.map(x=>x.count).filter(x=>x>0).sort((x,y)=>x-y),q=n=>vals.length?vals[Math.floor((vals.length-1)*n)]:1;
+ const level=n=>!n?0:n<=q(.35)?1:n<=q(.7)?2:n<=q(1)?3:4;
+ const active=days.filter(x=>x.count>0).length,total=days.reduce((s,x)=>s+x.count,0);
+ let streak=0,cursor=new Date(today);if(!(a[dateKey(cursor)]||[]).length)cursor.setDate(cursor.getDate()-1);while((a[dateKey(cursor)]||[]).length){streak++;cursor.setDate(cursor.getDate()-1)}
+ let longest=0,run=0;days.forEach(x=>{run=x.count?run+1:0;longest=Math.max(longest,run)});
+ const gridStart=new Date(days[0].date);gridStart.setDate(gridStart.getDate()-((gridStart.getDay()+6)%7));const weeks=[];
+ for(let d=new Date(gridStart);d<=today;d.setDate(d.getDate()+1)){const k=dateKey(d),found=days.find(x=>x.key===k),day={key:k,date:new Date(d),count:found?found.count:0};if(!weeks.length||((d.getDay()+6)%7)===0)weeks.push([]);weeks[weeks.length-1].push({...day,level:level(day.count)})}
+ const labels=weeks.map((w,i)=>{const first=w.find(x=>x.date.getDate()<=7);return '<span>'+((first&&(i===0||w.some(x=>x.date.getDate()===1)))?esc(first.date.toLocaleDateString(undefined,{month:'short'})):'')+'</span>'}).join('');
+ const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row">'+weeks.map(w=>{const x=w[r];return x?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty"></span>'}).join('')+'</div>').join('');
+ return {html:'<div class="dash-month-labels">'+labels+'</div><div class="dash-heatmap-scroll"><div class="dash-heatmap">'+rows+'</div></div>',active,streak,longest,total};
+}
+async function load(){
+ const r=await fetch('subjects.json');if(!r.ok)throw Error('Unable to load subjects');subjects=await r.json();
+ const loaded=await Promise.all(subjects.map(async s=>{try{const r=await fetch(s.data);return [s.id,r.ok?await r.json():[]]}catch{return [s.id,[]]}}));
+ dataBySubject=new Map(loaded);render();
+}
+function render(){
+ if(!$('studyDashboard'))return;
+ const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';
+ const saved=new Map(records().map(x=>[x.id,x.data]));let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
+ const cards=subjects.map(s=>{
+  const qs=dataBySubject.get(s.id)||[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
+  const ansIds=Object.keys(ans).filter(id=>ids.has(String(id))),revIds=Object.keys(rev).filter(id=>ids.has(String(id)));total+=qs.length;answeredN+=ansIds.length;revealedN+=revIds.length;
+  qs.forEach(q=>{const tags=[...new Set([q.topic,...(Array.isArray(q.tags)?q.tags:[])].filter(Boolean))];tags.forEach(t=>{allTopics.add(s.id+'::'+t);if(ansIds.includes(String(q.id))||revIds.includes(String(q.id)))doneTopics.add(s.id+'::'+t)});if(ans[q.id]!==undefined&&Number.isInteger(q.correctAnswer)){scored++;if(ans[q.id]===q.correctAnswer)correct++}});
+  const pct=qs.length?Math.round(ansIds.length/qs.length*100):0,has=ansIds.length||revIds.length||v.savedAt,when=Number(v.savedAt)?'Saved '+new Date(Number(v.savedAt)).toLocaleDateString(undefined,{month:'short',day:'numeric'}):'No saved session yet';
+  return '<article class="dash-subject-card"><div class="dash-subject-heading"><span class="dash-subject-icon">'+esc(s.icon)+'</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>'+ansIds.length+' of '+qs.length+' answered</p></div><span class="dash-subject-pct">'+pct+'%</span></div><div class="dash-progress-track"><span style="width:'+pct+'%"></span></div><div class="dash-subject-footer"><span>'+when+'</span><a href="quiz.html?subject='+encodeURIComponent(s.id)+'" class="dash-continue">'+(has?'Continue':'Start')+' <span aria-hidden="true">↗</span></a></div></article>';
+ }).join('');
+ const coverage=allTopics.size?Math.round(doneTopics.size/allTopics.size*100):0,answeredPct=total?Math.round(answeredN/total*100):0;
+ $('dashStats').innerHTML='<article class="dash-stat"><span class="dash-stat-label">Questions answered</span><strong>'+answeredN.toLocaleString()+'</strong><span class="dash-stat-note">Across all subjects</span></article><article class="dash-stat"><span class="dash-stat-label">Questions revealed</span><strong>'+revealedN.toLocaleString()+'</strong><span class="dash-stat-note">Answer explanations opened</span></article><article class="dash-stat"><span class="dash-stat-label">Subjects with activity</span><strong>'+subjects.filter(s=>{const v=saved.get(s.id)||{};return Object.keys(v.answers||{}).length||Object.keys(v.revealed||{}).length}).length+'</strong><span class="dash-stat-note">Out of '+subjects.length+' subjects</span></article><article class="dash-stat"><span class="dash-stat-label">Recorded accuracy</span><strong>'+(scored?Math.round(correct/scored*100)+'%':'—')+'</strong><span class="dash-stat-note">'+(scored?correct+' correct of '+scored+' scored':'Answer questions to build a score')+'</span></article>';
+ $('dashDonuts').innerHTML=donut(answeredPct,'#4b2e83','Question progress',answeredN+' answered of '+total)+donut(coverage,'#269653','Topic coverage',doneTopics.size+' of '+allTopics.size+' tagged topics active');
+ $('dashSubjectList').innerHTML=cards||'<p class="dash-empty">No subjects found.</p>';
+ const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>studied question-days</span></div>';
+ $('dashActivityCaption').textContent='Showing '+(range===30?'the last 30 days':range===180?'the last 6 months':'the last 12 months')+'. Daily history begins when tracking is enabled; older activity is not guessed.';
+}
+function exportBackup(){
+ const payload={app:'StudyMats',formatVersion:1,exportedAt:new Date().toISOString(),profile:profile(),progress:records().map(x=>({subjectId:x.id,data:x.data})),activity:activity()};
+ const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='studymats-progress-'+dateKey(new Date())+'.json';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);$('dashDataMessage').textContent='Backup exported. Keep the JSON file somewhere safe.';
+}
+function importBackup(file){
+ const reader=new FileReader();reader.onload=()=>{
+  try{const p=JSON.parse(reader.result);if(!p||p.app!=='StudyMats'||p.formatVersion!==1||!Array.isArray(p.progress))throw Error('This is not a supported StudyMats backup.');
+   const known=new Set(subjects.map(s=>s.id));p.progress=p.progress.filter(x=>x&&known.has(x.subjectId)&&x.data&&typeof x.data==='object');if(!p.progress.length)throw Error('No compatible subject progress records were found.');
+   $('importSummary').textContent='This backup contains '+p.progress.length+' subject record(s)'+(p.exportedAt?' from '+new Date(p.exportedAt).toLocaleDateString():'')+'. Choose merge to keep current progress or replace to start from this backup.';
+   $('importModal').hidden=false;$('importModal').classList.add('is-open');
+   $('importMergeButton').onclick=()=>applyImport(p,'merge');$('importReplaceButton').onclick=()=>applyImport(p,'replace');
+  }catch(e){$('dashDataMessage').textContent=e.message||'Could not read this backup.';$('dashDataMessage').classList.add('is-error')}
+ };reader.readAsText(file);
+}
+function applyImport(p,mode){
+ try{
+  if(mode==='replace')records().forEach(x=>localStorage.removeItem(x.key));
+  p.progress.forEach(x=>{const k=PREFIX+encodeURIComponent(x.subjectId),old=mode==='merge'?parse(localStorage.getItem(k),{}):{},d=x.data;localStorage.setItem(k,JSON.stringify({...old,...d,answers:{...(old.answers||{}),...(d.answers||{})},revealed:{...(old.revealed||{}),...(d.revealed||{})}}))});
+  if(p.profile)saveProfile(p.profile);
+  if(p.activity&&typeof p.activity==='object'){const cur=mode==='merge'?activity():{};Object.entries(p.activity).forEach(([day,items])=>{if(/^\d{4}-\d{2}-\d{2}$/.test(day)&&Array.isArray(items))cur[day]=[...new Set([...(cur[day]||[]),...items.filter(x=>typeof x==='string')])]});localStorage.setItem(ACTIVITY,JSON.stringify(cur))}
+  $('importModal').hidden=true;$('importModal').classList.remove('is-open');$('dashDataMessage').textContent='Progress '+(mode==='merge'?'merged':'replaced')+' successfully.';$('dashDataMessage').classList.remove('is-error');render();
+ }catch{$('dashDataMessage').textContent='Import failed. Check browser storage and try again.';$('dashDataMessage').classList.add('is-error')}
+}
+function reset(){
+ if(!confirm('Reset all saved quiz progress and daily activity on this device? This cannot be undone without a backup. Your profile settings will be kept.'))return;
+ records().forEach(x=>localStorage.removeItem(x.key));localStorage.removeItem(ACTIVITY);$('dashDataMessage').textContent='Quiz progress and activity reset. Your profile is unchanged.';render();
+}
+document.addEventListener('DOMContentLoaded',()=>{
+ $('profileForm')?.addEventListener('submit',e=>{e.preventDefault();saveProfile({name:$('profileName').value.trim().slice(0,60),showName:$('profileShowName').checked});closeProfile()});
+ $('profileSkipButton')?.addEventListener('click',()=>{if(!profile())saveProfile({name:'',showName:true});closeProfile()});
+ $('profileModal')?.addEventListener('click',e=>{if(e.target===$('profileModal'))closeProfile()});
+ $('dashProfileButton')?.addEventListener('click',openProfile);$('dashExportButton')?.addEventListener('click',exportBackup);$('dashImportButton')?.addEventListener('click',()=>$('dashImportFile').click());
+ $('dashImportFile')?.addEventListener('change',e=>{const f=e.target.files&&e.target.files[0];if(f)importBackup(f);e.target.value=''});
+ $('importCancelButton')?.addEventListener('click',()=>{$('importModal').hidden=true;$('importModal').classList.remove('is-open')});
+ $('importModal')?.addEventListener('click',e=>{if(e.target===$('importModal')){$('importModal').hidden=true;$('importModal').classList.remove('is-open')}});
+ $('dashResetButton')?.addEventListener('click',reset);
+ document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||365;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
+ if(!profile())openProfile();load().catch(e=>{console.error(e);$('dashSubjectList').innerHTML='<p class="dash-empty">The dashboard could not load. Your saved quiz data is untouched.</p>'});
+ window.addEventListener('storage',e=>{if(e.key&& (e.key.startsWith(PREFIX)||[ACTIVITY,PROFILE].includes(e.key)))render()});
+});
+})();
