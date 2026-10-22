@@ -6,11 +6,11 @@ const parse=(v,f)=>{try{return JSON.parse(v)||f}catch{return f}};
 const esc=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateKey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 const dateLabel=k=>new Date(k+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
-const profile=()=>parse(localStorage.getItem(PROFILE),null);
-const activity=()=>parse(localStorage.getItem(ACTIVITY),{});
-const records=()=>Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}));
+const profile=()=>{try{return parse(localStorage.getItem(PROFILE),null)}catch{return null}};
+const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{return {}}};
+const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
 let subjects=[], dataBySubject=new Map(), range=365;
-function saveProfile(p){localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}))}
+function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
 function donut(pct,color,label,detail){const c=2*Math.PI*42,v=c*Math.max(0,Math.min(100,Number(pct)||0))/100;return '<div class="dash-donut-wrap"><svg class="dash-donut" viewBox="0 0 108 108" role="img" aria-label="'+esc(label)+': '+Math.round(pct)+' percent"><circle class="dash-donut-track" cx="54" cy="54" r="42"></circle><circle class="dash-donut-value" cx="54" cy="54" r="42" stroke="'+color+'" stroke-dasharray="'+v+' '+(c-v)+'" transform="rotate(-90 54 54)"></circle><text x="54" y="52" class="dash-donut-number">'+Math.round(pct)+'%</text><text x="54" y="67" class="dash-donut-small">complete</text></svg><div class="dash-donut-label">'+esc(label)+'</div><div class="dash-donut-detail">'+esc(detail)+'</div></div>'}
@@ -61,7 +61,7 @@ function importBackup(file){
    const known=new Set(subjects.map(s=>s.id));p.progress=p.progress.filter(x=>x&&known.has(x.subjectId)&&x.data&&typeof x.data==='object');if(!p.progress.length)throw Error('No compatible subject progress records were found.');
    $('importSummary').textContent='This backup contains '+p.progress.length+' subject record(s)'+(p.exportedAt?' from '+new Date(p.exportedAt).toLocaleDateString():'')+'. Choose merge to keep current progress or replace to start from this backup.';
    $('importModal').hidden=false;$('importModal').classList.add('is-open');
-   $('importMergeButton').onclick=()=>applyImport(p,'merge');$('importReplaceButton').onclick=()=>applyImport(p,'replace');
+   $('importMergeButton').onclick=()=>applyImport(p,'merge');$('importReplaceButton').onclick=()=>{if(confirm('Replace current saved progress with this backup? Export your current data first if you may need it.'))applyImport(p,'replace')};
   }catch(e){$('dashDataMessage').textContent=e.message||'Could not read this backup.';$('dashDataMessage').classList.add('is-error')}
  };reader.readAsText(file);
 }
