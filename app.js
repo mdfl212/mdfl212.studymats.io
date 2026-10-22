@@ -20,6 +20,23 @@ function progressStorageKey(subjectId) {
     return PROGRESS_STORAGE_PREFIX + encodeURIComponent(subjectId);
 }
 
+function recordStudyActivity(question) {
+    if (!state.subject?.id || !question?.id) return;
+    try {
+        const key = 'studymats-activity-v1';
+        const now = new Date();
+        const day = [now.getFullYear(), String(now.getMonth() + 1).padStart(2, '0'), String(now.getDate()).padStart(2, '0')].join('-');
+        const entry = encodeURIComponent(state.subject.id) + '::' + String(question.id);
+        const activity = JSON.parse(localStorage.getItem(key) || '{}');
+        if (!Array.isArray(activity[day])) activity[day] = [];
+        if (!activity[day].includes(entry)) activity[day].push(entry);
+        localStorage.setItem(key, JSON.stringify(activity));
+    } catch (error) {
+        // Quiz answering should continue even if daily tracking cannot be stored.
+        console.warn('StudyMats could not record daily activity.', error);
+    }
+}
+
 function setSaveIndicator(status, message) {
     const indicator = $('saveIndicator');
     const label = $('saveIndicatorText');
@@ -293,6 +310,7 @@ function setMode(mode) {
 function selectAnswer(index) {
     const question = state.filteredQuestions[state.currentIndex];
     if (!question || state.mode === 'key') return;
+    recordStudyActivity(question);
     state.answers[question.id] = index;
     if (state.mode === 'review') state.revealed[question.id] = true;
     render();
