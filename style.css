@@ -6230,3 +6230,42 @@ body[data-course="quiz"] .btn:disabled { cursor: not-allowed; opacity: .45; }
   .q-card { padding: 20px 16px; }
   .q-stem { font-size: 17px; }
 }
+
+
+/* Small, quiet device-local autosave indicator in the quiz progress bar. */
+body[data-course="quiz"] .progress-meta {
+    flex-wrap: wrap;
+    gap: 8px 14px;
+}
+body[data-course="quiz"] .save-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: auto;
+    color: var(--text-sub, #64748b);
+    font: 10px 'JetBrains Mono', monospace;
+    white-space: nowrap;
+}
+body[data-course="quiz"] .save-indicator-dot {
+    width: 7px;
+    height: 7px;
+    flex: 0 0 7px;
+    border-radius: 50%;
+    background: #94a3b8;
+}
+body[data-course="quiz"] .save-indicator[data-status="saved"] .save-indicator-dot {
+    background: #25845b;
+    box-shadow: 0 0 0 2px rgba(37, 132, 91, 0.12);
+}
+body[data-course="quiz"] .save-indicator[data-status="error"] {
+    color: #b45309;
+}
+body[data-course="quiz"] .save-indicator[data-status="error"] .save-indicator-dot {
+    background: #d97706;
+}
+@media (max-width: 520px) {
+    body[data-course="quiz"] .save-indicator {
+        margin-left: 0;
+        width: 100%;
+    }
+}
