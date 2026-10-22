@@ -156,6 +156,12 @@ function syncYearIndicators() {
         button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
     });
 
+    document.querySelectorAll('[data-sidebar-yl]').forEach((button) => {
+        const isActive = button.dataset.sidebarYl === activeYear;
+        button.classList.toggle('active', isActive);
+        button.setAttribute('aria-pressed', String(isActive));
+    });
+
     const hubList = $('hubSubjectList');
     if (!hubList) return;
     if (activeYear === 'resources') {
@@ -400,6 +406,18 @@ function render() {
     $('progPct').textContent = `${total ? Math.round(answered / total * 100) : 0}%`;
     $('progFill').style.width = `${total ? answered / total * 100 : 0}%`;
     $('pageInfo').textContent = question ? `Question ${state.currentIndex + 1} of ${total}` : 'Question 0 of 0';
+    const questionSelect = $('questionSelect');
+    if (questionSelect) {
+        questionSelect.innerHTML = state.filteredQuestions.map((item, index) => {
+            const preview = String(item.question || '').replace(/\\s+/g, ' ').trim();
+            const label = preview.length > 68 ? preview.slice(0, 65) + '…' : preview;
+            return `<option value="${index}">Q${index + 1} — ${escapeHtml(label || item.id || 'Question') }</option>`;
+        }).join('');
+        questionSelect.disabled = total === 0;
+        questionSelect.value = String(state.currentIndex);
+    }
+    if ($('sidebarSubjectName')) $('sidebarSubjectName').textContent = state.subject?.name || 'Choose a subject';
+    if ($('sidebarQuestionCount')) $('sidebarQuestionCount').textContent = `${total} questions · ${answered} answered`;
     $('previousButton').disabled = state.currentIndex === 0;
     $('nextButton').disabled = !total || state.currentIndex === total - 1;
     if (state.tableView) {
@@ -484,6 +502,7 @@ function resetQuiz() {
 document.addEventListener('DOMContentLoaded', () => {
     const subjectSelect = $('subjectSelect');
     const topicFilter = $('topicFilter');
+    const questionSelect = $('questionSelect');
     const previousButton = $('previousButton');
     const nextButton = $('nextButton');
     const scoreButton = $('scoreButton');
@@ -493,12 +512,58 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeScoreButton = $('closeScoreButton');
     const ylNavTrigger = $('ylNavTrigger');
     const ylNavFlyout = $('ylNavFlyout');
+    const sidebar = $('quizSidebar');
+    const sidebarBackdrop = $('sidebarBackdrop');
+    const sidebarToggle = $('sidebarToggle');
+    const sidebarClose = $('sidebarClose');
+    const closeSidebar = () => {
+        if (!sidebar || !sidebarBackdrop) return;
+        sidebar.classList.remove('is-open');
+        sidebar.setAttribute('aria-hidden', 'true');
+        sidebarBackdrop.hidden = true;
+        document.body.classList.remove('sidebar-open');
+        sidebarToggle?.setAttribute('aria-expanded', 'false');
+        sidebarToggle?.setAttribute('aria-label', 'Open navigation menu');
+    };
+    const openSidebar = () => {
+        if (!sidebar || !sidebarBackdrop) return;
+        sidebar.classList.add('is-open');
+        sidebar.setAttribute('aria-hidden', 'false');
+        sidebarBackdrop.hidden = false;
+        document.body.classList.add('sidebar-open');
+        sidebarToggle?.setAttribute('aria-expanded', 'true');
+        sidebarToggle?.setAttribute('aria-label', 'Close navigation menu');
+        sidebarClose?.focus();
+    };
+    sidebarToggle?.addEventListener('click', () => sidebar?.classList.contains('is-open') ? closeSidebar() : openSidebar());
+    sidebarClose?.addEventListener('click', closeSidebar);
+    sidebarBackdrop?.addEventListener('click', closeSidebar);
+    document.querySelectorAll('[data-sidebar-yl]').forEach((button) => button.addEventListener('click', () => {
+        setActiveYear(button.dataset.sidebarYl);
+        closeSidebar();
+    }));
+    document.querySelectorAll('[data-sidebar-mode]').forEach((button) => button.addEventListener('click', () => {
+        setMode(button.dataset.sidebarMode);
+        closeSidebar();
+    }));
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closeSidebar();
+    });
 
     if (subjectSelect) {
         subjectSelect.addEventListener('change', (event) => selectSubject(event.target.value).catch(showError));
     }
     if (topicFilter) {
         topicFilter.addEventListener('change', (event) => { state.filters.topic = event.target.value; applyFilters(); });
+    }
+    if (questionSelect) {
+        questionSelect.addEventListener('change', (event) => {
+            const nextIndex = Number(event.target.value);
+            if (Number.isInteger(nextIndex) && nextIndex >= 0 && nextIndex < state.filteredQuestions.length) {
+                state.currentIndex = nextIndex;
+                render();
+            }
+        });
     }
     document.querySelectorAll('.tab').forEach((tab) => tab.addEventListener('click', () => setMode(tab.dataset.mode)));
     if (previousButton) {
