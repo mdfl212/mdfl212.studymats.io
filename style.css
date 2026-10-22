@@ -6622,3 +6622,62 @@ body[data-course="hub"] .footer-note { margin-top:8px; padding-top:8px; font-siz
  body[data-course="hub"] .dash-range-picker { display:flex; flex-wrap:wrap; }
  body[data-course="hub"] .dash-activity-heading { align-items:flex-start; }
 }
+
+
+/* Refined year-level selector: compact, elegant, expandable */
+body[data-course="hub"] .hub-year-dropdown {
+  padding: 0;
+  margin: 0 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-card);
+  box-shadow: 0 3px 12px rgba(30, 25, 45, .035);
+  overflow: clip;
+}
+body[data-course="hub"] .hub-year-dropdown > .section-toggle {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 13px;
+  margin:0;
+  cursor:pointer;
+  list-style:none;
+}
+body[data-course="hub"] .hub-year-dropdown > .section-toggle::-webkit-details-marker { display:none; }
+body[data-course="hub"] .hub-year-summary-copy { display:flex; flex-direction:column; gap:3px; min-width:0; }
+body[data-course="hub"] .hub-year-title {
+  color:var(--text-main);
+  font:600 13px/1.25 'Playfair Display',serif;
+  letter-spacing:.01em;
+}
+body[data-course="hub"] .hub-year-subtext {
+  color:var(--text-sub);
+  font:10px/1.4 'Source Serif 4',serif;
+}
+body[data-course="hub"] .hub-year-dropdown .toggle-icon {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 25px;
+  width:25px;
+  height:25px;
+  border:1px solid var(--border);
+  border-radius:50%;
+  color:var(--text-sub);
+  font-size:15px;
+  line-height:1;
+  transition:transform .18s ease, background .18s ease;
+}
+body[data-course="hub"] .hub-year-dropdown[open] .toggle-icon { transform:rotate(180deg); background:var(--bg-card); }
+body[data-course="hub"] .hub-year-dropdown > .hub-year-row { padding:0 12px 10px; margin-top:0; }
+body[data-course="hub"] .hub-year-dropdown > .hub-subjects { padding:0 12px 8px; }
+body[data-course="hub"] .hub-year-dropdown > #statusMessage { margin:0 12px 8px; }
+body[data-course="hub"] .hub-year-dropdown:not([open]) > .hub-year-row,
+body[data-course="hub"] .hub-year-dropdown:not([open]) > .hub-subjects,
+body[data-course="hub"] .hub-year-dropdown:not([open]) > #statusMessage { display:none; }
+@media (max-width:520px) {
+ body[data-course="hub"] .hub-year-dropdown > .section-toggle { padding:8px 10px; }
+ body[data-course="hub"] .hub-year-title { font-size:12px; }
+ body[data-course="hub"] .hub-year-subtext { font-size:9px; max-width:38ch; }
+}
