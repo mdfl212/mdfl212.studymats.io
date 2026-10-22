@@ -20,6 +20,14 @@ function progressStorageKey(subjectId) {
     return PROGRESS_STORAGE_PREFIX + encodeURIComponent(subjectId);
 }
 
+function setSaveIndicator(status, message) {
+    const indicator = $('saveIndicator');
+    const label = $('saveIndicatorText');
+    if (!indicator || !label) return;
+    indicator.dataset.status = status;
+    label.textContent = message;
+}
+
 function saveProgress() {
     if (!state.subject?.id) return;
     try {
@@ -31,8 +39,10 @@ function saveProgress() {
             topic: state.filters.topic,
             savedAt: Date.now()
         }));
+        setSaveIndicator('saved', 'Saved on this device');
     } catch (error) {
         // Storage may be unavailable or full; the reviewer should still work.
+        setSaveIndicator('error', 'Autosave unavailable');
         console.warn('StudyMats could not save progress on this device.', error);
     }
 }
