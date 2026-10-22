@@ -393,6 +393,7 @@ function toggleTableView() {
 function render() {
     saveProgress();
     document.querySelectorAll('.tab').forEach((tab) => tab.classList.toggle('active', tab.dataset.mode === state.mode));
+    document.querySelectorAll('[data-sidebar-mode]').forEach((button) => { button.classList.toggle('active', button.dataset.sidebarMode === state.mode); button.setAttribute('aria-pressed', String(button.dataset.sidebarMode === state.mode)); });
     const question = state.filteredQuestions[state.currentIndex];
     const total = state.filteredQuestions.length;
     const answered = state.filteredQuestions.filter((item) => state.answers[item.id] !== undefined).length;
