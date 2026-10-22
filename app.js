@@ -217,7 +217,6 @@ async function selectSubject(subjectId) {
     state.currentIndex = 0;
     state.mode = 'exam';
     state.filters.topic = 'all';
-    restoreProgress(subjectId);
     document.documentElement.style.setProperty('--accent', subject.colors.accent);
     document.documentElement.style.setProperty('--accent-soft', subject.colors.accentSoft);
     $('headerEyebrow').textContent = `${subject.icon} ${subject.name} question bank`;
@@ -225,6 +224,10 @@ async function selectSubject(subjectId) {
     $('headerSubtitle').textContent = subject.description;
     syncYearIndicators();
     populateTopics();
+    restoreProgress(subjectId);
+    if ($('topicFilter')) {
+        $('topicFilter').value = state.filters.topic;
+    }
     applyFilters();
 }
 
