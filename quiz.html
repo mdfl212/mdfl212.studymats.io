@@ -11,7 +11,10 @@
 <body data-course="quiz">
 <main class="quiz-shell">
     <div class="quiz-topbar">
-        <a class="brand" href="index.html">StudyMats <span>Medical Question Bank</span></a>
+        <div class="quiz-topbar-left">
+            <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-expanded="false" aria-controls="quizSidebar" aria-label="Open navigation menu"><span aria-hidden="true">☰</span><span>Menu</span></button>
+            <a class="brand" href="index.html">StudyMats <span>Medical Question Bank</span></a>
+        </div>
         <button class="theme-toggle" data-theme-toggle type="button">
             <span data-theme-icon aria-hidden="true">🌙</span>
             <span data-theme-label>Dark mode</span>
@@ -23,34 +26,29 @@
         <p class="header-sub" id="headerSubtitle">Choose a subject to begin a focused, one-question-at-a-time review.</p>
     </header>
 
+    <div class="quiz-select-bar" aria-label="Quiz navigation">
+        <div class="quiz-select-field"><label for="subjectSelect">Subject</label><select id="subjectSelect" aria-label="Choose subject"><option value="">Loading subjects…</option></select></div>
+        <div class="quiz-select-field"><label for="topicFilter">Topic</label><select id="topicFilter" aria-label="Filter by topic"><option value="all">All topics</option></select></div>
+        <div class="quiz-select-field quiz-question-select"><label for="questionSelect">Go to question</label><select id="questionSelect" aria-label="Go to question"><option value="0">Question 1</option></select></div>
+    </div>
+
+    <div class="quiz-sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+    <aside class="quiz-sidebar" id="quizSidebar" aria-label="Quiz navigation" aria-hidden="true">
+        <div class="quiz-sidebar-head"><div><p class="sidebar-eyebrow">STUDYMATS NAVIGATION</p><h2>Study controls</h2></div><button class="sidebar-close" id="sidebarClose" type="button" aria-label="Close navigation">×</button></div>
+        <div class="sidebar-current-subject"><span class="sidebar-current-label">CURRENT SUBJECT</span><strong id="sidebarSubjectName">Choose a subject</strong><span id="sidebarQuestionCount">Questions will appear here</span></div>
+        <section class="sidebar-section"><h3>Year level</h3><div class="sidebar-year-links" role="group" aria-label="Choose year level"><button type="button" class="sidebar-year active" data-sidebar-yl="YL1">YL1</button><button type="button" class="sidebar-year" data-sidebar-yl="YL2">YL2</button><button type="button" class="sidebar-year" data-sidebar-yl="YL3">YL3</button><button type="button" class="sidebar-year" data-sidebar-yl="YL4">YL4</button></div></section>
+        <section class="sidebar-section"><h3>Study mode</h3><p>Switch between answering, reviewing, and the answer key.</p><div class="sidebar-mode-links"><button type="button" data-sidebar-mode="exam">📝 Exam mode</button><button type="button" data-sidebar-mode="review">🔍 Review mode</button><button type="button" data-sidebar-mode="key">🗝 Answer key</button></div></section>
+        <div class="sidebar-bottom"><a href="index.html">← Back to dashboard</a><span>Progress saves automatically on this device.</span></div>
+    </aside>
+
     <div class="progress-wrap">
         <div class="progress-meta"><span id="progLabel">0 / 0 answered</span><span id="progPct">0%</span><span id="saveIndicator" class="save-indicator" role="status" aria-live="polite"><span class="save-indicator-dot" aria-hidden="true"></span><span id="saveIndicatorText">Autosave ready</span></span></div>
         <div class="progress-track"><div class="progress-fill" id="progFill"></div></div>
-    </div>
-    <div class="mode-tabs" role="tablist">
-        <button class="tab active" data-mode="exam" type="button">📝 Exam mode</button>
-        <button class="tab" data-mode="review" type="button">🔍 Review mode</button>
-        <button class="tab" data-mode="key" type="button">🗝 Answer key</button>
     </div>
     <div class="quiz-actions">
         <button class="btn primary" id="scoreButton" type="button">📊 Score</button>
         <button class="btn danger" id="resetButton" type="button">↺ Reset</button>
         <button class="btn table-toggle" id="tableToggleButton" type="button">📋 Table</button>
-        <div class="year-level-picker">
-            <aside class="yl-nav" aria-label="Year level navigation">
-                <button class="yl-nav-trigger" id="ylNavTrigger" type="button" aria-expanded="false" aria-controls="ylNavFlyout">
-                    <span class="yl-nav-tag">YL</span>
-                    <span class="yl-nav-trigger-label" id="ylNavTriggerLabel">YL1</span>
-                    <span class="yl-nav-caret" aria-hidden="true">▾</span>
-                </button>
-                <div class="yl-nav-flyout" id="ylNavFlyout" role="menu" aria-label="Choose year level">
-                    <button class="yl-nav-link active" type="button" data-yl="YL1" role="menuitem">YL1</button>
-                    <button class="yl-nav-link" type="button" data-yl="YL2" role="menuitem">YL2</button>
-                    <button class="yl-nav-link" type="button" data-yl="YL3" role="menuitem">YL3</button>
-                    <button class="yl-nav-link" type="button" data-yl="YL4" role="menuitem">YL4</button>
-                </div>
-            </aside>
-        </div>
     </div>
     <div id="statusMessage" class="status-message" role="status"></div>
     <section id="tablePanel" class="table-panel hidden" aria-live="polite">
@@ -82,12 +80,6 @@
                 <span class="page-info" id="pageInfo">Question 0 of 0</span>
                 <button class="btn" id="nextButton" type="button">Next →</button>
             </nav>
-            <section class="subject-picker" aria-label="Subject selection">
-                <label for="subjectSelect">Subject</label>
-                <select id="subjectSelect"></select>
-                <label for="topicFilter">Topic</label>
-                <select id="topicFilter"><option value="all">All topics</option></select>
-            </section>
         </article>
     </section>
     <section class="stats-bar" aria-label="Quiz progress">
