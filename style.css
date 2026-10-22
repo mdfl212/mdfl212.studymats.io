@@ -6606,7 +6606,7 @@ body[data-course="hub"] .footer-note { margin-top:8px; padding-top:8px; font-siz
 @media (max-width:760px) {
  body[data-course="hub"] .study-dashboard { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:0 7px; align-items:start; }
  body[data-course="hub"] .dash-welcome, body[data-course="hub"] .dash-stats { grid-column:1 / -1; }
- body[data-course="hub"] .study-dashboard > .dash-panel:first-of-type { grid-column:1; grid-row:3; }
+ body[data-course="hub"] .study-dashboard > .dash-panel:not(.dash-activity-panel):not(.dash-subject-dropdown):not(.dash-tools-panel) { grid-column:1; grid-row:3; }
  body[data-course="hub"] .dash-activity-panel { grid-column:2; grid-row:3 / span 2; }
  body[data-course="hub"] .dash-subject-dropdown { grid-column:1; grid-row:4; }
  body[data-course="hub"] .dash-tools-panel { grid-column:1 / -1; grid-row:5; }
