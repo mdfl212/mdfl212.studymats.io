@@ -13,6 +13,46 @@ const state = {
 };
 
 const $ = (id) => document.getElementById(id);
+
+const PROGRESS_STORAGE_PREFIX = 'studymats-progress-v1:';
+
+function progressStorageKey(subjectId) {
+    return PROGRESS_STORAGE_PREFIX + encodeURIComponent(subjectId);
+}
+
+function saveProgress() {
+    if (!state.subject?.id) return;
+    try {
+        localStorage.setItem(progressStorageKey(state.subject.id), JSON.stringify({
+            answers: state.answers,
+            revealed: state.revealed,
+            currentIndex: state.currentIndex,
+            mode: state.mode,
+            topic: state.filters.topic,
+            savedAt: Date.now()
+        }));
+    } catch (error) {
+        // Storage may be unavailable or full; the reviewer should still work.
+        console.warn('StudyMats could not save progress on this device.', error);
+    }
+}
+
+function restoreProgress(subjectId) {
+    try {
+        const saved = localStorage.getItem(progressStorageKey(subjectId));
+        if (!saved) return false;
+        const progress = JSON.parse(saved);
+        state.answers = progress.answers && typeof progress.answers === 'object' ? progress.answers : {};
+        state.revealed = progress.revealed && typeof progress.revealed === 'object' ? progress.revealed : {};
+        state.currentIndex = Number.isInteger(progress.currentIndex) ? Math.max(0, progress.currentIndex) : 0;
+        state.mode = ['exam', 'review', 'key'].includes(progress.mode) ? progress.mode : 'exam';
+        state.filters.topic = typeof progress.topic === 'string' ? progress.topic : 'all';
+        return true;
+    } catch (error) {
+        console.warn('StudyMats could not restore saved progress.', error);
+        return false;
+    }
+}
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
 }[char]));
@@ -175,6 +215,9 @@ async function selectSubject(subjectId) {
     state.answers = {};
     state.revealed = {};
     state.currentIndex = 0;
+    state.mode = 'exam';
+    state.filters.topic = 'all';
+    restoreProgress(subjectId);
     document.documentElement.style.setProperty('--accent', subject.colors.accent);
     document.documentElement.style.setProperty('--accent-soft', subject.colors.accentSoft);
     $('headerEyebrow').textContent = `${subject.icon} ${subject.name} question bank`;
@@ -311,6 +354,8 @@ function toggleTableView() {
 }
 
 function render() {
+    saveProgress();
+    document.querySelectorAll('.tab').forEach((tab) => tab.classList.toggle('active', tab.dataset.mode === state.mode));
     const question = state.filteredQuestions[state.currentIndex];
     const total = state.filteredQuestions.length;
     const answered = state.filteredQuestions.filter((item) => state.answers[item.id] !== undefined).length;
@@ -397,6 +442,11 @@ function resetQuiz() {
     state.answers = {};
     state.revealed = {};
     state.currentIndex = 0;
+    try {
+        localStorage.removeItem(progressStorageKey(state.subject.id));
+    } catch (error) {
+        console.warn('StudyMats could not clear saved progress on this device.', error);
+    }
     render();
 }
 
