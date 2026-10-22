@@ -6480,3 +6480,6 @@ body[data-course="quiz"] .subject-picker { display:none; }
 @media (prefers-reduced-motion:reduce) {
  body[data-course="quiz"] .quiz-sidebar { transition:none; }
 }
+
+body[data-course="quiz"].sidebar-open { overflow:hidden; }
+body[data-course="quiz"] .sidebar-mode-links button.active { border-color:var(--accent); background:var(--accent-soft); color:var(--accent); font-weight:600; }
