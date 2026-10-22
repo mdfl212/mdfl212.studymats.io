@@ -28,11 +28,8 @@
           </p>
         </header>
 
-        <section class="section-wrapper" aria-label="Main hub">
-          <div class="section-toggle">
-            <span>Year level overview</span>
-            <span class="toggle-icon">▾</span>
-          </div>
+        <details class="section-wrapper hub-year-dropdown" aria-label="Main hub">
+          <summary class="section-toggle"><span class="hub-year-summary-copy"><span class="hub-year-title">Browse test banks</span><span class="hub-year-subtext">Choose a year level to explore subjects, question banks, and review resources.</span></span><span class="toggle-icon" aria-hidden="true">⌄</span></summary>
           <div
             class="hub-year-row"
             role="tablist"
@@ -85,7 +82,7 @@
             aria-live="polite"
           ></div>
           <div id="statusMessage" class="status-message" role="status"></div>
-        </section>
+        </details>
 
         <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
           <div class="dash-welcome"><div><p class="dash-kicker">YOUR LEARNING OVERVIEW</p><h2 id="dashGreeting">Your study space</h2><p class="dash-subtitle">A clear picture of your progress, one study session at a time.</p></div><button class="dash-button dash-button-quiet" id="dashProfileButton" type="button">Set up profile</button></div>
