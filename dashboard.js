@@ -9,6 +9,8 @@ const dateLabel=k=>new Date(k+'T12:00:00').toLocaleDateString(undefined,{month:'
 const profile=()=>{try{return parse(localStorage.getItem(PROFILE),null)}catch{return null}};
 const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{return {}}};
 const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
+const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
+const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
 let subjects=[], dataBySubject=new Map(), range=180, selectedYear='YL1';
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
@@ -19,7 +21,7 @@ function buildHeatmap(){
  const days=[];for(let i=0;i<range;i++){const d=new Date(start);d.setDate(start.getDate()+i);const k=dateKey(d);days.push({key:k,date:d,count:Array.isArray(a[k])?a[k].length:0})}
  const vals=days.map(x=>x.count).filter(x=>x>0).sort((x,y)=>x-y),q=n=>vals.length?vals[Math.floor((vals.length-1)*n)]:1;
  const level=n=>!n?0:n<=q(.35)?1:n<=q(.7)?2:n<=q(1)?3:4;
- const active=days.filter(x=>x.count>0).length,total=days.reduce((s,x)=>s+x.count,0);
+ const active=days.filter(x=>x.count>0).length,total=new Set(Object.values(a).flatMap(items=>Array.isArray(items)?items:[])).size;
  let streak=0,cursor=new Date(today);if(!(a[dateKey(cursor)]||[]).length)cursor.setDate(cursor.getDate()-1);while((a[dateKey(cursor)]||[]).length){streak++;cursor.setDate(cursor.getDate()-1)}
  let longest=0,run=0;days.forEach(x=>{run=x.count?run+1:0;longest=Math.max(longest,run)});
  const gridStart=new Date(days[0].date);gridStart.setDate(gridStart.getDate()-((gridStart.getDay()+6)%7));const weeks=[];
@@ -29,9 +31,27 @@ function buildHeatmap(){
  return {html:'<div class="dash-month-labels">'+labels+'</div><div class="dash-heatmap-scroll"><div class="dash-heatmap">'+rows+'</div></div>',active,streak,longest,total};
 }
 async function load(){
- const r=await fetch('subjects.json');if(!r.ok)throw Error('Unable to load subjects');subjects=await r.json();
- const loaded=await Promise.all(subjects.map(async s=>{try{const r=await fetch(s.data);return [s.id,r.ok?await r.json():[]]}catch{return [s.id,[]]}}));
- dataBySubject=new Map(loaded);render();
+ const sourceUrl=dashboardAssetUrl('subjects.json');
+ try{
+  const r=await fetch(sourceUrl,{cache:'no-cache'});
+  if(!r.ok)throw Error('subjects.json returned HTTP '+r.status);
+  const parsed=await r.json();
+  if(!Array.isArray(parsed))throw Error('subjects.json is not a subject list');
+  subjects=parsed;
+ }catch(error){
+  console.error('StudyMats subject index failed to load:',error);
+  subjects=[];
+  dataBySubject=new Map();
+  render();
+  const message=$('dashDataMessage');if(message){message.textContent='Dashboard is visible, but the subject index could not be loaded. Check that subjects.json is deployed beside dashboard.js.';message.classList.add('is-error')}
+  return;
+ }
+ const loaded=await Promise.all(subjects.map(async s=>{
+  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
+  catch(error){console.warn('StudyMats subject data failed:',s.id,error);return [s.id,[]]}
+ }));
+ dataBySubject=new Map(loaded);
+ render();
 }
 function render(){
  if(!$('studyDashboard'))return;
@@ -39,7 +59,7 @@ function render(){
  const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
  const cards=visibleSubjects.map(s=>{
-  const qs=dataBySubject.get(s.id)||[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
+  const qs=Array.isArray(dataBySubject.get(s.id))?dataBySubject.get(s.id):[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
   const ansIds=Object.keys(ans).filter(id=>ids.has(String(id))),revIds=Object.keys(rev).filter(id=>ids.has(String(id)));total+=qs.length;answeredN+=ansIds.length;revealedN+=revIds.length;
   qs.forEach(q=>{const tags=[...new Set([q.topic,...(Array.isArray(q.tags)?q.tags:[])].filter(Boolean))];tags.forEach(t=>{allTopics.add(s.id+'::'+t);if(ansIds.includes(String(q.id))||revIds.includes(String(q.id)))doneTopics.add(s.id+'::'+t)});if(ans[q.id]!==undefined&&Number.isInteger(q.correctAnswer)){scored++;if(ans[q.id]===q.correctAnswer)correct++}});
   const pct=qs.length?Math.round(ansIds.length/qs.length*100):0,has=ansIds.length||revIds.length,when=Number(v.savedAt)?'Saved '+new Date(Number(v.savedAt)).toLocaleDateString(undefined,{month:'short',day:'numeric'}):'No saved session yet';
@@ -102,7 +122,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||180;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
  document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render()}));
  document.querySelectorAll('.hub-year-dropdown summary').forEach(summary=>summary.setAttribute('aria-label','Open or close test banks'));
- if(!profile())openProfile();load().catch(e=>{console.error(e);$('dashSubjectList').innerHTML='<p class="dash-empty">The dashboard could not load. Your saved quiz data is untouched.</p>'});
+ if(!profile())openProfile();render();load().catch(e=>{console.error('StudyMats dashboard load failed:',e);const message=$('dashDataMessage');if(message){message.textContent='Some dashboard data could not load. Your saved quiz data is untouched.';message.classList.add('is-error')}render()});
  window.addEventListener('storage',e=>{if(e.key&& (e.key.startsWith(PREFIX)||[ACTIVITY,PROFILE].includes(e.key)))render()});
 });
 })();
