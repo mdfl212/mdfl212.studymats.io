@@ -7996,3 +7996,14 @@ body[data-course="hub"] .qs-keyboard-hint kbd { display:inline-block; margin:0 2
  body[data-course="hub"] .qs-preview-footer { align-items:flex-start; flex-direction:column; }
  body[data-course="hub"] .qs-keyboard-hint { padding:8px; }
 }
+
+body[data-course="hub"] .qs-header-copy { flex:1; min-width:0; }
+body[data-course="hub"] .qs-search-box { display:flex; align-items:center; gap:10px; width:min(620px,100%); margin:12px 0 8px; padding:0 13px; border:1px solid var(--border); border-radius:10px; background:var(--bg); color:var(--text-sub); }
+body[data-course="hub"] .qs-search-box > span { font-size:21px; }
+body[data-course="hub"] .qs-search-box input { width:100%; min-width:0; padding:12px 0; border:0; outline:0; background:transparent; color:var(--text-main); font:13px 'Source Serif 4',Georgia,serif; }
+body[data-course="hub"] .qs-search-box:focus-within { border-color:var(--dash-green,var(--accent)); box-shadow:0 0 0 3px rgba(39,117,70,.1); }
+body[data-course="hub"] .qs-header #questionSearchStatus { min-height:1em; }
+@media (max-width:760px) {
+ body[data-course="hub"] .qs-search-box { margin:9px 0 6px; }
+ body[data-course="hub"] .qs-search-box input { padding:10px 0; }
+}
