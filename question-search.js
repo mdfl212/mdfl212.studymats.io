@@ -24,7 +24,7 @@
         try{
           const r=await fetch(new URL(subject.data,document.baseURI));if(!r.ok)throw new Error('Question bank request failed');
           const payload=await r.json();if(!Array.isArray(payload))throw new Error('Question bank is not a JSON array');
-          const questions=payload.filter(q=>q&&typeof q.question==='string'&&Array.isArray(q.options)&&q.options.length>=2&&Number.isInteger(Number(q.correctAnswer))&&Number(q.correctAnswer)>=0&&Number(q.correctAnswer)<q.options.length).map(q=>({...q,correctAnswer:Number(q.correctAnswer)}));
+          const questions=payload.filter(q=>q&&typeof q.question==='string'&&Array.isArray(q.options)&&q.options.length>=2&&Number.isInteger(q.correctAnswer)&&q.correctAnswer>=0&&q.correctAnswer<q.options.length).map(q=>({...q}));
           return {subject,questions,error:false};
         }catch(error){console.warn('Search could not load bank:',subject.name,error);return {subject,questions:[],error:true};}
       }));
