@@ -262,6 +262,17 @@ async function selectSubject(subjectId) {
         $('topicFilter').value = state.filters.topic;
     }
     applyFilters();
+    // Deep links from the dashboard search open the exact matching bank item.
+    const requestedQuestion = new URLSearchParams(window.location.search).get('question');
+    if (requestedQuestion) {
+        const questionIndex = state.filteredQuestions.findIndex((item) => String(item.id) === requestedQuestion);
+        if (questionIndex >= 0) {
+            state.currentIndex = questionIndex;
+            render();
+        } else {
+            console.warn('Requested question ID was not found in the selected subject bank:', requestedQuestion);
+        }
+    }
 }
 
 function populateTopics() {
