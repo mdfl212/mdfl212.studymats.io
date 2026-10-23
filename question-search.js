@@ -7,14 +7,14 @@
   if(!dashboardInput||!input||!modal||!resultsEl||!previewEl)return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const norm=v=>String(v??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ').trim();
-  let banks=[],matches=[],selectedIndex=0,loadPromise=null,previousFocus=null,debounce=null;
+  let banks=[],matches=[],selectedIndex=0,loadPromise=null,debounce=null;
   function openModal(){
     if(!modal.hidden){input.focus();return;}
-    previousFocus=document.activeElement;input.value=dashboardInput.value;modal.hidden=false;document.body.classList.add('question-search-open');modal.setAttribute('aria-hidden','false');
+    input.value=dashboardInput.value;modal.hidden=false;document.body.classList.add('question-search-open');modal.setAttribute('aria-hidden','false');
     if(input.value.trim())runSearch(input.value);else{resultsEl.innerHTML='<div class="qs-empty">Type a topic, keyword, or part of a question to search all test banks.</div>';previewEl.innerHTML='<div class="qs-preview-empty"><span>⌕</span><strong>Find a question</strong><p>Search across subjects, question stems, options, topics, and rationales.</p></div>';statusEl.textContent='Search all available question banks';}
     input.focus();
   }
-  function closeModal(){modal.hidden=true;document.body.classList.remove('question-search-open');modal.setAttribute('aria-hidden','true');if(previousFocus&&previousFocus.focus)previousFocus.focus();}
+  function closeModal(){modal.hidden=true;document.body.classList.remove('question-search-open');modal.setAttribute('aria-hidden','true');input.blur();}
   async function loadBanks(){
     if(banks.length)return banks;if(loadPromise)return loadPromise;
     loadPromise=(async()=>{
