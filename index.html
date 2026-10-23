@@ -37,6 +37,14 @@
         <details class="section-wrapper hub-year-dropdown" aria-label="Main hub">
           <summary class="section-toggle"><span class="hub-year-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 5.5c3.7-1.2 6.8-.5 8.5 1.2v12c-1.7-1.7-4.8-2.4-8.5-1.2z"/><path d="M20.5 5.5c-3.7-1.2-6.8-.5-8.5 1.2v12c1.7-1.7 4.8-2.4 8.5-1.2z"/><path d="M12 7v12"/></svg></span><span class="hub-year-summary-copy"><span class="hub-year-title">Browse test banks</span><span class="hub-year-subtext">Choose a year level to explore subjects, question banks, and review resources.</span></span><span class="toggle-icon" aria-hidden="true">⌄</span></summary>
           <div
+            class="hub-subjects"
+            id="hubSubjectList"
+            aria-live="polite"
+          ></div>
+          <div id="statusMessage" class="status-message" role="status"></div>
+        </details>
+
+          <div
             class="hub-year-row"
             role="tablist"
             aria-label="Year level selection"
@@ -82,13 +90,6 @@
               Additional Resources
             </button>
           </div>
-          <div
-            class="hub-subjects"
-            id="hubSubjectList"
-            aria-live="polite"
-          ></div>
-          <div id="statusMessage" class="status-message" role="status"></div>
-        </details>
 
         <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
           <div class="dash-welcome"><div><p class="dash-kicker">YOUR LEARNING OVERVIEW</p><h2 id="dashGreeting">Your study space</h2><p class="dash-subtitle">A clear picture of your progress, one study session at a time.</p></div><button class="dash-button dash-button-quiet" id="dashProfileButton" type="button">Set up profile</button></div>
