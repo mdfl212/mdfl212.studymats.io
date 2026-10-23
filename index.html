@@ -114,6 +114,9 @@
       </nav>
       <script>
         document.querySelector("[data-sidebar-menu]")?.addEventListener("click", () => document.body.classList.toggle("sidebar-open"));
+        document.querySelector(".topbar-theme")?.addEventListener("click", () => window.toggleTheme?.());
+        document.querySelector("#dashProfileButtonTop")?.addEventListener("click", () => document.querySelector("#dashProfileButton")?.click());
+        document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter" && event.currentTarget.value.trim()) window.location.href = "quiz.html?search=" + encodeURIComponent(event.currentTarget.value.trim()); });
         document.querySelector("[data-sidebar-theme]")?.addEventListener("click", () => document.querySelector("[data-theme-toggle]")?.click());
         document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", () => { const d=document.querySelector(".hub-year-dropdown"); if(d) d.open=true; });
         document.querySelector("[data-mobile-settings]")?.addEventListener('click', () => {
