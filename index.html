@@ -104,6 +104,14 @@
         </p>
       </main>
 
+      <div class="question-search-modal" id="questionSearchModal" hidden aria-hidden="true">
+        <div class="question-search-backdrop" id="questionSearchBackdrop"></div>
+        <section class="question-search-dialog" role="dialog" aria-modal="true" aria-labelledby="questionSearchTitle">
+          <header class="qs-header"><div><p class="dash-kicker">STUDYMATS QUESTION FINDER</p><h2 id="questionSearchTitle">Find a question</h2><p id="questionSearchStatus" role="status" aria-live="polite">Search all available question banks</p></div><button type="button" id="questionSearchClose" class="qs-close" aria-label="Close question search">×</button></header>
+          <div class="qs-body"><div class="qs-results-column"><div class="qs-column-label">SEARCH RESULTS</div><div id="questionSearchResults" class="qs-results"><div class="qs-empty">Type a topic, keyword, or part of a question.</div></div></div><div id="questionSearchPreview" class="qs-preview"><div class="qs-preview-empty"><span>⌕</span><strong>Find a question</strong><p>Search across subjects, question stems, options, topics, and rationales.</p></div></div></div>
+          <p class="qs-keyboard-hint"><kbd>↑</kbd><kbd>↓</kbd> browse results <span>·</span> <kbd>Esc</kbd> close <span>·</span> Previewing a question does not change saved quiz progress.</p>
+        </section>
+      </div>
       <div class="dash-modal-backdrop" id="profileModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle"><div class="dash-modal-mark">S</div><p class="dash-kicker">A LITTLE PERSONAL TOUCH</p><h2 id="profileModalTitle">Make this space yours</h2><p class="dash-modal-copy">Add a name for your dashboard. No account needed, and you can skip this.</p><form id="profileForm"><label for="profileName">Preferred name <span>(optional)</span></label><input id="profileName" name="profileName" maxlength="60" autocomplete="given-name" placeholder="What should we call you?"><label class="dash-checkbox-label"><input id="profileShowName" type="checkbox" checked><span>Show my name on the dashboard</span></label><div class="dash-modal-actions"><button class="dash-button" id="profileSkipButton" type="button">Maybe later</button><button class="dash-button dash-button-primary" type="submit">Save preferences</button></div></form></section></div>
       <div class="dash-modal-backdrop" id="importModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle"><p class="dash-kicker">RESTORE YOUR STUDY DATA</p><h2 id="importModalTitle">Import progress</h2><p class="dash-modal-copy" id="importSummary">Review your backup before applying it.</p><div class="dash-import-warning">Merging keeps current progress and applies imported answers where question IDs match. Replacing removes current subject progress first. Export a backup before replacing.</div><div class="dash-modal-actions dash-import-actions"><button class="dash-button" id="importCancelButton" type="button">Cancel</button><button class="dash-button" id="importMergeButton" type="button">Merge</button><button class="dash-button dash-button-primary" id="importReplaceButton" type="button">Replace</button></div></section></div>
  
@@ -119,7 +127,7 @@
         
         document.querySelector(".topbar-theme")?.addEventListener("click", () => window.toggleTheme?.());
         document.querySelector("#dashProfileButtonTop")?.addEventListener("click", () => document.querySelector("#dashProfileButton")?.click());
-        document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter" && event.currentTarget.value.trim()) window.location.href = "quiz.html?search=" + encodeURIComponent(event.currentTarget.value.trim()); });
+        document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter") event.preventDefault(); });
         document.querySelector("[data-sidebar-theme]")?.addEventListener("click", () => document.querySelector("[data-theme-toggle]")?.click());
         document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", () => { const d=document.querySelector(".hub-year-dropdown"); if(d) d.open=true; });
         document.querySelector("[data-mobile-settings]")?.addEventListener('click', () => {
@@ -133,5 +141,6 @@
       </script>
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
+      <script src="question-search.js"></script>
     </body>
 </html>
