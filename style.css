@@ -7215,3 +7215,39 @@ body[data-course="hub"] .mobile-bottom-nav { display:none; }
   body[data-course="hub"] .dash-donut-wrap { grid-template-columns: 58px minmax(0,1fr); column-gap: 7px; }
   body[data-course="hub"] .dash-donut { width: 58px; height: 58px; }
 }
+
+
+/* StudyMats brand lockup: original font families retained. */
+body[data-course="hub"] .brand-lockup {
+  display:flex; align-items:center; justify-content:center; gap:16px;
+  max-width:100%; margin:0 auto;
+}
+body[data-course="hub"] .brand-mark {
+  display:block; width:76px; height:76px; flex:0 0 76px; object-fit:contain;
+  filter: drop-shadow(0 4px 12px rgba(124,58,237,.18));
+}
+body[data-course="hub"] .brand-copy { min-width:0; text-align:left; }
+body[data-course="hub"] .brand-copy .header-eyebrow { margin-bottom:4px; }
+body[data-course="hub"] .brand-copy .header-title { margin:0 0 4px; }
+body[data-course="hub"] .brand-copy .header-sub { margin:0; }
+@media (min-width: 601px) {
+  body[data-course="hub"] .site-header { padding:25px 0 18px; }
+  body[data-course="hub"] .brand-mark { width:86px; height:86px; flex-basis:86px; }
+  body[data-course="hub"] .brand-lockup { gap:18px; }
+}
+@media (max-width: 600px) {
+  body[data-course="hub"] .site-header { padding:24px 0 15px; }
+  body[data-course="hub"] .brand-lockup { gap:10px; }
+  body[data-course="hub"] .brand-mark { width:54px; height:54px; flex-basis:54px; }
+  body[data-course="hub"] .brand-copy { text-align:left; }
+  body[data-course="hub"] .brand-copy .header-eyebrow {
+    padding-right:0; text-align:left; font-size:7px; letter-spacing:.13em;
+  }
+  body[data-course="hub"] .brand-copy .header-title { font-size:clamp(25px, 7vw, 33px); }
+  body[data-course="hub"] .brand-copy .header-sub { font-size:10px; }
+}
+@media (max-width: 360px) {
+  body[data-course="hub"] .brand-mark { width:46px; height:46px; flex-basis:46px; }
+  body[data-course="hub"] .brand-lockup { gap:8px; }
+  body[data-course="hub"] .brand-copy .header-title { font-size:24px; }
+}
