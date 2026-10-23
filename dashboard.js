@@ -76,7 +76,7 @@ function render(){
  document.querySelectorAll('.hub-pill[data-year]').forEach(b=>{const active=b.dataset.year===selectedYear;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
  $('dashSubjectList').innerHTML=cards||'<p class="dash-empty">No subjects found for '+esc(selectedYear)+'.</p>';
  const subjectCount=document.querySelector('.dash-subject-count');if(subjectCount)subjectCount.textContent=selectedYear==='resources'?'Additional resources':selectedYear+' subjects';
- const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>studied question-days</span></div>';
+ const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>total questions</span></div>';
  $('dashActivityCaption').textContent='Showing '+(range===30?'the last 30 days':range===180?'the last 6 months':'the last 12 months')+'. Daily history begins when tracking is enabled; older activity is not guessed.';
 }
 function exportBackup(){
