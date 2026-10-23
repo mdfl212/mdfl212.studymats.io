@@ -7905,3 +7905,23 @@ body[data-course="hub"] .hub-year-row { flex-wrap:wrap; }
  body[data-course="hub"] .dash-stat-ring .dash-donut-number { font-size:20px; }
  body[data-course="hub"] .dash-stat-ring .dash-donut-small { display:none; }
 }
+
+
+/* Year level is a persistent selector; the disclosure below it opens test banks. */
+body[data-course="hub"] > main .hub-year-row,
+body[data-course="hub"] .hub-year-row {
+  display:flex; align-items:center; gap:9px; flex-wrap:wrap;
+  margin:14px 0 18px; padding:0;
+}
+body[data-course="hub"] .hub-year-dropdown .hub-year-row { display:none; }
+body[data-course="hub"] .hub-year-dropdown .section-toggle { cursor:pointer; }
+body[data-course="hub"] .hub-year-dropdown[open] .hub-year-subtext { display:block; }
+body[data-course="hub"] .hub-year-dropdown .hub-subjects { padding-top:12px; }
+body[data-course="hub"] .dash-glance-row { grid-template-columns:28px minmax(105px,1fr) minmax(70px,1.2fr) 42px 76px 18px; }
+body[data-course="hub"] .dash-glance-emoji { display:inline-flex;align-items:center;justify-content:center;font-size:19px;line-height:1; }
+@media (max-width:700px) {
+ body[data-course="hub"] .hub-year-row { gap:6px; margin:10px 0 14px; }
+ body[data-course="hub"] .hub-pill { padding:8px 11px; font-size:10px; }
+ body[data-course="hub"] .dash-glance-row { grid-template-columns:22px minmax(74px,.9fr) minmax(50px,1fr) 34px;gap:7px; }
+ body[data-course="hub"] .dash-glance-emoji { font-size:16px; }
+}
