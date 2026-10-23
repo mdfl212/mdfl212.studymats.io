@@ -12,7 +12,7 @@
       <script src="theme.js"></script>
     </head>
     <body data-course="hub">
-      <main class="wrapper">
+      <main class="wrapper" id="top">
         <div class="theme-toggle-wrapper">
           <button class="theme-toggle" data-theme-toggle type="button">
             <span data-theme-icon aria-hidden="true">🌙</span>
@@ -21,11 +21,9 @@
         </div>
 
         <header class="site-header">
-          <div class="header-eyebrow">📖 Medical Board Review</div>
-          <h1 class="header-title"><em>Medical</em><br />Question Bank</h1>
-          <p class="header-sub">
-            Choose a year level and subject to begin a focused review.
-          </p>
+          <div class="header-eyebrow">📖 STUDYMATS · MEDICAL BOARD REVIEW</div>
+          <h1 class="header-title"><em>Study</em>Mats</h1>
+          <p class="header-sub">Your medical question bank, organized for focused review.</p>
         </header>
 
         <details class="section-wrapper hub-year-dropdown" aria-label="Main hub">
@@ -99,6 +97,13 @@
 
       <div class="dash-modal-backdrop" id="profileModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle"><div class="dash-modal-mark">S</div><p class="dash-kicker">A LITTLE PERSONAL TOUCH</p><h2 id="profileModalTitle">Make this space yours</h2><p class="dash-modal-copy">Add a name for your dashboard. No account needed, and you can skip this.</p><form id="profileForm"><label for="profileName">Preferred name <span>(optional)</span></label><input id="profileName" name="profileName" maxlength="60" autocomplete="given-name" placeholder="What should we call you?"><label class="dash-checkbox-label"><input id="profileShowName" type="checkbox" checked><span>Show my name on the dashboard</span></label><div class="dash-modal-actions"><button class="dash-button" id="profileSkipButton" type="button">Maybe later</button><button class="dash-button dash-button-primary" type="submit">Save preferences</button></div></form></section></div>
       <div class="dash-modal-backdrop" id="importModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle"><p class="dash-kicker">RESTORE YOUR STUDY DATA</p><h2 id="importModalTitle">Import progress</h2><p class="dash-modal-copy" id="importSummary">Review your backup before applying it.</p><div class="dash-import-warning">Merging keeps current progress and applies imported answers where question IDs match. Replacing removes current subject progress first. Export a backup before replacing.</div><div class="dash-modal-actions dash-import-actions"><button class="dash-button" id="importCancelButton" type="button">Cancel</button><button class="dash-button" id="importMergeButton" type="button">Merge</button><button class="dash-button dash-button-primary" id="importReplaceButton" type="button">Replace</button></div></section></div>
+ 
+      <nav class="mobile-bottom-nav" aria-label="Quick navigation">
+        <a class="mobile-nav-item is-current" href="#top" aria-current="page"><span aria-hidden="true">⌂</span><small>Home</small></a>
+        <a class="mobile-nav-item" href="quiz.html"><span aria-hidden="true">▤</span><small>Quiz</small></a>
+        <a class="mobile-nav-item" href="#hubSubjectList"><span aria-hidden="true">▦</span><small>Subjects</small></a>
+        <button class="mobile-nav-item" type="button" data-mobile-settings><span aria-hidden="true">⚙</span><small>Theme</small></button>
+      </nav>
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
     </body>
