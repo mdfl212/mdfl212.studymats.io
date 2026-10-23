@@ -102,8 +102,13 @@
         <a class="mobile-nav-item is-current" href="#top" aria-current="page"><span aria-hidden="true">⌂</span><small>Home</small></a>
         <a class="mobile-nav-item" href="quiz.html"><span aria-hidden="true">▤</span><small>Quiz</small></a>
         <a class="mobile-nav-item" href="#hubSubjectList"><span aria-hidden="true">▦</span><small>Subjects</small></a>
-        <button class="mobile-nav-item" type="button" data-mobile-settings><span aria-hidden="true">⚙</span><small>Theme</small></button>
+        <button class="mobile-nav-item" type="button" data-mobile-settings aria-label="Toggle light or dark theme"><span aria-hidden="true">◐</span><small>Theme</small></button>
       </nav>
+      <script>
+        document.querySelector('[data-mobile-settings]')?.addEventListener('click', () => {
+          document.querySelector('[data-theme-toggle]')?.click();
+        });
+      </script>
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
     </body>
