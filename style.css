@@ -7511,3 +7511,124 @@ body[data-course="hub"] .hub-year-dropdown .status-message { margin-inline:15px;
   body[data-course="hub"] .dash-activity-panel .dash-heatmap-container { max-width:100%; }
   body[data-course="hub"] .dash-subject-dropdown > summary { min-height:44px; }
 }
+
+
+/* StudyMats dashboard refresh — preserves the project's Playfair Display,
+   Source Serif 4 and JetBrains Mono typography. */
+html[data-course="hub"] {
+  --bg:#090e19; --bg-card:#111827; --border:#263247; --border-hover:#8061ff;
+  --text-main:#edf2ff; --text-sub:#aab8d4; --gold-primary:#a78bfa;
+  --gold-accent:#c4b5fd; --gold-light:rgba(124,77,255,.16);
+  --header-border:#263247; --radius:15px; --shadow-card:0 8px 28px rgba(0,0,0,.18);
+}
+html[data-course="hub"][data-theme="light"] {
+  --bg:#f5f7fc; --bg-card:#fff; --border:#dce3f0; --border-hover:#7250e8;
+  --text-main:#172033; --text-sub:#66748d; --gold-primary:#6741d9;
+  --gold-accent:#8b6cff; --gold-light:rgba(124,77,255,.1); --header-border:#dce3f0;
+}
+body[data-course="hub"] { padding:0 30px 80px 234px; background:var(--bg); font-family:'Source Serif 4',Georgia,serif; }
+body[data-course="hub"] .wrapper { max-width:1600px; padding-top:0; }
+body[data-course="hub"] .wrapper::before, body[data-course="hub"] .wrapper::after { display:none; }
+body[data-course="hub"] .desktop-sidebar { position:fixed; z-index:50; inset:0 auto 0 0; width:204px; padding:22px 12px 18px; display:flex; flex-direction:column; gap:30px; background:#0d1422; border-right:1px solid #263247; color:#e6ecfb; }
+body[data-course="hub"] .sidebar-brand, body[data-course="hub"] .topbar-brand { display:flex; align-items:center; gap:12px; color:inherit; text-decoration:none; min-width:0; }
+body[data-course="hub"] .sidebar-brand { padding:0 8px; }
+body[data-course="hub"] .sidebar-brand-mark { display:grid; place-items:center; width:44px;height:44px;border-radius:13px;background:#192338;color:#c4b5fd;font-size:28px; }
+body[data-course="hub"] .sidebar-brand strong, body[data-course="hub"] .topbar-brand strong { display:block;font-family:'Playfair Display',serif;font-size:21px;line-height:1.1;white-space:nowrap; }
+body[data-course="hub"] .sidebar-brand strong span, body[data-course="hub"] .topbar-brand strong span { color:#a78bfa; }
+body[data-course="hub"] .sidebar-brand small, body[data-course="hub"] .topbar-brand small { display:block;margin-top:5px;font:9px 'JetBrains Mono',monospace;letter-spacing:.045em;color:#9eacc8;white-space:nowrap; }
+body[data-course="hub"] .desktop-sidebar nav { display:grid;gap:5px; }
+body[data-course="hub"] .sidebar-link { display:flex;align-items:center;gap:12px;width:100%;border:0;background:transparent;text-decoration:none;color:#bdc9e1;padding:12px 13px;border-radius:10px;font:14px 'Source Serif 4',serif;text-align:left;cursor:pointer; }
+body[data-course="hub"] .sidebar-link span { width:18px;text-align:center;font-size:18px; }
+body[data-course="hub"] .sidebar-link:hover, body[data-course="hub"] .sidebar-link.is-active { background:linear-gradient(100deg,rgba(112,73,224,.32),rgba(112,73,224,.12));color:#eee9ff; }
+body[data-course="hub"] .sidebar-divider { height:1px;background:#29344a;margin:12px 6px; }
+body[data-course="hub"] .sidebar-save { margin-top:auto;border:1px solid #263b43;border-radius:12px;padding:11px 10px;color:#b6c5d9;font-size:10px;display:flex;align-items:center;gap:7px;white-space:nowrap; }
+body[data-course="hub"] .sidebar-save i { width:8px;height:8px;border-radius:50%;background:#22c58b; }
+body[data-course="hub"] .sidebar-save span { margin-left:auto; }
+body[data-course="hub"] .app-topbar { height:70px;display:flex;align-items:center;gap:24px;border-bottom:1px solid var(--border);margin:0 -30px 26px;padding:0 30px; }
+body[data-course="hub"] .sidebar-menu { display:none; }
+body[data-course="hub"] .topbar-brand img { width:42px;height:42px;padding:7px;background:#172237;border-radius:13px; }
+body[data-course="hub"] .topbar-search { margin-left:auto;display:flex;align-items:center;gap:12px;width:min(48%,520px);padding:8px 12px;border:1px solid var(--border);border-radius:13px;background:var(--bg-card);color:var(--text-sub); }
+body[data-course="hub"] .topbar-search input { min-width:0;flex:1;border:0;outline:0;background:transparent;color:var(--text-main);font:13px 'Source Serif 4',serif; }
+body[data-course="hub"] .topbar-search kbd { border:1px solid var(--border);border-radius:6px;padding:3px 7px;font:11px 'JetBrains Mono',monospace; }
+body[data-course="hub"] .topbar-theme, body[data-course="hub"] .topbar-profile { border:1px solid var(--border);background:var(--bg-card);color:var(--text-main);border-radius:30px;padding:9px 12px;cursor:pointer; }
+body[data-course="hub"] .topbar-profile { display:flex;align-items:center;gap:10px;border:0;background:transparent;white-space:nowrap;font:13px 'Source Serif 4',serif; }
+body[data-course="hub"] .topbar-profile span { display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:#5b2bc4;color:white;font-size:13px; }
+body[data-course="hub"] .topbar-profile small { color:var(--text-sub); }
+body[data-course="hub"] .theme-toggle-wrapper { display:none; }
+body[data-course="hub"] .site-header { display:none; }
+body[data-course="hub"] .hub-year-dropdown { margin:0 0 20px;padding:0;background:var(--bg-card);border:1px solid var(--border);border-radius:15px;box-shadow:none;backdrop-filter:none; }
+body[data-course="hub"] .section-toggle { border:0;padding:14px 18px;font:16px 'Source Serif 4',serif; }
+body[data-course="hub"] .section-toggle .hub-year-icon { display:grid;place-items:center;flex:none;width:40px;height:40px;border-radius:12px;background:rgba(124,77,255,.16);color:#c4b5fd;padding:8px;margin:0; }
+body[data-course="hub"] .section-toggle .hub-year-icon svg { width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7; }
+body[data-course="hub"] .section-toggle .hub-year-summary-copy { display:flex;flex-direction:column;gap:3px;background:none;padding:0;margin:0;letter-spacing:0; }
+body[data-course="hub"] .section-toggle .hub-year-title { font:600 16px 'Source Serif 4',serif;background:none;padding:0;margin:0;color:var(--text-main); }
+body[data-course="hub"] .section-toggle .hub-year-subtext { font:12px 'Source Serif 4',serif;background:none;padding:0;margin:0;color:var(--text-sub);letter-spacing:0; }
+body[data-course="hub"] .hub-year-row { padding:0 18px 16px;gap:9px; }
+body[data-course="hub"] .hub-pill { border:1px solid var(--border);background:transparent;color:var(--text-main);border-radius:24px;padding:10px 18px;font:13px 'Source Serif 4',serif; }
+body[data-course="hub"] .hub-pill.active { background:#5428bd;border-color:#6f48d5;color:#fff; }
+body[data-course="hub"] .study-dashboard { display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px; }
+body[data-course="hub"] .dash-welcome { grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;padding:0 4px 4px;gap:16px; }
+body[data-course="hub"] .dash-welcome h2 { font:600 clamp(25px,2.4vw,34px) 'Playfair Display',serif;letter-spacing:-.025em; }
+body[data-course="hub"] .dash-kicker { font:10px 'JetBrains Mono',monospace;letter-spacing:.13em;color:var(--gold-primary);margin-bottom:7px; }
+body[data-course="hub"] .dash-subtitle, body[data-course="hub"] .dash-panel-copy { color:var(--text-sub);font-size:13px;margin-top:5px; }
+body[data-course="hub"] .dash-button { border:1px solid var(--border);background:var(--bg-card);color:var(--text-main);border-radius:12px;padding:11px 16px;font:12px 'Source Serif 4',serif;cursor:pointer; }
+body[data-course="hub"] .dash-button-primary { background:linear-gradient(110deg,#5827c4,#713ce0);border-color:transparent;color:white; }
+body[data-course="hub"] .dash-stats { grid-column:1/-1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px; }
+body[data-course="hub"] .dash-stat, body[data-course="hub"] .dash-panel { background:var(--bg-card);border:1px solid var(--border);border-radius:15px;box-shadow:none; }
+body[data-course="hub"] .dash-stat { min-width:0;padding:19px; }
+body[data-course="hub"] .dash-panel { padding:20px;min-width:0; }
+body[data-course="hub"] .dash-panel-heading { display:flex;align-items:center;justify-content:space-between;gap:12px; }
+body[data-course="hub"] .dash-panel-heading h2 { font:600 17px 'Playfair Display',serif;color:var(--text-main); }
+body[data-course="hub"] .dash-donuts { grid-column:span 6;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px; }
+body[data-course="hub"] .dash-panel:has(.dash-donuts) { grid-column:span 6; }
+body[data-course="hub"] .dash-activity-panel { grid-column:span 6; }
+body[data-course="hub"] .dash-heatmap-container { overflow-x:auto; }
+body[data-course="hub"] .dash-subject-dropdown { grid-column:span 6; }
+body[data-course="hub"] .dash-tools-panel { grid-column:1/-1; }
+body[data-course="hub"] .dash-data-actions { display:flex;gap:10px;flex-wrap:wrap; }
+body[data-course="hub"] .footer-note { margin-top:22px;padding-top:16px;border-color:var(--border); }
+body[data-course="hub"] .mobile-bottom-nav { display:none; }
+body[data-course="hub"] .dash-modal { background:var(--bg-card);color:var(--text-main); }
+@media(max-width:1100px) {
+ body[data-course="hub"] { padding-left:218px;padding-right:20px; }
+ body[data-course="hub"] .app-topbar { margin-left:-20px;margin-right:-20px;padding:0 20px;gap:14px; }
+ body[data-course="hub"] .topbar-profile b { display:none; }
+ body[data-course="hub"] .dash-panel:has(.dash-donuts), body[data-course="hub"] .dash-activity-panel, body[data-course="hub"] .dash-subject-dropdown { grid-column:1/-1; }
+}
+@media(max-width:700px) {
+ body[data-course="hub"] { padding:0 12px calc(82px + env(safe-area-inset-bottom)); }
+ body[data-course="hub"] .desktop-sidebar { transform:translateX(-100%);transition:transform .2s ease;box-shadow:12px 0 40px rgba(0,0,0,.3); }
+ body[data-course="hub"].sidebar-open .desktop-sidebar { transform:translateX(0); }
+ body[data-course="hub"] .app-topbar { height:68px;margin:0 -12px 18px;padding:0 12px;gap:10px; }
+ body[data-course="hub"] .sidebar-menu { display:block;background:transparent;border:0;color:var(--text-main);font-size:23px;padding:4px; }
+ body[data-course="hub"] .topbar-brand img { width:36px;height:36px; }
+ body[data-course="hub"] .topbar-brand strong { font-size:18px; }
+ body[data-course="hub"] .topbar-brand small { font-size:7px; }
+ body[data-course="hub"] .topbar-search { display:none; }
+ body[data-course="hub"] .topbar-theme { margin-left:auto;padding:8px 10px; }
+ body[data-course="hub"] .topbar-profile { padding:0; }
+ body[data-course="hub"] .topbar-profile span { width:36px;height:36px; }
+ body[data-course="hub"] .topbar-profile small { display:none; }
+ body[data-course="hub"] .hub-year-dropdown { margin-bottom:14px; }
+ body[data-course="hub"] .section-toggle { padding:12px;gap:10px; }
+ body[data-course="hub"] .section-toggle .hub-year-subtext { max-width:34ch;line-height:1.35; }
+ body[data-course="hub"] .hub-year-row { display:flex;overflow-x:auto; }
+ body[data-course="hub"] .hub-pill { flex:none;padding:9px 14px; }
+ body[data-course="hub"] .study-dashboard { gap:12px; }
+ body[data-course="hub"] .dash-welcome { padding:3px 2px 6px;align-items:flex-start; }
+ body[data-course="hub"] .dash-welcome h2 { font-size:24px; }
+ body[data-course="hub"] .dash-subtitle { max-width:29ch; }
+ body[data-course="hub"] .dash-welcome .dash-button { display:none; }
+ body[data-course="hub"] .dash-stats { grid-template-columns:repeat(2,minmax(0,1fr));gap:10px; }
+ body[data-course="hub"] .dash-stat { padding:13px 12px; }
+ body[data-course="hub"] .dash-panel { padding:14px;border-radius:14px; }
+ body[data-course="hub"] .dash-panel:has(.dash-donuts), body[data-course="hub"] .dash-activity-panel, body[data-course="hub"] .dash-subject-dropdown { grid-column:1/-1; }
+ body[data-course="hub"] .dash-donuts { grid-template-columns:1fr; }
+ body[data-course="hub"] .dash-tools-panel .dash-panel-heading { align-items:flex-start; }
+ body[data-course="hub"] .dash-data-actions { display:grid;grid-template-columns:1fr; }
+ body[data-course="hub"] .dash-data-actions .dash-button { width:100%; }
+ body[data-course="hub"] .mobile-bottom-nav { display:flex;position:fixed;z-index:45;inset:auto 0 0;justify-content:space-around;padding:8px 8px calc(8px + env(safe-area-inset-bottom));background:rgba(11,16,27,.96);border-top:1px solid #263247;backdrop-filter:blur(18px); }
+ body[data-course="hub"] .mobile-nav-item { color:#aab8d4; }
+ body[data-course="hub"] .mobile-nav-item.is-current { color:#e0cfff; }
+ body[data-course="hub"] .footer-note { font-size:11px;margin-top:18px;padding-top:12px; }
+}
