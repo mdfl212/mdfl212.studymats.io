@@ -94,3 +94,18 @@ The project also includes a conversion helper at `tools/convert_subject_html_to_
 │   └── yl4/
 │       └── (reserved for future clerkship modules)
 ```
+
+
+## WIP Test Bank Builder
+
+Open `test-bank-builder.html` through the deployed GitHub Pages site or a local web server. It is a client-side drafting utility and does not need a backend.
+
+- Loads the subject catalog and existing JSON banks from `subjects.json` and each subject's configured `data` path.
+- Search and select existing questions to copy into a draft without modifying the source bank.
+- Author or edit single-best-answer questions, select the correct option, add rationales/tags/images, and validate required fields and duplicate IDs.
+- Import a JSON array or a single question object; export a validated JSON array matching the current bank schema.
+- Generate and copy a reusable AI prompt that specifies the schema and zero-based `correctAnswer` index.
+- Save a working draft to browser local storage on the current device.
+- Example JSON format: `tools/test_bank_template.json`.
+
+**Important:** This builder validates structure, not medical correctness. Review each answer, rationale, and cited source before using a generated or imported question. Exporting downloads a file; it does not write to or overwrite the repository's existing banks.
