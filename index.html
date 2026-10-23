@@ -113,7 +113,7 @@
         <button class="mobile-nav-item" type="button" data-mobile-settings aria-label="Toggle light or dark theme"><span aria-hidden="true">◐</span><small>Theme</small></button>
       </nav>
       <script>
-        document.querySelector("[data-sidebar-menu]")?.addEventListener("click", () => { const collapsed = document.body.classList.toggle("sidebar-collapsed"); const menu = document.querySelector("[data-sidebar-menu]"); menu?.setAttribute("aria-expanded", String(!collapsed)); menu?.setAttribute("aria-label", collapsed ? "Expand sidebar" : "Collapse sidebar"); document.body.classList.remove("sidebar-open"); });
+        document.querySelector("[data-sidebar-menu]")?.addEventListener("click", () => { const menu = document.querySelector("[data-sidebar-menu]"); if (window.matchMedia("(max-width: 700px)").matches) { const opened = document.body.classList.toggle("sidebar-open"); menu?.setAttribute("aria-expanded", String(opened)); menu?.setAttribute("aria-label", opened ? "Close navigation" : "Open navigation"); } else { const collapsed = document.body.classList.toggle("sidebar-collapsed"); menu?.setAttribute("aria-expanded", String(!collapsed)); menu?.setAttribute("aria-label", collapsed ? "Expand sidebar" : "Collapse sidebar"); } });
         document.addEventListener("keydown", (event) => { if (event.key === "Escape") document.body.classList.remove("sidebar-open"); });
         document.querySelectorAll(".desktop-sidebar a").forEach(link => link.addEventListener("click", () => { if (window.matchMedia("(max-width: 700px)").matches) document.body.classList.remove("sidebar-open"); }));
         document.querySelector(".topbar-theme")?.addEventListener("click", () => window.toggleTheme?.());
