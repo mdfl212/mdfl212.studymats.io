@@ -107,12 +107,17 @@
       <nav class="mobile-bottom-nav" aria-label="Quick navigation">
         <a class="mobile-nav-item is-current" href="#top" aria-current="page"><span aria-hidden="true">⌂</span><small>Home</small></a>
         <a class="mobile-nav-item" href="quiz.html"><span aria-hidden="true">▤</span><small>Quiz</small></a>
-        <a class="mobile-nav-item" href="#hubSubjectList"><span aria-hidden="true">▦</span><small>Subjects</small></a>
+        <a class="mobile-nav-item" href="#hubSubjectList" data-mobile-subjects><span aria-hidden="true">▦</span><small>Subjects</small></a>
         <button class="mobile-nav-item" type="button" data-mobile-settings aria-label="Toggle light or dark theme"><span aria-hidden="true">◐</span><small>Theme</small></button>
       </nav>
       <script>
         document.querySelector('[data-mobile-settings]')?.addEventListener('click', () => {
           document.querySelector('[data-theme-toggle]')?.click();
+        });
+        document.querySelector('[data-mobile-subjects]')?.addEventListener('click', (event) => {
+          const yearDropdown = document.querySelector('.hub-year-dropdown');
+          if (yearDropdown) yearDropdown.open = true;
+          window.setTimeout(() => document.querySelector('#hubSubjectList')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
         });
       </script>
       <script src="app.js"></script>
