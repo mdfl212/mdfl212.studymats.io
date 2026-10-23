@@ -93,7 +93,8 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('importCancelButton')?.addEventListener('click',()=>{$('importModal').hidden=true;$('importModal').classList.remove('is-open')});
  $('importModal')?.addEventListener('click',e=>{if(e.target===$('importModal')){$('importModal').hidden=true;$('importModal').classList.remove('is-open')}});
  $('dashResetButton')?.addEventListener('click',reset);
- document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||365;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
+ document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||180;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
+ document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render()}));
  if(!profile())openProfile();load().catch(e=>{console.error(e);$('dashSubjectList').innerHTML='<p class="dash-empty">The dashboard could not load. Your saved quiz data is untouched.</p>'});
  window.addEventListener('storage',e=>{if(e.key&& (e.key.startsWith(PREFIX)||[ACTIVITY,PROFILE].includes(e.key)))render()});
 });
