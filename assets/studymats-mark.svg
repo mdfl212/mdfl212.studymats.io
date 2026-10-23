@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+<title id="title">StudyMats medical books and serpent staff logo</title>
+<defs>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a78bfa"/><stop offset=".52" stop-color="#7c3aed"/><stop offset="1" stop-color="#5b21b6"/></linearGradient>
+ <linearGradient id="page" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ddd6fe"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<g stroke-linejoin="round">
+ <path d="M17 79 64 55 111 79 64 104Z" fill="#4c1d95" opacity=".45"/>
+ <path d="M14 77 64 52 114 77 64 103Z" fill="url(#violet)"/>
+ <path d="M14 77v8l50 27 50-27v-8L64 102Z" fill="#6d28d9"/>
+ <path d="M20 60 64 38 108 60 64 83Z" fill="#5b21b6"/>
+ <path d="M20 56 64 34 108 56 64 79Z" fill="url(#violet)"/>
+ <path d="M20 56v7l44 24 44-24v-7L64 80Z" fill="#7c3aed"/>
+ <path d="M12 39 64 13 116 39 64 66Z" fill="url(#violet)"/>
+ <path d="M12 39v7l52 27 52-27v-7L64 73Z" fill="#5b21b6"/>
+ <path d="M64 24v34" fill="none" stroke="#f5f3ff" stroke-width="4.5" stroke-linecap="round"/>
+ <circle cx="64" cy="21" r="4.7" fill="#f5f3ff"/>
+ <path d="M64 31c-15-9-26 5-17 13 7 6 25-1 25 8 0 8-13 11-20 5" fill="none" stroke="#f5f3ff" stroke-width="4.5" stroke-linecap="round"/>
+ <path d="M52 56 64 62 64 67" fill="none" stroke="#f5f3ff" stroke-width="4.5" stroke-linecap="round"/>
+ <path d="M71 34c7-2 11 0 13 4l-5 4-7-1" fill="#f5f3ff"/>
+ <circle cx="79" cy="36" r="1.2" fill="#5b21b6"/>
+ <path d="M83 38 88 39" stroke="#f5f3ff" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</svg>
