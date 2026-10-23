@@ -13,7 +13,7 @@ let subjects=[], dataBySubject=new Map(), range=180;
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
-function donut(pct,color,label,detail){const c=2*Math.PI*42,v=c*Math.max(0,Math.min(100,Number(pct)||0))/100;return '<div class="dash-donut-wrap"><svg class="dash-donut" viewBox="0 0 108 108" role="img" aria-label="'+esc(label)+': '+Math.round(pct)+' percent"><circle class="dash-donut-track" cx="54" cy="54" r="42"></circle><circle class="dash-donut-value" cx="54" cy="54" r="42" stroke="'+color+'" stroke-dasharray="'+v+' '+(c-v)+'" transform="rotate(-90 54 54)"></circle><text x="54" y="52" class="dash-donut-number">'+Math.round(pct)+'%</text><text x="54" y="67" class="dash-donut-small">complete</text></svg><div class="dash-donut-label">'+esc(label)+'</div><div class="dash-donut-detail">'+esc(detail)+'</div></div>'}
+function ring(pct,color,label){const r=2*Math.PI*42,v=r*Math.max(0,Math.min(100,Number(pct)||0))/100;return '<svg class="dash-donut" viewBox="0 0 108 108" role="img" aria-label="'+esc(label)+': '+Math.round(pct)+' percent"><circle class="dash-donut-track" cx="54" cy="54" r="42"></circle><circle class="dash-donut-value" cx="54" cy="54" r="42" stroke="'+color+'" stroke-dasharray="'+v+' '+(r-v)+'" transform="rotate(-90 54 54)"></circle><text x="54" y="58" class="dash-donut-number">'+Math.round(pct)+'%</text></svg>'}
 function buildHeatmap(){
  const a=activity(), today=new Date();today.setHours(12,0,0,0);const start=new Date(today);start.setDate(start.getDate()-range+1);
  const days=[];for(let i=0;i<range;i++){const d=new Date(start);d.setDate(start.getDate()+i);const k=dateKey(d);days.push({key:k,date:d,count:Array.isArray(a[k])?a[k].length:0})}
@@ -36,9 +36,9 @@ async function load(){
 function render(){
  if(!$('studyDashboard'))return;
  const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';
- const saved=new Map(records().map(x=>[x.id,x.data]));let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
+ const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
- const cards=subjects.map(s=>{
+ const cards=visibleSubjects.map(s=>{
   const qs=dataBySubject.get(s.id)||[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
   const ansIds=Object.keys(ans).filter(id=>ids.has(String(id))),revIds=Object.keys(rev).filter(id=>ids.has(String(id)));total+=qs.length;answeredN+=ansIds.length;revealedN+=revIds.length;
   qs.forEach(q=>{const tags=[...new Set([q.topic,...(Array.isArray(q.tags)?q.tags:[])].filter(Boolean))];tags.forEach(t=>{allTopics.add(s.id+'::'+t);if(ansIds.includes(String(q.id))||revIds.includes(String(q.id)))doneTopics.add(s.id+'::'+t)});if(ans[q.id]!==undefined&&Number.isInteger(q.correctAnswer)){scored++;if(ans[q.id]===q.correctAnswer)correct++}});
@@ -47,9 +47,15 @@ function render(){
   return '<article class="dash-subject-card"><div class="dash-subject-heading"><span class="dash-subject-icon">'+esc(s.icon)+'</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>'+ansIds.length+' of '+qs.length+' answered</p></div><span class="dash-subject-pct">'+pct+'%</span></div><div class="dash-progress-track"><span style="width:'+pct+'%"></span></div><div class="dash-subject-footer"><span>'+when+'</span><a href="quiz.html?subject='+encodeURIComponent(s.id)+'" class="dash-continue">'+(has?'Continue':'Start')+' <span aria-hidden="true">↗</span></a></div></article>';
  }).join('');
  const coverage=allTopics.size?Math.round(doneTopics.size/allTopics.size*100):0,answeredPct=total?Math.round(answeredN/total*100):0;
- $('dashStats').innerHTML='<article class="dash-stat"><span class="dash-stat-label">Questions answered</span><strong>'+answeredN.toLocaleString()+'</strong><span class="dash-stat-note">Across all subjects</span></article><article class="dash-stat"><span class="dash-stat-label">Questions revealed</span><strong>'+revealedN.toLocaleString()+'</strong><span class="dash-stat-note">Answer explanations opened</span></article><article class="dash-stat"><span class="dash-stat-label">Subjects with activity</span><strong>'+subjects.filter(s=>{const v=saved.get(s.id)||{};return Object.keys(v.answers||{}).length||Object.keys(v.revealed||{}).length}).length+'</strong><span class="dash-stat-note">Out of '+subjects.length+' subjects</span></article><article class="dash-stat"><span class="dash-stat-label">Recorded accuracy</span><strong>'+(scored?Math.round(correct/scored*100)+'%':'—')+'</strong><span class="dash-stat-note">'+(scored?correct+' correct of '+scored+' scored':'Answer questions to build a score')+'</span></article>';
- $('dashDonuts').innerHTML=glanceRows.join('')||'<p class="dash-empty">No subject progress yet.</p>';
- $('dashSubjectList').innerHTML=cards||'<p class="dash-empty">No subjects found.</p>';
+ const startedSubjects=visibleSubjects.filter(s=>{const v=saved.get(s.id)||{};return Object.keys(v.answers||{}).length||Object.keys(v.revealed||{}).length}).length;
+ const accuracy=scored?Math.round(correct/scored*100):0;
+ const stat=(label,value,note,pct,color)=>'<article class="dash-stat"><div class="dash-stat-copy"><span class="dash-stat-label">'+label+'</span><strong>'+value+'</strong><span class="dash-stat-note">'+note+'</span></div><div class="dash-stat-ring">'+ring(pct,color,label)+'</div></article>';
+ $('dashStats').innerHTML=stat('Questions Answered',answeredN.toLocaleString(),'of '+total.toLocaleString()+' total',answeredPct,'#8b5cf6')+stat('Topics with Activity',doneTopics.size.toLocaleString(),'of '+allTopics.size.toLocaleString()+' total',coverage,'#10b981')+stat('Subjects Started',startedSubjects.toLocaleString(),'of '+visibleSubjects.length.toLocaleString()+' total',visibleSubjects.length?Math.round(startedSubjects/visibleSubjects.length*100):0,'#369cf5')+stat('Avg. Accuracy',scored?accuracy+'%':'—','across answered questions',accuracy,'#f5c15d');
+ $('dashDonuts').innerHTML=glanceRows.join('')||'<p class="dash-empty">No subjects to show for '+esc(selectedYear==='resources'?'Additional Resources':selectedYear)+'. Choose another year level to view its subject progress.</p>';
+ const glanceTitle=document.querySelector('[data-glance-year]');if(glanceTitle)glanceTitle.textContent=selectedYear==='resources'?'Additional Resources':selectedYear+' subject progress';
+ document.querySelectorAll('.hub-pill[data-year]').forEach(b=>{const active=b.dataset.year===selectedYear;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
+ $('dashSubjectList').innerHTML=cards||'<p class="dash-empty">No subjects found for '+esc(selectedYear)+'.</p>';
+ const subjectCount=document.querySelector('.dash-subject-count');if(subjectCount)subjectCount.textContent=selectedYear==='resources'?'Additional resources':selectedYear+' subjects';
  const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>studied question-days</span></div>';
  $('dashActivityCaption').textContent='Showing '+(range===30?'the last 30 days':range===180?'the last 6 months':'the last 12 months')+'. Daily history begins when tracking is enabled; older activity is not guessed.';
 }
@@ -93,7 +99,8 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('importCancelButton')?.addEventListener('click',()=>{$('importModal').hidden=true;$('importModal').classList.remove('is-open')});
  $('importModal')?.addEventListener('click',e=>{if(e.target===$('importModal')){$('importModal').hidden=true;$('importModal').classList.remove('is-open')}});
  $('dashResetButton')?.addEventListener('click',reset);
- document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||365;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
+ document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||180;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
+ document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render()}));
  if(!profile())openProfile();load().catch(e=>{console.error(e);$('dashSubjectList').innerHTML='<p class="dash-empty">The dashboard could not load. Your saved quiz data is untouched.</p>'});
  window.addEventListener('storage',e=>{if(e.key&& (e.key.startsWith(PREFIX)||[ACTIVITY,PROFILE].includes(e.key)))render()});
 });

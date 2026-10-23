@@ -7873,3 +7873,35 @@ body[data-course="hub"] .dash-glance-link:hover { color:var(--gold-primary); }
   body[data-course="hub"] .dash-activity-panel .dash-heatmap-scroll { overflow-x:auto; max-width:100%; }
   body[data-course="hub"] .dash-activity-panel .dash-heatmap { min-width:530px; }
 }
+
+
+/* Reference-style four-metric overview with circular completion rings. */
+body[data-course="hub"] .dash-stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+body[data-course="hub"] .dash-stat { display:flex; align-items:center; justify-content:space-between; gap:10px; min-height:124px; padding:18px 16px; }
+body[data-course="hub"] .dash-stat-copy { flex:1 1 auto; min-width:0; }
+body[data-course="hub"] .dash-stat-label { font:12px 'Source Serif 4',serif; line-height:1.35; color:var(--text-sub); }
+body[data-course="hub"] .dash-stat strong { font:600 31px 'Playfair Display',serif; margin:12px 0 3px; line-height:1.1; }
+body[data-course="hub"] .dash-stat-note { font:11px 'Source Serif 4',serif; line-height:1.35; overflow-wrap:anywhere; }
+body[data-course="hub"] .dash-stat-ring { display:block; flex:0 0 82px; width:82px; height:82px; }
+body[data-course="hub"] .dash-stat-ring .dash-donut { width:82px; height:82px; display:block; }
+body[data-course="hub"] .dash-stat-ring .dash-donut-track,
+body[data-course="hub"] .dash-stat-ring .dash-donut-value { stroke-width:9; }
+body[data-course="hub"] .dash-stat-ring .dash-donut-number { font:600 16px 'Playfair Display',serif; }
+body[data-course="hub"] .dash-stat-ring .dash-donut-small { display:none; }
+body[data-course="hub"] .hub-year-row { flex-wrap:wrap; }
+@media (max-width:1100px) {
+ body[data-course="hub"] .dash-stats { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:700px) {
+ body[data-course="hub"] .dash-stats { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+ body[data-course="hub"] .dash-stat { min-height:104px; padding:11px 9px; gap:5px; }
+ body[data-course="hub"] .dash-stat-label { font-size:11px; }
+ body[data-course="hub"] .dash-stat strong { font-size:23px; margin:7px 0 3px; }
+ body[data-course="hub"] .dash-stat-note { font-size:10px; }
+ body[data-course="hub"] .dash-stat-ring { flex-basis:48px; width:48px; height:48px; }
+ body[data-course="hub"] .dash-stat-ring .dash-donut { width:48px; height:48px; }
+ body[data-course="hub"] .dash-stat-ring .dash-donut-track,
+ body[data-course="hub"] .dash-stat-ring .dash-donut-value { stroke-width:12; }
+ body[data-course="hub"] .dash-stat-ring .dash-donut-number { font-size:20px; }
+ body[data-course="hub"] .dash-stat-ring .dash-donut-small { display:none; }
+}
