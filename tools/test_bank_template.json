@@ -1,0 +1,24 @@
+[
+  {
+    "id": "SUBJECT-001",
+    "subject": "Anatomy",
+    "topic": "Example topic",
+    "question": "Which vertebral level is the usual site of bifurcation of the abdominal aorta?",
+    "questionImage": null,
+    "options": [
+      "L2",
+      "L3",
+      "L4",
+      "L5"
+    ],
+    "correctAnswer": 2,
+    "rationale": {
+      "text": "The abdominal aorta usually bifurcates into the right and left common iliac arteries at the level of L4. Anatomical variation can occur.",
+      "images": []
+    },
+    "tags": [
+      "Anatomy",
+      "Vascular anatomy"
+    ]
+  }
+]
