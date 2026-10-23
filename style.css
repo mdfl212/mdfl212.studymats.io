@@ -7871,7 +7871,7 @@ body[data-course="hub"] .dash-glance-link:hover { color:var(--gold-primary); }
   body[data-course="hub"] .dash-glance-track { height:8px; }
   body[data-course="hub"] .dash-glance-pct { font-size:11px; }
   body[data-course="hub"] .dash-activity-panel .dash-heatmap-scroll { overflow-x:auto; max-width:100%; }
-  body[data-course="hub"] .dash-activity-panel .dash-heatmap { min-width:530px; }
+  body[data-course="hub"] .dash-activity-panel .dash-heatmap { min-width:0; width:max-content; }
 }
 
 
