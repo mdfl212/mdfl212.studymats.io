@@ -1,15 +1,16 @@
 (() => {
   'use strict';
-  const input=document.getElementById('dashboardSearch'), modal=document.getElementById('questionSearchModal');
+  const dashboardInput=document.getElementById('dashboardSearch'), input=document.getElementById('questionSearchInput'), modal=document.getElementById('questionSearchModal');
   const backdrop=document.getElementById('questionSearchBackdrop'), resultsEl=document.getElementById('questionSearchResults');
   const previewEl=document.getElementById('questionSearchPreview'), statusEl=document.getElementById('questionSearchStatus');
   const closeButton=document.getElementById('questionSearchClose');
-  if(!input||!modal||!resultsEl||!previewEl)return;
+  if(!dashboardInput||!input||!modal||!resultsEl||!previewEl)return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const norm=v=>String(v??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ').trim();
   let banks=[],matches=[],selectedIndex=0,loadPromise=null,previousFocus=null,debounce=null;
   function openModal(){
-    previousFocus=document.activeElement;modal.hidden=false;document.body.classList.add('question-search-open');modal.setAttribute('aria-hidden','false');
+    if(!modal.hidden){input.focus();return;}
+    previousFocus=document.activeElement;input.value=dashboardInput.value;modal.hidden=false;document.body.classList.add('question-search-open');modal.setAttribute('aria-hidden','false');
     if(input.value.trim())runSearch(input.value);else{resultsEl.innerHTML='<div class="qs-empty">Type a topic, keyword, or part of a question to search all test banks.</div>';previewEl.innerHTML='<div class="qs-preview-empty"><span>⌕</span><strong>Find a question</strong><p>Search across subjects, question stems, options, topics, and rationales.</p></div>';statusEl.textContent='Search all available question banks';}
     input.focus();
   }
@@ -62,9 +63,11 @@
     previewEl.innerHTML='<div class="qs-preview-meta"><span>'+esc(s.icon||'📚')+' '+esc(s.name)+'</span><span>'+esc(q.topic||'General')+'</span></div><div class="qs-preview-grid"><div class="qs-question-side"><div class="qs-question-id">'+esc(q.id||'Question')+'</div><h3>'+esc(q.question)+'</h3><div class="qs-options">'+options+'</div></div><aside class="qs-rationale-side"><p class="qs-kicker">ANSWER &amp; RATIONALE</p><div class="qs-answer-label">Correct answer</div><strong class="qs-answer-text">'+String.fromCharCode(65+c)+'. '+esc(q.options[c])+'</strong><p class="qs-rationale-text">'+esc(r||'No rationale is currently provided for this item.')+'</p>'+tags+'</aside></div><div class="qs-preview-footer"><span>Preview only · your quiz progress has not changed</span><button type="button" class="qs-see-question" id="qsSeeQuestion">See question in quiz <span aria-hidden="true">↗</span></button></div>';
     document.getElementById('qsSeeQuestion')?.addEventListener('click',()=>{const u=new URL('quiz.html',document.baseURI);u.searchParams.set('subject',s.id);u.searchParams.set('question',String(q.id));window.location.href=u.href;});
   }
-  input.addEventListener('focus',()=>{if(modal.hidden)openModal();});
-  input.addEventListener('click',()=>{if(modal.hidden)openModal();});
-  input.addEventListener('input',()=>{if(modal.hidden)openModal();clearTimeout(debounce);debounce=setTimeout(()=>runSearch(input.value),160);});
+  dashboardInput.addEventListener('focus',()=>{if(modal.hidden)openModal();});
+  dashboardInput.addEventListener('click',()=>{if(modal.hidden)openModal();});
+  dashboardInput.addEventListener('input',()=>{if(modal.hidden)openModal();input.value=dashboardInput.value;clearTimeout(debounce);debounce=setTimeout(()=>runSearch(input.value),160);});
+  input.addEventListener('input',()=>{dashboardInput.value=input.value;clearTimeout(debounce);debounce=setTimeout(()=>runSearch(input.value),160);});
+  input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();}});
   input.addEventListener('keydown',e=>{
     if(e.key==='Escape'&&!modal.hidden){e.preventDefault();closeModal();}
     if(e.key==='ArrowDown'&&!modal.hidden&&matches.length){e.preventDefault();selectedIndex=Math.min(matches.length-1,selectedIndex+1);renderResults();renderPreview();resultsEl.querySelector('[data-qs-result="'+selectedIndex+'"]')?.scrollIntoView({block:'nearest'});}
