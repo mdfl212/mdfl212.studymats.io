@@ -36,9 +36,9 @@ async function load(){
 function render(){
  if(!$('studyDashboard'))return;
  const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';
- const saved=new Map(records().map(x=>[x.id,x.data]));let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
+ const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
- const cards=subjects.map(s=>{
+ const cards=visibleSubjects.map(s=>{
   const qs=dataBySubject.get(s.id)||[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
   const ansIds=Object.keys(ans).filter(id=>ids.has(String(id))),revIds=Object.keys(rev).filter(id=>ids.has(String(id)));total+=qs.length;answeredN+=ansIds.length;revealedN+=revIds.length;
   qs.forEach(q=>{const tags=[...new Set([q.topic,...(Array.isArray(q.tags)?q.tags:[])].filter(Boolean))];tags.forEach(t=>{allTopics.add(s.id+'::'+t);if(ansIds.includes(String(q.id))||revIds.includes(String(q.id)))doneTopics.add(s.id+'::'+t)});if(ans[q.id]!==undefined&&Number.isInteger(q.correctAnswer)){scored++;if(ans[q.id]===q.correctAnswer)correct++}});
@@ -52,7 +52,8 @@ function render(){
  const stat=(label,value,note,pct,color)=>'<article class="dash-stat"><div class="dash-stat-copy"><span class="dash-stat-label">'+label+'</span><strong>'+value+'</strong><span class="dash-stat-note">'+note+'</span></div><div class="dash-stat-ring">'+ring(pct,color,label)+'</div></article>';
  $('dashStats').innerHTML=stat('Questions Answered',answeredN.toLocaleString(),'of '+total.toLocaleString()+' total',answeredPct,'#8b5cf6')+stat('Topics with Activity',doneTopics.size.toLocaleString(),'of '+allTopics.size.toLocaleString()+' total',coverage,'#10b981')+stat('Subjects Started',startedSubjects.toLocaleString(),'of '+visibleSubjects.length.toLocaleString()+' total',visibleSubjects.length?Math.round(startedSubjects/visibleSubjects.length*100):0,'#369cf5')+stat('Avg. Accuracy',scored?accuracy+'%':'—','across answered questions',accuracy,'#f5c15d');
  $('dashDonuts').innerHTML=glanceRows.join('')||'<p class="dash-empty">No subject progress yet.</p>';
- $('dashSubjectList').innerHTML=cards||'<p class="dash-empty">No subjects found.</p>';
+ $('dashSubjectList').innerHTML=cards||'<p class="dash-empty">No subjects found for '+esc(selectedYear)+'.</p>';
+ const subjectCount=document.querySelector('.dash-subject-count');if(subjectCount)subjectCount.textContent=selectedYear==='resources'?'Additional resources':selectedYear+' subjects';
  const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>studied question-days</span></div>';
  $('dashActivityCaption').textContent='Showing '+(range===30?'the last 30 days':range===180?'the last 6 months':'the last 12 months')+'. Daily history begins when tracking is enabled; older activity is not guessed.';
 }
