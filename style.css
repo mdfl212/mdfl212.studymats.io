@@ -7251,3 +7251,178 @@ body[data-course="hub"] .brand-copy .header-sub { margin:0; }
   body[data-course="hub"] .brand-lockup { gap:8px; }
   body[data-course="hub"] .brand-copy .header-title { font-size:24px; }
 }
+
+
+/* Final layout pass: coherent dropdown, aligned desktop dashboard, compact mobile. */
+body[data-course="hub"] .hub-year-dropdown {
+  border:1px solid var(--border);
+  border-radius:15px;
+  background:var(--bg-card);
+  overflow:hidden;
+  margin-top:0;
+}
+body[data-course="hub"] .hub-year-dropdown > summary.section-toggle {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-height:66px;
+  padding:12px 15px;
+  border:0;
+  list-style:none;
+  cursor:pointer;
+}
+body[data-course="hub"] .hub-year-dropdown > summary.section-toggle::-webkit-details-marker { display:none; }
+body[data-course="hub"] .hub-year-icon {
+  display:grid;
+  place-items:center;
+  flex:0 0 38px;
+  width:38px;
+  height:38px;
+  margin:0 !important;
+  padding:8px !important;
+  border-radius:11px;
+  color:var(--gold-primary) !important;
+  background:var(--gold-light) !important;
+}
+body[data-course="hub"] .hub-year-icon svg {
+  display:block;
+  width:22px;
+  height:22px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.6;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+body[data-course="hub"] .hub-year-dropdown .hub-year-summary-copy {
+  display:flex;
+  flex:1 1 auto;
+  min-width:0;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:3px;
+  margin:0;
+  padding:0;
+  background:none;
+}
+body[data-course="hub"] .hub-year-dropdown .hub-year-title {
+  display:block;
+  margin:0;
+  padding:0;
+  background:none;
+  color:var(--text-main);
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:15px;
+  font-weight:600;
+  line-height:1.3;
+  letter-spacing:0;
+}
+body[data-course="hub"] .hub-year-dropdown .hub-year-subtext {
+  display:block;
+  margin:0;
+  padding:0;
+  background:none;
+  color:var(--text-sub);
+  font-family:'Source Serif 4',Georgia,serif;
+  font-size:11px;
+  font-weight:400;
+  line-height:1.45;
+  letter-spacing:0;
+  white-space:normal;
+}
+body[data-course="hub"] .hub-year-dropdown .toggle-icon {
+  display:grid;
+  place-items:center;
+  flex:0 0 28px;
+  width:28px;
+  height:28px;
+  margin:0;
+  padding:0;
+  border:1px solid var(--border);
+  border-radius:50%;
+  background:transparent;
+  color:var(--text-sub);
+  font-family:'Source Serif 4',Georgia,serif;
+  font-size:15px;
+  line-height:1;
+  transition:transform .18s ease;
+}
+body[data-course="hub"] .hub-year-dropdown[open] .toggle-icon { transform:rotate(180deg); }
+body[data-course="hub"] .hub-year-dropdown[open] > summary.section-toggle { border-bottom:1px solid var(--border); }
+body[data-course="hub"] .hub-year-dropdown .hub-year-row {
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:12px 15px;
+}
+body[data-course="hub"] .hub-year-dropdown .hub-pill {
+  min-height:34px;
+  margin:0;
+  padding:7px 13px;
+  border:1px solid var(--border);
+  border-radius:8px;
+  background:transparent;
+  color:var(--text-sub);
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;
+  line-height:1.3;
+  cursor:pointer;
+}
+body[data-course="hub"] .hub-year-dropdown .hub-pill.active,
+body[data-course="hub"] .hub-year-dropdown .hub-pill[aria-pressed="true"] {
+  border-color:var(--gold-primary);
+  background:var(--gold-light);
+  color:var(--text-main);
+}
+body[data-course="hub"] .hub-year-dropdown .hub-subjects,
+body[data-course="hub"] .hub-year-dropdown .status-message { margin-inline:15px; }
+@media (min-width: 901px) {
+  body[data-course="hub"] .wrapper { max-width:1160px; }
+  body[data-course="hub"] .site-header { margin-bottom:14px; }
+  body[data-course="hub"] .study-dashboard {
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    column-gap:14px;
+    row-gap:12px;
+  }
+  body[data-course="hub"] .dash-welcome,
+  body[data-course="hub"] .dash-stats { grid-column:1 / -1; }
+  body[data-course="hub"] .dash-welcome { padding:2px 0; }
+  body[data-course="hub"] .dash-stats { grid-template-columns:repeat(4,minmax(0,1fr)); }
+  body[data-course="hub"] .dash-activity-panel { grid-column:2; grid-row:3 / span 2; align-self:stretch; }
+  body[data-course="hub"] .study-dashboard > .dash-panel:not(.dash-activity-panel):not(.dash-subject-dropdown):not(.dash-tools-panel) { grid-column:1; grid-row:3; }
+  body[data-course="hub"] .dash-subject-dropdown { grid-column:1; grid-row:4; align-self:start; }
+  body[data-course="hub"] .dash-tools-panel { grid-column:1; grid-row:5; align-self:start; }
+  body[data-course="hub"] .dash-panel { min-width:0; }
+  body[data-course="hub"] .dash-donuts { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (min-width:601px) and (max-width:900px) {
+  body[data-course="hub"] .wrapper { max-width:100%; }
+  body[data-course="hub"] .study-dashboard { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:10px; }
+  body[data-course="hub"] .dash-welcome,
+  body[data-course="hub"] .dash-stats { grid-column:1 / -1; }
+  body[data-course="hub"] .dash-stats { grid-template-columns:repeat(4,minmax(0,1fr)); }
+  body[data-course="hub"] .dash-stat { padding:9px 8px; }
+  body[data-course="hub"] .dash-stat-label { font-size:8px; }
+  body[data-course="hub"] .dash-stat strong { font-size:20px; }
+  body[data-course="hub"] .dash-activity-panel { grid-column:2; grid-row:3 / span 2; }
+  body[data-course="hub"] .study-dashboard > .dash-panel:not(.dash-activity-panel):not(.dash-subject-dropdown):not(.dash-tools-panel) { grid-column:1; grid-row:3; }
+  body[data-course="hub"] .dash-subject-dropdown { grid-column:1; grid-row:4; }
+  body[data-course="hub"] .dash-tools-panel { grid-column:1; grid-row:5; }
+}
+@media (max-width:600px) {
+  body[data-course="hub"] .hub-year-dropdown { margin-bottom:10px; }
+  body[data-course="hub"] .hub-year-dropdown > summary.section-toggle { min-height:62px; padding:10px; gap:9px; }
+  body[data-course="hub"] .hub-year-icon { width:33px; height:33px; flex-basis:33px; padding:7px !important; border-radius:9px; }
+  body[data-course="hub"] .hub-year-icon svg { width:19px; height:19px; }
+  body[data-course="hub"] .hub-year-dropdown .hub-year-title { font-size:13px; }
+  body[data-course="hub"] .hub-year-dropdown .hub-year-subtext { font-size:10px; }
+  body[data-course="hub"] .hub-year-dropdown .toggle-icon { width:25px; height:25px; flex-basis:25px; }
+  body[data-course="hub"] .hub-year-dropdown .hub-year-row { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; padding:0 10px 10px; }
+  body[data-course="hub"] .hub-year-dropdown .hub-pill { padding:7px 4px; min-width:0; font-size:9px; }
+  body[data-course="hub"] .hub-year-dropdown .hub-pill[data-year="resources"] { grid-column:1 / -1; }
+  body[data-course="hub"] .hub-year-dropdown .hub-subjects,
+  body[data-course="hub"] .hub-year-dropdown .status-message { margin-inline:10px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  body[data-course="hub"] .hub-year-dropdown .toggle-icon { transition:none; }
+}
