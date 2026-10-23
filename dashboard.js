@@ -9,7 +9,7 @@ const dateLabel=k=>new Date(k+'T12:00:00').toLocaleDateString(undefined,{month:'
 const profile=()=>{try{return parse(localStorage.getItem(PROFILE),null)}catch{return null}};
 const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{return {}}};
 const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
-let subjects=[], dataBySubject=new Map(), range=180;
+let subjects=[], dataBySubject=new Map(), range=180, selectedYear='YL1';
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
