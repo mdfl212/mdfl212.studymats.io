@@ -10742,3 +10742,284 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     font-size: 11px !important;
   }
 }
+
+ 
+/* Quiz page: compact phone WebView layout. Keep the quiz itself at the top;
+   move all subject/topic/question parameters into the existing side drawer. */
+@media (max-width: 700px) {
+  html[data-course="quiz"],
+  body[data-course="quiz"] {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  body[data-course="quiz"] .quiz-shell {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 auto !important;
+    padding: calc(5px + env(safe-area-inset-top)) 10px calc(14px + env(safe-area-inset-bottom)) !important;
+    gap: 0 !important;
+  }
+
+  body[data-course="quiz"] .quiz-topbar {
+    min-height: 34px !important;
+    margin: 0 0 7px !important;
+    padding: 4px 0 !important;
+    gap: 6px !important;
+  }
+
+  body[data-course="quiz"] .quiz-topbar-left {
+    min-width: 0 !important;
+    gap: 7px !important;
+  }
+
+  body[data-course="quiz"] .quiz-topbar .brand {
+    font-size: 13px !important;
+    line-height: 1.1 !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] .quiz-topbar .brand span {
+    display: none !important;
+  }
+
+  body[data-course="quiz"] .sidebar-toggle,
+  body[data-course="quiz"] .theme-toggle {
+    min-height: 29px !important;
+    padding: 5px 7px !important;
+    font-size: 10px !important;
+    gap: 4px !important;
+  }
+
+  body[data-course="quiz"] .site-header {
+    display: none !important;
+  }
+
+  body[data-course="quiz"] .quiz-select-bar {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 9px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 8px 0 12px !important;
+  }
+
+  body[data-course="quiz"] .quiz-select-field {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  body[data-course="quiz"] .quiz-select-field label {
+    display: block !important;
+    margin: 0 0 4px !important;
+    font-size: 10px !important;
+  }
+
+  body[data-course="quiz"] .quiz-select-field select {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    min-height: 35px !important;
+    padding: 7px 9px !important;
+    font-size: 12px !important;
+  }
+
+  body[data-course="quiz"] .progress-wrap {
+    margin: 0 0 7px !important;
+    padding: 0 !important;
+  }
+
+  body[data-course="quiz"] .progress-meta {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 6px !important;
+    font-size: 9px !important;
+    line-height: 1.2 !important;
+  }
+
+  body[data-course="quiz"] #saveIndicator {
+    margin-left: auto !important;
+    font-size: 8px !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] .progress-track {
+    height: 3px !important;
+    margin-top: 4px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-panel {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) !important;
+    align-items: center !important;
+    gap: 5px 8px !important;
+    margin: 0 0 7px !important;
+    padding: 6px 8px !important;
+    min-width: 0 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-clock {
+    font-size: 14px !important;
+    line-height: 1.1 !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-controls {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex-wrap: nowrap !important;
+    gap: 4px !important;
+    min-width: 0 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-duration input {
+    width: 38px !important;
+    min-width: 0 !important;
+    padding: 4px !important;
+    font-size: 10px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-quick-add {
+    display: none !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 3px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions .btn {
+    min-height: 26px !important;
+    padding: 4px 6px !important;
+    font-size: 9px !important;
+  }
+
+  body[data-course="quiz"] .quiz-actions {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 5px !important;
+    margin: 0 0 8px !important;
+  }
+
+  body[data-course="quiz"] .quiz-actions .btn {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    min-height: 30px !important;
+    padding: 5px 6px !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] #questionContainer,
+  body[data-course="quiz"] .q-card,
+  body[data-course="quiz"] #questionContent {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  body[data-course="quiz"] .q-card {
+    margin: 0 !important;
+    padding: 10px !important;
+  }
+
+  body[data-course="quiz"] .nav {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto !important;
+    align-items: center !important;
+    gap: 5px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin-top: 10px !important;
+  }
+
+  body[data-course="quiz"] .nav .btn {
+    min-width: 0 !important;
+    min-height: 32px !important;
+    padding: 6px 8px !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] .page-info {
+    min-width: 0 !important;
+    text-align: center !important;
+    font-size: 9px !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] .stats-bar {
+    display: none !important;
+  }
+
+  body[data-course="quiz"] .table-scroll {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body[data-course="quiz"] .table-panel,
+  body[data-course="quiz"] .table-controls {
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  body[data-course="quiz"] .table-controls {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto !important;
+    gap: 5px !important;
+    align-items: center !important;
+  }
+
+  body[data-course="quiz"] .table-controls input {
+    min-width: 0 !important;
+    width: 100% !important;
+    font-size: 11px !important;
+  }
+
+  body[data-course="quiz"] .quiz-sidebar {
+    width: min(86vw, 320px) !important;
+    max-width: calc(100vw - 24px) !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+  }
+
+  body[data-course="quiz"] .sidebar-quiz-filters .quiz-select-bar {
+    display: grid !important;
+    margin: 8px 0 0 !important;
+  }
+
+  body[data-course="quiz"] .sidebar-quiz-filters .quiz-select-field select {
+    min-height: 36px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  body[data-course="quiz"] .quiz-shell {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+  }
+
+  body[data-course="quiz"] .quiz-topbar .brand {
+    font-size: 12px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-panel {
+    grid-template-columns: 1fr !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-controls {
+    justify-content: flex-start !important;
+  }
+}
+
+/* Keep wide tables scrollable without allowing the entire quiz page to pan sideways. */
+body[data-course="quiz"] .table-scroll {
+  max-width: 100%;
+}
