@@ -10210,3 +10210,9 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-subject-ye
   width: 100%;
   text-align: left !important;
 }
+
+/* Use the existing chevron only; remove the duplicate plus/minus indicator. */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown > summary.dash-subject-summary::after {
+  content: none !important;
+  display: none !important;
+}
