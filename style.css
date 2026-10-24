@@ -12776,3 +12776,21 @@ body[data-course="quiz"] .table-scroll {
     left: calc(var(--sidebar-collapsed, 72px) + 4px) !important;
   }
 }
+
+
+/* Sidebar brand is the desktop collapse/expand control; no floating hamburger. */
+@media (min-width: 1101px) {
+  body[data-course="hub"] .topbar-sidebar-menu {
+    display: none !important;
+  }
+
+  body[data-course="hub"] .sidebar-brand-lockup {
+    cursor: pointer !important;
+  }
+
+  body[data-course="hub"] .sidebar-brand-lockup:focus-visible {
+    outline: 2px solid var(--hub-accent, #8b5cf6) !important;
+    outline-offset: 3px !important;
+    border-radius: 8px !important;
+  }
+}
