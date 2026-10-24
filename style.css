@@ -12760,3 +12760,19 @@ body[data-course="quiz"] .table-scroll {
     left: calc(var(--sidebar-collapsed, 72px) + 4px) !important;
   }
 }
+
+
+/* Align the floating sidebar toggle with the sidebar logo row. Fixed-position
+   coordinates are relative to the webpage viewport, not the browser toolbar. */
+@media (min-width: 1101px) {
+  body[data-course="hub"] .topbar-sidebar-menu {
+    top: 12px !important;
+    left: calc(var(--sidebar-expanded, 204px) + 4px) !important;
+    right: auto !important;
+    transform: none !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .topbar-sidebar-menu {
+    left: calc(var(--sidebar-collapsed, 72px) + 4px) !important;
+  }
+}
