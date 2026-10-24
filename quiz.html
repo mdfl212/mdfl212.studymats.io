@@ -45,6 +45,35 @@
         <div class="progress-meta"><span id="progLabel">0 / 0 answered</span><span id="progPct">0%</span><span id="saveIndicator" class="save-indicator" role="status" aria-live="polite"><span class="save-indicator-dot" aria-hidden="true"></span><span id="saveIndicatorText">Autosave ready</span></span></div>
         <div class="progress-track"><div class="progress-fill" id="progFill"></div></div>
     </div>
+    <section class="quiz-timer-panel" id="quizTimerPanel" data-state="normal" aria-labelledby="quizTimerTitle">
+        <div class="quiz-timer-main">
+            <div class="quiz-timer-heading">
+                <span class="quiz-timer-kicker">FOCUSED SESSION</span>
+                <h2 id="quizTimerTitle">Quiz timer</h2>
+                <p id="quizTimerStatus" role="status" aria-live="polite">Set a duration, then start when you're ready.</p>
+            </div>
+            <div class="quiz-timer-clock" id="quizTimerDisplay" role="timer" aria-label="Time remaining" aria-live="off">01:00:00</div>
+        </div>
+        <div class="quiz-timer-controls">
+            <label class="quiz-timer-duration" for="quizTimerDuration">Duration (minutes)
+                <input id="quizTimerDuration" type="number" min="1" max="600" step="1" value="60" inputmode="numeric">
+            </label>
+            <div class="quiz-timer-quick-add" role="group" aria-label="Add time">
+                <button class="btn timer-add" type="button" data-timer-add="15">+15 min</button>
+                <button class="btn timer-add" type="button" data-timer-add="30">+30 min</button>
+                <button class="btn timer-add" type="button" data-timer-add="60">+1 hour</button>
+            </div>
+            <div class="quiz-timer-actions" role="group" aria-label="Timer actions">
+                <button class="btn primary" id="timerStartButton" type="button">▶ Start</button>
+                <button class="btn" id="timerPauseButton" type="button" disabled>Ⅱ Pause</button>
+                <button class="btn danger" id="timerResetButton" type="button">↺ Reset timer</button>
+            </div>
+        </div>
+        <div class="quiz-timer-expired" id="quizTimerExpired" hidden>
+            <strong>TIME IS UP!</strong>
+            <span>Your quiz timer has reached zero. Add time or reset the timer to continue.</span>
+        </div>
+    </section>
     <div class="quiz-actions">
         <button class="btn primary" id="scoreButton" type="button">📊 Score</button>
         <button class="btn danger" id="resetButton" type="button">↺ Reset</button>
