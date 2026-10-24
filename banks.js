@@ -86,7 +86,7 @@ async function init(){
   const r=await fetch('subjects.json');if(!r.ok)throw Error('Could not load subjects.json. Open StudyMats through GitHub Pages.');
   subjects=await r.json();subject=subjects.find(s=>s.id===subjectId)||subjects[0];
   try{const qr=await fetch(subject.data);const qs=await qr.json();baseCount=Array.isArray(qs)?qs.length:0}catch{}
-  $('builderLink').href='test-bank-builder.html?subject='+encodeURIComponent(subject.id);$('subjectTitle').textContent=subject.name+' test banks';$('subjectDescription').textContent=subject.description||'Choose which sources to include in your quiz.';
+  $('subjectTitle').textContent=subject.name+' test banks';$('subjectDescription').textContent=subject.description||'Choose which sources to include in your quiz.';
   renderAssignments();if(['Biochemistry','Histology'].includes(subject.id))selected.add('base:'+subject.id);else{if(baseCount)selected.add('ple2023');if(baseCount>100)selected.add('ple2019')}render();
   $('selectAll').onclick=()=>{catalog.forEach(b=>selected.add(b.id));render()};
   $('clearAll').onclick=()=>{selected.clear();render()};
