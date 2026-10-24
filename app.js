@@ -454,7 +454,7 @@ async function selectSubject(subjectId) {
             .filter(question => {
                 const subjectName = String(question.subject || '').toLowerCase();
                 const subjectIds = Array.isArray(bank.subjectIds) ? bank.subjectIds : [];
-                if (bank.scope === 'shared') return subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase();
+                if (bank.scope === 'shared') return subjectIds.includes(subject.id) && (subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase());
                 return subjectIds.includes(subject.id);
             })
             .map((question, index) => ({
