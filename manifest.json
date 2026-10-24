@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "StudyMats Medical Question Bank",
+  "short_name": "StudyMats",
+  "description": "Your medical question bank, organized for focused review.",
+  "lang": "en",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#171329",
+  "theme_color": "#171329",
+  "categories": ["education", "medical"],
+  "icons": [
+    {
+      "src": "./assets/studymats-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

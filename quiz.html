@@ -7,6 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,0..60,300;1,0..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="theme.js"></script>
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#171329">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="./assets/studymats-mark.svg">
 </head>
 <body data-course="quiz">
 <main class="quiz-shell">
@@ -45,6 +51,35 @@
         <div class="progress-meta"><span id="progLabel">0 / 0 answered</span><span id="progPct">0%</span><span id="saveIndicator" class="save-indicator" role="status" aria-live="polite"><span class="save-indicator-dot" aria-hidden="true"></span><span id="saveIndicatorText">Autosave ready</span></span></div>
         <div class="progress-track"><div class="progress-fill" id="progFill"></div></div>
     </div>
+    <section class="quiz-timer-panel" id="quizTimerPanel" data-state="normal" aria-labelledby="quizTimerTitle">
+        <div class="quiz-timer-main">
+            <div class="quiz-timer-heading">
+                <span class="quiz-timer-kicker">FOCUSED SESSION</span>
+                <h2 id="quizTimerTitle">Quiz timer</h2>
+                <p id="quizTimerStatus" role="status" aria-live="polite">Set a duration, then start when you're ready.</p>
+            </div>
+            <div class="quiz-timer-clock" id="quizTimerDisplay" role="timer" aria-label="Time remaining" aria-live="off">01:00:00</div>
+        </div>
+        <div class="quiz-timer-controls">
+            <label class="quiz-timer-duration" for="quizTimerDuration">Duration (minutes)
+                <input id="quizTimerDuration" type="number" min="1" max="600" step="1" value="60" inputmode="numeric">
+            </label>
+            <div class="quiz-timer-quick-add" role="group" aria-label="Add time">
+                <button class="btn timer-add" type="button" data-timer-add="15">+15 min</button>
+                <button class="btn timer-add" type="button" data-timer-add="30">+30 min</button>
+                <button class="btn timer-add" type="button" data-timer-add="60">+1 hour</button>
+            </div>
+            <div class="quiz-timer-actions" role="group" aria-label="Timer actions">
+                <button class="btn primary" id="timerStartButton" type="button">▶ Start</button>
+                <button class="btn" id="timerPauseButton" type="button" disabled>Ⅱ Pause</button>
+                <button class="btn danger" id="timerResetButton" type="button">↺ Reset timer</button>
+            </div>
+        </div>
+        <div class="quiz-timer-expired" id="quizTimerExpired" hidden>
+            <strong>TIME IS UP!</strong>
+            <span>Your quiz timer has reached zero. Add time or reset the timer to continue.</span>
+        </div>
+    </section>
     <div class="quiz-actions">
         <button class="btn primary" id="scoreButton" type="button">📊 Score</button>
         <button class="btn danger" id="resetButton" type="button">↺ Reset</button>
@@ -105,5 +140,14 @@
     </div>
 </div>
 <script src="app.js"></script>
+<script>
+  // Register the PWA service worker only on HTTP(S); relative path supports GitHub Pages project sites.
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js", { scope: "./" })
+        .catch((error) => console.warn("StudyMats offline support could not be registered:", error));
+    });
+  }
+</script>
 </body>
 </html>

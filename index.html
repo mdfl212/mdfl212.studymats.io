@@ -11,7 +11,13 @@
       <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
       <link rel="stylesheet" href="style.css" />
       <script src="theme.js"></script>
-    </head>
+        <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#171329">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="./assets/studymats-mark.svg">
+</head>
     <body data-course="hub">
       <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><button class="sidebar-menu" type="button" aria-label="Collapse sidebar" aria-expanded="true" data-sidebar-menu><span aria-hidden="true">☰</span></button></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Table View"><span>▦</span><span class="sidebar-link-label">Table View</span></a><a class="sidebar-link" href="#studyDashboard" title="Saved Progress"><span>▤</span><span class="sidebar-link-label">Saved Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Import / Export"><span>⇧</span><span class="sidebar-link-label">Import / Export</span></a><button class="sidebar-link sidebar-theme" type="button" data-sidebar-theme title="Settings"><span>⚙</span><span class="sidebar-link-label">Settings</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
       <main class="wrapper" id="top">
@@ -92,7 +98,7 @@
           </div>
 
         <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
-          <div class="dash-welcome"><div><p class="dash-kicker">YOUR LEARNING OVERVIEW</p><h2 id="dashGreeting">Your study space</h2><p class="dash-subtitle">A clear picture of your progress, one study session at a time.</p></div><button class="dash-button dash-button-quiet" id="dashProfileButton" type="button">Set up profile</button></div>
+          <div class="dash-welcome"><div><p class="dash-kicker">YOUR LEARNING OVERVIEW</p><h2 id="dashGreeting">Your study space</h2><p class="dash-subtitle">A clear picture of your progress, one study session at a time.</p></div><div class="dash-welcome-actions"><a class="dash-button" href="test-bank-builder.html" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px">＋ Build test bank</a><button class="dash-button dash-button-quiet" id="dashProfileButton" type="button">Set up profile</button></div></div>
           <div class="dash-stats" id="dashStats" aria-live="polite"></div>
           <div class="dash-panel"><div class="dash-panel-heading"><div><p class="dash-kicker">AT A GLANCE</p><h2>Progress, made visible</h2><p class="dash-panel-copy" data-glance-year>YL1 subject progress</p></div><span class="dash-local-label"><span></span> Saved on this device</span></div><div class="dash-donuts" id="dashDonuts"></div></div>
           <div class="dash-panel dash-activity-panel"><div class="dash-panel-heading dash-activity-heading"><div><p class="dash-kicker">SHOW UP, LITTLE BY LITTLE</p><h2>Daily study rhythm</h2><p class="dash-panel-copy">Your study activity, in the style of a contribution calendar.</p></div><div class="dash-range-picker" role="group" aria-label="Activity date range"><button type="button" data-activity-range="30">1 mo</button><button class="active" type="button" data-activity-range="180">6 mo</button><button type="button" data-activity-range="365">1 yr</button></div></div><div id="dashHeatmap" class="dash-heatmap-container"></div><div class="dash-legend"><span>Less</span><i class="level-0"></i><i class="level-1"></i><i class="level-2"></i><i class="level-3"></i><i class="level-4"></i><span>More</span></div><div class="dash-activity-stats" id="dashActivityStats"></div><p class="dash-data-caption" id="dashActivityCaption"></p></div>
@@ -142,5 +148,14 @@
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
       <script src="question-search.js"></script>
-    </body>
+    <script>
+  // Register the PWA service worker only on HTTP(S); relative path supports GitHub Pages project sites.
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js", { scope: "./" })
+        .catch((error) => console.warn("StudyMats offline support could not be registered:", error));
+    });
+  }
+</script>
+</body>
 </html>
