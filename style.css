@@ -12794,3 +12794,12 @@ body[data-course="quiz"] .table-scroll {
     border-radius: 8px !important;
   }
 }
+
+
+/* Subject Progress: always show subjects in a single vertical column. */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-list {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  grid-auto-flow: row !important;
+  width: 100%;
+}
