@@ -10439,3 +10439,57 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     margin-bottom: 8px;
   }
 }
+
+
+/* Mobile welcome row: smaller heading, primary action stays on the right without wrapping. */
+@media (max-width: 700px) {
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    width: 100%;
+    min-width: 0;
+    padding: 1px 0 3px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome > div:first-child {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome h2,
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome #dashGreeting {
+    font-size: 16px !important;
+    line-height: 1.15 !important;
+    overflow-wrap: normal;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome .dash-subtitle {
+    font-size: 10px !important;
+    line-height: 1.25;
+    max-width: 100%;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome .dash-welcome-actions {
+    display: flex !important;
+    flex: 0 0 auto;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+    min-width: max-content;
+    margin-left: auto;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome .dash-welcome-actions .dash-button:first-child {
+    display: inline-flex !important;
+    flex: 0 0 auto;
+    white-space: nowrap !important;
+    font-size: 9px !important;
+    line-height: 1.15;
+    padding: 6px 7px !important;
+    gap: 4px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome .dash-welcome-actions .dash-button:not(:first-child) {
+    display: none !important;
+  }
+}
