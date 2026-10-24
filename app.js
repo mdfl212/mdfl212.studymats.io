@@ -444,21 +444,29 @@ async function selectSubject(subjectId) {
         } catch (error) {
             console.warn('StudyMats could not read imported banks.', error);
         }
+        const includeBase = bankIds.includes('base-' + subject.id);
         const chosen = bankIds.map(id => customBanks.find(bank => bank.id === id)).filter(Boolean);
         const included = chosen.flatMap(bank => (Array.isArray(bank.questions) ? bank.questions : [])
             .filter(question => {
                 const subjectName = String(question.subject || '').toLowerCase();
                 const subjectIds = Array.isArray(bank.subjectIds) ? bank.subjectIds : [];
-                return subjectIds.includes(subject.id) || subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase();
+                if (bank.scope === 'shared') {
+                    return subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase();
+                }
+                return subjectIds.includes(subject.id);
             })
             .map((question, index) => ({
                 ...question,
-                id: String(question.id || 'imported-' + index),
+                _sourceQuestionId: String(question.id || index),
+                id: String(bank.id) + '::' + String(question.id || index),
                 _sourceBankId: bank.id,
                 _sourceBankName: bank.name
             })));
-        const sourceQuestions = chosen.length ? included : [];
-        state.questions = sourceQuestions.length ? sourceQuestions : baseQuestions;
+        state.questions = [
+            ...(includeBase ? baseQuestions : []),
+            ...included
+        ];
+        if (!includeBase && !chosen.length) state.questions = baseQuestions;
     } else {
         state.questions = baseQuestions;
     }
