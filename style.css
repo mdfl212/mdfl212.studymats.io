@@ -8244,38 +8244,43 @@ body[data-course="hub"] .sidebar-top { margin-bottom:12px; }
 }
 
 
-/* Compact one-line quiz timer. Keep the established dark palette; controls sit at the far right. */
+/* Consolidated dashboard and timer layout rules.
+   Keep these component overrides in one place to avoid cascade conflicts. */
+
+/* Quiz timer: clock on the left, duration and controls on the right. */
 html[data-course="quiz"] .quiz-timer-panel.quiz-timer-compact {
   display:flex;
+  flex-flow:row nowrap;
   align-items:center;
-  gap:12px;
+  justify-content:space-between;
+  gap:8px 14px;
   min-width:0;
   margin:0 0 1rem;
-  padding:8px 10px;
+  padding:10px 14px;
   border-radius:10px;
   box-shadow:none;
 }
 html[data-course="quiz"] .quiz-timer-compact .quiz-timer-clock {
   flex:0 0 auto;
-  font-size:clamp(1.1rem,2vw,1.45rem);
+  margin:0;
+  font-size:clamp(1rem,2vw,1.2rem);
   line-height:1;
   letter-spacing:-.04em;
+  font-variant-numeric:tabular-nums;
 }
 html[data-course="quiz"] .quiz-timer-compact .quiz-timer-controls {
   display:flex;
+  flex:1 1 auto;
+  flex-flow:row nowrap;
   align-items:center;
-  flex-wrap:nowrap;
+  justify-content:flex-end;
   gap:6px;
-  margin:0 0 0 auto;
   min-width:0;
+  margin:0 0 0 auto;
 }
-html[data-course="quiz"] .quiz-timer-compact .quiz-timer-duration {
-  display:block;
-  width:auto;
-  margin:0;
-}
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-duration { display:block; flex:0 0 auto; width:auto; margin:0; }
 html[data-course="quiz"] .quiz-timer-compact #quizTimerDuration {
-  width:58px;
+  width:64px;
   min-height:30px;
   height:30px;
   padding:4px 5px;
@@ -8285,8 +8290,9 @@ html[data-course="quiz"] .quiz-timer-compact #quizTimerDuration {
 html[data-course="quiz"] .quiz-timer-compact .quiz-timer-quick-add,
 html[data-course="quiz"] .quiz-timer-compact .quiz-timer-actions {
   display:flex;
-  flex-wrap:nowrap;
-  gap:4px;
+  flex-flow:row nowrap;
+  align-items:center;
+  gap:5px;
 }
 html[data-course="quiz"] .quiz-timer-compact .btn {
   min-height:30px;
@@ -8333,210 +8339,194 @@ html[data-course="quiz"][data-theme="dark"] .quiz-timer-compact[data-state="expi
   animation:none;
   box-shadow:none;
 }
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-expired {
+  flex:1 0 100%;
+  margin:0;
+  padding:7px 10px;
+}
+html[data-course="quiz"] .quiz-timer-compact[data-state="expired"] {
+  border-color:#ef4444;
+  box-shadow:0 0 0 1px #ef4444;
+}
 @media (max-width:700px) {
   html[data-course="quiz"] .quiz-timer-panel.quiz-timer-compact {
     gap:8px;
     padding:7px;
     overflow-x:auto;
   }
-  html[data-course="quiz"] .quiz-timer-compact .quiz-timer-clock { font-size:1.05rem; }
+  html[data-course="quiz"] .quiz-timer-compact .quiz-timer-clock { font-size:1rem; }
   html[data-course="quiz"] .quiz-timer-compact .quiz-timer-controls { gap:4px; }
   html[data-course="quiz"] .quiz-timer-compact #quizTimerDuration { width:48px; }
   html[data-course="quiz"] .quiz-timer-compact .btn { padding:5px 6px; }
-  html[data-course="quiz"] .quiz-timer-compact .quiz-timer-expired { flex:0 0 auto; }
 }
 
-
-/* Subject progress + daily rhythm alignment: restore the compact At a Glance rows. */
-body[data-course="hub"] .dash-subject-dropdown .dash-subject-list {
-  display: flex; flex-direction: column; grid-template-columns: none; gap: 0; margin-top: 2px;
+/* Dashboard: progress and rhythm share a row on desktop. */
+body[data-course="hub"] #studyDashboard {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  grid-template-areas:"welcome welcome" "stats stats" "progress activity" "tools activity";
+  align-items:stretch;
+  gap:14px;
 }
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-row {
-  display: grid; grid-template-columns: 30px minmax(90px, 1fr) minmax(60px, 1.15fr) 42px 64px 18px;
-  align-items: center; gap: 9px; min-height: 42px;
-  border-bottom: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
-}
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-row:last-child { border-bottom: 0; }
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-emoji {
-  display: inline-flex; align-items: center; justify-content: center; width: 28px; font-size: 20px; line-height: 1;
-}
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-name {
-  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; color: var(--text-main);
-}
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-track {
-  min-width: 0; height: 9px; border-radius: 999px; background: color-mix(in srgb, var(--text-sub) 14%, transparent); border: 1px solid var(--border); overflow: hidden;
-}
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-track > span {
-  display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #8b5cf6, #a78bfa);
-}
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-pct,
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-count {
-  color: var(--text-sub); font: 10px 'JetBrains Mono', monospace; text-align: right; white-space: nowrap;
-}
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-link { color: var(--text-sub); text-decoration: none; font-size: 21px; text-align: center; }
-body[data-course="hub"] .dash-subject-dropdown .dash-glance-link:hover { color: var(--gold-primary); }
-
-/* On wider screens, place subject progress beside Daily Study Rhythm. */
-@media (min-width: 901px) {
-  body[data-course="hub"] .study-dashboard {
-    grid-template-areas: "welcome welcome" "stats stats" "progress activity" "tools activity";
-  }
-  body[data-course="hub"] .study-dashboard > .dash-subject-dropdown { grid-area: progress; align-self: stretch; }
-  body[data-course="hub"] .study-dashboard > .dash-activity-panel { grid-area: activity; }
-  body[data-course="hub"] .study-dashboard > .dash-tools-panel { grid-area: tools; }
-}
-@media (max-width: 700px) {
-  body[data-course="hub"] .dash-subject-dropdown .dash-glance-row {
-    grid-template-columns: 28px minmax(72px, 1fr) minmax(48px, .9fr) 34px 54px 16px; gap: 6px; min-height: 40px;
-  }
-  body[data-course="hub"] .dash-subject-dropdown .dash-glance-emoji { width: 26px; font-size: 18px; }
-  body[data-course="hub"] .dash-subject-dropdown .dash-glance-name { font-size: 11px; }
-  body[data-course="hub"] .dash-subject-dropdown .dash-glance-pct,
-  body[data-course="hub"] .dash-subject-dropdown .dash-glance-count { font-size: 9px; }
-}
-
-
-/* Quiz timer compact row: timer display left, duration and actions right. */
-html[data-course="quiz"] .quiz-timer-panel.quiz-timer-compact {
-  display:flex !important;
-  flex-flow:row wrap !important;
-  align-items:center !important;
-  justify-content:space-between !important;
-  gap:8px 14px !important;
-  padding:10px 14px !important;
-}
-html[data-course="quiz"] .quiz-timer-compact .quiz-timer-clock {
-  flex:0 0 auto;
-  margin:0;
-  font-variant-numeric:tabular-nums;
-  font-size:1.15rem;
-}
-html[data-course="quiz"] .quiz-timer-compact .quiz-timer-controls {
-  display:flex !important;
-  flex:1 1 auto;
-  flex-flow:row nowrap !important;
-  align-items:center !important;
-  justify-content:flex-end !important;
-  gap:6px !important;
+body[data-course="hub"] #studyDashboard > .dash-welcome { grid-area:welcome; }
+body[data-course="hub"] #studyDashboard > .dash-stats { grid-area:stats; min-width:0; }
+body[data-course="hub"] #studyDashboard > .dash-subject-dropdown {
+  grid-area:progress;
+  display:flex;
+  flex-direction:column;
+  align-self:stretch;
   min-width:0;
 }
-html[data-course="quiz"] .quiz-timer-compact .quiz-timer-duration { flex:0 0 auto; }
-html[data-course="quiz"] .quiz-timer-compact #quizTimerDuration { width:64px; }
-html[data-course="quiz"] .quiz-timer-compact .quiz-timer-quick-add,
-html[data-course="quiz"] .quiz-timer-compact .quiz-timer-actions {
-  display:flex !important;
-  flex-flow:row nowrap !important;
-  align-items:center;
-  gap:5px !important;
-}
-html[data-course="quiz"] .quiz-timer-compact .quiz-timer-expired {
-  flex:1 0 100%;
-  margin:0;
-  padding:7px 10px;
-}
-@media (max-width:600px) {
-  html[data-course="quiz"] .quiz-timer-panel.quiz-timer-compact { gap:8px; }
-  html[data-course="quiz"] .quiz-timer-compact .quiz-timer-clock { font-size:1rem; }
-  html[data-course="quiz"] .quiz-timer-compact .quiz-timer-controls {
-    flex:1 1 100%;
-    justify-content:flex-start !important;
-    flex-wrap:wrap !important;
-  }
-}
-
-
-/* Dashboard layout repair: supersede legacy grid-area and details-era overrides. */
-body[data-course="hub"] #studyDashboard {
-  display:grid !important;
-  grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
-  grid-template-areas:"welcome welcome" "stats stats" "progress activity" "tools activity" !important;
-  align-items:stretch !important;
-  gap:14px !important;
-}
-body[data-course="hub"] #studyDashboard > .dash-welcome { grid-area:welcome !important; }
-body[data-course="hub"] #studyDashboard > .dash-stats { grid-area:stats !important; min-width:0; }
-body[data-course="hub"] #studyDashboard > .dash-subject-dropdown {
-  grid-area:progress !important; display:flex !important; flex-direction:column !important;
-  align-self:stretch !important; min-width:0 !important; height:100%;
-}
 body[data-course="hub"] #studyDashboard > .dash-activity-panel {
-  grid-area:activity !important; align-self:stretch !important; min-width:0 !important;
+  grid-area:activity;
+  align-self:stretch;
+  min-width:0;
 }
 body[data-course="hub"] #studyDashboard > .dash-tools-panel {
-  grid-area:tools !important; align-self:start !important; min-width:0 !important;
+  grid-area:tools;
+  align-self:start;
+  min-width:0;
 }
 body[data-course="hub"] #studyDashboard .dash-subject-list {
-  display:flex !important; flex:1 1 auto !important; flex-direction:column !important;
-  grid-template-columns:none !important; gap:0 !important; width:100% !important;
-  min-width:0 !important; margin-top:8px !important; visibility:visible !important; opacity:1 !important;
+  display:flex;
+  flex:1 1 auto;
+  flex-direction:column;
+  gap:0;
+  width:100%;
+  min-width:0;
+  margin-top:8px;
+  visibility:visible;
+  opacity:1;
 }
 body[data-course="hub"] #studyDashboard .dash-glance-row {
-  display:grid !important;
-  grid-template-columns:26px minmax(85px,1fr) minmax(54px,1.15fr) 38px 56px 16px !important;
-  align-items:center !important; gap:8px !important; min-height:43px !important;
-  visibility:visible !important; opacity:1 !important;
+  display:grid;
+  grid-template-columns:26px minmax(85px,1fr) minmax(54px,1.15fr) 38px 56px 16px;
+  align-items:center;
+  gap:8px;
+  min-height:43px;
+  border-bottom:1px solid color-mix(in srgb,var(--border) 70%,transparent);
+  visibility:visible;
+  opacity:1;
 }
+body[data-course="hub"] #studyDashboard .dash-glance-row:last-child { border-bottom:0; }
 body[data-course="hub"] #studyDashboard .dash-glance-emoji {
-  display:inline-flex !important; justify-content:center; align-items:center; font-size:18px;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  width:26px;
+  font-size:18px;
+  line-height:1;
 }
 body[data-course="hub"] #studyDashboard .dash-glance-name {
-  min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:12px;
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:var(--text-main);
+  font-size:12px;
 }
 body[data-course="hub"] #studyDashboard .dash-glance-track {
-  display:block !important; width:100%; min-width:0; height:9px; overflow:hidden; border-radius:999px;
+  display:block;
+  width:100%;
+  min-width:0;
+  height:9px;
+  overflow:hidden;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:color-mix(in srgb,var(--text-sub) 14%,transparent);
 }
 body[data-course="hub"] #studyDashboard .dash-glance-track > span {
-  display:block !important; height:100%; min-width:0; border-radius:inherit; transition:width .2s ease;
+  display:block;
+  height:100%;
+  min-width:0;
+  border-radius:inherit;
+  background:linear-gradient(90deg,#8b5cf6,#a78bfa);
+  transition:width .2s ease;
 }
 body[data-course="hub"] #studyDashboard .dash-glance-pct,
 body[data-course="hub"] #studyDashboard .dash-glance-count {
-  display:block !important; white-space:nowrap; text-align:right; font-size:10px;
+  display:block;
+  color:var(--text-sub);
+  font:10px 'JetBrains Mono',monospace;
+  text-align:right;
+  white-space:nowrap;
 }
-body[data-course="hub"] #studyDashboard .dash-glance-link { display:block !important; text-align:center; }
+body[data-course="hub"] #studyDashboard .dash-glance-link {
+  display:block;
+  color:var(--text-sub);
+  text-decoration:none;
+  font-size:21px;
+  text-align:center;
+}
+body[data-course="hub"] #studyDashboard .dash-glance-link:hover { color:var(--gold-primary); }
 body[data-course="hub"] #studyDashboard .dash-empty {
-  display:block; padding:14px 4px; text-align:center; color:var(--text-sub);
+  display:block;
+  padding:14px 4px;
+  color:var(--text-sub);
+  text-align:center;
 }
 
-/* Backup panel: copy left, action buttons right on one compact line. */
+/* Backup panel: explanatory copy left, actions right. */
 body[data-course="hub"] #backupPanel {
-  display:grid !important; grid-template-columns:minmax(0,1fr) auto !important;
-  grid-template-areas:"heading actions" "message message" !important;
-  align-items:center !important; gap:8px 16px !important; padding:14px 16px !important;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  grid-template-areas:"heading actions" "message message";
+  align-items:center;
+  gap:8px 16px;
+  padding:14px 16px;
 }
 body[data-course="hub"] #backupPanel > .dash-panel-heading {
-  grid-area:heading; min-width:0; margin:0 !important;
+  grid-area:heading;
+  min-width:0;
+  margin:0;
 }
 body[data-course="hub"] #backupPanel .dash-panel-heading h2 { font-size:16px; }
 body[data-course="hub"] #backupPanel .dash-panel-copy { max-width:48ch; font-size:11px; }
 body[data-course="hub"] #backupPanel .dash-data-lock { display:none; }
 body[data-course="hub"] #backupPanel .dash-data-actions {
-  grid-area:actions; display:flex !important; flex-flow:row nowrap !important;
-  align-items:center; justify-content:flex-end; gap:6px !important; min-width:0;
+  grid-area:actions;
+  display:flex;
+  flex-flow:row nowrap;
+  align-items:center;
+  justify-content:flex-end;
+  gap:6px;
+  min-width:0;
 }
 body[data-course="hub"] #backupPanel .dash-data-actions .dash-button {
-  width:auto !important; min-height:32px; padding:7px 10px; font-size:11px; white-space:nowrap;
+  width:auto;
+  min-height:32px;
+  padding:7px 10px;
+  font-size:11px;
+  white-space:nowrap;
 }
 body[data-course="hub"] #backupPanel .dash-data-message { grid-area:message; margin:0; font-size:11px; }
-@media (max-width:900px) {
+
+@media (min-width:701px) and (max-width:900px) {
   body[data-course="hub"] #studyDashboard {
-    grid-template-columns:minmax(0,1fr) !important;
-    grid-template-areas:"welcome" "stats" "progress" "activity" "tools" !important;
-  }
-  body[data-course="hub"] #studyDashboard .dash-glance-row {
-    grid-template-columns:26px minmax(80px,1fr) minmax(60px,1.2fr) 38px 56px 16px !important;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    grid-template-areas:"welcome welcome" "stats stats" "progress progress" "activity activity" "tools tools";
   }
 }
 @media (max-width:700px) {
-  body[data-course="hub"] #studyDashboard .dash-glance-row {
-    grid-template-columns:24px minmax(65px,1fr) minmax(45px,.9fr) 32px !important; gap:6px !important;
+  body[data-course="hub"] #studyDashboard {
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:"welcome" "stats" "progress" "activity" "tools";
   }
+  body[data-course="hub"] #studyDashboard .dash-glance-row {
+    grid-template-columns:24px minmax(65px,1fr) minmax(45px,.9fr) 32px;
+    gap:6px;
+  }
+  body[data-course="hub"] #studyDashboard .dash-glance-emoji { width:24px; font-size:17px; }
+  body[data-course="hub"] #studyDashboard .dash-glance-name { font-size:11px; }
+  body[data-course="hub"] #studyDashboard .dash-glance-pct { font-size:9px; }
   body[data-course="hub"] #studyDashboard .dash-glance-count,
-  body[data-course="hub"] #studyDashboard .dash-glance-link { display:none !important; }
+  body[data-course="hub"] #studyDashboard .dash-glance-link { display:none; }
   body[data-course="hub"] #backupPanel {
-    grid-template-columns:minmax(0,1fr) !important;
-    grid-template-areas:"heading" "actions" "message" !important;
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:"heading" "actions" "message";
   }
   body[data-course="hub"] #backupPanel .dash-data-actions {
-    justify-content:flex-start; flex-wrap:wrap !important;
+    justify-content:flex-start;
+    flex-wrap:wrap;
   }
 }
