@@ -135,6 +135,109 @@
 @media(max-width:650px){.tb-head{display:block}.tb-head .tb-actions{display:flex;margin-top:14px}.tb-head .tb-actions>.tb-btn{flex:1}.tb-stepper{grid-template-columns:minmax(0,1fr);gap:7px}.tb-step{min-height:55px}.tb-guide-column{grid-template-columns:minmax(0,1fr)}.tb-panel{padding:14px}.tb-two{grid-template-columns:minmax(0,1fr)}.tb-head h1{font-size:30px}.tb-actions .tb-btn{max-width:100%;white-space:normal}}
 @media(prefers-reduced-motion:reduce){.tb-btn{transition:none}}
 
+
+/* Reference-led authoring workspace. Scoped to this page; shared theme tokens remain authoritative. */
+html[data-course="hub"] body.tb-reference-ui{--tb-accent:#087f72;--tb-accent-strong:#087f72;--tb-accent-soft:color-mix(in srgb,#087f72 10%,var(--bg-card));}
+.tb-reference-ui .tb-app-shell{display:block;width:calc(100% - 32px);max-width:1680px;margin:0 auto;padding:18px 0 40px}
+.tb-reference-ui .tb-main-content{padding:0;max-width:none}
+.tb-reference-ui .tb-head{align-items:center;margin:0 0 16px;padding:0 0 16px;border-bottom:1px solid var(--border)}
+.tb-reference-ui .tb-head>div:first-child>a{display:none}
+.tb-reference-ui .tb-head h1{font:700 clamp(27px,2.4vw,36px)/1.12 'Source Serif 4',Georgia,serif;letter-spacing:-.035em;margin:0 0 4px}
+.tb-reference-ui .tb-head p{font:13px/1.5 'Source Serif 4',Georgia,serif}
+.tb-reference-ui .tb-actions{gap:8px}
+.tb-reference-ui .tb-btn{min-height:36px;border-radius:8px;padding:8px 12px;font:600 12px 'Source Serif 4',Georgia,serif}
+.tb-reference-ui .tb-btn.primary{background:var(--tb-accent);border-color:var(--tb-accent);color:#fff}
+.tb-reference-ui .tb-btn.primary:hover{color:#fff;filter:brightness(1.07)}
+.tb-reference-ui .tb-beginner-note{display:none!important}
+.tb-reference-ui .tb-stepper{display:flex;gap:6px;margin:0 0 12px}
+.tb-reference-ui .tb-step{min-height:38px;flex:1;padding:6px 10px;border-radius:8px;box-shadow:none;background:var(--bg-card)}
+.tb-reference-ui .tb-step-number{flex-basis:23px;width:23px;height:23px;font-size:10px}
+.tb-reference-ui .tb-step strong{font-size:11px}
+.tb-reference-ui .tb-step small{font-size:9px}
+.tb-reference-ui .tb-meta-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 14px}
+.tb-reference-ui .tb-meta-card{min-width:0;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);box-shadow:var(--shadow-card)}
+.tb-reference-ui .tb-meta-card>.tb-field{margin:0}
+.tb-reference-ui .tb-meta-card .tb-field label{font:600 11px 'Source Serif 4',Georgia,serif;margin-bottom:5px}
+.tb-reference-ui .tb-meta-card .tb-field input,.tb-reference-ui .tb-meta-card .tb-field select{min-height:34px;padding:7px 9px;background:var(--bg-card);font-size:12px}
+.tb-reference-ui .tb-grid{display:flex;flex-direction:column;gap:14px}
+.tb-reference-ui #questionStep{order:0;padding:14px;scroll-margin-top:14px}
+.tb-reference-ui #subjectStep{order:2;padding:14px;scroll-margin-top:14px}
+.tb-reference-ui #subjectStep>h2{font:600 15px 'Source Serif 4',Georgia,serif;margin:0 0 10px}
+.tb-reference-ui #subjectStep>.tb-field{display:none}
+.tb-reference-ui #subjectStep .tb-status{margin:0 0 10px}
+.tb-reference-ui #subjectStep .tb-advanced{margin-top:8px}
+.tb-reference-ui .tb-topline{margin:0 0 8px}
+.tb-reference-ui .tb-topline h2{font:600 17px 'Source Serif 4',Georgia,serif}
+.tb-reference-ui .tb-tabs{gap:8px;margin:8px 0 12px;padding-bottom:0;border-bottom:1px solid var(--border)}
+.tb-reference-ui .tb-tab{padding:9px 12px;border-radius:7px 7px 0 0;font:600 12px 'Source Serif 4',Georgia,serif}
+.tb-reference-ui .tb-tab[aria-selected=true]{border-color:transparent;border-bottom:2px solid var(--tb-accent);background:transparent;color:var(--tb-accent)}
+.tb-reference-ui .tb-reference-columns{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,.9fr);gap:14px;align-items:start}
+.tb-reference-ui .tb-editor-column,.tb-reference-ui .tb-preview-column{min-width:0}
+.tb-reference-ui .tb-editor-column{padding:0}
+.tb-reference-ui .tb-preview-column{display:grid;gap:12px;position:sticky;top:12px}
+.tb-reference-ui .tb-preview-card{min-width:0;padding:14px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);box-shadow:var(--shadow-card);overflow:hidden}
+.tb-reference-ui .tb-preview-card h2{font:600 16px 'Source Serif 4',Georgia,serif;margin:0 0 12px;color:var(--text-main)}
+.tb-reference-ui .tb-preview-meta{display:flex;flex-wrap:wrap;gap:8px;padding:9px 11px;margin:-2px -2px 12px;border-radius:7px;background:color-mix(in srgb,#12375a 94%,var(--bg-card));color:#fff;font-size:11px}
+.tb-reference-ui .tb-preview-meta span+span{border-left:1px solid #ffffff40;padding-left:8px}
+.tb-reference-ui #livePreview{margin:0;padding:0;border:0;background:transparent;font:13px/1.65 'Source Serif 4',Georgia,serif}
+.tb-reference-ui #livePreview>strong{display:block;margin-bottom:12px;color:var(--text-main);font:600 16px 'Source Serif 4',Georgia,serif}
+.tb-reference-ui #livePreview>p:first-of-type{font-weight:600;color:var(--text-main);font-size:14px;line-height:1.55}
+.tb-reference-ui #livePreview ol{list-style:none;padding:0;margin:12px 0;display:grid;gap:6px}
+.tb-reference-ui #livePreview li{display:flex;align-items:flex-start;gap:9px;padding:8px 9px;border:1px solid var(--border);border-radius:8px;color:var(--text-main);font-weight:400}
+.tb-reference-ui #livePreview li::before{content:counter(list-item, upper-alpha);display:grid;place-items:center;flex:0 0 25px;width:25px;height:25px;border:1px solid var(--border);border-radius:50%;font-size:11px;font-weight:700}
+.tb-reference-ui #livePreview li.tb-correct{border-color:var(--tb-accent);background:color-mix(in srgb,#087f72 8%,var(--bg-card));color:var(--text-main)}
+.tb-reference-ui #livePreview li.tb-correct::before{background:var(--tb-accent);border-color:var(--tb-accent);color:#fff}
+.tb-reference-ui #livePreview .tb-muted{display:block;padding:11px;border-radius:8px;background:var(--tb-accent-soft)}
+.tb-reference-ui .tb-preview-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.tb-reference-ui .tb-preview-summary>div{padding:9px;border:1px solid var(--border);border-radius:8px;min-width:0}
+.tb-reference-ui .tb-preview-summary small{display:block;color:var(--text-sub);font-size:10px;margin-bottom:4px}
+.tb-reference-ui .tb-preview-summary strong{display:block;font-size:12px;overflow-wrap:anywhere;font-weight:600}
+.tb-reference-ui #qualityPanel{margin:0!important}
+.tb-reference-ui #qualityPanel>summary{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.tb-reference-ui .tb-optional-fields{margin:0 0 12px}
+.tb-reference-ui .tb-field{margin:11px 0}
+.tb-reference-ui .tb-field label{font:600 11px 'Source Serif 4',Georgia,serif}
+.tb-reference-ui .tb-field input,.tb-reference-ui .tb-field select,.tb-reference-ui .tb-field textarea,.tb-reference-ui .tb-option input[type=text]{border-radius:7px;font:12px 'Source Serif 4',Georgia,serif}
+.tb-reference-ui #questionStem{min-height:90px}
+.tb-reference-ui #questionRationale{min-height:78px}
+.tb-reference-ui .tb-option{grid-template-columns:22px minmax(0,1fr) 28px;gap:8px;padding:3px 5px;border:1px solid var(--border);border-radius:8px}
+.tb-reference-ui .tb-option label{font-size:10px}
+.tb-reference-ui .tb-option input[type=radio]{accent-color:var(--tb-accent)}
+.tb-reference-ui .tb-actions .tb-btn{white-space:normal}
+.tb-reference-ui .tb-status.good{border-color:color-mix(in srgb,#087f72 45%,var(--border))}
+.tb-reference-ui .tb-guide-column{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:0;margin-top:12px}
+.tb-reference-ui .tb-guide-card{box-shadow:none;padding:12px}
+.tb-reference-ui .tb-guide-card h2{font-size:13px}
+.tb-reference-ui :is(button,input,select,textarea,summary,a):focus-visible{outline:2px solid var(--tb-accent);outline-offset:2px}
+@media(max-width:1180px){
+ .tb-reference-ui .tb-reference-columns{grid-template-columns:minmax(0,1.2fr) minmax(270px,.8fr);gap:10px}
+ .tb-reference-ui .tb-preview-column{position:static}
+ .tb-reference-ui .tb-app-shell{width:calc(100% - 24px)}
+}
+@media(max-width:900px){
+ .tb-reference-ui .tb-reference-columns{grid-template-columns:minmax(0,1fr)}
+ .tb-reference-ui .tb-preview-column{grid-template-columns:minmax(0,1fr)}
+ .tb-reference-ui .tb-meta-grid{gap:8px}
+ .tb-reference-ui .tb-preview-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+ .tb-reference-ui .tb-app-shell{width:calc(100% - 16px);padding-top:10px}
+ .tb-reference-ui .tb-head{display:block}
+ .tb-reference-ui .tb-head .tb-actions{margin-top:12px}
+ .tb-reference-ui .tb-head .tb-actions>.tb-btn{flex:1}
+ .tb-reference-ui .tb-meta-grid{grid-template-columns:minmax(0,1fr);gap:8px}
+ .tb-reference-ui .tb-meta-card{padding:9px 10px}
+ .tb-reference-ui .tb-stepper{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}
+ .tb-reference-ui .tb-step{display:block;min-height:60px;padding:7px}
+ .tb-reference-ui .tb-step-number{margin-bottom:4px}
+ .tb-reference-ui .tb-step small{display:none}
+ .tb-reference-ui #questionStep{padding:10px}
+ .tb-reference-ui .tb-two{grid-template-columns:minmax(0,1fr);gap:0}
+ .tb-reference-ui .tb-guide-column{grid-template-columns:minmax(0,1fr)}
+ .tb-reference-ui .tb-option{grid-template-columns:22px minmax(0,1fr) 25px}
+}
+@media(prefers-reduced-motion:reduce){.tb-reference-ui *{scroll-behavior:auto!important;transition:none!important}}
+
 </style>
 
     <link rel="manifest" href="./manifest.json">
@@ -210,7 +313,7 @@ const normalize=q=>({...q,id:String(q.id??''),subject:String(q.subject??''),topi
 function validate(q,seen=new Set()){const e=[];if(!q.question.trim())e.push('Question stem is required.');if(!q.subject||q.subject==='Unassigned')e.push('Assign a destination subject.');if(!q.topic||!q.topic.trim()||q.topic.trim().toLowerCase()==='general')e.push('Assign a specific syllabus topic (not General).');if(q.options.length<2)e.push('At least two answer choices are required.');if(q.options.some(x=>!String(x).trim()))e.push('Every answer choice must contain text.');if(new Set(q.options.map(x=>String(x).trim().toLowerCase())).size!==q.options.length)e.push('Duplicate answer choices found.');if(!Number.isInteger(q.correctAnswer)||q.correctAnswer<0||q.correctAnswer>=q.options.length)e.push('Choose exactly one valid correct answer.');if(!q.rationale.text.trim())e.push('Rationale is required.');if(q.id&&seen.has(q.id))e.push('Duplicate question ID: '+q.id);if(q.questionImage&&!/^https?:\/\//i.test(q.questionImage))e.push('Question image must be an http(s) URL or blank.');if(q.rationale.images.some(x=>!/^https?:\/\//i.test(String(x))))e.push('Rationale images must be http(s) URLs.');return e}
 function renderOptions(){ $('optionEditor').innerHTML=state.options.map((v,i)=>'<div class="tb-option"><input type="radio" name="correctOption" aria-label="Mark choice '+(i+1)+' correct" '+(state.correct===i?'checked':'')+' data-correct="'+i+'"><input type="text" aria-label="Choice '+(i+1)+'" placeholder="Choice '+String.fromCharCode(65+i)+'" data-option="'+i+'" value="'+esc(v)+'"><label>'+String.fromCharCode(65+i)+(state.correct===i?' · correct':'')+'</label></div>').join('');$('optionEditor').querySelectorAll('[data-option]').forEach(el=>el.addEventListener('input',()=>{state.options[+el.dataset.option]=el.value;preview()}));$('optionEditor').querySelectorAll('[data-correct]').forEach(el=>el.addEventListener('change',()=>{state.correct=+el.dataset.correct;renderOptions();preview()}))}
 function editorQuestion(){const subject=$('bankSubject').value||'Unassigned';return normalize({id:$('questionId').value.trim(),subject,topic:$('bankTopic').value.trim()||'General',difficulty:$('bankDifficulty').value||undefined,question:$('questionStem').value.trim(),source:$('questionSource').value.trim(),questionImage:$('questionImage').value.trim()||null,options:state.options,correctAnswer:state.correct,rationale:{text:$('questionRationale').value.trim(),images:$('rationaleImages').value.split(/\n/).map(s=>s.trim()).filter(Boolean)},tags:$('questionTags').value.split(',').map(s=>s.trim()).filter(Boolean)})}
-function preview(){const q=editorQuestion();$('livePreview').innerHTML='<strong>Live preview</strong><p>'+esc(q.question||'Your question stem will appear here.')+'</p><ol type="A">'+q.options.map((o,i)=>'<li class="'+(i===state.correct?'tb-correct':'')+'">'+esc(o||'(empty choice)')+(i===state.correct?' ✓':'')+'</li>').join('')+'</ol><p class="tb-muted"><b>Rationale:</b> '+esc(q.rationale.text||'Add a rationale.')+'</p>';const e=validate(q);$('validationStatus').className='tb-status '+(e.length?'bad':'good');$('validationStatus').textContent=e.length?e.join(' '):'Structure looks valid. This does not verify factual accuracy.'}
+function preview(){const q=editorQuestion();$('livePreview').innerHTML='<strong>Live preview</strong><p>'+esc(q.question||'Your question stem will appear here.')+'</p><ol type="A">'+q.options.map((o,i)=>'<li class="'+(i===state.correct?'tb-correct':'')+'">'+esc(o||'(empty choice)')+(i===state.correct?' ✓':'')+'</li>').join('')+'</ol><p class="tb-muted"><b>Rationale:</b> '+esc(q.rationale.text||'Add a rationale.')+'</p>';const e=validate(q);$('validationStatus').className='tb-status '+(e.length?'bad':'good');$('validationStatus').textContent=e.length?e.join(' '):'Structure looks valid. This does not verify factual accuracy.';[['previewSubject',q.subject],['previewDifficulty',q.difficulty||'Not set'],['metaSubject',q.subject],['metaDifficulty',q.difficulty||'Not set'],['metaTopic',q.topic||'General'],['metaSource',q.source||'Not provided'],['metaTags',q.tags.join(', ')||'None'],['metaQuestionId',q.id||'Auto-generated']].forEach(([id,value])=>{const el=$(id);if(el)el.textContent=value})}
 function resetEditor(){state.editing=null;state.options=['','','',''];state.correct=0;['questionId','questionTags','questionStem','questionRationale','questionSource','questionImage','rationaleImages'].forEach(id=>$(id).value='');$('addQuestion').textContent='Add question to draft';renderOptions();preview()}
 function fillEditor(q,index){state.editing=index;state.options=[...q.options];state.correct=q.correctAnswer;$('questionId').value=q.id;$('questionTags').value=q.tags.join(', ');$('questionStem').value=q.question;$('questionRationale').value=q.rationale.text;$('questionSource').value=q.source||'';$('questionImage').value=q.questionImage||'';$('rationaleImages').value=q.rationale.images.join('\n');$('bankTopic').value=q.topic;$('addQuestion').textContent='Save question changes';renderOptions();preview();$('editorPane').scrollIntoView({behavior:'smooth',block:'start'})}
 function renderDraft(){ $('draftCount').textContent=state.draft.length+' question'+(state.draft.length===1?'':'s')+' in draft';$('reviewCount').textContent=state.draft.length?'· '+state.draft.length+' saved':'';const hasSubject=state.subjects.some(subject=>subject.name===$('bankSubject').value);document.querySelectorAll('[data-go-step="subjectStep"]').forEach(el=>{el.classList.toggle('is-done',hasSubject);el.querySelector('.tb-step-number').textContent=hasSubject?'✓':'1'});document.querySelectorAll('[data-go-step="questionStep"]').forEach(el=>{el.classList.toggle('is-done',state.draft.length>0);el.querySelector('.tb-step-number').textContent=state.draft.length?'✓':'2'});document.querySelectorAll('[data-go-step="reviewStep"]').forEach(el=>{el.classList.toggle('is-done',state.draft.length>0);el.querySelector('.tb-step-number').textContent=state.draft.length?'✓':'3'});$('draftList').innerHTML=state.draft.length?state.draft.map((q,i)=>'<div class="tb-bank-item"><div style="flex:1"><strong>'+esc(q.id||'Draft '+(i+1))+' · '+esc(q.question.slice(0,130))+'</strong><small>'+esc(q.topic)+' · '+q.options.length+' choices</small><div class="tb-actions" style="margin-top:8px"><button class="tb-btn" data-edit="'+i+'">Edit</button><button class="tb-btn" data-remove="'+i+'">Remove</button></div></div></div>').join(''):'<div class="tb-beginner-note"><strong>Your questions will appear here.</strong><p class="tb-muted">Start with one question above. After saving it, you can add another or edit it here.</p></div>'; $('draftList').querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>fillEditor(state.draft[+b.dataset.edit],+b.dataset.edit));$('draftList').querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{state.draft.splice(+b.dataset.remove,1);renderDraft();renderOutput()});renderOutput();renderQualityReview()}
@@ -246,6 +349,38 @@ function download(){const issues=[];const arr=payload(),seen=new Set();arr.forEa
 function conversionPromptText(){return 'You are converting an existing practice exam into a StudyMats medical question bank. I have attached or pasted a source exam. Extract the questions faithfully; do not create new questions, guess missing answer keys, or invent rationales or references.\n\nReturn ONLY valid JSON as an array of objects using this exact schema:\n[{"id":"SUBJECT-001","subject":"'+($('bankSubject').value||'Subject')+'","topic":"Topic","question":"Full question stem","questionImage":null,"options":["Option A","Option B","Option C","Option D"],"correctAnswer":0,"rationale":{"text":"Explanation grounded in the supplied source; if not supplied, write \\"Rationale not provided in source; verify answer key.\\"","images":[]},"tags":["Topic"]}]\n\nRules:\n- Convert every question that can be read clearly. Preserve the original meaning and clinically important details. You may lightly correct OCR/formatting errors, but do not change the tested concept.\n- correctAnswer must be a zero-based integer matching the source answer key (0 = first option). If the answer key is missing or ambiguous, do not guess: set correctAnswer to -1 and add a tag "ANSWER-KEY-NEEDS-REVIEW".\n- Include all answer choices in their original order. If an item is not multiple choice, flag it in tags as "FORMAT-NEEDS-REVIEW" and do not fabricate options.\n- Use null for questionImage unless the source contains a usable image URL; put [] for rationale.images unless usable image URLs are supplied. Do not invent image URLs.\n- Use a unique ID for each item, subject "'+($('bankSubject').value||'Subject')+'", and the most specific defensible topic.\n- If a rationale is absent, say so; do not invent source citations, page numbers, or explanations.\n- Preserve diagrams as a short [IMAGE/FIGURE IN SOURCE: description] note in the question stem if the image itself cannot be represented.\n- Return JSON only, with no Markdown fences or introductory text. If the output is too long, split it into numbered JSON arrays and clearly say how many parts there are.\n- At the end, report any unreadable questions or answer-key mismatches separately only if the platform allows text outside the JSON; otherwise add a "NEEDS-REVIEW" tag to those items.'}
 function promptText(){const topic=$('promptTopic').value.trim()||'[INSERT TOPIC AND LEARNING OBJECTIVES]';const count=Math.max(1,Math.min(100,Number($('promptCount').value)||10));return 'You are an evidence-focused medical educator creating a question bank for '+$('promptLevel').value+'.\n\nTOPIC / OBJECTIVES: '+topic+'\nNUMBER OF ITEMS: '+count+'\nSTYLE: '+$('promptStyle').value+'\n\nTASK\nCreate exactly '+count+' single-best-answer MCQs. Use clear stems, plausible non-overlapping distractors, one unambiguously correct answer, and a concise but substantive rationale. Match the specified learner level. For clinical vignettes, include only clinically relevant details. Avoid trick wording, unsupported claims, and duplicated items. Do not invent citations, page numbers, or sources; include a source only if you can identify it reliably, otherwise state that source verification is needed.\n\nOUTPUT CONTRACT\nReturn ONLY valid JSON: an array of objects using this schema exactly:\n[{"id":"TOPIC-001","subject":"'+($('bankSubject').value||'Subject')+'","topic":"Topic","question":"Question stem","questionImage":null,"options":["A","B","C","D"],"correctAnswer":0,"rationale":{"text":"Explanation and source note if verified","images":[]},"tags":["Topic"]}]\n\nIMPORTANT VALIDATION RULES\n- correctAnswer is a zero-based integer index into options (0 means the first option).\n- Include at least 4 non-empty options; no duplicate options; exactly one best answer.\n- rationale.text must explain why the answer is correct and clarify key distractors when useful. rationale.images must always be an array. questionImage must be null unless a real, permitted image URL is supplied.\n- Do not use Markdown fences or commentary around the JSON. Do not claim the items are verified. Flag uncertain facts in rationale for human review.'}
 function switchTab(which){[['editor','editorPane','tabEditor'],['prompt','promptPane','tabPrompt'],['output','outputPane','tabOutput']].forEach(([name,pane,tab])=>{$(pane).classList.toggle('tb-hidden',name!==which);$(tab).setAttribute('aria-selected',String(name===which))});if(which==='prompt')$('promptOutput').value=promptText();if(which==='output')renderOutput()}
+
+function setupReferenceLayout(){
+ const shell=document.querySelector('.tb-app-shell'),main=document.querySelector('.tb-main-content'),head=document.querySelector('.tb-head'),grid=document.querySelector('.tb-grid'),subjectPanel=$('subjectStep'),questionPanel=$('questionStep');
+ if(!shell||!main||!head||!grid||!subjectPanel||!questionPanel||main.dataset.referenceLayout==='ready')return;
+ main.dataset.referenceLayout='ready';document.body.classList.add('tb-reference-ui');
+ const meta=document.createElement('div');meta.className='tb-meta-grid';meta.setAttribute('aria-label','Question settings');head.insertAdjacentElement('afterend',meta);
+ const makeMeta=(field,label)=>{if(!field)return;const card=document.createElement('section');card.className='tb-meta-card';card.setAttribute('aria-label',label);card.appendChild(field);meta.appendChild(card)};
+ makeMeta($('bankSubject').closest('.tb-field'),'Subject');
+ makeMeta($('bankTopic').closest('.tb-field'),'Topic');
+ const difficulty=$('bankDifficulty').closest('.tb-field');makeMeta(difficulty,'Default difficulty');
+ const oldStepper=main.querySelector('.tb-stepper');if(oldStepper){const workflow=document.createElement('details');workflow.className='tb-workflow-details tb-advanced';workflow.style.marginBottom='12px';const summary=document.createElement('summary');summary.textContent='Workflow steps';workflow.append(summary,oldStepper);head.insertAdjacentElement('afterend',workflow)}
+ const quality=$('qualityPanel');if(quality)quality.remove();
+ const workspace=document.createElement('div');workspace.className='tb-reference-columns';workspace.setAttribute('aria-label','Question editor and live preview');
+ const editorCol=document.createElement('div');editorCol.className='tb-editor-column';
+ const previewCol=document.createElement('aside');previewCol.className='tb-preview-column';previewCol.setAttribute('aria-label','Live question preview and review');
+ const previewCard=document.createElement('section');previewCard.className='tb-preview-card';
+ const previewHead=document.createElement('h2');previewHead.textContent='Question Preview';previewCard.appendChild(previewHead);
+ const previewMeta=document.createElement('div');previewMeta.className='tb-preview-meta';previewMeta.innerHTML='<span id="previewSubject">Choose a subject</span><span>MCQ</span><span id="previewDifficulty">Difficulty not set</span>';previewCard.appendChild(previewMeta);
+ const preview=$('livePreview');if(preview)previewCard.appendChild(preview);
+ const summaryCard=document.createElement('section');summaryCard.className='tb-preview-card';summaryCard.innerHTML='<h2>Question Metadata</h2><div class="tb-preview-summary"><div><small>Subject</small><strong id="metaSubject">Unassigned</strong></div><div><small>Difficulty</small><strong id="metaDifficulty">Not set</strong></div><div><small>Topic</small><strong id="metaTopic">General</strong></div><div><small>Source / reference</small><strong id="metaSource">Not provided</strong></div><div><small>Tags</small><strong id="metaTags">None</strong></div><div><small>Question ID</small><strong id="metaQuestionId">Auto-generated</strong></div></div>';
+ const validationCard=document.createElement('section');validationCard.className='tb-preview-card';const validationTitle=document.createElement('h2');validationTitle.textContent='Validation & Review';validationCard.append(validationTitle,$('validationStatus'));
+ if(quality)previewCol.append(previewCard,summaryCard,validationCard,quality);else previewCol.append(previewCard,summaryCard,validationCard);
+ const editorPane=$('editorPane');if(editorPane){editorCol.appendChild(editorPane);workspace.append(editorCol,previewCol);const tabs=questionPanel.querySelector('.tb-tabs');tabs.insertAdjacentElement('afterend',workspace)}
+ const draftReview=$('reviewStep');if(draftReview)editorCol.appendChild(draftReview);
+ grid.append(questionPanel,subjectPanel);
+ const guide=document.querySelector('.tb-guide-column');if(guide){guide.querySelectorAll('.tb-guide-card').forEach(card=>{const details=document.createElement('details');details.className='tb-advanced';const summary=document.createElement('summary');summary.textContent=card.querySelector('h2')?.textContent||'Question-writing guide';details.appendChild(summary);while(card.firstChild)details.appendChild(card.firstChild);card.replaceWith(details)});subjectPanel.insertAdjacentElement('afterend',guide)}
+ const updateMeta=()=>{const subject=$('bankSubject')?.value||'Unassigned',topic=$('bankTopic')?.value.trim()||'General',difficulty=$('bankDifficulty')?.value||'Not set',source=$('questionSource')?.value.trim()||'Not provided',tags=$('questionTags')?.value.trim()||'None',id=$('questionId')?.value.trim()||'Auto-generated';[['previewSubject',subject],['previewDifficulty',difficulty],['metaSubject',subject],['metaDifficulty',difficulty],['metaTopic',topic],['metaSource',source],['metaTags',tags],['metaQuestionId',id]].forEach(([id,value])=>{const el=$(id);if(el)el.textContent=value})};
+ ['bankSubject','bankTopic','bankDifficulty','questionSource','questionTags','questionId'].forEach(id=>$(id)?.addEventListener('input',updateMeta));
+ $('bankSubject')?.addEventListener('change',updateMeta);updateMeta();
+}
+
+setupReferenceLayout();
 $('addQuestion').onclick=()=>{const wasEditing=state.editing!==null;const q=editorQuestion();if(!q.id)q.id=($('bankSubject').value||'QUESTION').toUpperCase().replace(/[^A-Z0-9]+/g,'-')+'-'+String(state.draft.length+1).padStart(3,'0');const seen=new Set(state.draft.filter((_,i)=>i!==state.editing).map(x=>x.id));const errs=validate(q,seen);if(errs.length){$('validationStatus').className='tb-status bad';$('validationStatus').textContent=errs.join(' ');return}if(state.editing===null)state.draft.push(q);else state.draft[state.editing]=q;resetEditor();renderDraft();$('validationStatus').textContent=wasEditing?'Changes saved. You can keep editing or add another question.':'Question saved! You can now add another question or review your draft.';$('questionStem').focus()};
 $('clearEditor').onclick=resetEditor;$('newDraft').onclick=()=>{if(confirm('Clear the draft questions? Save locally first if needed.')){state.draft=[];resetEditor();renderDraft()}};
 $('addOption').onclick=()=>{if(state.options.length>=8)return;state.options.push('');renderOptions();preview()};$('removeOption').onclick=()=>{if(state.options.length<=2)return;state.options.pop();if(state.correct>=state.options.length)state.correct=state.options.length-1;renderOptions();preview()};
