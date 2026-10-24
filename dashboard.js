@@ -119,6 +119,16 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('importCancelButton')?.addEventListener('click',()=>{$('importModal').hidden=true;$('importModal').classList.remove('is-open')});
  $('importModal')?.addEventListener('click',e=>{if(e.target===$('importModal')){$('importModal').hidden=true;$('importModal').classList.remove('is-open')}});
  $('dashResetButton')?.addEventListener('click',reset);
+ const whatsNew=$('whatsNewNotice'), whatsNewKey='studymats-whats-new-dismissed-v1';
+ try { if(whatsNew && localStorage.getItem(whatsNewKey)!=='1') whatsNew.hidden=false; } catch { if(whatsNew) whatsNew.hidden=false; }
+ document.querySelectorAll('[data-dismiss-whats-new]').forEach(b=>b.addEventListener('click',()=>{if(whatsNew)whatsNew.hidden=true;try{localStorage.setItem(whatsNewKey,'1')}catch{}}));
+ const changelog=$('changelogModal');
+ const openChangelog=()=>{if(!changelog)return;changelog.hidden=false;changelog.classList.add('is-open');changelog.querySelector('[data-close-changelog]')?.focus()};
+ const closeChangelog=()=>{if(!changelog)return;changelog.hidden=true;changelog.classList.remove('is-open')};
+ document.querySelectorAll('[data-open-changelog]').forEach(b=>b.addEventListener('click',openChangelog));
+ document.querySelectorAll('[data-close-changelog]').forEach(b=>b.addEventListener('click',closeChangelog));
+ changelog?.addEventListener('click',e=>{if(e.target===changelog)closeChangelog()});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&changelog&&!changelog.hidden)closeChangelog()});
  document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||180;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
  document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render()}));
  document.querySelectorAll('.hub-year-dropdown summary').forEach(summary=>summary.setAttribute('aria-label','Open or close test banks'));
