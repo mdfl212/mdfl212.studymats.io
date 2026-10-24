@@ -10649,3 +10649,96 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     white-space: nowrap !important;
   }
 }
+
+
+/* Compact question-search header and search field for phone-sized quiz views. */
+@media (max-width: 700px) {
+  body[data-course="hub"] .qs-header {
+    align-items: flex-start !important;
+    gap: 8px !important;
+    padding: 10px 12px 9px !important;
+  }
+
+  body[data-course="hub"] .qs-header-copy {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  body[data-course="hub"] .qs-header .dash-kicker {
+    font-size: 8px !important;
+    line-height: 1.15 !important;
+    letter-spacing: .06em !important;
+    margin-bottom: 2px !important;
+    overflow-wrap: normal !important;
+  }
+
+  body[data-course="hub"] .qs-header h2 {
+    font-size: 17px !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0 !important;
+    margin: 2px 0 4px !important;
+    overflow-wrap: normal !important;
+  }
+
+  body[data-course="hub"] .qs-search-box {
+    display: flex !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    gap: 7px !important;
+    margin: 6px 0 4px !important;
+    padding: 0 9px !important;
+    border-radius: 8px !important;
+    box-sizing: border-box !important;
+  }
+
+  body[data-course="hub"] .qs-search-box > span {
+    flex: 0 0 auto !important;
+    font-size: 17px !important;
+    line-height: 1 !important;
+  }
+
+  body[data-course="hub"] .qs-search-box input {
+    min-width: 0 !important;
+    width: 100% !important;
+    padding: 8px 0 !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+  }
+
+  body[data-course="hub"] .qs-header #questionSearchStatus {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    overflow-wrap: normal !important;
+  }
+
+  body[data-course="hub"] .qs-close {
+    flex: 0 0 30px !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 8px !important;
+    font-size: 21px !important;
+    line-height: 1 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  body[data-course="hub"] .qs-header {
+    padding: 8px 9px 7px !important;
+    gap: 6px !important;
+  }
+
+  body[data-course="hub"] .qs-header h2 {
+    font-size: 15px !important;
+  }
+
+  body[data-course="hub"] .qs-header .dash-kicker {
+    font-size: 7px !important;
+  }
+
+  body[data-course="hub"] .qs-search-box input {
+    font-size: 11px !important;
+  }
+}
