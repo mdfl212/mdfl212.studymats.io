@@ -8394,3 +8394,52 @@ body[data-course="hub"] .dash-subject-dropdown .dash-glance-link:hover { color: 
   body[data-course="hub"] .dash-subject-dropdown .dash-glance-pct,
   body[data-course="hub"] .dash-subject-dropdown .dash-glance-count { font-size: 9px; }
 }
+
+
+/* Quiz timer compact row: timer display left, duration and actions right. */
+html[data-course="quiz"] .quiz-timer-panel.quiz-timer-compact {
+  display:flex !important;
+  flex-flow:row wrap !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:8px 14px !important;
+  padding:10px 14px !important;
+}
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-clock {
+  flex:0 0 auto;
+  margin:0;
+  font-variant-numeric:tabular-nums;
+  font-size:1.15rem;
+}
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-controls {
+  display:flex !important;
+  flex:1 1 auto;
+  flex-flow:row nowrap !important;
+  align-items:center !important;
+  justify-content:flex-end !important;
+  gap:6px !important;
+  min-width:0;
+}
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-duration { flex:0 0 auto; }
+html[data-course="quiz"] .quiz-timer-compact #quizTimerDuration { width:64px; }
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-quick-add,
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-actions {
+  display:flex !important;
+  flex-flow:row nowrap !important;
+  align-items:center;
+  gap:5px !important;
+}
+html[data-course="quiz"] .quiz-timer-compact .quiz-timer-expired {
+  flex:1 0 100%;
+  margin:0;
+  padding:7px 10px;
+}
+@media (max-width:600px) {
+  html[data-course="quiz"] .quiz-timer-panel.quiz-timer-compact { gap:8px; }
+  html[data-course="quiz"] .quiz-timer-compact .quiz-timer-clock { font-size:1rem; }
+  html[data-course="quiz"] .quiz-timer-compact .quiz-timer-controls {
+    flex:1 1 100%;
+    justify-content:flex-start !important;
+    flex-wrap:wrap !important;
+  }
+}
