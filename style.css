@@ -9918,3 +9918,141 @@ html[data-course="hub"] body[data-course="hub"] .footer-note {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+
+/* Compact dashboard polish: single-line backup tools and two-line subject rows */
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 12px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-heading {
+  flex: 0 0 auto;
+  margin: 0;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-heading > div {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-kicker,
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-copy,
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-data-lock {
+  display: none;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel h2 {
+  white-space: nowrap;
+  font-size: 12px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-data-actions {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-data-actions .dash-button {
+  white-space: nowrap;
+  padding: 6px 8px;
+  font-size: 9px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-summary {
+  padding: 10px 10px 10px 8px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-list {
+  padding: 0 7px 8px;
+  gap: 6px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact {
+  padding: 7px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-heading {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-icon {
+  flex: 0 0 auto;
+  font-size: 14px;
+  line-height: 1;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-title h3 {
+  margin: 0;
+  font: 500 10px/1.25 'Source Serif 4', serif;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-title h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-title h3 a:hover {
+  text-decoration: underline;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-pct {
+  flex: 0 0 auto;
+  font: 600 10px/1 'JetBrains Mono', monospace;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-progress-row .dash-progress-track {
+  flex: 1 1 auto;
+  min-width: 18px;
+  margin: 0;
+  height: 3px;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-reviewed,
+html[data-course="hub"] body[data-course="hub"] .dash-subject-reconcile-label {
+  flex: 0 0 auto;
+  color: var(--hub-text2);
+  font: 8px/1.1 'JetBrains Mono', monospace;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-progress-row .dash-continue {
+  flex: 0 0 auto;
+  font-size: 8px;
+  line-height: 1.1;
+  padding: 0;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash-subject-error {
+  font-size: 9px;
+  margin-top: 3px;
+}
+@media (max-width: 680px) {
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-heading > div {
+    gap: 0;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions .dash-button {
+    font-size: 9px;
+    padding: 6px 7px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-summary {
+    padding: 9px 9px 9px 7px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-list {
+    padding: 0 6px 7px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
