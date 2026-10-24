@@ -22,7 +22,7 @@ An interactive, responsive HTML/JS questionnaire application designed to review 
 - Added a configurable quiz timer with pause/reset controls, +15/+30/+60-minute shortcuts, and a clear time-up state.
 - Refined quiz dark mode to use a true-black surface and tightened question metadata layout.
 - Simplified Daily Study Rhythm spacing and improved the dashboard subject-progress overview.
-- Improved Test Bank Builder workflows for drafting, reusing, importing, validating, and exporting questions; responsive layout refinements are in progress.
+- Improved Test Bank Builder workflows for drafting, reusing, importing, validating, and exporting questions; responsive layout has been refined for narrower screens.
 - Added a dismissible dashboard update notice and a persistent “What’s changed” entry in the sidebar.
 
 ## September 7, 2026 update 
