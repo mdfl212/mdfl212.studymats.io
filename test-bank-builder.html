@@ -109,7 +109,7 @@ function payload(){const subject=$('bankSubject').value||'Unassigned';return sta
 function renderOutput(){const arr=payload();$('jsonOutput').value=JSON.stringify(arr,null,2);const seen=new Set(),errs=[];arr.forEach((q,i)=>{validate(q,seen).forEach(e=>errs.push('Question '+(i+1)+': '+e));if(q.id)seen.add(q.id)});$('outputStatus').className='tb-status '+(errs.length?'bad':'good');$('outputStatus').textContent=errs.length?errs.length+' validation issue(s): '+errs.slice(0,5).join(' '):arr.length+' question(s) structurally valid. Review all medical content and sources before use.'}
 let qualityFilter='all';
 function renderQualityReview(){
-const qs=payload(),canonical=s=>String(s||'').toLowerCase().replace(/<[^>]*>/g,' ').replace(/[^a-z0-9]+/g,' ').trim().replace(/\\s+/g,' '),seen=new Map(),issues=[],knownTopics=new Set(state.banks.filter(q=>q.subject===($('bankSubject').value||'')).map(q=>canonical(q.topic)).filter(t=>t&&t!=='general'));
+const qs=payload(),canonical=s=>String(s||'').toLowerCase().replace(/<[^>]*>/g,' ').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' '),seen=new Map(),issues=[],knownTopics=new Set(state.banks.filter(q=>q.subject===($('bankSubject').value||'')).map(q=>canonical(q.topic)).filter(t=>t&&t!=='general'));
 let topicGaps=0,referenceGaps=0,duplicates=0,unmatchedTopics=0,mappedTopics=0,structuralGaps=0;
 qs.forEach((q,i)=>{
 validate(q).forEach(detail=>{structuralGaps++;issues.push({i,title:'Structure: '+detail,detail:'Fix this before exporting the question.',category:'structural'})});
@@ -119,7 +119,7 @@ else if(knownTopics.size){if(knownTopics.has(topicKey)){mappedTopics++}else{unma
 const stem=canonical(q.question);
 if(stem){if(seen.has(stem)){duplicates++;issues.push({i,title:'Possible duplicate stem',detail:'Similar/identical stem also appears in question '+(seen.get(stem)+1)+'. Compare wording and learning objective.',category:'duplicates'})}else seen.set(stem,i)}
 const rationale=String(q.rationale?.text||'');
-if(!String(q.source||'').trim()&&!/(\\bsource\\b|\\breference\\b|\\bdoi\\b|https?:\\/\\/|\\bWilliams\\b|\\bHarrison'?s\\b|\\bGuyton\\b|\\bRobbins\\b|\\bKatzung\\b|\\bNelson\\b|\\bUpToDate\\b|\\bPubMed\\b|\\bPMID\\b|\\bISBN\\b)/i.test(rationale)){referenceGaps++;issues.push({i,title:'Reference not identified',detail:'Add a traceable textbook, guideline, paper, DOI, or URL to support verification.',category:'sources'})}
+if(!String(q.source||'').trim()&&!/(\bsource\b|\breference\b|\bdoi\b|https?:\/\/|\bWilliams\b|\bHarrison'?s\b|\bGuyton\b|\bRobbins\b|\bKatzung\b|\bNelson\b|\bUpToDate\b|\bPubMed\b|\bPMID\b|\bISBN\b)/i.test(rationale)){referenceGaps++;issues.push({i,title:'Reference not identified',detail:'Add a traceable textbook, guideline, paper, DOI, or URL to support verification.',category:'sources'})}
 issues.push({i,title:'Medical fact-check required',detail:'Confirm the keyed answer, rationale, current guidance, and distractors against a trusted source.',category:'medical'});
 });
 $('qualitySummary').textContent=qs.length+' question(s) · '+issues.length+' review flag(s)';
