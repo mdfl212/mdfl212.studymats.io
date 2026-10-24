@@ -14,7 +14,7 @@ const legacyBySubject={
  Histology:[{name:'Histology · 200-item quiz',path:'subjects/yl1/histology/Histo.html',count:200}],
  Physiology:[{name:'Physiology PLE Reviewer · 300 items',path:'subjects/yl1/physiology/Physio.html',count:300}]
 };
-function questionsFor(bank){return Array.isArray(bank.questions)?bank.questions.filter(q=>{const n=String(q.subject||'').toLowerCase();return bank.scope==='shared'?(n===subject.id.toLowerCase()||n===subject.name.toLowerCase()):(bank.subjectIds||[]).includes(subject.id)}):[]}
+function questionsFor(bank){return Array.isArray(bank.questions)?bank.questions.filter(q=>{const n=String(q.subject||'').toLowerCase();return bank.scope==='shared'?((bank.subjectIds||[]).includes(subject.id)&&(n===subject.id.toLowerCase()||n===subject.name.toLowerCase())):(bank.subjectIds||[]).includes(subject.id)}):[]}
 function render(){
  const saved=readSaved();
  const splitSources=!['Biochemistry','Histology'].includes(subject.id);
