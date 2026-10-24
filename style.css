@@ -12486,3 +12486,47 @@ body[data-course="quiz"] .table-scroll {
     display: none !important;
   }
 }
+
+
+/* ChatGPT-style desktop header menu: quiet, unboxed icon at the far left,
+   aligned with the app mark and spaced like a native app toolbar. */
+@media (min-width: 701px) {
+  body[data-course="hub"] .app-topbar {
+    justify-content: flex-start !important;
+    gap: 14px !important;
+  }
+
+  body[data-course="hub"] .topbar-sidebar-menu {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 32px !important;
+    width: 32px !important;
+    height: 36px !important;
+    padding: 0 !important;
+    margin: 0 0 0 -4px !important;
+    border: 0 !important;
+    border-radius: 8px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: var(--hub-text2, #b8b8c0) !important;
+    cursor: pointer !important;
+  }
+
+  body[data-course="hub"] .topbar-sidebar-menu:hover {
+    background: rgba(255,255,255,.07) !important;
+    color: var(--hub-text, #fff) !important;
+  }
+
+  body[data-course="hub"] .topbar-sidebar-menu svg {
+    display: block !important;
+    width: 23px !important;
+    height: 23px !important;
+  }
+
+  body[data-course="hub"] .topbar-brand {
+    gap: 9px !important;
+  }
+}
