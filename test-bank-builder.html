@@ -89,6 +89,52 @@
 @media(max-width:760px){.tb-app-shell{padding:8px 0 30px}.tb-head{display:block;padding-bottom:15px}.tb-head .tb-actions{margin-top:12px}.tb-head .tb-actions>.tb-btn{flex:1}.tb-stepper{grid-template-columns:1fr;gap:7px}.tb-step{min-height:50px}.tb-grid{grid-template-columns:minmax(0,1fr)}.tb-panel{padding:14px}.tb-guide-column{grid-template-columns:1fr}.tb-two{grid-template-columns:minmax(0,1fr)}.tb-option{grid-template-columns:22px minmax(0,1fr) 72px;gap:7px}.tb-option label{font-size:10px}.tb-quality-issue{flex-direction:column}.tb-quality-issue .tb-btn{align-self:flex-start}.tb-head h1{font-size:29px}}
 @media(max-width:440px){.tb-head h1{font-size:26px}.tb-head .tb-actions{display:grid;grid-template-columns:1fr}.tb-head .tb-actions details{width:100%}.tb-actions .tb-btn{max-width:100%}.tb-panel{padding:12px}.tb-step small{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.tb-btn,.tb-step,.tb-bank-item{transition:none}}
+
+/* Refined Test Bank Builder layout: retain StudyMats navigation and theme tokens. */
+.tb-app-shell{grid-template-columns:minmax(0,1fr) 236px;gap:20px;max-width:1600px;padding:16px 0 42px}
+.tb-main-content{min-width:0}
+.tb-head{align-items:center;margin:4px 0 22px;padding:0 0 20px}
+.tb-head h1{margin:10px 0 7px;letter-spacing:-.025em;line-height:1.08}
+.tb-head p{max-width:660px;margin:0;color:var(--text-sub);font-size:14px;line-height:1.6}
+.tb-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tb-btn{min-height:38px;padding:9px 13px;border:1px solid var(--border);border-radius:9px;background:var(--bg-card);color:var(--text-main);font:600 12px 'JetBrains Mono',monospace;transition:transform .15s,border-color .15s,background .15s}
+.tb-btn:hover{border-color:var(--gold-primary);transform:translateY(-1px)}
+.tb-btn.primary{border-color:var(--gold-primary);background:var(--gold-primary);color:#fff}
+.tb-beginner-note{padding:14px 16px;border:1px solid color-mix(in srgb,var(--gold-primary) 32%,var(--border));border-left:3px solid var(--gold-primary);border-radius:11px;background:color-mix(in srgb,var(--gold-primary) 6%,var(--bg-card))}
+.tb-beginner-note strong{color:var(--text-main);font-size:14px}
+.tb-beginner-note p{margin:4px 0 0;line-height:1.55}
+.tb-stepper{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 20px}
+.tb-step{min-height:70px;padding:13px;gap:10px;text-align:left}
+.tb-step[aria-current="step"]{border-color:var(--gold-primary);background:var(--gold-light)}
+.tb-step-number{width:31px;height:31px;flex-basis:31px}
+.tb-panel{padding:20px;border-radius:14px;box-shadow:var(--shadow-card)}
+.tb-grid{grid-template-columns:minmax(230px,.72fr) minmax(0,1.28fr);gap:16px}
+.tb-panel h2{line-height:1.35}
+.tb-field{margin:14px 0}
+.tb-field label{font-size:11px;letter-spacing:.025em}
+.tb-field input,.tb-field select,.tb-field textarea,.tb-option input[type=text]{border-radius:9px;min-height:42px}
+.tb-field textarea{min-height:unset}
+.tb-tabs{gap:7px;margin:14px 0 16px}
+.tb-tab{padding:9px 12px;border-radius:9px}
+.tb-tab[aria-selected=true]{border-color:var(--gold-primary);background:var(--gold-light);color:var(--text-main)}
+.tb-optional-fields,.tb-advanced{border-radius:10px}
+.tb-preview,.tb-output{border-radius:11px}
+#livePreview{margin-top:18px;padding:16px;border-color:color-mix(in srgb,var(--gold-primary) 38%,var(--border));background:color-mix(in srgb,var(--gold-primary) 4%,var(--bg))}
+#livePreview>strong{display:flex;align-items:center;gap:8px}
+#livePreview>strong:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#4f9b76}
+.tb-guide-column{gap:14px;padding-top:0}
+.tb-guide-card{padding:17px;border-radius:14px}
+.tb-guide-card h2{line-height:1.4}
+.tb-guide-icon{border-radius:8px}
+.tb-bank-item,.tb-quality-issue{border-radius:11px;padding:14px}
+.tb-status{border-radius:10px}
+.tb-main-content #subjectStep,#questionStep,#reviewStep{scroll-margin-top:18px}
+@media(min-width:1450px){.tb-app-shell{grid-template-columns:minmax(0,1fr) 250px}.tb-grid{grid-template-columns:minmax(250px,.72fr) minmax(0,1.28fr)}}
+@media(max-width:1250px){.tb-app-shell{grid-template-columns:minmax(0,1fr)}.tb-guide-column{grid-template-columns:repeat(2,minmax(0,1fr));margin:16px 0 0}.tb-grid{grid-template-columns:minmax(230px,.72fr) minmax(0,1.28fr)}}
+@media(max-width:900px){.tb-grid{grid-template-columns:minmax(0,1fr)}.tb-app-shell{padding-top:10px}.tb-guide-column{grid-template-columns:repeat(2,minmax(0,1fr))}.tb-step{padding:11px}}
+@media(max-width:650px){.tb-head{display:block}.tb-head .tb-actions{display:flex;margin-top:14px}.tb-head .tb-actions>.tb-btn{flex:1}.tb-stepper{grid-template-columns:minmax(0,1fr);gap:7px}.tb-step{min-height:55px}.tb-guide-column{grid-template-columns:minmax(0,1fr)}.tb-panel{padding:14px}.tb-two{grid-template-columns:minmax(0,1fr)}.tb-head h1{font-size:30px}.tb-actions .tb-btn{max-width:100%;white-space:normal}}
+@media(prefers-reduced-motion:reduce){.tb-btn{transition:none}}
+
 </style>
 
     <link rel="manifest" href="./manifest.json">
