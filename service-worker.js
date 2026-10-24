@@ -1,5 +1,5 @@
 /* StudyMats service worker: lightweight offline shell for the GitHub Pages demo. */
-const CACHE_NAME = "studymats-pwa-v4";
+const CACHE_NAME = "studymats-pwa-v5";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -52,6 +52,29 @@ self.addEventListener("fetch", (event) => {
         .catch(async () => {
           const cached = await caches.match(request);
           return cached || caches.match("./index.html");
+        })
+    );
+    return;
+  }
+
+  // JSON and JavaScript are data-bearing application assets. Always try the
+  // deployed version first; cache-first can leave stale subjects.json in place
+  // and make every year level appear empty after a deployment.
+  const isDataAsset = /\.(?:json|js)$/i.test(url.pathname);
+  if (isDataAsset) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok && response.type === "basic") {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        })
+        .catch(async () => {
+          const cached = await caches.match(request);
+          if (cached) return cached;
+          throw new Error("Network unavailable and no cached copy exists for " + url.pathname);
         })
     );
     return;

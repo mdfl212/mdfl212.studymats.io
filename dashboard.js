@@ -21,9 +21,20 @@ function progressForSubject(subjectId){
  });
  return merged;
 }
-const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
-const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
+// Resolve app data from the page directory, not the script URL (which may carry a cache-busting query or be served from a different asset path).
+const DASHBOARD_BASE_URL=new URL('./',window.location.href);
+const dashboardAssetUrl=path=>new URL(path,DASHBOARD_BASE_URL).href;
 let subjects=[], dataBySubject=new Map(), range=180, selectedYear='YL1';
+// Normalize metadata from older subject indexes (e.g. "Year 1", "1", or "YL1")
+// so a harmless label variation cannot make every year-level filter return zero subjects.
+function normalizeYearLevel(value){
+ const raw=String(value==null?'':value).trim().toLowerCase().replace(/[._-]+/g,' ').replace(/\s+/g,' ');
+ if(!raw||raw==='yl1'||raw==='1'||raw==='year 1'||raw==='year one'||raw==='first year'||raw==='1st year')return 'YL1';
+ if(raw==='yl2'||raw==='2'||raw==='year 2'||raw==='year two'||raw==='second year'||raw==='2nd year')return 'YL2';
+ if(raw==='yl3'||raw==='3'||raw==='year 3'||raw==='year three'||raw==='third year'||raw==='3rd year')return 'YL3';
+ if(raw==='yl4'||raw==='4'||raw==='year 4'||raw==='year four'||raw==='fourth year'||raw==='4th year')return 'YL4';
+ return String(value).trim().toUpperCase();
+}
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
@@ -45,11 +56,12 @@ function buildHeatmap(){
 async function load(){
  const sourceUrl=dashboardAssetUrl('subjects.json');
  try{
-  const r=await fetch(sourceUrl,{cache:'no-cache'});
+  const r=await fetch(sourceUrl,{cache:'no-store',credentials:'same-origin'});
   if(!r.ok)throw Error('subjects.json returned HTTP '+r.status);
   const parsed=await r.json();
-  if(!Array.isArray(parsed))throw Error('subjects.json is not a subject list');
-  subjects=parsed;
+  if(!Array.isArray(parsed)||!parsed.length)throw Error('subjects.json is empty or is not a subject list');
+  if(!parsed.some(s=>s&&s.id&&s.data))throw Error('subjects.json has no usable subject entries');
+  subjects=parsed.map(s=>({...s,yearLevel:normalizeYearLevel(s.yearLevel)}));
  }catch(error){
   console.error('StudyMats subject index failed to load:',error);
   subjects=[];
@@ -58,17 +70,21 @@ async function load(){
   const message=$('dashDataMessage');if(message){message.textContent='Dashboard is visible, but the subject index could not be loaded. Check that subjects.json is deployed beside dashboard.js.';message.classList.add('is-error')}
   return;
  }
+ const failedSubjectData=[];
  const loaded=await Promise.all(subjects.map(async s=>{
-  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
-  catch(error){console.warn('StudyMats subject data failed:',s.id,error);return [s.id,[]]}
+  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-store',credentials:'same-origin'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
+  catch(error){console.warn('StudyMats subject data failed:',s.id,s.data,error);failedSubjectData.push(s.name+' ('+s.data+')');return [s.id,[]]}
  }));
  dataBySubject=new Map(loaded);
  render();
+ const message=$('dashDataMessage');
+ if(message&&failedSubjectData.length){message.textContent='Some question-bank files could not be loaded: '+failedSubjectData.slice(0,4).join(', ')+(failedSubjectData.length>4?' and '+(failedSubjectData.length-4)+' more':'')+'. Check the deployed data/ paths; saved progress has not been changed.';message.classList.add('is-error')}
+ else if(message){message.textContent='';message.classList.remove('is-error')}
 }
 function render(){
  if(!$('studyDashboard'))return;
  const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';const profileName=(p&&typeof p.name==='string'?p.name.trim():'');const profileInitial=Array.from(profileName)[0]?.toLocaleUpperCase()||'S';const profileBadge=$('dashProfileButtonTop')?.querySelector('span');const profileLabel=$('dashProfileButtonTop')?.querySelector('b');if(profileBadge)profileBadge.textContent=profileInitial;if(profileLabel)profileLabel.textContent=profileName||'Your profile';
- const saved=new Map(subjects.map(s=>[s.id,progressForSubject(s.id)]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
+ const saved=new Map(subjects.map(s=>[s.id,progressForSubject(s.id)]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>normalizeYearLevel(s.yearLevel)===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
  const cards=visibleSubjects.map(s=>{
   const qs=Array.isArray(dataBySubject.get(s.id))?dataBySubject.get(s.id):[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{};
