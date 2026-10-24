@@ -10236,3 +10236,30 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-activity-h
   align-self: center !important;
   justify-content: flex-end;
 }
+
+/* Make expanded Subject Progress content seamless and compact: no individual card outlines. */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-list {
+  gap: 0;
+  padding: 0 10px 8px;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-card,
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-card-compact {
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-card {
+  padding: 7px 4px;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-card + .dash-subject-card {
+  border-top: 1px solid color-mix(in srgb, var(--hub-border) 55%, transparent) !important;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-card:hover {
+  border-color: color-mix(in srgb, var(--hub-border) 55%, transparent) !important;
+}
+@media (max-width: 680px) {
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-list {
+    padding: 0 7px 7px;
+  }
+}
