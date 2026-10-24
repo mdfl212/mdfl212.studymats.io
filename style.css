@@ -12365,3 +12365,90 @@ body[data-course="quiz"] .table-scroll {
     display: none !important;
   }
 }
+
+
+/* Desktop layout fix on main: align content directly beside the sidebar and
+   reduce oversized dashboard scale without affecting mobile or the feature branch. */
+@media (min-width: 1101px) {
+  body[data-course="hub"] {
+    padding-left: calc(var(--sidebar-expanded, 204px) + 16px) !important;
+    padding-right: 16px !important;
+    padding-bottom: 28px !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed {
+    padding-left: calc(var(--sidebar-collapsed, 72px) + 16px) !important;
+  }
+
+  body[data-course="hub"] .wrapper {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body[data-course="hub"] .app-topbar {
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    gap: 12px !important;
+  }
+
+  body[data-course="hub"] .topbar-brand img {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  body[data-course="hub"] .topbar-brand strong {
+    font-size: 19px !important;
+  }
+
+  body[data-course="hub"] .topbar-brand small {
+    font-size: 9px !important;
+  }
+
+  body[data-course="hub"] .hub-year-dropdown > summary {
+    padding: 10px 13px !important;
+  }
+
+  body[data-course="hub"] .hub-year-row {
+    gap: 7px !important;
+    padding: 7px !important;
+  }
+
+  body[data-course="hub"] .hub-year-row .hub-pill {
+    padding: 8px 12px !important;
+    font-size: 11px !important;
+  }
+
+  body[data-course="hub"] .study-dashboard {
+    gap: 12px !important;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr) !important;
+  }
+
+  body[data-course="hub"] .study-dashboard > .dash-stats {
+    gap: 10px !important;
+  }
+
+  body[data-course="hub"] .dash-stat {
+    padding: 12px !important;
+  }
+
+  body[data-course="hub"] .dash-panel {
+    padding: 16px !important;
+  }
+
+  body[data-course="hub"] .dash-panel h2 {
+    font-size: 20px !important;
+  }
+
+  body[data-course="hub"] .dash-welcome h2 {
+    font-size: 25px !important;
+  }
+
+  body[data-course="hub"] .dash-heatmap-container,
+  body[data-course="hub"] .dash-heatmap-scroll {
+    max-width: 100% !important;
+  }
+}
