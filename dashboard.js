@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  changelog?.addEventListener('click',e=>{if(e.target===changelog)closeChangelog()});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&changelog&&!changelog.hidden)closeChangelog()});
  document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||180;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
- document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render()}));
+ document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render();const bankBrowser=document.querySelector('.hub-year-dropdown');if(bankBrowser)bankBrowser.open=true;}));
  document.querySelectorAll('.hub-year-dropdown summary').forEach(summary=>summary.setAttribute('aria-label','Open or close test banks'));
  if(!profile())openProfile();render();load().catch(e=>{console.error('StudyMats dashboard load failed:',e);const message=$('dashDataMessage');if(message){message.textContent='Some dashboard data could not load. Your saved quiz data is untouched.';message.classList.add('is-error')}render()});
  window.addEventListener('storage',e=>{if(e.key&& (e.key.startsWith(PREFIX)||[ACTIVITY,PROFILE].includes(e.key)))render()});
