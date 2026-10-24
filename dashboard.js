@@ -21,8 +21,9 @@ function progressForSubject(subjectId){
  });
  return merged;
 }
-const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
-const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
+// Resolve app data from the page directory, not the script URL (which may carry a cache-busting query or be served from a different asset path).
+const DASHBOARD_BASE_URL=new URL('./',window.location.href);
+const dashboardAssetUrl=path=>new URL(path,DASHBOARD_BASE_URL).href;
 let subjects=[], dataBySubject=new Map(), range=180, selectedYear='YL1';
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
@@ -45,10 +46,11 @@ function buildHeatmap(){
 async function load(){
  const sourceUrl=dashboardAssetUrl('subjects.json');
  try{
-  const r=await fetch(sourceUrl,{cache:'no-cache'});
+  const r=await fetch(sourceUrl,{cache:'no-store',credentials:'same-origin'});
   if(!r.ok)throw Error('subjects.json returned HTTP '+r.status);
   const parsed=await r.json();
-  if(!Array.isArray(parsed))throw Error('subjects.json is not a subject list');
+  if(!Array.isArray(parsed)||!parsed.length)throw Error('subjects.json is empty or is not a subject list');
+  if(!parsed.some(s=>s&&s.id&&s.data))throw Error('subjects.json has no usable subject entries');
   subjects=parsed;
  }catch(error){
   console.error('StudyMats subject index failed to load:',error);
@@ -58,12 +60,16 @@ async function load(){
   const message=$('dashDataMessage');if(message){message.textContent='Dashboard is visible, but the subject index could not be loaded. Check that subjects.json is deployed beside dashboard.js.';message.classList.add('is-error')}
   return;
  }
+ const failedSubjectData=[];
  const loaded=await Promise.all(subjects.map(async s=>{
-  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
-  catch(error){console.warn('StudyMats subject data failed:',s.id,error);return [s.id,[]]}
+  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-store',credentials:'same-origin'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
+  catch(error){console.warn('StudyMats subject data failed:',s.id,s.data,error);failedSubjectData.push(s.name+' ('+s.data+')');return [s.id,[]]}
  }));
  dataBySubject=new Map(loaded);
  render();
+ const message=$('dashDataMessage');
+ if(message&&failedSubjectData.length){message.textContent='Some question-bank files could not be loaded: '+failedSubjectData.slice(0,4).join(', ')+(failedSubjectData.length>4?' and '+(failedSubjectData.length-4)+' more':'')+'. Check the deployed data/ paths; saved progress has not been changed.';message.classList.add('is-error')}
+ else if(message){message.textContent='';message.classList.remove('is-error')}
 }
 function render(){
  if(!$('studyDashboard'))return;
