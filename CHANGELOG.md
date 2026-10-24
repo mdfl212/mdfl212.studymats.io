@@ -4,6 +4,11 @@ Notable user-facing changes to StudyMats. Dates reflect repository updates; entr
 
 ## 2026-10-24
 
+### Test-bank selection (in progress)
+- Added a subject-level bank picker for current JSON banks, legacy HTML reviewers, and user-imported JSON banks.
+- Added browser-local import storage with subject-only or shared-subject assignment; imports do not modify repository files or overwrite original banks.
+- Quiz launches can use selected imported banks and keep progress separate by bank selection.
+
 ### Dashboard and navigation
 - Removed the extra “Keep Your Momentum” kicker to reduce excess space above Daily Study Rhythm.
 - Added a compact, dismissible “What’s changed” dashboard notice. Dismissal is remembered on the current browser/device.
