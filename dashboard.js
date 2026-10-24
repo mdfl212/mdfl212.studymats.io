@@ -11,7 +11,7 @@ const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{re
 const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
 const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
 const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
-let subjects=[], dataBySubject=new Map(), range=180, selectedYear='YL1';
+let subjects=[], dataBySubject=new Map(), failedSubjects=new Map(), range=180, selectedYear='YL1';
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
@@ -42,43 +42,64 @@ async function load(){
   console.error('StudyMats subject index failed to load:',error);
   subjects=[];
   dataBySubject=new Map();
+  failedSubjects=new Map();
   render();
   const message=$('dashDataMessage');if(message){message.textContent='Dashboard is visible, but the subject index could not be loaded. Check that subjects.json is deployed beside dashboard.js.';message.classList.add('is-error')}
   return;
  }
  const loaded=await Promise.all(subjects.map(async s=>{
-  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
-  catch(error){console.warn('StudyMats subject data failed:',s.id,error);return [s.id,[]]}
+  try{
+   const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-cache'});
+   if(!r.ok)throw Error('HTTP '+r.status);
+   const json=await r.json();
+   if(!Array.isArray(json))throw Error('Question bank is not a JSON array');
+   return {id:s.id,questions:json,error:null};
+  }catch(error){
+   console.warn('StudyMats subject data failed:',s.id,error);
+   return {id:s.id,questions:null,error:error.message||'Could not load question bank'};
+  }
  }));
- dataBySubject=new Map(loaded);
+ dataBySubject=new Map(loaded.filter(x=>!x.error).map(x=>[x.id,x.questions]));
+ failedSubjects=new Map(loaded.filter(x=>x.error).map(x=>[x.id,x.error]));
  render();
 }
 function render(){
  if(!$('studyDashboard'))return;
  const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';const profileName=(p&&typeof p.name==='string'?p.name.trim():'');const profileInitial=Array.from(profileName)[0]?.toLocaleUpperCase()||'S';const profileBadge=$('dashProfileButtonTop')?.querySelector('span');const profileLabel=$('dashProfileButtonTop')?.querySelector('b');if(profileBadge)profileBadge.textContent=profileInitial;if(profileLabel)profileLabel.textContent=profileName||'Your profile';
- const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
+ const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);const loadedVisibleSubjects=visibleSubjects.filter(s=>!failedSubjects.has(s.id));let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
  const cards=visibleSubjects.map(s=>{
+  if(failedSubjects.has(s.id)){
+   const problem=failedSubjects.get(s.id);
+   glanceRows.push('<article class="dash-subject-card dash-subject-unavailable"><div class="dash-subject-heading"><span class="dash-subject-icon">⚠️</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>Progress temporarily unavailable</p></div><span class="dash-subject-pct">—</span></div><p class="dash-subject-error">Question bank could not be loaded ('+esc(problem)+'). Saved progress has not been changed. Reload after the bank is available.</p></article>');
+   return '';
+  }
   const qs=Array.isArray(dataBySubject.get(s.id))?dataBySubject.get(s.id):[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
-  const ansIds=Object.keys(ans).filter(id=>ids.has(String(id))),revIds=Object.keys(rev).filter(id=>ids.has(String(id)));
+  const ansKeys=Object.keys(ans),revKeys=Object.keys(rev);
+  const ansIds=ansKeys.filter(id=>ids.has(String(id))),revIds=revKeys.filter(id=>ids.has(String(id)));
   const completedIds=new Set([...ansIds,...revIds]);
+  const unmatchedSaved=ansKeys.filter(id=>!ids.has(String(id))).length+revKeys.filter(id=>!ids.has(String(id))).length;
   total+=qs.length;answeredN+=ansIds.length;revealedN+=revIds.length;
   qs.forEach(q=>{const tags=[...new Set([q.topic,...(Array.isArray(q.tags)?q.tags:[])].filter(Boolean))];tags.forEach(t=>{allTopics.add(s.id+'::'+t);if(completedIds.has(String(q.id)))doneTopics.add(s.id+'::'+t)});if(ans[q.id]!==undefined&&Number.isInteger(q.correctAnswer)){scored++;if(ans[q.id]===q.correctAnswer)correct++}});
   const completedN=completedIds.size,pct=qs.length?Math.round(completedN/qs.length*100):0,has=completedN>0,when=Number(v.savedAt)?'Saved '+new Date(Number(v.savedAt)).toLocaleDateString(undefined,{month:'short',day:'numeric'}):'No saved session yet';
+  const reconciliationNote=unmatchedSaved?'<p class="dash-subject-error">'+unmatchedSaved+' saved answer/reveal key(s) do not match the current question IDs. They remain saved; they are not counted as completed until the question bank IDs are reconciled.</p>':'';
   glanceRows.push('<div class="dash-glance-row"><span class="dash-glance-emoji" aria-hidden="true">'+esc(s.icon||'📚')+'</span><span class="dash-glance-name">'+esc(s.name)+'</span><div class="dash-glance-track" role="progressbar" aria-label="'+esc(s.name)+' progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+pct+'"><span style="width:'+pct+'%"></span></div><span class="dash-glance-pct">'+pct+'%</span><span class="dash-glance-count">'+completedN+' / '+qs.length+'</span><a class="dash-glance-link" href="quiz.html?subject='+encodeURIComponent(s.id)+'" aria-label="Open '+esc(s.name)+'">›</a></div>');
-  return '<article class="dash-subject-card"><div class="dash-subject-heading"><span class="dash-subject-icon">'+esc(s.icon||'📚')+'</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>'+completedN+' of '+qs.length+' reviewed</p></div><span class="dash-subject-pct">'+pct+'%</span></div><div class="dash-progress-track"><span style="width:'+pct+'%"></span></div><div class="dash-subject-footer"><span>'+when+'</span><a href="quiz.html?subject='+encodeURIComponent(s.id)+'" class="dash-continue">'+(has?'Continue':'Start')+' <span aria-hidden="true">↗</span></a></div></article>';
+  return '<article class="dash-subject-card"><div class="dash-subject-heading"><span class="dash-subject-icon">'+esc(s.icon||'📚')+'</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>'+completedN+' of '+qs.length+' reviewed</p></div><span class="dash-subject-pct">'+pct+'%</span></div><div class="dash-progress-track"><span style="width:'+pct+'%"></span></div><div class="dash-subject-footer"><span>'+when+'</span><a href="quiz.html?subject='+encodeURIComponent(s.id)+'" class="dash-continue">'+(has?'Continue':'Start')+' <span aria-hidden="true">↗</span></a></div>'+reconciliationNote+'</article>';
  }).join('');
  const coverage=allTopics.size?Math.round(doneTopics.size/allTopics.size*100):0,answeredPct=total?Math.round(answeredN/total*100):0;
- const startedSubjects=visibleSubjects.filter(s=>{const v=saved.get(s.id)||{};return Object.keys(v.answers||{}).length||Object.keys(v.revealed||{}).length}).length;
+ const startedSubjects=loadedVisibleSubjects.filter(s=>{const qs=dataBySubject.get(s.id)||[],ids=new Set(qs.map(q=>String(q.id))),v=saved.get(s.id)||{};return [...Object.keys(v.answers||{}),...Object.keys(v.revealed||{})].some(id=>ids.has(String(id)))}).length;
  const accuracy=scored?Math.round(correct/scored*100):0;
  const stat=(label,value,note,pct,color)=>'<article class="dash-stat"><div class="dash-stat-copy"><span class="dash-stat-label">'+label+'</span><strong>'+value+'</strong><span class="dash-stat-note">'+note+'</span></div><div class="dash-stat-ring">'+ring(pct,color,label)+'</div></article>';
- $('dashStats').innerHTML=stat('Questions Answered',answeredN.toLocaleString(),'of '+total.toLocaleString()+' total',answeredPct,'#8b5cf6')+stat('Topics with Activity',doneTopics.size.toLocaleString(),'of '+allTopics.size.toLocaleString()+' total',coverage,'#10b981')+stat('Subjects Started',startedSubjects.toLocaleString(),'of '+visibleSubjects.length.toLocaleString()+' total',visibleSubjects.length?Math.round(startedSubjects/visibleSubjects.length*100):0,'#369cf5')+stat('Avg. Accuracy',scored?accuracy+'%':'—','across answered questions',accuracy,'#f5c15d');
+ $('dashStats').innerHTML=stat('Questions Answered',answeredN.toLocaleString(),'of '+total.toLocaleString()+' total',answeredPct,'#8b5cf6')+stat('Topics with Activity',doneTopics.size.toLocaleString(),'of '+allTopics.size.toLocaleString()+' total',coverage,'#10b981')+stat('Subjects Started',startedSubjects.toLocaleString(),'of '+loadedVisibleSubjects.length.toLocaleString()+' available',loadedVisibleSubjects.length?Math.round(startedSubjects/loadedVisibleSubjects.length*100):0,'#369cf5')+stat('Avg. Accuracy',scored?accuracy+'%':'—','across answered questions',accuracy,'#f5c15d');
  const glanceYearLabel=selectedYear==='resources'?'Additional Resources':selectedYear;
  const hasAnyProgress=visibleSubjects.some(s=>{const v=saved.get(s.id)||{};return Object.keys(v.answers||{}).length>0||Object.keys(v.revealed||{}).length>0;});
  if(!glanceRows.length){$('dashDonuts').innerHTML='<div class="dash-donuts-empty"><span class="dash-donuts-empty-icon" aria-hidden="true">📖</span><p class="dash-donuts-empty-title">No subjects yet for '+esc(glanceYearLabel)+'</p><p class="dash-donuts-empty-sub">Choose a year level above and answer some questions to see your progress here.</p><a class="dash-button dash-button-primary dash-donuts-empty-cta" href="quiz.html" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:6px">Start a quiz →</a></div>';}else if(!hasAnyProgress){$('dashDonuts').innerHTML='<div class="dash-donuts-empty"><span class="dash-donuts-empty-icon" aria-hidden="true">📖</span><p class="dash-donuts-empty-title">No progress yet for '+esc(glanceYearLabel)+'</p><p class="dash-donuts-empty-sub">Answer questions in the quiz to see your subject progress here.</p><a class="dash-button dash-button-primary dash-donuts-empty-cta" href="quiz.html" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:6px">Start a quiz →</a></div>';}else{$('dashDonuts').innerHTML=glanceRows.join('');}
  const glanceTitle=document.querySelector('[data-glance-year]');if(glanceTitle)glanceTitle.textContent=selectedYear==='resources'?'Additional Resources':selectedYear+' subject progress';
  document.querySelectorAll('.hub-pill[data-year]').forEach(b=>{const active=b.dataset.year===selectedYear;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
  $('dashSubjectList').innerHTML=glanceRows.join('')||'<p class="dash-empty">No subjects found for '+esc(selectedYear==='resources'?'Additional Resources':selectedYear)+'.</p>';
+ const loadMessage=$('dashDataMessage');
+ if(loadMessage&&failedSubjects.size){loadMessage.textContent='Some question banks could not be loaded: '+[...failedSubjects.keys()].join(', ')+'. Their progress is shown as unavailable rather than zero. Your saved data is untouched.';loadMessage.classList.add('is-error')}
+ else if(loadMessage&&loadMessage.classList.contains('is-error')&&loadMessage.textContent.includes('question banks could not be loaded')){loadMessage.textContent='';loadMessage.classList.remove('is-error')}
  const subjectCount=document.querySelector('.dash-subject-count');if(subjectCount)subjectCount.textContent=selectedYear==='resources'?'Additional resources':selectedYear+' subjects';
  const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>total questions</span></div>';
  $('dashActivityCaption').textContent='Showing '+(range===30?'the last 30 days':range===180?'the last 6 months':'the last 12 months')+'. Daily history begins when tracking is enabled; older activity is not guessed.';
