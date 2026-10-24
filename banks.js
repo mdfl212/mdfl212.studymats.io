@@ -4,7 +4,7 @@ const $=id=>document.getElementById(id);
 const STORE='studymats-user-banks-v1';
 const params=new URLSearchParams(location.search);
 const subjectId=params.get('subject')||'Anatomy';
-let subjects=[],subject=null,selected=new Set(),catalog=[];
+let subjects=[],subject=null,selected=new Set(),catalog=[],baseCount=0;
 const esc=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const readSaved=()=>{try{const x=JSON.parse(localStorage.getItem(STORE)||'[]');return Array.isArray(x)?x:[]}catch{return []}};
 const writeSaved=x=>localStorage.setItem(STORE,JSON.stringify(x));
@@ -14,10 +14,10 @@ const legacyBySubject={
  Histology:[{name:'Histology · 200-item quiz',path:'subjects/yl1/histology/Histo.html',count:200}],
  Physiology:[{name:'Physiology PLE Reviewer · 300 items',path:'subjects/yl1/physiology/Physio.html',count:300}]
 };
-function questionsFor(bank){return Array.isArray(bank.questions)?bank.questions.filter(q=>{const n=String(q.subject||'').toLowerCase();return (bank.subjectIds||[]).includes(subject.id)||n===subject.id.toLowerCase()||n===subject.name.toLowerCase()}):[]}
+function questionsFor(bank){return Array.isArray(bank.questions)?bank.questions.filter(q=>{const n=String(q.subject||'').toLowerCase();return bank.scope==='shared'?(n===subject.id.toLowerCase()||n===subject.name.toLowerCase()):(bank.subjectIds||[]).includes(subject.id)}):[]}
 function render(){
  const saved=readSaved();
- catalog=[{id:'base:'+subject.id,name:subject.name+' · Current StudyMats bank',type:'base',count:0,description:'Existing JSON bank · '+subject.data},...saved.filter(b=>questionsFor(b).length).map(b=>({id:b.id,name:b.name,type:'imported',count:questionsFor(b).length,description:(b.scope==='shared'?'Shared bank':'Imported bank')+' · saved on this device'}))];
+ catalog=[{id:'base:'+subject.id,name:subject.name+' · Current StudyMats bank',type:'base',count:baseCount,description:'Existing JSON bank · '+subject.data},...saved.filter(b=>questionsFor(b).length).map(b=>({id:b.id,name:b.name,type:'imported',count:questionsFor(b).length,description:(b.scope==='shared'?'Shared bank':'Imported bank')+' · saved on this device'}))];
  const list=$('bankList');
  list.innerHTML=catalog.map((b,i)=>'<label class="bank-row"><input type="checkbox" data-bank="'+esc(b.id)+'" '+(selected.has(b.id)?'checked':'')+'><span class="bank-row-main"><span class="bank-row-title">'+esc(b.name)+'</span><span class="bank-row-meta">'+esc(b.description||'')+'</span></span><span class="bank-pill">'+(b.type==='base'?'Built-in':b.count+' Q')+'</span></label>').join('');
  list.querySelectorAll('[data-bank]').forEach(el=>el.addEventListener('change',()=>{if(el.checked)selected.add(el.dataset.bank);else selected.delete(el.dataset.bank);updateSummary()}));
@@ -26,10 +26,10 @@ function render(){
  updateSummary();
 }
 function updateSummary(){
- const saved=readSaved();let count=0,parts=[];
+ const saved=readSaved();let count=0,parts=[]; if(selected.has('base:'+subject.id))count+=baseCount;
  for(const id of selected){if(id==='base:'+subject.id){parts.push('Current bank');}else{const b=saved.find(x=>x.id===id);if(b){count+=questionsFor(b).length;parts.push(b.name)}}}
  if(selected.has('base:'+subject.id)){const n=catalog.find(x=>x.id==='base:'+subject.id);parts.unshift(n?.name||'Current bank');}
- $('selectionCount').textContent=(count+(selected.has('base:'+subject.id)?' + built-in bank':'')+'').replace('0 + built-in bank','Built-in bank selected');
+ $('selectionCount').textContent=count.toLocaleString()+' questions selected';
  $('selectionDetail').textContent=selected.size?parts.join(' · '):'Choose one or more compatible banks.';
  const st=$('bankStatus');st.textContent=selected.size+' compatible bank(s) selected. Legacy HTML reviewers open separately.';st.className='bank-status';
 }
@@ -71,6 +71,7 @@ async function init(){
  try{
   const r=await fetch('subjects.json');if(!r.ok)throw Error('Could not load subjects.json. Open StudyMats through GitHub Pages.');
   subjects=await r.json();subject=subjects.find(s=>s.id===subjectId)||subjects[0];
+  try{const qr=await fetch(subject.data);const qs=await qr.json();baseCount=Array.isArray(qs)?qs.length:0}catch{}
   $('subjectTitle').textContent=subject.name+' test banks';$('subjectDescription').textContent=subject.description||'Choose which sources to include in your quiz.';
   renderAssignments();selected.add('base:'+subject.id);render();
   $('selectAll').onclick=()=>{catalog.forEach(b=>selected.add(b.id));render()};
@@ -84,7 +85,7 @@ async function init(){
    if(!imported.length){location.href='quiz.html?subject='+encodeURIComponent(subject.id);return}
    const banks=chosen.filter(id=>id!==baseId).join(',');
    const includeBase=chosen.includes(baseId);
-   const query='subject='+encodeURIComponent(subject.id)+'&banks='+(includeBase?'base-'+encodeURIComponent(subject.id)+',':'')+encodeURIComponent(banks);
+   const query='subject='+encodeURIComponent(subject.id)+'&banks='+(includeBase?'base-'+encodeURIComponent(subject.id)+(banks?',':''):'')+encodeURIComponent(banks);
    location.href='quiz.html?'+query;
   };
  }catch(e){$('bankList').innerHTML='<div class="bank-empty">'+esc(e.message)+'</div>'}
