@@ -12642,3 +12642,64 @@ body[data-course="quiz"] .table-scroll {
     display: none !important;
   }
 }
+
+
+/* Final desktop header alignment: keep the brand at the very top of the
+   sidebar and dock the menu just inside the content edge (not floating away). */
+@media (min-width: 1101px) {
+  body[data-course="hub"] .desktop-sidebar {
+    padding-top: 0 !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-top {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    height: 58px !important;
+    min-height: 58px !important;
+    margin: 0 0 8px !important;
+    padding: 8px 12px !important;
+    box-sizing: border-box !important;
+  }
+
+  body[data-course="hub"] .sidebar-brand-lockup {
+    height: 100% !important;
+    gap: 9px !important;
+  }
+
+  body[data-course="hub"] .sidebar-brand-lockup img {
+    width: 30px !important;
+    height: 30px !important;
+    flex-basis: 30px !important;
+  }
+
+  body[data-course="hub"] .sidebar-brand-copy strong {
+    font-size: 18px !important;
+  }
+
+  body[data-course="hub"] .sidebar-brand-copy small {
+    font-size: 7px !important;
+  }
+
+  body[data-course="hub"] .topbar-sidebar-menu {
+    position: absolute !important;
+    top: 8px !important;
+    left: calc(var(--sidebar-expanded, 176px) + 8px) !important;
+    z-index: 1500 !important;
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .topbar-sidebar-menu {
+    left: 8px !important;
+  }
+
+  body[data-course="hub"] .app-topbar {
+    min-height: 50px !important;
+    height: 50px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+  }
+}
