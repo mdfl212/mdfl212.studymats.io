@@ -8364,7 +8364,7 @@ html[data-course="quiz"] .quiz-timer-compact[data-state="expired"] {
 body[data-course="hub"] #studyDashboard {
   display:grid;
   grid-template-columns:minmax(0,1fr) minmax(0,1fr);
-  grid-template-areas:"welcome welcome" "stats stats" "progress activity" "tools activity";
+  grid-template-areas:"welcome welcome" "stats stats" "progress activity" "tools tools";
   align-items:stretch;
   gap:14px;
 }
