@@ -10168,3 +10168,32 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     display: block;
   }
 }
+
+/* Keep the Subject Progress title anchored to the left, not visually centered. */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown > summary.dash-subject-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown > summary.dash-subject-summary > div:first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0 auto 0 0;
+  text-align: left;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-subject-year-heading {
+  margin: 5px 0 0;
+  text-align: left;
+  font-size: 19px;
+  line-height: 1.25;
+  font-weight: 650;
+  letter-spacing: normal;
+  color: var(--hub-text);
+}
+@media (max-width: 680px) {
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-subject-year-heading {
+    font-size: 16px;
+  }
+}
+
