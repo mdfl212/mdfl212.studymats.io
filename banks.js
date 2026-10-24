@@ -17,7 +17,13 @@ const legacyBySubject={
 function questionsFor(bank){return Array.isArray(bank.questions)?bank.questions.filter(q=>{const n=String(q.subject||'').toLowerCase();return bank.scope==='shared'?(n===subject.id.toLowerCase()||n===subject.name.toLowerCase()):(bank.subjectIds||[]).includes(subject.id)}):[]}
 function render(){
  const saved=readSaved();
- catalog=[{id:'base:'+subject.id,name:subject.name+' · Current StudyMats bank',type:'base',count:baseCount,description:'Existing JSON bank · '+subject.data},...saved.filter(b=>questionsFor(b).length).map(b=>({id:b.id,name:b.name,type:'imported',count:questionsFor(b).length,description:(b.scope==='shared'?'Shared bank':'Imported bank')+' · saved on this device'}))];
+ const splitSources=!['Biochemistry','Histology'].includes(subject.id);
+ const sourceBanks=splitSources?[
+  {id:'ple2023',name:'PLE Test Bank · 2023',type:'range',count:Math.min(baseCount,100),description:'Questions 1–100 from the current subject bank'},
+  {id:'ple2019',name:'PLE Test Bank · 2019',type:'range',count:Math.max(0,Math.min(baseCount-100,100)),description:'Questions 101–200 from the current subject bank'},
+  ...(baseCount>200?[{id:'remaining',name:'Additional questions · 201+',type:'range',count:baseCount-200,description:'Remaining items; source not assigned to the two PLE sets'}]:[])
+ ].filter(b=>b.count>0):[{id:'base:'+subject.id,name:subject.name+' · Current StudyMats bank',type:'base',count:baseCount,description:'Existing subject bank · '+subject.data}];
+ catalog=[...sourceBanks,...saved.filter(b=>questionsFor(b).length).map(b=>({id:b.id,name:b.name,type:'imported',count:questionsFor(b).length,description:(b.scope==='shared'?'Shared bank':'Imported bank')+' · saved on this device'}))];
  const list=$('bankList');
  list.innerHTML=catalog.map((b,i)=>'<label class="bank-row"><input type="checkbox" data-bank="'+esc(b.id)+'" '+(selected.has(b.id)?'checked':'')+'><span class="bank-row-main"><span class="bank-row-title">'+esc(b.name)+'</span><span class="bank-row-meta">'+esc(b.description||'')+'</span></span><span class="bank-pill">'+(b.type==='base'?'Built-in':b.count+' Q')+'</span></label>').join('');
  list.querySelectorAll('[data-bank]').forEach(el=>el.addEventListener('change',()=>{if(el.checked)selected.add(el.dataset.bank);else selected.delete(el.dataset.bank);updateSummary()}));
@@ -54,7 +60,7 @@ async function importBank(){
   const map=new Map(subjects.map(s=>[s.id,s]));
   const questions=parsed.map((q,i)=>{
     const rawSubject=String(q.subject||'').toLowerCase();
-    let matched=subjects.find(s=>s.id.toLowerCase()===rawSubject||s.name.toLowerCase()===rawSubject);
+    let matched=shared?subjects.find(s=>s.id.toLowerCase()===rawSubject||s.name.toLowerCase()===rawSubject):map.get(subject.id);
     if(!matched&&subjectIds.length===1)matched=map.get(subjectIds[0]);
     if(!matched&&shared)matched=map.get(subjectIds[0]);
     const normalized={...q,id:String(q.id||'IMPORTED-'+String(i+1).padStart(4,'0')),subject:matched?.id||subjectIds[0],topic:String(q.topic||'General'),question:String(q.question||q.stem),options:q.options.map(String),correctAnswer:Number(q.correctAnswer),rationale:typeof q.rationale==='string'?{text:q.rationale,images:[]}:q.rationale||{text:'',images:[]},tags:Array.isArray(q.tags)?q.tags:[]};
@@ -73,7 +79,7 @@ async function init(){
   subjects=await r.json();subject=subjects.find(s=>s.id===subjectId)||subjects[0];
   try{const qr=await fetch(subject.data);const qs=await qr.json();baseCount=Array.isArray(qs)?qs.length:0}catch{}
   $('subjectTitle').textContent=subject.name+' test banks';$('subjectDescription').textContent=subject.description||'Choose which sources to include in your quiz.';
-  renderAssignments();selected.add('base:'+subject.id);render();
+  renderAssignments();if(['Biochemistry','Histology'].includes(subject.id))selected.add('base:'+subject.id);else{if(baseCount)selected.add('ple2023');if(baseCount>100)selected.add('ple2019')}render();
   $('selectAll').onclick=()=>{catalog.forEach(b=>selected.add(b.id));render()};
   $('clearAll').onclick=()=>{selected.clear();render()};
   $('importBank').onclick=importBank;
@@ -81,12 +87,9 @@ async function init(){
    const chosen=[...selected];
    if(!chosen.length){$('bankStatus').textContent='Select at least one compatible bank first.';return}
    const baseId='base:'+subject.id;
-   const imported=chosen.filter(id=>id!==baseId);
-   if(!imported.length){location.href='quiz.html?subject='+encodeURIComponent(subject.id);return}
-   const banks=chosen.filter(id=>id!==baseId).join(',');
-   const includeBase=chosen.includes(baseId);
-   const query='subject='+encodeURIComponent(subject.id)+'&banks='+(includeBase?'base-'+encodeURIComponent(subject.id)+(banks?',':''):'')+encodeURIComponent(banks);
-   location.href='quiz.html?'+query;
+   if(chosen.length===1&&chosen[0]===baseId){location.href='quiz.html?subject='+encodeURIComponent(subject.id);return}
+   const bankIds=chosen.map(id=>id===baseId?'base-'+subject.id:id);
+   location.href='quiz.html?subject='+encodeURIComponent(subject.id)+'&banks='+encodeURIComponent(bankIds.join(','));
   };
  }catch(e){$('bankList').innerHTML='<div class="bank-empty">'+esc(e.message)+'</div>'}
 }
