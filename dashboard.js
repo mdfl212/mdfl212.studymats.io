@@ -71,8 +71,9 @@ function render(){
  const cards=visibleSubjects.map(s=>{
   if(failedSubjects.has(s.id)){
    const problem=failedSubjects.get(s.id);
-   glanceRows.push('<article class="dash-subject-card dash-subject-unavailable"><div class="dash-subject-heading"><span class="dash-subject-icon">⚠️</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>Progress temporarily unavailable</p></div><span class="dash-subject-pct">—</span></div><p class="dash-subject-error">Question bank could not be loaded ('+esc(problem)+'). Saved progress has not been changed. Reload after the bank is available.</p></article>');
-   return '';
+   const unavailable='<article class="dash-subject-card dash-subject-unavailable"><div class="dash-subject-heading"><span class="dash-subject-icon">⚠️</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>Progress temporarily unavailable</p></div><span class="dash-subject-pct">—</span></div><p class="dash-subject-error">Question bank could not be loaded ('+esc(problem)+'). Saved progress has not been changed. Reload after the bank is available.</p><a href="quiz.html?subject='+encodeURIComponent(s.id)+'" class="dash-continue">Open subject ↗</a></article>';
+   glanceRows.push(unavailable);
+   return unavailable;
   }
   const qs=Array.isArray(dataBySubject.get(s.id))?dataBySubject.get(s.id):[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
   const ansKeys=Object.keys(ans),revKeys=Object.keys(rev);
@@ -96,7 +97,7 @@ function render(){
  if(!glanceRows.length){$('dashDonuts').innerHTML='<div class="dash-donuts-empty"><span class="dash-donuts-empty-icon" aria-hidden="true">📖</span><p class="dash-donuts-empty-title">No subjects yet for '+esc(glanceYearLabel)+'</p><p class="dash-donuts-empty-sub">Choose a year level above and answer some questions to see your progress here.</p><a class="dash-button dash-button-primary dash-donuts-empty-cta" href="quiz.html" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:6px">Start a quiz →</a></div>';}else if(!hasAnyProgress){$('dashDonuts').innerHTML='<div class="dash-donuts-empty"><span class="dash-donuts-empty-icon" aria-hidden="true">📖</span><p class="dash-donuts-empty-title">No progress yet for '+esc(glanceYearLabel)+'</p><p class="dash-donuts-empty-sub">Answer questions in the quiz to see your subject progress here.</p><a class="dash-button dash-button-primary dash-donuts-empty-cta" href="quiz.html" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:6px">Start a quiz →</a></div>';}else{$('dashDonuts').innerHTML=glanceRows.join('');}
  const glanceTitle=document.querySelector('[data-glance-year]');if(glanceTitle)glanceTitle.textContent=selectedYear==='resources'?'Additional Resources':selectedYear+' subject progress';
  document.querySelectorAll('.hub-pill[data-year]').forEach(b=>{const active=b.dataset.year===selectedYear;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
- $('dashSubjectList').innerHTML=glanceRows.join('')||'<p class="dash-empty">No subjects found for '+esc(selectedYear==='resources'?'Additional Resources':selectedYear)+'.</p>';
+ $('dashSubjectList').innerHTML=cards||'<p class="dash-empty">No subjects found for '+esc(selectedYear==='resources'?'Additional Resources':selectedYear)+'.</p>';
  const loadMessage=$('dashDataMessage');
  if(loadMessage&&failedSubjects.size){loadMessage.textContent='Some question banks could not be loaded: '+[...failedSubjects.keys()].join(', ')+'. Their progress is shown as unavailable rather than zero. Your saved data is untouched.';loadMessage.classList.add('is-error')}
  else if(loadMessage&&loadMessage.classList.contains('is-error')&&loadMessage.textContent.includes('question banks could not be loaded')){loadMessage.textContent='';loadMessage.classList.remove('is-error')}
