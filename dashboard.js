@@ -8,7 +8,19 @@ const dateKey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+
 const dateLabel=k=>new Date(k+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
 const profile=()=>{try{return parse(localStorage.getItem(PROFILE),null)}catch{return null}};
 const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{return {}}};
-const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
+const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>{const storedId=decodeURIComponent(key.slice(PREFIX.length));const marker=storedId.indexOf('::banks:');return {key,id:marker<0?storedId:storedId.slice(0,marker),storedId,bankScoped:marker>=0,data:parse(localStorage.getItem(key),{})}})}catch{return []}};
+function progressForSubject(subjectId){
+ const matches=records().filter(x=>x.id===subjectId);
+ if(!matches.length)return {};
+ // Merge legacy subject progress with bank-specific progress without deleting or rewriting any saved records.
+ const merged={answers:{},revealed:{},savedAt:0};
+ matches.forEach(({data})=>{
+  Object.assign(merged.answers,data.answers&&typeof data.answers==='object'?data.answers:{});
+  Object.assign(merged.revealed,data.revealed&&typeof data.revealed==='object'?data.revealed:{});
+  merged.savedAt=Math.max(merged.savedAt,Number(data.savedAt)||0);
+ });
+ return merged;
+}
 const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
 const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
 let subjects=[], dataBySubject=new Map(), range=180, selectedYear='YL1';
@@ -56,7 +68,7 @@ async function load(){
 function render(){
  if(!$('studyDashboard'))return;
  const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';const profileName=(p&&typeof p.name==='string'?p.name.trim():'');const profileInitial=Array.from(profileName)[0]?.toLocaleUpperCase()||'S';const profileBadge=$('dashProfileButtonTop')?.querySelector('span');const profileLabel=$('dashProfileButtonTop')?.querySelector('b');if(profileBadge)profileBadge.textContent=profileInitial;if(profileLabel)profileLabel.textContent=profileName||'Your profile';
- const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
+ const saved=new Map(subjects.map(s=>[s.id,progressForSubject(s.id)]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
  const cards=visibleSubjects.map(s=>{
   const qs=Array.isArray(dataBySubject.get(s.id))?dataBySubject.get(s.id):[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
