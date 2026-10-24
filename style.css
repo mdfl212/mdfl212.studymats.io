@@ -10293,3 +10293,49 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     padding-bottom: 1px;
   }
 }
+
+
+/* Phone dashboard stats: keep all four metrics visible in one compact row. */
+@media (max-width: 680px) {
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-stats {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 4px !important;
+    width: 100%;
+    min-width: 0;
+    overflow: visible;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-stats > .dash-stat {
+    display: block !important;
+    min-width: 0;
+    width: 100%;
+    padding: 7px 4px !important;
+    overflow-wrap: anywhere;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-stats .dash-stat-ring {
+    display: none !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-stats .dash-stat-copy {
+    min-width: 0;
+    width: 100%;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-stats .dash-stat-label {
+    display: block;
+    font-size: 7px !important;
+    line-height: 1.15;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-stats .dash-stat strong {
+    display: block;
+    font-size: 16px !important;
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-stats .dash-stat-note {
+    display: block;
+    font-size: 7px !important;
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+  }
+}
