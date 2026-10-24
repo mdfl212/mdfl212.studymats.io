@@ -12742,3 +12742,21 @@ body[data-course="quiz"] .table-scroll {
     padding: 0 !important;
   }
 }
+
+
+/* Keep the desktop menu toggle docked directly beside the sidebar edge.
+   Use viewport-fixed coordinates so the topbar's margins cannot offset it. */
+@media (min-width: 1101px) {
+  body[data-course="hub"] .topbar-sidebar-menu {
+    position: fixed !important;
+    top: 176px !important;
+    left: calc(var(--sidebar-expanded, 204px) + 4px) !important;
+    right: auto !important;
+    transform: none !important;
+    z-index: 1600 !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .topbar-sidebar-menu {
+    left: calc(var(--sidebar-collapsed, 72px) + 4px) !important;
+  }
+}
