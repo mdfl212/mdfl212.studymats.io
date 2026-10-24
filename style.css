@@ -11183,3 +11183,119 @@ body[data-course="quiz"] .table-scroll {
     display: inline !important;
   }
 }
+
+
+/* Final mobile sizing pass: keep the quiz timer compact and prevent oversized controls. */
+@media (max-width: 700px) {
+  body[data-course="quiz"] .quiz-timer-panel {
+    box-sizing: border-box !important;
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 4px 6px !important;
+    margin: 0 0 5px !important;
+    gap: 5px !important;
+    border-radius: 7px !important;
+    line-height: 1 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-clock {
+    font-size: 11px !important;
+    line-height: 1 !important;
+    font-weight: 600 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-controls {
+    gap: 3px !important;
+    line-height: 1 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-duration,
+  body[data-course="quiz"] .quiz-timer-duration label {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 9px !important;
+    line-height: 1 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-duration input {
+    box-sizing: border-box !important;
+    width: 28px !important;
+    height: 21px !important;
+    min-height: 21px !important;
+    padding: 1px 2px !important;
+    border-radius: 4px !important;
+    font-size: 9px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions {
+    gap: 2px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions .btn,
+  body[data-course="quiz"] #timerResetButton {
+    box-sizing: border-box !important;
+    width: 23px !important;
+    min-width: 23px !important;
+    max-width: 23px !important;
+    height: 23px !important;
+    min-height: 23px !important;
+    max-height: 23px !important;
+    margin: 0 !important;
+    padding: 3px !important;
+    border-radius: 5px !important;
+    font-size: 0 !important;
+    line-height: 1 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions .btn svg,
+  body[data-course="quiz"] .quiz-timer-actions .btn i,
+  body[data-course="quiz"] #timerResetButton svg,
+  body[data-course="quiz"] #timerResetButton i {
+    width: 12px !important;
+    height: 12px !important;
+    font-size: 12px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions .btn span,
+  body[data-course="quiz"] #timerResetButton span {
+    display: none !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-quick-add {
+    display: none !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-expired,
+  body[data-course="quiz"] .quiz-timer-expired span {
+    font-size: 9px !important;
+    line-height: 1.1 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  body[data-course="quiz"] .quiz-timer-panel {
+    gap: 3px !important;
+    padding: 3px 4px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-clock {
+    font-size: 10px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-duration input {
+    width: 25px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions .btn,
+  body[data-course="quiz"] #timerResetButton {
+    width: 21px !important;
+    min-width: 21px !important;
+    max-width: 21px !important;
+    height: 21px !important;
+    min-height: 21px !important;
+    max-height: 21px !important;
+  }
+}
