@@ -203,7 +203,10 @@ function initializeQuizTimer() {
 
 
 function progressStorageKey(subjectId) {
-    return PROGRESS_STORAGE_PREFIX + encodeURIComponent(subjectId);
+    const params = new URLSearchParams(window.location.search);
+    const bankIds = (params.get('banks') || '').split(',').filter(Boolean).sort();
+    const suffix = bankIds.length ? '::banks:' + bankIds.map(encodeURIComponent).join(',') : '';
+    return PROGRESS_STORAGE_PREFIX + encodeURIComponent(subjectId) + suffix;
 }
 
 function recordStudyActivity(question) {
@@ -430,7 +433,35 @@ async function selectSubject(subjectId) {
     if (!response.ok) throw new Error(`Unable to load ${subject.name} questions.`);
     state.subject = subject;
     state.activeYear = subject.yearLevel || state.activeYear;
-    state.questions = await response.json();
+    const baseQuestions = await response.json();
+    const params = new URLSearchParams(window.location.search);
+    const bankIds = (params.get('banks') || '').split(',').filter(Boolean);
+    if (bankIds.length) {
+        let customBanks = [];
+        try {
+            const savedBanks = JSON.parse(localStorage.getItem('studymats-user-banks-v1') || '[]');
+            customBanks = Array.isArray(savedBanks) ? savedBanks : [];
+        } catch (error) {
+            console.warn('StudyMats could not read imported banks.', error);
+        }
+        const chosen = bankIds.map(id => customBanks.find(bank => bank.id === id)).filter(Boolean);
+        const included = chosen.flatMap(bank => (Array.isArray(bank.questions) ? bank.questions : [])
+            .filter(question => {
+                const subjectName = String(question.subject || '').toLowerCase();
+                const subjectIds = Array.isArray(bank.subjectIds) ? bank.subjectIds : [];
+                return subjectIds.includes(subject.id) || subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase();
+            })
+            .map((question, index) => ({
+                ...question,
+                id: String(question.id || 'imported-' + index),
+                _sourceBankId: bank.id,
+                _sourceBankName: bank.name
+            })));
+        const sourceQuestions = chosen.length ? included : [];
+        state.questions = sourceQuestions.length ? sourceQuestions : baseQuestions;
+    } else {
+        state.questions = baseQuestions;
+    }
     state.answers = {};
     state.revealed = {};
     state.currentIndex = 0;
@@ -652,6 +683,7 @@ function render() {
     $('questionContent').innerHTML = `
         <div class="q-meta"><span class="q-num">Q${state.currentIndex + 1}</span>
             <span class="q-json-id">ID: ${escapeHtml(question.id)}</span>
+            ${question._sourceBankName ? '<span class="tag">' + escapeHtml(question._sourceBankName) + '</span>' : ''}
             ${questionTags}
         </div>
         <div class="q-stem">${escapeHtml(question.question)}</div>
