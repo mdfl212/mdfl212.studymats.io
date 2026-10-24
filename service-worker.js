@@ -79,6 +79,29 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Source data and scripts must be network-first. Cache-first JSON can keep an
+  // obsolete subjects.json forever, which makes the dashboard believe a year has
+  // no subjects even after the repository has been updated.
+  const isLiveSource = /\\.(json|js)$/i.test(url.pathname);
+  if (isLiveSource) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok && response.type === "basic") {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        })
+        .catch(async () => {
+          const cached = await caches.match(request);
+          if (cached) return cached;
+          throw new Error("StudyMats source is unavailable and no cached copy exists: " + url.pathname);
+        })
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(request).then((cached) => {
       if (cached) return cached;
