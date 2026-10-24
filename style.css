@@ -8159,12 +8159,16 @@ html[data-course="quiz"][data-theme="dark"] .quiz-timer-panel[data-state="expire
 
 
 /* Focused quiz polish: true black dark canvas and compact, single-line question metadata. */
-html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] {
+html[data-course="quiz"][data-theme="dark"] {
   --quiz-bg: #000000;
-  --quiz-panel: #0b0b0b;
+  --quiz-surface: #090909;
   --quiz-border: #262626;
   --quiz-text: #f5f5f5;
   --quiz-muted: #a3a3a3;
+  --quiz-shadow: none;
+  background: #000;
+}
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] {
   background: #000;
   color: #f5f5f5;
 }
