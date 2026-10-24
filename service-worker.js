@@ -1,5 +1,5 @@
 /* StudyMats service worker: lightweight offline shell for the GitHub Pages demo. */
-const CACHE_NAME = "studymats-pwa-v3";
+const CACHE_NAME = "studymats-pwa-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
