@@ -108,4 +108,13 @@ document.addEventListener('click',e=>{const box=e.target.closest('#bankResults')
 const importButton=document.createElement('button');importButton.className='tb-btn primary';importButton.textContent='Add selected to draft';importButton.onclick=()=>{const chosen=state.banks.filter(q=>state.selected.has(q._key)).map(({_key,...q})=>q);addImported(chosen);state.selected.clear();$('importCount').textContent='0 selected';renderBanks()};$('bankResults').parentElement.insertBefore(importButton,$('bankResults').nextSibling);
 loadCatalog();
 })();
-</script></body></html>
+</script><script>
+  // Register the PWA service worker only on HTTP(S); relative path supports GitHub Pages project sites.
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js", { scope: "./" })
+        .catch((error) => console.warn("StudyMats offline support could not be registered:", error));
+    });
+  }
+</script>
+</body></html>
