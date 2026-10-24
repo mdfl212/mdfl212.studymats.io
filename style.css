@@ -10339,3 +10339,103 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     overflow-wrap: anywhere;
   }
 }
+
+
+/* Phone WebView: compact header with the search field moved beneath the brand row. */
+@media (max-width: 700px) {
+  html[data-course="hub"] body[data-course="hub"] .app-topbar {
+    height: auto !important;
+    min-height: 0;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center;
+    gap: 7px 9px !important;
+    margin: 0 -12px 10px !important;
+    padding: 8px 12px 10px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand {
+    order: 1;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand img {
+    width: 29px;
+    height: 29px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand strong {
+    font-size: 15px !important;
+    line-height: 1.1;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-theme {
+    order: 2;
+    margin-left: 0 !important;
+    padding: 5px 7px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile {
+    order: 3;
+    padding: 0 !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile span {
+    width: 29px !important;
+    height: 29px !important;
+    font-size: 11px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile b,
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile small {
+    display: none !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-search {
+    order: 4;
+    display: flex !important;
+    flex: 0 0 100%;
+    width: 100% !important;
+    min-width: 0;
+    margin: 2px 0 0 !important;
+    padding: 7px 10px !important;
+    gap: 8px;
+    border-radius: 10px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-search input {
+    min-width: 0;
+    font-size: 12px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-search input::placeholder {
+    font-size: 11px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .topbar-search kbd {
+    display: none;
+  }
+  html[data-course="hub"] body[data-course="hub"] .study-dashboard {
+    gap: 8px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome {
+    gap: 5px !important;
+    padding: 1px 1px 3px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome h2,
+  html[data-course="hub"] body[data-course="hub"] #dashGreeting {
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+    letter-spacing: -.02em;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome .dash-subtitle {
+    font-size: 11px !important;
+    line-height: 1.35;
+    margin-top: 3px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome .dash-kicker {
+    font-size: 7px !important;
+    letter-spacing: .1em;
+    margin-bottom: 3px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions {
+    gap: 5px;
+  }
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button {
+    font-size: 10px !important;
+    padding: 5px 7px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row {
+    margin-bottom: 8px;
+  }
+}
