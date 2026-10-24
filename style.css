@@ -10186,3 +10186,27 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-subject-ye
   margin: 5px 0 0;
   text-align: left;
 }
+
+
+/* Keep the Subject Progress summary anchored to the panel's left edge. */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard > #subjectProgressDropdown {
+  min-width: 0;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard > #subjectProgressDropdown > summary.dash-subject-summary {
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 0 !important;
+  align-self: stretch;
+  text-align: left !important;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard > #subjectProgressDropdown > summary.dash-subject-summary > div:first-child {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  text-align: left !important;
+  align-self: center;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-subject-year-heading {
+  display: block;
+  width: 100%;
+  text-align: left !important;
+}
