@@ -55,7 +55,7 @@ async function load(){
 }
 function render(){
  if(!$('studyDashboard'))return;
- const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';
+ const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';const profileName=(p&&typeof p.name==='string'?p.name.trim():'');const profileInitial=Array.from(profileName)[0]?.toLocaleUpperCase()||'S';const profileBadge=$('dashProfileButtonTop')?.querySelector('span');const profileLabel=$('dashProfileButtonTop')?.querySelector('b');if(profileBadge)profileBadge.textContent=profileInitial;if(profileLabel)profileLabel.textContent=profileName||'Your profile';
  const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
  const cards=visibleSubjects.map(s=>{
