@@ -11642,3 +11642,411 @@ body[data-course="quiz"] .table-scroll {
     max-height: 25px !important;
   }
 }
+
+
+/* Dashboard refresh: reference-inspired mobile app layout. Desktop styling remains unchanged. */
+@media (max-width: 700px) {
+  html[data-course="hub"] body[data-course="hub"] {
+    padding: 0 10px calc(82px + env(safe-area-inset-bottom)) !important;
+    background: #101010 !important;
+    color: #f3f3f5 !important;
+    overflow-x: hidden !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar {
+    position: relative !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    gap: 9px !important;
+    margin: 0 -10px 12px !important;
+    padding: 12px 10px !important;
+    border-bottom: 1px solid #292929 !important;
+    background: #101010 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-dashboard-menu {
+    display: inline-flex !important;
+    flex: 0 0 34px !important;
+    width: 34px !important;
+    height: 34px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid #303036 !important;
+    border-radius: 10px !important;
+    background: #171719 !important;
+    color: #f4f4f7 !important;
+    font-size: 20px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    gap: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand img {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand strong {
+    color: #f6f3ff !important;
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-size: 23px !important;
+    line-height: 1 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand strong span {
+    color: #e8bd55 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-brand small {
+    display: block !important;
+    margin-top: 4px !important;
+    font-size: 8px !important;
+    letter-spacing: .12em !important;
+    line-height: 1.1 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-search,
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile b,
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile small,
+  html[data-course="hub"] body[data-course="hub"] .theme-toggle-wrapper,
+  html[data-course="hub"] body[data-course="hub"] .site-header {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-theme {
+    flex: 0 0 36px !important;
+    width: 36px !important;
+    height: 36px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    background: #19191c !important;
+    color: #fff !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile {
+    flex: 0 0 36px !important;
+    width: 36px !important;
+    height: 36px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .topbar-profile span {
+    width: 36px !important;
+    height: 36px !important;
+    background: #6425d8 !important;
+    color: #fff !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown {
+    margin: 0 0 10px !important;
+    padding: 0 !important;
+    border: 1px solid #38343f !important;
+    border-radius: 18px !important;
+    background: linear-gradient(110deg, #1a1722, #17151d) !important;
+    overflow: hidden !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown > summary {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 12px !important;
+    border: 0 !important;
+    font-size: 14px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-icon {
+    display: flex !important;
+    flex: 0 0 44px !important;
+    width: 44px !important;
+    height: 44px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 13px !important;
+    background: #38206b !important;
+    color: #d9c5ff !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-icon svg {
+    width: 26px !important;
+    height: 26px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-title {
+    display: block !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-subtext {
+    display: block !important;
+    margin-top: 3px !important;
+    color: #b9b5c3 !important;
+    font: 11px/1.35 Arial, sans-serif !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 6px !important;
+    margin: 0 0 10px !important;
+    padding: 9px !important;
+    border: 1px solid #353535 !important;
+    border-radius: 17px !important;
+    background: #141414 !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row::before {
+    content: "🎓  Year Level";
+    flex: 0 0 auto !important;
+    margin-right: auto !important;
+    color: #f2f0f7 !important;
+    font: 600 12px Arial, sans-serif !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-pill {
+    flex: 0 0 auto !important;
+    min-width: 52px !important;
+    padding: 9px 12px !important;
+    border: 1px solid #34343a !important;
+    border-radius: 24px !important;
+    background: #171719 !important;
+    color: #f4f4f7 !important;
+    font: 12px Arial, sans-serif !important;
+    white-space: nowrap !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-pill.active {
+    border-color: #6926df !important;
+    background: #6926df !important;
+    color: #fff !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-pill[data-year="resources"] {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+    padding: 14px 12px !important;
+    border: 1px solid #4a4435 !important;
+    border-radius: 18px !important;
+    background: linear-gradient(120deg, #1a1916, #151515) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-kicker {
+    color: #e8c65c !important;
+    font-size: 8px !important;
+    letter-spacing: .14em !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-welcome h2 {
+    font-size: 19px !important;
+    line-height: 1.2 !important;
+    overflow-wrap: normal !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome .dash-subtitle {
+    margin-top: 4px !important;
+    font: 11px/1.4 Arial, sans-serif !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button:first-child {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button {
+    padding: 8px 9px !important;
+    border-radius: 12px !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-stats {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 7px !important;
+    width: 100% !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-stats > * {
+    min-width: 0 !important;
+    padding: 12px 10px !important;
+    border: 1px solid #343434 !important;
+    border-radius: 17px !important;
+    background: linear-gradient(145deg, #1b1b1b, #151515) !important;
+    box-shadow: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-panel {
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    border: 1px solid #383838 !important;
+    border-radius: 18px !important;
+    background: linear-gradient(145deg, #1a1a1a, #141414) !important;
+    box-shadow: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-panel h2 {
+    font-size: 17px !important;
+    line-height: 1.2 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-panel-copy {
+    font-size: 11px !important;
+    line-height: 1.35 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-heading {
+    grid-template-columns: minmax(0, 1fr) auto !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-range-picker {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 2px !important;
+    padding: 3px !important;
+    border: 1px solid #383838 !important;
+    border-radius: 13px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-range-picker button {
+    padding: 7px 8px !important;
+    font-size: 10px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-heatmap-container {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-stats {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 4px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-stats > * {
+    min-width: 0 !important;
+    padding: 6px 3px !important;
+    border-right: 1px solid #343434 !important;
+    font-size: 10px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-stats strong {
+    font-size: 17px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-summary .dash-kicker,
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-summary .dash-local-label {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-summary h2 {
+    font-size: 16px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-heading {
+    margin-bottom: 10px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 7px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions .dash-button {
+    min-width: 0 !important;
+    padding: 10px 6px !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions .dash-button-danger {
+    grid-column: 1 / -1 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
+    position: fixed !important;
+    z-index: 1000 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 0 !important;
+    padding: 7px 8px calc(7px + env(safe-area-inset-bottom)) !important;
+    border-top: 1px solid #303030 !important;
+    background: rgba(16,16,16,.97) !important;
+    backdrop-filter: blur(16px) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav a,
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav button {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 3px !important;
+    min-width: 0 !important;
+    padding: 3px 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    color: #aaaab2 !important;
+    text-decoration: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav span {
+    font-size: 22px !important;
+    line-height: 1 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav small {
+    font: 10px Arial, sans-serif !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav .active {
+    color: #e8c65c !important;
+  }
+}
+
+@media (min-width: 701px) {
+  .mobile-dashboard-menu,
+  .mobile-bottom-nav {
+    display: none !important;
+  }
+}
