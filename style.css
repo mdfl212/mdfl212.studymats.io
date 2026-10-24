@@ -8156,3 +8156,59 @@ html[data-course="quiz"][data-theme="dark"] .quiz-timer-panel[data-state="expire
   html[data-course="quiz"] .quiz-timer-panel { transition: none; }
   html[data-course="quiz"] .quiz-timer-panel[data-state="expired"] { animation: none; }
 }
+
+
+/* Focused quiz polish: true black dark canvas and compact, single-line question metadata. */
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] {
+  --quiz-bg: #000000;
+  --quiz-panel: #0b0b0b;
+  --quiz-border: #262626;
+  --quiz-text: #f5f5f5;
+  --quiz-muted: #a3a3a3;
+  background: #000;
+  color: #f5f5f5;
+}
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] .quiz-shell,
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] .q-card,
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] .quiz-select-bar,
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] .quiz-timer-panel,
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] .stat-card,
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] .rationale {
+  background-color: #000;
+  border-color: #262626;
+  color: #f5f5f5;
+}
+html[data-course="quiz"][data-theme="dark"] body[data-course="quiz"] .q-card {
+  box-shadow: none;
+}
+html[data-course="quiz"] body[data-course="quiz"] .q-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 7px;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+html[data-course="quiz"] body[data-course="quiz"] .q-meta > * {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+html[data-course="quiz"] body[data-course="quiz"] .q-meta .badge,
+html[data-course="quiz"] body[data-course="quiz"] .q-meta .tag,
+html[data-course="quiz"] body[data-course="quiz"] .q-meta .q-json-id {
+  overflow: hidden;
+  max-width: 28vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+html[data-course="quiz"] body[data-course="quiz"] .q-stem {
+  border-left: 0;
+  padding-left: 0;
+  overflow-wrap: break-word;
+  line-height: 1.55;
+}
+html[data-course="quiz"] body[data-course="quiz"] .opt {
+  align-items: center;
+  line-height: 1.45;
+}
