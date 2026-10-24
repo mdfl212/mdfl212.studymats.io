@@ -40,9 +40,8 @@ function render(){
  updateSummary();
 }
 function updateSummary(){
- const saved=readSaved();let count=0,parts=[]; if(selected.has('base:'+subject.id))count+=baseCount;
- for(const id of selected){if(id==='base:'+subject.id){parts.push('Current bank');}else{const b=saved.find(x=>x.id===id);if(b){count+=questionsFor(b).length;parts.push(b.name)}}}
- if(selected.has('base:'+subject.id)){const n=catalog.find(x=>x.id==='base:'+subject.id);parts.unshift(n?.name||'Current bank');}
+ let count=0,parts=[];
+ for(const id of selected){const bank=catalog.find(item=>item.id===id);if(bank){count+=bank.count||0;parts.push(bank.name)}}
  $('selectionCount').textContent=count.toLocaleString()+' questions selected';
  $('selectionDetail').textContent=selected.size?parts.join(' · '):'Choose one or more compatible banks.';
  const st=$('bankStatus');st.textContent=selected.size+' compatible bank(s) selected. Legacy HTML reviewers open separately.';st.className='bank-status';
