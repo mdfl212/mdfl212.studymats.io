@@ -10263,3 +10263,33 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     padding: 0 7px 7px;
   }
 }
+
+
+/* Reduce excess page whitespace and tighten the bottom of expanded Subject Progress. */
+html[data-course="hub"] body[data-course="hub"] {
+  padding-bottom: calc(28px + env(safe-area-inset-bottom));
+}
+html[data-course="hub"] body[data-course="hub"] .wrapper {
+  padding-bottom: 28px;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown {
+  padding-bottom: 2px;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-list {
+  padding-bottom: 2px;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-card {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-card:last-child {
+  padding-bottom: 2px;
+}
+@media (max-width: 680px) {
+  html[data-course="hub"] body[data-course="hub"] .wrapper {
+    padding-bottom: 36px;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-list {
+    padding-bottom: 1px;
+  }
+}
