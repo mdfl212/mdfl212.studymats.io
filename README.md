@@ -17,7 +17,7 @@ An interactive, responsive HTML/JS questionnaire application designed to review 
 - **Responsive UI:** Custom design system built with CSS variables, accessible on desktop and mobile.
 - **Centralized theming:** Every page loads `style.css` and declares its palette with `data-course` and `data-theme` (`light` or `dark`). The shared `theme.js` controller provides the theme toggle and remembers the user's preference.
 
-## September 7,2026 update 
+## October 24, 2026 update\n- Added installable Progressive Web App support with a lightweight offline shell and SVG app icon.\n- Added a configurable quiz timer with pause/reset controls, +15/+30/+60-minute shortcuts, and a clear time-up state.\n- Refined quiz dark mode to use a true-black surface and tightened question metadata layout.\n- Simplified Daily Study Rhythm spacing and improved the dashboard subject-progress overview.\n- Improved Test Bank Builder workflows for drafting, reusing, importing, validating, and exporting questions; responsive layout refinements are in progress.\n- Added a dismissible dashboard update notice and a persistent “What’s changed” entry in the sidebar.\n\n## September 7, 2026 update 
 - Fixed subject catalog loading by repairing `subjects.json` and removing the invalid empty Prev Med placeholder record.
 - Added Preventive Medicine to the YL4 subject list with its normalized question bank in `data/prevmed.json`.
 - Fixed light/dark theme toggles so they work consistently on mobile devices.
