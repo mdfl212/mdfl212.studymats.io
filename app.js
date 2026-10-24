@@ -445,14 +445,16 @@ async function selectSubject(subjectId) {
             console.warn('StudyMats could not read imported banks.', error);
         }
         const includeBase = bankIds.includes('base-' + subject.id);
+        const sourceSlices = [];
+        if (bankIds.includes('ple2023')) sourceSlices.push(...baseQuestions.slice(0, 100).map((q, i) => ({ ...q, _sourceBankName: 'PLE Test Bank 2023', _sourceBankId: 'ple2023', id: 'ple2023::' + String(q.id || i) })));
+        if (bankIds.includes('ple2019')) sourceSlices.push(...baseQuestions.slice(100, 200).map((q, i) => ({ ...q, _sourceBankName: 'PLE Test Bank 2019', _sourceBankId: 'ple2019', id: 'ple2019::' + String(q.id || i + 100) })));
+        if (bankIds.includes('remaining')) sourceSlices.push(...baseQuestions.slice(200).map((q, i) => ({ ...q, _sourceBankName: 'Additional questions (201+)', _sourceBankId: 'remaining', id: 'remaining::' + String(q.id || i + 200) })));
         const chosen = bankIds.map(id => customBanks.find(bank => bank.id === id)).filter(Boolean);
         const included = chosen.flatMap(bank => (Array.isArray(bank.questions) ? bank.questions : [])
             .filter(question => {
                 const subjectName = String(question.subject || '').toLowerCase();
                 const subjectIds = Array.isArray(bank.subjectIds) ? bank.subjectIds : [];
-                if (bank.scope === 'shared') {
-                    return subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase();
-                }
+                if (bank.scope === 'shared') return subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase();
                 return subjectIds.includes(subject.id);
             })
             .map((question, index) => ({
@@ -464,9 +466,10 @@ async function selectSubject(subjectId) {
             })));
         state.questions = [
             ...(includeBase ? baseQuestions : []),
+            ...sourceSlices,
             ...included
         ];
-        if (!includeBase && !chosen.length) state.questions = baseQuestions;
+        if (!includeBase && !sourceSlices.length && !chosen.length) state.questions = baseQuestions;
     } else {
         state.questions = baseQuestions;
     }
