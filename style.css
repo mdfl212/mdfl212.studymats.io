@@ -12050,3 +12050,231 @@ body[data-course="quiz"] .table-scroll {
     display: none !important;
   }
 }
+
+
+/* Mobile dashboard cleanup: remove redundant menu/navigation, tighten vertical spacing,
+   and prevent wide panels from creating horizontal scrolling. */
+@media (max-width: 700px) {
+  html[data-course="hub"] body[data-course="hub"] .mobile-dashboard-menu,
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar,
+  html[data-course="hub"] body[data-course="hub"] .sidebar-menu {
+    display: none !important;
+  }
+
+  /* Only retain the newer bottom navigation; suppress any legacy nav if injected. */
+  html[data-course="hub"] body[data-course="hub"] nav.mobile-bottom-nav:has(.mobile-nav-item) {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] {
+    padding: 0 10px calc(58px + env(safe-area-inset-bottom)) !important;
+    overflow-x: hidden !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar {
+    margin: 0 -10px 7px !important;
+    padding: 8px 10px !important;
+    min-height: 0 !important;
+    gap: 7px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown {
+    margin-bottom: 6px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown > summary {
+    padding: 8px 10px !important;
+    gap: 8px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-icon {
+    flex-basis: 36px !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 10px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-title {
+    font-size: 13px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-subtext {
+    font-size: 10px !important;
+    line-height: 1.25 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row {
+    margin-bottom: 6px !important;
+    padding: 6px !important;
+    gap: 5px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard {
+    gap: 6px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-welcome {
+    padding: 9px 10px !important;
+    min-height: 0 !important;
+    border-radius: 14px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-welcome h2 {
+    font-size: 16px !important;
+    line-height: 1.15 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-welcome .dash-subtitle {
+    font-size: 10px !important;
+    line-height: 1.25 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button {
+    padding: 6px 7px !important;
+    font-size: 9px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-stats {
+    gap: 5px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-stats > * {
+    padding: 8px 7px !important;
+    min-height: 0 !important;
+    border-radius: 13px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-stats .dash-stat-label {
+    font-size: 8px !important;
+    line-height: 1.1 !important;
+    margin-bottom: 4px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-stats .dash-stat-value {
+    font-size: 19px !important;
+    line-height: 1.05 !important;
+    margin: 0 0 3px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-stats .dash-stat-note {
+    font-size: 8px !important;
+    line-height: 1.15 !important;
+    margin: 0 !important;
+    overflow-wrap: normal !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-panel {
+    padding: 9px !important;
+    border-radius: 14px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-panel-heading {
+    margin-bottom: 6px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-panel h2 {
+    font-size: 15px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-panel-copy,
+  html[data-course="hub"] body[data-course="hub"] .dash-data-caption {
+    font-size: 10px !important;
+    line-height: 1.25 !important;
+    margin-top: 3px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-panel {
+    padding: 9px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-heading {
+    margin-bottom: 4px !important;
+    gap: 4px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-range-picker button {
+    padding: 5px 6px !important;
+    font-size: 9px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-heatmap-container {
+    max-height: 94px !important;
+    overflow: hidden !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-legend {
+    margin: 4px 0 !important;
+    font-size: 9px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-stats {
+    gap: 2px !important;
+    margin-top: 5px !important;
+    padding-top: 5px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-stats > * {
+    padding: 4px 2px !important;
+    font-size: 8px !important;
+    line-height: 1.15 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-stats strong {
+    font-size: 14px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-dropdown > summary {
+    padding: 7px 2px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-heading {
+    margin-bottom: 5px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-copy,
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-data-lock {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 5px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions .dash-button {
+    min-width: 0 !important;
+    padding: 7px 3px !important;
+    font-size: 9px !important;
+    white-space: normal !important;
+    line-height: 1.15 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-data-actions .dash-button-danger {
+    grid-column: auto !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .footer-note {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
+    padding: 4px 8px calc(4px + env(safe-area-inset-bottom)) !important;
+    min-height: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav a,
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav button {
+    gap: 2px !important;
+    padding: 2px 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav span {
+    font-size: 18px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav small {
+    font-size: 9px !important;
+  }
+}
