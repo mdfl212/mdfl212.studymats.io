@@ -8922,3 +8922,38 @@ body[data-course="hub"] .desktop-sidebar .sidebar-link:focus-visible {
   }
   body[data-course="hub"] #backupPanel .dash-data-actions .dash-button-danger { grid-column:1/-1; }
 }
+
+
+/* ── Empty state: Progress by subject ── */
+.dash-donuts-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  width: 100%;
+  min-height: 140px;
+}
+.dash-donuts-empty-icon {
+  font-size: 2rem;
+  line-height: 1;
+  opacity: 0.4;
+}
+.dash-donuts-empty-title {
+  font-family: var(--font-serif, 'Source Serif 4', serif);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text, #e8e4f0);
+  margin: 0;
+}
+.dash-donuts-empty-sub {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted, #9b93b0);
+  margin: 0 0 0.25rem;
+  max-width: 28ch;
+}
+.dash-donuts-empty-cta {
+  margin-top: 4px;
+}
