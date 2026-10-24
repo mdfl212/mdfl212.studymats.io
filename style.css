@@ -8836,7 +8836,7 @@ body[data-course="hub"] .desktop-sidebar .sidebar-link:focus-visible {
 @media (min-width:1101px) {
   body[data-course="hub"] #studyDashboard {
     grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);
-    grid-template-areas:"welcome welcome" "stats stats" "progress activity" "tools activity";
+    grid-template-areas:"welcome welcome" "stats stats" "progress activity" "tools tools";
     gap:16px;
   }
 }
