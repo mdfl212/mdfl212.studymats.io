@@ -6538,7 +6538,7 @@ body[data-course="hub"] .dash-data-caption { font-size:8px; margin-top:5px; }
 body[data-course="hub"] .dash-subject-dropdown > summary { list-style:none; cursor:pointer; display:flex; }
 body[data-course="hub"] .dash-subject-dropdown > summary::-webkit-details-marker { display:none; }
 body[data-course="hub"] .dash-subject-summary { display:flex; align-items:center; gap:10px; margin-left:auto; font-size:9px; color:var(--text-sub); }
-body[data-course="hub"] .dash-subject-dropdown:not([open]) .dash-subject-list { display:none; }
+/* Removed stale <details> collapse rule: Subject Progress is now a permanent section. */
 body[data-course="hub"] .dash-subject-list { margin-top:8px; gap:7px; }
 body[data-course="hub"] .dash-subject-card { padding:9px 10px; }
 body[data-course="hub"] .dash-subject-heading h3 { font-size:11px; }
