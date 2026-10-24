@@ -10216,3 +10216,23 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
   content: none !important;
   display: none !important;
 }
+
+/* Keep Daily Study Rhythm date-range buttons on the right for a more compact header. */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-activity-heading {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-activity-heading > div:first-child {
+  flex: 1 1 180px;
+  min-width: 0;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard .dash-activity-heading .dash-range-picker {
+  flex: 0 0 auto;
+  margin-left: auto !important;
+  align-self: center !important;
+  justify-content: flex-end;
+}
