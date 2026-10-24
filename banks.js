@@ -12,7 +12,15 @@ const legacyBySubject={
  Anatomy:[{name:'Anatomy Master Bank · 525 items',path:'subjects/yl1/anatomy/Anatomy.html',count:525}],
  Biochemistry:[{name:"Harper's Biochemistry · 200-item practice exam",path:'subjects/yl1/biochemistry/harper.html',count:200}],
  Histology:[{name:'Histology · 200-item quiz',path:'subjects/yl1/histology/Histo.html',count:200}],
- Physiology:[{name:'Physiology PLE Reviewer · 300 items',path:'subjects/yl1/physiology/Physio.html',count:300}]
+ Physiology:[{name:'Physiology PLE Reviewer · 300 items',path:'subjects/yl1/physiology/Physio.html',count:300}],
+ FamilyCommunityHealth:[{name:'Family & Community Health · FMC1',path:'subjects/yl1/family-community-health/FMC1.html'}],
+ Research:[{name:'Research Question Bank',path:'subjects/yl1/research/Research.html'}],
+ Microbiology:[{name:'Microbiology Question Bank',path:'subjects/yl2/microbiology/micro.html'}],
+ OBGyne:[{name:'OB-Gyne Digital History & PE',path:'subjects/yl2/obgyn/OBGYNE_DIGITAL_HistoryPE.html'},{name:'OB-Gyne Question Bank',path:'subjects/yl2/obgyn/obgyn.html'}],
+ Pathology:[{name:'Pathology Question Bank',path:'subjects/yl2/pathology/Pathotoya.html'}],
+ Pediatrics:[{name:'Pediatrics Question Bank',path:'subjects/yl2/pediatrics/pedia.html'},{name:'Pediatrics SGD Reviewer',path:'subjects/yl2/pediatrics/pediasgdkael.html'}],
+ Pharmacology:[{name:'Pharmacology Question Bank',path:'subjects/yl2/pharmacology/pharma.html'}],
+ IM:[{name:'Internal Medicine Question Bank',path:'subjects/yl3/internal-medicine/IM.html'}]
 };
 function questionsFor(bank){return Array.isArray(bank.questions)?bank.questions.filter(q=>{const n=String(q.subject||'').toLowerCase();return bank.scope==='shared'?((bank.subjectIds||[]).includes(subject.id)&&(n===subject.id.toLowerCase()||n===subject.name.toLowerCase())):(bank.subjectIds||[]).includes(subject.id)}):[]}
 function render(){
@@ -78,7 +86,7 @@ async function init(){
   const r=await fetch('subjects.json');if(!r.ok)throw Error('Could not load subjects.json. Open StudyMats through GitHub Pages.');
   subjects=await r.json();subject=subjects.find(s=>s.id===subjectId)||subjects[0];
   try{const qr=await fetch(subject.data);const qs=await qr.json();baseCount=Array.isArray(qs)?qs.length:0}catch{}
-  $('subjectTitle').textContent=subject.name+' test banks';$('subjectDescription').textContent=subject.description||'Choose which sources to include in your quiz.';
+  $('builderLink').href='test-bank-builder.html?subject='+encodeURIComponent(subject.id);$('subjectTitle').textContent=subject.name+' test banks';$('subjectDescription').textContent=subject.description||'Choose which sources to include in your quiz.';
   renderAssignments();if(['Biochemistry','Histology'].includes(subject.id))selected.add('base:'+subject.id);else{if(baseCount)selected.add('ple2023');if(baseCount>100)selected.add('ple2019')}render();
   $('selectAll').onclick=()=>{catalog.forEach(b=>selected.add(b.id));render()};
   $('clearAll').onclick=()=>{selected.clear();render()};
