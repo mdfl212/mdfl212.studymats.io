@@ -12310,3 +12310,58 @@ body[data-course="quiz"] .table-scroll {
     padding-bottom: calc(64px + env(safe-area-inset-bottom)) !important;
   }
 }
+
+
+/* Mobile: compact year selector, never horizontally swipe the year row,
+   and keep the Browse test banks disclosure from opening on tap. */
+@media (max-width: 700px) {
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    gap: 4px !important;
+    padding: 5px !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    touch-action: pan-y !important;
+    overscroll-behavior-x: none !important;
+    scrollbar-width: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row::before {
+    font-size: 10px !important;
+    margin-right: 3px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill {
+    flex: 0 1 auto !important;
+    min-width: 0 !important;
+    padding: 7px 9px !important;
+    font-size: 10px !important;
+    line-height: 1.1 !important;
+    border-radius: 18px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-row [data-year="resources"] {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown > summary {
+    pointer-events: none !important;
+    cursor: default !important;
+    list-style: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown > summary::-webkit-details-marker {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown > summary .toggle-icon {
+    visibility: hidden !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown:not([open]) > .hub-subjects,
+  html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown:not([open]) > #statusMessage {
+    display: none !important;
+  }
+}
