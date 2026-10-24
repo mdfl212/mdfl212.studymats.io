@@ -8,33 +8,10 @@ const dateKey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+
 const dateLabel=k=>new Date(k+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
 const profile=()=>{try{return parse(localStorage.getItem(PROFILE),null)}catch{return null}};
 const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{return {}}};
-const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>{const storedId=decodeURIComponent(key.slice(PREFIX.length));const marker=storedId.indexOf('::banks:');return {key,id:marker<0?storedId:storedId.slice(0,marker),storedId,bankScoped:marker>=0,data:parse(localStorage.getItem(key),{})}})}catch{return []}};
-function progressForSubject(subjectId){
- const matches=records().filter(x=>x.id===subjectId);
- if(!matches.length)return {};
- // Merge legacy subject progress with bank-specific progress without deleting or rewriting any saved records.
- const merged={answers:{},revealed:{},savedAt:0};
- matches.forEach(({data})=>{
-  Object.assign(merged.answers,data.answers&&typeof data.answers==='object'?data.answers:{});
-  Object.assign(merged.revealed,data.revealed&&typeof data.revealed==='object'?data.revealed:{});
-  merged.savedAt=Math.max(merged.savedAt,Number(data.savedAt)||0);
- });
- return merged;
-}
-// Resolve app data from the page directory, not the script URL (which may carry a cache-busting query or be served from a different asset path).
-const DASHBOARD_BASE_URL=new URL('./',window.location.href);
-const dashboardAssetUrl=path=>new URL(path,DASHBOARD_BASE_URL).href;
+const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
+const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
+const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
 let subjects=[], dataBySubject=new Map(), range=180, selectedYear='YL1';
-// Normalize metadata from older subject indexes (e.g. "Year 1", "1", or "YL1")
-// so a harmless label variation cannot make every year-level filter return zero subjects.
-function normalizeYearLevel(value){
- const raw=String(value==null?'':value).trim().toLowerCase().replace(/[._-]+/g,' ').replace(/\s+/g,' ');
- if(!raw||raw==='yl1'||raw==='1'||raw==='year 1'||raw==='year one'||raw==='first year'||raw==='1st year')return 'YL1';
- if(raw==='yl2'||raw==='2'||raw==='year 2'||raw==='year two'||raw==='second year'||raw==='2nd year')return 'YL2';
- if(raw==='yl3'||raw==='3'||raw==='year 3'||raw==='year three'||raw==='third year'||raw==='3rd year')return 'YL3';
- if(raw==='yl4'||raw==='4'||raw==='year 4'||raw==='year four'||raw==='fourth year'||raw==='4th year')return 'YL4';
- return String(value).trim().toUpperCase();
-}
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
@@ -56,12 +33,11 @@ function buildHeatmap(){
 async function load(){
  const sourceUrl=dashboardAssetUrl('subjects.json');
  try{
-  const r=await fetch(sourceUrl,{cache:'no-store',credentials:'same-origin'});
+  const r=await fetch(sourceUrl,{cache:'no-cache'});
   if(!r.ok)throw Error('subjects.json returned HTTP '+r.status);
   const parsed=await r.json();
-  if(!Array.isArray(parsed)||!parsed.length)throw Error('subjects.json is empty or is not a subject list');
-  if(!parsed.some(s=>s&&s.id&&s.data))throw Error('subjects.json has no usable subject entries');
-  subjects=parsed.map(s=>({...s,yearLevel:normalizeYearLevel(s.yearLevel)}));
+  if(!Array.isArray(parsed))throw Error('subjects.json is not a subject list');
+  subjects=parsed;
  }catch(error){
   console.error('StudyMats subject index failed to load:',error);
   subjects=[];
@@ -70,31 +46,25 @@ async function load(){
   const message=$('dashDataMessage');if(message){message.textContent='Dashboard is visible, but the subject index could not be loaded. Check that subjects.json is deployed beside dashboard.js.';message.classList.add('is-error')}
   return;
  }
- const failedSubjectData=[];
  const loaded=await Promise.all(subjects.map(async s=>{
-  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-store',credentials:'same-origin'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
-  catch(error){console.warn('StudyMats subject data failed:',s.id,s.data,error);failedSubjectData.push(s.name+' ('+s.data+')');return [s.id,[]]}
+  try{const r=await fetch(dashboardAssetUrl(s.data),{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const json=await r.json();return [s.id,Array.isArray(json)?json:[]]}
+  catch(error){console.warn('StudyMats subject data failed:',s.id,error);return [s.id,[]]}
  }));
  dataBySubject=new Map(loaded);
  render();
- const message=$('dashDataMessage');
- if(message&&failedSubjectData.length){message.textContent='Some question-bank files could not be loaded: '+failedSubjectData.slice(0,4).join(', ')+(failedSubjectData.length>4?' and '+(failedSubjectData.length-4)+' more':'')+'. Check the deployed data/ paths; saved progress has not been changed.';message.classList.add('is-error')}
- else if(message){message.textContent='';message.classList.remove('is-error')}
 }
 function render(){
  if(!$('studyDashboard'))return;
  const p=profile();$('dashGreeting').textContent='Your study space'+(p&&p.showName!==false&&p.name?', '+p.name:'');$('dashProfileButton').textContent=p?'Edit profile':'Set up profile';const profileName=(p&&typeof p.name==='string'?p.name.trim():'');const profileInitial=Array.from(profileName)[0]?.toLocaleUpperCase()||'S';const profileBadge=$('dashProfileButtonTop')?.querySelector('span');const profileLabel=$('dashProfileButtonTop')?.querySelector('b');if(profileBadge)profileBadge.textContent=profileInitial;if(profileLabel)profileLabel.textContent=profileName||'Your profile';
- const saved=new Map(subjects.map(s=>[s.id,progressForSubject(s.id)]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>normalizeYearLevel(s.yearLevel)===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
+ const saved=new Map(records().map(x=>[x.id,x.data]));const visibleSubjects=selectedYear==='resources'?[]:subjects.filter(s=>(s.yearLevel||'YL1')===selectedYear);let total=0,answeredN=0,revealedN=0,correct=0,scored=0;const allTopics=new Set(),doneTopics=new Set();
  const glanceRows=[];
  const cards=visibleSubjects.map(s=>{
-  const qs=Array.isArray(dataBySubject.get(s.id))?dataBySubject.get(s.id):[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{};
-  // Bank-composed quiz questions may have bank-prefixed IDs that do not exist in the base subject JSON.
-  // Count saved activity directly so progress remains visible when a custom bank selection is used.
-  const ansIds=Object.keys(ans),revIds=Object.keys(rev);total+=qs.length;answeredN+=ansIds.length;revealedN+=revIds.length;
+  const qs=Array.isArray(dataBySubject.get(s.id))?dataBySubject.get(s.id):[],v=saved.get(s.id)||{},ans=v.answers&&typeof v.answers==='object'?v.answers:{},rev=v.revealed&&typeof v.revealed==='object'?v.revealed:{},ids=new Set(qs.map(q=>String(q.id)));
+  const ansIds=Object.keys(ans).filter(id=>ids.has(String(id))),revIds=Object.keys(rev).filter(id=>ids.has(String(id)));total+=qs.length;answeredN+=ansIds.length;revealedN+=revIds.length;
   qs.forEach(q=>{const tags=[...new Set([q.topic,...(Array.isArray(q.tags)?q.tags:[])].filter(Boolean))];tags.forEach(t=>{allTopics.add(s.id+'::'+t);if(ansIds.includes(String(q.id))||revIds.includes(String(q.id)))doneTopics.add(s.id+'::'+t)});if(ans[q.id]!==undefined&&Number.isInteger(q.correctAnswer)){scored++;if(ans[q.id]===q.correctAnswer)correct++}});
   const pct=qs.length?Math.round(ansIds.length/qs.length*100):0,has=ansIds.length||revIds.length,when=Number(v.savedAt)?'Saved '+new Date(Number(v.savedAt)).toLocaleDateString(undefined,{month:'short',day:'numeric'}):'No saved session yet';
-  glanceRows.push('<div class="dash-glance-row"><span class="dash-glance-emoji" aria-hidden="true">'+esc(s.icon||'📚')+'</span><span class="dash-glance-name">'+esc(s.name)+'</span><div class="dash-glance-track" role="progressbar" aria-label="'+esc(s.name)+' progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+pct+'"><span style="width:'+pct+'%"></span></div><span class="dash-glance-pct">'+pct+'%</span><span class="dash-glance-count">'+ansIds.length+' / '+qs.length+'</span><a class="dash-glance-link" href="subject-banks.html?subject='+encodeURIComponent(s.id)+'" aria-label="Open '+esc(s.name)+'">›</a></div>');
-  return '<article class="dash-subject-card"><div class="dash-subject-heading"><span class="dash-subject-icon">'+esc(s.icon)+'</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>'+ansIds.length+' of '+qs.length+' answered</p></div><span class="dash-subject-pct">'+pct+'%</span></div><div class="dash-progress-track"><span style="width:'+pct+'%"></span></div><div class="dash-subject-footer"><span>'+when+'</span><a href="subject-banks.html?subject='+encodeURIComponent(s.id)+'" class="dash-continue">'+(has?'Continue':'Start')+' <span aria-hidden="true">↗</span></a></div></article>';
+  glanceRows.push('<div class="dash-glance-row"><span class="dash-glance-emoji" aria-hidden="true">'+esc(s.icon||'📚')+'</span><span class="dash-glance-name">'+esc(s.name)+'</span><div class="dash-glance-track" role="progressbar" aria-label="'+esc(s.name)+' progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+pct+'"><span style="width:'+pct+'%"></span></div><span class="dash-glance-pct">'+pct+'%</span><span class="dash-glance-count">'+ansIds.length+' / '+qs.length+'</span><a class="dash-glance-link" href="quiz.html?subject='+encodeURIComponent(s.id)+'" aria-label="Open '+esc(s.name)+'">›</a></div>');
+  return '<article class="dash-subject-card"><div class="dash-subject-heading"><span class="dash-subject-icon">'+esc(s.icon)+'</span><div class="dash-subject-title"><h3>'+esc(s.name)+'</h3><p>'+ansIds.length+' of '+qs.length+' answered</p></div><span class="dash-subject-pct">'+pct+'%</span></div><div class="dash-progress-track"><span style="width:'+pct+'%"></span></div><div class="dash-subject-footer"><span>'+when+'</span><a href="quiz.html?subject='+encodeURIComponent(s.id)+'" class="dash-continue">'+(has?'Continue':'Start')+' <span aria-hidden="true">↗</span></a></div></article>';
  }).join('');
  const coverage=allTopics.size?Math.round(doneTopics.size/allTopics.size*100):0,answeredPct=total?Math.round(answeredN/total*100):0;
  const startedSubjects=visibleSubjects.filter(s=>{const v=saved.get(s.id)||{};return Object.keys(v.answers||{}).length||Object.keys(v.revealed||{}).length}).length;

@@ -203,10 +203,7 @@ function initializeQuizTimer() {
 
 
 function progressStorageKey(subjectId) {
-    const params = new URLSearchParams(window.location.search);
-    const bankIds = (params.get('banks') || '').split(',').filter(Boolean).sort();
-    const suffix = bankIds.length ? '::banks:' + bankIds.map(encodeURIComponent).join(',') : '';
-    return PROGRESS_STORAGE_PREFIX + encodeURIComponent(subjectId) + suffix;
+    return PROGRESS_STORAGE_PREFIX + encodeURIComponent(subjectId);
 }
 
 function recordStudyActivity(question) {
@@ -433,46 +430,7 @@ async function selectSubject(subjectId) {
     if (!response.ok) throw new Error(`Unable to load ${subject.name} questions.`);
     state.subject = subject;
     state.activeYear = subject.yearLevel || state.activeYear;
-    const baseQuestions = await response.json();
-    const params = new URLSearchParams(window.location.search);
-    const bankIds = (params.get('banks') || '').split(',').filter(Boolean);
-    if (bankIds.length) {
-        let customBanks = [];
-        try {
-            const savedBanks = JSON.parse(localStorage.getItem('studymats-user-banks-v1') || '[]');
-            customBanks = Array.isArray(savedBanks) ? savedBanks : [];
-        } catch (error) {
-            console.warn('StudyMats could not read imported banks.', error);
-        }
-        const includeBase = bankIds.includes('base-' + subject.id);
-        const sourceSlices = [];
-        if (bankIds.includes('ple2023')) sourceSlices.push(...baseQuestions.slice(0, 100).map((q, i) => ({ ...q, _sourceBankName: 'PLE Test Bank 2023', _sourceBankId: 'ple2023', id: 'ple2023::' + String(q.id || i) })));
-        if (bankIds.includes('ple2019')) sourceSlices.push(...baseQuestions.slice(100, 200).map((q, i) => ({ ...q, _sourceBankName: 'PLE Test Bank 2019', _sourceBankId: 'ple2019', id: 'ple2019::' + String(q.id || i + 100) })));
-        if (bankIds.includes('remaining')) sourceSlices.push(...baseQuestions.slice(200).map((q, i) => ({ ...q, _sourceBankName: 'Additional questions (201+)', _sourceBankId: 'remaining', id: 'remaining::' + String(q.id || i + 200) })));
-        const chosen = bankIds.map(id => customBanks.find(bank => bank.id === id)).filter(Boolean);
-        const included = chosen.flatMap(bank => (Array.isArray(bank.questions) ? bank.questions : [])
-            .filter(question => {
-                const subjectName = String(question.subject || '').toLowerCase();
-                const subjectIds = Array.isArray(bank.subjectIds) ? bank.subjectIds : [];
-                if (bank.scope === 'shared') return subjectIds.includes(subject.id) && (subjectName === subject.id.toLowerCase() || subjectName === subject.name.toLowerCase());
-                return subjectIds.includes(subject.id);
-            })
-            .map((question, index) => ({
-                ...question,
-                _sourceQuestionId: String(question.id || index),
-                id: String(bank.id) + '::' + String(question.id || index),
-                _sourceBankId: bank.id,
-                _sourceBankName: bank.name
-            })));
-        state.questions = [
-            ...(includeBase ? baseQuestions : []),
-            ...sourceSlices,
-            ...included
-        ];
-        if (!includeBase && !sourceSlices.length && !chosen.length) state.questions = baseQuestions;
-    } else {
-        state.questions = baseQuestions;
-    }
+    state.questions = await response.json();
     state.answers = {};
     state.revealed = {};
     state.currentIndex = 0;
@@ -694,7 +652,6 @@ function render() {
     $('questionContent').innerHTML = `
         <div class="q-meta"><span class="q-num">Q${state.currentIndex + 1}</span>
             <span class="q-json-id">ID: ${escapeHtml(question.id)}</span>
-            ${question._sourceBankName ? '<span class="tag">' + escapeHtml(question._sourceBankName) + '</span>' : ''}
             ${questionTags}
         </div>
         <div class="q-stem">${escapeHtml(question.question)}</div>

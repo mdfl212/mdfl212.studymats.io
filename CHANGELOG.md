@@ -1,16 +1,8 @@
 # Changelog
 
-## 2026-10-24
-- Fixed the dashboard At a Glance display by forcing a fresh dashboard script and refreshing the service-worker cache, preventing stale cached dashboard code from leaving the section empty.
-
 Notable user-facing changes to StudyMats. Dates reflect repository updates; entries describe the current development branch and may not yet be published to the default branch.
 
 ## 2026-10-24
-
-### Test-bank selection (in progress)
-- Added a subject-level bank picker for current JSON banks, legacy HTML reviewers, and user-imported JSON banks.
-- Added browser-local import storage with subject-only or shared-subject assignment; imports do not modify repository files or overwrite original banks.
-- Quiz launches can use selected imported banks and keep progress separate by bank selection.
 
 ### Dashboard and navigation
 - Removed the extra “Keep Your Momentum” kicker to reduce excess space above Daily Study Rhythm.
