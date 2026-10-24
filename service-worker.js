@@ -59,7 +59,7 @@ self.addEventListener("fetch", (event) => {
 
   // JSON and JavaScript are data-bearing application assets. Prefer the deployed
   // version so an old cached manifest or script cannot hide current subject data.
-  const isDataAsset = /\\.(?:json|js)(?:$|\\?)/i.test(url.pathname + url.search);
+  const isDataAsset = /\.(?:json|js)$/i.test(url.pathname);
   if (isDataAsset) {
     event.respondWith(
       fetch(request)
