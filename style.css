@@ -10056,3 +10056,71 @@ html[data-course="hub"] body[data-course="hub"] .dash-subject-card-compact .dash
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+
+/* Backup & portability should behave like the full-width What's changed banner */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard > #backupPanel {
+  grid-area: tools !important;
+  grid-column: 1 / -1 !important;
+  width: 100%;
+  min-width: 0;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between;
+  gap: 14px;
+  box-sizing: border-box;
+}
+html[data-course="hub"] body[data-course="hub"] #backupPanel > .dash-panel-heading {
+  flex: 0 0 auto;
+  min-width: max-content;
+  margin: 0;
+}
+html[data-course="hub"] body[data-course="hub"] #backupPanel > .dash-panel-heading > div {
+  display: block;
+}
+html[data-course="hub"] body[data-course="hub"] #backupPanel .dash-data-actions {
+  flex: 1 1 auto;
+  width: auto;
+  min-width: 0;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+}
+html[data-course="hub"] body[data-course="hub"] #backupPanel .dash-data-actions .dash-button {
+  flex: 0 0 auto;
+  width: auto;
+  white-space: nowrap;
+}
+html[data-course="hub"] body[data-course="hub"] #backupPanel .dash-data-message {
+  display: none;
+}
+@media (max-width: 680px) {
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > #backupPanel {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px;
+    overflow-x: auto;
+  }
+  html[data-course="hub"] body[data-course="hub"] #backupPanel > .dash-panel-heading {
+    min-width: max-content;
+  }
+  html[data-course="hub"] body[data-course="hub"] #backupPanel h2 {
+    font-size: 10px;
+  }
+  html[data-course="hub"] body[data-course="hub"] #backupPanel .dash-data-actions {
+    width: auto;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-wrap: nowrap !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] #backupPanel .dash-data-actions .dash-button {
+    width: auto;
+    padding: 5px 6px;
+    font-size: 8px;
+  }
+}
