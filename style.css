@@ -10124,3 +10124,47 @@ html[data-course="hub"] body[data-course="hub"] #backupPanel .dash-data-message 
     font-size: 8px;
   }
 }
+
+
+/* Subject dropdown and study-rhythm alignment polish (Oct 2026). */
+/* Keep Subject Progress as a native dropdown, closed until the user opens it.
+   Explicit display rules prevent the subject list from escaping the closed <details>. */
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown:not([open]) > #dashSubjectList {
+  display: none !important;
+}
+html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown[open] > #dashSubjectList {
+  display: grid !important;
+}
+
+/* The activity panel shares the progress row. Let its calendar occupy and center
+   the flexible space while the summary metrics remain neatly anchored below. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel {
+    align-self: stretch;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > #dashHeatmap {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > .dash-legend,
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > .dash-activity-stats,
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > .dash-data-caption {
+    flex: 0 0 auto;
+  }
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > .dash-activity-stats {
+    margin-top: auto;
+  }
+}
+
+/* On narrower layouts the panels stack, so don't create artificial vertical space. */
+@media (max-width: 1100px) {
+  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > #dashHeatmap {
+    display: block;
+  }
+}
