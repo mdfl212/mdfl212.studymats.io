@@ -11023,3 +11023,116 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
 body[data-course="quiz"] .table-scroll {
   max-width: 100%;
 }
+
+
+/* Quiz timer: reduce mobile height and prevent controls from stretching the layout. */
+@media (max-width: 700px) {
+  body[data-course="quiz"] .quiz-timer-panel {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    gap: 6px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 5px 7px !important;
+    margin: 0 0 6px !important;
+    border-radius: 9px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-clock {
+    flex: 0 0 auto !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-controls {
+    display: flex !important;
+    flex: 0 1 auto !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex-wrap: nowrap !important;
+    gap: 3px !important;
+    min-width: 0 !important;
+    width: auto !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-duration {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-duration input {
+    width: 31px !important;
+    height: 24px !important;
+    min-height: 0 !important;
+    padding: 2px 3px !important;
+    font-size: 9px !important;
+    line-height: 1 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-quick-add {
+    display: none !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 2px !important;
+    min-width: 0 !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions .btn {
+    min-width: 0 !important;
+    min-height: 24px !important;
+    padding: 4px 5px !important;
+    border-radius: 6px !important;
+    font-size: 8px !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="quiz"] #timerResetButton {
+    width: 24px !important;
+    min-width: 24px !important;
+    padding: 3px !important;
+    font-size: 12px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-expired {
+    flex: 1 1 100% !important;
+    min-width: 0 !important;
+    font-size: 9px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-expired span {
+    font-size: 9px !important;
+    line-height: 1.2 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  body[data-course="quiz"] .quiz-timer-panel {
+    gap: 4px !important;
+    padding: 5px 6px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-clock {
+    font-size: 11px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-duration input {
+    width: 27px !important;
+    font-size: 8px !important;
+  }
+
+  body[data-course="quiz"] .quiz-timer-actions .btn {
+    padding: 4px !important;
+    font-size: 7px !important;
+  }
+}
