@@ -13515,3 +13515,46 @@ html[data-course="hub"][data-theme="light"] body[data-course="hub"] nav.mobile-b
   color: #17643a !important;
   -webkit-text-fill-color: #17643a !important;
 }
+
+
+/* Desktop light-mode search correction; phone layout remains unchanged. */
+@media (min-width: 701px) {
+  html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .topbar-search {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    border-color: #dce5dc !important;
+    box-shadow: 0 1px 3px rgba(25,55,32,.045) !important;
+  }
+  html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .topbar-search > span {
+    color: #526257 !important;
+  }
+  html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .topbar-search input,
+  html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .topbar-search input:focus,
+  html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .topbar-search input:focus-visible {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #1b2b20 !important;
+    -webkit-text-fill-color: #1b2b20 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+  html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .topbar-search input::placeholder {
+    color: #647267 !important;
+    -webkit-text-fill-color: #647267 !important;
+  }
+  html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .topbar-search kbd {
+    color: #526257 !important;
+    background: #f3f6f2 !important;
+    border-color: #dce5dc !important;
+  }
+
+  /* Keep one rounded focus indicator on the field wrapper, not a sharp box
+     around the native input itself. */
+  html[data-course="hub"] body[data-course="hub"] .question-search-dialog .qs-search-box input:focus,
+  html[data-course="hub"] body[data-course="hub"] .question-search-dialog .qs-search-box input:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+}
