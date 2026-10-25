@@ -282,7 +282,7 @@
           document.querySelector('[data-mobile-quiz]')?.addEventListener('click', event => openModal('quiz', event.currentTarget));
           document.querySelector('[data-mobile-search]')?.addEventListener('click', () => {
             const searchInput = document.getElementById('dashboardSearch');
-            if (searchInput) searchInput.focus();
+            if (searchInput) searchInput.click();
             else document.getElementById('questionSearchInput')?.focus();
           });
           document.querySelectorAll('.wrapper > .hub-year-row .hub-pill').forEach(button => {
