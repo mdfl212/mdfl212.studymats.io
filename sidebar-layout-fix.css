@@ -167,3 +167,32 @@
     margin-bottom: 0 !important;
   }
 }
+
+
+/* Final authoritative desktop layout fix.
+   This file loads after style.css, so keep the sidebar offset here to prevent
+   later rules from reintroducing the large empty gutter. */
+@media (min-width: 701px) {
+  html[data-course="hub"] body[data-course="hub"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] > main.wrapper {
+    display: block !important;
+    box-sizing: border-box !important;
+    margin-left: 208px !important;
+    margin-right: 0 !important;
+    width: calc(100% - 208px) !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    padding: 0 12px 8px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed > main.wrapper {
+    margin-left: 64px !important;
+    width: calc(100% - 64px) !important;
+  }
+}
