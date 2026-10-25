@@ -13465,3 +13465,53 @@ html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-nav-
 @media (max-width: 700px) {
   body[data-course="hub"] .wrapper { padding-left:clamp(10px,3vw,16px); padding-right:clamp(10px,3vw,16px); }
 }
+
+
+/* Targeted light-theme contrast repair: primary dashboard action and mobile nav.
+   Keep ordinary dashboard links green while primary filled buttons use white text. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions .dash-button:not(.dash-button-quiet),
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions a.dash-button:not(.dash-button-quiet) {
+  background: #17643a !important;
+  background-image: none !important;
+  border-color: #17643a !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions .dash-button:not(.dash-button-quiet) *,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions a.dash-button:not(.dash-button-quiet) * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions .dash-button:not(.dash-button-quiet):hover,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions a.dash-button:not(.dash-button-quiet):hover {
+  background: #14532f !important;
+  border-color: #14532f !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions .dash-button:not(.dash-button-quiet):focus-visible,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome-actions a.dash-button:not(.dash-button-quiet):focus-visible {
+  outline: 3px solid #b88a19 !important;
+  outline-offset: 3px;
+}
+
+/* Ensure the fixed mobile navigation follows the selected light theme. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] nav.mobile-bottom-nav,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav {
+  background: rgba(255,255,255,.98) !important;
+  background-color: rgba(255,255,255,.98) !important;
+  border-top: 1px solid #dce5dc !important;
+  box-shadow: 0 -3px 12px rgba(25,55,32,.06) !important;
+  color: #526257 !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] nav.mobile-bottom-nav .mobile-nav-item,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] nav.mobile-bottom-nav .mobile-nav-item :where(span,small,svg),
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav :where(a,button) {
+  color: #526257 !important;
+  -webkit-text-fill-color: #526257 !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] nav.mobile-bottom-nav .mobile-nav-item.is-current,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] nav.mobile-bottom-nav .mobile-nav-item.is-current :where(span,small,svg) {
+  color: #17643a !important;
+  -webkit-text-fill-color: #17643a !important;
+}
