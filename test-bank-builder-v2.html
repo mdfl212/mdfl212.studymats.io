@@ -167,9 +167,9 @@ function updateWorkspace(){
 }
 function renderChoices(){
   $('choices').innerHTML=state.options.map((v,i)=>'<div class="choice '+(state.correct===i?'correct':'')+'"><span class="choice-letter">'+String.fromCharCode(65+i)+'</span><input type="text" data-option="'+i+'" aria-label="Answer choice '+String.fromCharCode(65+i)+'" placeholder="Write answer choice…" value="'+esc(v)+'"><input type="radio" name="correctAnswer" data-correct="'+i+'" aria-label="Mark choice '+String.fromCharCode(65+i)+' correct" '+(state.correct===i?'checked':'')+'><span class="correct-mark" aria-hidden="true">✓</span><button class="remove-choice" type="button" data-remove="'+i+'" aria-label="Remove answer choice '+String.fromCharCode(65+i)+'">×</button></div>').join('');
-  $('choices').querySelectorAll('[data-option]').forEach(el=>el.oninput=()=>{state.options[+el.dataset.option]=el.value;preview();setDirty()});
-  $('choices').querySelectorAll('[data-correct]').forEach(el=>el.onchange=()=>{state.correct=+el.dataset.correct;renderChoices();preview();setDirty()});
-  $('choices').querySelectorAll('[data-remove]').forEach(el=>el.onclick=()=>{if(state.options.length<=2)return;const i=+el.dataset.remove;state.options.splice(i,1);if(state.correct===i)state.correct=0;else if(state.correct>i)state.correct--;renderChoices();preview();setDirty()});
+  $('choices').querySelectorAll('[data-option]').forEach(el=>el.oninput=()=>{state.options[+el.dataset.option]=el.value;preview();setDirty();autoSave()});
+  $('choices').querySelectorAll('[data-correct]').forEach(el=>el.onchange=()=>{state.correct=+el.dataset.correct;renderChoices();preview();setDirty();autoSave()});
+  $('choices').querySelectorAll('[data-remove]').forEach(el=>el.onclick=()=>{if(state.options.length<=2)return;const i=+el.dataset.remove;state.options.splice(i,1);if(state.correct===i)state.correct=0;else if(state.correct>i)state.correct--;renderChoices();preview();setDirty();autoSave()});
 }
 function preview(){
   const stem=$('questionStem').value.trim();$('previewQuestion').textContent=stem||'Your question will appear here.';$('previewChoices').innerHTML=state.options.map((v,i)=>'<div class="preview-option"><span class="preview-letter">'+String.fromCharCode(65+i)+'.</span><span>'+esc(v||'(empty choice)')+'</span></div>').join('');$('previewAnswer').textContent='Correct answer: '+String.fromCharCode(65+state.correct)+(state.options[state.correct]?' · '+state.options[state.correct]:'')+($('rationale').value.trim()?' — '+$('rationale').value.trim():'');$('previewBox').classList.toggle('show-key',state.previewKey);
@@ -191,8 +191,8 @@ function renderDraftList(){
   $('draftList').querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>removeQuestion(+b.dataset.delete));
   updateWorkspace();
 }
-function moveQuestion(i,delta){const j=i+delta;if(j<0||j>=state.draft.length)return;[state.draft[i],state.draft[j]]=[state.draft[j],state.draft[i]];if(state.editing===i)state.editing=j;else if(state.editing===j)state.editing=i;renderDraftList();setDirty()}
-function removeQuestion(i){if(!confirm('Remove this question from the current draft? The original subject bank will not be changed.'))return;state.draft.splice(i,1);if(state.editing===i)clearEditor();else if(state.editing!==null&&state.editing>i)state.editing--;renderDraftList();renderReview();setDirty()}
+function moveQuestion(i,delta){const j=i+delta;if(j<0||j>=state.draft.length)return;[state.draft[i],state.draft[j]]=[state.draft[j],state.draft[i]];if(state.editing===i)state.editing=j;else if(state.editing===j)state.editing=i;renderDraftList();setDirty();autoSave()}
+function removeQuestion(i){if(!confirm('Remove this question from the current draft? The original subject bank will not be changed.'))return;state.draft.splice(i,1);if(state.editing===i)clearEditor();else if(state.editing!==null&&state.editing>i)state.editing--;renderDraftList();renderReview();setDirty();autoSave()}
 function saveQuestion(){
   const q=readEditor();if(!q.id)q.id=uniqueId((state.selectedSubject||'QUESTION').toUpperCase().replace(/[^A-Z0-9]+/g,'-'));
   const otherIds=new Set(state.draft.filter((_,i)=>i!==state.editing).map(x=>x.id));const errors=validation(q,otherIds);
@@ -269,9 +269,9 @@ $('getStarted').onclick=()=>showScreen('subject');
 $('resumeDraft').onclick=()=>loadDraft(true);
 $('subjectContinue').onclick=()=>{if(!state.selectedSubject){alert('Choose a destination subject first.');return}showScreen('method')};
 document.querySelectorAll('[data-method]').forEach(b=>b.onclick=()=>setMethod(b.dataset.method));
-$('newQuestion').onclick=$('railAdd').onclick=()=>{clearEditor();$('questionStem').focus({preventScroll:true})};
+$('newQuestion').onclick=$('railAdd').onclick=()=>{clearEditor();$('questionStem').focus({preventScroll:true});autoSave()};
 $('cancelEdit').onclick=clearEditor;
-$('addChoice').onclick=()=>{if(state.options.length>=8){say('validationStatus','A question can have at most 8 choices.','warn');return}state.options.push('');renderChoices();preview();setDirty()};
+$('addChoice').onclick=()=>{if(state.options.length>=8){say('validationStatus','A question can have at most 8 choices.','warn');return}state.options.push('');renderChoices();preview();setDirty();autoSave()};
 $('saveQuestion').onclick=saveQuestion;
 ['questionStem','rationale','questionTopic','questionSource','questionId','questionImage','questionTags','questionDifficulty','defaultTopic','defaultDifficulty','bankTitle','filename'].forEach(id=>$(id).addEventListener('input',()=>{preview();setDirty();if(id==='bankTitle')updateWorkspace();autoSave()}));
 $('toggleAnswerPreview').onclick=()=>{state.previewKey=!state.previewKey;$('toggleAnswerPreview').textContent=state.previewKey?'Hide answer key':'Author review';preview()};
