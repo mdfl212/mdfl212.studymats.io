@@ -306,6 +306,37 @@ a{color:var(--accent)}
 .workflow-detail{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:16px;margin-top:12px;padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}.workflow-detail-main{min-width:0}.workflow-detail-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:6px}.workflow-detail h3{margin:0;font-size:14px;line-height:1.4}.workflow-status{display:inline-flex;padding:3px 7px;border-radius:6px;background:var(--paper-2);color:var(--muted);font-size:9px;font-weight:750}.workflow-status[data-status=complete]{background:var(--good-bg);color:var(--good)}.workflow-status[data-status=warning]{background:var(--warn-bg);color:var(--warn)}.workflow-status[data-status=blocked]{background:var(--bad-bg);color:var(--bad)}.workflow-detail p{margin:0;color:var(--muted);font-size:11px;line-height:1.7}.workflow-detail-meta{margin-top:8px!important}.workflow-detail-actions{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end;max-width:230px}.workflow-detail-actions .btn{min-height:34px;padding:7px 10px;font-size:10px}.workflow-counts{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.workflow-count{padding:5px 8px;border:1px solid var(--line);border-radius:7px;background:var(--page);color:var(--muted);font-size:10px}.workflow-count strong{color:var(--ink)}
 @media(max-width:760px){.workflow-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.workflow-detail{grid-template-columns:minmax(0,1fr)}.workflow-detail-actions{justify-content:flex-start;max-width:none}}@media(max-width:420px){.conversion-workflow{padding:12px}.workflow-steps{grid-template-columns:minmax(0,1fr)}.workflow-step{min-height:0;padding:10px}.workflow-detail{padding:12px}.workflow-detail-actions .btn{flex:1}}
 
+
+/* Animated modal workflow with connected, theme-aware SVG flowchart. */
+.workflow-backdrop{position:fixed;inset:0;z-index:1000;background:rgba(5,10,22,.68);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);animation:workflowFadeIn .2s ease both}
+.conversion-workflow{position:fixed;z-index:1001;inset:clamp(10px,4vh,34px) clamp(10px,4vw,48px);width:auto;max-width:1120px;margin:auto;max-height:92dvh;overflow:auto;overscroll-behavior:contain;padding:clamp(14px,2.5vw,26px);border:1px solid var(--line);border-radius:20px;background:var(--paper);box-shadow:0 28px 100px rgba(0,0,0,.38);transform-origin:center;animation:workflowPopIn .28s cubic-bezier(.2,.8,.2,1) both}
+.conversion-workflow[hidden],.workflow-backdrop[hidden]{display:none!important}
+.conversion-workflow-head{position:relative;padding-right:38px}
+.conversion-workflow-head:after{content:"Esc to close";position:absolute;right:0;top:0;color:var(--muted);font:10px "JetBrains Mono",monospace}
+.workflow-diagram-scroll{width:100%;overflow-x:auto;overscroll-behavior-x:contain;padding:8px 2px 12px;scrollbar-width:thin}
+.workflow-diagram{display:block;width:100%;height:auto;min-width:680px;max-height:46vh;min-height:245px;overflow:visible}
+.workflow-node{cursor:pointer;outline:none}
+.workflow-node rect{fill:var(--paper);stroke:var(--line);stroke-width:1.6;filter:drop-shadow(0 2px 4px rgba(0,0,0,.10));transition:stroke .16s,fill .16s,filter .16s}
+.workflow-node polygon{fill:var(--warn-bg);stroke:var(--warn);stroke-width:1.6;filter:drop-shadow(0 2px 4px rgba(0,0,0,.08));transition:stroke .16s,fill .16s,filter .16s}
+.workflow-node .wf-number{font:600 10px "JetBrains Mono",monospace;fill:var(--accent)}
+.workflow-node .wf-title{font:600 11px Inter,system-ui,sans-serif;fill:var(--ink)}
+.workflow-node .wf-sub{font:9px "JetBrains Mono",monospace;fill:var(--muted)}
+.workflow-node .wf-gate{font:600 10px Inter,system-ui,sans-serif;fill:var(--warn)}
+.workflow-node:hover rect,.workflow-node:focus-visible rect,.workflow-node[aria-pressed=true] rect{stroke:var(--accent);stroke-width:2.5;fill:var(--accent-soft);filter:drop-shadow(0 3px 7px rgba(0,0,0,.17))}
+.workflow-node:hover polygon,.workflow-node:focus-visible polygon,.workflow-node[aria-pressed=true] polygon{stroke:var(--warn);stroke-width:2.8;filter:drop-shadow(0 3px 7px rgba(0,0,0,.16))}
+.workflow-node[data-status=complete] rect{stroke:var(--good)}.workflow-node[data-status=warning] rect{stroke:var(--warn)}.workflow-node[data-status=blocked] rect{stroke:var(--bad)}
+.workflow-node[data-status=complete] .wf-number{fill:var(--good)}.workflow-node[data-status=warning] .wf-number{fill:var(--warn)}.workflow-node[data-status=blocked] .wf-number{fill:var(--bad)}
+.workflow-node[data-status=complete] polygon{fill:var(--good-bg);stroke:var(--good)}.workflow-node[data-status=warning] polygon{fill:var(--warn-bg);stroke:var(--warn)}.workflow-node[data-status=blocked] polygon{fill:var(--bad-bg);stroke:var(--bad)}
+.workflow-connectors path{stroke-dasharray:6 5;animation:workflowLineFlow 1.5s linear infinite}
+.workflow-detail{animation:workflowDetailIn .2s ease both}
+#workflowSecondaryAction{margin-left:auto}
+@keyframes workflowFadeIn{from{opacity:0}to{opacity:1}}
+@keyframes workflowPopIn{from{opacity:0;transform:translateY(12px) scale(.965)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes workflowDetailIn{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@keyframes workflowLineFlow{to{stroke-dashoffset:-22}}
+@media(max-width:600px){.conversion-workflow{inset:8px;max-height:calc(100dvh - 16px);border-radius:15px;padding:14px}.workflow-diagram{min-width:660px;max-height:34vh;min-height:220px}.conversion-workflow-head:after{font-size:9px}.workflow-detail{grid-template-columns:minmax(0,1fr)}.workflow-detail-actions{justify-content:stretch;max-width:none}.workflow-detail-actions .btn{flex:1}}
+@media(prefers-reduced-motion:reduce){.workflow-backdrop,.conversion-workflow,.workflow-detail{animation:none!important}.workflow-connectors path{animation:none!important}}
+
 </style>
 </head>
 <body>
@@ -338,19 +369,25 @@ a{color:var(--accent)}
     <span class="converter-coming-soon">Direct in-page conversion for Word/PDF files · Coming soon</span>
   </div>
 </section>
-<section class="conversion-workflow" id="conversionWorkflow" aria-labelledby="conversionWorkflowTitle" hidden>
+<div class="workflow-backdrop" id="workflowBackdrop" hidden></div>
+<section class="conversion-workflow" id="conversionWorkflow" role="dialog" aria-modal="true" aria-labelledby="conversionWorkflowTitle" hidden>
 <div class="conversion-workflow-head"><div><div class="eyebrow">SAFE IMPORT · 7 STEPS · 2 DECISION GATES</div><h2 id="conversionWorkflowTitle">Conversion workflow</h2><p>Follow each stage from source inventory to reviewed import. Select a step for its checks and next action. Statuses reflect the real JSON import preview; no success is simulated.</p></div></div>
 <div class="workflow-legend" aria-label="Workflow status legend"><span><i class="wf-good"></i>Complete</span><span><i class="wf-warn"></i>Warning</span><span><i class="wf-review"></i>Review required</span><span><i class="wf-bad"></i>Blocked</span></div>
-<div class="workflow-steps" role="group" aria-label="Conversion workflow steps">
-<button class="workflow-step" type="button" data-workflow-step="0" aria-pressed="true" data-status="current"><span class="workflow-step-number">01</span><span class="workflow-step-copy"><strong>Inventory source</strong><small>Format, records, answer key, media</small></span></button>
-<button class="workflow-step" type="button" data-workflow-step="1" data-gate="true" aria-pressed="false" data-status="pending"><span class="workflow-step-number">◇</span><span class="workflow-step-copy"><strong>Format check</strong><small>Can this source be processed?</small></span></button>
-<button class="workflow-step" type="button" data-workflow-step="2" aria-pressed="false" data-status="pending"><span class="workflow-step-number">03</span><span class="workflow-step-copy"><strong>Map fields</strong><small>Aliases and question schema</small></span></button>
-<button class="workflow-step" type="button" data-workflow-step="3" aria-pressed="false" data-status="pending"><span class="workflow-step-number">04</span><span class="workflow-step-copy"><strong>Convert conservatively</strong><small>Preserve; flag; never infer</small></span></button>
-<button class="workflow-step" type="button" data-workflow-step="4" aria-pressed="false" data-status="pending"><span class="workflow-step-number">05</span><span class="workflow-step-copy"><strong>Validate structure</strong><small>Syntax, fields, IDs, answers</small></span></button>
-<button class="workflow-step" type="button" data-workflow-step="5" aria-pressed="false" data-status="pending"><span class="workflow-step-number">06</span><span class="workflow-step-copy"><strong>Reconcile &amp; report</strong><small>Every record accounted for</small></span></button>
-<button class="workflow-step" type="button" data-workflow-step="6" data-gate="true" aria-pressed="false" data-status="pending"><span class="workflow-step-number">◇</span><span class="workflow-step-copy"><strong>Human review</strong><small>Resolve issues before proceeding</small></span></button>
-<button class="workflow-step" type="button" data-workflow-step="7" aria-pressed="false" data-status="pending"><span class="workflow-step-number">07</span><span class="workflow-step-copy"><strong>Confirm import</strong><small>Explicit confirmation only</small></span></button>
-</div>
+<div class="workflow-diagram-scroll" role="region" aria-label="Conversion flowchart; scroll horizontally on narrow screens" tabindex="0">
+<svg class="workflow-diagram" viewBox="0 0 900 340" role="group" aria-label="Eight-stage conversion flow with two decision gates">
+<defs><marker id="workflowArrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,.5 L0,5.5 L6,3 z" fill="var(--muted)"/></marker></defs>
+<g class="workflow-connectors" fill="none" stroke="var(--line)" stroke-width="1.8" marker-end="url(#workflowArrow)">
+<path d="M138 86H166"/><path d="M242 86H266"/><path d="M374 86H402"/><path d="M510 86H538"/><path d="M646 86C710 86 710 250 646 250"/><path d="M538 250H418"/><path d="M310 250H278"/><path d="M206 250H140"/>
+</g>
+<g class="workflow-node" data-workflow-step="0" tabindex="0" role="button" aria-label="Step 1: Inventory source" aria-pressed="true" data-status="current"><rect x="30" y="46" width="108" height="80" rx="7"/><text class="wf-number" x="42" y="64">01</text><text class="wf-title" x="84" y="80" text-anchor="middle">Inventory</text><text class="wf-title" x="84" y="94" text-anchor="middle">source</text><text class="wf-sub" x="84" y="110" text-anchor="middle">format · records</text></g>
+<g class="workflow-node workflow-gate" data-workflow-step="1" data-gate="true" tabindex="0" role="button" aria-label="Decision gate: Format check" aria-pressed="false" data-status="pending"><polygon points="204,50 240,86 204,122 168,86"/><text class="wf-gate" x="204" y="82" text-anchor="middle">Format</text><text class="wf-gate" x="204" y="94" text-anchor="middle">OK?</text></g>
+<g class="workflow-node" data-workflow-step="2" tabindex="0" role="button" aria-label="Step 2: Map fields" aria-pressed="false" data-status="pending"><rect x="266" y="46" width="108" height="80" rx="7"/><text class="wf-number" x="278" y="64">02</text><text class="wf-title" x="320" y="82" text-anchor="middle">Map fields</text><text class="wf-sub" x="320" y="101" text-anchor="middle">schema · aliases</text></g>
+<g class="workflow-node" data-workflow-step="3" tabindex="0" role="button" aria-label="Step 3: Convert conservatively" aria-pressed="false" data-status="pending"><rect x="402" y="46" width="108" height="80" rx="7"/><text class="wf-number" x="414" y="64">03</text><text class="wf-title" x="456" y="78" text-anchor="middle">Convert</text><text class="wf-title" x="456" y="92" text-anchor="middle">carefully</text><text class="wf-sub" x="456" y="110" text-anchor="middle">preserve · flag</text></g>
+<g class="workflow-node" data-workflow-step="4" tabindex="0" role="button" aria-label="Step 4: Validate structure" aria-pressed="false" data-status="pending"><rect x="538" y="46" width="108" height="80" rx="7"/><text class="wf-number" x="550" y="64">04</text><text class="wf-title" x="592" y="80" text-anchor="middle">Validate</text><text class="wf-title" x="592" y="94" text-anchor="middle">structure</text><text class="wf-sub" x="592" y="110" text-anchor="middle">syntax · fields</text></g>
+<g class="workflow-node" data-workflow-step="5" tabindex="0" role="button" aria-label="Step 5: Reconcile and report" aria-pressed="false" data-status="pending"><rect x="538" y="210" width="108" height="80" rx="7"/><text class="wf-number" x="550" y="228">05</text><text class="wf-title" x="592" y="244" text-anchor="middle">Reconcile</text><text class="wf-title" x="592" y="258" text-anchor="middle">and report</text><text class="wf-sub" x="592" y="276" text-anchor="middle">counts · losses</text></g>
+<g class="workflow-node workflow-gate" data-workflow-step="6" data-gate="true" tabindex="0" role="button" aria-label="Decision gate: Human review" aria-pressed="false" data-status="pending"><polygon points="242,214 278,250 242,286 206,250"/><text class="wf-gate" x="242" y="246" text-anchor="middle">Human</text><text class="wf-gate" x="242" y="258" text-anchor="middle">review?</text></g>
+<g class="workflow-node" data-workflow-step="7" tabindex="0" role="button" aria-label="Step 7: Confirm import" aria-pressed="false" data-status="pending"><rect x="32" y="210" width="108" height="80" rx="7"/><text class="wf-number" x="44" y="228">07</text><text class="wf-title" x="86" y="246" text-anchor="middle">Confirm</text><text class="wf-title" x="86" y="260" text-anchor="middle">import</text><text class="wf-sub" x="86" y="278" text-anchor="middle">after review</text></g>
+</svg></div>
 <section class="workflow-detail" aria-live="polite" aria-atomic="true" aria-labelledby="workflowDetailTitle"><div class="workflow-detail-main"><div class="workflow-detail-top"><h3 id="workflowDetailTitle">01 · Inventory source</h3><span class="workflow-status" id="workflowDetailStatus" data-status="current">Ready to begin</span></div><p id="workflowDetailBody">Identify file type, record count, answer-key convention, choice order, and available media. The in-page import path accepts JSON; other formats need preprocessing or the external converter.</p><p class="workflow-detail-meta" id="workflowDetailMeta">Checks: readable JSON and recognized question collection. Next: choose a JSON bank to open its actual validation preview.</p><div class="workflow-counts" id="workflowCounts" hidden></div></div><div class="workflow-detail-actions"><button class="btn primary" type="button" id="workflowPrimaryAction">Choose JSON file</button><button class="btn" id="workflowSecondaryAction" type="button" aria-controls="conversionWorkflow">Hide workflow ↑</button></div></section>
 </section>
 <div class="inline-note">Works with your existing StudyMats subjects and question-bank schema. Drafts are stored locally on this device.</div>
@@ -449,19 +486,21 @@ const workflowSteps=[
 let workflowActiveStep=0,workflowImportState={fileName:'',total:0,valid:0,invalid:0,issues:0,loaded:false,imported:0,blocked:false};
 function renderWorkflow(){
  const nodes=[...document.querySelectorAll('[data-workflow-step]')],d=workflowSteps[workflowActiveStep];if(!d)return;
- const st=nodes.map(()=>({status:'pending',label:'Not started'}));st[0]={status:workflowImportState.loaded?'complete':'current',label:workflowImportState.loaded?'Source identified':'Ready to begin'};
+ const st=workflowSteps.map(()=>({status:'pending',label:'Not started'}));st[0]={status:workflowImportState.loaded?'complete':'current',label:workflowImportState.loaded?'Source identified':'Ready to begin'};
  if(workflowImportState.blocked){for(let i=1;i<8;i++)st[i]={status:'blocked',label:'Blocked'}}
  else if(workflowImportState.loaded){st[1]={status:'complete',label:'Format accepted'};st[2]={status:workflowImportState.valid?'complete':'warning',label:workflowImportState.valid?'Fields mapped':'Needs attention'};st[3]={status:'complete',label:'Conservative mapping'};st[4]={status:workflowImportState.invalid?'warning':'complete',label:workflowImportState.invalid?'Warnings found':'Checks passed'};st[5]={status:workflowImportState.invalid?'warning':'complete',label:workflowImportState.invalid?'Records need review':'Counts reconciled'};st[6]={status:workflowImportState.invalid||workflowImportState.issues?'warning':'current',label:workflowImportState.invalid||workflowImportState.issues?'Review warnings':'Review before import'};st[7]={status:workflowImportState.imported?'complete':'current',label:workflowImportState.imported?'Import completed':'Confirmation required'}}
- nodes.forEach((el,i)=>{el.dataset.status=st[i].status;el.setAttribute('aria-pressed',String(i===workflowActiveStep));const n=el.querySelector('.workflow-step-number');if(n)n.textContent=el.dataset.gate==='true'?'◇':String(i===7?7:i+1).padStart(2,'0')});
+ nodes.forEach(el=>{const i=Number(el.dataset.workflowStep);if(!Number.isInteger(i)||!st[i])return;el.dataset.status=st[i].status;el.setAttribute('aria-pressed',String(i===workflowActiveStep));});
  $('workflowDetailTitle').textContent=String(workflowActiveStep===7?7:workflowActiveStep+1).padStart(2,'0')+' · '+d.title;$('workflowDetailBody').textContent=d.body;$('workflowDetailMeta').textContent=d.meta;$('workflowDetailStatus').textContent=st[workflowActiveStep].label;$('workflowDetailStatus').dataset.status=st[workflowActiveStep].status;
  const p=$('workflowPrimaryAction');p.textContent=d.action;p.dataset.action=d.type;p.disabled=workflowImportState.blocked&&workflowActiveStep!==0;
  const a=$('workflowSecondaryAction');a.hidden=workflowActiveStep===3;a.textContent='Hide workflow ↑';
  const c=$('workflowCounts');if(workflowImportState.loaded){c.hidden=false;c.innerHTML='<span class="workflow-count"><strong>'+workflowImportState.total+'</strong> source records</span><span class="workflow-count"><strong>'+workflowImportState.valid+'</strong> usable</span><span class="workflow-count"><strong>'+workflowImportState.invalid+'</strong> invalid / skipped</span><span class="workflow-count"><strong>'+workflowImportState.issues+'</strong> review notes</span>'}else{c.hidden=true;c.textContent=''}
 }
-document.querySelectorAll('[data-workflow-step]').forEach(el=>el.addEventListener('click',()=>{workflowActiveStep=Number(el.dataset.workflowStep);renderWorkflow()}));
-const workflowPanel=$('conversionWorkflow'),workflowToggle=$('toggleConversionWorkflow');
-function setWorkflowVisible(visible){workflowPanel.hidden=!visible;workflowToggle.setAttribute('aria-expanded',String(visible));workflowToggle.textContent=visible?'Hide workflow ↑':'How it works ↓';if(visible)workflowPanel.scrollIntoView({behavior:'smooth',block:'start'});else workflowToggle.scrollIntoView({behavior:'smooth',block:'nearest'});}
+const workflowPanel=$('conversionWorkflow'),workflowToggle=$('toggleConversionWorkflow'),workflowBackdrop=$('workflowBackdrop');
+function setWorkflowVisible(visible){workflowPanel.hidden=!visible;workflowBackdrop.hidden=!visible;workflowToggle.setAttribute('aria-expanded',String(visible));if(visible){renderWorkflow();const first=workflowPanel.querySelector('[data-workflow-step="0"]');if(first)first.focus({preventScroll:true});}else workflowToggle.focus({preventScroll:true});}
 workflowToggle.addEventListener('click',()=>setWorkflowVisible(workflowPanel.hidden));
+workflowBackdrop.addEventListener('click',()=>setWorkflowVisible(false));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!workflowPanel.hidden)setWorkflowVisible(false);});
+document.querySelectorAll('[data-workflow-step]').forEach(el=>{el.addEventListener('click',()=>{workflowActiveStep=Number(el.dataset.workflowStep);renderWorkflow();});el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click();}});});
 $('workflowSecondaryAction').addEventListener('click',()=>setWorkflowVisible(false));
 $('workflowPrimaryAction').addEventListener('click',()=>{const d=workflowSteps[workflowActiveStep];if(d.type==='link'){window.open(d.href,'_blank','noopener');return}if($('importBankWelcome'))$('importBankWelcome').click()});
 
