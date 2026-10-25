@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f6f8fc">
-<title>StudyMats — Test Bank Maker</title>
+<meta name="theme-color" content="#121212">
+<title>StudyMats — Test Bank Builder</title>
 <link rel="icon" href="assets/studymats-mark.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -244,19 +244,72 @@ button,.btn,a,input,select,textarea{touch-action:manipulation}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @supports not (background:color-mix(in srgb,white,transparent)){.topbar{background:var(--paper)}}
 
+
+/* StudyMats shared brand alignment: forest green, antique gold, warm white, and true charcoal. */
+:root{
+ color-scheme:dark;
+ --page:#121212;--paper:#1e1e1e;--paper-2:#262626;--ink:#f0f0f0;--muted:#a8a8a8;--line:#383838;
+ --accent:#e5c158;--accent-hover:#f3e5ab;--accent-ink:#171717;--accent-soft:rgba(229,193,88,.15);--navy:#090909;
+ --warn:#f4ca70;--warn-bg:#3a2e1b;--bad:#ffaaa4;--bad-bg:#3b2229;--good:#83ddb0;--good-bg:#183b31;
+ --shadow:0 18px 55px rgba(0,0,0,.24);--shadow-soft:0 8px 24px rgba(0,0,0,.16);--radius:14px;
+ --focus:0 0 0 3px rgba(229,193,88,.28);font-family:"Source Serif 4",Georgia,serif
+}
+:root[data-theme=light]{
+ color-scheme:light;
+ --page:#fff;--paper:#faf8f5;--paper-2:#f4efe7;--ink:#1a2e1a;--muted:#3d5a3d;--line:#d4c9b8;
+ --accent:#b8860b;--accent-hover:#8f6508;--accent-ink:#fff;--accent-soft:rgba(184,134,11,.12);--navy:#1a2e1a;
+ --warn:#8a5b00;--warn-bg:#fff2cf;--bad:#a52222;--bad-bg:#fff0ee;--good:#176b43;--good-bg:#e8f5ec;
+ --shadow:0 18px 55px rgba(26,46,26,.09);--shadow-soft:0 8px 24px rgba(26,46,26,.055);
+ --focus:0 0 0 3px rgba(184,134,11,.22)
+}
+body{font-family:"Source Serif 4",Georgia,serif}
+.eyebrow{font-family:"JetBrains Mono",ui-monospace,monospace}
+.topmeta,.progress-label,.editor-label{font-family:"JetBrains Mono",ui-monospace,monospace}
+.wordmark>span{font-family:"Playfair Display",Georgia,serif;font-size:19px;font-weight:700;letter-spacing:-.035em}
+.wordmark>span span{color:var(--accent)}
+.hero-title,.screen-heading,.workspace-title{font-family:"Playfair Display",Georgia,serif}
+.hero-copy,.art-copy>p,.converter-help-copy p,.screen-copy,.workspace-subtitle{font-family:"Source Serif 4",Georgia,serif}
+.topbar{border-bottom-color:var(--line)}
+.welcome-art{border-color:var(--line);background:linear-gradient(135deg,var(--paper-2),var(--paper) 60%,var(--accent-soft))}
+:root[data-theme=light] .welcome-art{border-color:#d4c9b8;background:linear-gradient(135deg,#f6f0df 0%,#faf8f5 60%,#edf3e9 100%)}
+.sheet{border-color:var(--line)}
+.sheet.back{background:var(--paper-2)}
+:root[data-theme=light] .sheet.back{background:#eee4cf}
+.sheet-line{background:var(--line)}
+.btn:hover,.subject-option:hover,.method-option:hover{border-color:var(--accent)}
+.btn.primary{border-color:var(--accent);background:var(--accent);color:var(--accent-ink);box-shadow:0 7px 18px rgba(229,193,88,.12)}
+.btn.primary:hover{border-color:var(--accent-hover);background:var(--accent-hover)}
+.subject-option.selected,.method-option.selected{border-color:var(--accent);background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent)}
+.subject-option.selected:after,.method-option.selected:after{background:var(--accent);color:var(--accent-ink)}
+.subject-icon,.method-icon{background:var(--accent-soft);color:var(--accent)}
+.choice.correct{border-color:var(--accent);background:var(--accent-soft)}
+.choice.correct .correct-mark,.method-option .method-action{color:var(--accent)}
+.field input:focus,.field select:focus,.field textarea:focus,.search-input:focus,.editor textarea#questionStem:focus{border-color:var(--accent);box-shadow:var(--focus)}
+.field input[type=checkbox],.field input[type=radio],.choice input[type=radio],.reuse-item input{accent-color:var(--accent)}
+.callout{border-color:var(--line);background:var(--accent-soft);color:var(--muted)}
+.callout strong{color:var(--ink)}
+:root[data-theme=light] .callout{border-color:#e0d2ad;background:#f8f1df;color:#53634d}
+:root[data-theme=light] .callout strong{color:#1a2e1a}
+.progress span.done{background:var(--accent)}
+.eyebrow,.editor-label{color:var(--accent)}
+a{color:var(--accent)}
+::selection{background:var(--accent-soft)}
+.icon-btn{border-color:var(--line)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
 </style>
 </head>
 <body>
 <div class="app">
 <header class="topbar">
 <a class="wordmark" href="index.html" aria-label="StudyMats home"><img src="assets/studymats-mark.svg" alt=""><span>Study<span>Mats</span></span></a>
-<div class="topmeta">TEST BANK MAKER</div>
+<div class="topmeta">TEST BANK BUILDER</div>
 <div class="top-actions"><a class="quiet-link" href="https://mdfl212.github.io/studymats-test-bank-converter/">Converter ↗</a><a class="quiet-link" href="index.html">Back to StudyMats ↗</a><button class="icon-btn" id="themeToggle" type="button" aria-label="Switch color theme" title="Switch theme">◐</button></div>
 </header>
 <main class="shell">
 <section class="screen active" id="screen-welcome" data-screen="welcome">
 <div class="screen-narrow">
-<div class="eyebrow">A calmer way to build question banks</div>
+<div class="eyebrow">STUDYMATS · TEST BANK BUILDER</div>
 <h1 class="hero-title">Good questions start with a clear idea.</h1>
 <p class="hero-copy">Create, organize, and review your medical practice questions in one focused workspace. Your original StudyMats question banks stay untouched.</p>
 <div class="welcome-art">
