@@ -237,6 +237,82 @@ function importItems(items){
   items.forEach((raw,i)=>{try{if(!raw||typeof raw!=='object'||Array.isArray(raw))throw Error('record is not an object');const q=normalize(raw,state.selectedSubject);const errs=validation({...q,id:q.id||'temporary-id'},new Set());if(errs.some(e=>e!=='Question ID must be unique within this draft.'&&e!=='Question ID is required.'))throw Error(errs.join(' '));const originalId=q.id;let base=originalId||uniqueId((state.selectedSubject||'QUESTION').toUpperCase().replace(/[^A-Z0-9]+/g,'-'));let id=base,n=2;while(ids.has(id))id=base+'-COPY'+n++;q.id=id;ids.add(id);q.subject=state.selectedSubject;q.topic=q.topic||$('defaultTopic').value.trim()||'General';q._raw=JSON.parse(JSON.stringify(raw));if(originalId&&originalId!==id)q._raw.id=id;state.draft.push(q);added++}catch(e){skipped++;reasons.push('Record '+(i+1)+': '+e.message)}});
   renderDraftList();renderReview();setDirty();autoSave();return{added,skipped,reasons};
 }
+let pendingWelcomeImport=null;
+function refreshWelcomeDraftStatus(){
+  const resume=$('resumeDraft');let available=false,summary='';
+  try{const raw=localStorage.getItem(DRAFT_KEY);if(raw){const d=JSON.parse(raw);available=!!d&&Array.isArray(d.draft);if(available){const subj=d.subject||'No subject';const title=d.title||'Untitled draft';summary='Saved draft: '+title+' · '+subj+(d.updatedAt?' · '+new Date(d.updatedAt).toLocaleDateString():'')}}}catch{}
+  resume.disabled=!available;resume.title=available?'Resume the saved draft':'No saved draft is available on this device';
+  if(available)$('welcomeStatus').textContent=summary;else if(!$('welcomeStatus').textContent||$('welcomeStatus').textContent.startsWith('Saved draft:'))$('welcomeStatus').textContent='Drafts are saved locally on this device.';
+}
+function extractImportBank(parsed){
+  let items=null,meta={};
+  if(Array.isArray(parsed))items=parsed;
+  else if(parsed&&typeof parsed==='object'){
+    meta=parsed.metadata&&typeof parsed.metadata==='object'?parsed.metadata:{};
+    for(const key of ['questions','items','bank','data'])if(Array.isArray(parsed[key])){items=parsed[key];break}
+    if(!items&&parsed.bank&&typeof parsed.bank==='object'&&Array.isArray(parsed.bank.questions)){items=parsed.bank.questions;meta=Object.assign({},parsed.bank.metadata||{},meta)}
+    meta=Object.assign({},parsed,meta);
+  }
+  if(!Array.isArray(items))throw Error('This JSON does not contain a supported question array. Expected an array of questions or an object with a questions, items, or data array.');
+  if(!items.length)throw Error('This test bank contains no question records.');
+  const valid=[],issues=[];const ids=new Set(),stems=new Set();let duplicateStems=0;
+  items.forEach((raw,i)=>{try{
+    if(!raw||typeof raw!=='object'||Array.isArray(raw))throw Error('record must be an object');
+    const q=normalize(raw,'');
+    if(!q.question.trim())throw Error('question stem is missing');
+    if(q.options.length<2)throw Error('fewer than two answer choices');
+    if(q.options.some(x=>!x.trim()))throw Error('one or more answer choices are empty');
+    if(new Set(q.options.map(x=>x.trim().toLowerCase())).size!==q.options.length)throw Error('answer choices contain duplicates');
+    if(!Number.isInteger(q.correctAnswer)||q.correctAnswer<0||q.correctAnswer>=q.options.length)throw Error('correct-answer index is missing or outside the answer choices');
+    if(!q.rationale.text.trim())throw Error('rationale is missing');
+    const signature=q.question.trim().toLowerCase().replace(/\s+/g,' ');
+    if(stems.has(signature))duplicateStems++;stems.add(signature);
+    if(q.id&&ids.has(q.id))issues.push('Duplicate ID "'+q.id+'" will be made unique during import.');
+    if(q.id)ids.add(q.id);valid.push({raw,q,index:i});
+  }catch(e){issues.push('Record '+(i+1)+': '+e.message)}});
+  return {items,valid,issues,meta,possibleSubject:String(meta.subject||meta.subjectName||meta.destinationSubject||''),possibleTitle:String(meta.title||meta.name||meta.bankTitle||''),duplicateStems};
+}
+function openWelcomeImport(file){
+  if(!file)return;const dialog=$('welcomeImportDialog');
+  $('importPreviewFilename').textContent=file.name;$('importPreviewCounts').textContent='Reading and checking the file…';
+  $('importPreviewMessage').className='status';$('importPreviewMessage').textContent='Reading the selected file locally. It is not uploaded.';
+  $('importPreviewWarnings').textContent='';$('importDestination').innerHTML='<option value="">Choose a subject…</option>'+state.subjects.map(s=>'<option value="'+esc(s.name)+'">'+esc(s.name)+'</option>').join('');
+  $('confirmWelcomeImport').disabled=true;pendingWelcomeImport=null;
+  if(typeof dialog.showModal!=='function'){say('welcomeStatus','Your browser does not support the import preview dialog. Use the Import JSON option inside the studio.','bad');return}
+  dialog.showModal();
+  file.text().then(text=>{
+    let parsed;try{parsed=JSON.parse(text)}catch(e){throw Error('This file is not valid JSON. Check the file and try again.')}
+    const data=extractImportBank(parsed);pendingWelcomeImport={file,data};
+    $('importPreviewCounts').textContent=data.valid.length+' valid · '+(data.items.length-data.valid.length)+' invalid · '+data.items.length+' total';
+    if(data.possibleTitle)$('importPreviewFilename').textContent=file.name+' · '+data.possibleTitle;
+    const match=state.subjects.find(s=>s.name.toLowerCase()===data.possibleSubject.toLowerCase()||s.id.toLowerCase()===data.possibleSubject.toLowerCase());
+    if(match)$('importDestination').value=match.name;else if(state.selectedSubject)$('importDestination').value=state.selectedSubject;
+    $('importMode').value=state.draft.length?'merge':'replace';
+    const warnings=data.issues.slice(0,6);if(data.issues.length>6)warnings.push((data.issues.length-6)+' additional validation note(s).');
+    if(data.duplicateStems)warnings.push(data.duplicateStems+' potential duplicate question stem(s) detected.');
+    if(data.valid.length<data.items.length)warnings.push('Invalid records will be skipped and reported. Your source file will not be changed.');
+    $('importPreviewWarnings').textContent=warnings.join(' ');
+    $('importPreviewMessage').className='status '+(data.valid.length?'good':'bad');
+    $('importPreviewMessage').textContent=data.valid.length?'Found '+data.valid.length+' structurally usable question(s). Review the destination and import mode before confirming.':'No structurally usable questions were found. Nothing can be imported from this file.';
+    $('confirmWelcomeImport').disabled=!data.valid.length||!state.subjects.some(s=>s.name===$('importDestination').value);
+  }).catch(e=>{pendingWelcomeImport=null;$('importPreviewCounts').textContent='Unable to read question bank';$('importPreviewMessage').className='status bad';$('importPreviewMessage').textContent=e.message;$('importPreviewWarnings').textContent='No changes have been made to your current draft.';$('confirmWelcomeImport').disabled=true});
+}
+function confirmWelcomeImport(){
+  const pending=pendingWelcomeImport;if(!pending)return;const destination=$('importDestination').value;
+  if(!destination){$('importPreviewMessage').textContent='Choose a destination subject before importing.';return}
+  const mode=$('importMode').value;
+  if(state.dirty&&!confirm('You have unsaved changes in the current workspace. Continue? Your current draft will be saved to a recovery backup before import.'))return;
+  try{if(state.dirty)saveDraft(false);const existing=localStorage.getItem(DRAFT_KEY);if(existing)localStorage.setItem(DRAFT_KEY+'-backup-'+Date.now(),existing)}
+  catch(e){$('importPreviewMessage').className='status bad';$('importPreviewMessage').textContent='Could not create a safety backup, so the import was cancelled: '+e.message;return}
+  if(mode==='replace')state.draft=[];state.selectedSubject=destination;
+  $('bankTitle').value=pending.data.possibleTitle||pending.file.name.replace(/\.json$/i,'');
+  $('filename').value=pending.file.name.replace(/\.json$/i,'-studymats.json');
+  const records=pending.data.valid.map(item=>{const raw=JSON.parse(JSON.stringify(item.raw));raw.subject=destination;return raw});
+  const result=importItems(records);renderSubjects();renderTopics();renderDraftList();renderReview();setDirty(false);saveDraft(false);
+  $('welcomeStatus').textContent='Imported '+result.added+' question(s) from '+pending.file.name+'.';
+  pendingWelcomeImport=null;$('welcomeJsonFile').value='';dialogCloseWelcomeImport();showScreen('studio');refreshWelcomeDraftStatus();
+}
+function dialogCloseWelcomeImport(){const d=$('welcomeImportDialog');if(d.open)d.close()}
 function renderBanks(){
   const term=($('bankSearch').value||'').toLowerCase(),source=$('sourceBank').value||'all';
   const list=state.banks.filter(q=>(source==='all'||q.subject===source)&&(!term||[q.id,q.subject,q.topic,q.question,...q.options,q.rationale.text].join(' ').toLowerCase().includes(term))).slice(0,150);
@@ -253,7 +329,7 @@ async function loadBanks(){
     const results=await Promise.allSettled(state.subjects.map(async s=>{const r=await fetch('./'+s.data);if(!r.ok)throw Error(s.data+' returned '+r.status);const arr=await r.json();if(!Array.isArray(arr))throw Error(s.data+' is not a question array');return {s,arr}}));
     const failed=[];
     results.forEach(result=>{if(result.status!=='fulfilled'){failed.push(result.reason.message);return}const {s,arr}=result.value;arr.forEach((raw,i)=>{const q=normalize(raw,s.name);q.subject=raw.subject||s.name;q._key=s.id+'::'+(q.id||'record')+'::'+i;state.banks.push(q)})});
-    renderTopics();renderBanks();$('welcomeStatus').textContent=state.banks.length.toLocaleString()+' existing questions available to reuse.';if(failed.length)console.warn('Some subject banks did not load:',failed);
+    renderTopics();renderBanks();$('bankAvailability').textContent=state.banks.length.toLocaleString()+' existing questions available to reuse.';if(failed.length){$('bankAvailability').textContent+=' · Some banks could not be loaded.';console.warn('Some subject banks did not load:',failed)}
   }catch(e){$('subjectGrid').innerHTML='<div class="status bad">Could not load subjects.json. Open this page through GitHub Pages or a local web server. '+esc(e.message)+'</div>';console.error(e)}
 }
 function setMethod(method){
@@ -267,7 +343,12 @@ function setMethod(method){
 }
 document.querySelectorAll('[data-goto]').forEach(b=>b.addEventListener('click',()=>showScreen(b.dataset.goto)));
 $('getStarted').onclick=()=>showScreen('subject');
-$('resumeDraft').onclick=()=>loadDraft(true);
+$('resumeDraft').onclick=()=>{if(loadDraft(true))refreshWelcomeDraftStatus()};
+$('importBankWelcome').onclick=()=>{if(!state.subjects.length){say('welcomeStatus','Subject catalog is still loading or unavailable. Try again shortly.','bad');return}$('welcomeJsonFile').click()};
+$('welcomeJsonFile').onchange=()=>{const file=$('welcomeJsonFile').files&&$('welcomeJsonFile').files[0];if(file)openWelcomeImport(file)};
+$('importDestination').onchange=()=>{$('confirmWelcomeImport').disabled=!pendingWelcomeImport||!pendingWelcomeImport.data.valid.length||!state.subjects.some(s=>s.name===$('importDestination').value)};
+$('cancelWelcomeImport').onclick=()=>{pendingWelcomeImport=null;$('welcomeJsonFile').value='';dialogCloseWelcomeImport()};
+$('confirmWelcomeImport').onclick=confirmWelcomeImport;
 $('subjectContinue').onclick=()=>{if(!state.selectedSubject){alert('Choose a destination subject first.');return}showScreen('method')};
 document.querySelectorAll('[data-method]').forEach(b=>b.onclick=()=>setMethod(b.dataset.method));
 $('newQuestion').onclick=$('railAdd').onclick=()=>{clearEditor();$('questionStem').focus({preventScroll:true});autoSave()};
@@ -295,7 +376,7 @@ $('themeToggle').onclick=()=>{const next=document.documentElement.dataset.theme=
 try{const theme=localStorage.getItem('studymats-theme');if(theme==='light'||theme==='dark'){document.documentElement.dataset.theme=theme;state.theme=theme}}catch{}
 window.addEventListener('beforeunload',e=>{if(state.dirty){e.preventDefault();e.returnValue='';}});
 renderChoices();preview();renderDraftList();loadBanks();
-try{const d=localStorage.getItem(DRAFT_KEY);$('welcomeStatus').textContent=d?'A saved draft is available on this device.':'Drafts are saved locally on this device.'}catch{}
+refreshWelcomeDraftStatus();
 if('serviceWorker'in navigator&&(location.protocol==='https:'||location.hostname==='localhost'))window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js',{scope:'./'}).catch(e=>console.warn('Offline support:',e)));
 })();
 </script>
