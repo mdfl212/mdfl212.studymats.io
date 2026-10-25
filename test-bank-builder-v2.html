@@ -13,6 +13,47 @@ html[data-theme=light]{--bg:#f4f5fb;--nav:#fff;--card:#fff;--card2:#f4f5fb;--car
 @media(max-width:850px){.sidebar{display:none}.main{padding:16px 12px 50px}.grid{grid-template-columns:minmax(0,1fr)}.guides{grid-column:auto;grid-template-columns:1fr 1fr}.header{display:block}.actions{padding-top:12px;flex-wrap:wrap}.actions .btn{flex:1}.stepper{grid-template-columns:1fr;gap:0}.step{border-right:0;border-bottom:1px solid var(--line)}.step:last-child{border-bottom:0}}
 @media(max-width:480px){.tb-top{padding:0 10px}.brand{min-width:0}.brand small,.top-search,.top-right .profile-name{display:none}.main{padding:12px 9px 40px}.header h1{font-size:23px}.card{padding:12px}.guides{grid-template-columns:1fr}.choice{grid-template-columns:20px minmax(0,1fr) 18px 22px}.actions{display:grid;grid-template-columns:1fr 1fr}.actions .btn{width:100%}}
 </style>
+<style id="studymats-adaptive-layout">
+/* Content-aware behavior for split windows and constrained app panes. */
+.layout { min-width: 0; container: tb-layout / inline-size; }
+.main { min-width: 0; container: tb-main / inline-size; }
+.grid, .guides, .card, .field, .quality, .quality-body, .preview,
+.choices, .draft-item, .actions, .stepper, .top-right { min-width: 0; }
+.grid { grid-template-columns: minmax(0, .8fr) minmax(0, 1.4fr); }
+.grid > *, .guides > *, .choices > *, .actions > * { min-width: 0; }
+.field input, .field select, .field textarea, textarea, input, select { max-width: 100%; }
+.preview, .quality-body, #jsonOutput, #jsonPaste { overflow-wrap: anywhere; }
+#jsonOutput, #jsonPaste { width: 100%; min-width: 0; }
+@container tb-layout (max-width: 850px) {
+  .sidebar { display: none; }
+  .main { padding: 16px clamp(10px, 2vw, 18px) 40px; }
+  .layout { grid-template-columns: minmax(0, 1fr); }
+}
+@container tb-main (max-width: 760px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .guides { grid-column: auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .guide + .guide { margin-top: 0; }
+  .actions, .foot-actions { flex-wrap: wrap; }
+  .actions > *, .foot-actions > * { flex: 1 1 auto; }
+  .stepper { flex-wrap: wrap; }
+  .top-search { min-width: 0; }
+}
+@container tb-main (max-width: 520px) {
+  .guides { grid-template-columns: minmax(0, 1fr); }
+  .main { padding: 12px 9px 36px; }
+  .card { padding: clamp(10px, 2.5cqi, 14px); }
+  .header h1 { font-size: clamp(21px, 5cqi, 28px); overflow-wrap: anywhere; }
+  .brand { min-width: 0; }
+  .brand small, .top-search, .top-right .profile-name { display: none; }
+  .choice { grid-template-columns: 20px minmax(0, 1fr); }
+  .actions > *, .foot-actions > * { flex: 1 1 8rem; }
+}
+@media (max-width: 420px) {
+  .tb-top { gap: 8px; padding-inline: 10px; }
+  .brand { flex: 1 1 auto; }
+  .top-right { flex: 0 1 auto; }
+}
+</style>
 </head>
 <body data-course="hub">
 <header class="tb-top"><a class="brand" href="index.html"><img src="assets/studymats-mark.svg" alt=""><span><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a><div class="top-search"><input id="globalSearch" type="search" placeholder="Search draft questions…"></div><div class="top-right"><button class="btn" id="themeToggle" type="button" aria-label="Toggle theme">◐</button><span class="profile-name">Test Bank Builder</span></div></header>
