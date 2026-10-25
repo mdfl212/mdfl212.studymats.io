@@ -406,46 +406,6 @@ body[data-course="hub"] { background:var(--s0); }
 @media(prefers-reduced-motion:reduce){
   .tb-btn,.tb-step,.tb-bank-item,.tb-advanced summary,.tb-review-details>summary{transition:none}
 }
-
-/* StudyMats mobile polish: legacy Test Bank Builder */
-@media (max-width: 760px) {
-  html[data-course="hub"] body[data-course="hub"] { overflow-x: clip; }
-  .tb-app-shell { width:100%; max-width:none; box-sizing:border-box; padding: max(10px, env(safe-area-inset-top)) 12px calc(28px + env(safe-area-inset-bottom)); gap:12px; }
-  .tb-main-content, .tb-guide-column, .tb-panel, .tb-grid, .tb-head, .tb-actions { min-width:0; }
-  .tb-head { display:flex; flex-direction:column; align-items:stretch; gap:12px; }
-  .tb-head h1 { font-size:clamp(22px,6vw,28px); line-height:1.15; overflow-wrap:anywhere; }
-  .tb-head .tb-actions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin-top:0; }
-  .tb-head .tb-actions > *, .tb-actions .tb-btn { min-width:0; max-width:100%; }
-  .tb-btn { min-height:42px; white-space:normal; }
-  .tb-stepper { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; }
-  .tb-step { min-width:0; padding:9px 7px; }
-  .tb-step-number { flex-shrink:0; }
-  .tb-step small { overflow-wrap:anywhere; }
-  .tb-panel { padding:14px; border-radius:14px; }
-  .tb-field input, .tb-field select, .tb-field textarea, input, select, textarea { font-size:16px; }
-  .tb-two, .tb-grid { grid-template-columns:minmax(0,1fr); }
-  .tb-option { grid-template-columns:18px minmax(0,1fr) 42px; }
-  .tb-option label { font-size:11px; overflow-wrap:anywhere; }
-  .tb-output { min-height:180px; font-size:11px; }
-  .tb-guide-column { grid-template-columns:minmax(0,1fr); }
-  .tb-quality-issue { flex-direction:row; gap:8px; }
-  .tb-quality-issue > * { min-width:0; }
-  .tb-bank-item, .tb-quality-issue, .tb-guide-card { overflow-wrap:anywhere; }
-  .tb-main-content #subjectStep, .tb-main-content #questionStep, .tb-main-content #reviewStep { scroll-margin-top:12px; }
-}
-@media (max-width: 390px) {
-  .tb-app-shell { padding-left:9px; padding-right:9px; }
-  .tb-head .tb-actions { grid-template-columns:minmax(0,1fr); }
-  .tb-stepper { grid-template-columns:minmax(0,1fr); }
-  .tb-step { min-height:44px; }
-  .tb-panel { padding:11px; }
-  .tb-quality-issue { flex-direction:column; }
-  .tb-quality-issue .tb-btn { align-self:stretch; }
-}
-@media (hover:none) {
-  .tb-btn, .tb-step, .tb-bank-item { -webkit-tap-highlight-color:transparent; }
-}
-
 </style>
 
 
