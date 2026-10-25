@@ -13326,3 +13326,142 @@ html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bott
 html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav button{color:#526257!important}
 html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-nav-item.is-current{color:#17643a!important}
 }
+
+
+/* StudyMats hub: content-width responsive layout and complete light-theme surfaces.
+   Container queries respond to the space available beside the sidebar, not device labels. */
+body[data-course="hub"] .wrapper { container-type: inline-size; min-width:0; width:100%; }
+body[data-course="hub"] .study-dashboard { display:flex; flex-direction:column; gap:0; min-width:0; width:100%; }
+body[data-course="hub"] .study-dashboard > * { min-width:0; max-width:100%; }
+body[data-course="hub"] .dash-welcome { flex-wrap:wrap; min-width:0; }
+body[data-course="hub"] .dash-welcome > *,
+body[data-course="hub"] .dash-panel-heading > * { min-width:0; }
+body[data-course="hub"] .dash-stats {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:clamp(5px,1cqi,12px);
+  min-width:0;
+}
+body[data-course="hub"] .dash-stats > * { min-width:0; overflow-wrap:anywhere; }
+body[data-course="hub"] .dash-subject-list { grid-template-columns:minmax(0,1fr) !important; min-width:0; }
+body[data-course="hub"] .dash-subject-row,
+body[data-course="hub"] .dash-subject-item { min-width:0; }
+body[data-course="hub"] .dash-panel,
+body[data-course="hub"] .dash-welcome,
+body[data-course="hub"] .dash-activity-panel,
+body[data-course="hub"] .dash-tools-panel { min-width:0; }
+body[data-course="hub"] .dash-heatmap-container { max-width:100%; min-width:0; overflow-x:auto; }
+body[data-course="hub"] .dash-panel-heading { flex-wrap:wrap; }
+body[data-course="hub"] .dash-range-picker { max-width:100%; }
+
+/* Explicit light-theme contract; cover all widths and every dashboard surface. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] {
+  color-scheme:light;
+  --bg:#f6f8f4;
+  --bg-card:#ffffff;
+  --text:#1b2b20;
+  --text2:#405347;
+  --text3:#526257;
+  --border:#dce5dc;
+  --border2:#c8d7c9;
+  --accent:#17643a;
+  --accent2:#14532f;
+  background:#f6f8f4 !important;
+  color:#1b2b20 !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .wrapper,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .study-dashboard {
+  background:transparent !important;
+  color:#1b2b20 !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .app-topbar,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-row,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-dropdown,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-welcome,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-stats > *,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-activity-stats > *,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-tools-panel {
+  background-color:#fff !important;
+  color:#1b2b20 !important;
+  border-color:#dce5dc !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-dropdown > summary,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-title,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard :where(h1,h2,h3,h4,strong,b,.dash-stat-value,.dash-stat-label,.dash-stat-note,.dash-subject-year-heading),
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-panel-heading,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-subject-list,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-subject-list :where(span,div,p,strong,b,small) {
+  color:#1b2b20;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard :where(p,small,label,.dash-subtitle,.dash-panel-copy,.dash-data-caption,.dash-local-label,.dash-stat-note),
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-subtext {
+  color:#526257 !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard a,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-continue,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-glance-link {
+  color:#14532f !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-kicker {
+  color:#805e09 !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-pill {
+  background:#f7f9f6 !important;
+  border-color:#d6e0d6 !important;
+  color:#26392b !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-pill.active {
+  background:#17643a !important;
+  border-color:#17643a !important;
+  color:#fff !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new {
+  background:#fff4cf !important;
+  color:#3d2d08 !important;
+  border:1px solid #d7b34b !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new :where(h2,p) { color:#3d2d08 !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new-icon { background:#f2df9d !important; color:#6b4c00 !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new-link { color:#765500 !important; text-decoration:underline !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new-close { background:#fffdf5 !important; color:#3d2d08 !important; border-color:#d7c58a !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-progress-track { background:#e2e9e2 !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-range-picker { background:#f5f8f4 !important; border-color:#d6e0d6 !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-range-picker button { color:#34483a !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-range-picker button.active { background:#17643a !important; color:#fff !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav { background:rgba(255,255,255,.98) !important; border-top-color:#dce5dc !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-nav-item,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav a,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav button { color:#526257 !important; }
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-nav-item.is-current { color:#17643a !important; }
+
+/* Fit dashboard structure to the effective content width, including split-screen/zoom. */
+@container (max-width: 760px) {
+  body[data-course="hub"] .dash-stats { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  body[data-course="hub"] .dash-welcome { align-items:flex-start; }
+  body[data-course="hub"] .dash-welcome-actions { flex-wrap:wrap; }
+  body[data-course="hub"] .dash-panel { padding:clamp(10px,2cqi,17px); }
+  body[data-course="hub"] .dash-activity-heading { align-items:flex-start; }
+  body[data-course="hub"] .dash-range-picker { flex-wrap:nowrap; }
+}
+@container (max-width: 430px) {
+  body[data-course="hub"] .dash-stats { grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px; }
+  body[data-course="hub"] .dash-welcome { flex-direction:column; align-items:stretch; }
+  body[data-course="hub"] .dash-welcome-actions { width:100%; }
+  body[data-course="hub"] .dash-welcome-actions .dash-button { max-width:100%; }
+  body[data-course="hub"] .dash-panel-heading { gap:8px; }
+  body[data-course="hub"] .dash-range-picker button { padding-inline:7px; }
+}
+@container (min-width: 1120px) {
+  body[data-course="hub"] .study-dashboard { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:12px; align-items:start; }
+  body[data-course="hub"] .dash-whats-new,
+  body[data-course="hub"] .dash-welcome,
+  body[data-course="hub"] .dash-stats { grid-column:1 / -1; }
+  body[data-course="hub"] .dash-stats { grid-template-columns:repeat(4,minmax(0,1fr)); }
+  body[data-course="hub"] .dash-subject-dropdown,
+  body[data-course="hub"] .dash-activity-panel,
+  body[data-course="hub"] .dash-tools-panel { margin-top:0; }
+}
+@media (max-width: 700px) {
+  body[data-course="hub"] .wrapper { padding-left:clamp(10px,3vw,16px); padding-right:clamp(10px,3vw,16px); }
+}
