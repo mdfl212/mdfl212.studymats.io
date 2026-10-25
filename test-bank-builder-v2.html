@@ -318,15 +318,8 @@ a{color:var(--accent)}
 .workflow-node{cursor:pointer;outline:none;transform-box:fill-box;transform-origin:center;transition:transform .14s ease}
 .workflow-node:active{transform:scale(.965)}
 .workflow-node:focus-visible{filter:drop-shadow(0 0 4px color-mix(in srgb,var(--accent) 55%,transparent))}
-.workflow-node-popover{position:fixed;z-index:1000;width:min(280px,calc(100vw - 28px));padding:12px 14px;border:1px solid var(--accent);border-radius:12px;background:var(--paper);color:var(--ink);box-shadow:0 12px 36px rgba(0,0,0,.22);pointer-events:none;animation:workflowPopoverIn .16s ease both}
-.workflow-node-popover[hidden]{display:none}
-.workflow-node-popover:after{content:"";position:absolute;left:var(--popover-arrow-left,50%);bottom:-6px;width:10px;height:10px;border-right:1px solid var(--accent);border-bottom:1px solid var(--accent);background:var(--paper);transform:translateX(-50%) rotate(45deg)}
-.workflow-node-popover[data-placement=below]:after{top:-6px;bottom:auto;border:0;border-left:1px solid var(--accent);border-top:1px solid var(--accent)}
-.workflow-node-popover-title{display:flex;align-items:center;gap:8px;margin-bottom:5px;font-size:12px;font-weight:800;line-height:1.4}
-.workflow-node-popover-number{display:grid;place-items:center;width:23px;height:23px;flex:0 0 23px;border-radius:7px;background:var(--accent-soft);color:var(--accent);font:700 10px "JetBrains Mono",monospace}
-.workflow-node-popover p{margin:0;color:var(--muted);font-size:11px;line-height:1.6}
-.workflow-detail.is-changing{animation:none}
-.workflow-detail.is-changing .workflow-detail-main{animation:workflowDetailIn .22s ease both}
+.workflow-detail.is-changing{animation:workflowDetailIn .24s ease both}
+.workflow-detail.is-changing .workflow-detail-main{animation:workflowDetailIn .24s ease both}
 .workflow-node rect{fill:var(--paper);stroke:var(--line);stroke-width:1.6;filter:drop-shadow(0 2px 4px rgba(0,0,0,.10));transition:stroke .16s,fill .16s,filter .16s}
 .workflow-node polygon{fill:var(--warn-bg);stroke:var(--warn);stroke-width:1.6;filter:drop-shadow(0 2px 4px rgba(0,0,0,.08));transition:stroke .16s,fill .16s,filter .16s}
 .workflow-node .wf-number{font:600 10px "JetBrains Mono",monospace;fill:var(--accent)}
@@ -344,10 +337,9 @@ a{color:var(--accent)}
 @keyframes workflowFadeIn{from{opacity:0}to{opacity:1}}
 @keyframes workflowPopIn{from{opacity:0;transform:translateY(12px) scale(.965)}to{opacity:1;transform:translateY(0) scale(1)}}
 @keyframes workflowDetailIn{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
-@keyframes workflowPopoverIn{from{opacity:0;transform:translate(-50%,-96%) scale(.97)}to{opacity:1;transform:translate(-50%,-100%) scale(1)}}
 @keyframes workflowLineFlow{to{stroke-dashoffset:-22}}
 @media(max-width:600px){.conversion-workflow{inset:8px;max-height:calc(100dvh - 16px);border-radius:15px;padding:14px}.workflow-diagram{min-width:660px;max-height:34vh;min-height:220px} .workflow-close{width:30px;height:30px}.workflow-detail{grid-template-columns:minmax(0,1fr)}.workflow-detail-actions{justify-content:stretch;max-width:none}.workflow-detail-actions .btn{flex:1}}
-@media(prefers-reduced-motion:reduce){.workflow-backdrop,.conversion-workflow,.workflow-detail,.workflow-node-popover{animation:none!important}.workflow-connectors path{animation:none!important}.workflow-node{transition:none!important}}
+@media(prefers-reduced-motion:reduce){.workflow-backdrop,.conversion-workflow,.workflow-detail{animation:none!important}.workflow-connectors path{animation:none!important}.workflow-node{transition:none!important}}
 
 </style>
 </head>
@@ -401,7 +393,6 @@ a{color:var(--accent)}
 <g class="workflow-node workflow-gate" data-workflow-step="7" data-gate="true" tabindex="0" role="button" aria-label="Decision gate: Human review" aria-pressed="false" data-status="pending"><polygon points="242,214 278,250 242,286 206,250"/><text class="wf-gate" x="242" y="246" text-anchor="middle">Human</text><text class="wf-gate" x="242" y="258" text-anchor="middle">review?</text></g>
 <g class="workflow-node" data-workflow-step="8" tabindex="0" role="button" aria-label="Step 7: Confirm import" aria-pressed="false" data-status="pending"><rect x="32" y="210" width="108" height="80" rx="7"/><text class="wf-number" x="44" y="228">07</text><text class="wf-title" x="86" y="246" text-anchor="middle">Confirm</text><text class="wf-title" x="86" y="260" text-anchor="middle">import</text><text class="wf-sub" x="86" y="278" text-anchor="middle">after review</text></g>
 </svg></div>
-<div class="workflow-node-popover" id="workflowNodePopover" hidden role="status" aria-live="polite"></div>
 <section class="workflow-detail" aria-live="polite" aria-atomic="true" aria-labelledby="workflowDetailTitle"><div class="workflow-detail-main"><div class="workflow-detail-top"><h3 id="workflowDetailTitle">01 · Inventory source</h3><span class="workflow-status" id="workflowDetailStatus" data-status="current">Ready to begin</span></div><p id="workflowDetailBody">Identify file type, record count, answer-key convention, choice order, and available media. The in-page import path accepts JSON; other formats need preprocessing or the external converter.</p><p class="workflow-detail-meta" id="workflowDetailMeta">Checks: readable JSON and recognized question collection. Next: choose a JSON bank to open its actual validation preview.</p><div class="workflow-counts" id="workflowCounts" hidden></div></div><div class="workflow-detail-actions"><button class="btn primary" type="button" id="workflowPrimaryAction">Choose JSON file</button><button class="btn" id="workflowSecondaryAction" type="button" aria-controls="conversionWorkflow">Hide workflow ↑</button></div></section>
 </section>
 <div class="inline-note">Works with your existing StudyMats subjects and question-bank schema. Drafts are stored locally on this device.</div>
@@ -523,41 +514,22 @@ function renderWorkflow(){
  const c=$('workflowCounts');if(workflowImportState.loaded){c.hidden=false;c.innerHTML='<span class="workflow-count"><strong>'+workflowImportState.total+'</strong> source records</span><span class="workflow-count"><strong>'+workflowImportState.valid+'</strong> usable</span><span class="workflow-count"><strong>'+workflowImportState.invalid+'</strong> invalid / skipped</span><span class="workflow-count"><strong>'+workflowImportState.issues+'</strong> review notes</span>'}else{c.hidden=true;c.textContent=''}
 }
 const workflowPanel=$('conversionWorkflow'),workflowToggle=$('toggleConversionWorkflow'),workflowBackdrop=$('workflowBackdrop');
-function setWorkflowVisible(visible){workflowPanel.hidden=!visible;workflowBackdrop.hidden=!visible;workflowToggle.setAttribute('aria-expanded',String(visible));if(visible){workflowActiveStep=-1;hideWorkflowPopover(true);renderWorkflow();$('conversionWorkflowTitle').setAttribute('tabindex','-1');$('conversionWorkflowTitle').focus({preventScroll:true});}else{hideWorkflowPopover(true);workflowToggle.focus({preventScroll:true});}}
+function setWorkflowVisible(visible){workflowPanel.hidden=!visible;workflowBackdrop.hidden=!visible;workflowToggle.setAttribute('aria-expanded',String(visible));if(visible){workflowActiveStep=-1;renderWorkflow();$('conversionWorkflowTitle').setAttribute('tabindex','-1');$('conversionWorkflowTitle').focus({preventScroll:true});}else{workflowToggle.focus({preventScroll:true});}}
 workflowToggle.addEventListener('click',()=>setWorkflowVisible(workflowPanel.hidden));
 workflowBackdrop.addEventListener('click',()=>setWorkflowVisible(false));
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!workflowPanel.hidden)setWorkflowVisible(false);});
-const workflowPopover=$('workflowNodePopover');let workflowPopoverPinned=false,workflowPopoverTimer=0;
-function showWorkflowPopover(el,pinned=false){
- const i=Number(el.dataset.workflowStep),d=workflowSteps[i];if(!d||!workflowPopover)return;
- workflowPopoverPinned=pinned;workflowPopover.innerHTML='<div class="workflow-node-popover-title"><span class="workflow-node-popover-number">'+String(i>=8?7:i+1).padStart(2,'0')+'</span><span>'+esc(d.title)+'</span></div><p>'+esc(d.body)+'</p>';
- workflowPopover.hidden=false;workflowPopover.dataset.placement='above';
- const r=el.getBoundingClientRect(),w=workflowPopover.offsetWidth,h=workflowPopover.offsetHeight,pad=14;
- let left=r.left+r.width/2,top=r.top-10;
- if(top-h<pad){top=r.bottom+10;workflowPopover.dataset.placement='below';workflowPopover.style.transform='translate(-50%,0)'}else{workflowPopover.style.transform='translate(-50%,-100%)'}
- left=Math.max(w/2+pad,Math.min(window.innerWidth-w/2-pad,left));
- if(workflowPopover.dataset.placement==='below')top=Math.min(window.innerHeight-h-pad,top);
- workflowPopover.style.left=left+'px';workflowPopover.style.top=top+'px';
- const arrow=Math.max(18,Math.min(w-18,r.left+r.width/2-(left-w/2)));workflowPopover.style.setProperty('--popover-arrow-left',arrow+'px');
-}
-function hideWorkflowPopover(force=false){if(!workflowPopoverPinned||force){workflowPopover.hidden=true;workflowPopoverPinned=false}}
 document.querySelectorAll('[data-workflow-step]').forEach(el=>{
- el.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'&&!workflowPopoverPinned)showWorkflowPopover(el,false)});
- el.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse'&&!workflowPopoverPinned)hideWorkflowPopover(true)});
- el.addEventListener('focus',()=>{if(!workflowPopoverPinned&&workflowActiveStep>=0)showWorkflowPopover(el,false)});
- el.addEventListener('blur',()=>{if(!workflowPopoverPinned)hideWorkflowPopover(true)});
  el.addEventListener('click',()=>{
    const i=Number(el.dataset.workflowStep);
-   if(workflowActiveStep===i){workflowActiveStep=-1;hideWorkflowPopover(true);renderWorkflow();return;}
-   workflowActiveStep=i;renderWorkflow();showWorkflowPopover(el,true);
-   const detail=$('workflowDetail');detail.classList.remove('is-changing');void detail.offsetWidth;detail.classList.add('is-changing');
+   if(!Number.isInteger(i)||!workflowSteps[i])return;
+   workflowActiveStep=workflowActiveStep===i?-1:i;
+   renderWorkflow();
+   const detail=$('workflowDetail');
+   if(!detail.hidden){detail.classList.remove('is-changing');void detail.offsetWidth;detail.classList.add('is-changing');}
    if(navigator.vibrate){try{navigator.vibrate(9)}catch{}}
  });
- el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click()}if(e.key==='Escape'&&workflowPopoverPinned){hideWorkflowPopover(true);e.stopPropagation()}});
+ el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click()}});
 });
-workflowBackdrop.addEventListener('click',()=>hideWorkflowPopover(true));
-window.addEventListener('resize',()=>{if(workflowPopoverPinned){const active=document.querySelector('[data-workflow-step][aria-pressed="true"]');if(active)showWorkflowPopover(active,true)}});
-window.addEventListener('scroll',()=>{if(workflowPopoverPinned){const active=document.querySelector('[data-workflow-step][aria-pressed="true"]');if(active)showWorkflowPopover(active,true)}},{passive:true});
 $('workflowSecondaryAction').addEventListener('click',()=>setWorkflowVisible(false));
 $('closeWorkflow').addEventListener('click',()=>setWorkflowVisible(false));
 $('workflowPrimaryAction').addEventListener('click',()=>{const d=workflowSteps[workflowActiveStep];if(d.type==='link'){window.open(d.href,'_blank','noopener');return}if($('importBankWelcome'))$('importBankWelcome').click()});
