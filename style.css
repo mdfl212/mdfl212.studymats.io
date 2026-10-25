@@ -14141,3 +14141,17 @@ body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible
     background-image: none !important;
   }
 }
+
+
+/* Final desktop override: beat legacy light-theme card rules on dash-welcome. */
+@media (min-width: 761px) {
+  html[data-course="hub"] body[data-course="hub"] main.wrapper #studyDashboard .dash-welcome,
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] main.wrapper #studyDashboard .dash-welcome,
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] main.wrapper #studyDashboard .dash-welcome {
+    background: var(--bg) !important;
+    background-color: var(--bg) !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+  }
+}
