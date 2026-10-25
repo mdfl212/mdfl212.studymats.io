@@ -13729,3 +13729,41 @@ body[data-course="hub"] {
     -webkit-text-fill-color: #aaa8bd !important;
   }
 }
+
+
+/* Final topbar blend: derive the desktop search surface directly from the
+   active page background token so no dark/light rectangle contrasts with it. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] .app-topbar {
+    background-color: var(--bg) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search {
+    background: var(--bg) !important;
+    background-color: var(--bg) !important;
+    border-color: var(--border) !important;
+    color: var(--text-sub) !important;
+    box-shadow: 0 3px 12px rgba(0,0,0,.07) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:hover,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:focus,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:focus-visible {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search kbd {
+    background: var(--bg-card) !important;
+    color: var(--text-sub) !important;
+    border-color: var(--border) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search:focus-within {
+    border-color: var(--border-hover) !important;
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--border-hover) 18%, transparent),
+                0 3px 12px rgba(0,0,0,.07) !important;
+  }
+}
