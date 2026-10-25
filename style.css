@@ -13890,3 +13890,15 @@ body[data-course="hub"] {
     overflow: hidden !important;
   }
 }
+
+
+/* Mobile dashboard welcome panel: keep the content inset and soften the edges. */
+@media (max-width: 760px) {
+  body[data-course="hub"] .dash-welcome {
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
