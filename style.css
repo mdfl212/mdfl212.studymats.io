@@ -12801,6 +12801,37 @@ body[data-course="quiz"] .table-scroll {
 }
 
 
+/* Collapsed desktop sidebar: preserve the full logo box instead of clipping it
+   inside the sidebar's 32px content area (56px sidebar minus 24px padding). */
+@media (min-width: 1101px) {
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-top {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    justify-content: center !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .sidebar-brand-lockup {
+    width: 100% !important;
+    min-width: 34px !important;
+    justify-content: center !important;
+    overflow: visible !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .sidebar-brand-lockup img {
+    width: 34px !important;
+    min-width: 34px !important;
+    max-width: 34px !important;
+    height: 34px !important;
+    flex: 0 0 34px !important;
+  }
+}
+
 /* Subject Progress: always show subjects in a single vertical column. */
 html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgressDropdown .dash-subject-list {
   display: grid !important;
