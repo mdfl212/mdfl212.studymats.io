@@ -12668,10 +12668,15 @@ body[data-course="quiz"] .table-scroll {
     gap: 9px !important;
   }
 
+  /* Keep the sidebar mark at its intended size; don't let the desktop rule shrink it. */
   body[data-course="hub"] .sidebar-brand-lockup img {
-    width: 30px !important;
-    height: 30px !important;
-    flex-basis: 30px !important;
+    display: block !important;
+    width: 34px !important;
+    min-width: 34px !important;
+    max-width: 34px !important;
+    height: 34px !important;
+    flex: 0 0 34px !important;
+    object-fit: contain !important;
   }
 
   body[data-course="hub"] .sidebar-brand-copy strong {
