@@ -1,88 +1,155 @@
-/* Targeted sidebar layout correction. Keep this separate from the shared stylesheet. */
-body[data-course="hub"] .desktop-sidebar {
-  box-sizing: border-box;
-  min-width: 0;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-top,
-body[data-course="hub"] .desktop-sidebar nav,
-body[data-course="hub"] .desktop-sidebar .sidebar-save {
-  box-sizing: border-box;
-  min-width: 0;
-  width: 100%;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup {
-  display: flex;
-  align-items: center;
-  min-width: 0;
-  gap: 10px;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup > img {
-  display: block;
-  flex: 0 0 34px;
-  width: 34px;
-  height: 34px;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-brand-copy {
-  min-width: 0;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-save {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 8px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-save > i {
-  display: block;
-  flex: 0 0 7px;
-  width: 7px;
-  height: 7px;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-save .sidebar-save-label {
-  display: block;
-  flex: 1 1 auto;
-  min-width: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-body[data-course="hub"] .desktop-sidebar .sidebar-save > span:last-child {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 auto;
-  white-space: nowrap;
-}
-
-/* In the collapsed rail, keep the status dot but do not squeeze the label. */
-body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-save {
-  justify-content: center;
-  gap: 0;
-}
-
-body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-save .sidebar-save-label,
-body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-save > span:last-child,
-body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-brand-copy,
-body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-link-label {
-  display: none;
-}
-
-body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup {
-  justify-content: center;
-}
-
-/* Narrow windows should not let sidebar children force the shell wider. */
-@media (max-width: 900px) {
+/* Targeted sidebar layout correction. Keep expanded rail wide enough for its content. */
+@media (min-width: 701px) {
   body[data-course="hub"] .desktop-sidebar {
-    min-width: 0;
+    width: 248px !important;
+    min-width: 248px !important;
+    box-sizing: border-box !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar {
+    width: 64px !important;
+    min-width: 64px !important;
+  }
+
+  body[data-course="hub"] .wrapper {
+    margin-left: 248px !important;
+    min-width: 0 !important;
+    width: auto !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .wrapper {
+    margin-left: 64px !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-top {
+    width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    box-sizing: border-box !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup {
+    display: flex !important;
+    align-items: center !important;
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    gap: 10px !important;
+    overflow: visible !important;
+  }
+
+  /* Prevent the logo from shrinking due to the brand text's intrinsic width. */
+  body[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup > img {
+    display: block !important;
+    flex: 0 0 34px !important;
+    width: 34px !important;
+    min-width: 34px !important;
+    max-width: 34px !important;
+    height: 34px !important;
+    object-fit: contain !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-brand-copy {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-brand-copy strong,
+  body[data-course="hub"] .desktop-sidebar .sidebar-brand-copy small {
+    white-space: nowrap !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar nav {
+    width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    box-sizing: border-box !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-link {
+    min-width: 0 !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-link-label {
+    min-width: 0 !important;
+    text-overflow: ellipsis;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-save {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 10px 12px !important;
+    box-sizing: border-box !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-save > i {
+    display: block !important;
+    flex: 0 0 7px !important;
+    width: 7px !important;
+    min-width: 7px !important;
+    height: 7px !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-save .sidebar-save-label {
+    display: block !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-save > span:last-child {
+    display: inline-flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    white-space: nowrap !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-top {
+    justify-content: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-brand-lockup {
+    justify-content: center !important;
+    width: 34px !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-brand-copy,
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-link-label,
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-save-label,
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-save > span:last-child {
+    display: none !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-save {
+    justify-content: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 700px) {
+  body[data-course="hub"] .desktop-sidebar {
+    display: none !important;
+  }
+
+  body[data-course="hub"] .wrapper {
+    margin-left: 0 !important;
+    width: 100% !important;
   }
 }
