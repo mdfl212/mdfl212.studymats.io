@@ -404,6 +404,7 @@ async function loadSubjects() {
     const response = await fetch('subjects.json');
     if (!response.ok) throw new Error('Unable to load subject metadata.');
     state.subjects = await response.json();
+    window.studymatsSubjects = state.subjects;
     const subjectSelect = $('subjectSelect');
     if (subjectSelect) {
         subjectSelect.innerHTML = state.subjects.map((subject) =>
@@ -411,6 +412,7 @@ async function loadSubjects() {
     }
     const params = new URLSearchParams(window.location.search);
     const requestedSubject = params.get('subject');
+    const requestedMode = params.get('mode');
     const defaultSubject = state.subjects.find((item) => item.id === requestedSubject)
         || state.subjects.find((item) => item.yearLevel === state.activeYear)
         || state.subjects[0];
@@ -420,6 +422,9 @@ async function loadSubjects() {
             subjectSelect.value = defaultSubject.id;
         }
         await selectSubject(defaultSubject.id);
+        if (['exam', 'review', 'key'].includes(requestedMode)) {
+            setMode(requestedMode);
+        }
     }
 }
 
