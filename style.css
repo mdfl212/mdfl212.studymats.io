@@ -14029,6 +14029,7 @@ body[data-course="hub"] .study-mats-start-quiz {
   margin-top: 4px;
 }
 @media (max-width: 660px) {
+  body[data-course="hub"] { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
   body[data-course="hub"] .mobile-bottom-nav {
     display: grid !important;
     grid-template-columns: repeat(4, minmax(0, 1fr));
