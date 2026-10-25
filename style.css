@@ -14119,3 +14119,15 @@ body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible
     margin-bottom: 0 !important;
   }
 }
+
+
+/* Keep the sidebar save/status row seamless: remove its card border and outline. */
+@media (min-width: 701px) {
+  body[data-course="hub"] .desktop-sidebar .sidebar-save {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+  }
+}
