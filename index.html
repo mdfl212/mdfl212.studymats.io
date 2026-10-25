@@ -10,6 +10,7 @@
       />
       <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
       <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
+      <link rel="stylesheet" href="mobile-minimal.css?v=20261026" />
       <script src="theme.js"></script>
         <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#fbf8f5">
@@ -21,7 +22,7 @@
     <body data-course="hub">
       <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Backup &amp; Restore"><span>⇧</span><span class="sidebar-link-label">Backup &amp; Restore</span></a><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
       <main class="wrapper" id="top">
-        <div class="app-topbar"><button class="mobile-dashboard-menu" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button><label class="topbar-search"><span>⌕</span><input id="dashboardSearch" type="search" placeholder="Search questions, topics, or keywords…"><kbd>⌘ K</kbd></label><button class="topbar-theme" type="button" data-theme-toggle aria-label="Toggle theme"><span data-theme-icon>☾</span></button><button class="topbar-profile" id="dashProfileButtonTop" type="button"><span>MP</span><b>Mikael Patrick</b><small>⌄</small></button></div>
+        <div class="app-topbar"><a class="mobile-brand" href="#top" aria-label="StudyMats home"><img src="assets/studymats-mark.svg" alt="" width="30" height="30"><span>StudyMats</span></a><label class="topbar-search"><span>⌕</span><input id="dashboardSearch" type="search" placeholder="Search questions, topics, or keywords…"><kbd>⌘ K</kbd></label><button class="topbar-theme" type="button" data-theme-toggle aria-label="Toggle theme"><span data-theme-icon>☾</span></button><button class="topbar-profile" id="dashProfileButtonTop" type="button"><span>MP</span><b>Mikael Patrick</b><small>⌄</small></button></div>
         <div class="theme-toggle-wrapper">
           <button class="theme-toggle" data-theme-toggle type="button">
             <span data-theme-icon aria-hidden="true">🌙</span>
@@ -164,8 +165,8 @@
       <nav class="mobile-bottom-nav" aria-label="Quick navigation">
         <a class="mobile-nav-item is-current" href="#top" aria-current="page"><span aria-hidden="true">⌂</span><small>Home</small></a>
         <button class="mobile-nav-item" type="button" data-mobile-quiz aria-haspopup="dialog" aria-controls="studyMatsActionModal"><span aria-hidden="true">▤</span><small>Quiz</small></button>
-        <button class="mobile-nav-item" type="button" data-mobile-search aria-label="Search questions and answers"><span aria-hidden="true">⌕</span><small>Search</small></button>
-        <button class="mobile-nav-item" type="button" data-mobile-settings aria-label="Toggle light or dark theme"><span aria-hidden="true">◐</span><small>Theme</small></button>
+        <button class="mobile-nav-item" type="button" data-mobile-banks aria-haspopup="dialog" aria-controls="studyMatsActionModal"><span aria-hidden="true">▦</span><small>Banks</small></button>
+        <a class="mobile-nav-item" href="#subjectProgressDropdown" data-mobile-progress><span aria-hidden="true">▤</span><small>Progress</small></a>
       </nav>
       <script>
         document.querySelector(".sidebar-brand-lockup")?.addEventListener("click", (event) => { event.preventDefault(); const collapsed = document.body.classList.toggle("sidebar-collapsed"); const brand = document.querySelector(".sidebar-brand-lockup"); brand?.setAttribute("aria-label", collapsed ? "Expand sidebar" : "Collapse sidebar"); });
@@ -175,6 +176,12 @@
         document.querySelector("#dashProfileButtonTop")?.addEventListener("click", () => document.querySelector("#dashProfileButton")?.click());
         document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter") event.preventDefault(); });
         document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", (event) => { event.preventDefault(); document.querySelector("[data-open-subject-browser]")?.click(); });
+        document.querySelector('[data-mobile-banks]')?.addEventListener('click', event => { event.preventDefault(); document.querySelector('[data-open-subject-browser]')?.click(); });
+        document.querySelector('[data-mobile-progress]')?.addEventListener('click', event => {
+          event.preventDefault();
+          const progress = document.getElementById('subjectProgressDropdown');
+          if (progress) { progress.open = true; progress.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); }
+        });
         document.querySelector("[data-mobile-settings]")?.addEventListener('click', () => {
           document.querySelector('[data-theme-toggle]')?.click();
         });

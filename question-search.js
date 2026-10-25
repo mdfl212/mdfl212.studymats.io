@@ -65,6 +65,7 @@
   }
   // Do not open the full-screen search modal on focus alone: mobile browsers and embedded webviews may focus fields automatically.
   dashboardInput.addEventListener('click',()=>{if(modal.hidden)openModal();});
+  dashboardInput.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key==='ArrowDown')&&modal.hidden){e.preventDefault();openModal();}});
   dashboardInput.addEventListener('input',()=>{if(modal.hidden)openModal();input.value=dashboardInput.value;clearTimeout(debounce);debounce=setTimeout(()=>runSearch(input.value),160);});
   input.addEventListener('input',()=>{dashboardInput.value=input.value;clearTimeout(debounce);debounce=setTimeout(()=>runSearch(input.value),160);});
   input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();}});

@@ -1,0 +1,74 @@
+/* Compact, page-scoped mobile presentation for the StudyMats hub. */
+html[data-course="hub"] body[data-course="hub"] .mobile-brand{display:none;align-items:center;gap:8px;min-width:0;color:var(--text-main);text-decoration:none;font:600 16px/1.1 "Playfair Display",Georgia,serif;white-space:nowrap}
+html[data-course="hub"] body[data-course="hub"] .mobile-brand img{display:block;width:30px;height:30px;flex:0 0 30px}
+html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav{display:none}
+@media(max-width:1100px){
+html[data-course="hub"] body[data-course="hub"] .desktop-sidebar{display:none}
+html[data-course="hub"] body[data-course="hub"] main.wrapper{width:100%;max-width:none;margin:0;padding:max(8px,env(safe-area-inset-top)) 14px 20px}
+html[data-course="hub"] body[data-course="hub"] .app-topbar{display:flex;align-items:center;gap:10px;width:100%;min-width:0;height:auto;min-height:52px;margin:0 0 14px;padding:7px 9px;border:1px solid var(--border);border-radius:12px;background:var(--bg);box-shadow:none;overflow:visible}
+html[data-course="hub"] body[data-course="hub"] .mobile-brand{display:inline-flex;flex:0 0 auto}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search{display:flex;align-items:center;flex:1 1 auto;width:auto;min-width:0;max-width:none;margin:0;padding:0 8px;gap:7px;border:1px solid var(--border);border-radius:9px;background:var(--bg-card,var(--bg));box-shadow:none;overflow:hidden}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input{flex:1 1 auto;width:100%;min-width:0;max-width:100%;padding:9px 0;border:0;border-radius:0;outline:0;background:transparent;box-shadow:none;color:var(--text-main);font:13px/1.35 "Source Serif 4",Georgia,serif;appearance:none;-webkit-appearance:none}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search:focus-within{border-color:var(--border-hover,var(--gold-primary));box-shadow:0 0 0 2px color-mix(in srgb,var(--gold-primary) 16%,transparent)}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search kbd{display:none}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-theme{display:inline-flex;align-items:center;justify-content:center;flex:0 0 38px;width:38px;min-width:38px;height:38px;padding:0;border:1px solid var(--border);border-radius:9px;background:var(--bg-card,var(--bg));color:var(--text-main)}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-profile,html[data-course="hub"] body[data-course="hub"] .theme-toggle-wrapper,html[data-course="hub"] body[data-course="hub"] .site-header{display:none}
+html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown{margin:0 0 10px}
+html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown>button.section-toggle{display:flex;align-items:center;gap:10px;min-height:54px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:var(--bg-card,var(--bg))}
+html[data-course="hub"] body[data-course="hub"] .hub-year-summary-copy{min-width:0}
+html[data-course="hub"] body[data-course="hub"] .hub-year-title{font-size:14px}
+html[data-course="hub"] body[data-course="hub"] .hub-year-subtext{display:none}
+html[data-course="hub"] body[data-course="hub"] .hub-year-row{gap:6px}
+html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill{min-width:0}
+html[data-course="hub"] body[data-course="hub"] .study-dashboard{display:flex;flex-direction:column;gap:12px;min-width:0;width:100%}
+html[data-course="hub"] body[data-course="hub"] .study-dashboard>*{width:100%;min-width:0;max-width:100%}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome{display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:10px;padding:10px 2px;border:0;border-radius:0;background:transparent;box-shadow:none}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome .dash-kicker,html[data-course="hub"] body[data-course="hub"] .dash-welcome .dash-subtitle{display:none}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome h2{margin:0;font-size:clamp(20px,5vw,25px);line-height:1.2}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions{display:flex;flex-wrap:wrap;gap:7px}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button{min-height:40px;padding:8px 11px;border-radius:9px;font-size:12px;white-space:nowrap}
+html[data-course="hub"] body[data-course="hub"] .dash-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:100%}
+html[data-course="hub"] body[data-course="hub"] .dash-stats>*{min-width:0;padding:11px 12px;border-radius:11px;box-shadow:none}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-dropdown,html[data-course="hub"] body[data-course="hub"] .dash-activity-panel,html[data-course="hub"] body[data-course="hub"] .dash-tools-panel{margin:0;padding:13px 0;border:0;border-top:1px solid var(--border);border-radius:0;background:transparent;box-shadow:none}
+html[data-course="hub"] body[data-course="hub"] .dash-panel-heading{gap:8px;margin:0 0 10px}
+html[data-course="hub"] body[data-course="hub"] .dash-panel-heading .dash-kicker{margin-bottom:3px}
+html[data-course="hub"] body[data-course="hub"] .dash-panel-heading h2{margin:0;font-size:18px}
+html[data-course="hub"] body[data-course="hub"] .dash-panel-copy{margin:5px 0 0;font-size:12px;line-height:1.45}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-summary{display:flex;align-items:center;justify-content:space-between;cursor:pointer}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-list{display:grid;grid-template-columns:minmax(0,1fr);gap:0;min-width:0}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-list>*{min-width:0;border:0;border-bottom:1px solid var(--border);border-radius:0;background:transparent;box-shadow:none}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-list>*:last-child{border-bottom:0}
+html[data-course="hub"] body[data-course="hub"] .dash-activity-heading{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
+html[data-course="hub"] body[data-course="hub"] .dash-range-picker{display:flex;flex-wrap:wrap;gap:5px}
+html[data-course="hub"] body[data-course="hub"] .dash-range-picker button{min-height:34px;padding:6px 9px}
+html[data-course="hub"] body[data-course="hub"] .dash-heatmap-container{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+html[data-course="hub"] body[data-course="hub"] .dash-data-actions{display:flex;flex-direction:column;gap:7px}
+html[data-course="hub"] body[data-course="hub"] .dash-data-actions .dash-button{width:100%;min-width:0;min-height:42px;text-align:center}
+html[data-course="hub"] body[data-course="hub"] .question-search-dialog{min-width:0;width:100%;max-width:100%}
+html[data-course="hub"] body[data-course="hub"] .qs-header{padding:12px;gap:9px}
+html[data-course="hub"] body[data-course="hub"] .qs-header h2{font-size:21px}
+html[data-course="hub"] body[data-course="hub"] .qs-search-box{display:flex;align-items:center;gap:8px;width:100%;min-width:0;max-width:100%;margin:8px 0 4px;padding:0 10px;border:1px solid var(--border);border-radius:9px;background:var(--bg);box-shadow:none;overflow:hidden}
+html[data-course="hub"] body[data-course="hub"] .qs-search-box input{display:block;flex:1 1 auto;width:100%;min-width:0;max-width:100%;padding:10px 0;border:0;border-radius:0;outline:0;background:transparent;box-shadow:none;appearance:none;-webkit-appearance:none}
+html[data-course="hub"] body[data-course="hub"] .qs-search-box input:focus,html[data-course="hub"] body[data-course="hub"] .qs-search-box input:focus-visible{outline:0;box-shadow:none}
+html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));position:fixed;inset:auto 0 0;z-index:9000;padding:5px 8px max(6px,env(safe-area-inset-bottom));border-top:1px solid var(--border);background:color-mix(in srgb,var(--bg-card,var(--bg)) 94%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;min-height:44px;padding:3px 2px;border:0;border-radius:9px;background:transparent;color:var(--text-sub);text-decoration:none;font:inherit;cursor:pointer}
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item>span{font-size:19px;line-height:1.1}
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item small{font-size:10px}
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item.is-current{color:var(--gold-primary)}
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item:focus-visible{outline:2px solid var(--gold-primary);outline-offset:-2px}
+html[data-course="hub"] body[data-course="hub"] .dash-whats-new{margin:0}
+html[data-course="hub"] body[data-course="hub"] .dash-data-caption{font-size:11px}
+html[data-course="hub"] body[data-course="hub"]{overflow-x:clip;padding-bottom:calc(62px + env(safe-area-inset-bottom))}
+}
+@media(max-width:380px){
+html[data-course="hub"] body[data-course="hub"] main.wrapper{padding-left:9px;padding-right:9px}
+html[data-course="hub"] body[data-course="hub"] .mobile-brand{gap:5px;font-size:14px}
+html[data-course="hub"] body[data-course="hub"] .mobile-brand img{width:26px;height:26px;flex-basis:26px}
+html[data-course="hub"] body[data-course="hub"] .app-topbar{gap:6px;padding:6px}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-theme{flex-basis:34px;width:34px;min-width:34px;height:34px}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search{padding:0 6px}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input{font-size:12px}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome{align-items:flex-start;flex-direction:column}
+}
+@media(min-width:1101px){html[data-course="hub"] body[data-course="hub"] .mobile-brand{display:none}}
+@media(prefers-reduced-motion:reduce){html[data-course="hub"] body[data-course="hub"] *,html[data-course="hub"] body[data-course="hub"] *::before,html[data-course="hub"] body[data-course="hub"] *::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
