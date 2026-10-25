@@ -14131,3 +14131,13 @@ body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible
     background: transparent !important;
   }
 }
+
+
+/* Desktop dashboard welcome: blend its surface into the page background. */
+@media (min-width: 761px) {
+  html[data-course="hub"] body[data-course="hub"] .dash-welcome {
+    background: var(--bg) !important;
+    background-color: var(--bg) !important;
+    background-image: none !important;
+  }
+}
