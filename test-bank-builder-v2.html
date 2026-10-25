@@ -334,11 +334,11 @@ a{color:var(--accent)}
   <div class="converter-help-links">
     <a class="btn primary" href="https://mdfl212.github.io/studymats-test-bank-converter/">Convert my test bank ↗</a>
     <a class="btn" href="https://github.com/mdfl212/studymats-test-bank-converter/blob/main/templates/studymats-question-bank.template.json" target="_blank" rel="noopener noreferrer">View JSON template ↗</a>
-    <a class="btn subtle" href="#conversionWorkflow">How it works ↓</a>
+    <button class="btn subtle" type="button" id="toggleConversionWorkflow" aria-controls="conversionWorkflow" aria-expanded="false">How it works ↓</button>
     <span class="converter-coming-soon">Direct in-page conversion for Word/PDF files · Coming soon</span>
   </div>
 </section>
-<section class="conversion-workflow" id="conversionWorkflow" aria-labelledby="conversionWorkflowTitle">
+<section class="conversion-workflow" id="conversionWorkflow" aria-labelledby="conversionWorkflowTitle" hidden>
 <div class="conversion-workflow-head"><div><div class="eyebrow">SAFE IMPORT · 7 STEPS · 2 DECISION GATES</div><h2 id="conversionWorkflowTitle">Conversion workflow</h2><p>Follow each stage from source inventory to reviewed import. Select a step for its checks and next action. Statuses reflect the real JSON import preview; no success is simulated.</p></div></div>
 <div class="workflow-legend" aria-label="Workflow status legend"><span><i class="wf-good"></i>Complete</span><span><i class="wf-warn"></i>Warning</span><span><i class="wf-review"></i>Review required</span><span><i class="wf-bad"></i>Blocked</span></div>
 <div class="workflow-steps" role="group" aria-label="Conversion workflow steps">
@@ -351,7 +351,7 @@ a{color:var(--accent)}
 <button class="workflow-step" type="button" data-workflow-step="6" data-gate="true" aria-pressed="false" data-status="pending"><span class="workflow-step-number">◇</span><span class="workflow-step-copy"><strong>Human review</strong><small>Resolve issues before proceeding</small></span></button>
 <button class="workflow-step" type="button" data-workflow-step="7" aria-pressed="false" data-status="pending"><span class="workflow-step-number">07</span><span class="workflow-step-copy"><strong>Confirm import</strong><small>Explicit confirmation only</small></span></button>
 </div>
-<section class="workflow-detail" aria-live="polite" aria-atomic="true" aria-labelledby="workflowDetailTitle"><div class="workflow-detail-main"><div class="workflow-detail-top"><h3 id="workflowDetailTitle">01 · Inventory source</h3><span class="workflow-status" id="workflowDetailStatus" data-status="current">Ready to begin</span></div><p id="workflowDetailBody">Identify file type, record count, answer-key convention, choice order, and available media. The in-page import path accepts JSON; other formats need preprocessing or the external converter.</p><p class="workflow-detail-meta" id="workflowDetailMeta">Checks: readable JSON and recognized question collection. Next: choose a JSON bank to open its actual validation preview.</p><div class="workflow-counts" id="workflowCounts" hidden></div></div><div class="workflow-detail-actions"><button class="btn primary" type="button" id="workflowPrimaryAction">Choose JSON file</button><a class="btn" id="workflowSecondaryAction" href="#conversionWorkflow">How it works ↓</a></div></section>
+<section class="workflow-detail" aria-live="polite" aria-atomic="true" aria-labelledby="workflowDetailTitle"><div class="workflow-detail-main"><div class="workflow-detail-top"><h3 id="workflowDetailTitle">01 · Inventory source</h3><span class="workflow-status" id="workflowDetailStatus" data-status="current">Ready to begin</span></div><p id="workflowDetailBody">Identify file type, record count, answer-key convention, choice order, and available media. The in-page import path accepts JSON; other formats need preprocessing or the external converter.</p><p class="workflow-detail-meta" id="workflowDetailMeta">Checks: readable JSON and recognized question collection. Next: choose a JSON bank to open its actual validation preview.</p><div class="workflow-counts" id="workflowCounts" hidden></div></div><div class="workflow-detail-actions"><button class="btn primary" type="button" id="workflowPrimaryAction">Choose JSON file</button><button class="btn" id="workflowSecondaryAction" type="button" aria-controls="conversionWorkflow">Hide workflow ↑</button></div></section>
 </section>
 <div class="inline-note">Works with your existing StudyMats subjects and question-bank schema. Drafts are stored locally on this device.</div>
 </div>
@@ -455,10 +455,14 @@ function renderWorkflow(){
  nodes.forEach((el,i)=>{el.dataset.status=st[i].status;el.setAttribute('aria-pressed',String(i===workflowActiveStep));const n=el.querySelector('.workflow-step-number');if(n)n.textContent=el.dataset.gate==='true'?'◇':String(i===7?7:i+1).padStart(2,'0')});
  $('workflowDetailTitle').textContent=String(workflowActiveStep===7?7:workflowActiveStep+1).padStart(2,'0')+' · '+d.title;$('workflowDetailBody').textContent=d.body;$('workflowDetailMeta').textContent=d.meta;$('workflowDetailStatus').textContent=st[workflowActiveStep].label;$('workflowDetailStatus').dataset.status=st[workflowActiveStep].status;
  const p=$('workflowPrimaryAction');p.textContent=d.action;p.dataset.action=d.type;p.disabled=workflowImportState.blocked&&workflowActiveStep!==0;
- const a=$('workflowSecondaryAction');a.hidden=workflowActiveStep===3;a.href='#conversionWorkflow';
+ const a=$('workflowSecondaryAction');a.hidden=workflowActiveStep===3;a.textContent='Hide workflow ↑';
  const c=$('workflowCounts');if(workflowImportState.loaded){c.hidden=false;c.innerHTML='<span class="workflow-count"><strong>'+workflowImportState.total+'</strong> source records</span><span class="workflow-count"><strong>'+workflowImportState.valid+'</strong> usable</span><span class="workflow-count"><strong>'+workflowImportState.invalid+'</strong> invalid / skipped</span><span class="workflow-count"><strong>'+workflowImportState.issues+'</strong> review notes</span>'}else{c.hidden=true;c.textContent=''}
 }
 document.querySelectorAll('[data-workflow-step]').forEach(el=>el.addEventListener('click',()=>{workflowActiveStep=Number(el.dataset.workflowStep);renderWorkflow()}));
+const workflowPanel=$('conversionWorkflow'),workflowToggle=$('toggleConversionWorkflow');
+function setWorkflowVisible(visible){workflowPanel.hidden=!visible;workflowToggle.setAttribute('aria-expanded',String(visible));workflowToggle.textContent=visible?'Hide workflow ↑':'How it works ↓';if(visible)workflowPanel.scrollIntoView({behavior:'smooth',block:'start'});else workflowToggle.scrollIntoView({behavior:'smooth',block:'nearest'});}
+workflowToggle.addEventListener('click',()=>setWorkflowVisible(workflowPanel.hidden));
+$('workflowSecondaryAction').addEventListener('click',()=>setWorkflowVisible(false));
 $('workflowPrimaryAction').addEventListener('click',()=>{const d=workflowSteps[workflowActiveStep];if(d.type==='link'){window.open(d.href,'_blank','noopener');return}if($('importBankWelcome'))$('importBankWelcome').click()});
 
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
