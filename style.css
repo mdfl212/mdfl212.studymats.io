@@ -13214,3 +13214,77 @@ html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .sideba
 html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-modal-mark + .dash-kicker {
   color:#6d28d9 !important;
 }
+
+
+/* Targeted hub contrast repair: semantic light surfaces and original gold announcement. */
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] {
+  color-scheme: light;
+  background: #f6f9f5 !important;
+  color: #19281e !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .study-dashboard,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-panel,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-stat,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-subject-card,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-welcome,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-activity-panel,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-tools-panel {
+  background-color: #fff !important;
+  color: #19281e !important;
+  border-color: #dce5dc !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-panel :where(h1,h2,h3,h4,strong,b),
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-subject-card :where(h1,h2,h3,h4,strong,b),
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-stats :where(h1,h2,h3,h4,strong,b),
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-welcome :where(h1,h2,h3,h4,strong,b) {
+  color: #19281e !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-panel :where(p,span,label,small),
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-subject-card :where(p,span,label,small),
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-stats :where(p,span,label,small),
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-welcome :where(p,span,label,small) {
+  color: #526257;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-subject-card a,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-continue,
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-glance-link {
+  color: #14532f !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-whats-new {
+  background: #fff6d9 !important;
+  color: #3d2d08 !important;
+  border: 1px solid #d7b34b !important;
+  box-shadow: 0 2px 8px rgba(115, 83, 15, .08) !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-whats-new :where(h2,p) {
+  color: #3d2d08 !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-whats-new-icon {
+  background: #f2df9d !important;
+  color: #6b4c00 !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-whats-new-link {
+  color: #765500 !important;
+  text-decoration-color: currentColor !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-whats-new-close {
+  background: #fffdf5 !important;
+  color: #3d2d08 !important;
+  border-color: #d7c58a !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-stat {
+  background: #fff !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-progress-track {
+  background: #e4eae4 !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .mobile-bottom-nav {
+  background: rgba(255,255,255,.98) !important;
+  border-top-color: #dce5dc !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .mobile-nav-item {
+  color: #526257 !important;
+}
+html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .mobile-nav-item.is-current {
+  color: #17643a !important;
+}
