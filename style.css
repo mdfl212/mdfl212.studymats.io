@@ -13767,3 +13767,30 @@ body[data-course="hub"] {
                 0 3px 12px rgba(0,0,0,.07) !important;
   }
 }
+
+
+/* Align the desktop brand rail and topbar to one shared header height.
+   Remove inherited top offsets/padding that create a stepped bottom divider. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    align-self: stretch !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar .sidebar-top {
+    height: 58px !important; min-height: 58px !important; max-height: 58px !important;
+    margin: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important;
+    border-bottom: 1px solid var(--border) !important;
+    border-radius: 0 !important; box-sizing: border-box !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .app-topbar {
+    height: 58px !important; min-height: 58px !important; max-height: 58px !important;
+    margin: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important;
+    border-bottom: 1px solid var(--border) !important;
+    border-radius: 0 !important; box-sizing: border-box !important;
+    align-self: stretch !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search {
+    margin-top: 0 !important; margin-bottom: 0 !important;
+  }
+}
