@@ -153,3 +153,17 @@
     width: 100% !important;
   }
 }
+
+
+/* Remove the unused blank space after the dashboard content on desktop. */
+@media (min-width: 701px) {
+  html[data-course="hub"] body[data-course="hub"] {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .wrapper {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
