@@ -280,6 +280,7 @@
 
           document.querySelector('[data-open-subject-browser]')?.addEventListener('click', event => openModal('browse', event.currentTarget));
           document.querySelector('[data-mobile-quiz]')?.addEventListener('click', event => openModal('quiz', event.currentTarget));
+          document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]')?.addEventListener('click', event => { event.preventDefault(); openModal('quiz', event.currentTarget); });
           document.querySelector('[data-mobile-search]')?.addEventListener('click', () => {
             const searchInput = document.getElementById('dashboardSearch');
             if (searchInput) searchInput.click();
