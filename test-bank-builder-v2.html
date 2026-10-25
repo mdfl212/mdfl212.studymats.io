@@ -498,7 +498,7 @@ function renderWorkflow(){
  nodes.forEach(el=>{const i=Number(el.dataset.workflowStep);if(!Number.isInteger(i)||!st[i])return;el.dataset.status=st[i].status;el.setAttribute('aria-pressed',String(i===workflowActiveStep));});
  const detail=$('workflowDetail');detail.hidden=!d;
  if(d){
-  $('workflowDetailTitle').textContent=String(workflowActiveStep>=8?7:workflowActiveStep+1).padStart(2,'0')+' · '+d.title;
+  $('workflowDetailTitle').textContent=(workflowActiveStep===1||workflowActiveStep===7?'Decision gate · ':String(workflowActiveStep>=8?7:workflowActiveStep+1).padStart(2,'0')+' · ')+d.title;
   $('workflowDetailBody').textContent=d.body;
   $('workflowDetailMeta').textContent=d.meta;
   $('workflowDetailStatus').textContent=st[workflowActiveStep].label;
