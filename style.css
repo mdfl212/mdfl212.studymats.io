@@ -13902,3 +13902,177 @@ body[data-course="hub"] {
     overflow: hidden;
   }
 }
+
+
+/* StudyMats mobile subject browser and quiz launcher popups */
+body[data-course="hub"].study-mats-action-open { overflow: hidden !important; }
+body[data-course="hub"] .study-mats-action-modal[hidden] { display: none !important; }
+body[data-course="hub"] .study-mats-action-dialog {
+  width: min(760px, 100%);
+  max-height: min(90dvh, 820px);
+  border-color: var(--border);
+  background: var(--bg-card, var(--bg));
+}
+body[data-course="hub"] .study-mats-action-description {
+  margin: 3px 0 0;
+  color: var(--text-sub);
+  font: 13px/1.45 'Source Serif 4', Georgia, serif;
+}
+body[data-course="hub"] .study-mats-action-content {
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 16px 20px max(18px, env(safe-area-inset-bottom));
+}
+body[data-course="hub"] .study-mats-modal-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0 0 14px;
+}
+body[data-course="hub"] .study-mats-modal-years .hub-pill {
+  min-height: 34px;
+  padding: 7px 12px;
+}
+body[data-course="hub"] #studyMatsBrowseView .hub-subjects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  max-height: min(52dvh, 480px);
+  overflow: auto;
+  padding: 1px 2px 8px;
+  overscroll-behavior: contain;
+}
+body[data-course="hub"] #studyMatsBrowseView .hub-subject-card {
+  min-width: 0;
+}
+body[data-course="hub"] #studyMatsBrowseView .status-message:empty { display: none; }
+body[data-course="hub"] .study-mats-quiz-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body[data-course="hub"] .study-mats-quiz-content[hidden] { display: none !important; }
+body[data-course="hub"] .study-mats-field-label {
+  display: block;
+  margin: 0;
+  color: var(--text-main);
+  font: 600 12px/1.4 'JetBrains Mono', monospace;
+  letter-spacing: .02em;
+}
+body[data-course="hub"] .study-mats-subject-select {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--text-main);
+  font: 14px 'Source Serif 4', Georgia, serif;
+}
+body[data-course="hub"] .study-mats-mode-picker {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+body[data-course="hub"] .study-mats-mode-picker button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  min-width: 0;
+  min-height: 112px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--text-main);
+  text-align: left;
+  cursor: pointer;
+}
+body[data-course="hub"] .study-mats-mode-picker button[aria-pressed="true"] {
+  border-color: var(--gold-primary);
+  background: color-mix(in srgb, var(--gold-primary) 10%, var(--bg-card));
+  box-shadow: inset 0 0 0 1px var(--gold-primary);
+}
+body[data-course="hub"] .study-mats-mode-picker button > span {
+  color: var(--gold-primary);
+  font-size: 18px;
+}
+body[data-course="hub"] .study-mats-mode-picker button strong {
+  font: 600 14px 'Playfair Display', Georgia, serif;
+}
+body[data-course="hub"] .study-mats-mode-picker button small {
+  color: var(--text-sub);
+  font: 11px/1.4 'Source Serif 4', Georgia, serif;
+}
+body[data-course="hub"] .study-mats-launch-status {
+  margin: 0;
+  color: var(--text-sub);
+  font: 12px/1.45 'Source Serif 4', Georgia, serif;
+}
+body[data-course="hub"] .study-mats-retry {
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--bg-card);
+  color: var(--text-main);
+  cursor: pointer;
+}
+body[data-course="hub"] .study-mats-start-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  margin-top: 4px;
+}
+@media (max-width: 660px) {
+  body[data-course="hub"] .mobile-bottom-nav {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 9000;
+    padding: 8px 8px calc(7px + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--border);
+    background: color-mix(in srgb, var(--bg-card) 94%, transparent);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  body[data-course="hub"] .mobile-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-width: 0;
+    min-height: 46px;
+    padding: 3px 2px;
+    border: 0;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text-sub);
+    text-decoration: none;
+    font-family: 'Source Serif 4', Georgia, serif;
+    cursor: pointer;
+  }
+  body[data-course="hub"] .mobile-nav-item > span { font-size: 20px; line-height: 1.1; }
+  body[data-course="hub"] .mobile-nav-item small { font-size: 10px; }
+  body[data-course="hub"] .mobile-nav-item.is-current { color: var(--gold-primary); }
+  body[data-course="hub"] .study-mats-action-modal { padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom)); }
+  body[data-course="hub"] .study-mats-action-dialog { max-height: calc(100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); border-radius: 16px; }
+  body[data-course="hub"] .study-mats-action-dialog .qs-header { padding: 16px 16px 12px; gap: 10px; }
+  body[data-course="hub"] .study-mats-action-content { padding: 12px 13px max(14px, env(safe-area-inset-bottom)); }
+  body[data-course="hub"] #studyMatsBrowseView .hub-subjects { grid-template-columns: minmax(0, 1fr); max-height: 52dvh; }
+  body[data-course="hub"] .study-mats-mode-picker { grid-template-columns: minmax(0, 1fr); gap: 7px; }
+  body[data-course="hub"] .study-mats-mode-picker button { min-height: 0; display: grid; grid-template-columns: 24px minmax(0, 1fr); align-items: center; column-gap: 8px; padding: 10px; }
+  body[data-course="hub"] .study-mats-mode-picker button > span { grid-row: span 2; }
+  body[data-course="hub"] .study-mats-mode-picker button small { grid-column: 2; }
+  body[data-course="hub"] .study-mats-start-quiz { position: sticky; bottom: 0; }
+}
+@media (max-width: 380px) {
+  body[data-course="hub"] .study-mats-action-dialog .qs-header h2 { font-size: 22px; }
+  body[data-course="hub"] .study-mats-action-description { font-size: 12px; }
+}
