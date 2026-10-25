@@ -13813,3 +13813,25 @@ body[data-course="hub"] {
     padding-bottom: 8px !important;
   }
 }
+
+
+/* Correct the desktop hub's doubled sidebar offset. The wrapper already reserves
+   sidebar space with margin-left, so the body must not reserve it a second time. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+    box-sizing: border-box !important;
+    width: auto !important;
+    max-width: none !important;
+    margin-left: 200px !important;
+    margin-right: 0 !important;
+    padding: 0 12px 8px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed main.wrapper {
+    margin-left: 56px !important;
+  }
+}
