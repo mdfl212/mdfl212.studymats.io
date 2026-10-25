@@ -18,8 +18,26 @@ html[data-course="hub"] body[data-course="hub"] .hub-year-dropdown>button.sectio
 html[data-course="hub"] body[data-course="hub"] .hub-year-summary-copy{min-width:0}
 html[data-course="hub"] body[data-course="hub"] .hub-year-title{font-size:14px}
 html[data-course="hub"] body[data-course="hub"] .hub-year-subtext{display:none}
-html[data-course="hub"] body[data-course="hub"] .hub-year-row{gap:6px}
-html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill{min-width:0}
+html[data-course="hub"] body[data-course="hub"] .hub-year-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;width:100%;min-width:0}
+html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill{min-width:0;width:100%;max-width:100%;padding:8px 5px;white-space:normal;overflow-wrap:anywhere;line-height:1.2}
+html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill[data-year="resources"]{grid-column:span 2}
+html[data-course="hub"] body[data-course="hub"] .study-mats-modal-years{display:none}
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel>.dash-panel-heading{margin-bottom:8px}
+html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-copy{display:none}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-list .dash-subject-card-compact{padding:11px 0}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-title{min-width:0;overflow-wrap:anywhere}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-title h3{min-width:0;overflow-wrap:anywhere}
+html[data-course="hub"] body[data-course="hub"] .dash-subject-pct{flex:0 0 auto}
+html[data-course="hub"] body[data-course="hub"] .dash-heatmap-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+html[data-course="hub"] body[data-course="hub"] .dash-activity-panel .dash-activity-heading>div:first-child{min-width:0;flex:1 1 170px}
+html[data-course="hub"] body[data-course="hub"] .dash-activity-panel .dash-activity-heading .dash-panel-copy{display:none}
+html[data-course="hub"] body[data-course="hub"] .dash-activity-panel .dash-heatmap-container{padding-bottom:2px}
+html[data-course="hub"] body[data-course="hub"] .dash-activity-panel .dash-legend{margin:7px 0}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search:focus-within{outline:2px solid color-mix(in srgb,var(--gold-primary) 65%,transparent);outline-offset:1px}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:focus,html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:focus-visible{outline:0;box-shadow:none}
+html[data-course="hub"] body[data-course="hub"] .question-search-dialog{max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 20px);overflow:auto;overscroll-behavior:contain}
+html[data-course="hub"] body[data-course="hub"] .question-search-modal{padding: max(10px,env(safe-area-inset-top)) 10px max(10px,env(safe-area-inset-bottom))}
+html[data-course="hub"] body[data-course="hub"] .study-mats-action-dialog{max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 20px);overflow:auto;overscroll-behavior:contain}
 html[data-course="hub"] body[data-course="hub"] .study-dashboard{display:flex;flex-direction:column;gap:12px;min-width:0;width:100%}
 html[data-course="hub"] body[data-course="hub"] .study-dashboard>*{width:100%;min-width:0;max-width:100%}
 html[data-course="hub"] body[data-course="hub"] .dash-welcome{display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:10px;padding:10px 2px;border:0;border-radius:0;background:transparent;box-shadow:none}
@@ -69,6 +87,12 @@ html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-theme{flex-b
 html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search{padding:0 6px}
 html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input{font-size:12px}
 html[data-course="hub"] body[data-course="hub"] .dash-welcome{align-items:flex-start;flex-direction:column}
+html[data-course="hub"] body[data-course="hub"] .hub-year-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill[data-year="resources"]{grid-column:1/-1}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions{width:100%}
+html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button{flex:1 1 auto}
+html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input{font-size:12px;overflow:hidden;text-overflow:ellipsis}
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item small{font-size:10px;line-height:1.2}
 }
 @media(min-width:1101px){html[data-course="hub"] body[data-course="hub"] .mobile-brand{display:none}}
 @media(prefers-reduced-motion:reduce){html[data-course="hub"] body[data-course="hub"] *,html[data-course="hub"] body[data-course="hub"] *::before,html[data-course="hub"] body[data-course="hub"] *::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
