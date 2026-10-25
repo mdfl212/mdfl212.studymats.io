@@ -42,15 +42,13 @@
 
 
 
-<details class="section-wrapper hub-year-dropdown" aria-label="Main hub">
-          <summary class="section-toggle"><span class="hub-year-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 5.5c3.7-1.2 6.8-.5 8.5 1.2v12c-1.7-1.7-4.8-2.4-8.5-1.2z"/><path d="M20.5 5.5c-3.7-1.2-6.8-.5-8.5 1.2v12c1.7-1.7 4.8-2.4 8.5-1.2z"/><path d="M12 7v12"/></svg></span><span class="hub-year-summary-copy"><span class="hub-year-title">Browse test banks</span><span class="hub-year-subtext">Choose a year level to explore subjects, question banks, and review resources.</span></span><span class="toggle-icon" aria-hidden="true">⌄</span></summary>
-          <div
-            class="hub-subjects"
-            id="hubSubjectList"
-            aria-live="polite"
-          ></div>
-          <div id="statusMessage" class="status-message" role="status"></div>
-        </details>
+<section class="section-wrapper hub-year-dropdown" aria-label="Main hub">
+          <button class="section-toggle" type="button" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal">
+            <span class="hub-year-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 5.5c3.7-1.2 6.8-.5 8.5 1.2v12c-1.7-1.7-4.8-2.4-8.5-1.2z"/><path d="M20.5 5.5c-3.7-1.2-6.8-.5-8.5 1.2v12c1.7-1.7 4.8-2.4 8.5-1.2z"/><path d="M12 7v12"/></svg></span>
+            <span class="hub-year-summary-copy"><span class="hub-year-title">Browse test banks</span><span class="hub-year-subtext">Choose a year level to explore subjects, question banks, and review resources.</span></span>
+            <span class="toggle-icon" aria-hidden="true">↗</span>
+          </button>
+        </section>
 <div
             class="hub-year-row"
             role="tablist"
@@ -111,6 +109,46 @@
 </nav>
       </main>
 
+
+      <div class="question-search-modal study-mats-action-modal" id="studyMatsActionModal" hidden aria-hidden="true">
+        <div class="question-search-backdrop" id="studyMatsActionBackdrop"></div>
+        <section class="question-search-dialog study-mats-action-dialog" role="dialog" aria-modal="true" aria-labelledby="studyMatsActionTitle" tabindex="-1">
+          <header class="qs-header">
+            <div class="qs-header-copy">
+              <p class="dash-kicker" id="studyMatsActionEyebrow">STUDYMATS SUBJECT LIBRARY</p>
+              <h2 id="studyMatsActionTitle">Browse test banks</h2>
+              <p class="study-mats-action-description" id="studyMatsActionDescription">Choose a year level to explore subjects and question banks.</p>
+            </div>
+            <button type="button" id="studyMatsActionClose" class="qs-close" aria-label="Close popup">×</button>
+          </header>
+          <div class="study-mats-action-content" id="studyMatsBrowseView">
+            <div class="hub-year-row study-mats-modal-years" role="group" aria-label="Filter subjects by year level">
+              <button class="hub-pill active" type="button" data-year="YL1" aria-pressed="true">YL1</button>
+              <button class="hub-pill" type="button" data-year="YL2" aria-pressed="false">YL2</button>
+              <button class="hub-pill" type="button" data-year="YL3" aria-pressed="false">YL3</button>
+              <button class="hub-pill" type="button" data-year="YL4" aria-pressed="false">YL4</button>
+              <button class="hub-pill" type="button" data-year="resources" aria-pressed="false">Additional Resources</button>
+            </div>
+            <div class="hub-subjects" id="hubSubjectList" aria-live="polite"></div>
+            <div id="statusMessage" class="status-message" role="status" aria-live="polite"></div>
+          </div>
+          <div class="study-mats-action-content study-mats-quiz-content" id="studyMatsQuizView" hidden>
+            <label class="study-mats-field-label" for="studyMatsQuizSubject">Choose a subject</label>
+            <select id="studyMatsQuizSubject" class="study-mats-subject-select">
+              <option value="">Loading subjects…</option>
+            </select>
+            <p class="study-mats-field-label">Choose a study mode</p>
+            <div class="study-mats-mode-picker" role="group" aria-label="Quiz mode">
+              <button type="button" data-launch-mode="exam" aria-pressed="true"><span aria-hidden="true">✎</span><strong>Exam</strong><small>Answer without revealing the key</small></button>
+              <button type="button" data-launch-mode="review" aria-pressed="false"><span aria-hidden="true">⌕</span><strong>Review</strong><small>See explanations as you practice</small></button>
+              <button type="button" data-launch-mode="key" aria-pressed="false"><span aria-hidden="true">✓</span><strong>Answer Key</strong><small>Show correct answers and rationales</small></button>
+            </div>
+            <p class="study-mats-launch-status" id="studyMatsLaunchStatus" role="status" aria-live="polite"></p>
+            <button class="dash-button dash-button-primary study-mats-start-quiz" id="studyMatsStartQuiz" type="button">Start Quiz <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+      </div>
+
       <div class="question-search-modal" id="questionSearchModal" hidden aria-hidden="true">
         <div class="question-search-backdrop" id="questionSearchBackdrop"></div>
         <section class="question-search-dialog" role="dialog" aria-modal="true" aria-labelledby="questionSearchTitle">
@@ -125,8 +163,8 @@
  
       <nav class="mobile-bottom-nav" aria-label="Quick navigation">
         <a class="mobile-nav-item is-current" href="#top" aria-current="page"><span aria-hidden="true">⌂</span><small>Home</small></a>
-        <a class="mobile-nav-item" href="quiz.html"><span aria-hidden="true">▤</span><small>Quiz</small></a>
-        <a class="mobile-nav-item" href="#hubSubjectList" data-mobile-subjects><span aria-hidden="true">▦</span><small>Subjects</small></a>
+        <button class="mobile-nav-item" type="button" data-mobile-quiz aria-haspopup="dialog" aria-controls="studyMatsActionModal"><span aria-hidden="true">▤</span><small>Quiz</small></button>
+        <button class="mobile-nav-item" type="button" data-mobile-search aria-label="Search questions and answers"><span aria-hidden="true">⌕</span><small>Search</small></button>
         <button class="mobile-nav-item" type="button" data-mobile-settings aria-label="Toggle light or dark theme"><span aria-hidden="true">◐</span><small>Theme</small></button>
       </nav>
       <script>
@@ -137,19 +175,149 @@
         document.querySelector("#dashProfileButtonTop")?.addEventListener("click", () => document.querySelector("#dashProfileButton")?.click());
         document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter") event.preventDefault(); });
         document.querySelector("[data-sidebar-theme]")?.addEventListener("click", () => document.querySelector("[data-theme-toggle]")?.click());
-        document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", () => { const d=document.querySelector(".hub-year-dropdown"); if(d) d.open=true; });
+        document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", (event) => { event.preventDefault(); document.querySelector("[data-open-subject-browser]")?.click(); });
         document.querySelector("[data-mobile-settings]")?.addEventListener('click', () => {
           document.querySelector('[data-theme-toggle]')?.click();
-        });
-        document.querySelector('[data-mobile-subjects]')?.addEventListener('click', (event) => {
-          const yearDropdown = document.querySelector('.hub-year-dropdown');
-          if (yearDropdown) yearDropdown.open = true;
-          window.setTimeout(() => document.querySelector('#hubSubjectList')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
         });
       </script>
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
       <script src="question-search.js"></script>
+
+      <script>
+        (() => {
+          const modal = document.getElementById('studyMatsActionModal');
+          const dialog = modal?.querySelector('.study-mats-action-dialog');
+          const closeButton = document.getElementById('studyMatsActionClose');
+          const backdrop = document.getElementById('studyMatsActionBackdrop');
+          const browseView = document.getElementById('studyMatsBrowseView');
+          const quizView = document.getElementById('studyMatsQuizView');
+          const title = document.getElementById('studyMatsActionTitle');
+          const eyebrow = document.getElementById('studyMatsActionEyebrow');
+          const description = document.getElementById('studyMatsActionDescription');
+          const subjectSelect = document.getElementById('studyMatsQuizSubject');
+          const launchStatus = document.getElementById('studyMatsLaunchStatus');
+          const startButton = document.getElementById('studyMatsStartQuiz');
+          if (!modal || !dialog || !closeButton || !backdrop) return;
+
+          let opener = null;
+          let previousOverflow = '';
+          let activeMode = 'exam';
+          let catalogPromise = null;
+
+          async function getCatalog() {
+            if (Array.isArray(window.studymatsSubjects) && window.studymatsSubjects.length) return window.studymatsSubjects;
+            if (catalogPromise) return catalogPromise;
+            catalogPromise = fetch(new URL('subjects.json', document.baseURI)).then(response => {
+              if (!response.ok) throw new Error('Unable to load the subject list.');
+              return response.json();
+            }).then(subjects => {
+              window.studymatsSubjects = subjects;
+              return subjects;
+            }).catch(error => {
+              catalogPromise = null;
+              throw error;
+            });
+            return catalogPromise;
+          }
+
+          async function populateQuizSubjects() {
+            subjectSelect.innerHTML = '<option value="">Loading subjects…</option>';
+            launchStatus.textContent = '';
+            try {
+              const subjects = await getCatalog();
+              const levels = ['YL1', 'YL2', 'YL3', 'YL4'];
+              subjectSelect.innerHTML = levels.map(level => {
+                const options = subjects.filter(subject => subject.yearLevel === level);
+                return options.length ? '<optgroup label="' + level + '">' + options.map(subject =>
+                  '<option value="' + String(subject.id).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;') + '">' +
+                  String(subject.icon || '📚') + ' ' + String(subject.name).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</option>'
+                ).join('') + '</optgroup>' : '';
+              }).join('');
+              if (!subjectSelect.options.length) throw new Error('No subjects are available.');
+              subjectSelect.value = subjects[0]?.id || '';
+            } catch (error) {
+              subjectSelect.innerHTML = '<option value="">Subjects unavailable</option>';
+              launchStatus.textContent = error.message + ' Check your connection and retry.';
+              const retry = document.createElement('button');
+              retry.type = 'button';
+              retry.className = 'study-mats-retry';
+              retry.textContent = 'Retry loading subjects';
+              retry.addEventListener('click', () => { catalogPromise = null; populateQuizSubjects(); });
+              launchStatus.appendChild(document.createTextNode(' '));
+              launchStatus.appendChild(retry);
+            }
+          }
+
+          function openModal(view, trigger) {
+            opener = trigger || document.activeElement;
+            const isQuiz = view === 'quiz';
+            browseView.hidden = isQuiz;
+            quizView.hidden = !isQuiz;
+            title.textContent = isQuiz ? 'Start a quiz' : 'Browse test banks';
+            eyebrow.textContent = isQuiz ? 'STUDYMATS QUIZ LAUNCHER' : 'STUDYMATS SUBJECT LIBRARY';
+            description.textContent = isQuiz ? 'Choose a subject and how you want to study.' : 'Choose a year level to explore subjects and question banks.';
+            modal.hidden = false;
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('study-mats-action-open');
+            previousOverflow = document.body.style.overflow;
+            document.body.style.overflow = 'hidden';
+            if (isQuiz) {
+              populateQuizSubjects().then(() => subjectSelect.focus());
+            } else {
+              dialog.focus();
+            }
+          }
+
+          function closeModal() {
+            if (modal.hidden) return;
+            modal.hidden = true;
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('study-mats-action-open');
+            document.body.style.overflow = previousOverflow;
+            if (opener && typeof opener.focus === 'function') opener.focus();
+          }
+
+          document.querySelector('[data-open-subject-browser]')?.addEventListener('click', event => openModal('browse', event.currentTarget));
+          document.querySelector('[data-mobile-quiz]')?.addEventListener('click', event => openModal('quiz', event.currentTarget));
+          document.querySelector('[data-mobile-search]')?.addEventListener('click', () => {
+            const searchInput = document.getElementById('dashboardSearch');
+            if (searchInput) searchInput.focus();
+            else document.getElementById('questionSearchInput')?.focus();
+          });
+          document.querySelectorAll('.wrapper > .hub-year-row .hub-pill').forEach(button => {
+            button.addEventListener('click', () => openModal('browse', button));
+          });
+
+          document.querySelectorAll('[data-launch-mode]').forEach(button => button.addEventListener('click', () => {
+            activeMode = button.dataset.launchMode;
+            document.querySelectorAll('[data-launch-mode]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+          }));
+
+          startButton?.addEventListener('click', () => {
+            if (!subjectSelect.value) {
+              launchStatus.textContent = 'Choose a subject before starting.';
+              subjectSelect.focus();
+              return;
+            }
+            const url = new URL('quiz.html', document.baseURI);
+            url.searchParams.set('subject', subjectSelect.value);
+            url.searchParams.set('mode', activeMode);
+            startButton.disabled = true;
+            startButton.textContent = 'Opening quiz…';
+            window.location.href = url.href;
+          });
+
+          closeButton.addEventListener('click', closeModal);
+          backdrop.addEventListener('click', closeModal);
+          modal.addEventListener('click', event => { if (event.target === modal) closeModal(); });
+          dialog.addEventListener('click', event => event.stopPropagation());
+          document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && !modal.hidden) { event.preventDefault(); closeModal(); }
+          });
+        })();
+      </script>
+
     <script>
   // Register the PWA service worker only on HTTP(S); relative path supports GitHub Pages project sites.
   if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
