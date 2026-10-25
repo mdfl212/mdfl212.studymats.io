@@ -506,9 +506,20 @@ function renderWorkflow(){
  else if(workflowImportState.loaded){st[1]={status:'complete',label:'Format accepted'};st[2]={status:workflowImportState.valid?'complete':'warning',label:workflowImportState.valid?'Fields mapped':'Needs attention'};st[3]={status:'complete',label:'Conservative mapping'};st[4]={status:workflowImportState.invalid?'warning':'complete',label:workflowImportState.invalid?'Warnings found':'Checks passed'};st[5]={status:workflowImportState.invalid?'warning':'complete',label:workflowImportState.invalid?'Records need review':'Counts reconciled'};st[6]={status:'complete',label:'Ready for review'};st[7]={status:workflowImportState.invalid||workflowImportState.issues?'warning':'current',label:workflowImportState.invalid||workflowImportState.issues?'Review warnings':'Review before import'};st[8]={status:workflowImportState.imported?'complete':'current',label:workflowImportState.imported?'Import completed':'Confirmation required'}}
  nodes.forEach(el=>{const i=Number(el.dataset.workflowStep);if(!Number.isInteger(i)||!st[i])return;el.dataset.status=st[i].status;el.setAttribute('aria-pressed',String(i===workflowActiveStep));});
  const detail=$('workflowDetail');detail.hidden=!d;
- if(d){$('workflowDetailTitle').textContent=String(workflowActiveStep>=8?7:workflowActiveStep+1).padStart(2,'0')+' · '+d.title;$('workflowDetailBody').textContent=d.body;$('workflowDetailMeta').textContent=d.meta;$('workflowDetailStatus').textContent=st[workflowActiveStep].label;$('workflowDetailStatus').dataset.status=st[workflowActiveStep].status;
- const p=$('workflowPrimaryAction');p.textContent=d.action;p.dataset.action=d.type;p.disabled=workflowImportState.blocked&&workflowActiveStep!==0;
- const a=$('workflowSecondaryAction');a.hidden=workflowActiveStep===3;}a.textContent='Hide workflow ↑';
+ if(d){
+  $('workflowDetailTitle').textContent=String(workflowActiveStep>=8?7:workflowActiveStep+1).padStart(2,'0')+' · '+d.title;
+  $('workflowDetailBody').textContent=d.body;
+  $('workflowDetailMeta').textContent=d.meta;
+  $('workflowDetailStatus').textContent=st[workflowActiveStep].label;
+  $('workflowDetailStatus').dataset.status=st[workflowActiveStep].status;
+  const p=$('workflowPrimaryAction');
+  p.textContent=d.action;
+  p.dataset.action=d.type;
+  p.disabled=workflowImportState.blocked&&workflowActiveStep!==0;
+  const a=$('workflowSecondaryAction');
+  a.hidden=workflowActiveStep===3;
+  a.textContent='Hide workflow ↑';
+ }
  const c=$('workflowCounts');if(workflowImportState.loaded){c.hidden=false;c.innerHTML='<span class="workflow-count"><strong>'+workflowImportState.total+'</strong> source records</span><span class="workflow-count"><strong>'+workflowImportState.valid+'</strong> usable</span><span class="workflow-count"><strong>'+workflowImportState.invalid+'</strong> invalid / skipped</span><span class="workflow-count"><strong>'+workflowImportState.issues+'</strong> review notes</span>'}else{c.hidden=true;c.textContent=''}
 }
 const workflowPanel=$('conversionWorkflow'),workflowToggle=$('toggleConversionWorkflow'),workflowBackdrop=$('workflowBackdrop');
