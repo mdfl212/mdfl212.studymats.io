@@ -341,6 +341,79 @@ a{color:var(--accent)}
 @media(max-width:600px){.conversion-workflow{inset:8px;max-height:calc(100dvh - 16px);border-radius:15px;padding:14px}.workflow-diagram{min-width:660px;max-height:34vh;min-height:220px} .workflow-close{width:30px;height:30px}.workflow-detail{grid-template-columns:minmax(0,1fr)}.workflow-detail-actions{justify-content:stretch;max-width:none}.workflow-detail-actions .btn{flex:1}}
 @media(prefers-reduced-motion:reduce){.workflow-backdrop,.conversion-workflow,.workflow-detail{animation:none!important}.workflow-connectors path{animation:none!important}.workflow-node{transition:none!important}}
 
+
+/* Mobile-first interaction refinements: keep the authoring workflow comfortable on phones. */
+@media(max-width:760px){
+  html{scroll-padding-top:76px}
+  body{overflow-x:clip}
+  .topbar{gap:8px;padding:8px 12px;min-height:60px}
+  .wordmark{gap:7px}
+  .wordmark img{width:32px;height:32px}
+  .wordmark>span{font-size:15px}
+  .topmeta{display:none}
+  .top-actions{gap:6px}
+  .quiet-link{font-size:11px}
+  .icon-btn{width:38px;height:38px;flex-basis:38px}
+  .shell{padding:20px 12px calc(28px + env(safe-area-inset-bottom))}
+  .flow-head{position:relative;align-items:flex-start;margin-bottom:22px}
+  .progress-wrap{flex-wrap:wrap;gap:8px}
+  .progress{flex-wrap:wrap}
+  .progress-label{font-size:9px}
+  .screen-heading{font-size:clamp(27px,7vw,36px)}
+  .screen-copy{font-size:15px;margin-bottom:20px}
+  .welcome-art{grid-template-columns:minmax(0,1fr);gap:12px;margin:20px 0;padding:19px;border-radius:17px}
+  .paper-stack{min-height:125px}
+  .sheet{height:112px;padding:13px}
+  .converter-help{grid-template-columns:minmax(0,1fr);gap:14px;padding:17px}
+  .converter-help-links{min-width:0;width:100%}
+  .converter-help-links .btn{width:100%}
+  .subject-grid,.method-grid{grid-template-columns:minmax(0,1fr)}
+  .subject-option,.method-option{min-width:0}
+  .flow-footer{position:sticky;bottom:0;z-index:12;flex-wrap:wrap;margin:20px -12px -28px;padding:12px 12px max(12px,env(safe-area-inset-bottom));border-top:1px solid var(--line);background:color-mix(in srgb,var(--page) 94%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+  .flow-footer>.btn,.flow-footer>.btn-row{flex:1 1 100%;min-width:0}
+  .flow-footer .btn-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+  .flow-footer .btn{min-width:0;min-height:44px;padding:9px 8px}
+  .workspace-top{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;margin-bottom:17px}
+  .workspace-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));justify-content:stretch}
+  .workspace-actions .btn{min-width:0;white-space:normal}
+  .studio-layout{grid-template-columns:minmax(0,1fr);gap:14px}
+  .studio-rail{display:flex;flex-direction:column;gap:10px;min-width:0}
+  .rail-section{min-width:0;padding:13px}
+  .editor{padding:14px;border-radius:15px}
+  .editor-top{align-items:flex-start;flex-wrap:wrap;gap:9px;margin-bottom:17px}
+  .editor-top .btn-row{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .editor-top .btn-row .btn{min-width:0}
+  .field-grid{grid-template-columns:minmax(0,1fr);gap:0}
+  .field input,.field select,.field textarea,.search-input{font-size:16px}
+  .editor textarea#questionStem{min-height:125px;font-size:16px}
+  .choice{grid-template-columns:24px minmax(0,1fr) 30px;gap:6px;padding:7px}
+  .choice input[type=text]{font-size:16px}
+  .choices-head{align-items:flex-start;flex-wrap:wrap}
+  .preview-box{min-width:0;overflow-wrap:anywhere}
+  .review-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .review-list{min-width:0}
+  .review-item{grid-template-columns:minmax(0,1fr);gap:8px}
+  .export-panel{min-width:0;overflow-wrap:anywhere}
+  .export-panel textarea,.export-panel pre{max-width:100%;overflow:auto}
+  .conversion-workflow{padding:12px}
+  .workflow-detail{padding:12px}
+  .workflow-detail-actions{display:grid;grid-template-columns:minmax(0,1fr);width:100%}
+  .workflow-detail-actions .btn{width:100%;min-width:0}
+}
+@media(max-width:420px){
+  .topbar{padding-inline:9px}
+  .top-actions{gap:4px}
+  .quiet-link{max-width:78px;white-space:normal;text-align:center;line-height:1.25}
+  .shell{padding-inline:9px}
+  .hero-title{font-size:clamp(32px,9vw,40px)}
+  .welcome-actions{display:grid;grid-template-columns:minmax(0,1fr);width:100%}
+  .welcome-actions .btn{width:100%}
+  .workspace-actions{grid-template-columns:minmax(0,1fr)}
+  .editor-top .btn-row{grid-template-columns:minmax(0,1fr)}
+  .flow-footer .btn-row{grid-template-columns:minmax(0,1fr)}
+  .workflow-steps{grid-template-columns:minmax(0,1fr)}
+}
+
 </style>
 </head>
 <body>
