@@ -53,6 +53,34 @@ html[data-theme=light]{--bg:#f4f5fb;--nav:#fff;--card:#fff;--card2:#f4f5fb;--car
   .brand { flex: 1 1 auto; }
   .top-right { flex: 0 1 auto; }
 }
+
+/* Guided, full-screen onboarding slides */
+.tb-wizard{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 18px;padding:12px 0;border-bottom:1px solid var(--line)}
+.tb-progress{display:flex;gap:6px;align-items:center;min-width:0}
+.tb-progress span{height:4px;width:clamp(24px,5vw,54px);border-radius:99px;background:var(--line2)}
+.tb-progress span.done{background:var(--p2)}
+.tb-step-label{font-size:11px;color:var(--t2);white-space:nowrap}
+.tb-slide-title{font-size:clamp(25px,4cqi,38px);letter-spacing:-.045em;line-height:1.12;margin:8px 0 10px}
+.tb-slide-subtitle{color:var(--t2);font-size:14px;line-height:1.65;max-width:560px;margin:0 0 28px}
+.tb-slide{display:none;min-height: min(62vh,680px);animation:tbEnter .22s ease-out}
+.tb-slide.active{display:block}
+.tb-slide .card{max-width:760px;margin:0 auto;padding:clamp(18px,4cqi,36px);border-radius:18px}
+.tb-slide .card h2{font-size:16px}
+.tb-slide .field{margin-bottom:18px}
+.tb-slide .field input,.tb-slide .field select,.tb-slide .field textarea{padding:13px 14px;border-radius:10px}
+.tb-slide .acc{margin-top:14px}
+.tb-slide .preview{border-radius:12px;padding:16px}
+.tb-slide .guides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.tb-slide .guide{border-radius:12px}
+.tb-slide-footer{position:sticky;bottom:0;z-index:4;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:24px;padding:14px 0 max(14px,env(safe-area-inset-bottom));background:linear-gradient(180deg,transparent,var(--bg) 20%)}
+.tb-slide-footer .btn{min-height:44px;border-radius:11px;padding:12px 18px}
+.tb-next{min-width:130px;display:flex;justify-content:center;align-items:center;gap:12px}
+.tb-next .arrow{font-size:20px;line-height:1}
+.tb-hidden{display:none!important}
+#setupPanel,#writePanel,.guides{max-width:100%}
+@keyframes tbEnter{from{opacity:.25;transform:translateX(12px)}to{opacity:1;transform:translateX(0)}}
+@media(max-width:650px){.tb-slide{min-height:55vh}.tb-slide .card{padding:16px;border-radius:14px}.tb-slide .guides{grid-template-columns:1fr}.tb-slide-title{font-size:28px}.tb-slide-footer{margin-top:12px}.tb-step-label{white-space:normal;text-align:right}}
+@media(prefers-reduced-motion:reduce){.tb-slide{animation:none}}
 </style>
 </head>
 <body data-course="hub">
@@ -61,10 +89,10 @@ html[data-theme=light]{--bg:#f4f5fb;--nav:#fff;--card:#fff;--card2:#f4f5fb;--car
 <main class="main">
 <header class="header"><div><a class="back" href="index.html">← Back to StudyMats</a><h1>Test Bank Builder</h1><p>Create study questions without editing code. Your original question banks stay untouched.</p></div><div class="actions"><button class="btn" id="saveDraft">▣ Save draft</button><button class="btn" id="loadDraft">↻ Load draft</button><button class="btn primary" id="exportJson">↓ Export JSON</button></div></header>
 <div class="banner"><strong>Let’s build your question bank one step at a time.</strong><p>Choose a subject, write your questions, then review and export. Advanced tools are optional.</p></div>
-<nav class="stepper" aria-label="Builder steps"><button class="step" data-step="setup"><span class="step-num">1</span><span><small>STEP 1</small><strong>Set up</strong></span></button><button class="step active" data-step="write"><span class="step-num">2</span><span><small>STEP 2</small><strong>Write questions</strong></span></button><button class="step" data-step="review"><span class="step-num">3</span><span><small>STEP 3</small><strong>Review &amp; export</strong></span></button></nav>
+<nav class="stepper tb-hidden" aria-label="Builder steps"><button class="step" data-step="setup"><span class="step-num">1</span><span><small>STEP 1</small><strong>Set up</strong></span></button><button class="step active" data-step="write"><span class="step-num">2</span><span><small>STEP 2</small><strong>Write questions</strong></span></button><button class="step" data-step="review"><span class="step-num">3</span><span><small>STEP 3</small><strong>Review &amp; export</strong></span></button></nav>
 <details class="quality"><summary><span>▸ Review checklist &amp; topic matching</span><span id="qualityCount">0 questions · 0 review flags</span></summary><div class="quality-body"><p>Automated checks catch missing fields and possible duplicates, not medical errors. Verify every answer and rationale against trusted references.</p><div id="qualityResults"></div></div></details>
-<div class="grid">
-<section class="card" id="setupPanel"><h2>Step 1 · Choose a subject</h2><div class="field"><label for="subject">Destination subject</label><select id="subject"><option value="Anatomy">🫀 Anatomy</option></select></div><div class="field"><label for="topic">Topic or unit (optional)</label><input id="topic" list="topics" placeholder="e.g. Cardiovascular"><datalist id="topics"></datalist><small>Leave blank to assign topics to individual questions.</small></div><details class="acc"><summary>Optional settings</summary><div class="accin"><div class="field"><label for="difficulty">Default difficulty</label><select id="difficulty"><option value="">Not set</option><option>Easy</option><option>Moderate</option><option>Hard</option><option>Clinical</option></select></div><div class="field"><label for="filename">Download filename</label><input id="filename" value="test-bank.json"></div></div></details><div id="bankStatus" class="status">Loading subject banks…</div>
+<div class="tb-wizard"><div class="tb-progress" aria-hidden="true"><span class="done"></span><span></span><span></span></div><div class="tb-step-label" id="tbStepLabel">STEP 1 OF 3</div></div><div class="grid" id="tbSlides">
+<section class="tb-slide active" data-slide="0" id="setupSlide"><div class="tb-slide-intro"><div class="muted">LET’S GET STARTED</div><h2 class="tb-slide-title">What are we studying today?</h2><p class="tb-slide-subtitle">Choose where your questions belong. You can keep it simple now and adjust the details later.</p></div><div class="card" id="setupPanel"><h2>Step 1 · Choose a subject</h2><div class="field"><label for="subject">Destination subject</label><select id="subject"><option value="Anatomy">🫀 Anatomy</option></select></div><div class="field"><label for="topic">Topic or unit (optional)</label><input id="topic" list="topics" placeholder="e.g. Cardiovascular"><datalist id="topics"></datalist><small>Leave blank to assign topics to individual questions.</small></div><details class="acc"><summary>Optional settings</summary><div class="accin"><div class="field"><label for="difficulty">Default difficulty</label><select id="difficulty"><option value="">Not set</option><option>Easy</option><option>Moderate</option><option>Hard</option><option>Clinical</option></select></div><div class="field"><label for="filename">Download filename</label><input id="filename" value="test-bank.json"></div></div></details><div id="bankStatus" class="status">Loading subject banks…</div>
 <details class="acc"><summary>Reuse existing questions</summary><div class="accin"><div class="field"><label for="bankSearch">Search loaded banks</label><input id="bankSearch" type="search" placeholder="Search stems, topics, IDs…"></div><div class="field"><label for="sourceBank">Source bank</label><select id="sourceBank"><option value="all">All subjects</option></select></div><div class="foot-actions"><button class="btn" id="selectVisible">Select visible</button><button class="btn" id="clearSelected">Clear selection</button><button class="btn primary" id="importSelected">Add selected</button></div><div id="bankResults"></div></div></details>
 <details class="acc"><summary>Import from JSON / practice exam</summary><div class="accin"><p class="muted">Upload a JSON question array. Original subject banks are never edited.</p><div class="field"><label for="jsonFile">JSON file</label><input id="jsonFile" type="file" accept=".json,application/json"></div><div class="field"><label for="jsonPaste">Or paste JSON</label><textarea id="jsonPaste" rows="4" placeholder="Paste a JSON array…"></textarea></div><button class="btn" id="importJson">Validate and import JSON</button></div></details>
 </section>
@@ -104,7 +132,15 @@ $('importJson').onclick=async()=>{try{let data=$('jsonFile').files[0]?JSON.parse
 $('selectVisible').onclick=()=>{$('bankResults').querySelectorAll('[data-bank]').forEach(el=>state.selected.add(el.dataset.bank));renderBanks()};$('clearSelected').onclick=()=>{state.selected.clear();renderBanks()};$('importSelected').onclick=()=>{const chosen=state.banks.filter(q=>state.selected.has(q._key)).map(({_key,...q})=>({...q,subject:$('subject').value}));importItems(chosen);state.selected.clear();renderBanks()};
 $('bankSearch').oninput=renderBanks;$('sourceBank').onchange=renderBanks;$('globalSearch').oninput=renderDraft;$('subject').onchange=()=>{renderBanks();renderDraft()};
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-tab]').forEach(t=>t.classList.toggle('active',t===b));$('editorPane').classList.toggle('hidden',b.dataset.tab!=='editor');$('jsonPane').classList.toggle('hidden',b.dataset.tab!=='json');$('jsonOutput').value=JSON.stringify(payload(),null,2)});
-document.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-step]').forEach(x=>x.classList.toggle('active',x===b));const target=b.dataset.step==='setup'?'setupPanel':b.dataset.step==='review'?'draftList':'writePanel';$(target).scrollIntoView({behavior:'smooth',block:'start'});if(b.dataset.step==='write')$('questionStem').focus({preventScroll:true});if(b.dataset.step==='review')document.querySelector('.quality').open=true});
+
+let tbCurrent=0;
+function tbShowStep(n){tbCurrent=Math.max(0,Math.min(2,n));document.querySelectorAll('[data-slide]').forEach((el,i)=>el.classList.toggle('active',i===tbCurrent));document.querySelectorAll('.tb-progress span').forEach((el,i)=>el.classList.toggle('done',i<=tbCurrent));$('tbStepLabel').textContent='STEP '+(tbCurrent+1)+' OF 3';$('tbBack').disabled=tbCurrent===0;$('tbBack').style.opacity=tbCurrent===0?'.35':'1';$('tbNextText').textContent=tbCurrent===0?'Continue':tbCurrent===1?'Review questions':'Export test bank';if(tbCurrent===2){$('tbReviewSummary').textContent=state.draft.length+' question(s) in your draft. Review flags are listed above; fix structural issues before exporting.';$('tbReviewList').innerHTML=$('draftList').innerHTML;document.querySelector('.quality').open=true;}window.scrollTo({top:0,behavior:'smooth'});}
+$('tbBack').onclick=()=>tbShowStep(tbCurrent-1);
+$('tbNext').onclick=()=>{if(tbCurrent===0){tbShowStep(1);$('questionStem').focus({preventScroll:true});}else if(tbCurrent===1){renderDraft();tbShowStep(2);}else download();};
+$('tbBackToWrite').onclick=()=>tbShowStep(1);
+$('tbReviewExport').onclick=download;
+document.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>tbShowStep(b.dataset.step==='setup'?0:b.dataset.step==='review'?2:1));
+
 $('themeToggle').onclick=()=>{state.theme=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=state.theme;document.body.dataset.theme=state.theme;try{localStorage.setItem('studymats-theme',state.theme)}catch{}};
 try{const saved=localStorage.getItem('studymats-theme');if(saved){state.theme=saved;document.documentElement.dataset.theme=saved;document.body.dataset.theme=saved}}catch{}
 renderChoices();preview();renderDraft();loadBanks();
