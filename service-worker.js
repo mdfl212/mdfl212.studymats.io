@@ -5,6 +5,7 @@ const CORE_ASSETS = [
   "./index.html",
   "./quiz.html",
   "./test-bank-builder.html",
+  "./test-bank-builder-v2.html",
   "./style.css",
   "./theme.js",
   "./app.js",
