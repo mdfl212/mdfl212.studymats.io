@@ -1,0 +1,88 @@
+/* Targeted sidebar layout correction. Keep this separate from the shared stylesheet. */
+body[data-course="hub"] .desktop-sidebar {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-top,
+body[data-course="hub"] .desktop-sidebar nav,
+body[data-course="hub"] .desktop-sidebar .sidebar-save {
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 10px;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup > img {
+  display: block;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-brand-copy {
+  min-width: 0;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-save {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-save > i {
+  display: block;
+  flex: 0 0 7px;
+  width: 7px;
+  height: 7px;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-save .sidebar-save-label {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body[data-course="hub"] .desktop-sidebar .sidebar-save > span:last-child {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+/* In the collapsed rail, keep the status dot but do not squeeze the label. */
+body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-save {
+  justify-content: center;
+  gap: 0;
+}
+
+body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-save .sidebar-save-label,
+body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-save > span:last-child,
+body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-brand-copy,
+body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-link-label {
+  display: none;
+}
+
+body.sidebar-collapsed[data-course="hub"] .desktop-sidebar .sidebar-brand-lockup {
+  justify-content: center;
+}
+
+/* Narrow windows should not let sidebar children force the shell wider. */
+@media (max-width: 900px) {
+  body[data-course="hub"] .desktop-sidebar {
+    min-width: 0;
+  }
+}
