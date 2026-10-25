@@ -14093,3 +14093,29 @@ body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible
   outline: 2px solid var(--gold-primary);
   outline-offset: -3px;
 }
+
+
+/* Desktop sidebar height correction: pin both edges to the viewport and remove
+   the extra bottom inset that made the sidebar content look cut short. */
+@media (min-width: 701px) {
+  body[data-course="hub"] .desktop-sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    box-sizing: border-box !important;
+    padding-bottom: 0 !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+
+  body[data-course="hub"].sidebar-collapsed .desktop-sidebar {
+    padding-bottom: 0 !important;
+  }
+
+  body[data-course="hub"] .desktop-sidebar .sidebar-save {
+    margin-bottom: 0 !important;
+  }
+}
