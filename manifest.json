@@ -9,8 +9,8 @@
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "any",
-  "background_color": "#171329",
-  "theme_color": "#171329",
+  "background_color": "#fbf8f5",
+  "theme_color": "#fbf8f5",
   "categories": ["education", "medical"],
   "icons": [
     {
