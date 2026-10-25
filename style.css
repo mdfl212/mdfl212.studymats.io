@@ -13117,3 +13117,15 @@ html[data-course="hub"] body[data-course="hub"] :where(input,select,textarea) { 
   html[data-course="hub"] body[data-course="hub"] *, html[data-course="hub"] body[data-course="hub"] *::before,
   html[data-course="hub"] body[data-course="hub"] *::after { transition-duration:.01ms !important; animation-duration:.01ms !important; }
 }
+
+/* Theme-aware modal and search surfaces. */
+html[data-course="hub"] body[data-course="hub"] .dash-modal-mark { background:#8f2035 !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .dash-modal-mark { background:#9f344b !important; }
+html[data-course="hub"] body[data-course="hub"] .qs-column-label { color:var(--gold-primary) !important; }
+html[data-course="hub"] body[data-course="hub"] .qs-result.is-selected,
+html[data-course="hub"] body[data-course="hub"] .qs-result[aria-selected="true"] {
+  background:var(--gold-light) !important; border-color:var(--border-hover) !important;
+}
+html[data-course="hub"] body[data-course="hub"] .qs-search-box:focus-within {
+  border-color:var(--border-hover) !important; box-shadow:0 0 0 2px var(--gold-light) !important;
+}
