@@ -2,9 +2,10 @@
   'use strict';
   const dashboardInput=document.getElementById('dashboardSearch'), input=document.getElementById('questionSearchInput'), modal=document.getElementById('questionSearchModal');
   const backdrop=document.getElementById('questionSearchBackdrop'), resultsEl=document.getElementById('questionSearchResults');
+  const dialog=modal.querySelector('.question-search-dialog');
   const previewEl=document.getElementById('questionSearchPreview'), statusEl=document.getElementById('questionSearchStatus');
   const closeButton=document.getElementById('questionSearchClose');
-  if(!dashboardInput||!input||!modal||!resultsEl||!previewEl)return;
+  if(!dashboardInput||!input||!modal||!dialog||!resultsEl||!previewEl)return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const norm=v=>String(v??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ').trim();
   let banks=[],matches=[],selectedIndex=0,loadPromise=null,debounce=null;
@@ -77,6 +78,15 @@
     if(e.key==='Escape'&&!modal.hidden){e.preventDefault();closeModal();}
     if(e.key==='ArrowDown'&&!modal.hidden&&matches.length){e.preventDefault();selectedIndex=Math.min(matches.length-1,selectedIndex+1);renderResults();renderPreview();resultsEl.querySelector('[data-qs-result="'+selectedIndex+'"]')?.scrollIntoView({block:'nearest'});}
     if(e.key==='ArrowUp'&&!modal.hidden&&matches.length){e.preventDefault();selectedIndex=Math.max(0,selectedIndex-1);renderResults();renderPreview();resultsEl.querySelector('[data-qs-result="'+selectedIndex+'"]')?.scrollIntoView({block:'nearest'});}
+  });
+  dialog.addEventListener('keydown',e=>{
+    if(e.key!=='Tab'||modal.hidden)return;
+    const focusable=[...dialog.querySelectorAll('button:not([disabled]),input:not([disabled]),select:not([disabled]),a[href],[tabindex]:not([tabindex="-1"])')]
+      .filter(el=>!el.closest('[hidden]')&&el.getClientRects().length);
+    if(!focusable.length){e.preventDefault();dialog.focus();return;}
+    const first=focusable[0],last=focusable[focusable.length-1];
+    if(e.shiftKey&&(document.activeElement===first||!dialog.contains(document.activeElement))){e.preventDefault();last.focus();}
+    else if(!e.shiftKey&&(document.activeElement===last||!dialog.contains(document.activeElement))){e.preventDefault();first.focus();}
   });
   closeButton?.addEventListener('click',closeModal);backdrop?.addEventListener('click',closeModal);
   modal.addEventListener('click',e=>{if(e.target===modal)closeModal();});
