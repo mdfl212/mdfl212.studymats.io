@@ -21,7 +21,6 @@ html[data-course="hub"] body[data-course="hub"] .hub-year-subtext{display:none}
 html[data-course="hub"] body[data-course="hub"] .hub-year-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;width:100%;min-width:0}
 html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill{min-width:0;width:100%;max-width:100%;padding:8px 5px;white-space:normal;overflow-wrap:anywhere;line-height:1.2}
 html[data-course="hub"] body[data-course="hub"] .hub-year-row .hub-pill[data-year="resources"]{grid-column:span 2}
-html[data-course="hub"] body[data-course="hub"] .study-mats-modal-years{display:none}
 html[data-course="hub"] body[data-course="hub"] .dash-tools-panel>.dash-panel-heading{margin-bottom:8px}
 html[data-course="hub"] body[data-course="hub"] .dash-tools-panel .dash-panel-copy{display:none}
 html[data-course="hub"] body[data-course="hub"] .dash-subject-list .dash-subject-card-compact{padding:11px 0}
