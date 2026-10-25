@@ -14155,3 +14155,40 @@ body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible
     box-shadow: none !important;
   }
 }
+
+
+/* Mobile question search: remove the stray native input box and keep the
+   search field as one seamless rounded control. */
+@media (max-width: 700px) {
+  html[data-course="hub"] body[data-course="hub"] .question-search-dialog .qs-search-box {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
+    background: var(--bg) !important;
+    box-shadow: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .question-search-dialog .qs-search-box input,
+  html[data-course="hub"] body[data-course="hub"] .question-search-dialog .qs-search-box input:focus,
+  html[data-course="hub"] body[data-course="hub"] .question-search-dialog .qs-search-box input:focus-visible,
+  html[data-course="hub"] body[data-course="hub"] .question-search-dialog .qs-search-box input:active {
+    display: block !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    outline: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
