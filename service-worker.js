@@ -1,5 +1,5 @@
 /* StudyMats offline-first service worker for web and installed mobile/desktop apps. */
-const CACHE_NAME = "studymats-pwa-v4";
+const CACHE_NAME = "studymats-pwa-v5";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -7,6 +7,7 @@ const CORE_ASSETS = [
   "./test-bank-builder.html",
   "./test-bank-builder-v2.html",
   "./style.css",
+  "./mobile-minimal.css",
   "./theme.js",
   "./app.js",
   "./dashboard.js",
@@ -108,7 +109,9 @@ self.addEventListener("fetch", (event) => {
 
   // Cache-first for styles, scripts, icons and other same-origin assets.
   event.respondWith((async () => {
-    const cached = await caches.match(request);
+    // Asset query strings are used for cache-busting; the installed shell
+    // stores canonical paths, so ignore search params when matching assets.
+    const cached = await caches.match(request, { ignoreSearch: true });
     if (cached) return cached;
     try {
       const response = await fetch(request);
