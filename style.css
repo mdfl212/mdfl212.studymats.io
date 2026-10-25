@@ -13032,3 +13032,88 @@ pre, .json-output {
     transition-duration: .01ms !important;
   }
 }
+
+
+/* StudyMats hub: CSU-inspired palette; StudyMats logo remains unchanged. */
+html[data-course="hub"] {
+  --bg:#fbf8f5 !important; --bg-card:#fff !important; --border:#e5d8d4 !important;
+  --border-hover:#9f2338 !important; --text-main:#292326 !important; --text-sub:#62575b !important;
+  --gold-primary:#8c6720 !important; --gold-accent:#c6a04a !important; --gold-light:rgba(198,160,74,.13) !important;
+  --header-border:#7e1f32 !important; --hub-bg:#fbf8f5 !important; --hub-card:#fff !important;
+  --hub-border:#e5d8d4 !important; --hub-text:#292326 !important; --hub-muted:#62575b !important;
+  --hub-accent:#8f2035 !important; --hub-accent-soft:rgba(143,32,53,.09) !important;
+  --hub-radius:14px !important; --hub-shadow:0 2px 8px rgba(49,25,30,.045) !important;
+}
+html[data-course="hub"][data-theme="dark"] {
+  --bg:#171315 !important; --bg-card:#211b1e !important; --border:#413238 !important;
+  --border-hover:#d5b35d !important; --text-main:#f5eef0 !important; --text-sub:#c4b5ba !important;
+  --gold-primary:#e0bd65 !important; --gold-accent:#f0d991 !important; --gold-light:rgba(224,189,101,.14) !important;
+  --header-border:#68404a !important; --hub-bg:#171315 !important; --hub-card:#211b1e !important;
+  --hub-border:#413238 !important; --hub-text:#f5eef0 !important; --hub-muted:#c4b5ba !important;
+  --hub-accent:#9f344b !important; --hub-accent-soft:rgba(159,52,75,.18) !important;
+  --hub-shadow:0 4px 14px rgba(0,0,0,.22) !important;
+}
+html[data-course="hub"] body[data-course="hub"] { background:var(--bg) !important; color:var(--text-main) !important; }
+html[data-course="hub"] body[data-course="hub"] .wrapper::before,
+html[data-course="hub"] body[data-course="hub"] .wrapper::after { display:none !important; }
+html[data-course="hub"] body[data-course="hub"] .desktop-sidebar {
+  background:#fff !important; color:#292326 !important; border-right:1px solid #e5d8d4 !important;
+  box-shadow:2px 0 14px rgba(49,25,30,.035) !important;
+}
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .desktop-sidebar {
+  background:#211b1e !important; color:#f5eef0 !important; border-right-color:#413238 !important;
+}
+html[data-course="hub"] body[data-course="hub"] .sidebar-brand-copy strong span { color:#8f2035 !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .sidebar-brand-copy strong span { color:#e0bd65 !important; }
+html[data-course="hub"] body[data-course="hub"] .sidebar-brand-copy small { color:#75666b !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .sidebar-brand-copy small { color:#c4b5ba !important; }
+html[data-course="hub"] body[data-course="hub"] .sidebar-link { color:#62575b !important; border-radius:9px !important; }
+html[data-course="hub"] body[data-course="hub"] .sidebar-link:hover,
+html[data-course="hub"] body[data-course="hub"] .sidebar-link.is-active { background:#f7ecee !important; color:#7e1f32 !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .sidebar-link { color:#c4b5ba !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .sidebar-link:hover,
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .sidebar-link.is-active { background:rgba(224,189,101,.12) !important; color:#f0d991 !important; }
+html[data-course="hub"] body[data-course="hub"] .sidebar-divider { background:var(--border) !important; }
+html[data-course="hub"] body[data-course="hub"] .sidebar-save { color:var(--text-sub) !important; border-color:var(--border) !important; background:var(--bg) !important; }
+html[data-course="hub"] body[data-course="hub"] .sidebar-save i { background:#2e8057 !important; }
+html[data-course="hub"] body[data-course="hub"] .topbar-profile span { background:#8f2035 !important; }
+html[data-course="hub"] body[data-course="hub"] .dash-kicker,
+html[data-course="hub"] body[data-course="hub"] .card-title,
+html[data-course="hub"] body[data-course="hub"] .hub-subject-name { color:var(--gold-primary) !important; }
+html[data-course="hub"] body[data-course="hub"] .dash-button-primary,
+html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button:not(.dash-button-quiet) {
+  background:#8f2035 !important; border-color:#8f2035 !important; color:#fff !important;
+}
+html[data-course="hub"] body[data-course="hub"] .dash-button-primary:hover,
+html[data-course="hub"] body[data-course="hub"] .dash-welcome-actions .dash-button:not(.dash-button-quiet):hover { background:#741a2b !important; border-color:#741a2b !important; }
+html[data-course="hub"] body[data-course="hub"] .dash-range-picker button.active { background:#8f2035 !important; color:#fff !important; }
+html[data-course="hub"] body[data-course="hub"] .dash-subject-pct,
+html[data-course="hub"] body[data-course="hub"] .dash-activity-stats strong,
+html[data-course="hub"] body[data-course="hub"] .dash-continue { color:#8f2035 !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .dash-subject-pct,
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .dash-activity-stats strong,
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .dash-continue { color:#e0bd65 !important; }
+html[data-course="hub"] body[data-course="hub"] .dash-progress-track span { background:linear-gradient(90deg,#8f2035,#c6a04a) !important; }
+html[data-course="hub"] body[data-course="hub"] .hub-pill.active,
+html[data-course="hub"] body[data-course="hub"] .hub-pill:hover { color:#7e1f32 !important; border-color:#9f344b !important; background:#f7ecee !important; box-shadow:none !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .hub-pill.active,
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .hub-pill:hover { color:#f0d991 !important; border-color:#a57f38 !important; background:rgba(224,189,101,.12) !important; }
+html[data-course="hub"] body[data-course="hub"] .section-wrapper { background:var(--bg-card) !important; border-color:var(--border) !important; box-shadow:none !important; backdrop-filter:none !important; }
+html[data-course="hub"] body[data-course="hub"] .hub-subject-card,
+html[data-course="hub"] body[data-course="hub"] .hub-resource-item { background:var(--bg-card) !important; box-shadow:none !important; }
+html[data-course="hub"] body[data-course="hub"] .hub-subject-card:hover,
+html[data-course="hub"] body[data-course="hub"] .hub-subject-card.selected,
+html[data-course="hub"] body[data-course="hub"] .hub-resource-item:hover { border-color:var(--border-hover) !important; background:var(--gold-light) !important; box-shadow:none !important; }
+html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav { background:rgba(255,255,255,.97) !important; border-top-color:var(--border) !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .mobile-bottom-nav { background:rgba(33,27,30,.97) !important; }
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item { color:var(--text-sub) !important; }
+html[data-course="hub"] body[data-course="hub"] .mobile-nav-item.is-current { color:#8f2035 !important; }
+html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .mobile-nav-item.is-current { color:#e0bd65 !important; }
+html[data-course="hub"] body[data-course="hub"] :where(button,a,input,select,textarea,summary,[tabindex]):focus-visible { outline:3px solid #a57f38 !important; outline-offset:3px !important; }
+html[data-course="hub"] body[data-course="hub"] .topbar-search input:focus-visible { outline:none !important; box-shadow:0 0 0 2px #a57f38 !important; }
+html[data-course="hub"] body[data-course="hub"] :where(input,select,textarea) { background-color:var(--bg-card); color:var(--text-main); border-color:var(--border); }
+@media (max-width:900px) { html[data-course="hub"] body[data-course="hub"] { padding-left:16px !important; padding-right:16px !important; } }
+@media (prefers-reduced-motion:reduce) {
+  html[data-course="hub"] body[data-course="hub"] *, html[data-course="hub"] body[data-course="hub"] *::before,
+  html[data-course="hub"] body[data-course="hub"] *::after { transition-duration:.01ms !important; animation-duration:.01ms !important; }
+}
