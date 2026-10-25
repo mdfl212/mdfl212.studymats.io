@@ -13678,3 +13678,54 @@ body[data-course="hub"] {
     flex: 0 0 auto !important;
   }
 }
+
+
+/* Desktop search field: keep the input visually fused with its floating
+   wrapper in both themes. Prevent global input/autofill rules from painting
+   a second rectangular surface inside the rounded search control. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search {
+    overflow: hidden !important;
+    isolation: isolate !important;
+    align-items: center !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:hover,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:focus,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:focus-visible,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:active,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:-webkit-autofill,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:-webkit-autofill:hover,
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search input:-webkit-autofill:focus {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+  }
+
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .app-topbar .topbar-search {
+    background: rgba(24, 25, 38, .88) !important;
+    border-color: #343447 !important;
+    color: #d9d9e6 !important;
+    box-shadow: 0 3px 12px rgba(0,0,0,.18) !important;
+  }
+
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .app-topbar .topbar-search input,
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .app-topbar .topbar-search input:focus,
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .app-topbar .topbar-search input:focus-visible {
+    color: #f0edf7 !important;
+    -webkit-text-fill-color: #f0edf7 !important;
+    caret-color: #f0edf7 !important;
+  }
+
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .app-topbar .topbar-search input::placeholder {
+    color: #aaa8bd !important;
+    -webkit-text-fill-color: #aaa8bd !important;
+  }
+}
