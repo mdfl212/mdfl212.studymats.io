@@ -13871,3 +13871,12 @@ body[data-course="hub"] {
     margin-left: 56px !important;
   }
 }
+
+
+/* Mobile topbar: soften the header corners without changing desktop geometry. */
+@media (max-width: 1100px) {
+  html[data-course="hub"] body[data-course="hub"] .app-topbar {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+  }
+}
