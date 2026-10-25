@@ -13794,3 +13794,22 @@ body[data-course="hub"] {
     margin-top: 0 !important; margin-bottom: 0 !important;
   }
 }
+
+
+/* Desktop hub layout correction: remove the oversized left gutter and excess page height. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] {
+    padding-left: calc(var(--sidebar-expanded, 204px) + 12px) !important;
+    padding-right: 12px !important;
+    padding-bottom: 8px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed {
+    padding-left: calc(var(--sidebar-collapsed, 72px) + 12px) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .wrapper {
+    padding-top: 0 !important;
+    padding-bottom: 8px !important;
+  }
+}
