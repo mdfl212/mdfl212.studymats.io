@@ -13558,3 +13558,101 @@ html[data-course="hub"][data-theme="light"] body[data-course="hub"] nav.mobile-b
     border: 0 !important;
   }
 }
+
+
+/* StudyMats dashboard visual-consistency pass.
+   Centralize spacing/surface treatment without changing markup or interactions. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] {
+  --sm-dashboard-gap: clamp(8px, .85cqi, 12px);
+  --sm-dashboard-card-padding: clamp(12px, 1.1cqi, 18px);
+  --sm-dashboard-page: #f6f8f4;
+  --sm-dashboard-surface: #ffffff;
+  --sm-dashboard-surface-soft: #f8faf7;
+  --sm-dashboard-border: #dce5dc;
+  --sm-dashboard-text: #1b2b20;
+  --sm-dashboard-muted: #526257;
+}
+
+/* One consistent vertical rhythm across the main dashboard sections. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard {
+  gap: var(--sm-dashboard-gap) !important;
+  background: transparent !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-welcome,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-stats,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-tools-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-activity-panel {
+  margin-block: 0 !important;
+  min-width: 0;
+}
+
+/* Make the welcome/overview a proper surface instead of a flat white strip. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-welcome {
+  background: var(--sm-dashboard-surface) !important;
+  border: 1px solid var(--sm-dashboard-border) !important;
+  border-radius: 14px !important;
+  padding: var(--sm-dashboard-card-padding) !important;
+  box-shadow: 0 2px 8px rgba(25,55,32,.035) !important;
+}
+
+/* Consistent surface, border, and padding for cards/panels. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-stats > *,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-tools-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-activity-panel {
+  background: var(--sm-dashboard-surface) !important;
+  border-color: var(--sm-dashboard-border) !important;
+  border-radius: 14px !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-tools-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-activity-panel {
+  padding: var(--sm-dashboard-card-padding) !important;
+}
+
+/* Keep the four stats visually equal and evenly separated. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-stats {
+  gap: var(--sm-dashboard-gap) !important;
+  margin: 0 !important;
+}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-stats > * {
+  min-width: 0;
+  margin: 0 !important;
+}
+
+/* Align the two main desktop panels without extra per-panel top margins. */
+@container (min-width: 1120px) {
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard {
+    column-gap: var(--sm-dashboard-gap) !important;
+    row-gap: var(--sm-dashboard-gap) !important;
+    align-items: stretch !important;
+  }
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-panel,
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard > .dash-activity-panel {
+    margin: 0 !important;
+    align-self: stretch;
+  }
+}
+
+/* Preserve the original gold announcement banner as a deliberate exception. */
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-whats-new {
+  background: #fff4cf !important;
+  color: #3d2d08 !important;
+  border: 1px solid #d7b34b !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(115,83,15,.07) !important;
+  margin-block: 0 !important;
+}
+
+/* Use the same spacing scale when content is embedded or the available width shrinks. */
+@container (max-width: 760px) {
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard {
+    gap: 8px !important;
+  }
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-panel,
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-tools-panel,
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-activity-panel {
+    padding: 12px !important;
+  }
+}
