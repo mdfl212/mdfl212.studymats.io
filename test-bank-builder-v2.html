@@ -297,6 +297,15 @@ a{color:var(--accent)}
 .icon-btn{border-color:var(--line)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
+
+/* Interactive conversion workflow: StudyMats theme tokens, no separate palette. */
+.conversion-workflow{margin:24px 0 20px;padding:clamp(14px,2.5vw,24px);border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow-soft)}
+.conversion-workflow-head{margin-bottom:16px}.conversion-workflow-head h2{margin:0 0 5px;font-size:clamp(18px,2vw,22px);line-height:1.3}.conversion-workflow-head p{margin:0;color:var(--muted);font-size:12px;line-height:1.65;max-width:700px}
+.workflow-legend{display:flex;flex-wrap:wrap;gap:8px 12px;margin:0 0 14px;color:var(--muted);font-size:10px}.workflow-legend span{display:inline-flex;align-items:center;gap:5px}.workflow-legend i{width:7px;height:7px;border-radius:50%;background:var(--line)}.workflow-legend .wf-good{background:var(--good)}.workflow-legend .wf-warn{background:var(--warn)}.workflow-legend .wf-review{background:var(--accent)}.workflow-legend .wf-bad{background:var(--bad)}
+.workflow-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.workflow-step{display:flex;align-items:flex-start;gap:9px;min-width:0;min-height:76px;padding:11px;border:1px solid var(--line);border-radius:12px;background:var(--page);color:var(--ink);text-align:left;transition:border-color .15s,background .15s}.workflow-step:hover{border-color:var(--accent)}.workflow-step[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent)}.workflow-step:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.workflow-step-number{display:grid;place-items:center;flex:0 0 26px;width:26px;height:26px;border-radius:8px;background:var(--paper-2);color:var(--accent);font:600 11px/1 "JetBrains Mono",monospace}.workflow-step-copy{display:block;min-width:0}.workflow-step-copy strong{display:block;font-size:11px;line-height:1.4}.workflow-step-copy small{display:block;margin-top:4px;color:var(--muted);font-size:10px;line-height:1.45}.workflow-step[data-gate=true] .workflow-step-number{background:var(--warn-bg);color:var(--warn)}.workflow-step[data-status=complete] .workflow-step-number{background:var(--good-bg);color:var(--good)}.workflow-step[data-status=warning] .workflow-step-number{background:var(--warn-bg);color:var(--warn)}.workflow-step[data-status=blocked] .workflow-step-number{background:var(--bad-bg);color:var(--bad)}
+.workflow-detail{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:16px;margin-top:12px;padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}.workflow-detail-main{min-width:0}.workflow-detail-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:6px}.workflow-detail h3{margin:0;font-size:14px;line-height:1.4}.workflow-status{display:inline-flex;padding:3px 7px;border-radius:6px;background:var(--paper-2);color:var(--muted);font-size:9px;font-weight:750}.workflow-status[data-status=complete]{background:var(--good-bg);color:var(--good)}.workflow-status[data-status=warning]{background:var(--warn-bg);color:var(--warn)}.workflow-status[data-status=blocked]{background:var(--bad-bg);color:var(--bad)}.workflow-detail p{margin:0;color:var(--muted);font-size:11px;line-height:1.7}.workflow-detail-meta{margin-top:8px!important}.workflow-detail-actions{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end;max-width:230px}.workflow-detail-actions .btn{min-height:34px;padding:7px 10px;font-size:10px}.workflow-counts{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.workflow-count{padding:5px 8px;border:1px solid var(--line);border-radius:7px;background:var(--page);color:var(--muted);font-size:10px}.workflow-count strong{color:var(--ink)}
+@media(max-width:760px){.workflow-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.workflow-detail{grid-template-columns:minmax(0,1fr)}.workflow-detail-actions{justify-content:flex-start;max-width:none}}@media(max-width:420px){.conversion-workflow{padding:12px}.workflow-steps{grid-template-columns:minmax(0,1fr)}.workflow-step{min-height:0;padding:10px}.workflow-detail{padding:12px}.workflow-detail-actions .btn{flex:1}}
+
 </style>
 </head>
 <body>
@@ -328,6 +337,21 @@ a{color:var(--accent)}
     <a class="btn subtle" href="https://github.com/mdfl212/studymats-test-bank-converter/blob/main/docs/workflow.md" target="_blank" rel="noopener noreferrer">How it works ↗</a>
     <span class="converter-coming-soon">Direct in-page conversion for Word/PDF files · Coming soon</span>
   </div>
+</section>
+<section class="conversion-workflow" id="conversionWorkflow" aria-labelledby="conversionWorkflowTitle">
+<div class="conversion-workflow-head"><div><div class="eyebrow">SAFE IMPORT · 7 STEPS · 2 DECISION GATES</div><h2 id="conversionWorkflowTitle">Conversion workflow</h2><p>Follow each stage from source inventory to reviewed import. Select a step for its checks and next action. Statuses reflect the real JSON import preview; no success is simulated.</p></div></div>
+<div class="workflow-legend" aria-label="Workflow status legend"><span><i class="wf-good"></i>Complete</span><span><i class="wf-warn"></i>Warning</span><span><i class="wf-review"></i>Review required</span><span><i class="wf-bad"></i>Blocked</span></div>
+<div class="workflow-steps" role="group" aria-label="Conversion workflow steps">
+<button class="workflow-step" type="button" data-workflow-step="0" aria-pressed="true" data-status="current"><span class="workflow-step-number">01</span><span class="workflow-step-copy"><strong>Inventory source</strong><small>Format, records, answer key, media</small></span></button>
+<button class="workflow-step" type="button" data-workflow-step="1" data-gate="true" aria-pressed="false" data-status="pending"><span class="workflow-step-number">◇</span><span class="workflow-step-copy"><strong>Format check</strong><small>Can this source be processed?</small></span></button>
+<button class="workflow-step" type="button" data-workflow-step="2" aria-pressed="false" data-status="pending"><span class="workflow-step-number">03</span><span class="workflow-step-copy"><strong>Map fields</strong><small>Aliases and question schema</small></span></button>
+<button class="workflow-step" type="button" data-workflow-step="3" aria-pressed="false" data-status="pending"><span class="workflow-step-number">04</span><span class="workflow-step-copy"><strong>Convert conservatively</strong><small>Preserve; flag; never infer</small></span></button>
+<button class="workflow-step" type="button" data-workflow-step="4" aria-pressed="false" data-status="pending"><span class="workflow-step-number">05</span><span class="workflow-step-copy"><strong>Validate structure</strong><small>Syntax, fields, IDs, answers</small></span></button>
+<button class="workflow-step" type="button" data-workflow-step="5" aria-pressed="false" data-status="pending"><span class="workflow-step-number">06</span><span class="workflow-step-copy"><strong>Reconcile &amp; report</strong><small>Every record accounted for</small></span></button>
+<button class="workflow-step" type="button" data-workflow-step="6" data-gate="true" aria-pressed="false" data-status="pending"><span class="workflow-step-number">◇</span><span class="workflow-step-copy"><strong>Human review</strong><small>Resolve issues before proceeding</small></span></button>
+<button class="workflow-step" type="button" data-workflow-step="7" aria-pressed="false" data-status="pending"><span class="workflow-step-number">07</span><span class="workflow-step-copy"><strong>Confirm import</strong><small>Explicit confirmation only</small></span></button>
+</div>
+<section class="workflow-detail" aria-live="polite" aria-atomic="true" aria-labelledby="workflowDetailTitle"><div class="workflow-detail-main"><div class="workflow-detail-top"><h3 id="workflowDetailTitle">01 · Inventory source</h3><span class="workflow-status" id="workflowDetailStatus" data-status="current">Ready to begin</span></div><p id="workflowDetailBody">Identify file type, record count, answer-key convention, choice order, and available media. The in-page import path accepts JSON; other formats need preprocessing or the external converter.</p><p class="workflow-detail-meta" id="workflowDetailMeta">Checks: readable JSON and recognized question collection. Next: choose a JSON bank to open its actual validation preview.</p><div class="workflow-counts" id="workflowCounts" hidden></div></div><div class="workflow-detail-actions"><button class="btn primary" type="button" id="workflowPrimaryAction">Choose JSON file</button><a class="btn" id="workflowSecondaryAction" href="https://github.com/mdfl212/studymats-test-bank-converter/blob/main/docs/workflow.md" target="_blank" rel="noopener noreferrer">Workflow guide ↗</a></div></section>
 </section>
 <div class="inline-note">Works with your existing StudyMats subjects and question-bank schema. Drafts are stored locally on this device.</div>
 </div>
@@ -412,6 +436,31 @@ a{color:var(--accent)}
 const $=id=>document.getElementById(id);
 const DRAFT_KEY='studymats-test-bank-builder-v2';
 const state={subjects:[],banks:[],draft:[],selectedSubject:'',selectedMethod:'write',selected:new Set(),options:['','','',''],correct:0,editing:null,editingRaw:null,previewKey:false,theme:'light',dirty:false};
+
+const workflowSteps=[
+{title:'Inventory source',body:'Identify the file format, record count, answer-key convention, choice order, and available media before converting. The in-page import path reads JSON locally; Word, PDF, spreadsheets, and scans need preprocessing or the external converter.',meta:'Checks: selected file, readable content, expected question collection.',action:'Choose JSON file',type:'import'},
+{title:'Format check · decision gate',body:'Proceed only when the file can be read as JSON containing a question array or supported question-bank object. Malformed JSON or an unrecognized structure blocks import; no records are changed.',meta:'Gate: valid JSON and a recognized collection are required.',action:'Choose JSON file',type:'import'},
+{title:'Map fields',body:'The importer normalizes supported aliases such as question/stem, options/choices, and supported answer-index fields into the StudyMats question model. Missing or ambiguous data is reported rather than guessed.',meta:'Checks: stem, choices, answer index, rationale, ID, and subject.',action:'Open import preview',type:'import'},
+{title:'Convert conservatively',body:'The importer preserves source wording, choice order, and answer values for supported fields. It does not generate missing clinical content or rationales. Use the external converter for source formats needing conversion.',meta:'Checks: no invented answers, no silent reordering, unsupported content remains a review concern.',action:'Open converter',type:'link',href:'https://mdfl212.github.io/studymats-test-bank-converter/'},
+{title:'Validate structure',body:'The actual import preview parses the selected JSON and checks each record for usable question structure. Invalid records are reported and excluded from the valid set.',meta:'Checks: JSON syntax, record shape, required fields, choices, answer index, duplicate IDs, and warnings.',action:'Choose JSON file',type:'import'},
+{title:'Reconcile & report',body:'The import preview reports valid, invalid, and total records, plus validation notes and duplicate-stem warnings when detected. Invalid records are explicitly reported as skipped; the source file is not rewritten.',meta:'Accounting rule: valid + invalid equals the recognized source record count.',action:'Review import results',type:'import'},
+{title:'Human review · decision gate',body:'Review destination, import mode, counts, and warnings in the import dialog. Confirmation is a separate explicit click. If the file cannot be read or has no usable records, import remains blocked.',meta:'Gate: inspect actual preview and warnings before confirming. Cancel leaves the current draft unchanged.',action:'Open import preview',type:'import'},
+{title:'Confirm import',body:'Only the Import questions button in the validation dialog commits the import. The draft is backed up when needed, records are normalized, and the studio reports the actual number added.',meta:'Checks: destination selected, usable records, explicit confirmation, safety backup when required.',action:'Choose JSON file',type:'import'}];
+let workflowActiveStep=0,workflowImportState={fileName:'',total:0,valid:0,invalid:0,issues:0,loaded:false,imported:0,blocked:false};
+function renderWorkflow(){
+ const nodes=[...document.querySelectorAll('[data-workflow-step]')],d=workflowSteps[workflowActiveStep];if(!d)return;
+ const st=nodes.map(()=>({status:'pending',label:'Not started'}));st[0]={status:workflowImportState.loaded?'complete':'current',label:workflowImportState.loaded?'Source identified':'Ready to begin'};
+ if(workflowImportState.blocked){for(let i=1;i<8;i++)st[i]={status:'blocked',label:'Blocked'}}
+ else if(workflowImportState.loaded){st[1]={status:'complete',label:'Format accepted'};st[2]={status:workflowImportState.valid?'complete':'warning',label:workflowImportState.valid?'Fields mapped':'Needs attention'};st[3]={status:'complete',label:'Conservative mapping'};st[4]={status:workflowImportState.invalid?'warning':'complete',label:workflowImportState.invalid?'Warnings found':'Checks passed'};st[5]={status:workflowImportState.invalid?'warning':'complete',label:workflowImportState.invalid?'Records need review':'Counts reconciled'};st[6]={status:workflowImportState.invalid||workflowImportState.issues?'warning':'current',label:workflowImportState.invalid||workflowImportState.issues?'Review warnings':'Review before import'};st[7]={status:workflowImportState.imported?'complete':'current',label:workflowImportState.imported?'Import completed':'Confirmation required'}}
+ nodes.forEach((el,i)=>{el.dataset.status=st[i].status;el.setAttribute('aria-pressed',String(i===workflowActiveStep));const n=el.querySelector('.workflow-step-number');if(n)n.textContent=el.dataset.gate==='true'?'◇':String(i===7?7:i+1).padStart(2,'0')});
+ $('workflowDetailTitle').textContent=String(workflowActiveStep===7?7:workflowActiveStep+1).padStart(2,'0')+' · '+d.title;$('workflowDetailBody').textContent=d.body;$('workflowDetailMeta').textContent=d.meta;$('workflowDetailStatus').textContent=st[workflowActiveStep].label;$('workflowDetailStatus').dataset.status=st[workflowActiveStep].status;
+ const p=$('workflowPrimaryAction');p.textContent=d.action;p.dataset.action=d.type;p.disabled=workflowImportState.blocked&&workflowActiveStep!==0;
+ const a=$('workflowSecondaryAction');a.hidden=workflowActiveStep===3;a.href='https://github.com/mdfl212/studymats-test-bank-converter/blob/main/docs/workflow.md';
+ const c=$('workflowCounts');if(workflowImportState.loaded){c.hidden=false;c.innerHTML='<span class="workflow-count"><strong>'+workflowImportState.total+'</strong> source records</span><span class="workflow-count"><strong>'+workflowImportState.valid+'</strong> usable</span><span class="workflow-count"><strong>'+workflowImportState.invalid+'</strong> invalid / skipped</span><span class="workflow-count"><strong>'+workflowImportState.issues+'</strong> review notes</span>'}else{c.hidden=true;c.textContent=''}
+}
+document.querySelectorAll('[data-workflow-step]').forEach(el=>el.addEventListener('click',()=>{workflowActiveStep=Number(el.dataset.workflowStep);renderWorkflow()}));
+$('workflowPrimaryAction').addEventListener('click',()=>{const d=workflowSteps[workflowActiveStep];if(d.type==='link'){window.open(d.href,'_blank','noopener');return}if($('importBankWelcome'))$('importBankWelcome').click()});
+
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const subjectByName=name=>state.subjects.find(s=>s.name===name||s.id===name);
 function currentSubject(){return subjectByName(state.selectedSubject)||state.subjects[0]||null}
@@ -578,6 +627,7 @@ function openWelcomeImport(file){
   file.text().then(text=>{
     let parsed;try{parsed=JSON.parse(text)}catch(e){throw Error('This file is not valid JSON. Check the file and try again.')}
     const data=extractImportBank(parsed);pendingWelcomeImport={file,data};
+    workflowImportState={fileName:file.name,total:data.items.length,valid:data.valid.length,invalid:data.items.length-data.valid.length,issues:data.issues.length+data.duplicateStems,loaded:true,imported:0,blocked:false};workflowActiveStep=workflowImportState.invalid||workflowImportState.issues?6:4;renderWorkflow();
     $('importPreviewCounts').textContent=data.valid.length+' valid · '+(data.items.length-data.valid.length)+' invalid · '+data.items.length+' total';
     if(data.possibleTitle)$('importPreviewFilename').textContent=file.name+' · '+data.possibleTitle;
     const match=state.subjects.find(s=>s.name.toLowerCase()===data.possibleSubject.toLowerCase()||s.id.toLowerCase()===data.possibleSubject.toLowerCase());
@@ -590,7 +640,7 @@ function openWelcomeImport(file){
     $('importPreviewMessage').className='status '+(data.valid.length?'good':'bad');
     $('importPreviewMessage').textContent=data.valid.length?'Found '+data.valid.length+' structurally usable question(s). Review the destination and import mode before confirming.':'No structurally usable questions were found. Nothing can be imported from this file.';
     $('confirmWelcomeImport').disabled=!data.valid.length||!state.subjects.some(s=>s.name===$('importDestination').value);
-  }).catch(e=>{pendingWelcomeImport=null;$('importPreviewCounts').textContent='Unable to read question bank';$('importPreviewMessage').className='status bad';$('importPreviewMessage').textContent=e.message;$('importPreviewWarnings').textContent='No changes have been made to your current draft.';$('confirmWelcomeImport').disabled=true});
+  }).catch(e=>{workflowImportState={fileName:file.name,total:0,valid:0,invalid:0,issues:1,loaded:true,imported:0,blocked:true};workflowActiveStep=1;renderWorkflow();pendingWelcomeImport=null;$('importPreviewCounts').textContent='Unable to read question bank';$('importPreviewMessage').className='status bad';$('importPreviewMessage').textContent=e.message;$('importPreviewWarnings').textContent='No changes have been made to your current draft.';$('confirmWelcomeImport').disabled=true});
 }
 function confirmWelcomeImport(){
   const pending=pendingWelcomeImport;if(!pending)return;const destination=$('importDestination').value;
@@ -604,6 +654,7 @@ function confirmWelcomeImport(){
   $('filename').value=pending.file.name.replace(/\.json$/i,'-studymats.json');
   const records=pending.data.valid.map(item=>{const raw=JSON.parse(JSON.stringify(item.raw));raw.subject=destination;return raw});
   const result=importItems(records);renderSubjects();renderTopics();renderDraftList();renderReview();setDirty(false);saveDraft(false);
+  workflowImportState.imported=result.added;workflowActiveStep=7;renderWorkflow();
   $('welcomeStatus').textContent='Imported '+result.added+' question(s) from '+pending.file.name+'.';
   pendingWelcomeImport=null;$('welcomeJsonFile').value='';dialogCloseWelcomeImport();showScreen('studio');refreshWelcomeDraftStatus();
 }
@@ -670,7 +721,7 @@ $('reviewSearch').oninput=renderReview;
 $('themeToggle').onclick=()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;state.theme=next;try{localStorage.setItem('studymats-theme',next)}catch{}};
 try{const theme=localStorage.getItem('studymats-theme');if(theme==='light'||theme==='dark'){document.documentElement.dataset.theme=theme;state.theme=theme}}catch{}
 window.addEventListener('beforeunload',e=>{if(state.dirty){e.preventDefault();e.returnValue='';}});
-renderChoices();preview();renderDraftList();loadBanks();
+renderChoices();preview();renderDraftList();loadBanks();renderWorkflow();
 refreshWelcomeDraftStatus();
 if('serviceWorker'in navigator&&(location.protocol==='https:'||location.hostname==='localhost'))window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js',{scope:'./'}).catch(e=>console.warn('Offline support:',e)));
 })();
