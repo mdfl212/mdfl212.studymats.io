@@ -14,7 +14,7 @@
     if(input.value.trim())runSearch(input.value);else{resultsEl.innerHTML='<div class="qs-empty">Type a topic, keyword, or part of a question to search all test banks.</div>';previewEl.innerHTML='<div class="qs-preview-empty"><span>⌕</span><strong>Find a question</strong><p>Search across subjects, question stems, options, topics, and rationales.</p></div>';statusEl.textContent='Search all available question banks';}
     input.focus();
   }
-  function closeModal(){modal.hidden=true;document.body.classList.remove('question-search-open');modal.setAttribute('aria-hidden','true');input.blur();}
+  function closeModal(){modal.hidden=true;document.body.classList.remove('question-search-open');modal.setAttribute('aria-hidden','true');input.blur();dashboardInput.focus({preventScroll:true});}
   async function loadBanks(){
     if(banks.length)return banks;if(loadPromise)return loadPromise;
     loadPromise=(async()=>{
