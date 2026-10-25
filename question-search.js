@@ -8,7 +8,7 @@
   if(!dashboardInput||!input||!modal||!dialog||!resultsEl||!previewEl)return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const norm=v=>String(v??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ').trim();
-  let banks=[],matches=[],selectedIndex=0,loadPromise=null,debounce=null;
+  let banks=[],matches=[],selectedIndex=0,loadPromise=null,debounce=null,searchRun=0;
   function openModal(){
     if(!modal.hidden){input.focus();return;}
     input.value=dashboardInput.value;modal.hidden=false;document.body.classList.add('question-search-open');modal.setAttribute('aria-hidden','false');
@@ -35,11 +35,14 @@
   }
   function searchable(q,s){return norm([s.name,s.shortName,s.yearLevel,q.id,q.topic,q.question,...(q.options||[]),q.rationale?.text,...(Array.isArray(q.tags)?q.tags:[])].join(' '));}
   async function runSearch(raw){
+    const runId=++searchRun;
     const query=norm(raw);
     if(!query){matches=[];resultsEl.innerHTML='<div class="qs-empty">Type a topic, keyword, or part of a question to search all test banks.</div>';previewEl.innerHTML='<div class="qs-preview-empty"><span>⌕</span><strong>Find a question</strong><p>Search across subjects, question stems, options, topics, and rationales.</p></div>';statusEl.textContent='Search all available question banks';return;}
     resultsEl.innerHTML='<div class="qs-loading"><span class="qs-spinner"></span>Searching question banks…</div>';previewEl.innerHTML='<div class="qs-preview-empty"><strong>Searching</strong><p>Checking the available subject banks.</p></div>';
     try{
-      const loaded=await loadBanks(),terms=query.split(' ').filter(Boolean),found=[];
+      const loaded=await loadBanks();
+      if(runId!==searchRun||modal.hidden)return;
+      const terms=query.split(' ').filter(Boolean),found=[];
       loaded.forEach(({subject,questions})=>questions.forEach(question=>{
         const text=searchable(question,subject),score=terms.reduce((n,t)=>n+(text.includes(t)?1:0),0);
         if(score===terms.length){const stem=norm(question.question),topic=norm(question.topic);found.push({subject,question,score:score+(stem.includes(query)?3:0)+(topic.includes(query)?2:0)});}
@@ -48,7 +51,7 @@
       const failed=loaded.filter(b=>b.error).length;statusEl.textContent=found.length+' match'+(found.length===1?'':'es')+(failed?' · '+failed+' bank'+(failed===1?'':'s')+' unavailable':'');
       if(!matches.length){resultsEl.innerHTML='<div class="qs-empty"><strong>No matching questions found.</strong><p>Try fewer words, a different spelling, or a broader topic.</p></div>';previewEl.innerHTML='<div class="qs-preview-empty"><span>↗</span><strong>No preview yet</strong><p>Try another keyword to find questions in the test banks.</p></div>';return;}
       renderResults();renderPreview();
-    }catch(error){statusEl.textContent='Search could not load';resultsEl.innerHTML='<div class="qs-empty"><strong>Could not search the question banks.</strong><p>'+esc(error.message)+' Please refresh and try again.</p></div>';previewEl.innerHTML='<div class="qs-preview-empty"><strong>Preview unavailable</strong><p>Check your connection and reload the dashboard.</p></div>';}
+    }catch(error){if(runId!==searchRun||modal.hidden)return;statusEl.textContent='Search could not load';resultsEl.innerHTML='<div class="qs-empty"><strong>Could not search the question banks.</strong><p>'+esc(error.message)+' Please refresh and try again.</p></div>';previewEl.innerHTML='<div class="qs-preview-empty"><strong>Preview unavailable</strong><p>Check your connection and reload the dashboard.</p></div>';}
   }
   function renderResults(){
     resultsEl.innerHTML=matches.map((m,i)=>{
