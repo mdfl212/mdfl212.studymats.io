@@ -13288,3 +13288,41 @@ html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .mobile
 html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .mobile-nav-item.is-current {
   color: #17643a !important;
 }
+
+/* Root-cause repair: legacy mobile rules hard-coded dark colors regardless of theme. */
+@media (max-width:700px) {
+html[data-course="hub"][data-theme="light"] body[data-course="hub"]{color-scheme:light!important;background:#f6f8f4!important;color:#1b2b20!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .app-topbar,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-row,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-dropdown{background:#fff!important;border-color:#dce5dc!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .topbar-theme{background:#fff!important;color:#245438!important;border:1px solid #dce5dc!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .topbar-profile span{background:#17643a!important;color:#fff!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-title,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-dropdown>summary{color:#1b2b20!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-subtext{color:#526257!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-year-icon{background:#e6f1e8!important;color:#17643a!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-pill{background:#f7f9f6!important;border-color:#d6e0d6!important;color:#26392b!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .hub-pill.active{background:#17643a!important;border-color:#17643a!important;color:#fff!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-welcome,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-stats>*,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-panel,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-activity-stats>*{background:#fff!important;color:#1b2b20!important;border-color:#dce5dc!important;box-shadow:0 2px 8px rgba(25,55,32,.045)!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard .dash-kicker{color:#805e09!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard :where(h1,h2,h3,h4,strong,b,.dash-stat-value,.dash-stat-label,.dash-stat-note,.dash-subject-year-heading){color:#1b2b20!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard :where(p,small,label,.dash-subtitle,.dash-panel-copy,.dash-data-caption,.dash-local-label){color:#526257!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] #studyDashboard :where(a,.dash-continue,.dash-glance-link){color:#14532f!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new{background:#fff4cf!important;color:#3d2d08!important;border:1px solid #d7b34b!important;box-shadow:0 2px 8px rgba(115,83,15,.08)!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new :where(h2,p){color:#3d2d08!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new-icon{background:#f2df9d!important;color:#6b4c00!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new-link{color:#765500!important;text-decoration:underline!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-whats-new-close{background:#fffdf5!important;color:#3d2d08!important;border-color:#d7c58a!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-range-picker{background:#f5f8f4!important;border-color:#d6e0d6!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-range-picker button{color:#34483a!important;background:transparent!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-range-picker button.active{background:#17643a!important;color:#fff!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .dash-progress-track{background:#e2e9e2!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav{background:rgba(255,255,255,.98)!important;border-top-color:#dce5dc!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-nav-item,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav a,
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-bottom-nav button{color:#526257!important}
+html[data-course="hub"][data-theme="light"] body[data-course="hub"] .mobile-nav-item.is-current{color:#17643a!important}
+}
