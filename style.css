@@ -7545,6 +7545,16 @@ body[data-course="hub"] .sidebar-save { margin-top:auto;border:1px solid #263b43
 body[data-course="hub"] .sidebar-save i { width:8px;height:8px;border-radius:50%;background:#22c58b; }
 body[data-course="hub"] .sidebar-save span { margin-left:auto; }
 body[data-course="hub"] .app-topbar { height:70px;display:flex;align-items:center;gap:24px;border-bottom:1px solid var(--border);margin:0 -30px 26px;padding:0 30px; }
+@media (max-width: 1100px) {
+  body[data-course="hub"] .app-topbar {
+    margin: 0 0 26px;
+    padding: 0 16px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
 body[data-course="hub"] .sidebar-menu { display:none; }
 body[data-course="hub"] .topbar-brand img { width:42px;height:42px;padding:7px;background:#172237;border-radius:13px; }
 body[data-course="hub"] .topbar-search { margin-left:auto;display:flex;align-items:center;gap:12px;width:min(48%,520px);padding:8px 12px;border:1px solid var(--border);border-radius:13px;background:var(--bg-card);color:var(--text-sub); }
