@@ -14076,3 +14076,19 @@ body[data-course="hub"] .study-mats-start-quiz {
   body[data-course="hub"] .study-mats-action-dialog .qs-header h2 { font-size: 22px; }
   body[data-course="hub"] .study-mats-action-description { font-size: 12px; }
 }
+
+/* Normalize the Browse Test Banks trigger after replacing its details/summary wrapper. */
+body[data-course="hub"] .hub-year-dropdown > button.section-toggle {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+}
+body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible {
+  outline: 2px solid var(--gold-primary);
+  outline-offset: -3px;
+}
