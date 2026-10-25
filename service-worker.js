@@ -89,7 +89,7 @@ self.addEventListener("fetch", (event) => {
         }
         return response;
       } catch (error) {
-        const cached = await caches.match(request);
+        const cached = await caches.match(request, { ignoreSearch: true });
         if (cached) return cached;
 
         if (isPage) {
