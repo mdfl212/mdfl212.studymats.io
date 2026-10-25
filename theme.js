@@ -46,6 +46,10 @@
             }
         }
         updateThemeControl(nextTheme);
+        const themeColor = document.querySelector('meta[name="theme-color"]');
+        if (themeColor && document.documentElement.getAttribute('data-course') === 'hub') {
+            themeColor.setAttribute('content', nextTheme === 'dark' ? '#171315' : '#fbf8f5');
+        }
     }
 
     function toggleTheme() {
