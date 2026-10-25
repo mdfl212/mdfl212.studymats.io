@@ -1,5 +1,5 @@
 /* StudyMats offline-first service worker for web and installed mobile/desktop apps. */
-const CACHE_NAME = "studymats-pwa-v5";
+const CACHE_NAME = "studymats-pwa-v6";
 const CORE_ASSETS = [
   "./",
   "./index.html",
