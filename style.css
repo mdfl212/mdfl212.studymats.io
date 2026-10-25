@@ -13601,3 +13601,50 @@ body[data-course="hub"] {
   overflow-x: clip;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+
+/* Desktop chrome polish: blend the brand rail into the page and let search
+   float as a quiet surface instead of exposing a short header seam. */
+@media (min-width: 1101px) {
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] .desktop-sidebar {
+    background: #f6f8f4 !important;
+    border-right: 1px solid #e4ebe3 !important;
+  }
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] .desktop-sidebar .sidebar-top {
+    width: 100% !important; min-height: 58px !important; height: 58px !important;
+    margin: 0 !important; padding: 8px 12px !important;
+    background: #f6f8f4 !important; border: 0 !important;
+    border-bottom: 1px solid #e4ebe3 !important; border-radius: 0 !important;
+    box-sizing: border-box !important;
+  }
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] .app-topbar {
+    background: #f6f8f4 !important; border: 0 !important;
+    border-bottom: 1px solid #e4ebe3 !important; box-shadow: none !important;
+    min-height: 58px !important; height: 58px !important;
+    padding: 0 22px 0 0 !important; margin: 0 !important;
+    gap: 12px !important; box-sizing: border-box !important;
+  }
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] .topbar-search {
+    background: rgba(255,255,255,.88) !important;
+    border: 1px solid rgba(205,220,207,.82) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 3px 12px rgba(24,68,42,.07), 0 1px 2px rgba(24,68,42,.04) !important;
+    transition: box-shadow .18s ease, border-color .18s ease !important;
+  }
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] .topbar-search:hover {
+    border-color: #c3d8c7 !important;
+    box-shadow: 0 5px 16px rgba(24,68,42,.09), 0 1px 3px rgba(24,68,42,.04) !important;
+  }
+  html[data-course="hub"][data-theme="light"] body[data-course="hub"] .topbar-search:focus-within {
+    border-color: #9fbea6 !important;
+    box-shadow: 0 0 0 3px rgba(23,100,58,.08), 0 5px 16px rgba(24,68,42,.08) !important;
+  }
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .desktop-sidebar .sidebar-top,
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .app-topbar {
+    min-height: 58px !important; height: 58px !important;
+    margin-top: 0 !important; box-sizing: border-box !important;
+  }
+  html[data-course="hub"][data-theme="dark"] body[data-course="hub"] .topbar-search {
+    border-radius: 14px !important; box-shadow: 0 3px 12px rgba(0,0,0,.16) !important;
+  }
+}
