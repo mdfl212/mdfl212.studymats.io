@@ -60,7 +60,7 @@
   const oldWelcome=dashboard.querySelector('.dash-welcome');
   if(oldWelcome)oldWelcome.hidden=true;
   const subjectDropdown=$('subjectProgressDropdown'),activityPanel=dashboard.querySelector('.dash-activity-panel'),donuts=$('dashDonuts');
-  const stats=document.createElement('div');stats.id='dashStats';stats.className='dash-stats';
+  const stats=$('dashStats')||document.createElement('div');stats.id='dashStats';stats.classList.add('dash-stats');
   progress.appendChild(activityPanel||document.createElement('div'));
   progress.appendChild(metricGrid);progress.appendChild(stats);
   if(donuts)progress.appendChild(donuts);
@@ -81,8 +81,8 @@
    if(which==='progress')renderMetrics();
    window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
   };
-  nav.querySelector('[data-sm-nav="quiz"]').addEventListener('click',()=>{$('[data-mobile-quiz]')?.click()||document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]')?.click()||$('smStartQuiz').click();});
-  nav.querySelector('[data-sm-nav="browse"]').addEventListener('click',()=>{$('[data-open-subject-browser]')?.click()||document.querySelector('[data-sidebar-subjects]')?.click();});
+  nav.querySelector('[data-sm-nav="quiz"]').addEventListener('click',()=>{const trigger=$('[data-mobile-quiz]')||document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]');if(trigger)trigger.click();else $('smStartQuiz').click();});
+  nav.querySelector('[data-sm-nav="browse"]').addEventListener('click',()=>{const trigger=$('[data-open-subject-browser]')||document.querySelector('[data-sidebar-subjects]');if(trigger)trigger.click();});
   nav.querySelector('[data-sm-nav="progress"]').addEventListener('click',()=>setView('progress'));
   nav.querySelector('[data-sm-nav="builder"]').addEventListener('click',()=>setView('builder'));
   nav.querySelector('.sm-nav-brand').addEventListener('click',e=>{e.preventDefault();setView('home')});
