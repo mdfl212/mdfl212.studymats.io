@@ -124,7 +124,10 @@
         attributes: true,
         attributeFilter: ['data-theme']
       });
-      const frameObserver = new MutationObserver(syncBuilderTheme);
+      const frameObserver = new MutationObserver(() => {
+        const frame = $('smBuilderFrame');
+        if (frame && frame !== builderFrame) syncBuilderTheme();
+      });
       frameObserver.observe(document.documentElement, { childList: true, subtree: true });
       window.addEventListener('pageshow', syncBuilderTheme);
       window.addEventListener('message', event => {
