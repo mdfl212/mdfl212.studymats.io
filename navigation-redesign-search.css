@@ -1,4 +1,4 @@
-/* Compact search trigger + Find-a-question popup (blur, not full-screen) */
+/* Compact search trigger + smaller Find-a-question popup + Progress theme fix */
 
 html[data-course="hub"] body.sm-redesign-active .sm-nav-search {
   display: none !important;
@@ -30,7 +30,6 @@ html[data-course="hub"] body.sm-redesign-active .sm-nav-avatar {
   font-size: 12px;
 }
 
-/* Circular search trigger */
 .sm-search-trigger {
   width: 36px;
   height: 36px;
@@ -59,15 +58,10 @@ html[data-theme="dark"] .sm-search-trigger {
   color: var(--text-main, #f5f5f4);
 }
 .sm-search-trigger:active { transform: scale(0.92); }
-.sm-search-trigger[aria-expanded="true"] {
-  border-color: var(--accent, #1f6b4a);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent, #1f6b4a) 22%, transparent);
-}
 
-/* Hide the intermediate mini search popup if present */
 .sm-search-popup { display: none !important; }
 
-/* Find-a-question modal: popup with blur, not edge-to-edge full screen on phone */
+/* ===== Find-a-question: compact floating card (not full-screen) ===== */
 html[data-course="hub"] body.sm-redesign-active .question-search-modal {
   position: fixed !important;
   inset: 0 !important;
@@ -75,10 +69,10 @@ html[data-course="hub"] body.sm-redesign-active .question-search-modal {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  padding: max(12px, env(safe-area-inset-top, 0px)) 12px max(16px, env(safe-area-inset-bottom, 0px)) !important;
-  background: rgba(20, 16, 12, 0.38) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  backdrop-filter: blur(10px) !important;
+  padding: max(28px, env(safe-area-inset-top, 0px) + 12px) 16px max(28px, env(safe-area-inset-bottom, 0px) + 12px) !important;
+  background: rgba(20, 16, 12, 0.45) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  backdrop-filter: blur(12px) !important;
 }
 html[data-course="hub"] body.sm-redesign-active .question-search-modal[hidden] {
   display: none !important;
@@ -91,16 +85,43 @@ html[data-course="hub"] body.sm-redesign-active .question-search-modal .question
 html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
   position: relative !important;
   z-index: 1 !important;
-  width: min(100%, 440px) !important;
-  max-height: min(82dvh, 720px) !important;
-  border-radius: 18px !important;
+  width: min(100%, 400px) !important;
+  max-height: min(68dvh, 560px) !important;
+  border-radius: 16px !important;
   overflow: hidden !important;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.28) !important;
-  animation: smSearchPopIn 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.32) !important;
+  animation: smSearchPopIn 0.24s cubic-bezier(0.22, 1, 0.36, 1);
 }
 @keyframes smSearchPopIn {
-  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  from { opacity: 0; transform: translateY(10px) scale(0.97); }
   to { opacity: 1; transform: translateY(0) scale(1); }
+}
+html[data-course="hub"] body.sm-redesign-active .question-search-dialog .qs-header {
+  padding: 12px 14px 10px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .question-search-dialog .qs-header h2 {
+  font-size: 18px !important;
+  margin: 0 0 6px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .question-search-dialog .qs-body {
+  grid-template-columns: 1fr !important;
+  grid-template-rows: minmax(100px, 34%) minmax(0, 1fr) !important;
+  max-height: calc(min(68dvh, 560px) - 88px) !important;
+}
+html[data-course="hub"] body.sm-redesign-active .question-search-dialog .qs-results {
+  max-height: 100% !important;
+  overflow: auto !important;
+}
+@media (max-width: 767px) {
+  html[data-course="hub"] body.sm-redesign-active .question-search-modal {
+    align-items: center !important;
+    padding: max(24px, env(safe-area-inset-top, 0px) + 8px) 14px max(24px, env(safe-area-inset-bottom, 0px) + 8px) !important;
+  }
+  html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
+    width: min(100%, 100%) !important;
+    max-height: min(68dvh, 560px) !important;
+    border-radius: 16px !important;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
@@ -108,24 +129,7 @@ html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
   }
 }
 
-/* On very tall phones keep it a card, not a sheet glued to edges */
-@media (max-width: 767px) {
-  html[data-course="hub"] body.sm-redesign-active .question-search-modal {
-    align-items: center !important;
-    padding: max(10px, env(safe-area-inset-top, 0px)) 10px max(12px, env(safe-area-inset-bottom, 0px)) !important;
-  }
-  html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
-    width: min(100%, 100%) !important;
-    max-height: min(85dvh, 780px) !important;
-    border-radius: 16px !important;
-  }
-  html[data-course="hub"] body.sm-redesign-active .qs-body {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: minmax(120px, 28dvh) minmax(0, 1fr) !important;
-  }
-}
-
-/* Dark mode support for redesign chrome */
+/* Dark chrome for redesign shell */
 html[data-theme="dark"] body.sm-redesign-active .sm-topbar,
 html[data-theme="dark"] body.sm-redesign-active .sm-bottom-nav {
   background: color-mix(in srgb, var(--bg, #111318) 92%, transparent);
@@ -134,4 +138,119 @@ html[data-theme="dark"] body.sm-redesign-active .sm-bottom-nav {
 html[data-theme="dark"] body.sm-redesign-active .sm-icon-btn,
 html[data-theme="dark"] body.sm-redesign-active .sm-nav-brand {
   color: var(--text-main, #f5f5f4);
+}
+
+/* ===== Progress: theme-consistent surfaces (no stuck black/white panels) ===== */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view {
+  color: var(--text-main, #1c1917);
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-view-title {
+  color: var(--text-main, #1c1917);
+}
+
+/* Metric tiles follow theme */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-tile {
+  background: var(--bg-card, #fff) !important;
+  border-color: var(--border, #e6e0d9) !important;
+  color: var(--text-main, #1c1917) !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-tile span {
+  color: var(--text-muted, #78716c) !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-tile strong {
+  color: var(--text-main, #1c1917) !important;
+}
+
+/* Year pills row */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .hub-year-row {
+  background: var(--bg-card, #fff) !important;
+  border: 1px solid var(--border, #e6e0d9);
+  border-radius: 999px;
+  padding: 4px;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .hub-pill {
+  color: var(--text-main, #1c1917);
+}
+
+/* Activity / subject panels: use card surface, not forced pure black */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-panel,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-dropdown,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-panel {
+  background: var(--bg-card, #fff) !important;
+  border-color: var(--border, #e6e0d9) !important;
+  color: var(--text-main, #1c1917) !important;
+  box-shadow: none;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-panel-heading h2,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-dropdown summary,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view [data-glance-year] {
+  color: var(--text-main, #1c1917) !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-data-caption,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-panel-copy {
+  color: var(--text-muted, #78716c) !important;
+}
+
+/* Heatmap block: keep a dark inset for legibility of cells, but only the heatmap area */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heatmap-container,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashHeatmap {
+  background: #141418 !important;
+  border-radius: 12px;
+  padding: 10px;
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heatmap-container,
+html[data-theme="dark"] body.sm-redesign-active .sm-progress-view #dashHeatmap {
+  background: #0c0c10 !important;
+}
+
+/* Activity mini-stats inside the panel */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-stats > div {
+  background: var(--bg, #f7f3ee) !important;
+  border: 1px solid var(--border, #e6e0d9) !important;
+  color: var(--text-main, #1c1917) !important;
+  border-radius: 10px;
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-activity-stats > div {
+  background: var(--bg, #111318) !important;
+  border-color: var(--border, #3f3a36) !important;
+  color: var(--text-main, #f5f5f4) !important;
+}
+
+/* Subject list cards */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-card {
+  background: var(--bg, #f7f3ee) !important;
+  border-color: var(--border, #e6e0d9) !important;
+  color: var(--text-main, #1c1917) !important;
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-subject-card {
+  background: var(--bg, #111318) !important;
+  border-color: var(--border, #3f3a36) !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-title h3 {
+  color: var(--text-main, #1c1917) !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .mob-view-all {
+  color: var(--accent, #1f6b4a) !important;
+}
+
+/* Range picker buttons on activity heading */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-range-picker button {
+  background: var(--bg, #f7f3ee);
+  color: var(--text-main, #1c1917);
+  border: 1px solid var(--border, #e6e0d9);
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-range-picker button.active {
+  background: var(--accent, #1f6b4a);
+  border-color: var(--accent, #1f6b4a);
+  color: #fff;
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-range-picker button {
+  background: var(--bg, #111318);
+  border-color: var(--border, #3f3a36);
+  color: var(--text-main, #f5f5f4);
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-range-picker button.active {
+  background: var(--accent, #1f6b4a);
+  border-color: var(--accent, #1f6b4a);
+  color: #fff;
 }
