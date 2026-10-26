@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
   <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
-  <link rel="stylesheet" href="navigation-redesign.css?v=8" />
+  <link rel="stylesheet" href="navigation-redesign.css?v=10" />
   <script src="theme.js"></script>
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#fbf8f5">
@@ -21,9 +21,9 @@
   <main class="wrapper" id="top">
     <div class="app-topbar">
       <label class="topbar-search">
-        <span>⌘</span>
+        <span></span>
         <input id="dashboardSearch" type="search" placeholder="Search questions, topics, or keywords…">
-        <kbd>⌘ K</kbd>
+        <kbd>Ctrl K</kbd>
       </label>
       <button class="topbar-theme" type="button" data-theme-toggle aria-label="Toggle theme"><span data-theme-icon>☾</span></button>
       <button class="topbar-profile" id="dashProfileButtonTop" type="button"><span>S</span></button>
@@ -35,7 +35,6 @@
       <button class="hub-pill" type="button" data-year="YL2">YL2</button>
       <button class="hub-pill" type="button" data-year="YL3">YL3</button>
       <button class="hub-pill" type="button" data-year="YL4">YL4</button>
-      <button class="hub-pill" type="button" data-year="resources">Additional Resources</button>
     </div>
     <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
       <div class="dash-welcome"><h2 id="dashGreeting">Your study space</h2><button class="dash-button dash-button-quiet" id="dashProfileButton" type="button">Set up profile</button></div>
@@ -59,7 +58,7 @@
         <p class="dash-data-caption" id="dashActivityCaption"></p>
       </div>
       <div class="dash-panel dash-tools-panel" id="backupPanel">
-        <div class="dash-panel-heading"><h2>Backup & portability</h2></div>
+        <div class="dash-panel-heading"><h2>Backup &amp; portability</h2></div>
         <div class="dash-data-actions">
           <button class="dash-button dash-button-primary" id="dashExportButton" type="button">↓ Export backup</button>
           <button class="dash-button" id="dashImportButton" type="button">↑ Import backup</button>
@@ -88,7 +87,6 @@
           <button class="hub-pill" type="button" data-year="YL2">YL2</button>
           <button class="hub-pill" type="button" data-year="YL3">YL3</button>
           <button class="hub-pill" type="button" data-year="YL4">YL4</button>
-          <button class="hub-pill" type="button" data-year="resources">Additional Resources</button>
         </div>
         <div class="hub-subjects" id="hubSubjectList" aria-live="polite"></div>
         <div id="statusMessage" class="status-message" role="status"></div>
@@ -118,10 +116,49 @@
 
   <div class="dash-modal-backdrop dash-changelog-backdrop" id="changelogModal" hidden>
     <section class="dash-modal dash-changelog-modal" role="dialog" aria-modal="true" aria-labelledby="changelogModalTitle">
+      <div class="dash-modal-mark" aria-hidden="true">✦</div>
       <p class="dash-kicker">STUDYMATS UPDATES</p>
       <h2 id="changelogModalTitle">What's changed</h2>
-      <div class="dash-changelog-list"></div>
-      <div class="dash-modal-actions"><button class="dash-button dash-button-primary" type="button" data-close-changelog>Got it</button></div>
+      <p class="dash-modal-copy">A running summary of improvements to the study dashboard, quiz, and question-bank tools.</p>
+      <div class="dash-changelog-list">
+        <article>
+          <small>OCT 2026 · STUDY EXPERIENCE</small>
+          <h3>Cleaner dashboard and quiz</h3>
+          <ul>
+            <li>Daily Study Rhythm spacing simplified by removing the extra momentum label.</li>
+            <li>Quiz opens in dark mode by default, with a true-black surface and cleaner metadata.</li>
+            <li>Quiz timer supports custom duration, quick-add time, and a clear time-up state.</li>
+          </ul>
+        </article>
+        <article>
+          <small>OCT 2026 · STUDY TOOLS</small>
+          <h3>Build and manage question banks</h3>
+          <ul>
+            <li>Test Bank Builder supports drafting, editing, reusing questions, validating, importing JSON, and exporting without overwriting originals.</li>
+            <li>Dashboard progress includes subject-level glance views and saved activity.</li>
+          </ul>
+        </article>
+        <article>
+          <small>OCT 2026 · APP ACCESS</small>
+          <h3>Install StudyMats</h3>
+          <ul>
+            <li>Added installable PWA support and a basic offline app shell for supported browsers.</li>
+          </ul>
+          <p class="dash-changelog-note">Offline access is limited; question data may still need an internet connection.</p>
+        </article>
+        <article>
+          <small>OCT 2026 · MOBILE HUB</small>
+          <h3>Mobile-first home and navigation</h3>
+          <ul>
+            <li>New welcome home screen with sticky bottom navigation.</li>
+            <li>Study Progress and Test Bank Builder open as in-app views.</li>
+            <li>Backup moves into a dedicated sheet from the profile menu.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="dash-modal-actions">
+        <button class="dash-button dash-button-primary" type="button" data-close-changelog>Got it</button>
+      </div>
     </section>
   </div>
   <div class="dash-modal-backdrop" id="profileModal" hidden>
@@ -255,7 +292,7 @@
     });
   }
   </script>
-  <script src="./navigation-redesign.js?v=8"></script>
+  <script src="./navigation-redesign.js?v=10"></script>
   <script src="./offline-status.js"></script>
 </body>
 </html>
