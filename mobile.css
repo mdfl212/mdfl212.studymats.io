@@ -5,16 +5,20 @@ body[data-course="hub"] main.wrapper {
   container-name: study-hub;
 }
 
-@container study-hub (max-width: 680px) {
+/* The query container cannot style itself, so size the outer wrapper by viewport.
+   Descendants below still respond to the wrapper's actual inline size. */
+@media (max-width: 680px) {
   body[data-course="hub"] main.wrapper {
     width: 100%;
     max-width: none;
     min-width: 0;
     margin-inline: auto;
-    padding: max(10px, env(safe-area-inset-top)) 14px calc(28px + env(safe-area-inset-bottom));
+    padding: max(10px, env(safe-area-inset-top)) 14px calc(92px + env(safe-area-inset-bottom, 0px));
     gap: 0;
   }
+}
 
+@container study-hub (max-width: 680px) {
   body[data-course="hub"] .app-topbar {
     position: relative;
     top: auto;
@@ -223,8 +227,11 @@ body[data-course="hub"] main.wrapper {
   }
 }
 
-@container study-hub (max-width: 390px) {
+@media (max-width: 390px) {
   body[data-course="hub"] main.wrapper { padding-inline: 10px; }
+}
+
+@container study-hub (max-width: 390px) {
   body[data-course="hub"] .app-topbar { gap: 9px 7px; }
   body[data-course="hub"] .mobile-brand { font-size: 15px; }
   body[data-course="hub"] .topbar-theme,
@@ -240,9 +247,6 @@ body[data-course="hub"] main.wrapper {
 .mobile-more-sheet { display: none; }
 
 @container study-hub (max-width: 680px) {
-  body[data-course="hub"] main.wrapper {
-    padding-bottom: calc(92px + env(safe-area-inset-bottom, 0px));
-  }
   body[data-course="hub"] .mobile-bottom-nav {
     position: fixed;
     z-index: 1000;
