@@ -1,6 +1,6 @@
-/* Progress — true full-bleed (0 L/R padding), floating heatmap */
+/* Progress only — full-bleed sides, compact vertical so it fits one screen */
 
-/* Kill parent wrapper side padding when Progress is active */
+/* Side padding zero ONLY while Progress is active; other views keep normal padding */
 html[data-course="hub"] body.sm-redesign-active[data-sm-view="progress"] main.wrapper {
   max-width: none !important;
   width: 100% !important;
@@ -15,8 +15,8 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view.sm-page,
 html[data-course="hub"] body.sm-redesign-active #smProgressView {
   padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-top: 4px !important;
-  padding-bottom: max(88px, env(safe-area-inset-bottom, 0px) + 72px) !important;
+  padding-top: 2px !important;
+  padding-bottom: max(80px, env(safe-area-inset-bottom, 0px) + 64px) !important;
   max-width: none !important;
   width: 100% !important;
   margin: 0 !important;
@@ -27,10 +27,10 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-view-title
   display: none !important;
 }
 
-/* Rhythm block: transparent shell, no border — heatmap floats on page bg */
+/* Rhythm shell — no chrome */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-panel,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-rhythm-card {
-  margin: 0 0 10px !important;
+  margin: 0 0 6px !important;
   padding: 0 !important;
   border: 0 !important;
   border-radius: 0 !important;
@@ -47,7 +47,7 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .sm-rhythm-car
   color: var(--text-main, #f5f5f4) !important;
 }
 
-/* Hide "Daily study rhythm" + caption subtext */
+/* Hide title + caption */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-panel .dash-panel-heading h2,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-rhythm-heading h2 {
   display: none !important;
@@ -60,18 +60,18 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-rhythm-heading {
   display: flex !important;
   justify-content: flex-end !important;
-  margin: 0 8px 8px !important;
+  margin: 0 8px 4px !important;
   padding: 0 !important;
   min-height: 0 !important;
   border: 0 !important;
   background: transparent !important;
 }
 
-/* Range pills */
+/* Range pills — compact */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-range-picker {
   display: inline-flex !important;
-  gap: 4px !important;
-  padding: 3px !important;
+  gap: 3px !important;
+  padding: 2px !important;
   border-radius: 999px !important;
   background: color-mix(in srgb, var(--bg-card, #fff) 80%, transparent) !important;
   border: 0 !important;
@@ -82,54 +82,56 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-range-pi
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-range-picker button {
   border: 0 !important;
   border-radius: 999px !important;
-  padding: 5px 10px !important;
+  padding: 4px 9px !important;
   font-size: 11px !important;
   font-weight: 600 !important;
   background: transparent !important;
   color: var(--text-muted, #78716c) !important;
-  min-height: 28px !important;
+  min-height: 26px !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-range-picker button.active {
   background: var(--accent, #1f6b4a) !important;
   color: #fff !important;
 }
 
-/* Floating heatmap — edge to edge */
+/* Heatmap — content-sized, no tall empty band */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heatmap-container,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashHeatmap {
   width: 100% !important;
   max-width: none !important;
-  min-height: clamp(130px, 30vh, 240px) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
+  min-height: 0 !important;
+  height: auto !important;
+  display: block !important;
   border-radius: 0 !important;
-  padding: 14px 6px !important;
+  padding: 6px 4px 4px !important;
   border: 0 !important;
   box-shadow: none !important;
   box-sizing: border-box !important;
   margin: 0 !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heatmap-scroll {
-  flex: 1 1 auto !important;
-  display: flex !important;
-  align-items: center !important;
+  display: block !important;
   overflow-x: auto !important;
   -webkit-overflow-scrolling: touch !important;
   width: 100% !important;
+  max-height: none !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heatmap {
   width: 100% !important;
   min-width: 100% !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heat-cell {
-  width: clamp(9px, 2.6vw, 14px) !important;
-  height: clamp(9px, 2.6vw, 14px) !important;
+  width: clamp(7px, 2.2vw, 11px) !important;
+  height: clamp(7px, 2.2vw, 11px) !important;
   flex: 0 0 auto !important;
-  border-radius: 2.5px !important;
+  border-radius: 2px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-month-labels {
+  font-size: 10px !important;
+  margin-bottom: 2px !important;
 }
 
-/* Light: soft mint float */
+/* Light heatmap */
 html[data-course="hub"]:not([data-theme="dark"]) body.sm-redesign-active .sm-progress-view .dash-heatmap-container,
 html[data-course="hub"]:not([data-theme="dark"]) body.sm-redesign-active .sm-progress-view #dashHeatmap {
   background: color-mix(in srgb, #dfece3 70%, transparent) !important;
@@ -143,7 +145,7 @@ html[data-course="hub"]:not([data-theme="dark"]) body.sm-redesign-active .sm-pro
   color: var(--text-muted, #78716c) !important;
 }
 
-/* Dark: soft deep float */
+/* Dark heatmap */
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heatmap-container,
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view #dashHeatmap {
   background: rgba(18, 22, 26, 0.55) !important;
@@ -154,35 +156,36 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heat-cel
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heat-cell.level-3 { background: rgba(34,197,94,0.72) !important; }
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heat-cell.level-4 { background: #22c55e !important; }
 
-/* Daily stats — full width, tiny side inset only on the row itself for readability */
+/* Daily stats — tight */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-stats {
   display: grid !important;
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-  gap: 6px !important;
-  margin: 12px 6px 0 !important;
+  gap: 5px !important;
+  margin: 6px 6px 0 !important;
   width: calc(100% - 12px) !important;
   box-sizing: border-box !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-stats > div {
   background: color-mix(in srgb, var(--bg-card, #fff) 70%, transparent) !important;
   border: 0 !important;
-  border-radius: 12px !important;
-  padding: 10px 2px !important;
+  border-radius: 10px !important;
+  padding: 7px 2px !important;
   text-align: center !important;
   color: var(--text-main, #1c1917) !important;
   box-shadow: none !important;
+  font-size: 11px !important;
 }
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-activity-stats > div {
   background: rgba(255,255,255,0.05) !important;
   color: var(--text-main, #f5f5f4) !important;
 }
 
-/* Metric tiles — nearly edge to edge */
+/* Metric tiles — compact */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-grid {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  gap: 6px !important;
-  margin: 12px 6px !important;
+  gap: 5px !important;
+  margin: 8px 6px !important;
   width: calc(100% - 12px) !important;
   box-sizing: border-box !important;
 }
@@ -191,9 +194,9 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-til
   flex-direction: column !important;
   align-items: flex-start !important;
   justify-content: space-between !important;
-  min-height: 72px !important;
-  padding: 12px 12px !important;
-  border-radius: 14px !important;
+  min-height: 56px !important;
+  padding: 9px 11px !important;
+  border-radius: 12px !important;
   border: 0 !important;
   background: color-mix(in srgb, var(--bg-card, #fff) 85%, transparent) !important;
   color: var(--text-main, #1c1917) !important;
@@ -205,15 +208,15 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-til
   box-sizing: border-box !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-tile span {
-  font-size: 11px !important;
+  font-size: 10px !important;
   font-weight: 500 !important;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--text-muted, #78716c) !important;
-  margin-bottom: 6px !important;
+  margin-bottom: 3px !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-tile strong {
-  font-size: 22px !important;
+  font-size: 18px !important;
   font-weight: 650 !important;
   line-height: 1.1 !important;
   color: var(--text-main, #1c1917) !important;
@@ -226,16 +229,16 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .sm-metric-til
   color: var(--text-main, #f5f5f4) !important;
 }
 
-/* Year pills */
+/* Year pills — tight */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .hub-year-row,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-progress-years {
   display: flex !important;
   align-items: center !important;
-  gap: 6px !important;
+  gap: 5px !important;
   flex-wrap: nowrap !important;
   overflow-x: auto !important;
-  margin: 0 6px 12px !important;
-  padding: 6px !important;
+  margin: 0 6px 8px !important;
+  padding: 4px !important;
   border-radius: 999px !important;
   background: color-mix(in srgb, var(--bg-card, #fff) 75%, transparent) !important;
   border: 0 !important;
@@ -250,8 +253,8 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .sm-progress-y
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .hub-pill {
   flex: 0 0 auto !important;
   border-radius: 999px !important;
-  padding: 8px 14px !important;
-  font-size: 13px !important;
+  padding: 6px 12px !important;
+  font-size: 12px !important;
   font-weight: 600 !important;
   border: 0 !important;
   background: transparent !important;
@@ -262,12 +265,12 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .hub-pill.acti
   color: #fff !important;
 }
 
-/* Subject progress */
+/* Subject progress — collapsed, compact */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-dropdown,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-subject-card {
-  margin: 0 6px 12px !important;
-  padding: 12px 8px !important;
-  border-radius: 16px !important;
+  margin: 0 6px 8px !important;
+  padding: 10px 8px !important;
+  border-radius: 14px !important;
   border: 0 !important;
   background: color-mix(in srgb, var(--bg-card, #fff) 80%, transparent) !important;
   color: var(--text-main, #1c1917) !important;
@@ -283,7 +286,7 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .sm-subject-ca
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-dropdown summary,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view [data-glance-year] {
   color: var(--text-main, #1c1917) !important;
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-subject-dropdown summary,
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view [data-glance-year] {
@@ -293,7 +296,7 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-
   background: color-mix(in srgb, var(--bg, #f7f3ee) 90%, transparent) !important;
   border: 0 !important;
   color: var(--text-main, #1c1917) !important;
-  border-radius: 12px !important;
+  border-radius: 10px !important;
 }
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-subject-card {
   background: rgba(255,255,255,0.04) !important;
