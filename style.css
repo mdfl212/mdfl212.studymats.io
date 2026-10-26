@@ -13623,6 +13623,9 @@ html[data-course="hub"]:not([data-theme="dark"]) body[data-course="hub"] .dash-h
 }
 
 /* 2. Stat grid → 2×2 on mobile */
+@media (max-width: 900px) {
+  body[data-course="hub"] #studyMatsBrowseView .hub-subjects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 @media (max-width: 660px) {
   body[data-course="hub"] .dash-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -13941,7 +13944,7 @@ body[data-course="hub"] .study-mats-modal-years .hub-pill {
 }
 body[data-course="hub"] #studyMatsBrowseView .hub-subjects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   max-height: min(64dvh, 620px);
   overflow: auto;
