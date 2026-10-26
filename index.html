@@ -10,7 +10,7 @@
       />
       <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
       <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
-      <link rel="stylesheet" href="navigation-redesign.css?v=4" />
+      <link rel="stylesheet" href="navigation-redesign.css?v=5" />
       <script src="theme.js"></script>
         <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#fbf8f5">
@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" href="./assets/studymats-mark.svg">
 </head>
     <body data-course="hub">
-      <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Backup &amp; Restore"><span>⇧</span><span class="sidebar-link-label">Backup &amp; Restore</span></a><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
+      <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Backup & Restore"><span>⇧</span><span class="sidebar-link-label">Backup & Restore</span></a><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
 
       <main class="wrapper" id="top">
 
@@ -126,7 +126,7 @@
             <div class="dash-panel-heading">
               <div>
                 <p class="dash-kicker">YOUR DATA, YOUR DEVICE</p>
-                <h2>Backup &amp; portability</h2>
+                <h2>Backup & portability</h2>
                 <p class="dash-panel-copy">Move your progress between browsers or keep a safe backup.</p>
               </div>
               <span class="dash-data-lock" aria-hidden="true">↔</span>
@@ -194,60 +194,29 @@
 
       <div class="dash-modal-backdrop dash-changelog-backdrop" id="changelogModal" hidden><section class="dash-modal dash-changelog-modal" role="dialog" aria-modal="true" aria-labelledby="changelogModalTitle"><div class="dash-modal-mark">✦</div><p class="dash-kicker">STUDYMATS UPDATES</p><h2 id="changelogModalTitle">What's changed</h2><p class="dash-modal-copy">A running summary of improvements to the study dashboard, quiz, and question-bank tools.</p><div class="dash-changelog-list"><article><small>OCT 2026 · STUDY EXPERIENCE</small><h3>Cleaner dashboard and quiz</h3><ul><li>Daily Study Rhythm spacing simplified by removing the extra momentum label.</li><li>Quiz opens in dark mode by default, with a true-black surface and cleaner, compact question metadata.</li><li>Quiz timer supports custom duration, quick-add time, and a clear time-up state.</li></ul></article><article><small>OCT 2026 · STUDY TOOLS</small><h3>Build and manage question banks</h3><ul><li>Test Bank Builder supports drafting, editing, reusing questions, validating, importing JSON, and exporting a bank without overwriting originals.</li><li>Dashboard progress includes subject-level glance views and saved activity.</li></ul></article><article><small>OCT 2026 · APP ACCESS</small><h3>Install StudyMats</h3><ul><li>Added installable PWA support and a basic offline app shell for supported browsers.</li></ul><p class="dash-changelog-note">Offline access is limited; question data may still need an internet connection.</p></article></div><div class="dash-modal-actions"><button class="dash-button dash-button-primary" type="button" data-close-changelog>Got it</button></div></section></div>
       <div class="dash-modal-backdrop" id="profileModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle"><div class="dash-modal-mark">S</div><p class="dash-kicker">A LITTLE PERSONAL TOUCH</p><h2 id="profileModalTitle">Make this space yours</h2><p class="dash-modal-copy">Add a name for your dashboard. No account needed, and you can skip this.</p><form id="profileForm"><label for="profileName">Preferred name <span>(optional)</span></label><input id="profileName" name="profileName" maxlength="60" autocomplete="given-name" placeholder="What should we call you?"><label class="dash-checkbox-label"><input id="profileShowName" type="checkbox" checked><span>Show my name on the dashboard</span></label><div class="dash-modal-actions"><button class="dash-button" id="profileSkipButton" type="button">Maybe later</button><button class="dash-button dash-button-primary" type="submit">Save preferences</button></div></form></section></div>
-      <div class="dash-modal-backdrop" id="importModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle"><p class="dash-kicker">RESTORE YOUR STUDY DATA</p><h2 id="importModalTitle">Import progress</h2><p class="dash-modal-copy" id="importSummary">Review your backup before applying it.</p><div class="dash-import-warning">Merging keeps current progress and applies imported answers where question IDs match. Replacing removes current subject progress first. Export a backup before replacing.</div><div class="dash-modal-actions dash-import-actions"><button class="dash-button" id="importCancelButton" type="button">Cancel</button><button class="dash-button" id="importMergeButton" type="button">Merge</button><button class="dash-button dash-button-primary" id="importReplaceButton" type="button">Replace</button></div></section></div>
+      <div class="dash-modal-backdrop" id="importModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle"><p class="dash-kicker">RESTORE YOUR STUDY DATA</p><h2 id="importModalTitle">Import progress</h2><p class="dash-modal-copy" id="importSummary">Review your backup before applying it.</p><div class="dash-import-warning">Merging keeps current progress and applies imported answers where question IDs match. Replacing removes current subject progress first. Export a backup before replacing.</div><div class="dash-modal-actions dash-import-actions"><button class="dash-button" id="importCancelButton" type="button">Cancel</button><button class="dash-button" id="importMergeButton" type="button">Merge</button><button class="dash-button dash-button-danger" id="importReplaceButton" type="button">Replace</button></div></section></div>
 
-      <!-- BOTTOM NAV — 4 tabs matching reference image -->
-
+      <!-- MOBILE BOTTOM NAV (legacy; redesign script may supersede) -->
+      <nav class="mobile-bottom-nav mobile-only" aria-label="Mobile navigation">
+        <a href="#top" class="mob-nav-item is-active" data-mobile-home><span aria-hidden="true">⌂</span><small>Home</small></a>
+        <button type="button" class="mob-nav-item" data-mobile-quiz><span aria-hidden="true">▣</span><small>Quiz</small></button>
+        <button type="button" class="mob-nav-item" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal"><span aria-hidden="true">▦</span><small>Subjects</small></button>
+        <a href="#studyDashboard" class="mob-nav-item" data-mobile-progress><span aria-hidden="true">▤</span><small>Progress</small></a>
+      </nav>
 
       <script>
-        document.querySelector(".sidebar-brand-lockup")?.addEventListener("click", (event) => { event.preventDefault(); const collapsed = document.body.classList.toggle("sidebar-collapsed"); const brand = document.querySelector(".sidebar-brand-lockup"); brand?.setAttribute("aria-label", collapsed ? "Expand sidebar" : "Collapse sidebar"); });
-        document.querySelector(".topbar-theme")?.addEventListener("click", () => window.toggleTheme?.());
-        document.querySelector("#dashProfileButtonTop")?.addEventListener("click", () => document.querySelector("#dashProfileButton")?.click());
-        document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter") event.preventDefault(); });
-        document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", (event) => { event.preventDefault(); document.querySelector("[data-open-subject-browser]")?.click(); });
-        document.querySelector('[data-mobile-banks]')?.addEventListener('click', event => { event.preventDefault(); document.querySelector('[data-open-subject-browser]')?.click(); });
-
-        // Progress tab: scroll to subject progress
-        document.querySelector('[data-mobile-progress-tab]')?.addEventListener('click', event => {
-          event.preventDefault();
-          const progress = document.getElementById('subjectProgressDropdown');
-          if (progress) { progress.open = true; progress.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); }
-          // update active nav state
-          document.querySelectorAll('.mobile-nav-item').forEach(i => i.classList.remove('is-current'));
-          event.currentTarget.classList.add('is-current');
-        });
-
-        // Progress anchor link in quick actions
-        document.querySelector('[data-mobile-progress]')?.addEventListener('click', event => {
-          event.preventDefault();
-          const progress = document.getElementById('subjectProgressDropdown');
-          if (progress) { progress.open = true; progress.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); }
-        });
-
-        // More drawer
-        const moreBtn    = document.querySelector('[data-mobile-more]');
-        const moreDrawer = document.getElementById('mobMoreDrawer');
-        const moreBack   = document.getElementById('mobMoreBackdrop');
-        function openMore()  { moreDrawer.hidden = false; moreBack.hidden = false; moreDrawer.setAttribute('aria-hidden','false'); moreBack.setAttribute('aria-hidden','false'); moreBtn?.setAttribute('aria-expanded','true'); document.body.style.overflow = 'hidden'; }
-        function closeMore() { moreDrawer.hidden = true;  moreBack.hidden = true;  moreDrawer.setAttribute('aria-hidden','true');  moreBack.setAttribute('aria-hidden','true');  moreBtn?.setAttribute('aria-expanded','false'); document.body.style.overflow = ''; }
-        moreBtn?.addEventListener('click', () => moreDrawer.hidden ? openMore() : closeMore());
-        moreBack?.addEventListener('click', closeMore);
-        document.getElementById('mobMoreProfile')?.addEventListener('click', () => { closeMore(); document.querySelector('#dashProfileButton')?.click(); });
-        document.getElementById('mobMoreBackup')?.addEventListener('click', closeMore);
-        // Close more drawer if theme or changelog buttons used inside it
-        moreDrawer?.querySelectorAll('[data-theme-toggle],[data-open-changelog]').forEach(btn => btn.addEventListener('click', closeMore));
-        document.addEventListener('keydown', e => { if (e.key === 'Escape' && !moreDrawer?.hidden) closeMore(); });
-
-        // Mob greeting: read name from localStorage (same key dashboard.js uses)
-        (function() {
-          function updateGreeting() {
-            const stored = (() => { try { return JSON.parse(localStorage.getItem('studymats_profile') || '{}'); } catch(e) { return {}; } })();
-            const name = (stored.showName !== false && stored.name) ? stored.name : null;
-            const hour = new Date().getHours();
-            const greeting = hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening';
-            const el = document.getElementById('mobGreetingName');
-            if (el) el.textContent = name ? greeting + ', ' + name : 'Your study space';
-          }
+        (() => {
+          const updateGreeting = () => {
+            try {
+              const raw = localStorage.getItem('studymats-profile-v1');
+              const p = raw ? JSON.parse(raw) : null;
+              const name = p && p.showName !== false && typeof p.name === 'string' ? p.name.trim() : '';
+              const el = document.getElementById('mobGreetingName');
+              if (el) el.textContent = name ? name + "'s study space" : 'Your study space';
+              const dash = document.getElementById('dashGreeting');
+              if (dash) dash.textContent = name ? name + "'s study space" : 'Your study space';
+            } catch {}
+          };
           updateGreeting();
           window.addEventListener('studymats:profilesaved', updateGreeting);
         })();
@@ -278,95 +247,74 @@
           let activeMode = 'exam';
           let catalogPromise = null;
 
-          async function getCatalog() {
-            if (Array.isArray(window.studymatsSubjects) && window.studymatsSubjects.length) return window.studymatsSubjects;
-            if (catalogPromise) return catalogPromise;
-            catalogPromise = fetch(new URL('subjects.json', document.baseURI)).then(response => {
-              if (!response.ok) throw new Error('Unable to load the subject list.');
-              return response.json();
-            }).then(subjects => {
-              window.studymatsSubjects = subjects;
-              return subjects;
-            }).catch(error => {
-              catalogPromise = null;
-              throw error;
-            });
-            return catalogPromise;
-          }
-
-          async function populateQuizSubjects() {
-            subjectSelect.innerHTML = '<option value="">Loading subjects…</option>';
-            launchStatus.textContent = '';
-            try {
-              const subjects = await getCatalog();
-              const levels = ['YL1', 'YL2', 'YL3', 'YL4'];
-              subjectSelect.innerHTML = levels.map(level => {
-                const options = subjects.filter(subject => subject.yearLevel === level);
-                return options.length ? '<optgroup label="' + level + '">' + options.map(subject =>
-                  '<option value="' + String(subject.id).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;') + '">' +
-                  String(subject.icon || '📚') + ' ' + String(subject.name).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</option>'
-                ).join('') + '</optgroup>' : '';
-              }).join('');
-              if (!subjectSelect.options.length) throw new Error('No subjects are available.');
-              subjectSelect.value = subjects[0]?.id || '';
-            } catch (error) {
-              subjectSelect.innerHTML = '<option value="">Subjects unavailable</option>';
-              launchStatus.textContent = error.message + ' Check your connection and retry.';
-              const retry = document.createElement('button');
-              retry.type = 'button';
-              retry.className = 'study-mats-retry';
-              retry.textContent = 'Retry loading subjects';
-              retry.addEventListener('click', () => { catalogPromise = null; populateQuizSubjects(); });
-              launchStatus.appendChild(document.createTextNode(' '));
-              launchStatus.appendChild(retry);
-            }
-          }
-
-          function openModal(view, trigger) {
-            opener = trigger || document.activeElement;
-            const isQuiz = view === 'quiz';
-            browseView.hidden = isQuiz;
-            quizView.hidden = !isQuiz;
-            title.textContent = isQuiz ? 'Start a quiz' : 'Browse test banks';
-            eyebrow.textContent = isQuiz ? 'STUDYMATS QUIZ LAUNCHER' : 'STUDYMATS SUBJECT LIBRARY';
-            description.textContent = isQuiz ? 'Choose a subject and how you want to study.' : 'Choose a year level to explore subjects and question banks.';
-            modal.hidden = false;
-            modal.setAttribute('aria-hidden', 'false');
-            document.body.classList.add('study-mats-action-open');
-            previousOverflow = document.body.style.overflow;
-            document.body.style.overflow = 'hidden';
-            if (isQuiz) {
-              populateQuizSubjects().then(() => subjectSelect.focus());
-            } else {
-              dialog.focus();
-            }
-          }
-
-          function closeModal() {
-            if (modal.hidden) return;
+          const closeModal = () => {
             modal.hidden = true;
             modal.setAttribute('aria-hidden', 'true');
-            document.body.classList.remove('study-mats-action-open');
             document.body.style.overflow = previousOverflow;
             if (opener && typeof opener.focus === 'function') opener.focus();
-          }
+          };
 
-          document.querySelector('[data-open-subject-browser]')?.addEventListener('click', event => openModal('browse', event.currentTarget));
-          document.querySelector('[data-mobile-quiz]')?.addEventListener('click', event => openModal('quiz', event.currentTarget));
-          document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]')?.addEventListener('click', event => { event.preventDefault(); openModal('quiz', event.currentTarget); });
-          document.querySelector('[data-mobile-search]')?.addEventListener('click', () => {
-            const searchInput = document.getElementById('dashboardSearch');
-            if (searchInput) searchInput.click();
-            else document.getElementById('questionSearchInput')?.focus();
-          });
-          document.querySelectorAll('.wrapper > .hub-year-row .hub-pill').forEach(button => {
-            button.addEventListener('click', () => openModal('browse', button));
+          const openModal = (mode) => {
+            previousOverflow = document.body.style.overflow;
+            document.body.style.overflow = 'hidden';
+            modal.hidden = false;
+            modal.setAttribute('aria-hidden', 'false');
+            opener = document.activeElement;
+            if (mode === 'quiz') {
+              browseView.hidden = true;
+              quizView.hidden = false;
+              eyebrow.textContent = 'START A QUIZ';
+              title.textContent = 'Choose subject and mode';
+              description.textContent = 'Pick a subject and how you want to practice.';
+              startButton.disabled = false;
+              startButton.textContent = 'Start Quiz →';
+              launchStatus.textContent = '';
+              loadCatalog();
+            } else {
+              browseView.hidden = false;
+              quizView.hidden = true;
+              eyebrow.textContent = 'STUDYMATS SUBJECT LIBRARY';
+              title.textContent = 'Browse test banks';
+              description.textContent = 'Choose a year level to explore subjects and question banks.';
+            }
+            closeButton.focus();
+          };
+
+          const loadCatalog = () => {
+            if (catalogPromise) return catalogPromise;
+            catalogPromise = fetch('subjects.json', { cache: 'no-cache' })
+              .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+              .then(list => {
+                subjectSelect.innerHTML = '<option value="">Select a subject…</option>';
+                (list || []).forEach(s => {
+                  const opt = document.createElement('option');
+                  opt.value = s.id;
+                  opt.textContent = s.name || s.id;
+                  subjectSelect.appendChild(opt);
+                });
+              })
+              .catch(err => {
+                subjectSelect.innerHTML = '<option value="">Could not load subjects</option>';
+                launchStatus.textContent = 'Subjects failed to load. Check your connection.';
+                console.warn(err);
+              });
+            return catalogPromise;
+          };
+
+          document.querySelectorAll('[data-open-subject-browser], [data-sidebar-subjects], [data-mobile-quiz]').forEach(el => {
+            el.addEventListener('click', e => {
+              e.preventDefault();
+              if (el.matches('[data-mobile-quiz]')) openModal('quiz');
+              else openModal('browse');
+            });
           });
 
-          document.querySelectorAll('[data-launch-mode]').forEach(button => button.addEventListener('click', () => {
-            activeMode = button.dataset.launchMode;
-            document.querySelectorAll('[data-launch-mode]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-          }));
+          quizView?.querySelectorAll('[data-launch-mode]').forEach(btn => {
+            btn.addEventListener('click', () => {
+              activeMode = btn.getAttribute('data-launch-mode') || 'exam';
+              quizView.querySelectorAll('[data-launch-mode]').forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
+            });
+          });
 
           startButton?.addEventListener('click', () => {
             if (!subjectSelect.value) {
@@ -413,7 +361,7 @@
     });
   }
 </script>
-  <script src="./navigation-redesign.js?v=4"></script>
+  <script src="./navigation-redesign.js?v=5"></script>
   <script src="./offline-status.js"></script>
 </body>
 </html>
