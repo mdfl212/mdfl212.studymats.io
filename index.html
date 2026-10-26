@@ -61,6 +61,15 @@
           </div>
         </header>
 
+        <!-- DESKTOP: browse test banks section toggle -->
+        <section class="section-wrapper hub-year-dropdown" aria-label="Main hub">
+          <button class="section-toggle" type="button" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal">
+            <span class="hub-year-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 5.5c3.7-1.2 6.8-.5 8.5 1.2v12c-1.7-1.7-4.8-2.4-8.5-1.2z"/><path d="M20.5 5.5c-3.7-1.2-6.8-.5-8.5 1.2v12c1.7-1.7 4.8-2.4 8.5-1.2z"/><path d="M12 7v12"/></svg></span>
+            <span class="hub-year-summary-copy"><span class="hub-year-title">Browse test banks</span><span class="hub-year-subtext">Choose a year level to explore subjects, question banks, and review resources.</span></span>
+            <span class="toggle-icon" aria-hidden="true">↗</span>
+          </button>
+        </section>
+
         <div class="hub-year-row" role="tablist" aria-label="Year level selection">
           <button class="hub-pill active" type="button" data-year="YL1" aria-pressed="true">YL1</button>
           <button class="hub-pill" type="button" data-year="YL2" aria-pressed="false">YL2</button>
@@ -72,7 +81,7 @@
         <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
           <aside class="dash-whats-new" id="whatsNewNotice" aria-labelledby="whatsNewTitle" hidden><div class="dash-whats-new-copy"><span class="dash-whats-new-icon" aria-hidden="true">✦</span><div><h2 id="whatsNewTitle">What's changed</h2><p>StudyMats has a few useful updates. <button type="button" class="dash-whats-new-link" data-open-changelog>See the highlights</button></p></div></div><button type="button" class="dash-whats-new-close" data-dismiss-whats-new aria-label="Dismiss this update">×</button></aside>
 
-          <!-- DESKTOP welcome + stats (hidden on mobile; mob-greeting-card replaces it) -->
+          <!-- Shared dashboard welcome and statistics -->
           <div class="dash-welcome">
             <div>
               <p class="dash-kicker">YOUR LEARNING OVERVIEW</p>
@@ -85,7 +94,7 @@
             </div>
           </div>
 
-          <!-- Desktop stat cards rendered here by dashboard.js; mobile uses #dashStats in mob-greeting-card -->
+          <!-- Dashboard statistics are rendered by dashboard.js. -->
           <div id="dashDonuts" hidden aria-hidden="true"></div>
 
           <!-- YOUR SUBJECTS — mobile gets a custom header row with "View All" -->
@@ -100,8 +109,6 @@
                 <span class="dash-subject-chevron" aria-hidden="true">⌄</span>
               </span>
             </summary>
-            <!-- Mobile "View All" link injected by CSS / shown only on mobile -->
-            <a class="mob-view-all mobile-only" href="#" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal">View All</a>
             <div class="dash-subject-list" id="dashSubjectList"></div>
           </details>
 
@@ -207,52 +214,6 @@
         document.querySelector("#dashProfileButtonTop")?.addEventListener("click", () => document.querySelector("#dashProfileButton")?.click());
         document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter") event.preventDefault(); });
         document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", (event) => { event.preventDefault(); document.querySelector("[data-open-subject-browser]")?.click(); });
-        document.querySelector('[data-mobile-banks]')?.addEventListener('click', event => { event.preventDefault(); document.querySelector('[data-open-subject-browser]')?.click(); });
-
-        // Progress tab: scroll to subject progress
-        document.querySelector('[data-mobile-progress-tab]')?.addEventListener('click', event => {
-          event.preventDefault();
-          const progress = document.getElementById('subjectProgressDropdown');
-          if (progress) { progress.open = true; progress.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); }
-          // update active nav state
-          document.querySelectorAll('.mobile-nav-item').forEach(i => i.classList.remove('is-current'));
-          event.currentTarget.classList.add('is-current');
-        });
-
-        // Progress anchor link in quick actions
-        document.querySelector('[data-mobile-progress]')?.addEventListener('click', event => {
-          event.preventDefault();
-          const progress = document.getElementById('subjectProgressDropdown');
-          if (progress) { progress.open = true; progress.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); }
-        });
-
-        // More drawer
-        const moreBtn    = document.querySelector('[data-mobile-more]');
-        const moreDrawer = document.getElementById('mobMoreDrawer');
-        const moreBack   = document.getElementById('mobMoreBackdrop');
-        function openMore()  { moreDrawer.hidden = false; moreBack.hidden = false; moreDrawer.setAttribute('aria-hidden','false'); moreBack.setAttribute('aria-hidden','false'); moreBtn?.setAttribute('aria-expanded','true'); document.body.style.overflow = 'hidden'; }
-        function closeMore() { moreDrawer.hidden = true;  moreBack.hidden = true;  moreDrawer.setAttribute('aria-hidden','true');  moreBack.setAttribute('aria-hidden','true');  moreBtn?.setAttribute('aria-expanded','false'); document.body.style.overflow = ''; }
-        moreBtn?.addEventListener('click', () => moreDrawer.hidden ? openMore() : closeMore());
-        moreBack?.addEventListener('click', closeMore);
-        document.getElementById('mobMoreProfile')?.addEventListener('click', () => { closeMore(); document.querySelector('#dashProfileButton')?.click(); });
-        document.getElementById('mobMoreBackup')?.addEventListener('click', closeMore);
-        // Close more drawer if theme or changelog buttons used inside it
-        moreDrawer?.querySelectorAll('[data-theme-toggle],[data-open-changelog]').forEach(btn => btn.addEventListener('click', closeMore));
-        document.addEventListener('keydown', e => { if (e.key === 'Escape' && !moreDrawer?.hidden) closeMore(); });
-
-        // Mob greeting: read name from localStorage (same key dashboard.js uses)
-        (function() {
-          function updateGreeting() {
-            const stored = (() => { try { return JSON.parse(localStorage.getItem('studymats_profile') || '{}'); } catch(e) { return {}; } })();
-            const name = (stored.showName !== false && stored.name) ? stored.name : null;
-            const hour = new Date().getHours();
-            const greeting = hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening';
-            const el = document.getElementById('mobGreetingName');
-            if (el) el.textContent = name ? greeting + ', ' + name : 'Your study space';
-          }
-          updateGreeting();
-          window.addEventListener('studymats:profilesaved', updateGreeting);
-        })();
       </script>
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
@@ -353,13 +314,7 @@
           }
 
           document.querySelector('[data-open-subject-browser]')?.addEventListener('click', event => openModal('browse', event.currentTarget));
-          document.querySelector('[data-mobile-quiz]')?.addEventListener('click', event => openModal('quiz', event.currentTarget));
           document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]')?.addEventListener('click', event => { event.preventDefault(); openModal('quiz', event.currentTarget); });
-          document.querySelector('[data-mobile-search]')?.addEventListener('click', () => {
-            const searchInput = document.getElementById('dashboardSearch');
-            if (searchInput) searchInput.click();
-            else document.getElementById('questionSearchInput')?.focus();
-          });
           document.querySelectorAll('.wrapper > .hub-year-row .hub-pill').forEach(button => {
             button.addEventListener('click', () => openModal('browse', button));
           });
