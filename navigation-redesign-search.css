@@ -1,11 +1,36 @@
-/* Compact search trigger + animated popup (no full-width topbar search) */
+/* Compact search trigger + Find-a-question popup (blur, not full-screen) */
 
-/* Hide the old full-width search field in the topbar */
 html[data-course="hub"] body.sm-redesign-active .sm-nav-search {
   display: none !important;
 }
 
-/* Circular trigger button */
+/* Topbar: brand left, controls right */
+html[data-course="hub"] body.sm-redesign-active .sm-topbar {
+  min-height: 0;
+  padding-top: max(8px, env(safe-area-inset-top, 0px));
+  padding-bottom: 8px;
+  gap: 8px;
+  justify-content: space-between;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-icon-btn {
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-avatar {
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+}
+
+/* Circular search trigger */
 .sm-search-trigger {
   width: 36px;
   height: 36px;
@@ -26,118 +51,87 @@ html[data-course="hub"] body.sm-redesign-active .sm-nav-search {
   flex: 0 0 auto;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
-  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
-.sm-search-trigger:active {
-  transform: scale(0.92);
+html[data-theme="dark"] .sm-search-trigger {
+  background: var(--bg-card, #1c1917);
+  border-color: var(--border, #3f3a36);
+  color: var(--text-main, #f5f5f4);
 }
+.sm-search-trigger:active { transform: scale(0.92); }
 .sm-search-trigger[aria-expanded="true"] {
   border-color: var(--accent, #1f6b4a);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent, #1f6b4a) 22%, transparent);
 }
 
-/* Topbar stays compact */
-html[data-course="hub"] body.sm-redesign-active .sm-topbar {
-  min-height: 0;
-  padding-top: max(8px, env(safe-area-inset-top, 0px));
-  padding-bottom: 8px;
-  gap: 8px;
-}
-html[data-course="hub"] body.sm-redesign-active .sm-icon-btn {
-  width: 36px;
-  height: 36px;
-  font-size: 16px;
-}
-html[data-course="hub"] body.sm-redesign-active .sm-nav-avatar {
-  width: 30px;
-  height: 30px;
-  font-size: 12px;
-}
+/* Hide the intermediate mini search popup if present */
+.sm-search-popup { display: none !important; }
 
-/* Popup backdrop + panel */
-.sm-search-popup {
-  position: fixed;
-  inset: 0;
-  z-index: 70;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: max(12px, env(safe-area-inset-top, 0px)) 14px 20px;
-  background: rgba(20, 16, 12, 0);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: background 0.22s ease, opacity 0.22s ease, visibility 0.22s ease;
+/* Find-a-question modal: popup with blur, not edge-to-edge full screen on phone */
+html[data-course="hub"] body.sm-redesign-active .question-search-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 10000 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: max(12px, env(safe-area-inset-top, 0px)) 12px max(16px, env(safe-area-inset-bottom, 0px)) !important;
+  background: rgba(20, 16, 12, 0.38) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
 }
-.sm-search-popup.is-open {
-  background: rgba(20, 16, 12, 0.42);
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+html[data-course="hub"] body.sm-redesign-active .question-search-modal[hidden] {
+  display: none !important;
 }
-.sm-search-popup-panel {
-  width: min(100%, 420px);
-  margin-top: 12px;
-  padding: 12px;
-  border-radius: 16px;
-  background: var(--bg-card, #fff);
-  border: 1px solid var(--border, #e6e0d9);
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
-  transform: translateY(-12px) scale(0.96);
-  opacity: 0;
-  transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.24s ease;
+html[data-course="hub"] body.sm-redesign-active .question-search-modal .question-search-backdrop {
+  position: absolute !important;
+  inset: 0 !important;
+  background: transparent !important;
 }
-.sm-search-popup.is-open .sm-search-popup-panel {
-  transform: translateY(0) scale(1);
-  opacity: 1;
+html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
+  position: relative !important;
+  z-index: 1 !important;
+  width: min(100%, 440px) !important;
+  max-height: min(82dvh, 720px) !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.28) !important;
+  animation: smSearchPopIn 0.26s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.sm-search-popup-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+@keyframes smSearchPopIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
-.sm-search-popup-row > span {
-  flex: 0 0 auto;
-  font-size: 16px;
-  opacity: 0.55;
-  line-height: 1;
-}
-.sm-search-popup-row input {
-  flex: 1 1 auto;
-  min-width: 0;
-  height: 44px;
-  padding: 0 12px;
-  border: 1px solid var(--border, #e6e0d9);
-  border-radius: 12px;
-  background: var(--bg, #f7f3ee);
-  color: var(--text-main, #1c1917);
-  font-size: 16px;
-  outline: none;
-}
-.sm-search-popup-row input:focus {
-  border-color: color-mix(in srgb, var(--accent, #1f6b4a) 50%, var(--border));
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent, #1f6b4a) 18%, transparent);
-}
-.sm-search-popup-close {
-  flex: 0 0 auto;
-  width: 40px;
-  height: 40px;
-  border: 0;
-  border-radius: 50%;
-  background: var(--bg, #f7f3ee);
-  color: var(--text-main, #1c1917);
-  font-size: 20px;
-  line-height: 1;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .sm-search-popup,
-  .sm-search-popup-panel,
-  .sm-search-trigger {
-    transition: none !important;
+  html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
+    animation: none !important;
   }
+}
+
+/* On very tall phones keep it a card, not a sheet glued to edges */
+@media (max-width: 767px) {
+  html[data-course="hub"] body.sm-redesign-active .question-search-modal {
+    align-items: center !important;
+    padding: max(10px, env(safe-area-inset-top, 0px)) 10px max(12px, env(safe-area-inset-bottom, 0px)) !important;
+  }
+  html[data-course="hub"] body.sm-redesign-active .question-search-dialog {
+    width: min(100%, 100%) !important;
+    max-height: min(85dvh, 780px) !important;
+    border-radius: 16px !important;
+  }
+  html[data-course="hub"] body.sm-redesign-active .qs-body {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: minmax(120px, 28dvh) minmax(0, 1fr) !important;
+  }
+}
+
+/* Dark mode support for redesign chrome */
+html[data-theme="dark"] body.sm-redesign-active .sm-topbar,
+html[data-theme="dark"] body.sm-redesign-active .sm-bottom-nav {
+  background: color-mix(in srgb, var(--bg, #111318) 92%, transparent);
+  border-color: var(--border, #3f3a36);
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-icon-btn,
+html[data-theme="dark"] body.sm-redesign-active .sm-nav-brand {
+  color: var(--text-main, #f5f5f4);
 }
