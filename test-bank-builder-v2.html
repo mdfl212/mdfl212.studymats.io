@@ -381,6 +381,12 @@ body.sm-embedded-builder .top-actions {
   max-width: 100%;
 }
 @media (max-width: 760px) {
+  /* Scale the embedded workspace slightly while compensating its layout width,
+     so the visual result stays inside the iframe rather than causing sideways scroll. */
+  body.sm-embedded-builder .app {
+    width: 111.111%;
+    zoom: 0.9;
+  }
   body.sm-embedded-builder .welcome-art {
     grid-template-columns: minmax(0, 1fr);
     gap: 18px;
