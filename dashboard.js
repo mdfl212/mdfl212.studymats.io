@@ -11,7 +11,7 @@ const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{re
 const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
 const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
 const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
-let subjects=[], dataBySubject=new Map(), failedSubjects=new Map(), range=180, selectedYear='YL1';
+let subjects=[], dataBySubject=new Map(), failedSubjects=new Map(), range=365, selectedYear='YL1';
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
@@ -122,7 +122,7 @@ function render(){
  else if(loadMessage&&loadMessage.classList.contains('is-error')&&loadMessage.textContent.includes('question banks could not be loaded')){loadMessage.textContent='';loadMessage.classList.remove('is-error')}
  const subjectCount=document.querySelector('.dash-subject-count');if(subjectCount)subjectCount.textContent=selectedYear==='resources'?'Additional resources':selectedYear+' subjects';
  const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>total questions</span></div>';
- $('dashActivityCaption').textContent='Showing '+(range===30?'the last 30 days':range===180?'the last 6 months':'the last 12 months')+'. Daily history begins when tracking is enabled; older activity is not guessed.';
+ $('dashActivityCaption').textContent='Showing the last year. Daily history begins when tracking is enabled; older activity is not guessed.';
 }
 function exportBackup(){
  const payload={app:'StudyMats',formatVersion:1,exportedAt:new Date().toISOString(),profile:profile(),progress:records().map(x=>({subjectId:x.id,data:x.data})),activity:activity()};
@@ -174,7 +174,6 @@ document.addEventListener('DOMContentLoaded',()=>{
  document.querySelectorAll('[data-close-changelog]').forEach(b=>b.addEventListener('click',closeChangelog));
  changelog?.addEventListener('click',e=>{if(e.target===changelog)closeChangelog()});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&changelog&&!changelog.hidden)closeChangelog()});
- document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||180;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
  document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render();const bankBrowser=document.querySelector('.hub-year-dropdown');if(bankBrowser)bankBrowser.open=true;}));
  document.querySelectorAll('.hub-year-dropdown summary').forEach(summary=>summary.setAttribute('aria-label','Open or close test banks'));
  render();load().catch(e=>{console.error('StudyMats dashboard load failed:',e);const message=$('dashDataMessage');if(message){message.textContent='Some dashboard data could not load. Your saved quiz data is untouched.';message.classList.add('is-error')}render()});
