@@ -100,3 +100,25 @@ html[data-course="hub"] body.sm-redesign-active[data-sm-layout="wide"] .sm-nav-p
     transition: none !important;
   }
 }
+
+/* Keep the redesigned Home/welcome content centered as browser zoom changes.
+   This final layout guard prevents legacy desktop offsets or responsive width
+   overrides from pulling the home column away from the viewport center. */
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] main.wrapper,
+html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) main.wrapper {
+  box-sizing: border-box !important;
+  width: min(100%, 1100px) !important;
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] .sm-welcome,
+html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) .sm-welcome {
+  box-sizing: border-box;
+  width: min(100%, 420px);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
