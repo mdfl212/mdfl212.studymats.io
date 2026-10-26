@@ -14,13 +14,13 @@
  const profile=()=>safeParse(localStorage.getItem(PROFILE_KEY),{});
  function init(){
   if(!$('studyDashboard')||document.querySelector('.sm-global-nav'))return;
-  const body=document.body, wrapper=document.querySelector('main.wrapper'), oldTop=$('.app-topbar');
+  const body=document.body, wrapper=document.querySelector('main.wrapper'), oldTop=document.querySelector('.app-topbar');
   if(!wrapper||!oldTop)return;
   const sidebar=document.querySelector('.desktop-sidebar');
   const links=sidebar?[...sidebar.querySelectorAll('.sidebar-link')]:[];
   const builderLink=links.find(a=>a.textContent.includes('Test Bank Builder'));
   const nav=document.createElement('nav');nav.className='sm-global-nav';nav.setAttribute('aria-label','Main navigation');
-  nav.innerHTML='<a class="sm-nav-brand" href="#home" aria-label="StudyMats home"><img src="assets/studymats-mark.svg" alt=""><span>StudyMats</span></a><div class="sm-nav-links"><button class="sm-nav-link" type="button" data-sm-nav="quiz">Quiz</button><button class="sm-nav-link" type="button" data-sm-nav="builder">Test Bank Builder</button><button class="sm-nav-link" type="button" data-sm-nav="browse">Browse Test Banks</button><button class="sm-nav-link" type="button" data-sm-nav="progress">Study Progress</button></div><label class="sm-nav-search"><span aria-hidden="true">⌕</span><input id="smSearchInput" type="search" placeholder="Search questions or topics…" aria-label="Search questions or topics"><kbd>⌘ K</kbd></label><div class="sm-nav-actions"><button class="sm-nav-profile" id="smProfileButton" type="button" aria-expanded="false" aria-haspopup="true"><span class="sm-nav-avatar" id="smProfileAvatar">S</span><span class="sm-profile-name" id="smProfileName">Profile</span><span aria-hidden="true">⌄</span></button><section class="sm-profile-menu" id="smProfileMenu" hidden aria-label="Profile menu"><h3>Profile</h3><button type="button" class="sm-menu-action" id="smEditName">Edit name</button><button type="button" class="sm-menu-action" data-sm-changelog>What&#39;s Changed</button><div class="sm-menu-divider"></div><h3>Backup &amp; Portability</h3><div id="smBackupHost" class="sm-backup-host"></div></section></div>';
+  nav.innerHTML='<a class="sm-nav-brand" href="#home" aria-label="StudyMats home"><img src="assets/studymats-mark.svg" alt=""><span>StudyMats</span></a><div class="sm-nav-links"><button class="sm-nav-link" type="button" data-sm-nav="quiz">Quiz</button><button class="sm-nav-link" type="button" data-sm-nav="builder">Test Bank Builder</button><button class="sm-nav-link" type="button" data-sm-nav="browse">Browse Test Banks</button><button class="sm-nav-link" type="button" data-sm-nav="progress">Study Progress</button></div><label class="sm-nav-search"><span aria-hidden="true">⌕</span><input id="smSearchInput" type="search" placeholder="Search questions or topics…" aria-label="Search questions or topics"><kbd>⌘ K</kbd></label><div class="sm-nav-actions"><button class="sm-nav-profile" id="smProfileButton" type="button" aria-expanded="false" aria-haspopup="true"><span class="sm-nav-avatar" id="smProfileAvatar">S</span><span class="sm-profile-name" id="smProfileName">Profile</span><span aria-hidden="true">⌄</span></button><section class="sm-profile-menu" id="smProfileMenu" hidden aria-label="Profile menu"><h3>Profile</h3><button type="button" class="sm-menu-action" id="smEditName">Edit name</button><button type="button" class="sm-menu-action" data-sm-changelog>What&#39;s Changed</button><div class="sm-menu-divider"></div><h3>Backup & Portability</h3><div id="smBackupHost" class="sm-backup-host"></div></section></div>';
   document.body.insertBefore(nav,wrapper);
   const oldSearch=$('dashboardSearch');
   const searchInput=$('smSearchInput');
@@ -127,7 +127,7 @@
    eligible.sort((a,b)=>{const av=Number(a[metric]),bv=Number(b[metric]);return bv-av||a.name.localeCompare(b.name)});
    $('smRankingTitle').textContent='Top subjects · '+labels[metric];
    const top=eligible.slice(0,10);
-   $('smRankingContent').innerHTML=top.length?'<ol class="sm-ranking-list">'+top.map(s=>'<li><span>'+s.name.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))+'</span><strong>'+((metric==='accuracy'||metric==='progress')?s[metric]+'%':s[metric].toLocaleString())+'</strong></li>').join('')+'</ol>':'<p class="sm-empty">There is not enough saved data to rank subjects for this metric yet.</p>';
+   $('smRankingContent').innerHTML=top.length?'<ol class="sm-ranking-list">'+top.map(s=>'<li><span>'+s.name.replace(/[&<>]/g,c=>({'&':'&','<':'<','>':'>'}[c]))+'</span><strong>'+((metric==='accuracy'||metric==='progress')?s[metric]+'%':s[metric].toLocaleString())+'</strong></li>').join('')+'</ol>':'<p class="sm-empty">There is not enough saved data to rank subjects for this metric yet.</p>';
    showModal();
   }));
   const changelog=$('changelogModal');
