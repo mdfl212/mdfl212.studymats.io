@@ -131,7 +131,7 @@ body[data-course="hub"] .study-mats-mode-picker button small {
   display: none !important;
 }
 
-/* ===== Home / welcome polish ===== */
+/* Home / welcome polish */
 html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] main.wrapper,
 html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) main.wrapper {
   padding-left: 18px !important;
@@ -214,4 +214,21 @@ html[data-theme="dark"] body.sm-redesign-active .sm-primary-action:not(.primary)
 html[data-theme="dark"] body.sm-redesign-active .sm-streak {
   background: rgba(255,255,255,0.06) !important;
   color: var(--text-muted, #a8a29e) !important;
+}
+
+/* Bottom nav: extra top padding so icons clear the top border line */
+html[data-course="hub"] body.sm-redesign-active .sm-bottom-nav {
+  padding-top: 10px !important;
+  padding-bottom: max(8px, env(safe-area-inset-bottom, 0px)) !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-tab {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  gap: 3px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-tab-icon {
+  line-height: 1.2 !important;
+  display: block !important;
 }
