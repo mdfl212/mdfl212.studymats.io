@@ -27,6 +27,7 @@
   if(oldSearch){
    searchInput.value=oldSearch.value;
    searchInput.addEventListener('input',()=>{oldSearch.value=searchInput.value;oldSearch.dispatchEvent(new Event('input',{bubbles:true}));});
+   searchInput.addEventListener('click',()=>oldSearch.click());
    searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();oldSearch.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}));}});
 
   }
@@ -55,7 +56,7 @@
   $('smWelcomePrompt').textContent=greet;
   const views=document.createElement('div');views.id='smAppViews';
   const progress=document.createElement('section');progress.className='sm-page sm-progress-view sm-view';progress.id='smProgressView';progress.hidden=true;progress.innerHTML='<h1 class="sm-view-title">Study Progress</h1>';
-  const builder=document.createElement('section');builder.className='sm-builder-view sm-view';builder.id='smBuilderView';builder.hidden=true;builder.innerHTML='<iframe id="smBuilderFrame" title="StudyMats Test Bank Builder" src="test-bank-builder-v2.html"></iframe>';
+  const builder=document.createElement('section');builder.className='sm-builder-view sm-view';builder.id='smBuilderView';builder.hidden=true;builder.innerHTML='<div class="sm-builder-toolbar"><button type="button" class="sm-primary-action" id="smBuilderHome">← Back to welcome</button><span>Test Bank Builder</span></div><iframe id="smBuilderFrame" title="StudyMats Test Bank Builder" src="test-bank-builder-v2.html"></iframe>';
   const metricGrid=document.createElement('section');metricGrid.className='sm-metric-grid';metricGrid.setAttribute('aria-label','Study metrics');metricGrid.innerHTML='<button class="sm-metric-tile" type="button" data-sm-metric="answered"><span>Questions answered</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="accuracy"><span>Answer accuracy</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="completed"><span>Questions completed</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="progress"><span>Average subject progress</span><strong>—</strong></button>';
   const oldWelcome=dashboard.querySelector('.dash-welcome');
   if(oldWelcome)oldWelcome.hidden=true;
@@ -85,6 +86,7 @@
   nav.querySelector('[data-sm-nav="browse"]').addEventListener('click',()=>{const trigger=$('[data-open-subject-browser]')||document.querySelector('[data-sidebar-subjects]');if(trigger)trigger.click();});
   nav.querySelector('[data-sm-nav="progress"]').addEventListener('click',()=>setView('progress'));
   nav.querySelector('[data-sm-nav="builder"]').addEventListener('click',()=>setView('builder'));
+  $('smBuilderHome').addEventListener('click',()=>setView('home'));
   nav.querySelector('.sm-nav-brand').addEventListener('click',e=>{e.preventDefault();setView('home')});
   $('smStartQuiz').addEventListener('click',()=>nav.querySelector('[data-sm-nav="quiz"]').click());
   $('smCheckProgress').addEventListener('click',()=>setView('progress'));
