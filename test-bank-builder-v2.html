@@ -343,23 +343,58 @@ a{color:var(--accent)}
 
 
 /* Embedded StudyMats shell integration */
+html, body { max-width: 100%; }
+body { overflow-x: clip; }
 body.sm-embedded-builder .topbar { display: none !important; }
 body.sm-embedded-builder .app {
-  width: 125%;
-  zoom: 0.8;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 body.sm-embedded-builder .shell {
-  padding-top: 28px;
-  padding-bottom: calc(28px + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: 24px clamp(16px, 4vw, 48px) calc(28px + env(safe-area-inset-bottom));
 }
-body.sm-embedded-builder .screen.active { animation: none; }
-@supports not (zoom: 1) {
-  body.sm-embedded-builder .app {
-    width: 125%;
-    transform: scale(.8);
-    transform-origin: top left;
+body.sm-embedded-builder .screen,
+body.sm-embedded-builder .screen.active,
+body.sm-embedded-builder .screen-narrow {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+}
+body.sm-embedded-builder .hero-title,
+body.sm-embedded-builder .hero-copy {
+  overflow-wrap: anywhere;
+}
+body.sm-embedded-builder .welcome-art {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, .75fr);
+  min-width: 0;
+}
+body.sm-embedded-builder .welcome-art > * { min-width: 0; }
+body.sm-embedded-builder .welcome-actions,
+body.sm-embedded-builder .welcome-actions > *,
+body.sm-embedded-builder .top-actions {
+  min-width: 0;
+  max-width: 100%;
+}
+@media (max-width: 760px) {
+  body.sm-embedded-builder .welcome-art {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+    padding: 20px;
+  }
+  body.sm-embedded-builder .hero-title {
+    font-size: clamp(32px, 9vw, 44px);
+    line-height: 1.1;
+  }
+  body.sm-embedded-builder .welcome-art > * {
+    width: 100%;
   }
 }
+body.sm-embedded-builder .screen.active { animation: none; }
 </style>
 </head>
 <body>
