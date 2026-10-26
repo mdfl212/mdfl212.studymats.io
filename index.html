@@ -10,7 +10,7 @@
       />
       <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
       <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
-      <link rel="stylesheet" href="navigation-redesign.css?v=5" />
+      <link rel="stylesheet" href="navigation-redesign.css?v=6" />
       <script src="theme.js"></script>
         <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#fbf8f5">
@@ -20,11 +20,9 @@
     <link rel="apple-touch-icon" href="./assets/studymats-mark.svg">
 </head>
     <body data-course="hub">
-      <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Backup & Restore"><span>⇧</span><span class="sidebar-link-label">Backup & Restore</span></a><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
+      <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Backup &amp; Restore"><span>⇧</span><span class="sidebar-link-label">Backup &amp; Restore</span></a><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
 
       <main class="wrapper" id="top">
-
-        <!-- TOPBAR: shown on both mobile and desktop (desktop-sidebar hides on mobile) -->
         <div class="app-topbar">
           <label class="topbar-search">
             <span>⌕</span>
@@ -39,7 +37,6 @@
           </button>
         </div>
 
-        <!-- DESKTOP-ONLY: theme toggle pill and large header -->
         <div class="theme-toggle-wrapper">
           <button class="theme-toggle" data-theme-toggle type="button">
             <span data-theme-icon aria-hidden="true">🌙</span>
@@ -69,7 +66,6 @@
         <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
           <aside class="dash-whats-new" id="whatsNewNotice" aria-labelledby="whatsNewTitle" hidden><div class="dash-whats-new-copy"><span class="dash-whats-new-icon" aria-hidden="true">✦</span><div><h2 id="whatsNewTitle">What's changed</h2><p>StudyMats has a few useful updates. <button type="button" class="dash-whats-new-link" data-open-changelog>See the highlights</button></p></div></div><button type="button" class="dash-whats-new-close" data-dismiss-whats-new aria-label="Dismiss this update">×</button></aside>
 
-          <!-- DESKTOP welcome + stats (hidden on mobile; mob-greeting-card replaces it) -->
           <div class="dash-welcome">
             <div>
               <p class="dash-kicker">YOUR LEARNING OVERVIEW</p>
@@ -82,11 +78,9 @@
             </div>
           </div>
 
-          <!-- Desktop stat cards rendered here by dashboard.js; mobile uses #dashStats in mob-greeting-card -->
           <div id="dashStats" class="dash-stats"></div>
           <div id="dashDonuts" hidden aria-hidden="true"></div>
 
-          <!-- YOUR SUBJECTS — mobile gets a custom header row with "View All" -->
           <details class="dash-panel dash-subject-dropdown" id="subjectProgressDropdown" open>
             <summary class="dash-panel-heading dash-subject-summary">
               <div>
@@ -98,7 +92,6 @@
                 <span class="dash-subject-chevron" aria-hidden="true">⌄</span>
               </span>
             </summary>
-            <!-- Mobile "View All" link injected by CSS / shown only on mobile -->
             <a class="mob-view-all mobile-only" href="#" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal">View All</a>
             <div class="dash-subject-list" id="dashSubjectList"></div>
           </details>
@@ -126,7 +119,7 @@
             <div class="dash-panel-heading">
               <div>
                 <p class="dash-kicker">YOUR DATA, YOUR DEVICE</p>
-                <h2>Backup & portability</h2>
+                <h2>Backup &amp; portability</h2>
                 <p class="dash-panel-copy">Move your progress between browsers or keep a safe backup.</p>
               </div>
               <span class="dash-data-lock" aria-hidden="true">↔</span>
@@ -140,10 +133,8 @@
             <p class="dash-data-message" id="dashDataMessage" role="status" aria-live="polite"></p>
           </div>
         </section>
-
       </main>
 
-      <!-- MODALS (unchanged) -->
       <div class="question-search-modal study-mats-action-modal" id="studyMatsActionModal" hidden aria-hidden="true">
         <div class="question-search-backdrop" id="studyMatsActionBackdrop"></div>
         <section class="question-search-dialog study-mats-action-dialog" role="dialog" aria-modal="true" aria-labelledby="studyMatsActionTitle" tabindex="-1">
@@ -196,7 +187,6 @@
       <div class="dash-modal-backdrop" id="profileModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle"><div class="dash-modal-mark">S</div><p class="dash-kicker">A LITTLE PERSONAL TOUCH</p><h2 id="profileModalTitle">Make this space yours</h2><p class="dash-modal-copy">Add a name for your dashboard. No account needed, and you can skip this.</p><form id="profileForm"><label for="profileName">Preferred name <span>(optional)</span></label><input id="profileName" name="profileName" maxlength="60" autocomplete="given-name" placeholder="What should we call you?"><label class="dash-checkbox-label"><input id="profileShowName" type="checkbox" checked><span>Show my name on the dashboard</span></label><div class="dash-modal-actions"><button class="dash-button" id="profileSkipButton" type="button">Maybe later</button><button class="dash-button dash-button-primary" type="submit">Save preferences</button></div></form></section></div>
       <div class="dash-modal-backdrop" id="importModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle"><p class="dash-kicker">RESTORE YOUR STUDY DATA</p><h2 id="importModalTitle">Import progress</h2><p class="dash-modal-copy" id="importSummary">Review your backup before applying it.</p><div class="dash-import-warning">Merging keeps current progress and applies imported answers where question IDs match. Replacing removes current subject progress first. Export a backup before replacing.</div><div class="dash-modal-actions dash-import-actions"><button class="dash-button" id="importCancelButton" type="button">Cancel</button><button class="dash-button" id="importMergeButton" type="button">Merge</button><button class="dash-button dash-button-danger" id="importReplaceButton" type="button">Replace</button></div></section></div>
 
-      <!-- MOBILE BOTTOM NAV (legacy; redesign script may supersede) -->
       <nav class="mobile-bottom-nav mobile-only" aria-label="Mobile navigation">
         <a href="#top" class="mob-nav-item is-active" data-mobile-home><span aria-hidden="true">⌂</span><small>Home</small></a>
         <button type="button" class="mob-nav-item" data-mobile-quiz><span aria-hidden="true">▣</span><small>Quiz</small></button>
@@ -204,26 +194,8 @@
         <a href="#studyDashboard" class="mob-nav-item" data-mobile-progress><span aria-hidden="true">▤</span><small>Progress</small></a>
       </nav>
 
-      <script>
-        (() => {
-          const updateGreeting = () => {
-            try {
-              const raw = localStorage.getItem('studymats-profile-v1');
-              const p = raw ? JSON.parse(raw) : null;
-              const name = p && p.showName !== false && typeof p.name === 'string' ? p.name.trim() : '';
-              const el = document.getElementById('mobGreetingName');
-              if (el) el.textContent = name ? name + "'s study space" : 'Your study space';
-              const dash = document.getElementById('dashGreeting');
-              if (dash) dash.textContent = name ? name + "'s study space" : 'Your study space';
-            } catch {}
-          };
-          updateGreeting();
-          window.addEventListener('studymats:profilesaved', updateGreeting);
-        })();
-      </script>
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
-
       <script src="question-search.js"></script>
 
       <script>
@@ -334,19 +306,6 @@
           backdrop.addEventListener('click', closeModal);
           modal.addEventListener('click', event => { if (event.target === modal) closeModal(); });
           dialog.addEventListener('click', event => event.stopPropagation());
-          dialog.addEventListener('keydown', event => {
-            if (event.key !== 'Tab') return;
-            const focusable = [...dialog.querySelectorAll('button:not([disabled]), select:not([disabled]), input:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])')]
-              .filter(element => !element.closest('[hidden]') && element.getClientRects().length);
-            if (!focusable.length) { event.preventDefault(); dialog.focus(); return; }
-            const first = focusable[0];
-            const last = focusable[focusable.length - 1];
-            if (event.shiftKey && (document.activeElement === first || !dialog.contains(document.activeElement))) {
-              event.preventDefault(); last.focus();
-            } else if (!event.shiftKey && (document.activeElement === last || !dialog.contains(document.activeElement))) {
-              event.preventDefault(); first.focus();
-            }
-          });
           document.addEventListener('keydown', event => {
             if (event.key === 'Escape' && !modal.hidden) { event.preventDefault(); closeModal(); }
           });
@@ -361,7 +320,7 @@
     });
   }
 </script>
-  <script src="./navigation-redesign.js?v=5"></script>
+  <script src="./navigation-redesign.js?v=6"></script>
   <script src="./offline-status.js"></script>
 </body>
 </html>
