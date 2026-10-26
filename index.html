@@ -9,8 +9,7 @@
         rel="stylesheet"
       />
       <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
-      <link rel="stylesheet" href="style.css?v=20261026-mobile-css-split-1" />
-      <link rel="stylesheet" href="mobile.css?v=20261026-mobile-css-split-1" />
+      <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
       <script src="theme.js"></script>
         <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#fbf8f5">
@@ -20,7 +19,7 @@
     <link rel="apple-touch-icon" href="./assets/studymats-mark.svg">
 </head>
     <body data-course="hub">
-      <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><!-- Backup & Restore temporarily disabled while mobile dashboard is stabilized. --><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
+      <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Backup &amp; Restore"><span>⇧</span><span class="sidebar-link-label">Backup &amp; Restore</span></a><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
 
       <main class="wrapper" id="top">
 
@@ -62,15 +61,6 @@
           </div>
         </header>
 
-        <!-- DESKTOP: browse test banks section toggle -->
-        <section class="section-wrapper hub-year-dropdown" aria-label="Main hub">
-          <button class="section-toggle" type="button" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal">
-            <span class="hub-year-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 5.5c3.7-1.2 6.8-.5 8.5 1.2v12c-1.7-1.7-4.8-2.4-8.5-1.2z"/><path d="M20.5 5.5c-3.7-1.2-6.8-.5-8.5 1.2v12c1.7-1.7 4.8-2.4 8.5-1.2z"/><path d="M12 7v12"/></svg></span>
-            <span class="hub-year-summary-copy"><span class="hub-year-title">Browse test banks</span><span class="hub-year-subtext">Choose a year level to explore subjects, question banks, and review resources.</span></span>
-            <span class="toggle-icon" aria-hidden="true">↗</span>
-          </button>
-        </section>
-
         <div class="hub-year-row" role="tablist" aria-label="Year level selection">
           <button class="hub-pill active" type="button" data-year="YL1" aria-pressed="true">YL1</button>
           <button class="hub-pill" type="button" data-year="YL2" aria-pressed="false">YL2</button>
@@ -79,49 +69,10 @@
           <button class="hub-pill" type="button" data-year="resources" aria-pressed="false">Additional Resources</button>
         </div>
 
-        <section class="mobile-dashboard-mockup" aria-label="Mobile dashboard preview">
-          <header class="mobile-mock-header">
-            <a class="mobile-mock-brand" href="#top" aria-label="StudyMats home"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span>StudyMats</span></a>
-            <button class="mobile-mock-avatar" type="button" aria-label="Profile preview">MP</button>
-          </header>
-          <div class="mobile-mock-greeting">
-            <p class="mobile-mock-eyebrow">MONDAY, OCTOBER 26</p>
-            <h1>Keep your momentum.</h1>
-            <p>A little progress adds up.</p>
-          </div>
-          <article class="mobile-mock-focus">
-            <div class="mobile-mock-focus-top"><span>YOUR STUDY SNAPSHOT</span><span class="mobile-mock-live-dot">TODAY</span></div>
-            <div class="mobile-mock-focus-stats">
-              <div><strong>24</strong><span>Questions done</span></div>
-              <div><strong>82<span>%</span></strong><span>Accuracy</span></div>
-              <div><strong>35<span>m</span></strong><span>Study time</span></div>
-            </div>
-            <div class="mobile-mock-focus-foot"><span class="mobile-mock-streak-icon">✦</span><span><b>3-day streak</b><small>You’re building a good habit.</small></span><span class="mobile-mock-foot-arrow">↗</span></div>
-          </article>
-          <section class="mobile-mock-section" aria-labelledby="mobileMockSubjects">
-            <div class="mobile-mock-section-heading"><div><p>YOUR LEARNING</p><h2 id="mobileMockSubjects">Subject progress</h2></div><button type="button" class="mobile-mock-text-button">View all <span>→</span></button></div>
-            <div class="mobile-mock-year-tabs" aria-label="Sample year level"><span class="is-selected">Year 1</span><span>Year 2</span><span>Year 3</span><span>Year 4</span></div>
-            <div class="mobile-mock-subject-list">
-              <article class="mobile-mock-subject"><span class="mobile-mock-subject-icon mobile-mock-purple">✳</span><div class="mobile-mock-subject-main"><div><h3>Anatomy</h3><span>128 / 200 questions</span></div><strong>64%</strong><div class="mobile-mock-progress"><i style="width:64%"></i></div></div><span class="mobile-mock-chevron">›</span></article>
-              <article class="mobile-mock-subject"><span class="mobile-mock-subject-icon mobile-mock-green">⌁</span><div class="mobile-mock-subject-main"><div><h3>Physiology</h3><span>86 / 160 questions</span></div><strong>54%</strong><div class="mobile-mock-progress"><i style="width:54%"></i></div></div><span class="mobile-mock-chevron">›</span></article>
-              <article class="mobile-mock-subject"><span class="mobile-mock-subject-icon mobile-mock-orange">◈</span><div class="mobile-mock-subject-main"><div><h3>Biochemistry</h3><span>42 / 150 questions</span></div><strong>28%</strong><div class="mobile-mock-progress"><i style="width:28%"></i></div></div><span class="mobile-mock-chevron">›</span></article>
-            </div>
-          </section>
-          <section class="mobile-mock-section mobile-mock-rhythm" aria-labelledby="mobileMockRhythm">
-            <div class="mobile-mock-section-heading"><div><p>CONSISTENCY OVER INTENSITY</p><h2 id="mobileMockRhythm">Daily study rhythm</h2></div><button type="button" class="mobile-mock-range">6 mo <span>⌄</span></button></div>
-            <p class="mobile-mock-rhythm-copy">You’ve studied on <b>12 days</b> this month. Keep it going.</p>
-            <div class="mobile-mock-heatmap" aria-label="Illustrative activity calendar">
-              <div class="mobile-mock-weekdays"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
-              <div class="mobile-mock-heat-grid"><i></i><i class="heat-1"></i><i></i><i class="heat-2"></i><i class="heat-3"></i><i></i><i class="heat-1"></i><i class="heat-2"></i><i class="heat-3"></i><i class="heat-1"></i><i></i><i class="heat-2"></i><i class="heat-3"></i><i class="heat-2"></i><i class="heat-1"></i><i></i><i class="heat-3"></i><i class="heat-2"></i><i class="heat-1"></i><i class="heat-3"></i><i></i><i class="heat-2"></i><i class="heat-1"></i><i class="heat-3"></i><i class="heat-2"></i><i class="heat-1"></i><i></i><i class="heat-3"></i></div>
-            </div>
-            <div class="mobile-mock-rhythm-legend"><span><i></i> Less</span><span><i></i><i></i><i></i> More</span><b>12 active days</b></div>
-          </section>
-          <p class="mobile-mock-disclaimer">UI preview · sample data only</p>
-        </section>
         <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
           <aside class="dash-whats-new" id="whatsNewNotice" aria-labelledby="whatsNewTitle" hidden><div class="dash-whats-new-copy"><span class="dash-whats-new-icon" aria-hidden="true">✦</span><div><h2 id="whatsNewTitle">What's changed</h2><p>StudyMats has a few useful updates. <button type="button" class="dash-whats-new-link" data-open-changelog>See the highlights</button></p></div></div><button type="button" class="dash-whats-new-close" data-dismiss-whats-new aria-label="Dismiss this update">×</button></aside>
 
-          <!-- Shared dashboard welcome and statistics -->
+          <!-- DESKTOP welcome + stats (hidden on mobile; mob-greeting-card replaces it) -->
           <div class="dash-welcome">
             <div>
               <p class="dash-kicker">YOUR LEARNING OVERVIEW</p>
@@ -134,10 +85,10 @@
             </div>
           </div>
 
-          <!-- Dashboard statistics are rendered by dashboard.js. -->
+          <!-- Desktop stat cards rendered here by dashboard.js; mobile uses #dashStats in mob-greeting-card -->
           <div id="dashDonuts" hidden aria-hidden="true"></div>
 
-          <!-- Subject progress and saved subject navigation -->
+          <!-- YOUR SUBJECTS — mobile gets a custom header row with "View All" -->
           <details class="dash-panel dash-subject-dropdown" id="subjectProgressDropdown" open>
             <summary class="dash-panel-heading dash-subject-summary">
               <div>
@@ -149,6 +100,8 @@
                 <span class="dash-subject-chevron" aria-hidden="true">⌄</span>
               </span>
             </summary>
+            <!-- Mobile "View All" link injected by CSS / shown only on mobile -->
+            <a class="mob-view-all mobile-only" href="#" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal">View All</a>
             <div class="dash-subject-list" id="dashSubjectList"></div>
           </details>
 
@@ -171,7 +124,7 @@
             <p class="dash-data-caption" id="dashActivityCaption"></p>
           </div>
 
-          <div class="dash-panel dash-tools-panel" id="backupPanel" hidden>
+          <div class="dash-panel dash-tools-panel" id="backupPanel">
             <div class="dash-panel-heading">
               <div>
                 <p class="dash-kicker">YOUR DATA, YOUR DEVICE</p>
@@ -245,32 +198,7 @@
       <div class="dash-modal-backdrop" id="profileModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle"><div class="dash-modal-mark">S</div><p class="dash-kicker">A LITTLE PERSONAL TOUCH</p><h2 id="profileModalTitle">Make this space yours</h2><p class="dash-modal-copy">Add a name for your dashboard. No account needed, and you can skip this.</p><form id="profileForm"><label for="profileName">Preferred name <span>(optional)</span></label><input id="profileName" name="profileName" maxlength="60" autocomplete="given-name" placeholder="What should we call you?"><label class="dash-checkbox-label"><input id="profileShowName" type="checkbox" checked><span>Show my name on the dashboard</span></label><div class="dash-modal-actions"><button class="dash-button" id="profileSkipButton" type="button">Maybe later</button><button class="dash-button dash-button-primary" type="submit">Save preferences</button></div></form></section></div>
       <div class="dash-modal-backdrop" id="importModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle"><p class="dash-kicker">RESTORE YOUR STUDY DATA</p><h2 id="importModalTitle">Import progress</h2><p class="dash-modal-copy" id="importSummary">Review your backup before applying it.</p><div class="dash-import-warning">Merging keeps current progress and applies imported answers where question IDs match. Replacing removes current subject progress first. Export a backup before replacing.</div><div class="dash-modal-actions dash-import-actions"><button class="dash-button" id="importCancelButton" type="button">Cancel</button><button class="dash-button" id="importMergeButton" type="button">Merge</button><button class="dash-button dash-button-primary" id="importReplaceButton" type="button">Replace</button></div></section></div>
 
-      <!-- Mobile-first bottom navigation and compact More sheet -->
-      <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
-        <button class="mobile-nav-item is-active" type="button" data-mobile-nav="home" aria-current="page">
-          <span class="mobile-nav-icon" aria-hidden="true">⌂</span><span>Home</span>
-        </button>
-        <button class="mobile-nav-item" type="button" data-mobile-nav="search">
-          <span class="mobile-nav-icon" aria-hidden="true">⌕</span><span>Search</span>
-        </button>
-        <button class="mobile-nav-item" type="button" data-mobile-nav="quiz">
-          <span class="mobile-nav-icon" aria-hidden="true">↗</span><span>Quiz</span>
-        </button>
-        <button class="mobile-nav-item" type="button" data-mobile-nav="more" aria-expanded="false" aria-controls="mobileMoreSheet">
-          <span class="mobile-nav-icon" aria-hidden="true">•••</span><span>More</span>
-        </button>
-      </nav>
-      <div class="mobile-more-backdrop" id="mobileMoreBackdrop" hidden></div>
-      <section class="mobile-more-sheet" id="mobileMoreSheet" role="dialog" aria-modal="true" aria-labelledby="mobileMoreTitle" hidden>
-        <div class="mobile-sheet-handle" aria-hidden="true"></div>
-        <div class="mobile-sheet-heading"><div><p class="dash-kicker">YOUR STUDY SPACE</p><h2 id="mobileMoreTitle">More</h2></div><button type="button" class="mobile-sheet-close" data-mobile-more-close aria-label="Close menu">×</button></div>
-        <button type="button" class="mobile-more-row" data-mobile-more-action="profile"><span class="mobile-more-symbol" aria-hidden="true">○</span><span><strong>Profile & preferences</strong><small>Personalize your dashboard</small></span><span aria-hidden="true">›</span></button>
-        <button type="button" class="mobile-more-row" data-mobile-more-action="theme"><span class="mobile-more-symbol" aria-hidden="true">◐</span><span><strong>Appearance</strong><small>Switch light or dark mode</small></span><span aria-hidden="true">›</span></button>
-        <!-- Backup & Restore temporarily disabled; restore this entry after mobile validation. -->
-        <a class="mobile-more-row" href="test-bank-builder-v2.html"><span class="mobile-more-symbol" aria-hidden="true">＋</span><span><strong>Test Bank Builder</strong><small>Create and manage question banks</small></span><span aria-hidden="true">›</span></a>
-        <button type="button" class="mobile-more-row" data-open-changelog><span class="mobile-more-symbol" aria-hidden="true">↻</span><span><strong>What's new</strong><small>Recent improvements</small></span><span aria-hidden="true">›</span></button>
-        <p class="mobile-sheet-footnote"><span class="mobile-save-dot"></span> Progress is saved on this device</p>
-      </section>
+      <!-- BOTTOM NAV — 4 tabs matching reference image -->
 
 
       <script>
@@ -279,72 +207,53 @@
         document.querySelector("#dashProfileButtonTop")?.addEventListener("click", () => document.querySelector("#dashProfileButton")?.click());
         document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter") event.preventDefault(); });
         document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", (event) => { event.preventDefault(); document.querySelector("[data-open-subject-browser]")?.click(); });
-      </script>
-      <script>
-        (() => {
-          const nav = document.querySelector('.mobile-bottom-nav');
-          const sheet = document.getElementById('mobileMoreSheet');
-          const backdrop = document.getElementById('mobileMoreBackdrop');
-          const moreButton = document.querySelector('[data-mobile-nav="more"]');
-          if (!nav || !sheet || !backdrop) return;
-          let previousFocus = null;
-          const setActive = key => {
-            nav.querySelectorAll('[data-mobile-nav]').forEach(button => {
-              const active = button.dataset.mobileNav === key;
-              button.classList.toggle('is-active', active);
-              if (active && key !== 'more') button.setAttribute('aria-current', 'page');
-              else button.removeAttribute('aria-current');
-            });
-          };
-          const openMore = () => {
-            previousFocus = document.activeElement;
-            sheet.hidden = false;
-            backdrop.hidden = false;
-            moreButton?.setAttribute('aria-expanded', 'true');
-            document.body.classList.add('mobile-more-open');
-            sheet.querySelector('[data-mobile-more-action]')?.focus();
-          };
-          const closeMore = () => {
-            if (sheet.hidden) return;
-            sheet.hidden = true;
-            backdrop.hidden = true;
-            moreButton?.setAttribute('aria-expanded', 'false');
-            document.body.classList.remove('mobile-more-open');
-            if (previousFocus && typeof previousFocus.focus === 'function') previousFocus.focus();
-          };
-          nav.addEventListener('click', event => {
-            const button = event.target.closest('[data-mobile-nav]');
-            if (!button) return;
-            const key = button.dataset.mobileNav;
-            if (key === 'more') { sheet.hidden ? openMore() : closeMore(); return; }
-            setActive(key);
-            if (key === 'home') { window.scrollTo({top: 0, behavior: 'smooth'}); return; }
-            if (key === 'search') {
-              document.getElementById('dashboardSearch')?.click();
-              return;
-            }
-            if (key === 'quiz') {
-              document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]')?.click();
-              return;
-            }
-          });
-          backdrop.addEventListener('click', closeMore);
-          sheet.querySelectorAll('[data-mobile-more-close]').forEach(button => button.addEventListener('click', closeMore));
-          sheet.addEventListener('click', event => {
-            const action = event.target.closest('[data-mobile-more-action]')?.dataset.mobileMoreAction;
-            if (!action) return;
-            closeMore();
-            if (action === 'profile') document.getElementById('dashProfileButton')?.click();
-            if (action === 'theme') window.toggleTheme?.();
-            if (action === 'backup') document.getElementById('backupPanel')?.scrollIntoView({behavior:'smooth', block:'start'});
-          });
-          sheet.querySelectorAll('[data-open-changelog]').forEach(button => button.addEventListener('click', closeMore));
-          document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMore(); });
-          document.querySelectorAll('#questionSearchClose, #questionSearchBackdrop').forEach(element => element.addEventListener('click', () => setActive('home')));
-          document.querySelectorAll('.desktop-sidebar .sidebar-link[href="quiz.html"]').forEach(link => link.addEventListener('click', () => setActive('quiz')));
+        document.querySelector('[data-mobile-banks]')?.addEventListener('click', event => { event.preventDefault(); document.querySelector('[data-open-subject-browser]')?.click(); });
+
+        // Progress tab: scroll to subject progress
+        document.querySelector('[data-mobile-progress-tab]')?.addEventListener('click', event => {
+          event.preventDefault();
+          const progress = document.getElementById('subjectProgressDropdown');
+          if (progress) { progress.open = true; progress.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); }
+          // update active nav state
+          document.querySelectorAll('.mobile-nav-item').forEach(i => i.classList.remove('is-current'));
+          event.currentTarget.classList.add('is-current');
+        });
+
+        // Progress anchor link in quick actions
+        document.querySelector('[data-mobile-progress]')?.addEventListener('click', event => {
+          event.preventDefault();
+          const progress = document.getElementById('subjectProgressDropdown');
+          if (progress) { progress.open = true; progress.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); }
+        });
+
+        // More drawer
+        const moreBtn    = document.querySelector('[data-mobile-more]');
+        const moreDrawer = document.getElementById('mobMoreDrawer');
+        const moreBack   = document.getElementById('mobMoreBackdrop');
+        function openMore()  { moreDrawer.hidden = false; moreBack.hidden = false; moreDrawer.setAttribute('aria-hidden','false'); moreBack.setAttribute('aria-hidden','false'); moreBtn?.setAttribute('aria-expanded','true'); document.body.style.overflow = 'hidden'; }
+        function closeMore() { moreDrawer.hidden = true;  moreBack.hidden = true;  moreDrawer.setAttribute('aria-hidden','true');  moreBack.setAttribute('aria-hidden','true');  moreBtn?.setAttribute('aria-expanded','false'); document.body.style.overflow = ''; }
+        moreBtn?.addEventListener('click', () => moreDrawer.hidden ? openMore() : closeMore());
+        moreBack?.addEventListener('click', closeMore);
+        document.getElementById('mobMoreProfile')?.addEventListener('click', () => { closeMore(); document.querySelector('#dashProfileButton')?.click(); });
+        document.getElementById('mobMoreBackup')?.addEventListener('click', closeMore);
+        // Close more drawer if theme or changelog buttons used inside it
+        moreDrawer?.querySelectorAll('[data-theme-toggle],[data-open-changelog]').forEach(btn => btn.addEventListener('click', closeMore));
+        document.addEventListener('keydown', e => { if (e.key === 'Escape' && !moreDrawer?.hidden) closeMore(); });
+
+        // Mob greeting: read name from localStorage (same key dashboard.js uses)
+        (function() {
+          function updateGreeting() {
+            const stored = (() => { try { return JSON.parse(localStorage.getItem('studymats_profile') || '{}'); } catch(e) { return {}; } })();
+            const name = (stored.showName !== false && stored.name) ? stored.name : null;
+            const hour = new Date().getHours();
+            const greeting = hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening';
+            const el = document.getElementById('mobGreetingName');
+            if (el) el.textContent = name ? greeting + ', ' + name : 'Your study space';
+          }
+          updateGreeting();
+          window.addEventListener('studymats:profilesaved', updateGreeting);
         })();
       </script>
-
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
       <script src="question-search.js"></script>
@@ -444,7 +353,13 @@
           }
 
           document.querySelector('[data-open-subject-browser]')?.addEventListener('click', event => openModal('browse', event.currentTarget));
+          document.querySelector('[data-mobile-quiz]')?.addEventListener('click', event => openModal('quiz', event.currentTarget));
           document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]')?.addEventListener('click', event => { event.preventDefault(); openModal('quiz', event.currentTarget); });
+          document.querySelector('[data-mobile-search]')?.addEventListener('click', () => {
+            const searchInput = document.getElementById('dashboardSearch');
+            if (searchInput) searchInput.click();
+            else document.getElementById('questionSearchInput')?.focus();
+          });
           document.querySelectorAll('.wrapper > .hub-year-row .hub-pill').forEach(button => {
             button.addEventListener('click', () => openModal('browse', button));
           });
