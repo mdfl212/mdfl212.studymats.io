@@ -17,18 +17,34 @@ function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
 function ring(pct,color,label){const r=2*Math.PI*42,v=r*Math.max(0,Math.min(100,Number(pct)||0))/100;return '<svg class="dash-donut" viewBox="0 0 108 108" role="img" aria-label="'+esc(label)+': '+Math.round(pct)+' percent"><circle class="dash-donut-track" cx="54" cy="54" r="42"></circle><circle class="dash-donut-value" cx="54" cy="54" r="42" stroke="'+color+'" stroke-dasharray="'+v+' '+(r-v)+'" transform="rotate(-90 54 54)"></circle><text x="54" y="58" class="dash-donut-number">'+Math.round(pct)+'%</text></svg>'}
 function buildHeatmap(){
- const a=activity(), today=new Date();today.setHours(12,0,0,0);const start=new Date(today);start.setDate(start.getDate()-range+1);
+ const a=activity(),today=new Date();today.setHours(12,0,0,0);
+ const start=new Date(today);start.setDate(start.getDate()-range+1);
  const days=[];for(let i=0;i<range;i++){const d=new Date(start);d.setDate(start.getDate()+i);const k=dateKey(d);days.push({key:k,date:d,count:Array.isArray(a[k])?a[k].length:0})}
+ const byDate=new Map(days.map(day=>[day.key,day]));
  const vals=days.map(x=>x.count).filter(x=>x>0).sort((x,y)=>x-y),q=n=>vals.length?vals[Math.floor((vals.length-1)*n)]:1;
  const level=n=>!n?0:n<=q(.35)?1:n<=q(.7)?2:n<=q(1)?3:4;
  const active=days.filter(x=>x.count>0).length,total=new Set(Object.values(a).flatMap(items=>Array.isArray(items)?items:[])).size;
  let streak=0,cursor=new Date(today);if(!(a[dateKey(cursor)]||[]).length)cursor.setDate(cursor.getDate()-1);while((a[dateKey(cursor)]||[]).length){streak++;cursor.setDate(cursor.getDate()-1)}
  let longest=0,run=0;days.forEach(x=>{run=x.count?run+1:0;longest=Math.max(longest,run)});
- const gridStart=new Date(days[0].date);gridStart.setDate(gridStart.getDate()-((gridStart.getDay()+6)%7));const weeks=[];
- for(let d=new Date(gridStart);d<=today;d.setDate(d.getDate()+1)){const k=dateKey(d),found=days.find(x=>x.key===k),day={key:k,date:new Date(d),count:found?found.count:0};if(!weeks.length||((d.getDay()+6)%7)===0)weeks.push([]);weeks[weeks.length-1].push({...day,level:level(day.count)})}
- const labels=weeks.map((w,i)=>{const first=w.find(x=>x.date.getDate()<=7);return '<span>'+((first&&(i===0||w.some(x=>x.date.getDate()===1)))?esc(first.date.toLocaleDateString(undefined,{month:'short'})):'')+'</span>'}).join('');
- const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row">'+weeks.map(w=>{const x=w[r];return x?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty"></span>'}).join('')+'</div>').join('');
- return {html:'<div class="dash-month-labels">'+labels+'</div><div class="dash-heatmap-scroll"><div class="dash-heatmap">'+rows+'</div></div>',active,streak,longest,total};
+ // Build complete Monday-to-Sunday columns so weekday rows never shift.
+ const gridStart=new Date(days[0].date);gridStart.setDate(gridStart.getDate()-((gridStart.getDay()+6)%7));
+ const gridEnd=new Date(today);gridEnd.setDate(gridEnd.getDate()+(6-((gridEnd.getDay()+6)%7)));
+ const weeks=[];
+ for(let date=new Date(gridStart);date<=gridEnd;date.setDate(date.getDate()+1)){
+  const current=new Date(date),key=dateKey(current),found=byDate.get(key);
+  const day={key,date:current,count:found?found.count:0,inRange:!!found&&current<=today};
+  if(!weeks.length||((current.getDay()+6)%7)===0)weeks.push([]);
+  weeks[weeks.length-1].push({...day,level:level(day.count)});
+ }
+ const labels=weeks.map((week,i)=>{
+  const monthStart=week.find(day=>day.date.getDate()===1);
+  const firstVisible=week.find(day=>day.inRange);
+  const label=monthStart||(i===0?firstVisible:null);
+  return '<span>'+((label)?esc(label.date.toLocaleDateString(undefined,{month:'short'})):'')+'</span>';
+ }).join('');
+ const weekdayLabels=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(day=>'<span>'+day+'</span>').join('');
+ const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row">'+weeks.map(w=>{const x=w[r];return x&&x.inRange?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty" aria-hidden="true"></span>'}).join('')+'</div>').join('');
+ return {html:'<div class="dash-month-labels"><span class="dash-weekday-spacer"></span>'+labels+'</div><div class="dash-heatmap-scroll"><div class="dash-heatmap-layout"><div class="dash-weekday-labels">'+weekdayLabels+'</div><div class="dash-heatmap">'+rows+'</div></div></div>',active,streak,longest,total};
 }
 async function load(){
  const sourceUrl=dashboardAssetUrl('subjects.json');
