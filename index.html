@@ -9,7 +9,7 @@
         rel="stylesheet"
       />
       <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
-      <link rel="stylesheet" href="style.css?v=20261026-mobile-redesign-1" />
+      <link rel="stylesheet" href="style.css?v=20261026-mobile-redesign-2" />
       <script src="theme.js"></script>
         <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#fbf8f5">
@@ -280,12 +280,7 @@
             setActive(key);
             if (key === 'home') { window.scrollTo({top: 0, behavior: 'smooth'}); return; }
             if (key === 'search') {
-              const searchModal = document.getElementById('questionSearchModal');
-              if (searchModal && !searchModal.hidden) document.getElementById('questionSearchInput')?.focus();
-              else document.getElementById('dashboardSearch')?.dispatchEvent(new KeyboardEvent('keydown', {key:'Enter', bubbles:true}));
-              document.getElementById('questionSearchModal')?.removeAttribute('hidden');
-              document.getElementById('questionSearchModal')?.setAttribute('aria-hidden','false');
-              document.getElementById('questionSearchInput')?.focus();
+              document.getElementById('dashboardSearch')?.click();
               return;
             }
             if (key === 'quiz') {
