@@ -59,10 +59,10 @@
   const metricGrid=document.createElement('section');metricGrid.className='sm-metric-grid';metricGrid.setAttribute('aria-label','Study metrics');metricGrid.innerHTML='<button class="sm-metric-tile" type="button" data-sm-metric="answered"><span>Questions answered</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="accuracy"><span>Answer accuracy</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="completed"><span>Questions completed</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="subjects"><span>Subjects studied</span><strong>—</strong></button>';
   const oldWelcome=dashboard.querySelector('.dash-welcome');
   if(oldWelcome)oldWelcome.hidden=true;
-  const subjectDropdown=$('subjectProgressDropdown'),activityPanel=dashboard.querySelector('.dash-activity-panel'),donuts=$('dashDonuts');
+  const subjectDropdown=$('subjectProgressDropdown'),activityPanel=dashboard.querySelector('.dash-activity-panel'),donuts=$('dashDonuts'),yearRow=wrapper.querySelector(':scope > .hub-year-row');
   const stats=$('dashStats')||document.createElement('div');stats.id='dashStats';stats.classList.add('dash-stats');
   progress.appendChild(activityPanel||document.createElement('div'));
-  progress.appendChild(metricGrid);progress.appendChild(stats);
+  if(yearRow)progress.appendChild(yearRow);progress.appendChild(metricGrid);progress.appendChild(stats);
   if(donuts)progress.appendChild(donuts);
   if(subjectDropdown)progress.appendChild(subjectDropdown);
   const oldBackup=$('backupPanel');if(oldBackup)oldBackup.hidden=false;
@@ -106,26 +106,26 @@
      const ids=new Set(qs.map(q=>String(q.id))),validAnswers=Object.keys(answers).filter(id=>ids.has(String(id))),completed=new Set([...validAnswers,...Object.keys(revealed).filter(id=>ids.has(String(id)))]);
      const scored=validAnswers.filter(id=>Number.isInteger(qs.find(q=>String(q.id)===String(id))?.correctAnswer));
      const correct=scored.filter(id=>answers[id]===qs.find(q=>String(q.id)===String(id)).correctAnswer).length;
-     return {name:s.name,answered:validAnswers.length,completed:completed.size,accuracy:scored.length?Math.round(correct/scored.length*100):null,questions:qs.length,active:completed.size>0};
+     return {name:s.name,answered:validAnswers.length,completed:completed.size,accuracy:scored.length?Math.round(correct/scored.length*100):null,progress:qs.length?Math.round(completed.size/qs.length*100):null,questions:qs.length,active:completed.size>0};
     }));
    }catch(e){return []}
   };
   let rankData=[];
   async function renderMetrics(){
    rankData=await loadRankData();
-   const sums={answered:rankData.reduce((n,s)=>n+s.answered,0),completed:rankData.reduce((n,s)=>n+s.completed,0),subjects:rankData.filter(s=>s.active).length};
+   const sums={answered:rankData.reduce((n,s)=>n+s.answered,0),completed:rankData.reduce((n,s)=>n+s.completed,0)};
    const scored=rankData.filter(s=>s.accuracy!==null),accuracyN=rankData.reduce((n,s)=>n+(s.accuracy===null?0:s.accuracy),0);
-   const vals={answered:sums.answered,completed:sums.completed,subjects:sums.subjects,accuracy:scored.length?Math.round(accuracyN/scored.length)+'%':'—'};
+   const validProgress=rankData.filter(s=>s.progress!==null);const vals={answered:sums.answered,completed:sums.completed,progress:validProgress.length?Math.round(validProgress.reduce((n,s)=>n+s.progress,0)/validProgress.length)+'%':'—',accuracy:scored.length?Math.round(accuracyN/scored.length)+'%':'—'};
    metricGrid.querySelectorAll('[data-sm-metric]').forEach(b=>b.querySelector('strong').textContent=vals[b.dataset.smMetric]);
   }
   metricGrid.querySelectorAll('[data-sm-metric]').forEach(b=>b.addEventListener('click',async()=>{
    if(!rankData.length)await renderMetrics();
-   const metric=b.dataset.smMetric,labels={answered:'Questions answered',completed:'Questions completed',accuracy:'Answer accuracy',subjects:'Subjects studied'};
-   const eligible=rankData.filter(s=>metric==='accuracy'?s.accuracy!==null:metric==='subjects'?s.active:s[metric]>0);
-   eligible.sort((a,b)=>{const av=metric==='subjects'?Number(a.active):Number(a[metric]),bv=metric==='subjects'?Number(b.active):Number(b[metric]);return bv-av||a.name.localeCompare(b.name)});
+   const metric=b.dataset.smMetric,labels={answered:'Questions answered',completed:'Questions completed',accuracy:'Answer accuracy',progress:'Average subject progress'};
+   const eligible=rankData.filter(s=>metric==='accuracy'?s.accuracy!==null:metric==='progress'?s.progress!==null:s[metric]>0);
+   eligible.sort((a,b)=>{const av=Number(a[metric]),bv=Number(b[metric]);return bv-av||a.name.localeCompare(b.name)});
    $('smRankingTitle').textContent='Top subjects · '+labels[metric];
    const top=eligible.slice(0,10);
-   $('smRankingContent').innerHTML=top.length?'<ol class="sm-ranking-list">'+top.map(s=>'<li><span>'+s.name.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))+'</span><strong>'+((metric==='accuracy')?s.accuracy+'%':metric==='subjects'?'Studied':s[metric].toLocaleString())+'</strong></li>').join('')+'</ol>':'<p class="sm-empty">There is not enough saved data to rank subjects for this metric yet.</p>';
+   $('smRankingContent').innerHTML=top.length?'<ol class="sm-ranking-list">'+top.map(s=>'<li><span>'+s.name.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))+'</span><strong>'+((metric==='accuracy'||metric==='progress')?s[metric]+'%':s[metric].toLocaleString())+'</strong></li>').join('')+'</ol>':'<p class="sm-empty">There is not enough saved data to rank subjects for this metric yet.</p>';
    showModal();
   }));
   const changelog=$('changelogModal');
