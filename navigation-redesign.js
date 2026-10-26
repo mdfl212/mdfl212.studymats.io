@@ -16,6 +16,7 @@
   if(!$('studyDashboard')||document.querySelector('.sm-global-nav'))return;
   const body=document.body, wrapper=document.querySelector('main.wrapper'), oldTop=document.querySelector('.app-topbar');
   if(!wrapper||!oldTop)return;
+  body.classList.add('sm-redesign-active');
   const sidebar=document.querySelector('.desktop-sidebar');
   const links=sidebar?[...sidebar.querySelectorAll('.sidebar-link')]:[];
   const builderLink=links.find(a=>a.textContent.includes('Test Bank Builder'));
@@ -34,7 +35,6 @@
   document.querySelector('.sm-nav-search kbd').textContent=/Mac|iPhone|iPad/.test(navigator.platform||'')?'⌘ K':'Ctrl K';
   const themeButton=oldTop.querySelector('[data-theme-toggle]');
   const themeClone=document.createElement('button');themeClone.type='button';themeClone.className='sm-nav-link';themeClone.textContent='◐';themeClone.setAttribute('aria-label','Toggle theme');themeClone.title='Toggle theme';themeClone.addEventListener('click',()=>themeButton?.click());
-  // Keep theme accessible without making it a primary navigation destination.
   nav.querySelector('.sm-nav-actions').prepend(themeClone);
   const profileMenu=$('smProfileMenu'),profileButton=$('smProfileButton');
   const updateProfile=()=>{
@@ -69,16 +69,29 @@
   const oldBackup=$('backupPanel');if(oldBackup)oldBackup.hidden=false;
   wrapper.insertBefore(welcome,oldTop.nextSibling);
   wrapper.insertBefore(views, welcome.nextSibling);views.append(progress,builder);
-  // Keep the legacy dashboard as a hidden data/render host; existing calculations continue to populate its shared nodes.
+  // Keep the legacy dashboard as a hidden data/render host.
+  // style.css sets display:grid on .study-dashboard which overrides [hidden] alone.
   dashboard.hidden=true;
+  dashboard.setAttribute('hidden','');
+  dashboard.style.setProperty('display','none','important');
+  dashboard.setAttribute('aria-hidden','true');
   const modal=document.createElement('div');modal.className='sm-modal';modal.id='smRankingModal';modal.hidden=true;modal.innerHTML='<section class="sm-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="smRankingTitle" tabindex="-1"><header class="sm-modal-header"><h2 id="smRankingTitle">Subject rankings</h2><button class="sm-modal-close" type="button" aria-label="Close rankings">×</button></header><div id="smRankingContent"></div></section>';document.body.appendChild(modal);
   const showModal=()=>{modal.hidden=false;modal.querySelector('.sm-modal-close').focus();};
   const closeModal=()=>{modal.hidden=true;};
   modal.querySelector('.sm-modal-close').addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!modal.hidden)closeModal()});
   const setView=which=>{
-   welcome.hidden=which!=='home';progress.hidden=which!=='progress';builder.hidden=which!=='builder';
-   nav.querySelectorAll('[data-sm-nav]').forEach(b=>{const active=b.dataset.smNav===which;b.setAttribute('aria-current',active?'page':'false');});
+   welcome.hidden=which!=='home';
+   progress.hidden=which!=='progress';
+   builder.hidden=which!=='builder';
+   dashboard.hidden=true;
+   dashboard.setAttribute('hidden','');
+   dashboard.style.setProperty('display','none','important');
+   nav.querySelectorAll('[data-sm-nav]').forEach(b=>{
+    const active=b.dataset.smNav===which;
+    b.setAttribute('aria-current',active?'page':'false');
+   });
+   body.dataset.smView=which;
    if(which==='progress')renderMetrics();
    window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
   };
@@ -127,13 +140,13 @@
    eligible.sort((a,b)=>{const av=Number(a[metric]),bv=Number(b[metric]);return bv-av||a.name.localeCompare(b.name)});
    $('smRankingTitle').textContent='Top subjects · '+labels[metric];
    const top=eligible.slice(0,10);
-   $('smRankingContent').innerHTML=top.length?'<ol class="sm-ranking-list">'+top.map(s=>'<li><span>'+s.name.replace(/[&<>]/g,c=>({'&':'&','<':'<','>':'>'}[c]))+'</span><strong>'+((metric==='accuracy'||metric==='progress')?s[metric]+'%':s[metric].toLocaleString())+'</strong></li>').join('')+'</ol>':'<p class="sm-empty">There is not enough saved data to rank subjects for this metric yet.</p>';
+   $('smRankingContent').innerHTML=top.length?'<ol class="sm-ranking-list">'+top.map(s=>'<li><span>'+s.name.replace(/[&<>]/g,c=>({"&":"&","<":"<",">":">"}[c]))+'</span><strong>'+((metric==='accuracy'||metric==='progress')?s[metric]+'%':s[metric].toLocaleString())+'</strong></li>').join('')+'</ol>':'<p class="sm-empty">There is not enough saved data to rank subjects for this metric yet.</p>';
    showModal();
   }));
   const changelog=$('changelogModal');
   if(changelog){
    const actions=changelog.querySelector('.dash-modal-actions');
-   if(actions&&!actions.querySelector('.sm-dont-show')){const b=document.createElement('button');b.type='button';b.className='dash-button sm-dont-show';b.textContent="Don't show again";b.addEventListener('click',()=>{try{localStorage.setItem('studymats-whats-changed-optout-v1','1');localStorage.setItem('studymats-whats-changed-seen-v1','1')}catch{}changelog.hidden=true;changelog.classList.remove('is-open')});actions.prepend(b)}
+   if(actions&&!actions.querySelector('.sm-dont-show')){const b=document.createElement('button');b.type='button';b.className='dash-button sm-dont-show';b.textContent="Don\'t show again";b.addEventListener('click',()=>{try{localStorage.setItem('studymats-whats-changed-optout-v1','1');localStorage.setItem('studymats-whats-changed-seen-v1','1')}catch{}changelog.hidden=true;changelog.classList.remove('is-open')});actions.prepend(b)}
    const markSeen=()=>{try{localStorage.setItem('studymats-whats-changed-seen-v1','1')}catch{}};
    changelog.querySelectorAll('[data-close-changelog]').forEach(b=>b.addEventListener('click',markSeen));
    changelog.addEventListener('click',e=>{if(e.target===changelog)markSeen()});
@@ -143,10 +156,7 @@
   updateProfile();refreshStreak();
   window.addEventListener('studymats:profilesaved',()=>{updateProfile();refreshStreak()});
   window.addEventListener('storage',()=>{updateProfile();refreshStreak()});
-  // The existing profile form is the source of truth; notify this navigation after save.
   $('profileForm')?.addEventListener('submit',()=>setTimeout(()=>{updateProfile();window.dispatchEvent(new Event('studymats:profilesaved'))},0));
-  // Hide the legacy dashboard only after the existing renderer has its required host elements.
-  // Its nodes have been moved to the progress view and will continue to update in place.
   setView('home');
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
