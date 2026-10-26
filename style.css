@@ -9196,13 +9196,13 @@ body[data-course="hub"] .sidebar-save i {
 }
 
 /* ── Main wrapper offset for sidebar ── */
-body[data-course="hub"] .wrapper {
+body[data-course="hub"]:not(.sm-redesign-active) .wrapper {
   margin-left: 200px;
   padding: 24px 28px 80px;
   max-width: none;
   transition: margin-left 0.22s ease;
 }
-body[data-course="hub"].sidebar-collapsed .wrapper { margin-left: 56px; }
+body[data-course="hub"]:not(.sm-redesign-active).sidebar-collapsed .wrapper { margin-left: 56px; }
 
 /* ── Welcome hero ── */
 body[data-course="hub"] .dash-hero {
@@ -13869,7 +13869,7 @@ body[data-course="hub"] {
     padding-right: 0 !important;
     padding-bottom: 0 !important;
   }
-  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+  html[data-course="hub"] body[data-course="hub"]:not(.sm-redesign-active) main.wrapper {
     box-sizing: border-box !important;
     width: auto !important;
     max-width: none !important;
@@ -13877,7 +13877,7 @@ body[data-course="hub"] {
     margin-right: 0 !important;
     padding: 0 12px 8px !important;
   }
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed main.wrapper {
+  html[data-course="hub"] body[data-course="hub"]:not(.sm-redesign-active).sidebar-collapsed main.wrapper {
     margin-left: 56px !important;
   }
 }
