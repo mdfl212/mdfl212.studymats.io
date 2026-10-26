@@ -28,7 +28,7 @@
    searchInput.value=oldSearch.value;
    searchInput.addEventListener('input',()=>{oldSearch.value=searchInput.value;oldSearch.dispatchEvent(new Event('input',{bubbles:true}));});
    searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();oldSearch.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}));}});
-   searchInput.addEventListener('focus',()=>oldSearch.dispatchEvent(new KeyboardEvent('keydown',{key:'k',metaKey:true,bubbles:true})));
+
   }
   document.querySelector('.sm-nav-search kbd').textContent=/Mac|iPhone|iPad/.test(navigator.platform||'')?'⌘ K':'Ctrl K';
   const themeButton=oldTop.querySelector('[data-theme-toggle]');
@@ -56,7 +56,7 @@
   const views=document.createElement('div');views.id='smAppViews';
   const progress=document.createElement('section');progress.className='sm-page sm-progress-view sm-view';progress.id='smProgressView';progress.hidden=true;progress.innerHTML='<h1 class="sm-view-title">Study Progress</h1>';
   const builder=document.createElement('section');builder.className='sm-builder-view sm-view';builder.id='smBuilderView';builder.hidden=true;builder.innerHTML='<iframe id="smBuilderFrame" title="StudyMats Test Bank Builder" src="test-bank-builder-v2.html"></iframe>';
-  const metricGrid=document.createElement('section');metricGrid.className='sm-metric-grid';metricGrid.setAttribute('aria-label','Study metrics');metricGrid.innerHTML='<button class="sm-metric-tile" type="button" data-sm-metric="answered"><span>Questions answered</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="accuracy"><span>Answer accuracy</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="completed"><span>Questions completed</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="subjects"><span>Subjects studied</span><strong>—</strong></button>';
+  const metricGrid=document.createElement('section');metricGrid.className='sm-metric-grid';metricGrid.setAttribute('aria-label','Study metrics');metricGrid.innerHTML='<button class="sm-metric-tile" type="button" data-sm-metric="answered"><span>Questions answered</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="accuracy"><span>Answer accuracy</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="completed"><span>Questions completed</span><strong>—</strong></button><button class="sm-metric-tile" type="button" data-sm-metric="progress"><span>Average subject progress</span><strong>—</strong></button>';
   const oldWelcome=dashboard.querySelector('.dash-welcome');
   if(oldWelcome)oldWelcome.hidden=true;
   const subjectDropdown=$('subjectProgressDropdown'),activityPanel=dashboard.querySelector('.dash-activity-panel'),donuts=$('dashDonuts'),yearRow=wrapper.querySelector(':scope > .hub-year-row');
