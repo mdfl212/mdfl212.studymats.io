@@ -205,7 +205,32 @@
       <div class="dash-modal-backdrop" id="profileModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle"><div class="dash-modal-mark">S</div><p class="dash-kicker">A LITTLE PERSONAL TOUCH</p><h2 id="profileModalTitle">Make this space yours</h2><p class="dash-modal-copy">Add a name for your dashboard. No account needed, and you can skip this.</p><form id="profileForm"><label for="profileName">Preferred name <span>(optional)</span></label><input id="profileName" name="profileName" maxlength="60" autocomplete="given-name" placeholder="What should we call you?"><label class="dash-checkbox-label"><input id="profileShowName" type="checkbox" checked><span>Show my name on the dashboard</span></label><div class="dash-modal-actions"><button class="dash-button" id="profileSkipButton" type="button">Maybe later</button><button class="dash-button dash-button-primary" type="submit">Save preferences</button></div></form></section></div>
       <div class="dash-modal-backdrop" id="importModal" hidden><section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle"><p class="dash-kicker">RESTORE YOUR STUDY DATA</p><h2 id="importModalTitle">Import progress</h2><p class="dash-modal-copy" id="importSummary">Review your backup before applying it.</p><div class="dash-import-warning">Merging keeps current progress and applies imported answers where question IDs match. Replacing removes current subject progress first. Export a backup before replacing.</div><div class="dash-modal-actions dash-import-actions"><button class="dash-button" id="importCancelButton" type="button">Cancel</button><button class="dash-button" id="importMergeButton" type="button">Merge</button><button class="dash-button dash-button-primary" id="importReplaceButton" type="button">Replace</button></div></section></div>
 
-      <!-- BOTTOM NAV — 4 tabs matching reference image -->
+      <!-- Mobile-first bottom navigation and compact More sheet -->
+      <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+        <button class="mobile-nav-item is-active" type="button" data-mobile-nav="home" aria-current="page">
+          <span class="mobile-nav-icon" aria-hidden="true">⌂</span><span>Home</span>
+        </button>
+        <button class="mobile-nav-item" type="button" data-mobile-nav="search">
+          <span class="mobile-nav-icon" aria-hidden="true">⌕</span><span>Search</span>
+        </button>
+        <button class="mobile-nav-item" type="button" data-mobile-nav="quiz">
+          <span class="mobile-nav-icon" aria-hidden="true">↗</span><span>Quiz</span>
+        </button>
+        <button class="mobile-nav-item" type="button" data-mobile-nav="more" aria-expanded="false" aria-controls="mobileMoreSheet">
+          <span class="mobile-nav-icon" aria-hidden="true">•••</span><span>More</span>
+        </button>
+      </nav>
+      <div class="mobile-more-backdrop" id="mobileMoreBackdrop" hidden></div>
+      <section class="mobile-more-sheet" id="mobileMoreSheet" role="dialog" aria-modal="true" aria-labelledby="mobileMoreTitle" hidden>
+        <div class="mobile-sheet-handle" aria-hidden="true"></div>
+        <div class="mobile-sheet-heading"><div><p class="dash-kicker">YOUR STUDY SPACE</p><h2 id="mobileMoreTitle">More</h2></div><button type="button" class="mobile-sheet-close" data-mobile-more-close aria-label="Close menu">×</button></div>
+        <button type="button" class="mobile-more-row" data-mobile-more-action="profile"><span class="mobile-more-symbol" aria-hidden="true">○</span><span><strong>Profile & preferences</strong><small>Personalize your dashboard</small></span><span aria-hidden="true">›</span></button>
+        <button type="button" class="mobile-more-row" data-mobile-more-action="theme"><span class="mobile-more-symbol" aria-hidden="true">◐</span><span><strong>Appearance</strong><small>Switch light or dark mode</small></span><span aria-hidden="true">›</span></button>
+        <button type="button" class="mobile-more-row" data-mobile-more-action="backup"><span class="mobile-more-symbol" aria-hidden="true">↕</span><span><strong>Backup & restore</strong><small>Keep your progress portable</small></span><span aria-hidden="true">›</span></button>
+        <a class="mobile-more-row" href="test-bank-builder-v2.html"><span class="mobile-more-symbol" aria-hidden="true">＋</span><span><strong>Test Bank Builder</strong><small>Create and manage question banks</small></span><span aria-hidden="true">›</span></a>
+        <button type="button" class="mobile-more-row" data-open-changelog><span class="mobile-more-symbol" aria-hidden="true">↻</span><span><strong>What's new</strong><small>Recent improvements</small></span><span aria-hidden="true">›</span></button>
+        <p class="mobile-sheet-footnote"><span class="mobile-save-dot"></span> Progress is saved on this device</p>
+      </section>
 
 
       <script>
@@ -215,6 +240,76 @@
         document.querySelector("#dashboardSearch")?.addEventListener("keydown", (event) => { if (event.key === "Enter") event.preventDefault(); });
         document.querySelector("[data-sidebar-subjects]")?.addEventListener("click", (event) => { event.preventDefault(); document.querySelector("[data-open-subject-browser]")?.click(); });
       </script>
+      <script>
+        (() => {
+          const nav = document.querySelector('.mobile-bottom-nav');
+          const sheet = document.getElementById('mobileMoreSheet');
+          const backdrop = document.getElementById('mobileMoreBackdrop');
+          const moreButton = document.querySelector('[data-mobile-nav="more"]');
+          if (!nav || !sheet || !backdrop) return;
+          let previousFocus = null;
+          const setActive = key => {
+            nav.querySelectorAll('[data-mobile-nav]').forEach(button => {
+              const active = button.dataset.mobileNav === key;
+              button.classList.toggle('is-active', active);
+              if (active && key !== 'more') button.setAttribute('aria-current', 'page');
+              else button.removeAttribute('aria-current');
+            });
+          };
+          const openMore = () => {
+            previousFocus = document.activeElement;
+            sheet.hidden = false;
+            backdrop.hidden = false;
+            moreButton?.setAttribute('aria-expanded', 'true');
+            document.body.classList.add('mobile-more-open');
+            sheet.querySelector('[data-mobile-more-action]')?.focus();
+          };
+          const closeMore = () => {
+            if (sheet.hidden) return;
+            sheet.hidden = true;
+            backdrop.hidden = true;
+            moreButton?.setAttribute('aria-expanded', 'false');
+            document.body.classList.remove('mobile-more-open');
+            if (previousFocus && typeof previousFocus.focus === 'function') previousFocus.focus();
+          };
+          nav.addEventListener('click', event => {
+            const button = event.target.closest('[data-mobile-nav]');
+            if (!button) return;
+            const key = button.dataset.mobileNav;
+            if (key === 'more') { sheet.hidden ? openMore() : closeMore(); return; }
+            setActive(key);
+            if (key === 'home') { window.scrollTo({top: 0, behavior: 'smooth'}); return; }
+            if (key === 'search') {
+              const searchModal = document.getElementById('questionSearchModal');
+              if (searchModal && !searchModal.hidden) document.getElementById('questionSearchInput')?.focus();
+              else document.getElementById('dashboardSearch')?.dispatchEvent(new KeyboardEvent('keydown', {key:'Enter', bubbles:true}));
+              document.getElementById('questionSearchModal')?.removeAttribute('hidden');
+              document.getElementById('questionSearchModal')?.setAttribute('aria-hidden','false');
+              document.getElementById('questionSearchInput')?.focus();
+              return;
+            }
+            if (key === 'quiz') {
+              document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]')?.click();
+              return;
+            }
+          });
+          backdrop.addEventListener('click', closeMore);
+          sheet.querySelectorAll('[data-mobile-more-close]').forEach(button => button.addEventListener('click', closeMore));
+          sheet.addEventListener('click', event => {
+            const action = event.target.closest('[data-mobile-more-action]')?.dataset.mobileMoreAction;
+            if (!action) return;
+            closeMore();
+            if (action === 'profile') document.getElementById('dashProfileButton')?.click();
+            if (action === 'theme') window.toggleTheme?.();
+            if (action === 'backup') document.getElementById('backupPanel')?.scrollIntoView({behavior:'smooth', block:'start'});
+          });
+          sheet.querySelectorAll('[data-open-changelog]').forEach(button => button.addEventListener('click', closeMore));
+          document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMore(); });
+          document.querySelectorAll('#questionSearchClose, #questionSearchBackdrop').forEach(element => element.addEventListener('click', () => setActive('home')));
+          document.querySelectorAll('.desktop-sidebar .sidebar-link[href="quiz.html"]').forEach(link => link.addEventListener('click', () => setActive('quiz')));
+        })();
+      </script>
+
       <script src="app.js"></script>
       <script src="dashboard.js"></script>
       <script src="question-search.js"></script>
