@@ -183,7 +183,6 @@
     progress.className = 'sm-page sm-progress-view sm-view';
     progress.id = 'smProgressView';
     progress.hidden = true;
-    // No page title — Progress tab already labels the section
     progress.innerHTML = '';
 
     const builder = document.createElement('section');
@@ -216,12 +215,18 @@
     stats.id = 'dashStats';
     stats.classList.add('dash-stats');
 
-    // Dashboard order: metrics → rhythm tracker → year → subjects
-    progress.appendChild(metricGrid);
+    // Dashboard order (mockup): heatmap → daily stats → metrics → year → subjects
     if (activityPanel) {
       activityPanel.classList.add('sm-rhythm-card');
+      const heading = activityPanel.querySelector('.dash-panel-heading');
+      if (heading) {
+        const h2 = heading.querySelector('h2');
+        if (h2) h2.hidden = true;
+        heading.classList.add('sm-rhythm-heading');
+      }
       progress.appendChild(activityPanel);
     }
+    progress.appendChild(metricGrid);
     if (yearRow) {
       yearRow.classList.add('sm-progress-years');
       progress.appendChild(yearRow);
@@ -230,6 +235,8 @@
     if (donuts) progress.appendChild(donuts);
     if (subjectDropdown) {
       subjectDropdown.classList.add('sm-subject-card');
+      subjectDropdown.open = false;
+      subjectDropdown.removeAttribute('open');
       progress.appendChild(subjectDropdown);
     }
 
@@ -282,7 +289,15 @@
         }
       });
       body.dataset.smView = which;
-      if (which === 'progress') renderMetrics();
+      if (which === 'progress') {
+        renderMetrics();
+        // Keep subject list collapsed by default each visit on phone
+        const sd = $('subjectProgressDropdown');
+        if (sd && window.matchMedia('(max-width: 767px)').matches) {
+          sd.open = false;
+          sd.removeAttribute('open');
+        }
+      }
       window.scrollTo({
         top: 0,
         behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
@@ -425,31 +440,19 @@
                 ? s.progress !== null
                 : s[metric] > 0
           )
-          .sort((a, c) => {
-            const av = Number(a[metric]);
-            const bv = Number(c[metric]);
-            return bv - av;
-          });
+          .sort((a, c) => Number(c[metric]) - Number(a[metric]));
         const title = $('smRankingTitle');
         if (title) title.textContent = 'Top subjects · ' + labels[metric];
         const host = $('smRankingContent');
         if (host) {
           host.innerHTML = sorted.length
             ? '<ol class="sm-rank-list">' +
-                sorted
-                  .slice(0, 12)
-                  .map(
-                    s =>
-                      '<li><strong>' +
-                      s.name +
-                      '</strong><span>' +
-                      (metric === 'accuracy' || metric === 'progress'
-                        ? s[metric] + '%'
-                        : s[metric].toLocaleString()) +
-                      '</span></li>'
-                  )
-                  .join('') +
-                '</ol>'
+                sorted.slice(0, 12).map(s =>
+                  '<li><strong>' + s.name + '</strong><span>' +
+                  (metric === 'accuracy' || metric === 'progress' ? s[metric] + '%' : s[metric].toLocaleString()) +
+                  '</span></li>'
+                ).join('') +
+              '</ol>'
             : '<p class="sm-empty">There is not enough saved data to rank subjects for this metric yet.</p>';
         }
         showRank();
