@@ -13915,10 +13915,10 @@ body[data-course="hub"] {
 /* StudyMats mobile subject browser and quiz launcher popups */
 body[data-course="hub"].study-mats-action-open { overflow: hidden !important; }
 body[data-course="hub"] .study-mats-action-modal[hidden] { display: none !important; }
-body[data-course="hub"] .study-mats-action-dialog {
-  width: 75dvh;
-  max-width: 75dvh;
-  max-height: min(90vw, 900px);
+body[data-course="hub"] #studyMatsActionModal .question-search-dialog {
+  width: 75vw;
+  max-width: 75vw;
+  max-height: min(90dvh, 900px);
   border-color: var(--border);
   background: var(--bg-card, var(--bg));
 }
@@ -14072,7 +14072,7 @@ body[data-course="hub"] .study-mats-start-quiz {
   body[data-course="hub"] .mobile-nav-item small { font-size: 10px; }
   body[data-course="hub"] .mobile-nav-item.is-current { color: var(--gold-primary); }
   body[data-course="hub"] .study-mats-action-modal { padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom)); }
-  body[data-course="hub"] .study-mats-action-dialog { width: calc(100vw - 16px); max-width: calc(100vw - 16px); max-height: calc(100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); border-radius: 16px; }
+  body[data-course="hub"] #studyMatsActionModal .question-search-dialog { width: calc(100vw - 16px); max-width: calc(100vw - 16px); max-height: calc(100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); border-radius: 16px; }
   body[data-course="hub"] .study-mats-action-dialog .qs-header { padding: 16px 16px 12px; gap: 10px; }
   body[data-course="hub"] .study-mats-action-content { padding: 12px 13px max(14px, env(safe-area-inset-bottom)); }
   body[data-course="hub"] #studyMatsBrowseView .hub-subjects { grid-template-columns: minmax(0, 1fr); max-height: 52dvh; }
