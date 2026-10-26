@@ -42,9 +42,9 @@ function buildHeatmap(){
   const label=monthStart||(i===0?firstVisible:null);
   return '<span>'+((label)?esc(label.date.toLocaleDateString(undefined,{month:'short'})):'')+'</span>';
  }).join('');
- const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row">'+weeks.map(w=>{const x=w[r];return x&&x.inRange?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty" aria-hidden="true"></span>'}).join('')+'</div>').join('');
- const weekdayLabels='<span class="dash-weekday-mon">Mon</span><span class="dash-weekday-wed">Wed</span><span class="dash-weekday-fri">Fri</span><span class="dash-weekday-sun">Sun</span>';
- return {html:'<div class="dash-heatmap-scroll" role="region" aria-label="Study activity calendar" tabindex="0"><div class="dash-month-labels"><span class="dash-weekday-spacer" aria-hidden="true"></span>'+labels+'</div><div class="dash-heatmap-layout"><div class="dash-weekday-labels">'+weekdayLabels+'</div><div class="dash-heatmap">'+rows+'</div></div></div>',active,streak,longest,total};
+ const weekdayNames=['Mon','','Wed','','Fri','','Sun'];
+ const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row"><span class="dash-weekday-label">'+weekdayNames[r]+'</span><div class="dash-heat-week-cells">'+weeks.map(w=>{const x=w[r];return x&&x.inRange?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty" aria-hidden="true"></span>'}).join('')+'</div></div>').join('');
+ return {html:'<div class="dash-heatmap-scroll" role="region" aria-label="Study activity calendar" tabindex="0"><div class="dash-month-labels"><span class="dash-weekday-spacer" aria-hidden="true"></span>'+labels+'</div><div class="dash-heatmap">'+rows+'</div></div>',active,streak,longest,total};
 }
 async function load(){
  const sourceUrl=dashboardAssetUrl('subjects.json');
