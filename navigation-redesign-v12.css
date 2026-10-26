@@ -1,0 +1,74 @@
+/* v12 mobile polish overrides */
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashStats,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashDonuts,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-stats {
+  display: none !important;
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="builder"] main.wrapper {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  overflow-x: hidden;
+}
+.sm-builder-view {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.sm-builder-toolbar { display: none !important; height: 0 !important; overflow: hidden !important; }
+.sm-builder-view iframe {
+  width: 100% !important;
+  height: calc(100dvh - 48px - env(safe-area-inset-top, 0px) - 58px - env(safe-area-inset-bottom, 0px)) !important;
+  min-height: 70dvh !important;
+  border: 0 !important;
+  display: block !important;
+  background: #0b1220;
+}
+.sm-nav-search > span[aria-hidden] {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  font-size: 14px;
+  line-height: 1;
+  opacity: 0.55;
+}
+.sm-nav-search::before { content: none !important; display: none !important; }
+.sm-backup-sheet .dash-data-actions {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  width: 100% !important;
+}
+.sm-backup-sheet .dash-button {
+  width: 100% !important;
+  min-height: 48px !important;
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+}
+.sm-backup-sheet .dash-data-actions input[type="file"] { display: none !important; }
+@media (min-width: 768px) {
+  .sm-backup-sheet .dash-data-actions {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    flex-direction: unset !important;
+  }
+}
+.sm-profile-menu {
+  min-width: 232px !important;
+  max-width: min(300px, calc(100vw - 20px)) !important;
+  padding: 10px !important;
+  border-radius: 18px !important;
+  box-shadow: 0 18px 48px rgba(0,0,0,.16) !important;
+}
+.sm-menu-action {
+  padding: 13px 12px !important;
+  border-radius: 12px !important;
+  font-weight: 500 !important;
+}
+.sm-modal-dialog.sm-backup-sheet {
+  width: min(100%, 480px) !important;
+  padding-bottom: max(16px, env(safe-area-inset-bottom, 0px)) !important;
+}
