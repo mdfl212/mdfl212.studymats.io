@@ -7452,10 +7452,10 @@ body[data-course="hub"] .hub-year-dropdown .status-message { margin-inline:15px;
   body[data-course="hub"] .dash-donut-wrap { grid-template-columns: 66px minmax(0, 1fr); column-gap: 9px; }
   body[data-course="hub"] .dash-donut { width: 66px; height: 66px; }
   body[data-course="hub"] .dash-panel-heading h2 { font-size: 19px; }
-  body[data-course="hub"] .dash-heatmap-container { max-width: 100%; }
+
   body[data-course="hub"] .dash-activity-panel .dash-activity-heading { gap: 10px; }
   body[data-course="hub"] .dash-activity-panel .dash-range-picker button { padding: 5px 8px; font-size: 9px; }
-  body[data-course="hub"] .dash-activity-panel .dash-heat-cell { width: 10px; height: 10px; }
+
   body[data-course="hub"] .dash-data-actions { gap: 6px; }
   body[data-course="hub"] .dash-data-actions .dash-button { font-size: 10px; padding: 7px 9px; }
 }
@@ -10092,13 +10092,7 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
     display: flex;
     flex-direction: column;
   }
-  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > #dashHeatmap {
-    flex: 1 1 auto;
-    min-height: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+
   html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > .dash-legend,
   html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > .dash-activity-stats,
   html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > .dash-data-caption {
@@ -10111,9 +10105,7 @@ html[data-course="hub"] body[data-course="hub"] #studyDashboard #subjectProgress
 
 /* On narrower layouts the panels stack, so don't create artificial vertical space. */
 @media (max-width: 1100px) {
-  html[data-course="hub"] body[data-course="hub"] #studyDashboard > .dash-activity-panel > #dashHeatmap {
-    display: block;
-  }
+
 }
 
 /* Match Subject Progress heading alignment and spacing to Daily Study Rhythm. */
@@ -11895,10 +11887,7 @@ body[data-course="quiz"] .table-scroll {
     font-size: 10px !important;
   }
 
-  html[data-course="hub"] body[data-course="hub"] .dash-heatmap-container {
-    max-width: 100% !important;
-    overflow-x: auto !important;
-  }
+
 
   html[data-course="hub"] body[data-course="hub"] .dash-activity-stats {
     display: grid !important;
@@ -12146,10 +12135,7 @@ body[data-course="quiz"] .table-scroll {
     font-size: 9px !important;
   }
 
-  html[data-course="hub"] body[data-course="hub"] .dash-heatmap-container {
-    max-height: 94px !important;
-    overflow: hidden !important;
-  }
+
 
   html[data-course="hub"] body[data-course="hub"] .dash-legend {
     margin: 4px 0 !important;
@@ -12394,10 +12380,7 @@ body[data-course="quiz"] .table-scroll {
     font-size: 25px !important;
   }
 
-  body[data-course="hub"] .dash-heatmap-container,
-  body[data-course="hub"] .dash-heatmap-scroll {
-    max-width: 100% !important;
-  }
+
 }
 
 
