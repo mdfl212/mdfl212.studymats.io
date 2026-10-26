@@ -87,3 +87,8 @@ html[data-theme="dark"] .sm-global-nav { background:var(--bg, #111318); }
  .sm-streak { margin:4px 0 0; }
  .sm-backup-host .dash-data-actions .dash-button { flex:1 1 100%; }
 }
+
+.sm-builder-view { height:calc(100dvh - 88px); display:flex; flex-direction:column; }
+.sm-builder-toolbar { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:10px 0; color:var(--text-sub); font-size:13px; }
+.sm-builder-toolbar .sm-primary-action { min-height:36px; padding:8px 12px; font-size:12px; }
+.sm-builder-view iframe { flex:1 1 auto; min-height:0; }
