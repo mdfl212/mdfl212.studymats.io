@@ -384,8 +384,10 @@ body.sm-embedded-builder .top-actions {
   /* Scale the embedded workspace slightly while compensating its layout width,
      so the visual result stays inside the iframe rather than causing sideways scroll. */
   body.sm-embedded-builder .app {
-    width: 111.111%;
-    zoom: 0.9;
+    /* Scale the complete embedded UI (type, cards, spacing, borders and controls). */
+    width: 125%;
+    zoom: 0.8;
+    transform: none;
   }
   body.sm-embedded-builder .welcome-art {
     grid-template-columns: minmax(0, 1fr);
@@ -402,47 +404,10 @@ body.sm-embedded-builder .top-actions {
 }
 body.sm-embedded-builder .screen.active { animation: none; }
 
-/* Embedded mobile typography and bottom-nav clearance */
+/* Embedded mobile workspace scale: leave the original proportions intact. */
 @media (max-width: 760px) {
   body.sm-embedded-builder .shell {
-    font-size: 13px;
     padding-bottom: calc(150px + env(safe-area-inset-bottom));
-  }
-  body.sm-embedded-builder .hero-title {
-    font-size: clamp(29px, 7.8vw, 38px);
-    line-height: 1.08;
-    letter-spacing: -.045em;
-    margin-bottom: 16px;
-  }
-  body.sm-embedded-builder .hero-copy,
-  body.sm-embedded-builder .screen p:not(.eyebrow) {
-    font-size: .94em;
-    line-height: 1.55;
-  }
-  body.sm-embedded-builder .eyebrow {
-    font-size: 9px;
-    letter-spacing: .11em;
-  }
-  body.sm-embedded-builder .subject-card,
-  body.sm-embedded-builder .destination-card,
-  body.sm-embedded-builder .choice-card {
-    font-size: .94em;
-  }
-  body.sm-embedded-builder .subject-card h3,
-  body.sm-embedded-builder .destination-card h3,
-  body.sm-embedded-builder .choice-card h3 {
-    font-size: 1.05em;
-  }
-  body.sm-embedded-builder button,
-  body.sm-embedded-builder input,
-  body.sm-embedded-builder select,
-  body.sm-embedded-builder textarea {
-    font-size: .94em;
-  }
-  body.sm-embedded-builder .wizard-footer,
-  body.sm-embedded-builder .step-actions,
-  body.sm-embedded-builder .setup-actions {
-    margin-bottom: 18px;
   }
 }
 </style>
