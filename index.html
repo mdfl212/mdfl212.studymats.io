@@ -8,7 +8,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
   <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
   <link rel="stylesheet" href="navigation-redesign.css?v=13" />
-  <link rel="stylesheet" href="navigation-redesign-v12.css?v=13" />
+  <link rel="stylesheet" href="navigation-redesign-v12.css?v=14" />
   <link rel="stylesheet" href="navigation-redesign-search.css?v=5" />
   <link rel="stylesheet" href="navigation-redesign-progress.css?v=6" />
   <script src="theme.js"></script>
@@ -316,17 +316,10 @@
       el.hidden = true; el.style.display = 'none';
     });
     document.querySelectorAll('.study-mats-mode-picker button').forEach(btn => {
-      btn.style.wordBreak = 'normal';
-      btn.style.whiteSpace = 'normal';
-      btn.style.writingMode = 'horizontal-tb';
-      btn.style.textAlign = 'center';
+      btn.style.cssText += 'display:flex!important;flex-direction:row!important;align-items:center!important;white-space:nowrap!important;word-break:normal!important;writing-mode:horizontal-tb!important;min-height:48px!important;width:100%!important;';
       const strong = btn.querySelector('strong');
       if (strong) {
-        strong.style.wordBreak = 'normal';
-        strong.style.whiteSpace = 'normal';
-        strong.style.display = 'block';
-        strong.style.width = 'auto';
-        strong.style.fontSize = '14px';
+        strong.style.cssText = 'display:inline!important;white-space:nowrap!important;word-break:normal!important;writing-mode:horizontal-tb!important;font-size:15px!important;width:auto!important;';
       }
     });
   };
