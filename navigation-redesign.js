@@ -30,9 +30,9 @@
    searchInput.addEventListener('input',()=>{oldSearch.value=searchInput.value;oldSearch.dispatchEvent(new Event('input',{bubbles:true}));});
    searchInput.addEventListener('click',()=>oldSearch.click());
    searchInput.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();oldSearch.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}));}});
-
   }
-  document.querySelector('.sm-nav-search kbd').textContent=/Mac|iPhone|iPad/.test(navigator.platform||'')?'⌘ K':'Ctrl K';
+  const kbdEl=document.querySelector('.sm-nav-search kbd');
+  if(kbdEl)kbdEl.textContent=/Mac|iPhone|iPad/.test(navigator.platform||'')?'⌘ K':'Ctrl K';
   const themeButton=oldTop.querySelector('[data-theme-toggle]');
   const themeClone=document.createElement('button');themeClone.type='button';themeClone.className='sm-nav-link';themeClone.textContent='◐';themeClone.setAttribute('aria-label','Toggle theme');themeClone.title='Toggle theme';themeClone.addEventListener('click',()=>themeButton?.click());
   nav.querySelector('.sm-nav-actions').prepend(themeClone);
@@ -46,14 +46,14 @@
   profileButton.addEventListener('click',e=>{e.stopPropagation();profileMenu.hidden=!profileMenu.hidden;profileButton.setAttribute('aria-expanded',String(!profileMenu.hidden));});
   document.addEventListener('click',e=>{if(!e.target.closest('.sm-nav-actions'))closeProfile();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeProfile();});
-  $('smEditName').addEventListener('click',()=>{closeProfile();$('dashProfileButton')?.click();});
-  document.querySelectorAll('[data-sm-changelog]').forEach(b=>b.addEventListener('click',()=>{closeProfile();$('changelogModal').hidden=false;$('changelogModal').classList.add('is-open');$('changelogModal').querySelector('[data-close-changelog]')?.focus();}));
-  const backup=$('backupPanel');if(backup)$('smBackupHost').appendChild(backup);
+  $('smEditName')?.addEventListener('click',()=>{closeProfile();$('dashProfileButton')?.click();});
+  document.querySelectorAll('[data-sm-changelog]').forEach(b=>b.addEventListener('click',()=>{closeProfile();const cm=$('changelogModal');if(cm){cm.hidden=false;cm.classList.add('is-open');cm.querySelector('[data-close-changelog]')?.focus();}}));
+  const backup=$('backupPanel');if(backup)$('smBackupHost')?.appendChild(backup);
   const dashboard=$('studyDashboard');
   const welcome=document.createElement('section');welcome.className='sm-page sm-welcome';welcome.id='smHomeView';
   const greet=greetings[Math.floor(Math.random()*greetings.length)];
   welcome.innerHTML='<h1 id="smWelcomeName">Hi there</h1><p id="smWelcomePrompt"></p><div class="sm-welcome-actions"><button class="sm-primary-action primary" id="smStartQuiz" type="button">Start Quiz <span aria-hidden="true">→</span></button><button class="sm-primary-action" id="smCheckProgress" type="button">Check Your Progress</button><span class="sm-streak" id="smStreak" aria-live="polite">Study streak · —</span></div>';
-  $('smWelcomePrompt').textContent=greet;
+  welcome.querySelector('#smWelcomePrompt').textContent=greet;
   const views=document.createElement('div');views.id='smAppViews';
   const progress=document.createElement('section');progress.className='sm-page sm-progress-view sm-view';progress.id='smProgressView';progress.hidden=true;progress.innerHTML='<h1 class="sm-view-title">Study Progress</h1>';
   const builder=document.createElement('section');builder.className='sm-builder-view sm-view';builder.id='smBuilderView';builder.hidden=true;builder.innerHTML='<div class="sm-builder-toolbar"><button type="button" class="sm-primary-action" id="smBuilderHome">← Back to welcome</button><span>Test Bank Builder</span></div><iframe id="smBuilderFrame" title="StudyMats Test Bank Builder" src="test-bank-builder-v2.html"></iframe>';
@@ -69,8 +69,7 @@
   const oldBackup=$('backupPanel');if(oldBackup)oldBackup.hidden=false;
   wrapper.insertBefore(welcome,oldTop.nextSibling);
   wrapper.insertBefore(views, welcome.nextSibling);views.append(progress,builder);
-  // Keep the legacy dashboard as a hidden data/render host.
-  // style.css sets display:grid on .study-dashboard which overrides [hidden] alone.
+  // Force-hide legacy host: style.css display:grid overrides [hidden] alone.
   dashboard.hidden=true;
   dashboard.setAttribute('hidden','');
   dashboard.style.setProperty('display','none','important');
@@ -95,14 +94,14 @@
    if(which==='progress')renderMetrics();
    window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
   };
-  nav.querySelector('[data-sm-nav="quiz"]').addEventListener('click',()=>{const trigger=$('[data-mobile-quiz]')||document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]');if(trigger)trigger.click();else $('smStartQuiz').click();});
+  nav.querySelector('[data-sm-nav="quiz"]').addEventListener('click',()=>{const trigger=$('[data-mobile-quiz]')||document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]');if(trigger)trigger.click();else $('smStartQuiz')?.click();});
   nav.querySelector('[data-sm-nav="browse"]').addEventListener('click',()=>{const trigger=$('[data-open-subject-browser]')||document.querySelector('[data-sidebar-subjects]');if(trigger)trigger.click();});
   nav.querySelector('[data-sm-nav="progress"]').addEventListener('click',()=>setView('progress'));
   nav.querySelector('[data-sm-nav="builder"]').addEventListener('click',()=>setView('builder'));
-  $('smBuilderHome').addEventListener('click',()=>setView('home'));
+  $('smBuilderHome')?.addEventListener('click',()=>setView('home'));
   nav.querySelector('.sm-nav-brand').addEventListener('click',e=>{e.preventDefault();setView('home')});
-  $('smStartQuiz').addEventListener('click',()=>nav.querySelector('[data-sm-nav="quiz"]').click());
-  $('smCheckProgress').addEventListener('click',()=>setView('progress'));
+  $('smStartQuiz')?.addEventListener('click',()=>nav.querySelector('[data-sm-nav="quiz"]').click());
+  $('smCheckProgress')?.addEventListener('click',()=>setView('progress'));
   const streak=()=>{
    const data=safeParse(localStorage.getItem(ACTIVITY_KEY),{}),today=new Date();today.setHours(12,0,0,0);
    const key=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
@@ -110,7 +109,7 @@
    while(Array.isArray(data[key(d)])&&data[key(d)].length){n++;d.setDate(d.getDate()-1)}
    return n;
   };
-  function refreshStreak(){const n=streak();$('smStreak').textContent=n?('🔥 '+n+' day'+(n===1?'':'s')+' streak'):'Study streak · No activity yet';}
+  function refreshStreak(){const el=$('smStreak');if(!el)return;const n=streak();el.textContent=n?('🔥 '+n+' day'+(n===1?'':'s')+' streak'):'Study streak · No activity yet';}
   const loadRankData=async()=>{
    try{
     const catalog=await fetch('subjects.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()});
@@ -146,7 +145,7 @@
   const changelog=$('changelogModal');
   if(changelog){
    const actions=changelog.querySelector('.dash-modal-actions');
-   if(actions&&!actions.querySelector('.sm-dont-show')){const b=document.createElement('button');b.type='button';b.className='dash-button sm-dont-show';b.textContent="Don\'t show again";b.addEventListener('click',()=>{try{localStorage.setItem('studymats-whats-changed-optout-v1','1');localStorage.setItem('studymats-whats-changed-seen-v1','1')}catch{}changelog.hidden=true;changelog.classList.remove('is-open')});actions.prepend(b)}
+   if(actions&&!actions.querySelector('.sm-dont-show')){const b=document.createElement('button');b.type='button';b.className='dash-button sm-dont-show';b.textContent="Don't show again";b.addEventListener('click',()=>{try{localStorage.setItem('studymats-whats-changed-optout-v1','1');localStorage.setItem('studymats-whats-changed-seen-v1','1')}catch{}changelog.hidden=true;changelog.classList.remove('is-open')});actions.prepend(b)}
    const markSeen=()=>{try{localStorage.setItem('studymats-whats-changed-seen-v1','1')}catch{}};
    changelog.querySelectorAll('[data-close-changelog]').forEach(b=>b.addEventListener('click',markSeen));
    changelog.addEventListener('click',e=>{if(e.target===changelog)markSeen()});
