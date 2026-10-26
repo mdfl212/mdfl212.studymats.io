@@ -84,6 +84,31 @@
     const themeButton = oldTop.querySelector('[data-theme-toggle]');
     $('smThemeToggle')?.addEventListener('click', () => themeButton?.click());
 
+    // Keep the embedded Test Bank Builder on the same theme as the main app.
+    const builderFrame = $('smBuilderFrame');
+    const syncBuilderTheme = () => {
+      if (!builderFrame || !builderFrame.contentWindow) return;
+      const theme = document.documentElement.getAttribute('data-theme') || 'light';
+      builderFrame.contentWindow.postMessage({ type: 'studymats-theme', theme }, window.location.origin);
+    };
+    builderFrame?.addEventListener('load', syncBuilderTheme);
+    if (builderFrame) {
+      try {
+        const themeObserver = new MutationObserver(syncBuilderTheme);
+        themeObserver.observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ['data-theme']
+        });
+        window.addEventListener('pageshow', syncBuilderTheme);
+      } catch (_) {}
+      window.addEventListener('message', event => {
+        if (event.source !== builderFrame.contentWindow ||
+            !event.data || event.data.type !== 'studymats-builder-ready') return;
+        syncBuilderTheme();
+      });
+      syncBuilderTheme();
+    }
+
     const profileMenu = $('smProfileMenu');
     const profileButton = $('smProfileButton');
     const updateProfile = () => {
