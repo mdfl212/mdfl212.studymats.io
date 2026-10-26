@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
   <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
-  <link rel="stylesheet" href="navigation-redesign.css?v=10" />
+  <link rel="stylesheet" href="navigation-redesign.css?v=11" />
   <script src="theme.js"></script>
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#fbf8f5">
@@ -292,7 +292,43 @@
     });
   }
   </script>
-  <script src="./navigation-redesign.js?v=10"></script>
+  <script src="./navigation-redesign.js?v=11"></script>
+<script>
+/* StudyMats mobile polish patch v10 */
+(() => {
+  const run = () => {
+    document.querySelectorAll('.sm-builder-toolbar').forEach(el => el.remove());
+    document.querySelectorAll('.sm-nav-search > span[aria-hidden]').forEach(el => { el.textContent = ''; });
+    document.querySelectorAll('#studyMatsActionModal [data-year="resources"]').forEach(el => {
+      el.hidden = true; el.style.display = 'none';
+    });
+    document.querySelectorAll('.study-mats-mode-picker button').forEach(btn => {
+      btn.style.wordBreak = 'normal';
+      btn.style.whiteSpace = 'normal';
+      btn.style.writingMode = 'horizontal-tb';
+      btn.style.textAlign = 'center';
+      const strong = btn.querySelector('strong');
+      if (strong) {
+        strong.style.wordBreak = 'normal';
+        strong.style.whiteSpace = 'normal';
+        strong.style.display = 'block';
+        strong.style.width = 'auto';
+        strong.style.fontSize = '14px';
+      }
+    });
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => setTimeout(run, 400));
+  } else {
+    setTimeout(run, 400);
+  }
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('[data-sm-nav="quiz"], #smStartQuiz, [data-mobile-quiz]')) {
+      setTimeout(run, 200);
+    }
+  });
+})();
+</script>
   <script src="./offline-status.js"></script>
 </body>
 </html>
