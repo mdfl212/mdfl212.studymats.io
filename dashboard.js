@@ -11,7 +11,7 @@ const activity=()=>{try{return parse(localStorage.getItem(ACTIVITY),{})}catch{re
 const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(PREFIX)).map(key=>({key,id:decodeURIComponent(key.slice(PREFIX.length)),data:parse(localStorage.getItem(key),{})}))}catch{return []}};
 const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
 const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
-let subjects=[], dataBySubject=new Map(), failedSubjects=new Map(), range=365, selectedYear='YL1';
+let subjects=[], dataBySubject=new Map(), failedSubjects=new Map(), range=180, selectedYear='YL1';
 function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
@@ -43,7 +43,8 @@ function buildHeatmap(){
   return '<span>'+((label)?esc(label.date.toLocaleDateString(undefined,{month:'short'})):'')+'</span>';
  }).join('');
  const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row">'+weeks.map(w=>{const x=w[r];return x&&x.inRange?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty" aria-hidden="true"></span>'}).join('')+'</div>').join('');
- return {html:'<div class="dash-heatmap-scroll" role="region" aria-label="Study activity calendar" tabindex="0"><div class="dash-month-labels">'+labels+'</div><div class="dash-heatmap-layout"><div class="dash-heatmap">'+rows+'</div></div></div>',active,streak,longest,total};
+ const weekdayLabels='<span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span><span></span>';
+ return {html:'<div class="dash-heatmap-scroll" role="region" aria-label="Study activity calendar" tabindex="0"><div class="dash-month-labels"><span class="dash-weekday-spacer" aria-hidden="true"></span>'+labels+'</div><div class="dash-heatmap-layout"><div class="dash-weekday-labels">'+weekdayLabels+'</div><div class="dash-heatmap">'+rows+'</div></div></div>',active,streak,longest,total};
 }
 async function load(){
  const sourceUrl=dashboardAssetUrl('subjects.json');
@@ -122,7 +123,7 @@ function render(){
  else if(loadMessage&&loadMessage.classList.contains('is-error')&&loadMessage.textContent.includes('question banks could not be loaded')){loadMessage.textContent='';loadMessage.classList.remove('is-error')}
  const subjectCount=document.querySelector('.dash-subject-count');if(subjectCount)subjectCount.textContent=selectedYear==='resources'?'Additional resources':selectedYear+' subjects';
  const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>total questions</span></div>';
- $('dashActivityCaption').textContent='Showing the last year. Daily history begins when tracking is enabled; older activity is not guessed.';
+ $('dashActivityCaption').textContent='Showing the last 6 months. Daily history begins when tracking is enabled; older activity is not guessed.';
 }
 function exportBackup(){
  const payload={app:'StudyMats',formatVersion:1,exportedAt:new Date().toISOString(),profile:profile(),progress:records().map(x=>({subjectId:x.id,data:x.data})),activity:activity()};
