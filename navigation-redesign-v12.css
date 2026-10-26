@@ -1,91 +1,48 @@
-/* v12 mobile polish overrides */
+/* StudyMats redesign v12 — layout polish overrides */
+
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashStats,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashDonuts,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-stats {
   display: none !important;
 }
+
 html[data-course="hub"] body.sm-redesign-active[data-sm-view="builder"] main.wrapper {
   max-width: none !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  overflow-x: hidden;
 }
-.sm-builder-view {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;
-}
-.sm-builder-toolbar { display: none !important; height: 0 !important; overflow: hidden !important; }
-.sm-builder-view iframe {
-  width: 100% !important;
-  height: calc(100dvh - 48px - env(safe-area-inset-top, 0px) - 58px - env(safe-area-inset-bottom, 0px)) !important;
-  min-height: 70dvh !important;
-  border: 0 !important;
-  display: block !important;
-  background: #0b1220;
-}
-.sm-nav-search > span[aria-hidden] {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 auto;
-  font-size: 14px;
-  line-height: 1;
-  opacity: 0.55;
-}
-.sm-nav-search::before { content: none !important; display: none !important; }
 
-/* ===== BACKUP SHEET (phone = vertical rows; wide = 3-col) =====
-   style.css uses body[data-course="hub"] .dash-data-actions { flex-direction:row }
-   so we must match or beat that specificity. */
-body[data-course="hub"] .sm-backup-sheet #backupPanel.dash-tools-panel,
-body[data-course="hub"] .sm-backup-sheet #backupPanel {
-  margin: 0 !important;
+html[data-course="hub"] body.sm-redesign-active .sm-builder-view {
   padding: 0 !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  background: transparent !important;
 }
-body[data-course="hub"] .sm-backup-sheet #backupPanel .dash-panel-heading {
+html[data-course="hub"] body.sm-redesign-active .sm-builder-toolbar {
   display: none !important;
 }
+html[data-course="hub"] body.sm-redesign-active .sm-builder-view iframe {
+  width: 100% !important;
+  min-height: calc(100dvh - 120px) !important;
+  border: 0 !important;
+}
+
+/* Backup sheet: stacked actions on phone */
 body[data-course="hub"] .sm-backup-sheet .dash-data-actions,
-body[data-course="hub"] .sm-modal-dialog.sm-backup-sheet .dash-data-actions,
 html[data-course="hub"] body.sm-redesign-active .sm-backup-sheet .dash-data-actions {
   display: flex !important;
   flex-direction: column !important;
   flex-wrap: nowrap !important;
-  align-items: stretch !important;
   gap: 10px !important;
   width: 100% !important;
-  max-width: 100% !important;
 }
-body[data-course="hub"] .sm-backup-sheet .dash-data-actions .dash-button,
 body[data-course="hub"] .sm-backup-sheet .dash-button,
 html[data-course="hub"] body.sm-redesign-active .sm-backup-sheet .dash-button {
   display: flex !important;
   width: 100% !important;
-  max-width: 100% !important;
   min-height: 48px !important;
-  height: auto !important;
   padding: 14px 16px !important;
   font-size: 14px !important;
-  line-height: 1.3 !important;
   justify-content: center !important;
   align-items: center !important;
   box-sizing: border-box !important;
-  flex: 0 0 auto !important;
-}
-body[data-course="hub"] .sm-backup-sheet .dash-data-actions input[type="file"] {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
-  position: absolute !important;
-  pointer-events: none !important;
-}
-body[data-course="hub"] .sm-backup-sheet .dash-data-message {
-  margin-top: 12px !important;
-  font-size: 13px !important;
 }
 .sm-modal-dialog.sm-backup-sheet {
   width: min(100%, 480px) !important;
@@ -114,4 +71,73 @@ body[data-course="hub"] .sm-backup-sheet .dash-data-message {
   padding: 13px 12px !important;
   border-radius: 12px !important;
   font-weight: 500 !important;
+}
+
+/* ===== Home keeps normal padding; quiz mode labels stay horizontal ===== */
+html[data-course="hub"] body.sm-redesign-active:not([data-sm-view="progress"]):not([data-sm-view="builder"]) main.wrapper {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome h1 {
+  padding-right: 8px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-primary-action {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+
+/* Quiz / Browse modal: mode buttons must not stack letters */
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker,
+body[data-course="hub"] .study-mats-mode-picker {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  grid-template-columns: none !important;
+}
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker button,
+body[data-course="hub"] .study-mats-mode-picker button {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  width: 100% !important;
+  min-height: 48px !important;
+  min-width: 0 !important;
+  padding: 12px 14px !important;
+  text-align: left !important;
+  white-space: nowrap !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  writing-mode: horizontal-tb !important;
+  grid-template-columns: none !important;
+  box-sizing: border-box !important;
+}
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker button strong,
+body[data-course="hub"] .study-mats-mode-picker button strong {
+  display: inline !important;
+  width: auto !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  writing-mode: horizontal-tb !important;
+  font-size: 15px !important;
+  line-height: 1.25 !important;
+  letter-spacing: normal !important;
+}
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker button small,
+body[data-course="hub"] .study-mats-mode-picker button small {
+  display: none !important;
+}
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker button > span,
+body[data-course="hub"] .study-mats-mode-picker button > span {
+  flex: 0 0 auto !important;
 }
