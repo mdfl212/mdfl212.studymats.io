@@ -1,1 +1,261 @@
-PLACEHOLDER_IDX
+<!doctype html>
+<html lang="en" data-course="hub" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>StudyMats Medical Question Bank</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
+  <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
+  <link rel="stylesheet" href="navigation-redesign.css?v=8" />
+  <script src="theme.js"></script>
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#fbf8f5">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="./assets/studymats-mark.svg">
+</head>
+<body data-course="hub">
+  <aside class="desktop-sidebar" aria-label="Primary navigation" hidden></aside>
+  <main class="wrapper" id="top">
+    <div class="app-topbar">
+      <label class="topbar-search">
+        <span>⌘</span>
+        <input id="dashboardSearch" type="search" placeholder="Search questions, topics, or keywords…">
+        <kbd>⌘ K</kbd>
+      </label>
+      <button class="topbar-theme" type="button" data-theme-toggle aria-label="Toggle theme"><span data-theme-icon>☾</span></button>
+      <button class="topbar-profile" id="dashProfileButtonTop" type="button"><span>S</span></button>
+    </div>
+    <div class="theme-toggle-wrapper"><button class="theme-toggle" data-theme-toggle type="button"><span data-theme-icon>🌙</span></button></div>
+    <header class="site-header"></header>
+    <div class="hub-year-row" role="tablist" aria-label="Year level selection">
+      <button class="hub-pill active" type="button" data-year="YL1" aria-pressed="true">YL1</button>
+      <button class="hub-pill" type="button" data-year="YL2">YL2</button>
+      <button class="hub-pill" type="button" data-year="YL3">YL3</button>
+      <button class="hub-pill" type="button" data-year="YL4">YL4</button>
+      <button class="hub-pill" type="button" data-year="resources">Additional Resources</button>
+    </div>
+    <section class="study-dashboard" id="studyDashboard" aria-labelledby="dashGreeting">
+      <div class="dash-welcome"><h2 id="dashGreeting">Your study space</h2><button class="dash-button dash-button-quiet" id="dashProfileButton" type="button">Set up profile</button></div>
+      <div id="dashStats" class="dash-stats"></div>
+      <div id="dashDonuts" hidden></div>
+      <details class="dash-panel dash-subject-dropdown" id="subjectProgressDropdown" open>
+        <summary class="dash-panel-heading"><h2 data-glance-year>YL1 subject progress</h2></summary>
+        <a class="mob-view-all mobile-only" href="#" data-open-subject-browser>View All</a>
+        <div class="dash-subject-list" id="dashSubjectList"></div>
+      </details>
+      <div class="dash-panel dash-activity-panel">
+        <div class="dash-panel-heading"><h2>Daily study rhythm</h2>
+          <div class="dash-range-picker" role="group">
+            <button type="button" data-activity-range="30">1 mo</button>
+            <button class="active" type="button" data-activity-range="180">6 mo</button>
+            <button type="button" data-activity-range="365">1 yr</button>
+          </div>
+        </div>
+        <div id="dashHeatmap" class="dash-heatmap-container"></div>
+        <div class="dash-activity-stats" id="dashActivityStats"></div>
+        <p class="dash-data-caption" id="dashActivityCaption"></p>
+      </div>
+      <div class="dash-panel dash-tools-panel" id="backupPanel">
+        <div class="dash-panel-heading"><h2>Backup & portability</h2></div>
+        <div class="dash-data-actions">
+          <button class="dash-button dash-button-primary" id="dashExportButton" type="button">↓ Export backup</button>
+          <button class="dash-button" id="dashImportButton" type="button">↑ Import backup</button>
+          <input id="dashImportFile" type="file" accept=".json,application/json" hidden>
+          <button class="dash-button dash-button-danger" id="dashResetButton" type="button">Reset saved progress</button>
+        </div>
+        <p class="dash-data-message" id="dashDataMessage" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <div class="question-search-modal study-mats-action-modal" id="studyMatsActionModal" hidden aria-hidden="true">
+    <div class="question-search-backdrop" id="studyMatsActionBackdrop"></div>
+    <section class="question-search-dialog study-mats-action-dialog" role="dialog" aria-modal="true" aria-labelledby="studyMatsActionTitle" tabindex="-1">
+      <header class="qs-header">
+        <div class="qs-header-copy">
+          <p class="dash-kicker" id="studyMatsActionEyebrow">STUDYMATS SUBJECT LIBRARY</p>
+          <h2 id="studyMatsActionTitle">Browse test banks</h2>
+          <p class="study-mats-action-description" id="studyMatsActionDescription">Choose a year level to explore subjects and question banks.</p>
+        </div>
+        <button type="button" id="studyMatsActionClose" class="qs-close" aria-label="Close popup">×</button>
+      </header>
+      <div class="study-mats-action-content" id="studyMatsBrowseView">
+        <div class="hub-year-row study-mats-modal-years" role="group">
+          <button class="hub-pill active" type="button" data-year="YL1">YL1</button>
+          <button class="hub-pill" type="button" data-year="YL2">YL2</button>
+          <button class="hub-pill" type="button" data-year="YL3">YL3</button>
+          <button class="hub-pill" type="button" data-year="YL4">YL4</button>
+          <button class="hub-pill" type="button" data-year="resources">Additional Resources</button>
+        </div>
+        <div class="hub-subjects" id="hubSubjectList" aria-live="polite"></div>
+        <div id="statusMessage" class="status-message" role="status"></div>
+      </div>
+      <div class="study-mats-action-content study-mats-quiz-content" id="studyMatsQuizView" hidden>
+        <label class="study-mats-field-label" for="studyMatsQuizSubject">Choose a subject</label>
+        <select id="studyMatsQuizSubject" class="study-mats-subject-select"><option value="">Loading subjects…</option></select>
+        <p class="study-mats-field-label">Choose a study mode</p>
+        <div class="study-mats-mode-picker" role="group">
+          <button type="button" data-launch-mode="exam" aria-pressed="true"><strong>Exam</strong></button>
+          <button type="button" data-launch-mode="review" aria-pressed="false"><strong>Review</strong></button>
+          <button type="button" data-launch-mode="key" aria-pressed="false"><strong>Answer Key</strong></button>
+        </div>
+        <p class="study-mats-launch-status" id="studyMatsLaunchStatus" role="status"></p>
+        <button class="dash-button dash-button-primary study-mats-start-quiz" id="studyMatsStartQuiz" type="button">Start Quiz →</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="question-search-modal" id="questionSearchModal" hidden aria-hidden="true">
+    <div class="question-search-backdrop" id="questionSearchBackdrop"></div>
+    <section class="question-search-dialog" role="dialog" aria-modal="true" aria-labelledby="questionSearchTitle">
+      <header class="qs-header"><div class="qs-header-copy"><h2 id="questionSearchTitle">Find a question</h2><label class="qs-search-box"><input id="questionSearchInput" type="search" placeholder="Search questions…" autocomplete="off"></label><p id="questionSearchStatus" role="status"></p></div><button type="button" id="questionSearchClose" class="qs-close">×</button></header>
+      <div class="qs-body"><div class="qs-results-column"><div id="questionSearchResults" class="qs-results"></div></div><div id="questionSearchPreview" class="qs-preview"></div></div>
+    </section>
+  </div>
+
+  <div class="dash-modal-backdrop dash-changelog-backdrop" id="changelogModal" hidden>
+    <section class="dash-modal dash-changelog-modal" role="dialog" aria-modal="true" aria-labelledby="changelogModalTitle">
+      <p class="dash-kicker">STUDYMATS UPDATES</p>
+      <h2 id="changelogModalTitle">What's changed</h2>
+      <div class="dash-changelog-list"></div>
+      <div class="dash-modal-actions"><button class="dash-button dash-button-primary" type="button" data-close-changelog>Got it</button></div>
+    </section>
+  </div>
+  <div class="dash-modal-backdrop" id="profileModal" hidden>
+    <section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle">
+      <h2 id="profileModalTitle">Make this space yours</h2>
+      <form id="profileForm">
+        <label for="profileName">Preferred name</label>
+        <input id="profileName" name="profileName" maxlength="60" autocomplete="given-name">
+        <label class="dash-checkbox-label"><input id="profileShowName" type="checkbox" checked><span>Show my name</span></label>
+        <div class="dash-modal-actions">
+          <button class="dash-button" id="profileSkipButton" type="button">Maybe later</button>
+          <button class="dash-button dash-button-primary" type="submit">Save preferences</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  <div class="dash-modal-backdrop" id="importModal" hidden>
+    <section class="dash-modal" role="dialog" aria-modal="true" aria-labelledby="importModalTitle">
+      <h2 id="importModalTitle">Import progress</h2>
+      <p id="importSummary"></p>
+      <div class="dash-modal-actions dash-import-actions">
+        <button class="dash-button" id="importCancelButton" type="button">Cancel</button>
+        <button class="dash-button" id="importMergeButton" type="button">Merge</button>
+        <button class="dash-button dash-button-danger" id="importReplaceButton" type="button">Replace</button>
+      </div>
+    </section>
+  </div>
+
+  <nav class="mobile-bottom-nav mobile-only" aria-label="Mobile navigation">
+    <a href="#top" class="mob-nav-item is-active" data-mobile-home><small>Home</small></a>
+    <button type="button" class="mob-nav-item" data-mobile-quiz><small>Quiz</small></button>
+    <button type="button" class="mob-nav-item" data-open-subject-browser><small>Subjects</small></button>
+    <a href="#studyDashboard" class="mob-nav-item" data-mobile-progress><small>Progress</small></a>
+  </nav>
+
+  <script src="app.js"></script>
+  <script src="dashboard.js"></script>
+  <script src="question-search.js"></script>
+  <script>
+  (() => {
+    const modal = document.getElementById('studyMatsActionModal');
+    const dialog = modal?.querySelector('.study-mats-action-dialog');
+    const closeButton = document.getElementById('studyMatsActionClose');
+    const backdrop = document.getElementById('studyMatsActionBackdrop');
+    const browseView = document.getElementById('studyMatsBrowseView');
+    const quizView = document.getElementById('studyMatsQuizView');
+    const title = document.getElementById('studyMatsActionTitle');
+    const eyebrow = document.getElementById('studyMatsActionEyebrow');
+    const description = document.getElementById('studyMatsActionDescription');
+    const subjectSelect = document.getElementById('studyMatsQuizSubject');
+    const launchStatus = document.getElementById('studyMatsLaunchStatus');
+    const startButton = document.getElementById('studyMatsStartQuiz');
+    if (!modal || !dialog || !closeButton || !backdrop) return;
+    let opener = null, previousOverflow = '', activeMode = 'exam', catalogPromise = null;
+    const closeModal = () => {
+      modal.hidden = true; modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = previousOverflow;
+      if (opener && typeof opener.focus === 'function') opener.focus();
+    };
+    const openModal = (mode) => {
+      previousOverflow = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      modal.hidden = false; modal.setAttribute('aria-hidden', 'false');
+      opener = document.activeElement;
+      if (mode === 'quiz') {
+        browseView.hidden = true; quizView.hidden = false;
+        eyebrow.textContent = 'START A QUIZ'; title.textContent = 'Choose subject and mode';
+        description.textContent = 'Pick a subject and how you want to practice.';
+        startButton.disabled = false; startButton.textContent = 'Start Quiz \u2192';
+        launchStatus.textContent = ''; loadCatalog();
+      } else {
+        browseView.hidden = false; quizView.hidden = true;
+        eyebrow.textContent = 'STUDYMATS SUBJECT LIBRARY'; title.textContent = 'Browse test banks';
+        description.textContent = 'Choose a year level to explore subjects and question banks.';
+      }
+      closeButton.focus();
+    };
+    const loadCatalog = () => {
+      if (catalogPromise) return catalogPromise;
+      catalogPromise = fetch('subjects.json', { cache: 'no-cache' })
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(list => {
+          subjectSelect.innerHTML = '<option value="">Select a subject\u2026</option>';
+          (list || []).forEach(s => {
+            const opt = document.createElement('option');
+            opt.value = s.id; opt.textContent = s.name || s.id;
+            subjectSelect.appendChild(opt);
+          });
+        })
+        .catch(() => {
+          subjectSelect.innerHTML = '<option value="">Could not load subjects</option>';
+          launchStatus.textContent = 'Subjects failed to load.';
+        });
+      return catalogPromise;
+    };
+    document.querySelectorAll('[data-open-subject-browser], [data-sidebar-subjects], [data-mobile-quiz]').forEach(el => {
+      el.addEventListener('click', e => {
+        e.preventDefault();
+        if (el.matches('[data-mobile-quiz]')) openModal('quiz');
+        else openModal('browse');
+      });
+    });
+    quizView?.querySelectorAll('[data-launch-mode]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeMode = btn.getAttribute('data-launch-mode') || 'exam';
+        quizView.querySelectorAll('[data-launch-mode]').forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
+      });
+    });
+    startButton?.addEventListener('click', () => {
+      if (!subjectSelect.value) { launchStatus.textContent = 'Choose a subject before starting.'; subjectSelect.focus(); return; }
+      const url = new URL('quiz.html', document.baseURI);
+      url.searchParams.set('subject', subjectSelect.value);
+      url.searchParams.set('mode', activeMode);
+      startButton.disabled = true; startButton.textContent = 'Opening quiz\u2026';
+      window.location.href = url.href;
+    });
+    closeButton.addEventListener('click', closeModal);
+    backdrop.addEventListener('click', closeModal);
+    modal.addEventListener('click', event => { if (event.target === modal) closeModal(); });
+    dialog.addEventListener('click', event => event.stopPropagation());
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !modal.hidden) { event.preventDefault(); closeModal(); }
+    });
+  })();
+  </script>
+  <script>
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js", { scope: "./" })
+        .catch((error) => console.warn("StudyMats offline support could not be registered:", error));
+    });
+  }
+  </script>
+  <script src="./navigation-redesign.js?v=8"></script>
+  <script src="./offline-status.js"></script>
+</body>
+</html>
