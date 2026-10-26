@@ -8,7 +8,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/studymats-mark.svg" />
   <link rel="stylesheet" href="style.css?v=20261026-mobile-popup-launcher" />
   <link rel="stylesheet" href="navigation-redesign.css?v=12" />
-  <link rel="stylesheet" href="navigation-redesign-v12.css?v=12" />
+  <link rel="stylesheet" href="navigation-redesign-v12.css?v=13" />
   <script src="theme.js"></script>
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#fbf8f5">
@@ -299,6 +299,13 @@
 (() => {
   const run = () => {
     document.querySelectorAll('.sm-builder-toolbar').forEach(el => el.remove());
+    // Force backup buttons to stack on phone
+    document.querySelectorAll('.sm-backup-sheet .dash-data-actions').forEach(el => {
+      el.style.cssText = 'display:flex!important;flex-direction:column!important;flex-wrap:nowrap!important;gap:10px!important;width:100%!important;';
+    });
+    document.querySelectorAll('.sm-backup-sheet .dash-button').forEach(el => {
+      el.style.cssText = 'display:flex!important;width:100%!important;min-height:48px!important;padding:14px 16px!important;font-size:14px!important;justify-content:center!important;align-items:center!important;box-sizing:border-box!important;';
+    });
     document.querySelectorAll('.sm-progress-view #dashStats, .sm-progress-view #dashDonuts, .sm-progress-view .dash-stats').forEach(el => {
       el.hidden = true; el.style.display = 'none';
     });
@@ -327,8 +334,8 @@
     setTimeout(run, 400);
   }
   document.addEventListener('click', (e) => {
-    if (e.target.closest('[data-sm-nav="quiz"], #smStartQuiz, [data-mobile-quiz], [data-sm-nav="progress"], [data-sm-nav="builder"]')) {
-      setTimeout(run, 200);
+    if (e.target.closest('[data-sm-nav="quiz"], #smStartQuiz, [data-mobile-quiz], [data-sm-nav="progress"], [data-sm-nav="builder"], #smOpenBackup, .sm-menu-action')) {
+      setTimeout(run, 150);
     }
   });
 })();
