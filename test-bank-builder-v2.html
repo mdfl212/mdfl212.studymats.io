@@ -341,6 +341,25 @@ a{color:var(--accent)}
 @media(max-width:600px){.conversion-workflow{inset:8px;max-height:calc(100dvh - 16px);border-radius:15px;padding:14px}.workflow-diagram{min-width:660px;max-height:34vh;min-height:220px} .workflow-close{width:30px;height:30px}.workflow-detail{grid-template-columns:minmax(0,1fr)}.workflow-detail-actions{justify-content:stretch;max-width:none}.workflow-detail-actions .btn{flex:1}}
 @media(prefers-reduced-motion:reduce){.workflow-backdrop,.conversion-workflow,.workflow-detail{animation:none!important}.workflow-connectors path{animation:none!important}.workflow-node{transition:none!important}}
 
+
+/* Embedded StudyMats shell integration */
+body.sm-embedded-builder .topbar { display: none !important; }
+body.sm-embedded-builder .app {
+  width: 125%;
+  zoom: 0.8;
+}
+body.sm-embedded-builder .shell {
+  padding-top: 28px;
+  padding-bottom: calc(28px + env(safe-area-inset-bottom));
+}
+body.sm-embedded-builder .screen.active { animation: none; }
+@supports not (zoom: 1) {
+  body.sm-embedded-builder .app {
+    width: 125%;
+    transform: scale(.8);
+    transform-origin: top left;
+  }
+}
 </style>
 </head>
 <body>
@@ -800,5 +819,37 @@ if('serviceWorker'in navigator&&(location.protocol==='https:'||location.hostname
 })();
 </script>
 <script src="./offline-status.js"></script>
+
+<script>
+(function () {
+  let embedded = false;
+  try { embedded = window.parent !== window; } catch (_) {}
+  if (!embedded) return;
+  document.body.classList.add('sm-embedded-builder');
+
+  function applyTheme(theme) {
+    if (theme !== 'light' && theme !== 'dark') return;
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
+    document.body.setAttribute('data-theme', theme);
+    try { localStorage.setItem('studymats-theme', theme); } catch (_) {}
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = theme === 'dark' ? '#0c1324' : '#f6f8fc';
+  }
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window.parent || !event.data || event.data.type !== 'studymats-theme') return;
+    applyTheme(event.data.theme);
+  });
+
+  try {
+    const theme = window.parent.document.documentElement.getAttribute('data-theme');
+    applyTheme(theme);
+  } catch (_) {
+    try { applyTheme(localStorage.getItem('studymats-theme')); } catch (_) {}
+  }
+  window.parent.postMessage({ type: 'studymats-builder-ready' }, window.location.origin);
+})();
+</script>
 </body>
 </html>
