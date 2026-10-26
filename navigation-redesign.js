@@ -23,6 +23,27 @@
     if (!wrapper || !oldTop) return;
 
     body.classList.add('sm-redesign-active');
+    /* Content-aware shell sizing: respond to the usable app container, not device labels. */
+    const shellRoot = document.documentElement;
+    const shellWrapper = document.querySelector('main.wrapper');
+    const updateShellLayout = () => {
+      const rootWidth = shellRoot.clientWidth || window.innerWidth;
+      const wrapperWidth = shellWrapper?.getBoundingClientRect().width || rootWidth;
+      const available = Math.min(rootWidth, wrapperWidth);
+      const layout = available < 720 ? 'compact' : available < 1040 ? 'balanced' : 'wide';
+      if (shellRoot.dataset.smLayout !== layout) {
+        shellRoot.dataset.smLayout = layout;
+        body.dataset.smLayout = layout;
+      }
+    };
+    if ('ResizeObserver' in window && shellWrapper) {
+      const shellResizeObserver = new ResizeObserver(updateShellLayout);
+      shellResizeObserver.observe(shellWrapper);
+    }
+    window.addEventListener('resize', updateShellLayout, { passive: true });
+    window.addEventListener('orientationchange', updateShellLayout, { passive: true });
+    updateShellLayout();
+
 
     const topbar = document.createElement('header');
     topbar.className = 'sm-topbar';
