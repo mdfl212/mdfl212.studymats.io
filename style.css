@@ -13916,7 +13916,8 @@ body[data-course="hub"] {
 body[data-course="hub"].study-mats-action-open { overflow: hidden !important; }
 body[data-course="hub"] .study-mats-action-modal[hidden] { display: none !important; }
 body[data-course="hub"] .study-mats-action-dialog {
-  width: min(1080px, calc(100vw - 32px));
+  width: min(1280px, calc(100vw - 32px));
+  max-width: none;
   max-height: min(90dvh, 900px);
   border-color: var(--border);
   background: var(--bg-card, var(--bg));
