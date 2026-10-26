@@ -105,28 +105,36 @@
     const themeButton = oldTop.querySelector('[data-theme-toggle]');
     $('smThemeToggle')?.addEventListener('click', () => themeButton?.click());
 
-    // Keep the embedded Test Bank Builder on the same theme as the main app.
-    const builderFrame = $('smBuilderFrame');
+    // Keep the embedded Test Bank Builder in sync, including when its iframe is
+    // created lazily after the user opens the Builder view.
+    let builderFrame = null;
     const syncBuilderTheme = () => {
-      if (!builderFrame || !builderFrame.contentWindow) return;
+      const frame = $('smBuilderFrame');
+      if (!frame || !frame.contentWindow) return;
+      if (frame !== builderFrame) {
+        builderFrame = frame;
+        builderFrame.addEventListener('load', syncBuilderTheme);
+      }
       const theme = document.documentElement.getAttribute('data-theme') || 'light';
       builderFrame.contentWindow.postMessage({ type: 'studymats-theme', theme }, window.location.origin);
     };
-    builderFrame?.addEventListener('load', syncBuilderTheme);
-    if (builderFrame) {
-      try {
-        const themeObserver = new MutationObserver(syncBuilderTheme);
-        themeObserver.observe(document.documentElement, {
-          attributes: true,
-          attributeFilter: ['data-theme']
-        });
-        window.addEventListener('pageshow', syncBuilderTheme);
-      } catch (_) {}
+    try {
+      const themeObserver = new MutationObserver(syncBuilderTheme);
+      themeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['data-theme']
+      });
+      const frameObserver = new MutationObserver(syncBuilderTheme);
+      frameObserver.observe(document.documentElement, { childList: true, subtree: true });
+      window.addEventListener('pageshow', syncBuilderTheme);
       window.addEventListener('message', event => {
-        if (event.source !== builderFrame.contentWindow ||
+        const frame = $('smBuilderFrame');
+        if (!frame || event.source !== frame.contentWindow ||
             !event.data || event.data.type !== 'studymats-builder-ready') return;
         syncBuilderTheme();
       });
+      syncBuilderTheme();
+    } catch (_) {
       syncBuilderTheme();
     }
 
