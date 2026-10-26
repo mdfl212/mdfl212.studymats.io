@@ -12,9 +12,6 @@ html[data-course="hub"] body.sm-redesign-active main.wrapper {
   width: 100%;
   min-width: 0;
   max-width: 1100px !important;
-  /* Override legacy desktop sidebar offsets: the redesigned shell has no left rail. */
-  margin-left: auto !important;
-  margin-right: auto !important;
   box-sizing: border-box;
   container-type: inline-size;
   transition: padding 220ms ease, max-width 220ms ease;
