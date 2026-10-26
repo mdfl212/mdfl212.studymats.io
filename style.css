@@ -6308,22 +6308,16 @@ body[data-course="hub"] .dash-donut-detail { margin-top:4px; color:var(--text-su
 body[data-course="hub"] .dash-activity-heading { align-items:flex-start; }
 body[data-course="hub"] .dash-range-picker { display:flex; gap:3px; padding:3px; border:1px solid var(--border); border-radius:9px; background:var(--bg); }
 body[data-course="hub"] .dash-range-picker button { border:0; border-radius:6px; padding:7px 9px; background:transparent; color:var(--text-sub); font:10px 'JetBrains Mono',monospace; cursor:pointer; }
-body[data-course="hub"] .dash-range-picker button.active { background:var(--dash-green); color:white; }/* Progress activity heatmap: GitHub-style six-month grid with sparse weekday labels. */
+body[data-course="hub"] .dash-range-picker button.active { background:var(--dash-green); color:white; }/* Progress activity heatmap: each weekday label shares a row with its cells. */
 body[data-course="hub"] .dash-heatmap-container { min-width:0; max-width:100%; }
-body[data-course="hub"] .dash-heatmap-scroll { width:100%; max-width:100%; min-width:0; overflow-x:auto; overflow-y:hidden; overscroll-behavior-inline:contain; -webkit-overflow-scrolling:touch; padding:0 0 6px; }
+body[data-course="hub"] .dash-heatmap-scroll { --dash-heat-cell-size:10px; --dash-heat-row-gap:3px; width:100%; max-width:100%; min-width:0; overflow-x:auto; overflow-y:hidden; overscroll-behavior-inline:contain; -webkit-overflow-scrolling:touch; padding:0 0 6px; }
 body[data-course="hub"] .dash-month-labels { display:grid; grid-template-columns:24px; grid-auto-columns:12px; grid-template-rows:16px; grid-auto-flow:column; align-items:end; gap:0; width:max-content; min-width:0; margin:0 0 5px; padding:0; color:var(--text-sub); font:9px 'JetBrains Mono',monospace; }
 body[data-course="hub"] .dash-month-labels span { display:block; min-width:0; white-space:nowrap; }
 body[data-course="hub"] .dash-month-labels .dash-weekday-spacer { width:24px; }
-body[data-course="hub"] .dash-heatmap-layout { display:grid; grid-template-columns:24px max-content; column-gap:4px; width:max-content; min-width:0; }
-body[data-course="hub"] .dash-heatmap-scroll { --dash-heat-cell-size:10px; --dash-heat-row-gap:3px; }
-body[data-course="hub"] .dash-weekday-labels { display:grid; grid-template-rows:repeat(7,var(--dash-heat-cell-size)); row-gap:var(--dash-heat-row-gap); align-content:start; color:var(--text-sub); font:8px/var(--dash-heat-cell-size) 'JetBrains Mono',monospace; }
-body[data-course="hub"] .dash-weekday-labels span { display:block; grid-column:1; height:var(--dash-heat-cell-size); min-height:var(--dash-heat-cell-size); max-height:var(--dash-heat-cell-size); margin:0; padding:0; line-height:var(--dash-heat-cell-size); white-space:nowrap; }
-body[data-course="hub"] .dash-weekday-labels .dash-weekday-mon { grid-row:1; }
-body[data-course="hub"] .dash-weekday-labels .dash-weekday-wed { grid-row:3; }
-body[data-course="hub"] .dash-weekday-labels .dash-weekday-fri { grid-row:5; }
-body[data-course="hub"] .dash-weekday-labels .dash-weekday-sun { grid-row:7; }
 body[data-course="hub"] .dash-heatmap { display:flex; flex-direction:column; gap:var(--dash-heat-row-gap); width:max-content; min-width:0; }
-body[data-course="hub"] .dash-heat-row { display:flex; width:max-content; gap:2px; }
+body[data-course="hub"] .dash-heat-row { display:grid; grid-template-columns:24px max-content; column-gap:0; align-items:start; width:max-content; min-height:var(--dash-heat-cell-size); }
+body[data-course="hub"] .dash-weekday-label { display:block; box-sizing:border-box; width:24px; height:var(--dash-heat-cell-size); margin:0; padding:0; color:var(--text-sub); font:8px/var(--dash-heat-cell-size) 'JetBrains Mono',monospace; white-space:nowrap; }
+body[data-course="hub"] .dash-heat-week-cells { display:flex; gap:2px; width:max-content; min-width:0; }
 body[data-course="hub"] .dash-heat-cell { display:block; box-sizing:border-box; flex:0 0 var(--dash-heat-cell-size); width:var(--dash-heat-cell-size); min-width:var(--dash-heat-cell-size); height:var(--dash-heat-cell-size); max-width:var(--dash-heat-cell-size); border-radius:3px; outline-offset:2px; }
 body[data-course="hub"] .dash-heat-cell.level-0, body[data-course="hub"] .dash-legend .level-0 { background:#e9eee9; }
 body[data-course="hub"] .dash-heat-cell.level-1, body[data-course="hub"] .dash-legend .level-1 { background:#b7e0bf; }
