@@ -1,7 +1,22 @@
-/* Progress — full width, floating heatmap, no card chrome */
+/* Progress — true full-bleed (0 L/R padding), floating heatmap */
 
-html[data-course="hub"] body.sm-redesign-active .sm-progress-view {
-  padding: 4px 10px max(88px, env(safe-area-inset-bottom, 0px) + 72px) !important;
+/* Kill parent wrapper side padding when Progress is active */
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="progress"] main.wrapper {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view.sm-page,
+html[data-course="hub"] body.sm-redesign-active #smProgressView {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 4px !important;
+  padding-bottom: max(88px, env(safe-area-inset-bottom, 0px) + 72px) !important;
   max-width: none !important;
   width: 100% !important;
   margin: 0 !important;
@@ -23,6 +38,8 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-rhythm-car
   box-shadow: none !important;
   color: var(--text-main, #1c1917) !important;
   width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
 }
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-activity-panel,
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .sm-rhythm-card {
@@ -43,8 +60,8 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-rhythm-heading {
   display: flex !important;
   justify-content: flex-end !important;
-  margin: 0 0 8px !important;
-  padding: 0 2px !important;
+  margin: 0 8px 8px !important;
+  padding: 0 !important;
   min-height: 0 !important;
   border: 0 !important;
   background: transparent !important;
@@ -77,19 +94,21 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-range-pi
   color: #fff !important;
 }
 
-/* Floating heatmap — full width, soft surface, no hard card edge */
+/* Floating heatmap — edge to edge */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heatmap-container,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashHeatmap {
   width: 100% !important;
+  max-width: none !important;
   min-height: clamp(130px, 30vh, 240px) !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
-  border-radius: 18px !important;
-  padding: 14px 8px !important;
+  border-radius: 0 !important;
+  padding: 14px 6px !important;
   border: 0 !important;
   box-shadow: none !important;
   box-sizing: border-box !important;
+  margin: 0 !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heatmap-scroll {
   flex: 1 1 auto !important;
@@ -104,8 +123,8 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heatmap 
   min-width: 100% !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-heat-cell {
-  width: clamp(9px, 2.4vw, 13px) !important;
-  height: clamp(9px, 2.4vw, 13px) !important;
+  width: clamp(9px, 2.6vw, 14px) !important;
+  height: clamp(9px, 2.6vw, 14px) !important;
   flex: 0 0 auto !important;
   border-radius: 2.5px !important;
 }
@@ -135,19 +154,20 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heat-cel
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heat-cell.level-3 { background: rgba(34,197,94,0.72) !important; }
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-heat-cell.level-4 { background: #22c55e !important; }
 
-/* Daily stats — full width row, soft chips (no heavy borders) */
+/* Daily stats — full width, tiny side inset only on the row itself for readability */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-stats {
   display: grid !important;
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   gap: 6px !important;
-  margin: 12px 0 0 !important;
-  width: 100% !important;
+  margin: 12px 6px 0 !important;
+  width: calc(100% - 12px) !important;
+  box-sizing: border-box !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-activity-stats > div {
   background: color-mix(in srgb, var(--bg-card, #fff) 70%, transparent) !important;
   border: 0 !important;
   border-radius: 12px !important;
-  padding: 10px 4px !important;
+  padding: 10px 2px !important;
   text-align: center !important;
   color: var(--text-main, #1c1917) !important;
   box-shadow: none !important;
@@ -157,13 +177,14 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-activity
   color: var(--text-main, #f5f5f4) !important;
 }
 
-/* Metric tiles — full width, soft fill, no outline borders */
+/* Metric tiles — nearly edge to edge */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-grid {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  gap: 8px !important;
-  margin: 12px 0 !important;
-  width: 100% !important;
+  gap: 6px !important;
+  margin: 12px 6px !important;
+  width: calc(100% - 12px) !important;
+  box-sizing: border-box !important;
 }
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-tile {
   display: flex !important;
@@ -171,7 +192,7 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-metric-til
   align-items: flex-start !important;
   justify-content: space-between !important;
   min-height: 72px !important;
-  padding: 12px 14px !important;
+  padding: 12px 12px !important;
   border-radius: 14px !important;
   border: 0 !important;
   background: color-mix(in srgb, var(--bg-card, #fff) 85%, transparent) !important;
@@ -205,7 +226,7 @@ html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .sm-metric-til
   color: var(--text-main, #f5f5f4) !important;
 }
 
-/* Year pills — full width, soft */
+/* Year pills */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .hub-year-row,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-progress-years {
   display: flex !important;
@@ -213,12 +234,12 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-progress-y
   gap: 6px !important;
   flex-wrap: nowrap !important;
   overflow-x: auto !important;
-  margin: 0 0 12px !important;
+  margin: 0 6px 12px !important;
   padding: 6px !important;
   border-radius: 999px !important;
   background: color-mix(in srgb, var(--bg-card, #fff) 75%, transparent) !important;
   border: 0 !important;
-  width: 100% !important;
+  width: calc(100% - 12px) !important;
   box-sizing: border-box !important;
   -webkit-overflow-scrolling: touch;
 }
@@ -241,17 +262,17 @@ html[data-course="hub"] body.sm-redesign-active .sm-progress-view .hub-pill.acti
   color: #fff !important;
 }
 
-/* Subject progress — soft, full width */
+/* Subject progress */
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-subject-dropdown,
 html[data-course="hub"] body.sm-redesign-active .sm-progress-view .sm-subject-card {
-  margin: 0 0 12px !important;
-  padding: 12px 10px !important;
+  margin: 0 6px 12px !important;
+  padding: 12px 8px !important;
   border-radius: 16px !important;
   border: 0 !important;
   background: color-mix(in srgb, var(--bg-card, #fff) 80%, transparent) !important;
   color: var(--text-main, #1c1917) !important;
   box-shadow: none !important;
-  width: 100% !important;
+  width: calc(100% - 12px) !important;
   box-sizing: border-box !important;
 }
 html[data-theme="dark"] body.sm-redesign-active .sm-progress-view .dash-subject-dropdown,
