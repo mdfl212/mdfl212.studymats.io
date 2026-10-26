@@ -4,7 +4,7 @@ html[data-course="hub"] body[data-course="hub"] main.wrapper { width:100%; max-w
 html[data-course="hub"] body[data-course="hub"] .app-topbar,
 html[data-course="hub"] body[data-course="hub"] .theme-toggle-wrapper,
 html[data-course="hub"] body[data-course="hub"] .site-header,
-html[data-course="hub"] body[data-course="hub"] .hub-year-row,
+html[data-course="hub"] body[data-course="hub"] .wrapper > .hub-year-row,
 html[data-course="hub"] body[data-course="hub"] #whatsNewNotice { display:none !important; }
 .sm-global-nav { position:sticky; top:0; z-index:1200; width:min(100%,1440px); margin:0 auto 0; padding:10px clamp(12px,2vw,24px); display:flex; align-items:center; gap:clamp(8px,1.3vw,18px); box-sizing:border-box; background:var(--bg, #fbf8f5); border-bottom:1px solid var(--border, #e6e0d9); }
 html[data-theme="dark"] .sm-global-nav { background:var(--bg, #111318); }
