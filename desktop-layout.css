@@ -1,0 +1,17 @@
+/*
+ * StudyMats desktop presentation layer.
+ *
+ * Architecture boundary only (Phase 2): existing shared application markup,
+ * state, and event handlers remain authoritative. Legacy desktop rules remain
+ * in style.css until each selector can be moved safely in a later phase.
+ *
+ * Keep new desktop-only layout rules inside the hub scope and the desktop
+ * breakpoint below. Do not put quiz/data/persistence logic in this file.
+ */
+@media (min-width: 1101px) {
+  html[data-course="hub"] {
+    --sm-desktop-sidebar-width: 248px;
+    --sm-desktop-content-gutter: 32px;
+    --sm-desktop-content-max: 1440px;
+  }
+}
