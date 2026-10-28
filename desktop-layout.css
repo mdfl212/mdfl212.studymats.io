@@ -119,8 +119,15 @@
     padding: 0 var(--sm-desktop-content-gutter) 64px !important;
   }
 
+  /* navigation-redesign.js owns the visible shell header. Keep the legacy
+     app topbar in the DOM as a compatibility bridge for search/theme handlers,
+     but never render it beside the generated .sm-topbar. */
+  html[data-course="hub"] body.sm-redesign-active .app-topbar {
+    display: none !important;
+  }
+
   html[data-course="hub"] body[data-course="hub"] .app-topbar {
-    display: flex !important; position: sticky; top: 0; z-index: 40;
+    display: none !important; position: sticky; top: 0; z-index: 40;
     align-items: center; gap: 16px; min-height: 76px;
     margin: 0 calc(-1 * var(--sm-desktop-content-gutter)) 20px;
     padding: 14px var(--sm-desktop-content-gutter);
