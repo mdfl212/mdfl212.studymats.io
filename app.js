@@ -72,7 +72,7 @@ function renderQuizTimer() {
 
     if (quizTimer.expired) {
         status.textContent = 'Time is up. Add time or reset the timer to continue.';
-        if (toggleButton) { toggleButton.textContent = '↻ Reset timer'; toggleButton.disabled = false; }
+        if (toggleButton) { toggleButton.textContent = 'Reset timer'; toggleButton.dataset.running = 'false'; toggleButton.dataset.expired = 'true'; toggleButton.setAttribute('aria-label', 'Reset timer'); toggleButton.title = 'Reset timer'; toggleButton.disabled = false; }
         document.title = 'TIME IS UP! · StudyMats';
     } else {
         status.textContent = quizTimer.running
@@ -80,7 +80,7 @@ function renderQuizTimer() {
             : (quizTimer.hasStarted
                 ? 'Timer paused. Resume when you are ready.'
                 : 'Set a duration, then start when you are ready.');
-        if (toggleButton) { toggleButton.textContent = quizTimer.running ? 'Ⅱ Pause' : (quizTimer.hasStarted ? '▶ Resume' : '▶ Start'); toggleButton.disabled = false; }
+        if (toggleButton) { toggleButton.textContent = quizTimer.running ? 'Pause' : (quizTimer.hasStarted ? 'Resume' : 'Start'); toggleButton.dataset.running = String(quizTimer.running); toggleButton.dataset.expired = 'false'; toggleButton.setAttribute('aria-label', quizTimer.running ? 'Pause timer' : (quizTimer.hasStarted ? 'Resume timer' : 'Start timer')); toggleButton.title = toggleButton.getAttribute('aria-label'); toggleButton.disabled = false; }
         if (!quizTimer.expired) document.title = document.title.replace(/^\d{2}:\d{2}(?::\d{2})? · /, '');
     }
 }
