@@ -49,16 +49,21 @@
         <section class="sidebar-section controller-settings" id="controllerSettings" aria-labelledby="controllerSettingsTitle">
             <h3 id="controllerSettingsTitle">Controller &amp; Keyboard</h3>
             <label class="controller-toggle-row" for="controllerEnabled"><span><strong>Controller input</strong><small>Enable or disable quiz shortcuts</small></span><input id="controllerEnabled" type="checkbox" checked></label>
-            <div class="controller-setting-field"><label for="controllerDevice">Preferred device</label><select id="controllerDevice"><option value="8bitdo">8BitDo Micro Gamepad (default)</option><option value="gamepad">Other compatible gamepad</option><option value="keyboard">Keyboard</option></select></div>
-            <div id="controllerGamepadMappings">
-                <p class="controller-setting-label">Answer buttons</p>
-                <div class="controller-map-grid"><label for="mapAnswerA">Answer A<select id="mapAnswerA" data-map="answerA"></select></label><label for="mapAnswerB">Answer B<select id="mapAnswerB" data-map="answerB"></select></label><label for="mapAnswerC">Answer C<select id="mapAnswerC" data-map="answerC"></select></label><label for="mapAnswerD">Answer D<select id="mapAnswerD" data-map="answerD"></select></label></div>
-                <p class="controller-setting-label">Navigation</p>
-                <div class="controller-map-grid"><label for="mapPrevious">Previous<select id="mapPrevious" data-map="previous"></select></label><label for="mapNext">Next<select id="mapNext" data-map="next"></select></label></div>
+            <div id="controllerAdvanced" hidden>
+                <details id="controllerOptions">
+                    <summary>Controller settings</summary>
+                    <div class="controller-setting-field"><label for="controllerDevice">Input device</label><select id="controllerDevice"><option value="8bitdo">8BitDo Micro Gamepad (default)</option><option value="gamepad">Other compatible gamepad</option><option value="keyboard">Keyboard</option></select></div>
+                    <div id="controllerGamepadMappings">
+                        <p class="controller-setting-label">Answer buttons</p>
+                        <div class="controller-map-grid"><label for="mapAnswerA">Answer A<select id="mapAnswerA" data-map="answerA"></select></label><label for="mapAnswerB">Answer B<select id="mapAnswerB" data-map="answerB"></select></label><label for="mapAnswerC">Answer C<select id="mapAnswerC" data-map="answerC"></select></label><label for="mapAnswerD">Answer D<select id="mapAnswerD" data-map="answerD"></select></label></div>
+                        <p class="controller-setting-label">Navigation</p>
+                        <div class="controller-map-grid"><label for="mapPrevious">Previous<select id="mapPrevious" data-map="previous"></select></label><label for="mapNext">Next<select id="mapNext" data-map="next"></select></label></div>
+                    </div>
+                    <div class="controller-status-wrap"><span class="controller-status-dot" aria-hidden="true"></span><span id="controllerStatus" role="status" aria-live="polite">Checking for a connected controller…</span></div>
+                    <button class="btn controller-test-button" id="controllerTestButton" type="button">Test controller input</button>
+                    <p class="controller-help">Default: A/B/X/Y answer buttons; D-pad left/right navigate. Keyboard: A–D or 1–4, with arrow keys for navigation.</p>
+                </details>
             </div>
-            <div class="controller-status-wrap"><span class="controller-status-dot" aria-hidden="true"></span><span id="controllerStatus" role="status" aria-live="polite">Checking for a connected controller…</span></div>
-            <button class="btn controller-test-button" id="controllerTestButton" type="button">Test controller input</button>
-            <p class="controller-help">Default: A/B/X/Y answer buttons; D-pad left/right navigate. Keyboard: A–D or 1–4, with arrow keys for navigation.</p>
         </section>
         <div class="sidebar-bottom"><a href="index.html">← Back to dashboard</a><span>Progress saves automatically on this device.</span></div>
     </aside>
