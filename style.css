@@ -14108,3 +14108,36 @@ body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible
   body[data-course="quiz"] #timerToggleButton[data-expired="true"]::before { content: "↻" !important; }
   body[data-course="quiz"] #timerToggleButton::before { display:block !important; font-family:Arial,sans-serif !important; font-size:14px !important; font-weight:700 !important; line-height:1 !important; color:currentColor !important; }
 }
+
+
+/* Quiz sidebar filters: size fields to the actual panel width at every browser scale. */
+body[data-course="quiz"] .sidebar-quiz-filters,
+body[data-course="quiz"] .sidebar-quiz-filters .quiz-select-bar,
+body[data-course="quiz"] .sidebar-quiz-filters .quiz-select-field {
+  box-sizing: border-box !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+body[data-course="quiz"] .sidebar-quiz-filters .quiz-select-bar {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 10px !important;
+  width: 100% !important;
+}
+body[data-course="quiz"] .sidebar-quiz-filters .quiz-select-field select {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  text-overflow: ellipsis;
+}
+body[data-course="quiz"] .sidebar-quiz-filters .quiz-question-select {
+  grid-column: 1 / -1 !important;
+  width: 100% !important;
+}
+@media (max-width: 700px) {
+  body[data-course="quiz"] .sidebar-quiz-filters .quiz-select-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
