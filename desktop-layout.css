@@ -410,3 +410,43 @@
     transition: none !important;
   }
 }
+
+
+/* Sidebar collapse control: visible only when the desktop shell is active. */
+@media (min-width: 900px) and (orientation: landscape), (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] .sidebar-collapse-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--text-sub);
+    font: 22px/1 'Source Serif 4', Georgia, serif;
+    cursor: pointer;
+    transition: background-color 160ms ease, color 160ms ease, transform 220ms ease;
+  }
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar .sidebar-top {
+    position: relative;
+    padding-right: 34px;
+  }
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-collapse-toggle {
+    right: 10px;
+  }
+}
+@media (max-width: 899px) and (orientation: landscape) {
+  html[data-course="hub"] body[data-course="hub"] .sidebar-collapse-toggle {
+    display: none !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-course="hub"] body[data-course="hub"] .sidebar-collapse-toggle {
+    transition: none !important;
+  }
+}
