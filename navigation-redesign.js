@@ -339,6 +339,25 @@
       if (e.key === 'Escape' && !rankModal.hidden) closeRank();
     });
 
+    const desktopSidebar = document.querySelector('.desktop-sidebar');
+    const sidebarDestinations = [
+      ['.sidebar-link[href="#top"]', 'home'],
+      ['.sidebar-link[href="quiz.html"]', 'quiz'],
+      ['.sidebar-link[href="#hubSubjectList"]', 'browse'],
+      ['.sidebar-link[href="#studyDashboard"]', 'progress'],
+      ['.sidebar-link[href="test-bank-builder-v2.html"]', 'builder']
+    ];
+    const setSidebarActive = which => {
+      sidebarDestinations.forEach(([selector, view]) => {
+        const link = desktopSidebar?.querySelector(selector);
+        if (!link) return;
+        const active = view === which;
+        link.classList.toggle('is-active', active);
+        if (active) link.setAttribute('aria-current', 'page');
+        else link.removeAttribute('aria-current');
+      });
+    };
+
     const setView = which => {
       welcome.hidden = which !== 'home';
       progress.hidden = which !== 'progress';
@@ -355,6 +374,7 @@
         }
       });
       body.dataset.smView = which;
+      setSidebarActive(which);
       if (which === 'progress') {
         renderMetrics();
         // Keep subject list collapsed by default each visit on phone
@@ -371,16 +391,32 @@
     };
 
     const openQuiz = () => {
-      const trigger = document.querySelector('[data-mobile-quiz]') ||
-        document.querySelector('.desktop-sidebar .sidebar-link[href="quiz.html"]');
+      setSidebarActive('quiz');
+      const trigger = document.querySelector('[data-mobile-quiz]');
       if (trigger) trigger.click();
       else $('smStartQuiz')?.click();
     };
     const openBrowse = () => {
+      setSidebarActive('browse');
       const trigger = document.querySelector('[data-open-subject-browser]') ||
         document.querySelector('[data-sidebar-subjects]');
       if (trigger) trigger.click();
     };
+
+    // Keep desktop navigation inside the same in-page application shell as
+    // mobile navigation. These links must not navigate away from the shared
+    // stateful shell or leave its active item out of sync with the visible view.
+    sidebarDestinations.forEach(([selector, view]) => {
+      const link = desktopSidebar?.querySelector(selector);
+      if (!link) return;
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        if (view === 'home') setView('home');
+        else if (view === 'quiz') openQuiz();
+        else if (view === 'browse') openBrowse();
+        else setView(view);
+      });
+    });
 
     bottom.querySelector('[data-sm-nav="home"]')?.addEventListener('click', () => setView('home'));
     bottom.querySelector('[data-sm-nav="quiz"]')?.addEventListener('click', openQuiz);
