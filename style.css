@@ -14099,3 +14099,12 @@ body[data-course="hub"] .hub-year-dropdown > button.section-toggle:focus-visible
     box-shadow: none !important;
   }
 }
+
+
+/* Current timer toggle uses CSS-drawn controls so mobile browsers never show missing Unicode glyphs. */
+@media (max-width: 700px) {
+  body[data-course="quiz"] #timerToggleButton::before { content: "▶" !important; }
+  body[data-course="quiz"] #timerToggleButton[data-running="true"]::before { content: "Ⅱ" !important; }
+  body[data-course="quiz"] #timerToggleButton[data-expired="true"]::before { content: "↻" !important; }
+  body[data-course="quiz"] #timerToggleButton::before { display:block !important; font-family:Arial,sans-serif !important; font-size:14px !important; font-weight:700 !important; line-height:1 !important; color:currentColor !important; }
+}
