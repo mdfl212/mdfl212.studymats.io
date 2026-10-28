@@ -264,6 +264,15 @@
 
     const oldWelcome = dashboard.querySelector('.dash-welcome');
     if (oldWelcome) oldWelcome.hidden = true;
+
+    // The original branding and Browse shortcut belong to Home, not to the
+    // shared wrapper. Reuse these existing nodes so other in-app views (notably
+    // Progress and Builder) cannot accidentally show Home content underneath.
+    const homeBrand = wrapper.querySelector(':scope > .site-header');
+    const homeBrowseShortcut = wrapper.querySelector(':scope > .hub-year-dropdown');
+    if (homeBrand) welcome.appendChild(homeBrand);
+    if (homeBrowseShortcut) welcome.appendChild(homeBrowseShortcut);
+
     const subjectDropdown = $('subjectProgressDropdown');
     const activityPanel = dashboard.querySelector('.dash-activity-panel');
     const donuts = $('dashDonuts');
