@@ -249,3 +249,14 @@
     .desktop-sidebar .sidebar-link { transition: none; }
   }
 }
+
+/* Keep the content column inside the available desktop viewport at laptop widths. */
+@media (min-width: 1101px) and (max-width: 1300px) {
+  html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] main.wrapper,
+  html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) main.wrapper {
+    width: calc(100vw - var(--sm-desktop-sidebar-width) - 48px) !important;
+    max-width: calc(100vw - var(--sm-desktop-sidebar-width) - 48px) !important;
+    margin-left: calc(var(--sm-desktop-sidebar-width) + 24px) !important;
+    margin-right: 0 !important;
+  }
+}
