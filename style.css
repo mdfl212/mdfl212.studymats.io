@@ -14141,3 +14141,16 @@ body[data-course="quiz"] .sidebar-quiz-filters .quiz-question-select {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 }
+
+
+/* Keep quiz answer text flexible while controller keybind indicators stay at the right edge. */
+body[data-course="quiz"] .opt .opt-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+body[data-course="quiz"] .opt .controller-answer-indicator {
+  flex: 0 0 auto;
+  margin-left: auto;
+  align-self: center;
+}
