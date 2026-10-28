@@ -273,7 +273,7 @@
    Keep the existing DOM and application state; only adapt presentation.
    Landscape tablet gets the desktop shell only when there is enough physical
    CSS-pixel width. Narrow phones in landscape remain in mobile navigation. */
-@media (min-width: 900px) and (orientation: landscape) {
+@media (min-width: 1101px) {
   html[data-course="hub"] {
     --sm-desktop-sidebar-width: 232px;
     --sm-desktop-content-gutter: clamp(20px, 2.6vw, 36px);
@@ -420,7 +420,7 @@
 
 
 /* Sidebar collapse control: visible only when the desktop shell is active. */
-@media (min-width: 900px) and (orientation: landscape), (min-width: 1101px) {
+@media (min-width: 1101px) {
   html[data-course="hub"] body[data-course="hub"] .sidebar-collapse-toggle {
     display: inline-flex;
     align-items: center;
