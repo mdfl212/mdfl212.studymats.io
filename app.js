@@ -638,7 +638,7 @@ function render() {
         else if (revealed && answer === index) className += ' wrong';
         else if (!revealed && answer === index) className += ' selected';
         return `<button class="${className}" data-answer="${index}" type="button">
-            <span class="opt-letter">${String.fromCharCode(65 + index)}.</span><span>${escapeHtml(option)}</span>
+            <span class="opt-letter">${String.fromCharCode(65 + index)}.</span><span class="opt-text">${escapeHtml(option)}</span>
         </button>`;
     }).join('');
     const rationale = revealed ? `<div class="rationale"><strong>Answer: ${String.fromCharCode(65 + question.correctAnswer)}</strong> - ${escapeHtml(question.rationale?.text || '')}
