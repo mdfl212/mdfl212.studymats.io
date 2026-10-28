@@ -46,8 +46,7 @@ function renderQuizTimer() {
     const display = $('quizTimerDisplay');
     const status = $('quizTimerStatus');
     const expiredNotice = $('quizTimerExpired');
-    const startButton = $('timerStartButton');
-    const pauseButton = $('timerPauseButton');
+    const toggleButton = $('timerToggleButton');
     if (!panel || !display || !status) return;
 
     const remaining = getQuizTimerRemaining();
@@ -73,8 +72,7 @@ function renderQuizTimer() {
 
     if (quizTimer.expired) {
         status.textContent = 'Time is up. Add time or reset the timer to continue.';
-        if (startButton) startButton.textContent = '▶ Start';
-        if (pauseButton) pauseButton.disabled = true;
+        if (toggleButton) { toggleButton.textContent = '↻ Reset timer'; toggleButton.disabled = false; }
         document.title = 'TIME IS UP! · StudyMats';
     } else {
         status.textContent = quizTimer.running
@@ -82,9 +80,7 @@ function renderQuizTimer() {
             : (quizTimer.hasStarted
                 ? 'Timer paused. Resume when you are ready.'
                 : 'Set a duration, then start when you are ready.');
-        if (startButton) startButton.textContent = quizTimer.running ? '▶ Running' : '▶ Start';
-        if (startButton) startButton.disabled = quizTimer.running;
-        if (pauseButton) pauseButton.disabled = !quizTimer.running;
+        if (toggleButton) { toggleButton.textContent = quizTimer.running ? 'Ⅱ Pause' : (quizTimer.hasStarted ? '▶ Resume' : '▶ Start'); toggleButton.disabled = false; }
         if (!quizTimer.expired) document.title = document.title.replace(/^\d{2}:\d{2}(?::\d{2})? · /, '');
     }
 }
@@ -157,11 +153,11 @@ function resetQuizTimer() {
 }
 
 function addQuizTime(minutes) {
-    if (!Number.isFinite(minutes) || minutes <= 0) return;
+    if (!Number.isFinite(minutes) || minutes === 0) return;
     const currentRemaining = getQuizTimerRemaining();
-    quizTimer.remainingMs = currentRemaining + minutes * 60 * 1000;
+    quizTimer.remainingMs = Math.max(0, currentRemaining + minutes * 60 * 1000);
     if (quizTimer.running) quizTimer.deadline = Date.now() + quizTimer.remainingMs;
-    if (quizTimer.expired) {
+    if (quizTimer.expired && minutes > 0) {
         quizTimer.expired = false;
         quizTimer.hasStarted = true;
         quizTimer.running = false;
@@ -170,14 +166,13 @@ function addQuizTime(minutes) {
     }
     const durationInput = $('quizTimerDuration');
     if (durationInput && !quizTimer.hasStarted) {
-        durationInput.value = String(Math.min(600, Math.ceil(quizTimer.remainingMs / 60000)));
+        durationInput.value = String(Math.min(600, Math.max(1, Math.ceil(quizTimer.remainingMs / 60000))));
     }
     renderQuizTimer();
 }
 
 function initializeQuizTimer() {
-    $('timerStartButton')?.addEventListener('click', startQuizTimer);
-    $('timerPauseButton')?.addEventListener('click', pauseQuizTimer);
+    $('timerToggleButton')?.addEventListener('click', () => { if (quizTimer.running) pauseQuizTimer(); else if (quizTimer.expired) resetQuizTimer(); else startQuizTimer(); });
     $('timerResetButton')?.addEventListener('click', resetQuizTimer);
     document.querySelectorAll('[data-timer-add]').forEach((button) => {
         button.addEventListener('click', () => addQuizTime(Number(button.dataset.timerAdd)));
