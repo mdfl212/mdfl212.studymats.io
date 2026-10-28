@@ -22,7 +22,7 @@
   <link rel="apple-touch-icon" href="./assets/studymats-mark.svg">
 </head>
 <body data-course="hub">
-  <aside class="desktop-sidebar" aria-label="Primary navigation" hidden></aside>
+  <aside class="desktop-sidebar" aria-label="Primary navigation"><div class="sidebar-top"><a class="sidebar-brand-lockup" href="#top" aria-label="StudyMats dashboard"><img src="assets/studymats-mark.svg" alt="" width="34" height="34"><span class="sidebar-brand-copy"><strong>Study<span>Mats</span></strong><small>MY MEDICAL QUESTION BANK</small></span></a></div><nav><a class="sidebar-link is-active" href="#top" title="Dashboard"><span>⌂</span><span class="sidebar-link-label">Dashboard</span></a><a class="sidebar-link" href="quiz.html" title="Quiz"><span>▣</span><span class="sidebar-link-label">Quiz</span></a><a class="sidebar-link" href="test-bank-builder-v2.html" title="Test Bank Builder"><span>✎</span><span class="sidebar-link-label">Test Bank Builder</span></a><a class="sidebar-link" href="#hubSubjectList" data-sidebar-subjects title="Browse Test Banks"><span>▦</span><span class="sidebar-link-label">Browse Test Banks</span></a><a class="sidebar-link" href="#studyDashboard" title="Study Progress"><span>▤</span><span class="sidebar-link-label">Study Progress</span></a><div class="sidebar-divider"></div><a class="sidebar-link" href="#backupPanel" title="Backup &amp; Restore"><span>⇧</span><span class="sidebar-link-label">Backup &amp; Restore</span></a><button class="sidebar-link" type="button" data-open-changelog title="Updates"><span>✦</span><span class="sidebar-link-label">Updates</span></button></nav><div class="sidebar-save"><i></i><span class="sidebar-save-label">Progress saved locally</span><span>ⓘ</span></div></aside>
   <main class="wrapper" id="top">
     <div class="app-topbar">
       <label class="topbar-search">
@@ -34,7 +34,32 @@
       <button class="topbar-profile" id="dashProfileButtonTop" type="button"><span>S</span></button>
     </div>
     <div class="theme-toggle-wrapper"><button class="theme-toggle" data-theme-toggle type="button"><span data-theme-icon>🌙</span></button></div>
-    <header class="site-header"></header>
+<header class="site-header">
+          <div class="brand-lockup">
+            <img class="brand-mark" src="assets/studymats-mark.svg" alt="" width="76" height="76" />
+            <div class="brand-copy">
+              <div class="header-eyebrow">MEDICAL BOARD REVIEW</div>
+              <h1 class="header-title"><em>Study</em>Mats</h1>
+              <p class="header-sub">Your medical question bank, organized for focused review.</p>
+            </div>
+          </div>
+        </header>
+    <section class="section-wrapper hub-year-dropdown" aria-label="Main hub">
+          <button class="section-toggle" type="button" data-open-subject-browser aria-haspopup="dialog" aria-controls="studyMatsActionModal">
+            <span class="hub-year-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 5.5c3.7-1.2 6.8-.5 8.5 1.2v12c-1.7-1.7-4.8-2.4-8.5-1.2z"/><path d="M20.5 5.5c-3.7-1.2-6.8-.5-8.5 1.2v12c1.7-1.7 4.8-2.4 8.5-1.2z"/><path d="M12 7v12"/></svg></span>
+            <span class="hub-year-summary-copy"><span class="hub-year-title">Browse test banks</span><span class="hub-year-subtext">Choose a year level to explore subjects, question banks, and review resources.</span></span>
+            <span class="toggle-icon" aria-hidden="true">↗</span>
+          </button>
+        </section>
+          <div class="brand-lockup">
+            <img class="brand-mark" src="assets/studymats-mark.svg" alt="" width="76" height="76" />
+            <div class="brand-copy">
+              <div class="header-eyebrow">MEDICAL BOARD REVIEW</div>
+              <h1 class="header-title"><em>Study</em>Mats</h1>
+              <p class="header-sub">Your medical question bank, organized for focused review.</p>
+            </div>
+          </div>
+        </header>
     <div class="hub-year-row" role="tablist" aria-label="Year level selection">
       <button class="hub-pill active" type="button" data-year="YL1" aria-pressed="true">YL1</button>
       <button class="hub-pill" type="button" data-year="YL2">YL2</button>
