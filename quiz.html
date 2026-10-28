@@ -56,8 +56,8 @@
                     <div id="controllerGamepadMappings">
                         <p class="controller-setting-label">Answer buttons</p>
                         <div class="controller-map-grid"><label for="mapAnswerA">Answer A<select id="mapAnswerA" data-map="answerA"></select></label><label for="mapAnswerB">Answer B<select id="mapAnswerB" data-map="answerB"></select></label><label for="mapAnswerC">Answer C<select id="mapAnswerC" data-map="answerC"></select></label><label for="mapAnswerD">Answer D<select id="mapAnswerD" data-map="answerD"></select></label></div>
-                        <p class="controller-setting-label">Navigation</p>
-                        <div class="controller-map-grid"><label for="mapPrevious">Previous<select id="mapPrevious" data-map="previous"></select></label><label for="mapNext">Next<select id="mapNext" data-map="next"></select></label></div>
+                        <p class="controller-setting-label">Navigation &amp; actions</p>
+                        <div class="controller-map-grid"><label for="mapPrevious">Previous<select id="mapPrevious" data-map="previous"></select></label><label for="mapNext">Next<select id="mapNext" data-map="next"></select></label><label for="mapReveal">Show answer &amp; rationale<select id="mapReveal" data-map="reveal"></select></label></div>
                     </div>
                     <div class="controller-status-wrap"><span class="controller-status-dot" aria-hidden="true"></span><span id="controllerStatus" role="status" aria-live="polite">Checking for a connected controller…</span></div>
                     <button class="btn controller-test-button" id="controllerTestButton" type="button">Test controller input</button>
@@ -80,14 +80,15 @@
                 <span class="quiz-timer-sr-only">Duration in minutes</span>
                 <input id="quizTimerDuration" type="number" min="1" max="600" step="1" value="60" inputmode="numeric" aria-label="Timer duration in minutes" title="Timer duration in minutes">
             </label>
-            <div class="quiz-timer-quick-add" role="group" aria-label="Add time">
+            <div class="quiz-timer-quick-add" role="group" aria-label="Adjust time">
+                <button class="btn timer-add" type="button" data-timer-add="-5" aria-label="Subtract 5 minutes">−5</button>
+                <button class="btn timer-add" type="button" data-timer-add="5" aria-label="Add 5 minutes">+5</button>
                 <button class="btn timer-add" type="button" data-timer-add="15" aria-label="Add 15 minutes">+15</button>
                 <button class="btn timer-add" type="button" data-timer-add="30" aria-label="Add 30 minutes">+30</button>
                 <button class="btn timer-add" type="button" data-timer-add="60" aria-label="Add one hour">+1h</button>
             </div>
             <div class="quiz-timer-actions" role="group" aria-label="Timer actions">
-                <button class="btn primary" id="timerStartButton" type="button">Start</button>
-                <button class="btn" id="timerPauseButton" type="button" disabled>Pause</button>
+                <button class="btn primary" id="timerToggleButton" type="button">Start</button>
                 <button class="btn danger" id="timerResetButton" type="button" aria-label="Reset timer" title="Reset timer">↺</button>
             </div>
         </div>
