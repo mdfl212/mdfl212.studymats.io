@@ -260,3 +260,153 @@
     margin-right: 0 !important;
   }
 }
+
+
+/* Phase 4 — orientation-aware shared shell.
+   Keep the existing DOM and application state; only adapt presentation.
+   Landscape tablet gets the desktop shell only when there is enough physical
+   CSS-pixel width. Narrow phones in landscape remain in mobile navigation. */
+@media (min-width: 900px) and (orientation: landscape) {
+  html[data-course="hub"] {
+    --sm-desktop-sidebar-width: 232px;
+    --sm-desktop-content-gutter: clamp(20px, 2.6vw, 36px);
+  }
+
+  html[data-course="hub"] body[data-course="hub"] {
+    overflow-x: clip !important;
+    padding: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar {
+    display: flex !important;
+    width: var(--sm-desktop-sidebar-width) !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    padding: 18px 12px 12px !important;
+    transition: width 220ms ease, padding 220ms ease, background-color 180ms ease;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+    box-sizing: border-box !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 0 0 var(--sm-desktop-sidebar-width) !important;
+    padding: 0 var(--sm-desktop-content-gutter) 32px !important;
+    transition: margin-left 220ms ease, padding 220ms ease;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar {
+    min-width: 0 !important;
+    gap: clamp(8px, 1.2vw, 16px) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search {
+    min-width: 0 !important;
+    flex: 1 1 240px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .app-topbar .topbar-search kbd {
+    display: none;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav,
+  html[data-course="hub"] body[data-course="hub"] .sm-bottom-nav {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .study-dashboard {
+    grid-template-columns: minmax(0, 1.15fr) minmax(260px, .85fr) !important;
+    gap: clamp(12px, 1.6vw, 22px) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #dashStats {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: clamp(8px, 1vw, 14px) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-dropdown,
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-panel,
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel {
+    min-width: 0 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-panel {
+    grid-column: 2 !important;
+    grid-row: 3 / span 2 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-heatmap-container {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed {
+    --sm-desktop-sidebar-width: 72px;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .desktop-sidebar {
+    padding-inline: 8px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-brand-copy,
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-link-label,
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-save-label {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-link {
+    justify-content: center !important;
+    padding-inline: 6px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-save {
+    justify-content: center !important;
+  }
+}
+
+/* Portrait tablet intentionally follows the mobile information hierarchy. */
+@media (min-width: 661px) and (max-width: 1100px) and (orientation: portrait) {
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+    width: 100% !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 0 clamp(18px, 3vw, 32px) 100px !important;
+    box-sizing: border-box !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav,
+  html[data-course="hub"] body[data-course="hub"] .sm-bottom-nav {
+    display: grid !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .study-dashboard {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 14px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-dropdown,
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-panel,
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #dashStats {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Keep the transition polished without overriding the user's motion preference. */
+@media (prefers-reduced-motion: reduce) {
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar,
+  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+    transition: none !important;
+  }
+}
