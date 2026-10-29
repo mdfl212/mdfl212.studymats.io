@@ -226,14 +226,15 @@
     toggle.addEventListener('click', () => {
       setCollapsed(!body.classList.contains('sidebar-collapsed'));
     });
+    const desktopMode = window.matchMedia('(min-width: 1101px)');
     const syncMode = () => {
-      if (!window.matchMedia('(min-width: 900px) and (orientation: landscape)').matches &&
-          !window.matchMedia('(min-width: 1101px)').matches) {
-        setCollapsed(false);
-      }
+      // Collapse is a desktop-only affordance; never carry it into the
+      // mobile/tablet shell when the effective CSS viewport narrows (zoom included).
+      if (!desktopMode.matches) setCollapsed(false);
     };
     window.addEventListener('resize', syncMode, { passive: true });
-    window.addEventListener('orientationchange', syncMode, { passive: true });
+    desktopMode.addEventListener?.('change', syncMode);
+    syncMode();
   })();
   </script>
   <script src="app.js"></script>
