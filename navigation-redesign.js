@@ -270,7 +270,9 @@
     // Progress and Builder) cannot accidentally show Home content underneath.
     const homeBrand = wrapper.querySelector(':scope > .site-header');
     const homeBrowseShortcut = wrapper.querySelector(':scope > .hub-year-dropdown');
-    if (homeBrand) welcome.appendChild(homeBrand);
+    // The welcome screen is intentionally minimal; keep legacy branding in the
+    // shared DOM for compatibility, but do not show a second logo/title there.
+    if (homeBrand) homeBrand.hidden = true;
     if (homeBrowseShortcut) welcome.appendChild(homeBrowseShortcut);
 
     const subjectDropdown = $('subjectProgressDropdown');
