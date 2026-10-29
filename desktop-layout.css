@@ -457,3 +457,120 @@
     transition: none !important;
   }
 }
+
+
+/* Phase 2A — authoritative shell geometry and breakpoint contract.
+   navigation-redesign.js owns the generated .sm-topbar/.sm-bottom-nav controls;
+   legacy controls remain in the DOM only as compatibility targets for existing handlers. */
+html[data-course="hub"] body[data-course="hub"] {
+  box-sizing: border-box;
+  overflow-x: clip;
+}
+
+html[data-course="hub"] body[data-course="hub"] .app-topbar,
+html[data-course="hub"] body[data-course="hub"] .theme-toggle-wrapper,
+html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
+  display: none !important;
+}
+
+@media (min-width: 1101px) {
+  html[data-course="hub"] {
+    --sm-desktop-sidebar-width: 232px;
+    --sm-desktop-content-max: 1480px;
+    --sm-desktop-content-gutter: clamp(24px, 2.4vw, 44px);
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar {
+    display: flex !important;
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: var(--sm-desktop-sidebar-width);
+    min-width: var(--sm-desktop-sidebar-width);
+    height: 100vh;
+    height: 100dvh;
+    z-index: 60;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+    box-sizing: border-box !important;
+    width: min(calc(100vw - var(--sm-desktop-sidebar-width) - 48px), var(--sm-desktop-content-max)) !important;
+    max-width: var(--sm-desktop-content-max) !important;
+    margin-left: calc(var(--sm-desktop-sidebar-width) + max(24px, calc((100vw - var(--sm-desktop-sidebar-width) - var(--sm-desktop-content-max)) / 2))) !important;
+    margin-right: auto !important;
+    padding: 0 var(--sm-desktop-content-gutter) 64px !important;
+    container-type: inline-size;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .sm-topbar {
+    box-sizing: border-box;
+    width: min(calc(100vw - var(--sm-desktop-sidebar-width) - 48px), var(--sm-desktop-content-max));
+    margin-left: calc(var(--sm-desktop-sidebar-width) + max(24px, calc((100vw - var(--sm-desktop-sidebar-width) - var(--sm-desktop-content-max)) / 2)));
+    margin-right: auto;
+    padding-inline: var(--sm-desktop-content-gutter);
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .sm-bottom-nav {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .study-dashboard {
+    min-width: 0;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed {
+    --sm-desktop-sidebar-width: 72px;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .desktop-sidebar {
+    width: 72px !important;
+    min-width: 72px !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 clamp(12px, 2.4vw, 28px) calc(88px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .sm-topbar {
+    width: 100%;
+    margin: 0;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .sm-bottom-nav {
+    display: flex !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .study-dashboard {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .dash-subject-dropdown,
+  html[data-course="hub"] body[data-course="hub"] .dash-activity-panel,
+  html[data-course="hub"] body[data-course="hub"] .dash-tools-panel {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] #dashStats {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  html[data-course="hub"] body[data-course="hub"] main.wrapper {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] #dashStats {
+    gap: 8px !important;
+  }
+}
