@@ -278,8 +278,11 @@
               '<div class="sm-settings-row"><div><strong>Personal details</strong><p>Change your preferred name and display preference.</p></div><button type="button" class="sm-settings-control" id="smSettingsEditProfile">Edit profile</button></div>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="study" hidden>' +
-              '<h3>Study preferences</h3><p class="sm-settings-description">Study workflow defaults will be managed here. Existing quiz behavior remains unchanged until each preference is connected to the quiz flow.</p>' +
-              '<div class="sm-settings-empty">The quiz currently manages its own mode, question selection, and session settings. These controls will be added after their behavior can be connected end to end.</div>' +
+              '<h3>Study preferences</h3><p class="sm-settings-description">Set the defaults used when you start a new study session. Changes apply the next time a question bank is loaded.</p>' +
+              '<div class="sm-settings-row"><div><strong>Default year level</strong><p>Choose which year level opens when you visit StudyMats without a specific subject link.</p></div><select class="sm-settings-control" id="smSettingsDefaultYear" aria-label="Default year level"><option value="YL1">Year Level 1</option><option value="YL2">Year Level 2</option><option value="YL3">Year Level 3</option><option value="YL4">Year Level 4</option></select></div>' +
+              '<div class="sm-settings-row"><div><strong>Default study mode</strong><p>Choose the mode used when a new session starts. A mode in a shared link takes priority.</p></div><select class="sm-settings-control" id="smSettingsDefaultMode" aria-label="Default study mode"><option value="exam">Exam</option><option value="review">Review</option><option value="key">Answer key</option></select></div>' +
+              '<div class="sm-settings-row"><div><strong>Shuffle questions</strong><p>Randomize question order when a subject bank loads. Your saved answers remain associated with their questions.</p></div><select class="sm-settings-control" id="smSettingsShuffle" aria-label="Shuffle questions"><option value="off">Off</option><option value="on">On</option></select></div>' +
+              '<p class="sm-settings-note" id="smStudyPreferencesStatus" role="status">Preferences are saved automatically on this device.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="accessibility" hidden>' +
               '<h3>Controls & accessibility</h3><p class="sm-settings-description">Make navigation and study sessions easier to use.</p>' +
@@ -352,6 +355,30 @@
     document.addEventListener('themechange', () => {
       if (themeChoice) themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
     });
+    const studyPreferenceKey = 'studymats-study-preferences-v1';
+    const studyControls = { year: $('smSettingsDefaultYear'), mode: $('smSettingsDefaultMode'), shuffle: $('smSettingsShuffle') };
+    const readStudyPreferences = () => {
+      try { return JSON.parse(localStorage.getItem(studyPreferenceKey) || '{}') || {}; } catch { return {}; }
+    };
+    const saveStudyPreferences = () => {
+      const next = {
+        defaultYear: studyControls.year?.value || 'YL1',
+        defaultMode: studyControls.mode?.value || 'exam',
+        shuffleQuestions: studyControls.shuffle?.value === 'on'
+      };
+      const status = $('smStudyPreferencesStatus');
+      try {
+        localStorage.setItem(studyPreferenceKey, JSON.stringify(next));
+        if (status) status.textContent = 'Study preferences saved on this device.';
+      } catch {
+        if (status) status.textContent = 'Unable to save preferences in this browser.';
+      }
+    };
+    const savedStudyPreferences = readStudyPreferences();
+    if (studyControls.year) studyControls.year.value = ['YL1','YL2','YL3','YL4'].includes(savedStudyPreferences.defaultYear) ? savedStudyPreferences.defaultYear : 'YL1';
+    if (studyControls.mode) studyControls.mode.value = ['exam','review','key'].includes(savedStudyPreferences.defaultMode) ? savedStudyPreferences.defaultMode : 'exam';
+    if (studyControls.shuffle) studyControls.shuffle.value = savedStudyPreferences.shuffleQuestions === true ? 'on' : 'off';
+    Object.values(studyControls).forEach(control => control?.addEventListener('change', saveStudyPreferences));
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
       $('dashProfileButton')?.click();
