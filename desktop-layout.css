@@ -584,10 +584,10 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     display: grid !important;
     grid-template-columns: max-content minmax(120px, 1fr) max-content !important;
     align-items: center !important;
-    width: 100% !important;
+    width: calc(100vw - var(--sm-desktop-sidebar-width)) !important;
     max-width: none !important;
     min-width: 0 !important;
-    margin: 0 0 20px !important;
+    margin: 0 0 20px var(--sm-desktop-sidebar-width) !important;
     padding-left: clamp(20px, 3vw, 48px) !important;
     padding-right: clamp(20px, 3vw, 48px) !important;
     gap: clamp(8px, 1.1vw, 16px) !important;
