@@ -257,20 +257,37 @@
           '<nav class="sm-settings-nav" aria-label="Settings categories">' +
             '<p>PERSONALIZATION</p>' +
             '<button type="button" class="sm-settings-nav-item is-active" data-settings-tab="appearance" aria-current="page">Appearance</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="profile">Profile</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="profile">Profile & account</button>' +
+            '<p>STUDY EXPERIENCE</p>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="study">Study preferences</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="accessibility">Controls & accessibility</button>' +
             '<p>APPLICATION</p>' +
             '<button type="button" class="sm-settings-nav-item" data-settings-tab="general">General</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="notifications">Notifications</button>' +
             '<button type="button" class="sm-settings-nav-item" data-settings-tab="data">Data & backup</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="reset">Reset settings</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="reset">Reset & maintenance</button>' +
           '</nav>' +
           '<div class="sm-settings-content">' +
             '<section class="sm-settings-page is-active" data-settings-page="appearance">' +
-              '<h3>Appearance</h3><p class="sm-settings-description">Choose how StudyMats looks and feels. More visual customization options are planned for a later phase.</p>' +
-              '<div class="sm-settings-row"><div><strong>Theme</strong><p>Switch between light and dark appearance.</p></div><button type="button" class="sm-settings-control" id="smSettingsTheme">Toggle theme</button></div>' +
+              '<h3>Appearance</h3><p class="sm-settings-description">Make StudyMats comfortable to use across your devices.</p>' +
+              '<div class="sm-settings-row"><div><strong>Color theme</strong><p>Choose light or dark appearance. Your choice is saved on this device.</p></div><select class="sm-settings-control" id="smSettingsThemeChoice" aria-label="Color theme"><option value="light">Light</option><option value="dark">Dark</option></select></div>' +
+              '<div class="sm-settings-row"><div><strong>Interface density</strong><p>Choose the amount of spacing used throughout the interface.</p></div><select class="sm-settings-control" id="smSettingsDensity" aria-label="Interface density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select></div>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="profile" hidden>' +
               '<h3>Profile</h3><p class="sm-settings-description">Manage the name and profile details shown in StudyMats.</p>' +
               '<div class="sm-settings-row"><div><strong>Personal details</strong><p>Change your preferred name and display preference.</p></div><button type="button" class="sm-settings-control" id="smSettingsEditProfile">Edit profile</button></div>' +
+            '</section>' +
+            '<section class="sm-settings-page" data-settings-page="study" hidden>' +
+              '<h3>Study preferences</h3><p class="sm-settings-description">Study workflow defaults will be managed here. Existing quiz behavior remains unchanged until each preference is connected to the quiz flow.</p>' +
+              '<div class="sm-settings-empty">The quiz currently manages its own mode, question selection, and session settings. These controls will be added after their behavior can be connected end to end.</div>' +
+            '</section>' +
+            '<section class="sm-settings-page" data-settings-page="accessibility" hidden>' +
+              '<h3>Controls & accessibility</h3><p class="sm-settings-description">Make navigation and study sessions easier to use.</p>' +
+              '<div class="sm-settings-empty">Keyboard customization, controller options, reduced motion, and readability controls are planned for a later phase.</div>' +
+            '</section>' +
+            '<section class="sm-settings-page" data-settings-page="notifications" hidden>' +
+              '<h3>Notifications</h3><p class="sm-settings-description">Manage study reminders and important updates.</p>' +
+              '<div class="sm-settings-empty">Study reminders will appear here once reliable browser notification and scheduling support is implemented.</div>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="general" hidden>' +
               '<h3>General</h3><p class="sm-settings-description">Application-wide preferences will live here.</p>' +
@@ -316,7 +333,24 @@
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape' && !settingsModal.hidden) closeSettings();
     });
-    $('smSettingsTheme')?.addEventListener('click', () => $('smThemeToggle')?.click());
+    const themeChoice = $('smSettingsThemeChoice');
+    const densityChoice = $('smSettingsDensity');
+    const applyDensity = density => {
+      const compact = density === 'compact';
+      document.body.classList.toggle('sm-compact-ui', compact);
+      try { localStorage.setItem('studymats-interface-density', compact ? 'compact' : 'comfortable'); } catch {}
+      if (densityChoice) densityChoice.value = compact ? 'compact' : 'comfortable';
+    };
+    if (themeChoice) {
+      themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      themeChoice.addEventListener('change', () => window.setTheme?.(themeChoice.value));
+    }
+    try { applyDensity(localStorage.getItem('studymats-interface-density') || 'comfortable'); }
+    catch { applyDensity('comfortable'); }
+    densityChoice?.addEventListener('change', () => applyDensity(densityChoice.value));
+    document.addEventListener('themechange', () => {
+      if (themeChoice) themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    });
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
       $('dashProfileButton')?.click();
