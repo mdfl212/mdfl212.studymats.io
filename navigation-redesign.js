@@ -52,9 +52,7 @@
         '<img src="assets/studymats-mark.svg" alt=""><span>StudyMats</span>' +
       '</a>' +
       '<label class="sm-nav-search">' +
-        '<span aria-hidden="true">⌨</span>' +
         '<input id="smSearchInput" type="search" placeholder="Search questions or topics…" aria-label="Search questions or topics" enterkeyhint="search">' +
-        '<kbd>⌘ K</kbd>' +
       '</label>' +
       '<div class="sm-nav-actions">' +
         '<button type="button" class="sm-icon-btn" id="smThemeToggle" aria-label="Toggle theme" title="Toggle theme">◐</button>' +
@@ -99,9 +97,6 @@
         }
       });
     }
-    const kbdEl = topbar.querySelector('.sm-nav-search kbd');
-    if (kbdEl) kbdEl.textContent = /Mac|iPhone|iPad/.test(navigator.platform || '') ? '⌘ K' : 'Ctrl K';
-
     const themeButton = oldTop.querySelector('[data-theme-toggle]');
     $('smThemeToggle')?.addEventListener('click', () => themeButton?.click());
 
