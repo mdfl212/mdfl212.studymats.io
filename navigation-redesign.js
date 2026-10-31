@@ -285,8 +285,10 @@
               '<p class="sm-settings-note" id="smStudyPreferencesStatus" role="status">Preferences are saved automatically on this device.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="accessibility" hidden>' +
-              '<h3>Controls & accessibility</h3><p class="sm-settings-description">Make navigation and study sessions easier to use.</p>' +
-              '<div class="sm-settings-empty">Keyboard customization, controller options, reduced motion, and readability controls are planned for a later phase.</div>' +
+              '<h3>Controls & accessibility</h3><p class="sm-settings-description">Adjust motion and text sizing to make StudyMats more comfortable to use.</p>' +
+              '<div class="sm-settings-row"><div><strong>Motion</strong><p>Reduce interface animation and smooth scrolling. System follows your device preference.</p></div><select class="sm-settings-control" id="smSettingsMotion" aria-label="Motion preference"><option value="system">Use device setting</option><option value="reduce">Reduce motion</option><option value="full">Allow motion</option></select></div>' +
+              '<div class="sm-settings-row"><div><strong>Text size</strong><p>Increase the base interface text size without changing your study content or saved data.</p></div><select class="sm-settings-control" id="smSettingsTextSize" aria-label="Text size"><option value="normal">Default</option><option value="large">Larger</option></select></div>' +
+              '<p class="sm-settings-note" id="smAccessibilityStatus" role="status">Accessibility preferences are saved automatically on this device.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="notifications" hidden>' +
               '<h3>Notifications</h3><p class="sm-settings-description">Manage study reminders and important updates.</p>' +
@@ -379,6 +381,38 @@
     if (studyControls.mode) studyControls.mode.value = ['exam','review','key'].includes(savedStudyPreferences.defaultMode) ? savedStudyPreferences.defaultMode : 'exam';
     if (studyControls.shuffle) studyControls.shuffle.value = savedStudyPreferences.shuffleQuestions === true ? 'on' : 'off';
     Object.values(studyControls).forEach(control => control?.addEventListener('change', saveStudyPreferences));
+    const accessibilityKey = 'studymats-accessibility-preferences-v1';
+    const motionControl = $('smSettingsMotion');
+    const textSizeControl = $('smSettingsTextSize');
+    const applyMotion = value => {
+      const reduced = value === 'reduce' || (value === 'system' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches);
+      document.body.classList.toggle('sm-reduced-motion', !!reduced);
+      if (motionControl) motionControl.value = ['system','reduce','full'].includes(value) ? value : 'system';
+    };
+    const applyTextSize = value => {
+      document.documentElement.classList.toggle('sm-large-text', value === 'large');
+      if (textSizeControl) textSizeControl.value = value === 'large' ? 'large' : 'normal';
+    };
+    let accessibilityPrefs = {};
+    try { accessibilityPrefs = JSON.parse(localStorage.getItem(accessibilityKey) || '{}') || {}; } catch {}
+    applyMotion(['system','reduce','full'].includes(accessibilityPrefs.motion) ? accessibilityPrefs.motion : 'system');
+    applyTextSize(accessibilityPrefs.textSize === 'large' ? 'large' : 'normal');
+    const saveAccessibility = () => {
+      const next = { motion: motionControl?.value || 'system', textSize: textSizeControl?.value || 'normal' };
+      try {
+        localStorage.setItem(accessibilityKey, JSON.stringify(next));
+        const status = $('smAccessibilityStatus');
+        if (status) status.textContent = 'Accessibility preferences saved on this device.';
+      } catch {
+        const status = $('smAccessibilityStatus');
+        if (status) status.textContent = 'Unable to save preferences in this browser.';
+      }
+    };
+    motionControl?.addEventListener('change', () => { applyMotion(motionControl.value); saveAccessibility(); });
+    textSizeControl?.addEventListener('change', () => { applyTextSize(textSizeControl.value); saveAccessibility(); });
+    window.matchMedia?.('(prefers-reduced-motion: reduce)').addEventListener?.('change', () => {
+      if ((motionControl?.value || 'system') === 'system') applyMotion('system');
+    });
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
       $('dashProfileButton')?.click();
