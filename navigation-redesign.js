@@ -213,7 +213,6 @@
             '<section class="sm-settings-page" data-settings-page="reset" hidden>' +
               '<h3>Reset settings</h3><p class="sm-settings-description">Restore preferences to their defaults. This will not delete question banks, quiz history, saved progress, or backup files.</p>' +
               '<div class="sm-settings-reset-card"><div><strong>Reset appearance</strong><p>Return the current theme to the default light appearance.</p></div><button type="button" class="sm-settings-control sm-settings-danger" id="smResetAppearance">Reset appearance</button></div>' +
-              '<div class="sm-settings-reset-card"><div><strong>Reset all settings</strong><p>Reset available application preferences without deleting study data.</p></div><button type="button" class="sm-settings-control sm-settings-danger" id="smResetAllSettings">Reset settings</button></div>' +
             '</section>' +
           '</div>' +
         '</div>' +
@@ -263,12 +262,6 @@
     $('smResetAppearance')?.addEventListener('click', () => {
       if (window.confirm('Reset appearance to the default light theme? Your study data will not be affected.')) {
         resetAppearance();
-      }
-    });
-    $('smResetAllSettings')?.addEventListener('click', () => {
-      if (window.confirm('Reset all currently available StudyMats preferences to their defaults? Your profile, question banks, quiz history, saved progress, and backups will not be deleted.')) {
-        resetAppearance();
-        showSettingsPage('appearance');
       }
     });
     document.querySelectorAll('[data-sm-changelog]').forEach(b =>
