@@ -973,3 +973,28 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     grid-template-columns: 40px max-content minmax(96px, 1fr) max-content !important;
   }
 }
+
+
+/* Regression fix: the visible-sidebar width rule must never override the
+   compact rail width. The previous :not([hidden]) selector also matched the
+   collapsed state, forcing the rail back to 248px. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .desktop-sidebar:not([hidden]) {
+    width: 76px !important;
+    min-width: 76px !important;
+    max-width: 76px !important;
+    padding-inline: 9px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"]:not(.sidebar-collapsed) .desktop-sidebar:not([hidden]) {
+    width: 248px !important;
+    min-width: 248px !important;
+    max-width: 248px !important;
+  }
+
+  .sm-sidebar-backdrop:not([hidden]) {
+    background: rgba(30, 27, 24, .075) !important;
+    -webkit-backdrop-filter: blur(4px) saturate(.96) !important;
+    backdrop-filter: blur(4px) saturate(.96) !important;
+  }
+}
