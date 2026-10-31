@@ -411,7 +411,14 @@ async function loadSubjects() {
     let studyPreferences = {};
     try { studyPreferences = JSON.parse(localStorage.getItem('studymats-study-preferences-v1') || '{}') || {}; } catch {}
     if (!requestedSubject && ['YL1', 'YL2', 'YL3', 'YL4'].includes(studyPreferences.defaultYear)) state.activeYear = studyPreferences.defaultYear;
+    let generalPreferences = {};
+    try { generalPreferences = JSON.parse(localStorage.getItem('studymats-general-preferences-v1') || '{}') || {}; } catch {}
+    let rememberedSubjectId = null;
+    try { rememberedSubjectId = localStorage.getItem('studymats-last-subject-v1'); } catch {}
+    const rememberedSubject = generalPreferences.rememberLastSubject === true
+        ? state.subjects.find((item) => item.id === rememberedSubjectId) : null;
     const defaultSubject = state.subjects.find((item) => item.id === requestedSubject)
+        || rememberedSubject
         || state.subjects.find((item) => item.yearLevel === state.activeYear)
         || state.subjects[0];
     syncYearIndicators();
@@ -432,6 +439,7 @@ async function selectSubject(subjectId) {
     if (!response.ok) throw new Error(`Unable to load ${subject.name} questions.`);
     state.subject = subject;
     state.activeYear = subject.yearLevel || state.activeYear;
+    try { localStorage.setItem('studymats-last-subject-v1', subject.id); } catch {}
     state.questions = await response.json();
     let studyPreferences = {};
     try { studyPreferences = JSON.parse(localStorage.getItem('studymats-study-preferences-v1') || '{}') || {}; } catch {}
