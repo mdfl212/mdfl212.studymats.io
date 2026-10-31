@@ -298,3 +298,9 @@ html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown
     transition: none !important;
   }
 }
+
+
+/* Honor the welcome script's hidden state for the legacy brand header at every breakpoint. */
+html[data-course="hub"] body.sm-redesign-active .site-header[hidden] {
+  display: none !important;
+}
