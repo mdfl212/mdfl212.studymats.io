@@ -72,57 +72,52 @@
       '</div>';
     document.body.insertBefore(topbar, wrapper);
 
-    // Desktop navigation is a floating drawer. Its backdrop is independent of
-    // the content shell, so opening it never changes the page's dimensions.
+    // Desktop sidebar rests as a compact logo rail. Expanding it overlays
+    // the page without changing the content column or hiding progress controls.
     const desktopSidebar = document.querySelector('.desktop-sidebar');
-    const sidebarBackdrop = document.createElement('div');
-    sidebarBackdrop.className = 'sm-sidebar-backdrop';
-    sidebarBackdrop.hidden = true;
-    sidebarBackdrop.setAttribute('aria-hidden', 'true');
-    document.body.appendChild(sidebarBackdrop);
-
     const sidebarToggle = document.createElement('button');
     sidebarToggle.type = 'button';
-    sidebarToggle.className = 'sm-sidebar-toggle';
-    sidebarToggle.id = 'smSidebarToggle';
-    sidebarToggle.setAttribute('aria-label', 'Open navigation');
-    sidebarToggle.setAttribute('aria-controls', 'desktopSidebar');
+    sidebarToggle.className = 'sidebar-collapse-toggle';
+    sidebarToggle.setAttribute('aria-label', 'Expand navigation');
     sidebarToggle.setAttribute('aria-expanded', 'false');
-    sidebarToggle.innerHTML = '<span></span><span></span><span></span>';
-    topbar.insertBefore(sidebarToggle, topbar.firstChild);
+    sidebarToggle.innerHTML = '<span aria-hidden="true">›</span>';
     if (desktopSidebar) {
       desktopSidebar.id = 'desktopSidebar';
-      if (window.matchMedia('(min-width: 1101px)').matches) desktopSidebar.hidden = true;
+      const sidebarTop = desktopSidebar.querySelector('.sidebar-top');
+      if (sidebarTop) sidebarTop.appendChild(sidebarToggle);
+      if (window.matchMedia('(min-width: 1101px)').matches) {
+        desktopSidebar.hidden = false;
+        body.classList.add('sidebar-collapsed');
+      }
     }
-
-    const closeDesktopSidebar = () => {
+    const setSidebarCollapsed = collapsed => {
       if (!desktopSidebar) return;
-      desktopSidebar.hidden = true;
-      sidebarBackdrop.hidden = true;
-      sidebarToggle.setAttribute('aria-expanded', 'false');
-      sidebarToggle.setAttribute('aria-label', 'Open navigation');
-      document.body.classList.remove('sm-sidebar-open');
-      sidebarToggle.focus();
-    };
-    const openDesktopSidebar = () => {
-      if (!desktopSidebar) return;
-      desktopSidebar.hidden = false;
-      sidebarBackdrop.hidden = false;
-      sidebarToggle.setAttribute('aria-expanded', 'true');
-      sidebarToggle.setAttribute('aria-label', 'Close navigation');
-      document.body.classList.add('sm-sidebar-open');
-      desktopSidebar.querySelector('.sidebar-link')?.focus();
+      body.classList.toggle('sidebar-collapsed', collapsed);
+      sidebarToggle.setAttribute('aria-expanded', String(!collapsed));
+      sidebarToggle.setAttribute('aria-label', collapsed ? 'Expand navigation' : 'Collapse navigation');
+      sidebarToggle.innerHTML = collapsed
+        ? '<span aria-hidden="true">›</span>'
+        : '<span aria-hidden="true">‹</span>';
     };
     sidebarToggle.addEventListener('click', () => {
-      if (desktopSidebar?.hidden) openDesktopSidebar();
-      else closeDesktopSidebar();
+      setSidebarCollapsed(!body.classList.contains('sidebar-collapsed'));
     });
-    sidebarBackdrop.addEventListener('click', closeDesktopSidebar);
-    document.addEventListener('keydown', event => {
-      if (event.key === 'Escape' && desktopSidebar && !desktopSidebar.hidden) {
-        closeDesktopSidebar();
-        sidebarToggle.focus();
-      }
+    // Keep the compact logo rail visible on desktop; the topbar control can
+    // also expand/collapse it for keyboard and pointer users.
+    const topbarSidebarToggle = document.createElement('button');
+    topbarSidebarToggle.type = 'button';
+    topbarSidebarToggle.className = 'sm-sidebar-toggle';
+    topbarSidebarToggle.id = 'smSidebarToggle';
+    topbarSidebarToggle.setAttribute('aria-label', 'Expand navigation');
+    topbarSidebarToggle.setAttribute('aria-controls', 'desktopSidebar');
+    topbarSidebarToggle.setAttribute('aria-expanded', 'false');
+    topbarSidebarToggle.innerHTML = '<span></span><span></span><span></span>';
+    topbar.insertBefore(topbarSidebarToggle, topbar.firstChild);
+    topbarSidebarToggle.addEventListener('click', () => {
+      setSidebarCollapsed(!body.classList.contains('sidebar-collapsed'));
+    });
+    desktopSidebar?.querySelectorAll('.sidebar-link').forEach(link => {
+      link.addEventListener('click', () => setSidebarCollapsed(true));
     });
 
     const bottom = document.createElement('nav');
