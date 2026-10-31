@@ -291,8 +291,10 @@
               '<p class="sm-settings-note" id="smAccessibilityStatus" role="status">Accessibility preferences are saved automatically on this device.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="notifications" hidden>' +
-              '<h3>Notifications</h3><p class="sm-settings-description">Manage study reminders and important updates.</p>' +
-              '<div class="sm-settings-empty">Study reminders will appear here once reliable browser notification and scheduling support is implemented.</div>' +
+              '<h3>Notifications</h3><p class="sm-settings-description">Choose which helpful in-app study updates appear while you work. No browser notification permission is required.</p>' +
+              '<div class="sm-settings-row"><div><strong>Session completion</strong><p>Show a small confirmation when you have answered every question in the current filtered set.</p></div><select class="sm-settings-control" id="smSettingsCompletionNotice" aria-label="Session completion notification"><option value="on">On</option><option value="off">Off</option></select></div>' +
+              '<div class="sm-settings-row"><div><strong>Progress milestone</strong><p>Show one gentle nudge when you answer half of the questions in the current set.</p></div><select class="sm-settings-control" id="smSettingsMilestoneNotice" aria-label="Progress milestone notification"><option value="on">On</option><option value="off">Off</option></select></div>' +
+              '<p class="sm-settings-note" id="smNotificationsStatus" role="status">Notification preferences are saved automatically on this device.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="general" hidden>' +
               '<h3>General</h3><p class="sm-settings-description">Choose how StudyMats behaves when you return to the application.</p>' +
@@ -413,6 +415,46 @@
     textSizeControl?.addEventListener('change', () => { applyTextSize(textSizeControl.value); saveAccessibility(); });
     window.matchMedia?.('(prefers-reduced-motion: reduce)').addEventListener?.('change', () => {
       if ((motionControl?.value || 'system') === 'system') applyMotion('system');
+    });
+    const notificationPreferenceKey = 'studymats-notification-preferences-v1';
+    const completionNotice = $('smSettingsCompletionNotice');
+    const milestoneNotice = $('smSettingsMilestoneNotice');
+    let notificationPreferences = {};
+    try { notificationPreferences = JSON.parse(localStorage.getItem(notificationPreferenceKey) || '{}') || {}; } catch {}
+    if (completionNotice) completionNotice.value = notificationPreferences.sessionCompletion === false ? 'off' : 'on';
+    if (milestoneNotice) milestoneNotice.value = notificationPreferences.progressMilestone === false ? 'off' : 'on';
+    const saveNotificationPreferences = () => {
+      const next = {
+        sessionCompletion: completionNotice?.value !== 'off',
+        progressMilestone: milestoneNotice?.value !== 'off'
+      };
+      const status = $('smNotificationsStatus');
+      try {
+        localStorage.setItem(notificationPreferenceKey, JSON.stringify(next));
+        if (status) status.textContent = 'Notification preferences saved on this device.';
+      } catch {
+        if (status) status.textContent = 'Unable to save notification preferences in this browser.';
+      }
+    };
+    completionNotice?.addEventListener('change', saveNotificationPreferences);
+    milestoneNotice?.addEventListener('change', saveNotificationPreferences);
+    let toastTimer = null;
+    let toast = document.getElementById('smStudyToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'smStudyToast';
+      toast.className = 'sm-study-toast';
+      toast.setAttribute('role', 'status');
+      toast.setAttribute('aria-live', 'polite');
+      document.body.appendChild(toast);
+    }
+    window.addEventListener('studymats:study-notification', event => {
+      const message = event.detail?.message;
+      if (!message) return;
+      toast.textContent = message;
+      toast.classList.add('is-visible');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 3600);
     });
     const generalPreferenceKey = 'studymats-general-preferences-v1';
     const rememberSubjectControl = $('smSettingsRememberSubject');
