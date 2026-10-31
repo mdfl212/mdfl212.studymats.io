@@ -62,10 +62,12 @@
         '</button>' +
         '<section class="sm-profile-menu" id="smProfileMenu" hidden aria-label="Profile menu">' +
           '<h3>Profile</h3>' +
-          '<button type="button" class="sm-menu-action" id="smEditName">Edit name</button>' +
+          '<button type="button" class="sm-menu-action" id="smEditName">Edit profile</button>' +
+          '<button type="button" class="sm-menu-action" id="smOpenSettings">Settings</button>' +
           '<button type="button" class="sm-menu-action" data-sm-changelog>What\'s Changed</button>' +
           '<div class="sm-menu-divider"></div>' +
           '<button type="button" class="sm-menu-action" id="smOpenBackup">Backup & portability…</button>' +
+          '<a class="sm-menu-action sm-menu-link" href="https://github.com/mdfl212/mdfl212.studymats.io" target="_blank" rel="noopener noreferrer">Visit repository <span aria-hidden="true">↗</span></a>' +
         '</section>' +
       '</div>';
     document.body.insertBefore(topbar, wrapper);
@@ -167,6 +169,52 @@
     $('smEditName')?.addEventListener('click', () => {
       closeProfile();
       $('dashProfileButton')?.click();
+    });
+
+    // Settings reuses the app's existing preference and data-management flows.
+    const settingsModal = document.createElement('div');
+    settingsModal.className = 'sm-modal sm-settings-modal';
+    settingsModal.id = 'smSettingsModal';
+    settingsModal.hidden = true;
+    settingsModal.innerHTML =
+      '<section class="sm-modal-dialog sm-settings-dialog" role="dialog" aria-modal="true" aria-labelledby="smSettingsTitle" tabindex="-1">' +
+        '<header class="sm-modal-header">' +
+          '<div><p class="sm-settings-eyebrow">PREFERENCES</p><h2 id="smSettingsTitle">Settings</h2></div>' +
+          '<button class="sm-modal-close" type="button" aria-label="Close settings">×</button>' +
+        '</header>' +
+        '<section class="sm-settings-group" aria-labelledby="smSettingsAppearance">' +
+          '<h3 id="smSettingsAppearance">Appearance</h3>' +
+          '<div class="sm-settings-row"><div><strong>Theme</strong><p>Switch between light and dark appearance.</p></div><button type="button" class="sm-settings-control" id="smSettingsTheme">Toggle theme</button></div>' +
+        '</section>' +
+        '<section class="sm-settings-group" aria-labelledby="smSettingsProfile">' +
+          '<h3 id="smSettingsProfile">Profile</h3>' +
+          '<div class="sm-settings-row"><div><strong>Personal details</strong><p>Change your preferred name and display preference.</p></div><button type="button" class="sm-settings-control" id="smSettingsEditProfile">Edit profile</button></div>' +
+        '</section>' +
+        '<section class="sm-settings-group" aria-labelledby="smSettingsData">' +
+          '<h3 id="smSettingsData">Your data</h3>' +
+          '<div class="sm-settings-row"><div><strong>Backup & portability</strong><p>Export or restore your locally saved study data.</p></div><button type="button" class="sm-settings-control" id="smSettingsBackup">Manage</button></div>' +
+        '</section>' +
+      '</section>';
+    document.body.appendChild(settingsModal);
+    const closeSettings = () => { settingsModal.hidden = true; };
+    $('smOpenSettings')?.addEventListener('click', () => {
+      closeProfile();
+      settingsModal.hidden = false;
+      settingsModal.querySelector('.sm-modal-close')?.focus();
+    });
+    settingsModal.querySelector('.sm-modal-close')?.addEventListener('click', closeSettings);
+    settingsModal.addEventListener('click', e => { if (e.target === settingsModal) closeSettings(); });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !settingsModal.hidden) closeSettings();
+    });
+    $('smSettingsTheme')?.addEventListener('click', () => $('smThemeToggle')?.click());
+    $('smSettingsEditProfile')?.addEventListener('click', () => {
+      closeSettings();
+      $('dashProfileButton')?.click();
+    });
+    $('smSettingsBackup')?.addEventListener('click', () => {
+      closeSettings();
+      openBackup();
     });
     document.querySelectorAll('[data-sm-changelog]').forEach(b =>
       b.addEventListener('click', () => {
