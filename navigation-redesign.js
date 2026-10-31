@@ -72,9 +72,16 @@
       '</div>';
     document.body.insertBefore(topbar, wrapper);
 
-    // Desktop sidebar rests as a compact logo rail. Expanding it overlays
-    // the page without changing the content column or hiding progress controls.
+    // Desktop sidebar defaults to a compact icon rail. Expanding it is a
+    // floating drawer: the dashboard keeps its dimensions and the backdrop
+    // makes the overlay behavior clear.
     const desktopSidebar = document.querySelector('.desktop-sidebar');
+    const sidebarBackdrop = document.createElement('div');
+    sidebarBackdrop.className = 'sm-sidebar-backdrop';
+    sidebarBackdrop.hidden = true;
+    sidebarBackdrop.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(sidebarBackdrop);
+
     const sidebarToggle = document.createElement('button');
     sidebarToggle.type = 'button';
     sidebarToggle.className = 'sidebar-collapse-toggle';
@@ -90,20 +97,29 @@
         body.classList.add('sidebar-collapsed');
       }
     }
-    const setSidebarCollapsed = collapsed => {
+
+    const setSidebarCollapsed = (collapsed, restoreFocus = false) => {
       if (!desktopSidebar) return;
       body.classList.toggle('sidebar-collapsed', collapsed);
+      sidebarBackdrop.hidden = collapsed;
       sidebarToggle.setAttribute('aria-expanded', String(!collapsed));
       sidebarToggle.setAttribute('aria-label', collapsed ? 'Expand navigation' : 'Collapse navigation');
       sidebarToggle.innerHTML = collapsed
         ? '<span aria-hidden="true">›</span>'
         : '<span aria-hidden="true">‹</span>';
+      topbarSidebarToggle.setAttribute('aria-expanded', String(!collapsed));
+      topbarSidebarToggle.setAttribute('aria-label', collapsed ? 'Expand navigation' : 'Collapse navigation');
+      if (!collapsed) {
+        desktopSidebar.querySelector('.sidebar-link')?.focus({ preventScroll: true });
+      } else if (restoreFocus) {
+        topbarSidebarToggle.focus({ preventScroll: true });
+      }
     };
     sidebarToggle.addEventListener('click', () => {
       setSidebarCollapsed(!body.classList.contains('sidebar-collapsed'));
     });
-    // Keep the compact logo rail visible on desktop; the topbar control can
-    // also expand/collapse it for keyboard and pointer users.
+
+    // A single topbar control expands the rail; the in-rail arrow collapses it.
     const topbarSidebarToggle = document.createElement('button');
     topbarSidebarToggle.type = 'button';
     topbarSidebarToggle.className = 'sm-sidebar-toggle';
@@ -115,6 +131,12 @@
     topbar.insertBefore(topbarSidebarToggle, topbar.firstChild);
     topbarSidebarToggle.addEventListener('click', () => {
       setSidebarCollapsed(!body.classList.contains('sidebar-collapsed'));
+    });
+    sidebarBackdrop.addEventListener('click', () => setSidebarCollapsed(true, true));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && desktopSidebar && !body.classList.contains('sidebar-collapsed')) {
+        setSidebarCollapsed(true, true);
+      }
     });
     desktopSidebar?.querySelectorAll('.sidebar-link').forEach(link => {
       link.addEventListener('click', () => setSidebarCollapsed(true));
