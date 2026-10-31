@@ -72,6 +72,57 @@
       '</div>';
     document.body.insertBefore(topbar, wrapper);
 
+    // Desktop navigation is a floating drawer. Its backdrop is independent of
+    // the content shell, so opening it never changes the page's dimensions.
+    const desktopSidebar = document.querySelector('.desktop-sidebar');
+    const sidebarBackdrop = document.createElement('div');
+    sidebarBackdrop.className = 'sm-sidebar-backdrop';
+    sidebarBackdrop.hidden = true;
+    sidebarBackdrop.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(sidebarBackdrop);
+
+    const sidebarToggle = document.createElement('button');
+    sidebarToggle.type = 'button';
+    sidebarToggle.className = 'sm-sidebar-toggle';
+    sidebarToggle.id = 'smSidebarToggle';
+    sidebarToggle.setAttribute('aria-label', 'Open navigation');
+    sidebarToggle.setAttribute('aria-controls', 'desktopSidebar');
+    sidebarToggle.setAttribute('aria-expanded', 'false');
+    sidebarToggle.innerHTML = '<span></span><span></span><span></span>';
+    topbar.insertBefore(sidebarToggle, topbar.firstChild);
+    if (desktopSidebar) {
+      desktopSidebar.id = 'desktopSidebar';
+      if (window.matchMedia('(min-width: 1101px)').matches) desktopSidebar.hidden = true;
+    }
+
+    const closeDesktopSidebar = () => {
+      if (!desktopSidebar) return;
+      desktopSidebar.hidden = true;
+      sidebarBackdrop.hidden = true;
+      sidebarToggle.setAttribute('aria-expanded', 'false');
+      sidebarToggle.setAttribute('aria-label', 'Open navigation');
+      document.body.classList.remove('sm-sidebar-open');
+    };
+    const openDesktopSidebar = () => {
+      if (!desktopSidebar) return;
+      desktopSidebar.hidden = false;
+      sidebarBackdrop.hidden = false;
+      sidebarToggle.setAttribute('aria-expanded', 'true');
+      sidebarToggle.setAttribute('aria-label', 'Close navigation');
+      document.body.classList.add('sm-sidebar-open');
+    };
+    sidebarToggle.addEventListener('click', () => {
+      if (desktopSidebar?.hidden) openDesktopSidebar();
+      else closeDesktopSidebar();
+    });
+    sidebarBackdrop.addEventListener('click', closeDesktopSidebar);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && desktopSidebar && !desktopSidebar.hidden) {
+        closeDesktopSidebar();
+        sidebarToggle.focus();
+      }
+    });
+
     const bottom = document.createElement('nav');
     bottom.className = 'sm-bottom-nav';
     bottom.setAttribute('aria-label', 'Main');
@@ -432,7 +483,6 @@
       if (e.key === 'Escape' && !rankModal.hidden) closeRank();
     });
 
-    const desktopSidebar = document.querySelector('.desktop-sidebar');
     const sidebarDestinations = [
       ['.sidebar-link[href="#top"]', 'home'],
       ['.sidebar-link[href="quiz.html"]', 'quiz'],
@@ -508,6 +558,7 @@
         else if (view === 'quiz') openQuiz();
         else if (view === 'browse') openBrowse();
         else setView(view);
+        closeDesktopSidebar();
       });
     });
 
