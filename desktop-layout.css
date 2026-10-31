@@ -902,3 +902,74 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     padding-bottom: 30px !important;
   }
 }
+
+
+/* Final desktop sidebar refinement: align the menu control with the wordmark,
+   and make the expanded state read as a deliberate floating drawer. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body.sm-redesign-active .sm-topbar {
+    grid-template-columns: 40px max-content minmax(120px, 1fr) max-content !important;
+    align-items: center !important;
+    column-gap: clamp(8px, 1vw, 14px) !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-sidebar-toggle {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    justify-self: start;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-brand {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-search {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-actions {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar:not([hidden]) {
+    width: 248px !important;
+    min-width: 248px !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"]:not(.sidebar-collapsed) .desktop-sidebar {
+    z-index: 101 !important;
+  }
+
+  html[data-course="hub"] body[data-course="hub"]:not(.sidebar-collapsed) .desktop-sidebar .sidebar-collapse-toggle {
+    display: inline-flex;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .desktop-sidebar .sidebar-collapse-toggle {
+    display: none;
+  }
+
+  .sm-sidebar-backdrop:not([hidden]) {
+    display: block;
+    opacity: 1;
+  }
+
+  .sm-sidebar-backdrop[hidden] {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-topbar {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1360px) {
+  html[data-course="hub"] body.sm-redesign-active .sm-topbar {
+    grid-template-columns: 40px max-content minmax(96px, 1fr) max-content !important;
+  }
+}
