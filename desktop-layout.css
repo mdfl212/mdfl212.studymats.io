@@ -1206,3 +1206,51 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     transition: none !important;
   }
 }
+
+
+/* Desktop navigation is fully hidden by default. The StudyMats mark in the
+   topbar is the single entry point for opening the floating drawer. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .desktop-sidebar,
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar[hidden] {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-sidebar-toggle {
+    display: inline-flex !important;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-sidebar-toggle img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-sidebar-toggle:hover {
+    background: color-mix(in srgb, var(--accent, #17643a) 8%, var(--bg-card, #fff));
+    border-color: color-mix(in srgb, var(--accent, #17643a) 18%, var(--border, #e2e8e2));
+    transform: translateY(-1px);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-sidebar-toggle:focus-visible {
+    outline: 2px solid var(--accent, #17643a);
+    outline-offset: 3px;
+  }
+
+  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sm-sidebar-backdrop {
+    display: none !important;
+  }
+}
