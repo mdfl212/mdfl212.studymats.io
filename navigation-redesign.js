@@ -325,6 +325,7 @@
     $('smOpenSettings')?.addEventListener('click', () => {
       closeProfile();
       showSettingsPage('appearance');
+      if (themeChoice) themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
       settingsModal.hidden = false;
       settingsModal.querySelector('.sm-modal-close')?.focus();
     });
