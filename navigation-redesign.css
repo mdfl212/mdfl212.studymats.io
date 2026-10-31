@@ -860,3 +860,40 @@ html[data-theme="dark"] .sm-settings-reset-card {
   }
   .sm-settings-control { width: 100% !important; }
 }
+
+
+/* Settings expansion: native controls share the same visual language as action buttons. */
+.sm-settings-control:is(select, input) {
+  min-width: 148px !important;
+  max-width: 190px !important;
+  min-height: 42px !important;
+  padding: 9px 34px 9px 13px !important;
+  border: 1px solid var(--border, #e4e9e3) !important;
+  background-color: var(--bg-card, #fff) !important;
+  color: var(--text, #26372d) !important;
+  cursor: pointer !important;
+}
+.sm-settings-control:focus-visible,
+.sm-settings-nav-item:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent, #17683f) 35%, transparent) !important;
+  outline-offset: 2px !important;
+}
+.sm-settings-nav-item { transition: background-color .18s ease, border-color .18s ease, color .18s ease; }
+.sm-settings-row { transition: border-color .18s ease, box-shadow .18s ease; }
+.sm-settings-row:focus-within {
+  border-color: color-mix(in srgb, var(--accent, #17683f) 30%, var(--border, #e4e9e3)) !important;
+}
+.sm-settings-page[hidden] { display: none !important; }
+
+/* Compact density is intentionally restrained and only affects shared dashboard surfaces. */
+body.sm-compact-ui .sm-metric-tile { min-height: 62px; padding-block: 10px; }
+body.sm-compact-ui .sm-settings-row { min-height: 78px !important; padding-block: 15px !important; }
+body.sm-compact-ui .sm-page { gap: 14px; }
+html[data-theme="dark"] .sm-settings-control:is(select, input) {
+  background-color: var(--bg-card, #211d1f) !important;
+  color: var(--text, #f0ece8) !important;
+  border-color: var(--border, #40363b) !important;
+}
+@media (max-width: 480px) {
+  .sm-settings-control:is(select, input) { max-width: none !important; width: 100% !important; }
+}
