@@ -657,3 +657,12 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     min-width: 0 !important;
   }
 }
+
+
+/* The fixed sidebar already provides desktop branding; keep the topbar wordmark
+   while removing its duplicate mark. The mobile topbar retains the logo. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-brand img {
+    display: none !important;
+  }
+}
