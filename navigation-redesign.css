@@ -911,3 +911,23 @@ html[data-theme="dark"] .sm-settings-control:is(select, input) {
   .sm-settings-row { align-items: flex-start !important; flex-direction: column !important; gap: 12px !important; }
   .sm-settings-row .sm-settings-control { width: 100% !important; max-width: none !important; }
 }
+
+
+/* Accessibility preferences */
+html.sm-large-text { font-size: 17px; }
+@media (min-width: 1200px) {
+  html.sm-large-text { font-size: 17.5px; }
+}
+body.sm-reduced-motion *,
+body.sm-reduced-motion *::before,
+body.sm-reduced-motion *::after {
+  scroll-behavior: auto !important;
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  transition-delay: 0ms !important;
+}
+@media (max-width: 560px) {
+  .sm-settings-row { align-items: flex-start !important; flex-direction: column !important; gap: 12px !important; }
+  .sm-settings-row .sm-settings-control { width: 100% !important; max-width: none !important; }
+}
