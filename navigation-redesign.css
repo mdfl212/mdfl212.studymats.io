@@ -897,3 +897,17 @@ html[data-theme="dark"] .sm-settings-control:is(select, input) {
 @media (max-width: 480px) {
   .sm-settings-control:is(select, input) { max-width: none !important; width: 100% !important; }
 }
+
+
+.sm-settings-note {
+  margin: 14px 2px 0;
+  color: var(--muted, #718078);
+  font-size: 12px;
+  line-height: 1.55;
+}
+.sm-settings-row > div { min-width: 0; }
+.sm-settings-row .sm-settings-control { flex: 0 0 auto; }
+@media (max-width: 560px) {
+  .sm-settings-row { align-items: flex-start !important; flex-direction: column !important; gap: 12px !important; }
+  .sm-settings-row .sm-settings-control { width: 100% !important; max-width: none !important; }
+}
