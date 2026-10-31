@@ -574,3 +574,76 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     gap: 8px !important;
   }
 }
+
+/* Desktop topbar alignment: keep the generated header inside the space left
+   of the fixed sidebar. The sidebar width is a CSS variable that changes when
+   the logo collapses the navigation, so the header follows both states. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body.sm-redesign-active .sm-topbar {
+    box-sizing: border-box !important;
+    width: calc(100% - var(--sm-desktop-sidebar-width, 248px)) !important;
+    max-width: none !important;
+    margin: 0 0 20px var(--sm-desktop-sidebar-width, 248px) !important;
+    padding-left: clamp(20px, 3vw, 48px) !important;
+    padding-right: clamp(20px, 3vw, 48px) !important;
+    gap: clamp(8px, 1.1vw, 16px) !important;
+    justify-content: flex-start !important;
+    min-width: 0 !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-brand {
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-search {
+    display: flex !important;
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 120px !important;
+    max-width: none !important;
+    overflow: hidden;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-search input {
+    flex: 1 1 0 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-search kbd {
+    flex: 0 0 auto !important;
+    white-space: nowrap;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-actions {
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+    margin-left: 0 !important;
+    gap: clamp(5px, .55vw, 8px) !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-profile {
+    flex: 0 0 auto !important;
+    white-space: nowrap;
+  }
+}
+
+/* On compact desktop widths, preserve the action controls and brand mark;
+   allow the search field to absorb the available-width reduction first. */
+@media (min-width: 1101px) and (max-width: 1360px) {
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-brand span,
+  html[data-course="hub"] body.sm-redesign-active .sm-profile-name {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-nav-search {
+    min-width: 96px !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-topbar {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
