@@ -998,3 +998,213 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     backdrop-filter: blur(4px) saturate(.96) !important;
   }
 }
+
+
+/* Home dashboard visual pass — give the welcome area and Browse card one
+   shared content width, balanced hierarchy, and consistent component styling.
+   Scoped to the desktop home view; mobile and other views retain their layouts. */
+@media (min-width: 1101px) {
+  html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] #smHomeView,
+  html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) #smHomeView {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+    grid-template-areas:
+      "heading actions"
+      "browse browse";
+    align-items: center;
+    column-gap: clamp(32px, 5vw, 76px);
+    row-gap: 28px;
+    width: min(100%, 1120px);
+    max-width: 1120px !important;
+    margin: clamp(34px, 5vh, 58px) auto 0 !important;
+    padding: clamp(30px, 3.2vw, 48px) !important;
+    border: 1px solid color-mix(in srgb, var(--border, #dfe7df) 82%, transparent);
+    border-radius: 26px;
+    background:
+      radial-gradient(ellipse at 8% 0%, color-mix(in srgb, var(--accent, #17643a) 8%, transparent), transparent 52%),
+      var(--bg-card, #fff);
+    box-shadow: 0 12px 34px rgba(27, 43, 32, .045), 0 1px 2px rgba(27, 43, 32, .035);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > h1,
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > p {
+    grid-column: 1;
+    justify-self: start;
+    max-width: 54ch;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > h1 {
+    grid-row: 1;
+    align-self: end;
+    margin: 0 0 8px !important;
+    color: var(--text-main, #1b2b20);
+    font-size: clamp(34px, 3.2vw, 46px) !important;
+    line-height: 1.08;
+    letter-spacing: -.045em;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > p {
+    grid-row: 2;
+    align-self: start;
+    margin: 0 !important;
+    max-width: 42ch;
+    color: var(--text-muted, #6c776f);
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > .sm-welcome-actions {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 11px;
+    min-width: 0;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .sm-primary-action {
+    min-height: 52px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 20px;
+    border: 1px solid var(--border, #dfe7df);
+    border-radius: 13px;
+    background: var(--bg-card, #fff);
+    color: var(--text-main, #1b2b20);
+    font-size: 14px;
+    font-weight: 650;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(27, 43, 32, .035);
+    transition: transform .16s ease, box-shadow .16s ease, background-color .16s ease;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .sm-primary-action:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 18px rgba(27, 43, 32, .08);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .sm-primary-action.primary {
+    border-color: var(--accent, #17643a);
+    background: linear-gradient(135deg, var(--accent, #17643a), color-mix(in srgb, var(--accent, #17643a) 82%, #0b3c28));
+    color: #fff;
+    box-shadow: 0 7px 18px color-mix(in srgb, var(--accent, #17643a) 18%, transparent);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .sm-streak {
+    justify-self: start;
+    margin-top: 2px;
+    padding: 8px 12px;
+    border: 1px solid color-mix(in srgb, var(--border, #dfe7df) 75%, transparent);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--bg, #f6f8f5) 75%, var(--bg-card, #fff));
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > .hub-year-dropdown {
+    grid-area: browse;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--border, #dfe7df) 88%, transparent);
+    border-radius: 18px;
+    background: color-mix(in srgb, var(--bg, #f6f8f5) 54%, var(--bg-card, #fff));
+    box-shadow: none;
+    transition: border-color .16s ease, background-color .16s ease;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > .hub-year-dropdown:hover {
+    border-color: color-mix(in srgb, var(--accent, #17643a) 34%, var(--border, #dfe7df));
+    background: var(--bg-card, #fff);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView > .hub-year-dropdown > .section-toggle {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    gap: 18px;
+    padding: 20px 22px;
+    border: 0;
+    background: transparent;
+    text-align: left;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .hub-year-icon {
+    width: 48px;
+    height: 48px;
+    flex: 0 0 48px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--accent, #17643a) 9%, var(--bg-card, #fff));
+    color: var(--accent, #17643a);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .hub-year-title {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -.02em;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .hub-year-subtext {
+    display: block;
+    max-width: 58ch;
+    color: var(--text-muted, #6c776f);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .toggle-icon {
+    margin-left: auto;
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 34px;
+    border: 1px solid var(--border, #dfe7df);
+    border-radius: 50%;
+    color: var(--text-muted, #6c776f);
+    transition: transform .16s ease, border-color .16s ease;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .hub-year-dropdown:hover .toggle-icon {
+    transform: translate(2px, -2px);
+    border-color: var(--accent, #17643a);
+  }
+
+  html[data-course="hub"][data-theme="dark"] body.sm-redesign-active #smHomeView {
+    border-color: var(--border, #343b35);
+    background:
+      radial-gradient(ellipse at 8% 0%, color-mix(in srgb, var(--accent, #17643a) 13%, transparent), transparent 52%),
+      var(--bg-card, #1b211c);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, .16);
+  }
+
+  html[data-course="hub"][data-theme="dark"] body.sm-redesign-active #smHomeView > .hub-year-dropdown {
+    background: color-mix(in srgb, var(--bg, #151a16) 55%, var(--bg-card, #1b211c));
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1280px) {
+  html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] #smHomeView,
+  html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) #smHomeView {
+    grid-template-columns: minmax(0, 1fr) minmax(270px, 340px);
+    column-gap: 28px;
+    padding: 30px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .sm-primary-action,
+  html[data-course="hub"] body.sm-redesign-active #smHomeView .toggle-icon {
+    transition: none !important;
+  }
+}
