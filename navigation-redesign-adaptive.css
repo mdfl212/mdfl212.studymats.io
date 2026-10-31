@@ -304,6 +304,9 @@ html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown
   min-width: 0 !important;
   max-width: 100% !important;
 }
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown {
+  margin: clamp(16px, 2.4vw, 24px) 0 18px !important;
+}
 html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
   width: 100% !important;
 }
