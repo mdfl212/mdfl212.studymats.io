@@ -740,6 +740,7 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
 
 
 /* Desktop navigation drawer: fixed overlay, never part of the content grid. */
+.sm-sidebar-toggle { display: none; }
 @media (min-width: 1101px) {
   html[data-course="hub"] body[data-course="hub"] .desktop-sidebar[hidden] {
     display: none !important;
