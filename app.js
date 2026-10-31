@@ -528,12 +528,39 @@ function setMode(mode) {
     render();
 }
 
+const studyNoticeMilestones = new Set();
+
+function emitStudyNotice(type, message) {
+    let preferences = {};
+    try { preferences = JSON.parse(localStorage.getItem('studymats-notification-preferences-v1') || '{}') || {}; } catch {}
+    if (type === 'completion' && preferences.sessionCompletion === false) return;
+    if (type === 'milestone' && preferences.progressMilestone === false) return;
+    window.dispatchEvent(new CustomEvent('studymats:study-notification', { detail: { type, message } }));
+}
+
 function selectAnswer(index) {
     const question = state.filteredQuestions[state.currentIndex];
     if (!question || state.mode === 'key') return;
     recordStudyActivity(question);
     state.answers[question.id] = index;
     if (state.mode === 'review') state.revealed[question.id] = true;
+    const questions = state.filteredQuestions;
+    const answeredCount = questions.filter(item => state.answers[item.id] !== undefined).length;
+    const signature = [state.subject?.id || 'none', state.filters.topic, state.mode].join(':');
+    if (questions.length > 0 && answeredCount >= Math.ceil(questions.length / 2)) {
+        const milestoneKey = signature + ':half';
+        if (!studyNoticeMilestones.has(milestoneKey) && answeredCount < questions.length) {
+            studyNoticeMilestones.add(milestoneKey);
+            emitStudyNotice('milestone', 'You’re halfway through this question set. Keep it up!');
+        }
+    }
+    if (questions.length > 0 && answeredCount === questions.length) {
+        const completionKey = signature + ':complete';
+        if (!studyNoticeMilestones.has(completionKey)) {
+            studyNoticeMilestones.add(completionKey);
+            emitStudyNotice('completion', 'Question set complete. Nice work!');
+        }
+    }
     render();
 }
 
