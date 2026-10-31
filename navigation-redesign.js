@@ -102,6 +102,7 @@
       sidebarToggle.setAttribute('aria-expanded', 'false');
       sidebarToggle.setAttribute('aria-label', 'Open navigation');
       document.body.classList.remove('sm-sidebar-open');
+      sidebarToggle.focus();
     };
     const openDesktopSidebar = () => {
       if (!desktopSidebar) return;
@@ -110,6 +111,7 @@
       sidebarToggle.setAttribute('aria-expanded', 'true');
       sidebarToggle.setAttribute('aria-label', 'Close navigation');
       document.body.classList.add('sm-sidebar-open');
+      desktopSidebar.querySelector('.sidebar-link')?.focus();
     };
     sidebarToggle.addEventListener('click', () => {
       if (desktopSidebar?.hidden) openDesktopSidebar();
