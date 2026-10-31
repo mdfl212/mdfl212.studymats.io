@@ -66,7 +66,7 @@
           '<button type="button" class="sm-menu-action" id="smOpenSettings">Settings</button>' +
           '<button type="button" class="sm-menu-action" data-sm-changelog>What\'s Changed</button>' +
           '<div class="sm-menu-divider"></div>' +
-          '<button type="button" class="sm-menu-action" id="smOpenBackup">Backup & portability…</button>' +
+
           '<a class="sm-menu-action sm-menu-link" href="https://github.com/mdfl212/mdfl212.studymats.io" target="_blank" rel="noopener noreferrer">Visit repository <span aria-hidden="true">↗</span></a>' +
         '</section>' +
       '</div>';
@@ -171,7 +171,8 @@
       $('dashProfileButton')?.click();
     });
 
-    // Settings reuses the app's existing preference and data-management flows.
+    // Central settings hub. Feature-specific preferences can be added to these
+    // categories without changing the profile menu or backup implementation.
     const settingsModal = document.createElement('div');
     settingsModal.className = 'sm-modal sm-settings-modal';
     settingsModal.id = 'smSettingsModal';
@@ -179,26 +180,65 @@
     settingsModal.innerHTML =
       '<section class="sm-modal-dialog sm-settings-dialog" role="dialog" aria-modal="true" aria-labelledby="smSettingsTitle" tabindex="-1">' +
         '<header class="sm-modal-header">' +
-          '<div><p class="sm-settings-eyebrow">PREFERENCES</p><h2 id="smSettingsTitle">Settings</h2></div>' +
+          '<div><p class="sm-settings-eyebrow">STUDYMATS PREFERENCES</p><h2 id="smSettingsTitle">Settings</h2></div>' +
           '<button class="sm-modal-close" type="button" aria-label="Close settings">×</button>' +
         '</header>' +
-        '<section class="sm-settings-group" aria-labelledby="smSettingsAppearance">' +
-          '<h3 id="smSettingsAppearance">Appearance</h3>' +
-          '<div class="sm-settings-row"><div><strong>Theme</strong><p>Switch between light and dark appearance.</p></div><button type="button" class="sm-settings-control" id="smSettingsTheme">Toggle theme</button></div>' +
-        '</section>' +
-        '<section class="sm-settings-group" aria-labelledby="smSettingsProfile">' +
-          '<h3 id="smSettingsProfile">Profile</h3>' +
-          '<div class="sm-settings-row"><div><strong>Personal details</strong><p>Change your preferred name and display preference.</p></div><button type="button" class="sm-settings-control" id="smSettingsEditProfile">Edit profile</button></div>' +
-        '</section>' +
-        '<section class="sm-settings-group" aria-labelledby="smSettingsData">' +
-          '<h3 id="smSettingsData">Your data</h3>' +
-          '<div class="sm-settings-row"><div><strong>Backup & portability</strong><p>Export or restore your locally saved study data.</p></div><button type="button" class="sm-settings-control" id="smSettingsBackup">Manage</button></div>' +
-        '</section>' +
+        '<div class="sm-settings-layout">' +
+          '<nav class="sm-settings-nav" aria-label="Settings categories">' +
+            '<p>PERSONALIZATION</p>' +
+            '<button type="button" class="sm-settings-nav-item is-active" data-settings-tab="appearance" aria-current="page">Appearance</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="profile">Profile</button>' +
+            '<p>APPLICATION</p>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="general">General</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="data">Data & backup</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="reset">Reset settings</button>' +
+          '</nav>' +
+          '<div class="sm-settings-content">' +
+            '<section class="sm-settings-page is-active" data-settings-page="appearance">' +
+              '<h3>Appearance</h3><p class="sm-settings-description">Choose how StudyMats looks and feels. More visual customization options are planned for a later phase.</p>' +
+              '<div class="sm-settings-row"><div><strong>Theme</strong><p>Switch between light and dark appearance.</p></div><button type="button" class="sm-settings-control" id="smSettingsTheme">Toggle theme</button></div>' +
+            '</section>' +
+            '<section class="sm-settings-page" data-settings-page="profile" hidden>' +
+              '<h3>Profile</h3><p class="sm-settings-description">Manage the name and profile details shown in StudyMats.</p>' +
+              '<div class="sm-settings-row"><div><strong>Personal details</strong><p>Change your preferred name and display preference.</p></div><button type="button" class="sm-settings-control" id="smSettingsEditProfile">Edit profile</button></div>' +
+            '</section>' +
+            '<section class="sm-settings-page" data-settings-page="general" hidden>' +
+              '<h3>General</h3><p class="sm-settings-description">Application-wide preferences will live here.</p>' +
+              '<div class="sm-settings-empty">No additional general preferences are available yet.</div>' +
+            '</section>' +
+            '<section class="sm-settings-page" data-settings-page="data" hidden>' +
+              '<h3>Data & backup</h3><p class="sm-settings-description">Export, restore, and manage your locally saved StudyMats data.</p>' +
+              '<div class="sm-settings-row"><div><strong>Backup & portability</strong><p>Export or restore your study data.</p></div><button type="button" class="sm-settings-control" id="smSettingsBackup">Open backup</button></div>' +
+            '</section>' +
+            '<section class="sm-settings-page" data-settings-page="reset" hidden>' +
+              '<h3>Reset settings</h3><p class="sm-settings-description">Restore preferences to their defaults. This will not delete question banks, quiz history, saved progress, or backup files.</p>' +
+              '<div class="sm-settings-reset-card"><div><strong>Reset appearance</strong><p>Return the current theme to the default light appearance.</p></div><button type="button" class="sm-settings-control sm-settings-danger" id="smResetAppearance">Reset appearance</button></div>' +
+              '<div class="sm-settings-reset-card"><div><strong>Reset all settings</strong><p>Reset available application preferences without deleting study data.</p></div><button type="button" class="sm-settings-control sm-settings-danger" id="smResetAllSettings">Reset settings</button></div>' +
+            '</section>' +
+          '</div>' +
+        '</div>' +
       '</section>';
     document.body.appendChild(settingsModal);
     const closeSettings = () => { settingsModal.hidden = true; };
+    const showSettingsPage = page => {
+      settingsModal.querySelectorAll('[data-settings-tab]').forEach(tab => {
+        const active = tab.dataset.settingsTab === page;
+        tab.classList.toggle('is-active', active);
+        if (active) tab.setAttribute('aria-current', 'page');
+        else tab.removeAttribute('aria-current');
+      });
+      settingsModal.querySelectorAll('[data-settings-page]').forEach(section => {
+        const active = section.dataset.settingsPage === page;
+        section.hidden = !active;
+        section.classList.toggle('is-active', active);
+      });
+    };
+    settingsModal.querySelectorAll('[data-settings-tab]').forEach(tab =>
+      tab.addEventListener('click', () => showSettingsPage(tab.dataset.settingsTab))
+    );
     $('smOpenSettings')?.addEventListener('click', () => {
       closeProfile();
+      showSettingsPage('appearance');
       settingsModal.hidden = false;
       settingsModal.querySelector('.sm-modal-close')?.focus();
     });
@@ -215,6 +255,21 @@
     $('smSettingsBackup')?.addEventListener('click', () => {
       closeSettings();
       openBackup();
+    });
+    const resetAppearance = () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+      if (currentTheme === 'dark') $('smThemeToggle')?.click();
+    };
+    $('smResetAppearance')?.addEventListener('click', () => {
+      if (window.confirm('Reset appearance to the default light theme? Your study data will not be affected.')) {
+        resetAppearance();
+      }
+    });
+    $('smResetAllSettings')?.addEventListener('click', () => {
+      if (window.confirm('Reset all currently available StudyMats preferences to their defaults? Your profile, question banks, quiz history, saved progress, and backups will not be deleted.')) {
+        resetAppearance();
+        showSettingsPage('appearance');
+      }
     });
     document.querySelectorAll('[data-sm-changelog]').forEach(b =>
       b.addEventListener('click', () => {
