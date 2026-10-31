@@ -1004,8 +1004,7 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
    shared content width, balanced hierarchy, and consistent component styling.
    Scoped to the desktop home view; mobile and other views retain their layouts. */
 @media (min-width: 1101px) {
-  html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] #smHomeView,
-  html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) #smHomeView {
+  html[data-course="hub"] body.sm-redesign-active #smHomeView {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
     grid-template-areas:
@@ -1194,8 +1193,7 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
 }
 
 @media (min-width: 1101px) and (max-width: 1280px) {
-  html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] #smHomeView,
-  html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) #smHomeView {
+  html[data-course="hub"] body.sm-redesign-active #smHomeView {
     grid-template-columns: minmax(0, 1fr) minmax(270px, 340px);
     column-gap: 28px;
     padding: 30px !important;
