@@ -295,8 +295,9 @@
               '<div class="sm-settings-empty">Study reminders will appear here once reliable browser notification and scheduling support is implemented.</div>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="general" hidden>' +
-              '<h3>General</h3><p class="sm-settings-description">Application-wide preferences will live here.</p>' +
-              '<div class="sm-settings-empty">No additional general preferences are available yet.</div>' +
+              '<h3>General</h3><p class="sm-settings-description">Choose how StudyMats behaves when you return to the application.</p>' +
+              '<div class="sm-settings-row"><div><strong>Remember last subject</strong><p>Open the last subject you studied on this device when no subject is specified in the link.</p></div><select class="sm-settings-control" id="smSettingsRememberSubject" aria-label="Remember last subject"><option value="off">Off</option><option value="on">On</option></select></div>' +
+              '<p class="sm-settings-note" id="smGeneralStatus" role="status">Your preference is saved automatically on this device. A subject in a shared link always takes priority.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="data" hidden>' +
               '<h3>Data & backup</h3><p class="sm-settings-description">Export, restore, and manage your locally saved StudyMats data.</p>' +
@@ -412,6 +413,23 @@
     textSizeControl?.addEventListener('change', () => { applyTextSize(textSizeControl.value); saveAccessibility(); });
     window.matchMedia?.('(prefers-reduced-motion: reduce)').addEventListener?.('change', () => {
       if ((motionControl?.value || 'system') === 'system') applyMotion('system');
+    });
+    const generalPreferenceKey = 'studymats-general-preferences-v1';
+    const rememberSubjectControl = $('smSettingsRememberSubject');
+    let generalPreferences = {};
+    try { generalPreferences = JSON.parse(localStorage.getItem(generalPreferenceKey) || '{}') || {}; } catch {}
+    if (rememberSubjectControl) rememberSubjectControl.value = generalPreferences.rememberLastSubject === true ? 'on' : 'off';
+    rememberSubjectControl?.addEventListener('change', () => {
+      const next = { rememberLastSubject: rememberSubjectControl.value === 'on' };
+      const status = $('smGeneralStatus');
+      try {
+        localStorage.setItem(generalPreferenceKey, JSON.stringify(next));
+        if (status) status.textContent = next.rememberLastSubject
+          ? 'Last subject will be remembered on this device.'
+          : 'Last subject will no longer be used as the launch default.';
+      } catch {
+        if (status) status.textContent = 'Unable to save this preference in your browser.';
+      }
     });
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
