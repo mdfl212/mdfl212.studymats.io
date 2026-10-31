@@ -189,3 +189,112 @@ html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown
     font-size: 13px !important;
   }
 }
+
+
+/* Desktop welcome refinement — isolated from the mobile/tablet layout.
+   Keep the existing welcome controls and Browse dropdown; change presentation only. */
+@media (min-width: 1101px) {
+  /* The legacy header is intentionally hidden by the welcome-page script.
+     This rule prevents older !important display declarations from overriding
+     the semantic hidden state. */
+  html[data-course="hub"] body.sm-redesign-active .site-header[hidden] {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] .sm-welcome,
+  html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) .sm-welcome {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.08fr) minmax(260px, .92fr);
+    grid-template-areas:
+      "greeting browse"
+      "prompt browse"
+      "actions browse";
+    align-content: start;
+    align-items: center;
+    column-gap: clamp(28px, 4vw, 64px);
+    row-gap: 0;
+    width: 100% !important;
+    max-width: 1040px !important;
+    margin: 0 auto !important;
+    padding: clamp(34px, 5vh, 64px) clamp(8px, 1.5vw, 20px) 48px !important;
+    box-sizing: border-box;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > h1 {
+    grid-area: greeting;
+    align-self: end;
+    margin: 0 0 10px !important;
+    font-size: clamp(34px, 3vw, 44px) !important;
+    line-height: 1.12 !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > p#smWelcomePrompt {
+    grid-area: prompt;
+    align-self: start;
+    max-width: 42ch !important;
+    margin: 0 0 26px !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .sm-welcome-actions {
+    grid-area: actions;
+    align-self: start;
+    width: min(100%, 460px) !important;
+    gap: 12px !important;
+    align-items: stretch;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .sm-welcome-actions .sm-primary-action {
+    min-height: 54px !important;
+    border-radius: 15px !important;
+    justify-content: center !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .sm-welcome-actions .sm-streak {
+    align-self: flex-start;
+    margin-top: 2px !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown {
+    grid-area: browse;
+    align-self: center;
+    width: 100%;
+    min-width: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
+    min-height: 112px !important;
+    padding: 22px !important;
+    gap: 16px !important;
+    border-radius: 18px !important;
+    background: var(--bg-card, #211d1f) !important;
+    border: 1px solid var(--border, #40363b) !important;
+    transition: border-color 160ms ease, transform 160ms ease, background-color 160ms ease;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle:hover {
+    border-color: var(--gold-primary, #e5bd4f) !important;
+    transform: translateY(-2px);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-icon {
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 14px !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-title {
+    font-size: 17px !important;
+    white-space: normal !important;
+  }
+}
+
+/* Respect reduced-motion preferences for the new hover treatment. */
+@media (prefers-reduced-motion: reduce) {
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
+    transition: none !important;
+  }
+}
