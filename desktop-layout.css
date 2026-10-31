@@ -349,28 +349,6 @@
     overflow-x: auto !important;
   }
 
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed {
-    --sm-desktop-sidebar-width: 72px;
-  }
-
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .desktop-sidebar {
-    padding-inline: 8px !important;
-  }
-
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-brand-copy,
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-link-label,
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-save-label {
-    display: none !important;
-  }
-
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-link {
-    justify-content: center !important;
-    padding-inline: 6px !important;
-  }
-
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .sidebar-save {
-    justify-content: center !important;
-  }
 }
 
 /* Portrait tablet intentionally follows the mobile information hierarchy. */
@@ -517,14 +495,6 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
     min-width: 0;
   }
 
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed {
-    --sm-desktop-sidebar-width: 72px;
-  }
-
-  html[data-course="hub"] body[data-course="hub"].sidebar-collapsed .desktop-sidebar {
-    width: 72px !important;
-    min-width: 72px !important;
-  }
 }
 
 @media (max-width: 1100px) {
