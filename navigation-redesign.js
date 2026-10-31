@@ -72,9 +72,8 @@
       '</div>';
     document.body.insertBefore(topbar, wrapper);
 
-    // Desktop sidebar defaults to a compact icon rail. Expanding it is a
-    // floating drawer: the dashboard keeps its dimensions and the backdrop
-    // makes the overlay behavior clear.
+    // Desktop navigation stays completely hidden until the brand-mark button is pressed.
+    // When opened, it appears as a floating drawer without shifting page content.
     const desktopSidebar = document.querySelector('.desktop-sidebar');
     const sidebarBackdrop = document.createElement('div');
     sidebarBackdrop.className = 'sm-sidebar-backdrop';
@@ -93,7 +92,7 @@
       const sidebarTop = desktopSidebar.querySelector('.sidebar-top');
       if (sidebarTop) sidebarTop.appendChild(sidebarToggle);
       if (window.matchMedia('(min-width: 1101px)').matches) {
-        desktopSidebar.hidden = false;
+        desktopSidebar.hidden = true;
         body.classList.add('sidebar-collapsed');
       }
     }
@@ -101,6 +100,7 @@
     const setSidebarCollapsed = (collapsed, restoreFocus = false) => {
       if (!desktopSidebar) return;
       body.classList.toggle('sidebar-collapsed', collapsed);
+      desktopSidebar.hidden = collapsed;
       sidebarBackdrop.hidden = collapsed;
       sidebarToggle.setAttribute('aria-expanded', String(!collapsed));
       sidebarToggle.setAttribute('aria-label', collapsed ? 'Expand navigation' : 'Collapse navigation');
@@ -108,7 +108,7 @@
         ? '<span aria-hidden="true">›</span>'
         : '<span aria-hidden="true">‹</span>';
       topbarSidebarToggle.setAttribute('aria-expanded', String(!collapsed));
-      topbarSidebarToggle.setAttribute('aria-label', collapsed ? 'Expand navigation' : 'Collapse navigation');
+      topbarSidebarToggle.setAttribute('aria-label', collapsed ? 'Open navigation' : 'Close navigation');
       if (!collapsed) {
         desktopSidebar.querySelector('.sidebar-link')?.focus({ preventScroll: true });
       } else if (restoreFocus) {
@@ -124,10 +124,10 @@
     topbarSidebarToggle.type = 'button';
     topbarSidebarToggle.className = 'sm-sidebar-toggle';
     topbarSidebarToggle.id = 'smSidebarToggle';
-    topbarSidebarToggle.setAttribute('aria-label', 'Expand navigation');
+    topbarSidebarToggle.setAttribute('aria-label', 'Open navigation');
     topbarSidebarToggle.setAttribute('aria-controls', 'desktopSidebar');
     topbarSidebarToggle.setAttribute('aria-expanded', 'false');
-    topbarSidebarToggle.innerHTML = '<span></span><span></span><span></span>';
+    topbarSidebarToggle.innerHTML = '<img src="assets/studymats-mark.svg" alt="" aria-hidden="true">';
     topbar.insertBefore(topbarSidebarToggle, topbar.firstChild);
     topbarSidebarToggle.addEventListener('click', () => {
       setSidebarCollapsed(!body.classList.contains('sidebar-collapsed'));
