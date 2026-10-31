@@ -546,7 +546,21 @@ html[data-course="hub"] body[data-course="hub"] .mobile-bottom-nav {
   }
 
   html[data-course="hub"] body[data-course="hub"] .sm-bottom-nav {
-    display: flex !important;
+    display: grid !important;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .sm-bottom-nav .sm-nav-tab {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  html[data-course="hub"] body[data-course="hub"] .sm-bottom-nav .sm-nav-tab > span:last-child {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   html[data-course="hub"] body[data-course="hub"] .study-dashboard {
