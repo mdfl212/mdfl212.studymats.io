@@ -408,6 +408,9 @@ async function loadSubjects() {
     const params = new URLSearchParams(window.location.search);
     const requestedSubject = params.get('subject');
     const requestedMode = params.get('mode');
+    let studyPreferences = {};
+    try { studyPreferences = JSON.parse(localStorage.getItem('studymats-study-preferences-v1') || '{}') || {}; } catch {}
+    if (!requestedSubject && ['YL1', 'YL2', 'YL3', 'YL4'].includes(studyPreferences.defaultYear)) state.activeYear = studyPreferences.defaultYear;
     const defaultSubject = state.subjects.find((item) => item.id === requestedSubject)
         || state.subjects.find((item) => item.yearLevel === state.activeYear)
         || state.subjects[0];
@@ -417,9 +420,8 @@ async function loadSubjects() {
             subjectSelect.value = defaultSubject.id;
         }
         await selectSubject(defaultSubject.id);
-        if (['exam', 'review', 'key'].includes(requestedMode)) {
-            setMode(requestedMode);
-        }
+        const preferredMode = ['exam', 'review', 'key'].includes(studyPreferences.defaultMode) ? studyPreferences.defaultMode : 'exam';
+        setMode(['exam', 'review', 'key'].includes(requestedMode) ? requestedMode : preferredMode);
     }
 }
 
@@ -431,6 +433,14 @@ async function selectSubject(subjectId) {
     state.subject = subject;
     state.activeYear = subject.yearLevel || state.activeYear;
     state.questions = await response.json();
+    let studyPreferences = {};
+    try { studyPreferences = JSON.parse(localStorage.getItem('studymats-study-preferences-v1') || '{}') || {}; } catch {}
+    if (studyPreferences.shuffleQuestions === true) {
+        for (let i = state.questions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [state.questions[i], state.questions[j]] = [state.questions[j], state.questions[i]];
+        }
+    }
     state.answers = {};
     state.revealed = {};
     state.currentIndex = 0;
