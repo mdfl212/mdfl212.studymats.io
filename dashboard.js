@@ -133,9 +133,9 @@ function importBackup(file){
  const reader=new FileReader();reader.onload=()=>{
   try{const p=JSON.parse(reader.result);if(!p||p.app!=='StudyMats'||p.formatVersion!==1||!Array.isArray(p.progress))throw Error('This is not a supported StudyMats backup.');
    const known=new Set(subjects.map(s=>s.id));p.progress=p.progress.filter(x=>x&&known.has(x.subjectId)&&x.data&&typeof x.data==='object');if(!p.progress.length)throw Error('No compatible subject progress records were found.');
-   $('importSummary').textContent='This backup contains '+p.progress.length+' subject record(s)'+(p.exportedAt?' from '+new Date(p.exportedAt).toLocaleDateString():'')+'. Choose merge to keep current progress or replace to start from this backup.';
+   $('importSummary').textContent='This backup contains '+p.progress.length+' compatible subject record(s)'+(p.exportedAt?' and was exported on '+new Date(p.exportedAt).toLocaleDateString():'')+'. Merge adds its saved answers and activity to what is already here. Replace clears current subject progress and activity before restoring this file. Your settings are not changed; profile details are restored only if they are present in the file.';
    $('importModal').hidden=false;$('importModal').classList.add('is-open');
-   $('importMergeButton').onclick=()=>applyImport(p,'merge');$('importReplaceButton').onclick=()=>{if(confirm('Replace current saved progress with this backup? Export your current data first if you may need it.'))applyImport(p,'replace')};
+   $('importMergeButton').onclick=()=>applyImport(p,'merge');$('importReplaceButton').onclick=()=>{if(confirm('Replace the saved subject progress and daily activity on this device with the contents of this backup? Current progress and activity will be removed. Settings will remain unchanged. Export your current data first if you may need it.'))applyImport(p,'replace')};
   }catch(e){$('dashDataMessage').textContent=e.message||'Could not read this backup.';$('dashDataMessage').classList.add('is-error')}
  };reader.readAsText(file);
 }
