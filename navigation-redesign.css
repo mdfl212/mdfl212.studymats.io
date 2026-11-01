@@ -1652,3 +1652,30 @@ html[data-theme="dark"] .sm-settings-account-card {
     padding: 15px;
   }
 }
+
+
+/* Minimal one-line creator credit at the bottom of Settings. */
+.sm-settings-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin: 0 28px;
+  border-top: 1px solid var(--border, #e6e0d9);
+  color: var(--text-muted, #78716c);
+  font-size: .75rem;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+}
+.sm-settings-footer strong {
+  color: var(--text-main, #292524);
+  font-weight: 700;
+}
+@media (max-width: 480px) {
+  .sm-settings-footer {
+    min-height: 40px;
+    margin: 0 14px;
+    font-size: .68rem;
+  }
+}
