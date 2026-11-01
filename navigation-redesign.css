@@ -1173,3 +1173,62 @@ html[data-theme="dark"] .sm-backup-intro .sm-backup-scope {
   .sm-backup-overview { padding: 13px; }
   .sm-backup-guidance { padding: 13px; }
 }
+
+
+/* Settings search and at-a-glance preference summaries. */
+.sm-settings-search-wrap {
+  padding: 14px 22px 12px;
+  border-bottom: 1px solid var(--border, #e6e0d9);
+}
+.sm-settings-search-wrap label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: .76rem;
+  font-weight: 650;
+}
+.sm-settings-search-wrap input {
+  display: block;
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 12px;
+  border: 1px solid var(--border, #e6e0d9);
+  border-radius: 10px;
+  background: var(--bg-card, #fff);
+  color: var(--text-main, #1c1917);
+  font: inherit;
+  font-size: .88rem;
+}
+.sm-settings-search-wrap input:focus-visible {
+  outline: 2px solid var(--accent, #1f6b4a);
+  outline-offset: 2px;
+}
+.sm-settings-search-wrap p {
+  margin: 6px 0 0;
+  color: var(--text-muted, #78716c);
+  font-size: .72rem;
+}
+.sm-settings-nav-item { position: relative; }
+.sm-settings-nav-summary {
+  display: block;
+  margin-top: 3px;
+  overflow: hidden;
+  color: var(--text-muted, #78716c);
+  font-size: 10px;
+  font-weight: 450;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sm-settings-nav-item.is-active .sm-settings-nav-summary {
+  color: color-mix(in srgb, var(--accent, #1f6b4a) 78%, var(--text-muted, #78716c));
+}
+.sm-settings-nav-item[hidden],
+.sm-settings-page [hidden] { display: none !important; }
+@media (max-width: 640px) {
+  .sm-settings-search-wrap { padding: 12px 16px; }
+  .sm-settings-nav-summary { display: none; }
+}
+html[data-theme="dark"] .sm-settings-search-wrap input {
+  background: var(--bg-card, #1a1816);
+  color: var(--text-main, #f5f5f4);
+}
