@@ -212,7 +212,14 @@
     const profileButton = $('smProfileButton');
     const updateProfile = () => {
       const p = profile();
-      const name = p && p.showName !== false && typeof p.name === 'string' ? p.name.trim() : '';
+      const preferredName = p && typeof p.name === 'string' ? p.name.trim() : '';
+      const name = p && p.showName !== false ? preferredName : '';
+      const settingsName = $('smSettingsProfileName');
+      const settingsVisibility = $('smSettingsProfileVisibility');
+      const settingsAvatar = $('smSettingsProfileAvatar');
+      if (settingsName) settingsName.textContent = preferredName || 'Your profile';
+      if (settingsVisibility) settingsVisibility.textContent = p && p.showName === false ? 'Name is hidden in your study space' : 'Name is visible in your study space';
+      if (settingsAvatar) settingsAvatar.textContent = (preferredName ? Array.from(preferredName)[0] : 'S').toLocaleUpperCase();
       const nameEl = $('smProfileName');
       const avatarEl = $('smProfileAvatar');
       if (nameEl) nameEl.textContent = name || 'Profile';
@@ -274,8 +281,15 @@
               '<div class="sm-settings-row"><div><strong>Interface density</strong><p>Choose the amount of spacing used throughout the interface.</p></div><select class="sm-settings-control" id="smSettingsDensity" aria-label="Interface density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select></div>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="profile" hidden>' +
-              '<h3>Profile</h3><p class="sm-settings-description">Manage the name and profile details shown in StudyMats.</p>' +
-              '<div class="sm-settings-row"><div><strong>Personal details</strong><p>Change your preferred name and display preference.</p></div><button type="button" class="sm-settings-control" id="smSettingsEditProfile">Edit profile</button></div>' +
+              '<h3>Profile & account</h3><p class="sm-settings-description">Manage the personal details StudyMats displays and understand where your information is stored.</p>' +
+              '<div class="sm-profile-summary-card">' +
+                '<div class="sm-profile-summary-avatar" id="smSettingsProfileAvatar" aria-hidden="true">S</div>' +
+                '<div class="sm-profile-summary-copy"><strong id="smSettingsProfileName">Your profile</strong><span id="smSettingsProfileVisibility">Name is visible in your study space</span><small>Personal profile · This device</small></div>' +
+                '<button type="button" class="sm-settings-control" id="smSettingsEditProfile">Edit profile</button>' +
+              '</div>' +
+              '<div class="sm-settings-account-card"><div class="sm-settings-account-icon" aria-hidden="true">⌂</div><div><strong>Local StudyMats profile</strong><p>This version of StudyMats does not use a sign-in account. Your preferred name and display choice are saved in this browser on this device; they are not an online account identity.</p><span class="sm-settings-account-status">Stored on this device</span></div></div>' +
+              '<div class="sm-settings-row"><div><strong>Study data & backups</strong><p>Quiz progress, activity history, and backups are managed separately from your profile details.</p></div><button type="button" class="sm-settings-control" id="smProfileOpenBackup">Open Data & backup</button></div>' +
+              '<p class="sm-settings-note">Clearing this browser’s site data may remove your local profile and preferences. Export a backup before clearing browser data if you need to keep your study progress.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="study" hidden>' +
               '<h3>Study preferences</h3><p class="sm-settings-description">Set the defaults used when you start a new study session. Changes apply the next time a question bank is loaded.</p>' +
@@ -485,6 +499,13 @@
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
       $('dashProfileButton')?.click();
+    });
+    $('smProfileOpenBackup')?.addEventListener('click', () => {
+      showSettingsPage('data');
+    });
+    window.addEventListener('studymats:profile-updated', updateProfile);
+    window.addEventListener('storage', event => {
+      if (event.key === 'studymats-profile-v1') updateProfile();
     });
     $('smSettingsBackup')?.addEventListener('click', () => {
       closeSettings();
