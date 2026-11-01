@@ -1458,3 +1458,197 @@ html[data-theme="dark"] .sm-settings-nav-item.is-active {
   .sm-settings-row,
   .sm-settings-reset-card { padding: 15px !important; }
 }
+
+
+/* Content rhythm for Reset, Data & backup, and Profile settings pages. */
+.sm-settings-reset-all,
+.sm-settings-data-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  margin-top: 18px;
+  padding: 19px 20px;
+  border: 1px solid var(--border, #e6e0d9);
+  border-radius: 14px;
+  background: var(--bg-card, #fff);
+}
+.sm-settings-reset-all > div,
+.sm-settings-data-note > div {
+  min-width: 0;
+}
+.sm-settings-reset-all strong,
+.sm-settings-data-note strong {
+  display: block;
+  font-size: .94rem;
+  line-height: 1.4;
+}
+.sm-settings-reset-all p,
+.sm-settings-data-note p {
+  margin: 6px 0 0;
+  max-width: 58ch;
+  color: var(--text-muted, #78716c);
+  font-size: .84rem;
+  line-height: 1.6;
+}
+.sm-settings-data-note {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 14px;
+  background: color-mix(in srgb, var(--bg, #f7f8f6) 65%, var(--bg-card, #fff));
+}
+.sm-settings-data-note .sm-settings-control {
+  width: auto;
+  min-width: 170px;
+}
+.sm-settings-page[data-settings-page="reset"] .sm-settings-note {
+  margin-top: 16px !important;
+  line-height: 1.55;
+}
+.sm-backup-overview {
+  gap: 16px;
+  margin: 0 0 16px;
+  padding: 18px 20px;
+}
+.sm-backup-overview > div:last-child,
+.sm-settings-account-card > div:last-child {
+  min-width: 0;
+}
+.sm-backup-overview strong,
+.sm-settings-account-card strong {
+  line-height: 1.4;
+}
+.sm-backup-overview p,
+.sm-settings-account-card p {
+  margin-top: 7px;
+  line-height: 1.65;
+}
+.sm-settings-page[data-settings-page="data"] .sm-settings-row {
+  margin-top: 0 !important;
+  margin-bottom: 16px !important;
+}
+.sm-backup-guidance {
+  margin: 0 0 16px;
+  padding: 18px 20px;
+}
+.sm-backup-guidance ol {
+  margin-top: 12px;
+  padding-left: 22px;
+  line-height: 1.65;
+}
+.sm-backup-guidance li + li {
+  margin-top: 8px;
+}
+.sm-settings-page[data-settings-page="data"] .sm-settings-note {
+  margin-top: 16px !important;
+  line-height: 1.6;
+}
+.sm-profile-summary-card {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 16px;
+  row-gap: 8px;
+  margin: 0 0 18px;
+  padding: 18px 20px;
+  border: 1px solid var(--border, #e6e0d9);
+  border-radius: 14px;
+  background: var(--bg-card, #fff);
+}
+.sm-profile-summary-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  min-width: 0;
+  line-height: 1.45;
+}
+.sm-profile-summary-copy strong {
+  font-size: .98rem;
+  line-height: 1.35;
+}
+.sm-profile-summary-copy span {
+  color: var(--text-muted, #78716c);
+  font-size: .84rem;
+}
+.sm-profile-summary-copy small {
+  margin-top: 2px;
+  color: var(--text-muted, #78716c);
+  font-size: .75rem;
+  line-height: 1.4;
+}
+.sm-settings-account-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0 0 16px;
+  padding: 18px 20px;
+  border: 1px solid var(--border, #e6e0d9);
+  border-radius: 14px;
+  background: var(--bg-card, #fff);
+}
+.sm-settings-account-card p {
+  margin: 7px 0 10px;
+  max-width: 58ch;
+  color: var(--text-muted, #78716c);
+  font-size: .84rem;
+  line-height: 1.65;
+}
+.sm-settings-account-status {
+  display: inline-flex;
+  margin-top: 2px;
+}
+.sm-settings-page[data-settings-page="profile"] .sm-settings-row {
+  margin-top: 0 !important;
+}
+.sm-settings-page[data-settings-page="profile"] .sm-settings-note {
+  margin-top: 16px !important;
+  line-height: 1.6;
+}
+html[data-theme="dark"] .sm-settings-reset-all,
+html[data-theme="dark"] .sm-settings-data-note,
+html[data-theme="dark"] .sm-backup-overview,
+html[data-theme="dark"] .sm-backup-guidance,
+html[data-theme="dark"] .sm-profile-summary-card,
+html[data-theme="dark"] .sm-settings-account-card {
+  background: var(--bg-card, #1a1816);
+  border-color: var(--border, #3f3a36);
+}
+@media (max-width: 760px) {
+  .sm-settings-reset-all {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px;
+  }
+  .sm-settings-reset-all .sm-settings-control,
+  .sm-settings-data-note .sm-settings-control {
+    width: 100%;
+  }
+  .sm-profile-summary-card {
+    grid-template-columns: 44px minmax(0, 1fr);
+    padding: 16px;
+    column-gap: 13px;
+  }
+  .sm-profile-summary-card > .sm-settings-control {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+  .sm-settings-account-card,
+  .sm-backup-overview {
+    gap: 12px;
+    padding: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .sm-settings-reset-all,
+  .sm-settings-data-note,
+  .sm-backup-guidance {
+    padding: 15px;
+  }
+  .sm-settings-account-card,
+  .sm-backup-overview {
+    padding: 15px;
+  }
+}
