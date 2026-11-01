@@ -430,8 +430,7 @@
       applySettingsSearch();
       showSettingsPage('appearance');
       if (themeChoice) themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-      updateSettingsSummaries();
-      settingsModal.hidden = false;
+        settingsModal.hidden = false;
       settingsModal.querySelector('.sm-modal-close')?.focus();
     });
     settingsModal.querySelector('.sm-modal-close')?.addEventListener('click', closeSettings);
@@ -454,7 +453,6 @@
     try { applyDensity(localStorage.getItem('studymats-interface-density') || 'comfortable'); }
     catch { applyDensity('comfortable'); }
     densityChoice?.addEventListener('change', () => applyDensity(densityChoice.value));
-    updateSettingsSummaries();
     document.addEventListener('themechange', () => {
       if (themeChoice) themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
     });
@@ -482,7 +480,6 @@
     if (studyControls.mode) studyControls.mode.value = ['exam','review','key'].includes(savedStudyPreferences.defaultMode) ? savedStudyPreferences.defaultMode : 'exam';
     if (studyControls.shuffle) studyControls.shuffle.value = savedStudyPreferences.shuffleQuestions === true ? 'on' : 'off';
     Object.values(studyControls).forEach(control => control?.addEventListener('change', saveStudyPreferences));
-    updateSettingsSummaries();
     const accessibilityKey = 'studymats-accessibility-preferences-v1';
     const motionControl = $('smSettingsMotion');
     const textSizeControl = $('smSettingsTextSize');
@@ -512,7 +509,6 @@
     };
     motionControl?.addEventListener('change', () => { applyMotion(motionControl.value); saveAccessibility(); });
     textSizeControl?.addEventListener('change', () => { applyTextSize(textSizeControl.value); saveAccessibility(); });
-    updateSettingsSummaries();
     window.matchMedia?.('(prefers-reduced-motion: reduce)').addEventListener?.('change', () => {
       if ((motionControl?.value || 'system') === 'system') applyMotion('system');
     });
@@ -537,7 +533,6 @@
       }
     };
     completionNotice?.addEventListener('change', saveNotificationPreferences);
-    updateSettingsSummaries();
     milestoneNotice?.addEventListener('change', saveNotificationPreferences);
     let toastTimer = null;
     let toast = document.getElementById('smStudyToast');
@@ -575,6 +570,8 @@
       }
     });
     updateSettingsSummaries();
+    [themeChoice,densityChoice,studyControls.year,studyControls.mode,studyControls.shuffle,motionControl,textSizeControl,completionNotice,milestoneNotice,rememberSubjectControl].forEach(control => control?.addEventListener('change', updateSettingsSummaries));
+    document.addEventListener('themechange', updateSettingsSummaries);
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
       $('dashProfileButton')?.click();
