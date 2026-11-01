@@ -316,8 +316,11 @@
               '<p class="sm-settings-note" id="smGeneralStatus" role="status">Your preference is saved automatically on this device. A subject in a shared link always takes priority.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="data" hidden>' +
-              '<h3>Data & backup</h3><p class="sm-settings-description">Export, restore, and manage your locally saved StudyMats data.</p>' +
-              '<div class="sm-settings-row"><div><strong>Backup & portability</strong><p>Export or restore your study data.</p></div><button type="button" class="sm-settings-control" id="smSettingsBackup">Open backup</button></div>' +
+              '<h3>Data & backup</h3><p class="sm-settings-description">Keep a portable copy of your study progress and move it between browsers or devices.</p>' +
+              '<div class="sm-backup-overview"><div class="sm-backup-overview-icon" aria-hidden="true">↗</div><div><strong>Stored on this device</strong><p>Your StudyMats data is saved in this browser. It is not automatically synced to an online account or cloud backup.</p></div></div>' +
+              '<div class="sm-settings-row"><div><strong>Export a backup</strong><p>Download a JSON file containing your saved subject progress, answers, revealed answers, activity history, and local profile details.</p></div><button type="button" class="sm-settings-control" id="smSettingsBackup">Open backup</button></div>' +
+              '<div class="sm-backup-guidance"><strong>Moving to another device?</strong><ol><li>Export a backup on the device that has your progress.</li><li>Keep the downloaded JSON file somewhere safe.</li><li>Open StudyMats on the other device and import that file.</li></ol></div>' +
+              '<p class="sm-settings-note">A backup does not include question-bank source files or your appearance, study, accessibility, and notification preferences. Keep a fresh export before clearing browser data or changing devices.</p>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="reset" hidden>' +
               '<h3>Reset & maintenance</h3><p class="sm-settings-description">Restore one preference group or all StudyMats settings to their defaults. These actions never erase your question banks, answers, activity history, or saved quiz progress.</p>' +
@@ -582,6 +585,7 @@
           '<h2 id="smBackupTitle">Backup & portability</h2>' +
           '<button class="sm-modal-close" type="button" aria-label="Close backup">×</button>' +
         '</header>' +
+        '<div class="sm-backup-intro"><p>Export a portable copy of your StudyMats data, or import a backup created earlier.</p><div class="sm-backup-scope"><strong>Included in an export</strong><ul><li>Saved progress and answers for recognized subjects</li><li>Daily study activity history</li><li>Your local profile name and display choice</li></ul><strong>Not included</strong><p>Question-bank files, settings preferences, and any data that only exists in another browser or device.</p></div><p class="sm-backup-local-note">Backups are manual JSON downloads. StudyMats does not upload or sync them automatically.</p></div>' +
         '<div id="smBackupHost"></div>' +
       '</section>';
     document.body.appendChild(backupModal);
