@@ -338,6 +338,7 @@
             '</section>' +
           '</div>' +
         '</div>' +
+        '<footer class="sm-settings-footer"><span>Made by <strong>mdfl212</strong> · StudyMats — built for focused, self-paced learning.</span></footer>' +
       '</section>';
     document.body.appendChild(settingsModal);
     const closeSettings = () => { settingsModal.hidden = true; };
