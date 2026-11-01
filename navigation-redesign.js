@@ -260,19 +260,20 @@
           '<div><p class="sm-settings-eyebrow">STUDYMATS PREFERENCES</p><h2 id="smSettingsTitle">Settings</h2></div>' +
           '<button class="sm-modal-close" type="button" aria-label="Close settings">×</button>' +
         '</header>' +
+        '<div class="sm-settings-search-wrap"><label for="smSettingsSearch">Find a setting</label><input id="smSettingsSearch" type="search" placeholder="Search settings…" autocomplete="off"><p id="smSettingsSearchStatus" role="status" aria-live="polite">Search by preference, feature, or keyword.</p></div>' +
         '<div class="sm-settings-layout">' +
           '<nav class="sm-settings-nav" aria-label="Settings categories">' +
             '<p>PERSONALIZATION</p>' +
-            '<button type="button" class="sm-settings-nav-item is-active" data-settings-tab="appearance" aria-current="page">Appearance</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="profile">Profile & account</button>' +
+            '<button type="button" class="sm-settings-nav-item is-active" data-settings-tab="appearance" aria-current="page"><span class="sm-settings-nav-summary" data-settings-summary="appearance"></span>Appearance</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="profile"><span class="sm-settings-nav-summary" data-settings-summary="profile"></span>Profile & account</button>' +
             '<p>STUDY EXPERIENCE</p>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="study">Study preferences</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="accessibility">Controls & accessibility</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="study"><span class="sm-settings-nav-summary" data-settings-summary="study"></span>Study preferences</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="accessibility"><span class="sm-settings-nav-summary" data-settings-summary="accessibility"></span>Controls & accessibility</button>' +
             '<p>APPLICATION</p>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="general">General</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="notifications">Notifications</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="data">Data & backup</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="reset">Reset & maintenance</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="general"><span class="sm-settings-nav-summary" data-settings-summary="general"></span>General</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="notifications"><span class="sm-settings-nav-summary" data-settings-summary="notifications"></span>Notifications</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="data"><span class="sm-settings-nav-summary" data-settings-summary="data"></span>Data & backup</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="reset"><span class="sm-settings-nav-summary" data-settings-summary="reset"></span>Reset & maintenance</button>' +
           '</nav>' +
           '<div class="sm-settings-content">' +
             '<section class="sm-settings-page is-active" data-settings-page="appearance">' +
@@ -340,6 +341,67 @@
       '</section>';
     document.body.appendChild(settingsModal);
     const closeSettings = () => { settingsModal.hidden = true; };
+    const settingsSearch = $('smSettingsSearch');
+    const settingsSearchStatus = $('smSettingsSearchStatus');
+    const settingsPages = [...settingsModal.querySelectorAll('[data-settings-page]')];
+    const settingsTabs = [...settingsModal.querySelectorAll('[data-settings-tab]')];
+    const searchableSettingSelector = '.sm-settings-row,.sm-settings-reset-card,.sm-profile-summary-card,.sm-settings-account-card,.sm-backup-overview,.sm-backup-guidance,.sm-settings-reset-all,.sm-settings-data-note';
+    const applySettingsSearch = () => {
+      const query = (settingsSearch?.value || '').trim().toLocaleLowerCase();
+      const matchingPages = [];
+      settingsPages.forEach(page => {
+        const candidates = [...page.querySelectorAll(searchableSettingSelector)];
+        let pageMatches = !query || page.textContent.toLocaleLowerCase().includes(query);
+        if (query && candidates.length) {
+          let visibleCount = 0;
+          candidates.forEach(item => {
+            const match = item.textContent.toLocaleLowerCase().includes(query);
+            item.hidden = !match;
+            if (match) visibleCount++;
+          });
+          pageMatches = visibleCount > 0 || page.querySelector('h3')?.textContent.toLocaleLowerCase().includes(query) || page.querySelector('.sm-settings-description')?.textContent.toLocaleLowerCase().includes(query);
+        } else {
+          candidates.forEach(item => { item.hidden = false; });
+        }
+        page.dataset.searchMatch = pageMatches ? 'true' : 'false';
+        if (pageMatches) matchingPages.push(page.dataset.settingsPage);
+      });
+      settingsTabs.forEach(tab => {
+        const visible = !query || matchingPages.includes(tab.dataset.settingsTab);
+        tab.hidden = !visible;
+      });
+      if (query) {
+        const active = settingsModal.querySelector('.sm-settings-page.is-active');
+        if (!active || active.dataset.searchMatch !== 'true') {
+          if (matchingPages.length) showSettingsPage(matchingPages[0]);
+          else settingsPages.forEach(page => { page.hidden = true; page.classList.remove('is-active'); });
+        }
+        if (settingsSearchStatus) settingsSearchStatus.textContent = matchingPages.length
+          ? matchingPages.length + ' matching categor' + (matchingPages.length === 1 ? 'y' : 'ies') + ' found.'
+          : 'No settings found. Try another keyword.';
+      } else {
+        if (settingsSearchStatus) settingsSearchStatus.textContent = 'Search by preference, feature, or keyword.';
+        const active = settingsModal.querySelector('.sm-settings-page.is-active');
+        if (!active || active.hidden) showSettingsPage('appearance');
+      }
+    };
+    settingsSearch?.addEventListener('input', applySettingsSearch);
+    const updateSettingsSummaries = () => {
+      const values = {
+        appearance: (themeChoice?.value === 'dark' ? 'Dark' : 'Light') + ' · ' + (densityChoice?.value === 'compact' ? 'Compact' : 'Comfortable'),
+        study: (studyControls.year?.value || 'YL1') + ' · ' + ({exam:'Exam',review:'Review',key:'Answer key'}[studyControls.mode?.value] || 'Exam') + ' · Shuffle ' + (studyControls.shuffle?.value === 'on' ? 'On' : 'Off'),
+        accessibility: (motionControl?.value === 'reduce' ? 'Reduced motion' : motionControl?.value === 'full' ? 'Motion on' : 'System motion') + ' · ' + (textSizeControl?.value === 'large' ? 'Larger text' : 'Default text'),
+        general: 'Remember subject ' + (rememberSubjectControl?.value === 'on' ? 'On' : 'Off'),
+        notifications: 'Completion ' + (completionNotice?.value === 'off' ? 'Off' : 'On') + ' · Milestone ' + (milestoneNotice?.value === 'off' ? 'Off' : 'On'),
+        profile: 'This device',
+        data: 'Manual backup',
+        reset: 'Manage preferences'
+      };
+      Object.entries(values).forEach(([key,value]) => {
+        const target = settingsModal.querySelector('[data-settings-summary="' + key + '"]');
+        if (target) target.textContent = value;
+      });
+    };
     const showSettingsPage = page => {
       settingsModal.querySelectorAll('[data-settings-tab]').forEach(tab => {
         const active = tab.dataset.settingsTab === page;
@@ -356,10 +418,19 @@
     settingsModal.querySelectorAll('[data-settings-tab]').forEach(tab =>
       tab.addEventListener('click', () => showSettingsPage(tab.dataset.settingsTab))
     );
+    settingsSearch?.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && settingsSearch.value) {
+        settingsSearch.value = '';
+        applySettingsSearch();
+      }
+    });
     $('smOpenSettings')?.addEventListener('click', () => {
       closeProfile();
+      if (settingsSearch) settingsSearch.value = '';
+      applySettingsSearch();
       showSettingsPage('appearance');
       if (themeChoice) themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      updateSettingsSummaries();
       settingsModal.hidden = false;
       settingsModal.querySelector('.sm-modal-close')?.focus();
     });
@@ -383,6 +454,7 @@
     try { applyDensity(localStorage.getItem('studymats-interface-density') || 'comfortable'); }
     catch { applyDensity('comfortable'); }
     densityChoice?.addEventListener('change', () => applyDensity(densityChoice.value));
+    updateSettingsSummaries();
     document.addEventListener('themechange', () => {
       if (themeChoice) themeChoice.value = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
     });
@@ -410,6 +482,7 @@
     if (studyControls.mode) studyControls.mode.value = ['exam','review','key'].includes(savedStudyPreferences.defaultMode) ? savedStudyPreferences.defaultMode : 'exam';
     if (studyControls.shuffle) studyControls.shuffle.value = savedStudyPreferences.shuffleQuestions === true ? 'on' : 'off';
     Object.values(studyControls).forEach(control => control?.addEventListener('change', saveStudyPreferences));
+    updateSettingsSummaries();
     const accessibilityKey = 'studymats-accessibility-preferences-v1';
     const motionControl = $('smSettingsMotion');
     const textSizeControl = $('smSettingsTextSize');
@@ -439,6 +512,7 @@
     };
     motionControl?.addEventListener('change', () => { applyMotion(motionControl.value); saveAccessibility(); });
     textSizeControl?.addEventListener('change', () => { applyTextSize(textSizeControl.value); saveAccessibility(); });
+    updateSettingsSummaries();
     window.matchMedia?.('(prefers-reduced-motion: reduce)').addEventListener?.('change', () => {
       if ((motionControl?.value || 'system') === 'system') applyMotion('system');
     });
@@ -463,6 +537,7 @@
       }
     };
     completionNotice?.addEventListener('change', saveNotificationPreferences);
+    updateSettingsSummaries();
     milestoneNotice?.addEventListener('change', saveNotificationPreferences);
     let toastTimer = null;
     let toast = document.getElementById('smStudyToast');
@@ -499,6 +574,7 @@
         if (status) status.textContent = 'Unable to save this preference in your browser.';
       }
     });
+    updateSettingsSummaries();
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
       $('dashProfileButton')?.click();
