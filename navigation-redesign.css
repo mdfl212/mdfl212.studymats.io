@@ -965,3 +965,75 @@ body.sm-reduced-motion *::after {
 @media (prefers-reduced-motion: reduce) {
   .sm-study-toast { transition: none; }
 }
+
+
+/* Reset & maintenance: separate preference resets from study-data management. */
+.sm-settings-reset-list {
+  border-top: 1px solid var(--border, #e6e0d9);
+}
+.sm-settings-reset-card,
+.sm-settings-reset-all,
+.sm-settings-data-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border, #e6e0d9);
+}
+.sm-settings-reset-card > div,
+.sm-settings-reset-all > div,
+.sm-settings-data-note > div {
+  min-width: 0;
+}
+.sm-settings-reset-card strong,
+.sm-settings-reset-all strong,
+.sm-settings-data-note strong {
+  display: block;
+  font-size: .9rem;
+}
+.sm-settings-reset-card p,
+.sm-settings-reset-all p,
+.sm-settings-data-note p {
+  margin: 4px 0 0;
+  color: var(--text-muted, #78716c);
+  font-size: .82rem;
+  line-height: 1.45;
+}
+.sm-settings-reset-all {
+  margin-top: 8px;
+  padding: 16px;
+  border: 1px solid var(--border, #e6e0d9);
+  border-radius: 12px;
+  background: var(--bg-card, #fff);
+}
+.sm-settings-data-note {
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 16px;
+  padding: 15px;
+  border: 1px solid var(--border, #e6e0d9);
+  border-radius: 12px;
+}
+.sm-settings-data-note .sm-settings-control {
+  align-self: flex-start;
+}
+html[data-theme="dark"] .sm-settings-reset-all {
+  background: var(--bg-card, #1a1816);
+}
+@media (max-width: 560px) {
+  .sm-settings-reset-card,
+  .sm-settings-reset-all {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sm-settings-reset-card .sm-settings-control,
+  .sm-settings-reset-all .sm-settings-control,
+  .sm-settings-data-note .sm-settings-control {
+    width: 100%;
+  }
+  .sm-settings-data-note .sm-settings-control {
+    align-self: stretch;
+  }
+}
