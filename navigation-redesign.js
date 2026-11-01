@@ -264,16 +264,16 @@
         '<div class="sm-settings-layout">' +
           '<nav class="sm-settings-nav" aria-label="Settings categories">' +
             '<p>PERSONALIZATION</p>' +
-            '<button type="button" class="sm-settings-nav-item is-active" data-settings-tab="appearance" aria-current="page"><span class="sm-settings-nav-summary" data-settings-summary="appearance"></span>Appearance</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="profile"><span class="sm-settings-nav-summary" data-settings-summary="profile"></span>Profile & account</button>' +
+            '<button type="button" class="sm-settings-nav-item is-active" data-settings-tab="appearance" aria-current="page">Appearance</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="profile">Profile & account</button>' +
             '<p>STUDY EXPERIENCE</p>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="study"><span class="sm-settings-nav-summary" data-settings-summary="study"></span>Study preferences</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="accessibility"><span class="sm-settings-nav-summary" data-settings-summary="accessibility"></span>Controls & accessibility</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="study">Study preferences</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="accessibility">Controls & accessibility</button>' +
             '<p>APPLICATION</p>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="general"><span class="sm-settings-nav-summary" data-settings-summary="general"></span>General</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="notifications"><span class="sm-settings-nav-summary" data-settings-summary="notifications"></span>Notifications</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="data"><span class="sm-settings-nav-summary" data-settings-summary="data"></span>Data & backup</button>' +
-            '<button type="button" class="sm-settings-nav-item" data-settings-tab="reset"><span class="sm-settings-nav-summary" data-settings-summary="reset"></span>Reset & maintenance</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="general">General</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="notifications">Notifications</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="data">Data & backup</button>' +
+            '<button type="button" class="sm-settings-nav-item" data-settings-tab="reset">Reset & maintenance</button>' +
           '</nav>' +
           '<div class="sm-settings-content">' +
             '<section class="sm-settings-page is-active" data-settings-page="appearance">' +
@@ -386,22 +386,6 @@
       }
     };
     settingsSearch?.addEventListener('input', applySettingsSearch);
-    const updateSettingsSummaries = () => {
-      const values = {
-        appearance: (themeChoice?.value === 'dark' ? 'Dark' : 'Light') + ' · ' + (densityChoice?.value === 'compact' ? 'Compact' : 'Comfortable'),
-        study: (studyControls.year?.value || 'YL1') + ' · ' + ({exam:'Exam',review:'Review',key:'Answer key'}[studyControls.mode?.value] || 'Exam') + ' · Shuffle ' + (studyControls.shuffle?.value === 'on' ? 'On' : 'Off'),
-        accessibility: (motionControl?.value === 'reduce' ? 'Reduced motion' : motionControl?.value === 'full' ? 'Motion on' : 'System motion') + ' · ' + (textSizeControl?.value === 'large' ? 'Larger text' : 'Default text'),
-        general: 'Remember subject ' + (rememberSubjectControl?.value === 'on' ? 'On' : 'Off'),
-        notifications: 'Completion ' + (completionNotice?.value === 'off' ? 'Off' : 'On') + ' · Milestone ' + (milestoneNotice?.value === 'off' ? 'Off' : 'On'),
-        profile: 'This device',
-        data: 'Manual backup',
-        reset: 'Manage preferences'
-      };
-      Object.entries(values).forEach(([key,value]) => {
-        const target = settingsModal.querySelector('[data-settings-summary="' + key + '"]');
-        if (target) target.textContent = value;
-      });
-    };
     const showSettingsPage = page => {
       settingsModal.querySelectorAll('[data-settings-tab]').forEach(tab => {
         const active = tab.dataset.settingsTab === page;
@@ -569,9 +553,6 @@
         if (status) status.textContent = 'Unable to save this preference in your browser.';
       }
     });
-    updateSettingsSummaries();
-    [themeChoice,densityChoice,studyControls.year,studyControls.mode,studyControls.shuffle,motionControl,textSizeControl,completionNotice,milestoneNotice,rememberSubjectControl].forEach(control => control?.addEventListener('change', updateSettingsSummaries));
-    document.addEventListener('themechange', updateSettingsSummaries);
     $('smSettingsEditProfile')?.addEventListener('click', () => {
       closeSettings();
       $('dashProfileButton')?.click();
