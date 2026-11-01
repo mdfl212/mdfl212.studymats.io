@@ -306,8 +306,17 @@
               '<div class="sm-settings-row"><div><strong>Backup & portability</strong><p>Export or restore your study data.</p></div><button type="button" class="sm-settings-control" id="smSettingsBackup">Open backup</button></div>' +
             '</section>' +
             '<section class="sm-settings-page" data-settings-page="reset" hidden>' +
-              '<h3>Reset settings</h3><p class="sm-settings-description">Restore preferences to their defaults. This will not delete question banks, quiz history, saved progress, or backup files.</p>' +
-              '<div class="sm-settings-reset-card"><div><strong>Reset appearance</strong><p>Return the current theme to the default light appearance.</p></div><button type="button" class="sm-settings-control sm-settings-danger" id="smResetAppearance">Reset appearance</button></div>' +
+              '<h3>Reset & maintenance</h3><p class="sm-settings-description">Restore one preference group or all StudyMats settings to their defaults. These actions never erase your question banks, answers, activity history, or saved quiz progress.</p>' +
+              '<div class="sm-settings-reset-list">' +
+                '<div class="sm-settings-reset-card"><div><strong>Appearance</strong><p>Light theme and comfortable interface density.</p></div><button type="button" class="sm-settings-control" data-reset-category="appearance">Reset appearance</button></div>' +
+                '<div class="sm-settings-reset-card"><div><strong>Study preferences</strong><p>YL1, Exam mode, and question shuffle off.</p></div><button type="button" class="sm-settings-control" data-reset-category="study">Reset study preferences</button></div>' +
+                '<div class="sm-settings-reset-card"><div><strong>Accessibility</strong><p>Follow system motion settings and use default text size.</p></div><button type="button" class="sm-settings-control" data-reset-category="accessibility">Reset accessibility</button></div>' +
+                '<div class="sm-settings-reset-card"><div><strong>Notifications</strong><p>Turn session completion and progress milestone notices on.</p></div><button type="button" class="sm-settings-control" data-reset-category="notifications">Reset notifications</button></div>' +
+                '<div class="sm-settings-reset-card"><div><strong>General</strong><p>Turn off remembering your last subject and clear that launch shortcut.</p></div><button type="button" class="sm-settings-control" data-reset-category="general">Reset general</button></div>' +
+              '</div>' +
+              '<div class="sm-settings-reset-all"><div><strong>Restore all settings</strong><p>Reset every preference group listed above in one step.</p></div><button type="button" class="sm-settings-control sm-settings-danger" id="smResetAllSettings">Restore all settings</button></div>' +
+              '<div class="sm-settings-data-note"><strong>Study data is separate</strong><p>Resetting settings does not delete answers, saved progress, activity history, or question banks. Manage backups and study data separately in Data & backup.</p><button type="button" class="sm-settings-control" id="smResetOpenData">Open Data & backup</button></div>' +
+              '<p class="sm-settings-note" id="smResetStatus" role="status" aria-live="polite">Your settings are stored locally in this browser.</p>' +
             '</section>' +
           '</div>' +
         '</div>' +
@@ -481,15 +490,55 @@
       closeSettings();
       openBackup();
     });
-    const resetAppearance = () => {
-      const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-      if (currentTheme === 'dark') $('smThemeToggle')?.click();
-    };
-    $('smResetAppearance')?.addEventListener('click', () => {
-      if (window.confirm('Reset appearance to the default light theme? Your study data will not be affected.')) {
-        resetAppearance();
+    const resetStatus = $('smResetStatus');
+    const setResetStatus = message => { if (resetStatus) resetStatus.textContent = message; };
+    const resetPreferenceCategory = category => {
+      try {
+        if (category === 'appearance') {
+          window.setTheme?.('light');
+          applyDensity('comfortable');
+          if (themeChoice) themeChoice.value = 'light';
+        } else if (category === 'study') {
+          if (studyControls.year) studyControls.year.value = 'YL1';
+          if (studyControls.mode) studyControls.mode.value = 'exam';
+          if (studyControls.shuffle) studyControls.shuffle.value = 'off';
+          saveStudyPreferences();
+        } else if (category === 'accessibility') {
+          applyMotion('system');
+          applyTextSize('normal');
+          saveAccessibility();
+        } else if (category === 'notifications') {
+          if (completionNotice) completionNotice.value = 'on';
+          if (milestoneNotice) milestoneNotice.value = 'on';
+          saveNotificationPreferences();
+        } else if (category === 'general') {
+          if (rememberSubjectControl) rememberSubjectControl.value = 'off';
+          localStorage.removeItem('studymats-last-subject-v1');
+          localStorage.setItem(generalPreferenceKey, JSON.stringify({ rememberLastSubject: false }));
+        } else {
+          return false;
+        }
+        setResetStatus(category.charAt(0).toUpperCase() + category.slice(1) + ' preferences restored to defaults. Study data was not changed.');
+        return true;
+      } catch {
+        setResetStatus('Some preferences could not be reset because browser storage is unavailable.');
+        return false;
       }
+    };
+    settingsModal.querySelectorAll('[data-reset-category]').forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.dataset.resetCategory;
+        if (window.confirm('Reset ' + category + ' preferences to their defaults? Your study data will not be affected.')) {
+          resetPreferenceCategory(category);
+        }
+      });
     });
+    $('smResetAllSettings')?.addEventListener('click', () => {
+      if (!window.confirm('Restore all StudyMats settings to their defaults? Your answers, saved progress, activity history, and question banks will remain untouched.')) return;
+      ['appearance','study','accessibility','notifications','general'].forEach(resetPreferenceCategory);
+      setResetStatus('All settings restored to defaults. Your study data remains untouched.');
+    });
+    $('smResetOpenData')?.addEventListener('click', () => showSettingsPage('data'));
     document.querySelectorAll('[data-sm-changelog]').forEach(b =>
       b.addEventListener('click', () => {
         closeProfile();
