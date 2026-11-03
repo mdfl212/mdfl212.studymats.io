@@ -45,6 +45,26 @@
         </section>
         <section class="sidebar-section"><h3>Year level</h3><div class="sidebar-year-links" role="group" aria-label="Choose year level"><button type="button" class="sidebar-year active" data-sidebar-yl="YL1">YL1</button><button type="button" class="sidebar-year" data-sidebar-yl="YL2">YL2</button><button type="button" class="sidebar-year" data-sidebar-yl="YL3">YL3</button><button type="button" class="sidebar-year" data-sidebar-yl="YL4">YL4</button></div></section>
         <section class="sidebar-section"><h3>Study mode</h3><p>Switch between answering, reviewing, and the answer key.</p><div class="sidebar-mode-links"><button type="button" data-sidebar-mode="exam">📝 Exam mode</button><button type="button" data-sidebar-mode="review">🔍 Review mode</button><button type="button" data-sidebar-mode="key">🗝 Answer key</button></div></section>
+
+        <section class="sidebar-section controller-settings" id="controllerSettings" aria-labelledby="controllerSettingsTitle">
+            <h3 id="controllerSettingsTitle">Controller &amp; Keyboard</h3>
+            <label class="controller-toggle-row" for="controllerEnabled"><span><strong>Controller input</strong><small>Enable or disable quiz shortcuts</small></span><input id="controllerEnabled" type="checkbox" checked></label>
+            <div id="controllerAdvanced" hidden>
+                <details id="controllerOptions">
+                    <summary>Controller settings</summary>
+                    <div class="controller-setting-field"><label for="controllerDevice">Input device</label><select id="controllerDevice"><option value="8bitdo">8BitDo Micro Gamepad (default)</option><option value="gamepad">Other compatible gamepad</option><option value="keyboard">Keyboard</option></select></div>
+                    <div id="controllerGamepadMappings">
+                        <p class="controller-setting-label">Answer buttons</p>
+                        <div class="controller-map-grid"><label for="mapAnswerA">Answer A<select id="mapAnswerA" data-map="answerA"></select></label><label for="mapAnswerB">Answer B<select id="mapAnswerB" data-map="answerB"></select></label><label for="mapAnswerC">Answer C<select id="mapAnswerC" data-map="answerC"></select></label><label for="mapAnswerD">Answer D<select id="mapAnswerD" data-map="answerD"></select></label></div>
+                        <p class="controller-setting-label">Navigation &amp; actions</p>
+                        <div class="controller-map-grid"><label for="mapPrevious">Previous<select id="mapPrevious" data-map="previous"></select></label><label for="mapNext">Next<select id="mapNext" data-map="next"></select></label><label for="mapReveal">Show answer &amp; rationale<select id="mapReveal" data-map="reveal"></select></label></div>
+                    </div>
+                    <div class="controller-status-wrap"><span class="controller-status-dot" aria-hidden="true"></span><span id="controllerStatus" role="status" aria-live="polite">Checking for a connected controller…</span></div>
+                    <button class="btn controller-test-button" id="controllerTestButton" type="button">Test controller input</button>
+                    <p class="controller-help">Quick remapping: choose “Press controller button” beside any action, then press the physical button you want to assign. Press Escape to cancel. You can also use the dropdown as a fallback. Default: A/B/X/Y answer buttons; D-pad left/right navigate. Keyboard: A–D or 1–4, with arrow keys for navigation.</p>
+                </details>
+            </div>
+        </section>
         <div class="sidebar-bottom"><a href="index.html">← Back to dashboard</a><span>Progress saves automatically on this device.</span></div>
     </aside>
 
@@ -60,14 +80,15 @@
                 <span class="quiz-timer-sr-only">Duration in minutes</span>
                 <input id="quizTimerDuration" type="number" min="1" max="600" step="1" value="60" inputmode="numeric" aria-label="Timer duration in minutes" title="Timer duration in minutes">
             </label>
-            <div class="quiz-timer-quick-add" role="group" aria-label="Add time">
+            <div class="quiz-timer-quick-add" role="group" aria-label="Adjust time">
+                <button class="btn timer-add" type="button" data-timer-add="-5" aria-label="Subtract 5 minutes">−5</button>
+                <button class="btn timer-add" type="button" data-timer-add="5" aria-label="Add 5 minutes">+5</button>
                 <button class="btn timer-add" type="button" data-timer-add="15" aria-label="Add 15 minutes">+15</button>
                 <button class="btn timer-add" type="button" data-timer-add="30" aria-label="Add 30 minutes">+30</button>
                 <button class="btn timer-add" type="button" data-timer-add="60" aria-label="Add one hour">+1h</button>
             </div>
             <div class="quiz-timer-actions" role="group" aria-label="Timer actions">
-                <button class="btn primary" id="timerStartButton" type="button">Start</button>
-                <button class="btn" id="timerPauseButton" type="button" disabled>Pause</button>
+                <button class="btn primary" id="timerToggleButton" type="button">Start</button>
                 <button class="btn danger" id="timerResetButton" type="button" aria-label="Reset timer" title="Reset timer">↺</button>
             </div>
         </div>
@@ -136,6 +157,7 @@
     </div>
 </div>
 <script src="app.js"></script>
+<script src="controller.js"></script>
 <script>
   // Register the PWA service worker only on HTTP(S); relative path supports GitHub Pages project sites.
   if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {

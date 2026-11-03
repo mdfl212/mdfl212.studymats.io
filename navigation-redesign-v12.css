@@ -1,0 +1,234 @@
+/* StudyMats redesign v12 — layout polish overrides */
+
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashStats,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view #dashDonuts,
+html[data-course="hub"] body.sm-redesign-active .sm-progress-view .dash-stats {
+  display: none !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="builder"] main.wrapper {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-builder-view {
+  padding: 0 !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-builder-toolbar {
+  display: none !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-builder-view iframe {
+  width: 100% !important;
+  min-height: calc(100dvh - 120px) !important;
+  border: 0 !important;
+}
+
+/* Backup sheet: stacked actions on phone */
+body[data-course="hub"] .sm-backup-sheet .dash-data-actions,
+html[data-course="hub"] body.sm-redesign-active .sm-backup-sheet .dash-data-actions {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  gap: 10px !important;
+  width: 100% !important;
+}
+body[data-course="hub"] .sm-backup-sheet .dash-button,
+html[data-course="hub"] body.sm-redesign-active .sm-backup-sheet .dash-button {
+  display: flex !important;
+  width: 100% !important;
+  min-height: 48px !important;
+  padding: 14px 16px !important;
+  font-size: 14px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+}
+.sm-modal-dialog.sm-backup-sheet {
+  width: min(100%, 480px) !important;
+  max-height: min(88dvh, 640px) !important;
+  overflow: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  padding: 16px 16px max(20px, env(safe-area-inset-bottom, 0px)) !important;
+}
+@media (min-width: 768px) {
+  body[data-course="hub"] .sm-backup-sheet .dash-data-actions,
+  html[data-course="hub"] body.sm-redesign-active .sm-backup-sheet .dash-data-actions {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    flex-direction: unset !important;
+  }
+}
+
+.sm-profile-menu {
+  min-width: 232px !important;
+  max-width: min(300px, calc(100vw - 20px)) !important;
+  padding: 10px !important;
+  border-radius: 18px !important;
+  box-shadow: 0 18px 48px rgba(0,0,0,.16) !important;
+}
+.sm-menu-action {
+  padding: 13px 12px !important;
+  border-radius: 12px !important;
+  font-weight: 500 !important;
+}
+
+/* Home keeps normal padding; quiz mode labels stay horizontal */
+html[data-course="hub"] body.sm-redesign-active:not([data-sm-view="progress"]):not([data-sm-view="builder"]) main.wrapper {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-primary-action {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+
+/* Quiz modal: mode buttons must not stack letters */
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker,
+body[data-course="hub"] .study-mats-mode-picker {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  grid-template-columns: none !important;
+}
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker button,
+body[data-course="hub"] .study-mats-mode-picker button {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  width: 100% !important;
+  min-height: 48px !important;
+  min-width: 0 !important;
+  padding: 12px 14px !important;
+  text-align: left !important;
+  white-space: nowrap !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  writing-mode: horizontal-tb !important;
+  grid-template-columns: none !important;
+  box-sizing: border-box !important;
+}
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker button strong,
+body[data-course="hub"] .study-mats-mode-picker button strong {
+  display: inline !important;
+  width: auto !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  writing-mode: horizontal-tb !important;
+  font-size: 15px !important;
+  line-height: 1.25 !important;
+  letter-spacing: normal !important;
+}
+html[data-course="hub"] body.sm-redesign-active .study-mats-mode-picker button small,
+body[data-course="hub"] .study-mats-mode-picker button small {
+  display: none !important;
+}
+
+/* Home / welcome polish */
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] main.wrapper,
+html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) main.wrapper {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome {
+  padding: 20px 0 28px !important;
+  max-width: 420px !important;
+  margin: 0 auto !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome h1 {
+  margin: 0 0 10px !important;
+  font-size: clamp(1.75rem, 7vw, 2.15rem) !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--text-main, #1c1917) !important;
+  font-weight: 650 !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome p#smWelcomePrompt {
+  margin: 0 0 22px !important;
+  font-size: 15px !important;
+  line-height: 1.45 !important;
+  color: var(--text-muted, #78716c) !important;
+  max-width: 28ch !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome-actions {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  width: 100% !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-primary-action {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 50px !important;
+  padding: 14px 18px !important;
+  border-radius: 999px !important;
+  border: 1px solid var(--border, #e6e0d9) !important;
+  background: var(--bg-card, #fff) !important;
+  color: var(--text-main, #1c1917) !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  box-shadow: 0 1px 2px rgba(20, 16, 12, 0.04) !important;
+  box-sizing: border-box !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-primary-action.primary {
+  background: var(--accent, #1f6b4a) !important;
+  border-color: var(--accent, #1f6b4a) !important;
+  color: #fff !important;
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--accent, #1f6b4a) 28%, transparent) !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-primary-action span[aria-hidden] {
+  margin-left: 6px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-streak {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-top: 6px !important;
+  padding: 8px 12px !important;
+  border-radius: 999px !important;
+  background: color-mix(in srgb, var(--bg-card, #fff) 70%, transparent) !important;
+  border: 0 !important;
+  font-size: 13px !important;
+  color: var(--text-muted, #78716c) !important;
+  width: fit-content !important;
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-welcome h1 {
+  color: var(--text-main, #f5f5f4) !important;
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-primary-action:not(.primary) {
+  background: var(--bg-card, #1a1816) !important;
+  border-color: var(--border, #3f3a36) !important;
+  color: var(--text-main, #f5f5f4) !important;
+}
+html[data-theme="dark"] body.sm-redesign-active .sm-streak {
+  background: rgba(255,255,255,0.06) !important;
+  color: var(--text-muted, #a8a29e) !important;
+}
+
+/* Bottom nav: extra top padding so icons clear the top border line */
+html[data-course="hub"] body.sm-redesign-active .sm-bottom-nav {
+  padding-top: 10px !important;
+  padding-bottom: max(8px, env(safe-area-inset-bottom, 0px)) !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-tab {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  gap: 3px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-tab-icon {
+  line-height: 1.2 !important;
+  display: block !important;
+}

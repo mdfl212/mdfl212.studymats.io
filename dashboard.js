@@ -12,23 +12,39 @@ const records=()=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(P
 const DASHBOARD_SCRIPT_URL=document.currentScript&&document.currentScript.src?document.currentScript.src:window.location.href;
 const dashboardAssetUrl=path=>new URL(path,DASHBOARD_SCRIPT_URL).href;
 let subjects=[], dataBySubject=new Map(), failedSubjects=new Map(), range=180, selectedYear='YL1';
-function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
+function saveProfile(p){try{localStorage.setItem(PROFILE,JSON.stringify({...p,updatedAt:new Date().toISOString()}));window.dispatchEvent(new CustomEvent('studymats:profile-updated'));return true}catch{$('dashDataMessage').textContent='Browser storage is unavailable; profile preferences could not be saved.';$('dashDataMessage').classList.add('is-error');return false}}
 function openProfile(){const p=profile()||{};$('profileName').value=p.name||'';$('profileShowName').checked=p.showName!==false;$('profileModal').hidden=false;$('profileModal').classList.add('is-open');$('profileName').focus()}
 function closeProfile(){ $('profileModal').hidden=true;$('profileModal').classList.remove('is-open');render() }
 function ring(pct,color,label){const r=2*Math.PI*42,v=r*Math.max(0,Math.min(100,Number(pct)||0))/100;return '<svg class="dash-donut" viewBox="0 0 108 108" role="img" aria-label="'+esc(label)+': '+Math.round(pct)+' percent"><circle class="dash-donut-track" cx="54" cy="54" r="42"></circle><circle class="dash-donut-value" cx="54" cy="54" r="42" stroke="'+color+'" stroke-dasharray="'+v+' '+(r-v)+'" transform="rotate(-90 54 54)"></circle><text x="54" y="58" class="dash-donut-number">'+Math.round(pct)+'%</text></svg>'}
 function buildHeatmap(){
- const a=activity(), today=new Date();today.setHours(12,0,0,0);const start=new Date(today);start.setDate(start.getDate()-range+1);
+ const a=activity(),today=new Date();today.setHours(12,0,0,0);
+ const start=new Date(today);start.setDate(start.getDate()-range+1);
  const days=[];for(let i=0;i<range;i++){const d=new Date(start);d.setDate(start.getDate()+i);const k=dateKey(d);days.push({key:k,date:d,count:Array.isArray(a[k])?a[k].length:0})}
+ const byDate=new Map(days.map(day=>[day.key,day]));
  const vals=days.map(x=>x.count).filter(x=>x>0).sort((x,y)=>x-y),q=n=>vals.length?vals[Math.floor((vals.length-1)*n)]:1;
  const level=n=>!n?0:n<=q(.35)?1:n<=q(.7)?2:n<=q(1)?3:4;
  const active=days.filter(x=>x.count>0).length,total=new Set(Object.values(a).flatMap(items=>Array.isArray(items)?items:[])).size;
  let streak=0,cursor=new Date(today);if(!(a[dateKey(cursor)]||[]).length)cursor.setDate(cursor.getDate()-1);while((a[dateKey(cursor)]||[]).length){streak++;cursor.setDate(cursor.getDate()-1)}
  let longest=0,run=0;days.forEach(x=>{run=x.count?run+1:0;longest=Math.max(longest,run)});
- const gridStart=new Date(days[0].date);gridStart.setDate(gridStart.getDate()-((gridStart.getDay()+6)%7));const weeks=[];
- for(let d=new Date(gridStart);d<=today;d.setDate(d.getDate()+1)){const k=dateKey(d),found=days.find(x=>x.key===k),day={key:k,date:new Date(d),count:found?found.count:0};if(!weeks.length||((d.getDay()+6)%7)===0)weeks.push([]);weeks[weeks.length-1].push({...day,level:level(day.count)})}
- const labels=weeks.map((w,i)=>{const first=w.find(x=>x.date.getDate()<=7);return '<span>'+((first&&(i===0||w.some(x=>x.date.getDate()===1)))?esc(first.date.toLocaleDateString(undefined,{month:'short'})):'')+'</span>'}).join('');
- const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row">'+weeks.map(w=>{const x=w[r];return x?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty"></span>'}).join('')+'</div>').join('');
- return {html:'<div class="dash-month-labels">'+labels+'</div><div class="dash-heatmap-scroll"><div class="dash-heatmap">'+rows+'</div></div>',active,streak,longest,total};
+ // Build complete Monday-to-Sunday columns so weekday rows never shift.
+ const gridStart=new Date(days[0].date);gridStart.setDate(gridStart.getDate()-((gridStart.getDay()+6)%7));
+ const gridEnd=new Date(today);gridEnd.setDate(gridEnd.getDate()+(6-((gridEnd.getDay()+6)%7)));
+ const weeks=[];
+ for(let date=new Date(gridStart);date<=gridEnd;date.setDate(date.getDate()+1)){
+  const current=new Date(date),key=dateKey(current),found=byDate.get(key);
+  const day={key,date:current,count:found?found.count:0,inRange:!!found&&current<=today};
+  if(!weeks.length||((current.getDay()+6)%7)===0)weeks.push([]);
+  weeks[weeks.length-1].push({...day,level:level(day.count)});
+ }
+ const labels=weeks.map((week,i)=>{
+  const monthStart=week.find(day=>day.date.getDate()===1);
+  const firstVisible=week.find(day=>day.inRange);
+  const label=monthStart||(i===0?firstVisible:null);
+  return '<span>'+((label)?esc(label.date.toLocaleDateString(undefined,{month:'short'})):'')+'</span>';
+ }).join('');
+ const weekdayNames=['Mon','','Wed','','Fri','','Sun'];
+ const rows=Array.from({length:7},(_,r)=>'<div class="dash-heat-row"><span class="dash-weekday-label">'+weekdayNames[r]+'</span><div class="dash-heat-week-cells">'+weeks.map(w=>{const x=w[r];return x&&x.inRange?'<span class="dash-heat-cell level-'+x.level+'" tabindex="0" title="'+esc(dateLabel(x.key))+': '+x.count+' studied" aria-label="'+esc(dateLabel(x.key))+': '+x.count+' studied"></span>':'<span class="dash-heat-cell empty" aria-hidden="true"></span>'}).join('')+'</div></div>').join('');
+ return {html:'<div class="dash-heatmap-scroll" role="region" aria-label="Study activity calendar" tabindex="0"><div class="dash-month-labels"><span class="dash-weekday-spacer" aria-hidden="true"></span>'+labels+'</div><div class="dash-heatmap">'+rows+'</div></div>',active,streak,longest,total};
 }
 async function load(){
  const sourceUrl=dashboardAssetUrl('subjects.json');
@@ -107,7 +123,7 @@ function render(){
  else if(loadMessage&&loadMessage.classList.contains('is-error')&&loadMessage.textContent.includes('question banks could not be loaded')){loadMessage.textContent='';loadMessage.classList.remove('is-error')}
  const subjectCount=document.querySelector('.dash-subject-count');if(subjectCount)subjectCount.textContent=selectedYear==='resources'?'Additional resources':selectedYear+' subjects';
  const h=buildHeatmap();$('dashHeatmap').innerHTML=h.html;$('dashActivityStats').innerHTML='<div><strong>'+h.active+'</strong><span>active days</span></div><div><strong>'+h.streak+'</strong><span>current streak</span></div><div><strong>'+h.longest+'</strong><span>longest streak</span></div><div><strong>'+h.total+'</strong><span>total questions</span></div>';
- $('dashActivityCaption').textContent='Showing '+(range===30?'the last 30 days':range===180?'the last 6 months':'the last 12 months')+'. Daily history begins when tracking is enabled; older activity is not guessed.';
+ $('dashActivityCaption').textContent='Showing the last 6 months. Daily history begins when tracking is enabled; older activity is not guessed.';
 }
 function exportBackup(){
  const payload={app:'StudyMats',formatVersion:1,exportedAt:new Date().toISOString(),profile:profile(),progress:records().map(x=>({subjectId:x.id,data:x.data})),activity:activity()};
@@ -117,9 +133,9 @@ function importBackup(file){
  const reader=new FileReader();reader.onload=()=>{
   try{const p=JSON.parse(reader.result);if(!p||p.app!=='StudyMats'||p.formatVersion!==1||!Array.isArray(p.progress))throw Error('This is not a supported StudyMats backup.');
    const known=new Set(subjects.map(s=>s.id));p.progress=p.progress.filter(x=>x&&known.has(x.subjectId)&&x.data&&typeof x.data==='object');if(!p.progress.length)throw Error('No compatible subject progress records were found.');
-   $('importSummary').textContent='This backup contains '+p.progress.length+' subject record(s)'+(p.exportedAt?' from '+new Date(p.exportedAt).toLocaleDateString():'')+'. Choose merge to keep current progress or replace to start from this backup.';
+   $('importSummary').textContent='This backup contains '+p.progress.length+' compatible subject record(s)'+(p.exportedAt?' and was exported on '+new Date(p.exportedAt).toLocaleDateString():'')+'. Merge adds its saved answers and activity to what is already here. Replace clears current subject progress and activity before restoring this file. Your settings are not changed; profile details are restored only if they are present in the file.';
    $('importModal').hidden=false;$('importModal').classList.add('is-open');
-   $('importMergeButton').onclick=()=>applyImport(p,'merge');$('importReplaceButton').onclick=()=>{if(confirm('Replace current saved progress with this backup? Export your current data first if you may need it.'))applyImport(p,'replace')};
+   $('importMergeButton').onclick=()=>applyImport(p,'merge');$('importReplaceButton').onclick=()=>{if(confirm('Replace the saved subject progress and daily activity on this device with the contents of this backup? Current progress and activity will be removed. Settings will remain unchanged. Export your current data first if you may need it.'))applyImport(p,'replace')};
   }catch(e){$('dashDataMessage').textContent=e.message||'Could not read this backup.';$('dashDataMessage').classList.add('is-error')}
  };reader.readAsText(file);
 }
@@ -159,7 +175,6 @@ document.addEventListener('DOMContentLoaded',()=>{
  document.querySelectorAll('[data-close-changelog]').forEach(b=>b.addEventListener('click',closeChangelog));
  changelog?.addEventListener('click',e=>{if(e.target===changelog)closeChangelog()});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&changelog&&!changelog.hidden)closeChangelog()});
- document.querySelectorAll('[data-activity-range]').forEach(b=>b.addEventListener('click',()=>{range=Number(b.dataset.activityRange)||180;document.querySelectorAll('[data-activity-range]').forEach(x=>x.classList.toggle('active',x===b));render()}));
  document.querySelectorAll('.hub-pill[data-year]').forEach(b=>b.addEventListener('click',()=>{selectedYear=b.dataset.year||'YL1';render();const bankBrowser=document.querySelector('.hub-year-dropdown');if(bankBrowser)bankBrowser.open=true;}));
  document.querySelectorAll('.hub-year-dropdown summary').forEach(summary=>summary.setAttribute('aria-label','Open or close test banks'));
  render();load().catch(e=>{console.error('StudyMats dashboard load failed:',e);const message=$('dashDataMessage');if(message){message.textContent='Some dashboard data could not load. Your saved quiz data is untouched.';message.classList.add('is-error')}render()});

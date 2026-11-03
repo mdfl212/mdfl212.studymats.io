@@ -1,5 +1,5 @@
 /* StudyMats offline-first service worker for web and installed mobile/desktop apps. */
-const CACHE_NAME = "studymats-pwa-v6";
+const CACHE_NAME = "studymats-pwa-v14";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -7,6 +7,8 @@ const CORE_ASSETS = [
   "./test-bank-builder.html",
   "./test-bank-builder-v2.html",
   "./style.css",
+  "./navigation-redesign.css",
+  "./navigation-redesign.js",
   "./mobile-minimal.css",
   "./theme.js",
   "./app.js",
@@ -24,14 +26,11 @@ self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
 
-    // Cache each shell file independently so one optional missing file cannot
-    // prevent the entire app from becoming available offline.
     await Promise.allSettled(CORE_ASSETS.map(async (path) => {
       const response = await fetch(absolute(path), { cache: "reload" });
       if (response.ok) await cache.put(absolute(path), response);
     }));
 
-    // Pre-cache every published question bank, not just the app shell.
     try {
       const response = await fetch(absolute("./subjects.json"), { cache: "reload" });
       if (response.ok) {
@@ -49,7 +48,6 @@ self.addEventListener("install", (event) => {
         }
       }
     } catch (error) {
-      // The shell remains installable; data is retried when requested online.
       console.warn("StudyMats question banks could not all be pre-cached:", error);
     }
 
@@ -74,8 +72,6 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  // Pages and JSON use network-first so updates appear when connected, while
-  // cached copies keep navigation and question loading working offline.
   const isPage = request.mode === "navigate";
   const isJson = url.pathname.endsWith(".json");
 
@@ -107,10 +103,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Cache-first for styles, scripts, icons and other same-origin assets.
   event.respondWith((async () => {
-    // Asset query strings are used for cache-busting; the installed shell
-    // stores canonical paths, so ignore search params when matching assets.
     const cached = await caches.match(request, { ignoreSearch: true });
     if (cached) return cached;
     try {

@@ -46,8 +46,7 @@ function renderQuizTimer() {
     const display = $('quizTimerDisplay');
     const status = $('quizTimerStatus');
     const expiredNotice = $('quizTimerExpired');
-    const startButton = $('timerStartButton');
-    const pauseButton = $('timerPauseButton');
+    const toggleButton = $('timerToggleButton');
     if (!panel || !display || !status) return;
 
     const remaining = getQuizTimerRemaining();
@@ -73,8 +72,7 @@ function renderQuizTimer() {
 
     if (quizTimer.expired) {
         status.textContent = 'Time is up. Add time or reset the timer to continue.';
-        if (startButton) startButton.textContent = '▶ Start';
-        if (pauseButton) pauseButton.disabled = true;
+        if (toggleButton) { toggleButton.textContent = 'Reset timer'; toggleButton.dataset.running = 'false'; toggleButton.dataset.expired = 'true'; toggleButton.setAttribute('aria-label', 'Reset timer'); toggleButton.title = 'Reset timer'; toggleButton.disabled = false; }
         document.title = 'TIME IS UP! · StudyMats';
     } else {
         status.textContent = quizTimer.running
@@ -82,9 +80,7 @@ function renderQuizTimer() {
             : (quizTimer.hasStarted
                 ? 'Timer paused. Resume when you are ready.'
                 : 'Set a duration, then start when you are ready.');
-        if (startButton) startButton.textContent = quizTimer.running ? '▶ Running' : '▶ Start';
-        if (startButton) startButton.disabled = quizTimer.running;
-        if (pauseButton) pauseButton.disabled = !quizTimer.running;
+        if (toggleButton) { toggleButton.textContent = quizTimer.running ? 'Pause' : (quizTimer.hasStarted ? 'Resume' : 'Start'); toggleButton.dataset.running = String(quizTimer.running); toggleButton.dataset.expired = 'false'; toggleButton.setAttribute('aria-label', quizTimer.running ? 'Pause timer' : (quizTimer.hasStarted ? 'Resume timer' : 'Start timer')); toggleButton.title = toggleButton.getAttribute('aria-label'); toggleButton.disabled = false; }
         if (!quizTimer.expired) document.title = document.title.replace(/^\d{2}:\d{2}(?::\d{2})? · /, '');
     }
 }
@@ -157,11 +153,11 @@ function resetQuizTimer() {
 }
 
 function addQuizTime(minutes) {
-    if (!Number.isFinite(minutes) || minutes <= 0) return;
+    if (!Number.isFinite(minutes) || minutes === 0) return;
     const currentRemaining = getQuizTimerRemaining();
-    quizTimer.remainingMs = currentRemaining + minutes * 60 * 1000;
+    quizTimer.remainingMs = Math.max(0, currentRemaining + minutes * 60 * 1000);
     if (quizTimer.running) quizTimer.deadline = Date.now() + quizTimer.remainingMs;
-    if (quizTimer.expired) {
+    if (quizTimer.expired && minutes > 0) {
         quizTimer.expired = false;
         quizTimer.hasStarted = true;
         quizTimer.running = false;
@@ -170,14 +166,13 @@ function addQuizTime(minutes) {
     }
     const durationInput = $('quizTimerDuration');
     if (durationInput && !quizTimer.hasStarted) {
-        durationInput.value = String(Math.min(600, Math.ceil(quizTimer.remainingMs / 60000)));
+        durationInput.value = String(Math.min(600, Math.max(1, Math.ceil(quizTimer.remainingMs / 60000))));
     }
     renderQuizTimer();
 }
 
 function initializeQuizTimer() {
-    $('timerStartButton')?.addEventListener('click', startQuizTimer);
-    $('timerPauseButton')?.addEventListener('click', pauseQuizTimer);
+    $('timerToggleButton')?.addEventListener('click', () => { if (quizTimer.running) pauseQuizTimer(); else if (quizTimer.expired) resetQuizTimer(); else startQuizTimer(); });
     $('timerResetButton')?.addEventListener('click', resetQuizTimer);
     document.querySelectorAll('[data-timer-add]').forEach((button) => {
         button.addEventListener('click', () => addQuizTime(Number(button.dataset.timerAdd)));
@@ -413,7 +408,17 @@ async function loadSubjects() {
     const params = new URLSearchParams(window.location.search);
     const requestedSubject = params.get('subject');
     const requestedMode = params.get('mode');
+    let studyPreferences = {};
+    try { studyPreferences = JSON.parse(localStorage.getItem('studymats-study-preferences-v1') || '{}') || {}; } catch {}
+    if (!requestedSubject && ['YL1', 'YL2', 'YL3', 'YL4'].includes(studyPreferences.defaultYear)) state.activeYear = studyPreferences.defaultYear;
+    let generalPreferences = {};
+    try { generalPreferences = JSON.parse(localStorage.getItem('studymats-general-preferences-v1') || '{}') || {}; } catch {}
+    let rememberedSubjectId = null;
+    try { rememberedSubjectId = localStorage.getItem('studymats-last-subject-v1'); } catch {}
+    const rememberedSubject = generalPreferences.rememberLastSubject === true
+        ? state.subjects.find((item) => item.id === rememberedSubjectId) : null;
     const defaultSubject = state.subjects.find((item) => item.id === requestedSubject)
+        || rememberedSubject
         || state.subjects.find((item) => item.yearLevel === state.activeYear)
         || state.subjects[0];
     syncYearIndicators();
@@ -422,9 +427,8 @@ async function loadSubjects() {
             subjectSelect.value = defaultSubject.id;
         }
         await selectSubject(defaultSubject.id);
-        if (['exam', 'review', 'key'].includes(requestedMode)) {
-            setMode(requestedMode);
-        }
+        const preferredMode = ['exam', 'review', 'key'].includes(studyPreferences.defaultMode) ? studyPreferences.defaultMode : 'exam';
+        setMode(['exam', 'review', 'key'].includes(requestedMode) ? requestedMode : preferredMode);
     }
 }
 
@@ -435,7 +439,16 @@ async function selectSubject(subjectId) {
     if (!response.ok) throw new Error(`Unable to load ${subject.name} questions.`);
     state.subject = subject;
     state.activeYear = subject.yearLevel || state.activeYear;
+    try { localStorage.setItem('studymats-last-subject-v1', subject.id); } catch {}
     state.questions = await response.json();
+    let studyPreferences = {};
+    try { studyPreferences = JSON.parse(localStorage.getItem('studymats-study-preferences-v1') || '{}') || {}; } catch {}
+    if (studyPreferences.shuffleQuestions === true) {
+        for (let i = state.questions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [state.questions[i], state.questions[j]] = [state.questions[j], state.questions[i]];
+        }
+    }
     state.answers = {};
     state.revealed = {};
     state.currentIndex = 0;
@@ -515,12 +528,39 @@ function setMode(mode) {
     render();
 }
 
+const studyNoticeMilestones = new Set();
+
+function emitStudyNotice(type, message) {
+    let preferences = {};
+    try { preferences = JSON.parse(localStorage.getItem('studymats-notification-preferences-v1') || '{}') || {}; } catch {}
+    if (type === 'completion' && preferences.sessionCompletion === false) return;
+    if (type === 'milestone' && preferences.progressMilestone === false) return;
+    window.dispatchEvent(new CustomEvent('studymats:study-notification', { detail: { type, message } }));
+}
+
 function selectAnswer(index) {
     const question = state.filteredQuestions[state.currentIndex];
     if (!question || state.mode === 'key') return;
     recordStudyActivity(question);
     state.answers[question.id] = index;
     if (state.mode === 'review') state.revealed[question.id] = true;
+    const questions = state.filteredQuestions;
+    const answeredCount = questions.filter(item => state.answers[item.id] !== undefined).length;
+    const signature = [state.subject?.id || 'none', state.filters.topic, state.mode].join(':');
+    if (questions.length > 0 && answeredCount >= Math.ceil(questions.length / 2)) {
+        const milestoneKey = signature + ':half';
+        if (!studyNoticeMilestones.has(milestoneKey) && answeredCount < questions.length) {
+            studyNoticeMilestones.add(milestoneKey);
+            emitStudyNotice('milestone', 'You’re halfway through this question set. Keep it up!');
+        }
+    }
+    if (questions.length > 0 && answeredCount === questions.length) {
+        const completionKey = signature + ':complete';
+        if (!studyNoticeMilestones.has(completionKey)) {
+            studyNoticeMilestones.add(completionKey);
+            emitStudyNotice('completion', 'Question set complete. Nice work!');
+        }
+    }
     render();
 }
 
@@ -643,7 +683,7 @@ function render() {
         else if (revealed && answer === index) className += ' wrong';
         else if (!revealed && answer === index) className += ' selected';
         return `<button class="${className}" data-answer="${index}" type="button">
-            <span class="opt-letter">${String.fromCharCode(65 + index)}.</span><span>${escapeHtml(option)}</span>
+            <span class="opt-letter">${String.fromCharCode(65 + index)}.</span><span class="opt-text">${escapeHtml(option)}</span>
         </button>`;
     }).join('');
     const rationale = revealed ? `<div class="rationale"><strong>Answer: ${String.fromCharCode(65 + question.correctAnswer)}</strong> - ${escapeHtml(question.rationale?.text || '')}

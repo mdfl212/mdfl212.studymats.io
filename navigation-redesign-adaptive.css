@@ -1,0 +1,325 @@
+/* StudyMats content-aware app shell. Loaded after existing layout overrides. */
+html[data-course="hub"] body.sm-redesign-active,
+html[data-course="hub"] body.sm-redesign-active * {
+  min-width: 0;
+}
+html[data-course="hub"] body.sm-redesign-active {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+html[data-course="hub"] body.sm-redesign-active main.wrapper {
+  width: 100%;
+  min-width: 0;
+  max-width: 1100px !important;
+  box-sizing: border-box;
+  container-type: inline-size;
+  transition: padding 220ms ease, max-width 220ms ease;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-topbar {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: gap 220ms ease, padding 220ms ease, background-color 180ms ease;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-brand,
+html[data-course="hub"] body.sm-redesign-active .sm-nav-actions {
+  flex-shrink: 0;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-search {
+  min-width: 0;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-search input {
+  width: 100%;
+  min-width: 0;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-bottom-nav {
+  box-sizing: border-box;
+  padding-left: max(4px, env(safe-area-inset-left, 0px));
+  padding-right: max(4px, env(safe-area-inset-right, 0px));
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-tab {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-nav-tab span:last-child {
+  max-width: 100%;
+  white-space: nowrap;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-view,
+html[data-course="hub"] body.sm-redesign-active .sm-page,
+html[data-course="hub"] body.sm-redesign-active .sm-metric-grid,
+html[data-course="hub"] body.sm-redesign-active .sm-modal-dialog {
+  min-width: 0;
+  max-width: 100%;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-metric-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+}
+html[data-course="hub"] body.sm-redesign-active :is(img, video, canvas, iframe) {
+  max-width: 100%;
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-layout="balanced"] main.wrapper {
+  padding-left: clamp(16px, 2.4cqi, 28px);
+  padding-right: clamp(16px, 2.4cqi, 28px);
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-layout="balanced"] .sm-nav-brand span {
+  display: inline;
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-layout="balanced"] .sm-profile-name {
+  display: none;
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-layout="wide"] main.wrapper {
+  padding-left: clamp(24px, 3cqi, 40px);
+  padding-right: clamp(24px, 3cqi, 40px);
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-layout="wide"] .sm-nav-brand span,
+html[data-course="hub"] body.sm-redesign-active[data-sm-layout="wide"] .sm-profile-name {
+  display: inline;
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-layout="wide"] .sm-nav-profile {
+  width: auto;
+  padding: 0 10px 0 6px;
+}
+@container (max-width: 560px) {
+  html[data-course="hub"] body.sm-redesign-active .sm-metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  html[data-course="hub"] body.sm-redesign-active .sm-metric-tile {
+    padding: clamp(10px, 2.5cqi, 14px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-course="hub"] body.sm-redesign-active .sm-topbar,
+  html[data-course="hub"] body.sm-redesign-active .sm-bottom-nav,
+  html[data-course="hub"] body.sm-redesign-active main.wrapper {
+    transition: none !important;
+  }
+}
+
+/* Keep the redesigned Home/welcome content centered as browser zoom changes.
+   This final layout guard prevents legacy desktop offsets or responsive width
+   overrides from pulling the home column away from the viewport center. */
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] main.wrapper,
+html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) main.wrapper {
+  box-sizing: border-box !important;
+  width: min(100%, 1100px) !important;
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+}
+html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] .sm-welcome,
+html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) .sm-welcome {
+  box-sizing: border-box;
+  width: min(100%, 420px);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* Welcome screen cleanup: keep the greeting/action area free of duplicate branding. */
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .site-header {
+  display: none !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown {
+  width: 100%;
+  margin: 0 0 18px !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  min-height: 54px !important;
+  padding: 12px 16px !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-summary-copy {
+  display: flex !important;
+  flex: 1 1 auto !important;
+  align-items: center !important;
+  min-width: 0 !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-title {
+  display: block !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  font-size: 14px !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-subtext {
+  display: none !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-icon {
+  flex: 0 0 auto !important;
+}
+
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .toggle-icon {
+  flex: 0 0 auto !important;
+  margin-left: auto !important;
+}
+
+@media (min-width: 1101px) {
+  html[data-course="hub"] body[data-course="hub"] .sidebar-collapse-toggle {
+    display: none !important;
+  }
+  html[data-course="hub"] body[data-course="hub"] .desktop-sidebar .sidebar-top {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 420px) {
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
+    gap: 8px !important;
+    padding: 10px 12px !important;
+  }
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-title {
+    font-size: 13px !important;
+  }
+}
+
+
+/* Desktop welcome refinement — isolated from the mobile/tablet layout.
+   Keep the existing welcome controls and Browse dropdown; change presentation only. */
+@media (min-width: 1101px) {
+  /* The legacy header is intentionally hidden by the welcome-page script.
+     This rule prevents older !important display declarations from overriding
+     the semantic hidden state. */
+  html[data-course="hub"] body.sm-redesign-active .site-header[hidden] {
+    display: none !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active[data-sm-view="home"] .sm-welcome,
+  html[data-course="hub"] body.sm-redesign-active:not([data-sm-view]) .sm-welcome {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "greeting"
+      "prompt"
+      "actions"
+      "browse";
+    align-content: start;
+    align-items: start;
+    row-gap: 0;
+    width: 100% !important;
+    max-width: 760px !important;
+    min-width: 0;
+    margin: 0 auto !important;
+    padding: clamp(34px, 5vh, 64px) clamp(8px, 1.5vw, 20px) 48px !important;
+    box-sizing: border-box;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > h1 {
+    grid-area: greeting;
+    align-self: end;
+    margin: 0 0 10px !important;
+    font-size: clamp(34px, 3vw, 44px) !important;
+    line-height: 1.12 !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > p#smWelcomePrompt {
+    grid-area: prompt;
+    align-self: start;
+    max-width: 42ch !important;
+    margin: 0 0 26px !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .sm-welcome-actions {
+    grid-area: actions;
+    align-self: start;
+    width: min(100%, 460px) !important;
+    gap: 12px !important;
+    align-items: stretch;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .sm-welcome-actions .sm-primary-action {
+    min-height: 54px !important;
+    border-radius: 15px !important;
+    justify-content: center !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .sm-welcome-actions .sm-streak {
+    align-self: flex-start;
+    margin-top: 2px !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown {
+    grid-area: browse;
+    align-self: start;
+    justify-self: stretch;
+    width: 100% !important;
+    max-width: 560px;
+    min-width: 0;
+    margin: clamp(16px, 2.4vw, 24px) 0 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
+    min-height: 112px !important;
+    padding: 22px !important;
+    gap: 16px !important;
+    border-radius: 18px !important;
+    background: var(--bg-card, #211d1f) !important;
+    border: 1px solid var(--border, #40363b) !important;
+    transition: border-color 160ms ease, transform 160ms ease, background-color 160ms ease;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle:hover {
+    border-color: var(--gold-primary, #e5bd4f) !important;
+    transform: translateY(-2px);
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-icon {
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 14px !important;
+  }
+
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-title {
+    font-size: 17px !important;
+    white-space: normal !important;
+  }
+}
+
+/* Keep the Browse card inside the welcome column at every viewport width. */
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown,
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle,
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .hub-year-summary-copy {
+  box-sizing: border-box !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown {
+  margin: clamp(16px, 2.4vw, 24px) 0 18px !important;
+}
+html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
+  width: 100% !important;
+}
+
+/* Respect reduced-motion preferences for the new hover treatment. */
+@media (prefers-reduced-motion: reduce) {
+  html[data-course="hub"] body.sm-redesign-active .sm-welcome > .hub-year-dropdown .section-toggle {
+    transition: none !important;
+  }
+}
+
+
+/* Honor the welcome script's hidden state for the legacy brand header at every breakpoint. */
+html[data-course="hub"] body.sm-redesign-active .site-header[hidden] {
+  display: none !important;
+}
