@@ -2,7 +2,7 @@
   {
     "id": "1",
     "subject": "Pharmacology",
-    "topic": "Antihistamine",
+    "topic": "Week 13",
     "question": "The use of which of the following should be avoided before operating machinery?",
     "questionImage": null,
     "options": [
@@ -17,13 +17,13 @@
       "images": []
     },
     "tags": [
-      "Antihistamine"
+      "Week 13"
     ]
   },
   {
     "id": "2",
     "subject": "Pharmacology",
-    "topic": "Antihistamine",
+    "topic": "Week 13",
     "question": "2nd-generation antihistamines have less autonomic side effects compared to 1st-generation agents because they are:",
     "questionImage": null,
     "options": [
@@ -38,13 +38,13 @@
       "images": []
     },
     "tags": [
-      "Antihistamine"
+      "Week 13"
     ]
   },
   {
     "id": "3",
     "subject": "Pharmacology",
-    "topic": "Cholinesterase Inhibitor",
+    "topic": "Week 23",
     "question": "The following anticholinesterase drugs are used in the treatment of Alzheimer disease, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -59,13 +59,13 @@
       "images": []
     },
     "tags": [
-      "Cholinesterase Inhibitor"
+      "Week 23"
     ]
   },
   {
     "id": "4",
     "subject": "Pharmacology",
-    "topic": "Antihypertensive",
+    "topic": "Week 16",
     "question": "Which antihypertensive agent is absolutely contraindicated in pregnant patients because of the risk of major renal damage in the fetus?",
     "questionImage": null,
     "options": [
@@ -80,13 +80,13 @@
       "images": []
     },
     "tags": [
-      "Antihypertensive"
+      "Week 16"
     ]
   },
   {
     "id": "5",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "Tolerance to most of the pharmacologic effects of opioids occurs, EXCEPT for:",
     "questionImage": null,
     "options": [
@@ -101,13 +101,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "6",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "One characteristic effect of all opioids is pupillary constriction, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -122,13 +122,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "7",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "Overdose in opioid analgesics is characterized by the following, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -143,13 +143,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "8",
     "subject": "Pharmacology",
-    "topic": "Antidiabetic",
+    "topic": "Week 31",
     "question": "Which antidiabetic drug works by inhibiting the enzyme that degrades GLP-1?",
     "questionImage": null,
     "options": [
@@ -164,13 +164,13 @@
       "images": []
     },
     "tags": [
-      "Antidiabetic"
+      "Week 31"
     ]
   },
   {
     "id": "9",
     "subject": "Pharmacology",
-    "topic": "NSAID",
+    "topic": "Week 6",
     "question": "A neonate was incidentally found to have a cardiac murmur characterized as continuous, machinery-like. Which drug can hasten closure of the patent ductus arteriosus?",
     "questionImage": null,
     "options": [
@@ -185,13 +185,13 @@
       "images": []
     },
     "tags": [
-      "NSAID"
+      "Week 6"
     ]
   },
   {
     "id": "10",
     "subject": "Pharmacology",
-    "topic": "SERM",
+    "topic": "Week 32",
     "question": "Which is considered a partial agonist at estrogen receptors and is commonly used to induce ovulation?",
     "questionImage": null,
     "options": [
@@ -206,13 +206,13 @@
       "images": []
     },
     "tags": [
-      "SERM"
+      "Week 32"
     ]
   },
   {
     "id": "11",
     "subject": "Pharmacology",
-    "topic": "Antidepressant",
+    "topic": "Week 25",
     "question": "Hypertensive crisis occurs when patients eat tyramine-rich foods while taking which medication?",
     "questionImage": null,
     "options": [
@@ -227,13 +227,13 @@
       "images": []
     },
     "tags": [
-      "Antidepressant"
+      "Week 25"
     ]
   },
   {
     "id": "12",
     "subject": "Pharmacology",
-    "topic": "Muscle Relaxant",
+    "topic": "Week 23",
     "question": "Which is considered a skeletal muscle relaxant?",
     "questionImage": null,
     "options": [
@@ -248,13 +248,13 @@
       "images": []
     },
     "tags": [
-      "Muscle Relaxant"
+      "Week 23"
     ]
   },
   {
     "id": "13",
     "subject": "Pharmacology",
-    "topic": "Antihistamine",
+    "topic": "Week 13",
     "question": "Which component of drugs used for common cold (e.g., Decolgen Forte) is responsible for causing sedation?",
     "questionImage": null,
     "options": [
@@ -269,13 +269,13 @@
       "images": []
     },
     "tags": [
-      "Antihistamine"
+      "Week 13"
     ]
   },
   {
     "id": "14",
     "subject": "Pharmacology",
-    "topic": "CYP Inhibitor",
+    "topic": "Week 2",
     "question": "Drug metabolism of some drugs may be decreased by which of the following?",
     "questionImage": null,
     "options": [
@@ -290,13 +290,13 @@
       "images": []
     },
     "tags": [
-      "CYP Inhibitor"
+      "Week 2"
     ]
   },
   {
     "id": "15",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "What is the antidote for heparin overdose?",
     "questionImage": null,
     "options": [
@@ -311,13 +311,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "16",
     "subject": "Pharmacology",
-    "topic": "Antihistamine",
+    "topic": "Week 13",
     "question": "The following are side effects of using 1st-generation antihistamine, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -332,13 +332,13 @@
       "images": []
     },
     "tags": [
-      "Antihistamine"
+      "Week 13"
     ]
   },
   {
     "id": "17",
     "subject": "Pharmacology",
-    "topic": "Muscle Relaxant",
+    "topic": "Week 23",
     "question": "Which treatment for muscle spasticity acts as a GABA agonist?",
     "questionImage": null,
     "options": [
@@ -353,13 +353,13 @@
       "images": []
     },
     "tags": [
-      "Muscle Relaxant"
+      "Week 23"
     ]
   },
   {
     "id": "18",
     "subject": "Pharmacology",
-    "topic": "Anticholinesterase",
+    "topic": "Week 23",
     "question": "Organophosphate poisoning presents with the following signs and symptoms, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -374,13 +374,13 @@
       "images": []
     },
     "tags": [
-      "Anticholinesterase"
+      "Week 23"
     ]
   },
   {
     "id": "19",
     "subject": "Pharmacology",
-    "topic": "Muscle Relaxant",
+    "topic": "Week 23",
     "question": "Baclofen is considered a:",
     "questionImage": null,
     "options": [
@@ -395,13 +395,13 @@
       "images": []
     },
     "tags": [
-      "Muscle Relaxant"
+      "Week 23"
     ]
   },
   {
     "id": "20",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "Which is used as part of the management of benzodiazepine overdose?",
     "questionImage": null,
     "options": [
@@ -416,13 +416,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "21",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "In a patient accidentally poisoned with parathion, which is the antidote of first choice?",
     "questionImage": null,
     "options": [
@@ -437,13 +437,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "22",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "In patients with organophosphate poisoning, which can regenerate cholinesterase?",
     "questionImage": null,
     "options": [
@@ -458,13 +458,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "23",
     "subject": "Pharmacology",
-    "topic": "Beta Agonist",
+    "topic": "Week 14",
     "question": "Isoproterenol is a:",
     "questionImage": null,
     "options": [
@@ -479,13 +479,13 @@
       "images": []
     },
     "tags": [
-      "Beta Agonist"
+      "Week 14"
     ]
   },
   {
     "id": "24",
     "subject": "Pharmacology",
-    "topic": "Antiarrhythmic",
+    "topic": "Week 16",
     "question": "Which Group 1 antiarrhythmic tends to shorten the action potential in some cardiac tissues?",
     "questionImage": null,
     "options": [
@@ -500,13 +500,13 @@
       "images": []
     },
     "tags": [
-      "Antiarrhythmic"
+      "Week 16"
     ]
   },
   {
     "id": "25",
     "subject": "Pharmacology",
-    "topic": "Diuretic",
+    "topic": "Week 17",
     "question": "Which can occur in patients being given thiazides for treatment of hypertension?",
     "questionImage": null,
     "options": [
@@ -521,13 +521,13 @@
       "images": []
     },
     "tags": [
-      "Diuretic"
+      "Week 17"
     ]
   },
   {
     "id": "26",
     "subject": "Pharmacology",
-    "topic": "Lipid-Lowering",
+    "topic": "Week 16",
     "question": "Which drug is used as treatment for hypertriglyceridemia?",
     "questionImage": null,
     "options": [
@@ -542,13 +542,13 @@
       "images": []
     },
     "tags": [
-      "Lipid-Lowering"
+      "Week 16"
     ]
   },
   {
     "id": "27",
     "subject": "Pharmacology",
-    "topic": "Diuretic",
+    "topic": "Week 17",
     "question": "Diabetes insipidus can occur in patients given any of the following drugs, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -563,13 +563,13 @@
       "images": []
     },
     "tags": [
-      "Diuretic"
+      "Week 17"
     ]
   },
   {
     "id": "28",
     "subject": "Pharmacology",
-    "topic": "Cholinergic Agonist",
+    "topic": "Week 23",
     "question": "The following drugs cause mydriasis, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -584,13 +584,13 @@
       "images": []
     },
     "tags": [
-      "Cholinergic Agonist"
+      "Week 23"
     ]
   },
   {
     "id": "29",
     "subject": "Pharmacology",
-    "topic": "Estrogen",
+    "topic": "Week 32",
     "question": "The use of ethinyl estradiol without progesterone can predispose to which of the following, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -605,13 +605,13 @@
       "images": []
     },
     "tags": [
-      "Estrogen"
+      "Week 32"
     ]
   },
   {
     "id": "30",
     "subject": "Pharmacology",
-    "topic": "Anesthetic",
+    "topic": "Week 25",
     "question": "Which intravenous anesthetic is used for anesthesia induction for short procedures and is characterized by having a fast onset and short duration?",
     "questionImage": null,
     "options": [
@@ -626,13 +626,13 @@
       "images": []
     },
     "tags": [
-      "Anesthetic"
+      "Week 25"
     ]
   },
   {
     "id": "31",
     "subject": "Pharmacology",
-    "topic": "Antiseizure",
+    "topic": "Week 24",
     "question": "Which antiseizure medication works by blocking voltage-gated sodium channels?",
     "questionImage": null,
     "options": [
@@ -647,13 +647,13 @@
       "images": []
     },
     "tags": [
-      "Antiseizure"
+      "Week 24"
     ]
   },
   {
     "id": "32",
     "subject": "Pharmacology",
-    "topic": "Antiseizure",
+    "topic": "Week 24",
     "question": "What is the preferred drug for absence seizure which works by blocking voltage-gated calcium channels?",
     "questionImage": null,
     "options": [
@@ -668,13 +668,13 @@
       "images": []
     },
     "tags": [
-      "Antiseizure"
+      "Week 24"
     ]
   },
   {
     "id": "33",
     "subject": "Pharmacology",
-    "topic": "Local Anesthetic",
+    "topic": "Week 25",
     "question": "All local anesthetics are vasodilators, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -689,13 +689,13 @@
       "images": []
     },
     "tags": [
-      "Local Anesthetic"
+      "Week 25"
     ]
   },
   {
     "id": "34",
     "subject": "Pharmacology",
-    "topic": "Local Anesthetic",
+    "topic": "Week 25",
     "question": "Which local anesthetic cannot be used in patients at risk for cardiac arrhythmias?",
     "questionImage": null,
     "options": [
@@ -710,13 +710,13 @@
       "images": []
     },
     "tags": [
-      "Local Anesthetic"
+      "Week 25"
     ]
   },
   {
     "id": "35",
     "subject": "Pharmacology",
-    "topic": "Local Anesthetic",
+    "topic": "Week 25",
     "question": "What local anesthetic can lead to development of methemoglobinemia?",
     "questionImage": null,
     "options": [
@@ -731,13 +731,13 @@
       "images": []
     },
     "tags": [
-      "Local Anesthetic"
+      "Week 25"
     ]
   },
   {
     "id": "36",
     "subject": "Pharmacology",
-    "topic": "Sympathomimetic",
+    "topic": "Week 23",
     "question": "Administration of phenylephrine can result to the following, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -752,13 +752,13 @@
       "images": []
     },
     "tags": [
-      "Sympathomimetic"
+      "Week 23"
     ]
   },
   {
     "id": "37",
     "subject": "Pharmacology",
-    "topic": "Corticosteroid",
+    "topic": "Week 14",
     "question": "What is the most important anti-inflammatory drug used in asthma treatment?",
     "questionImage": null,
     "options": [
@@ -773,13 +773,13 @@
       "images": []
     },
     "tags": [
-      "Corticosteroid"
+      "Week 14"
     ]
   },
   {
     "id": "38",
     "subject": "Pharmacology",
-    "topic": "Monoclonal Antibody",
+    "topic": "Week 8",
     "question": "Which asthma treatment functions as a monoclonal antibody to human IgE?",
     "questionImage": null,
     "options": [
@@ -794,13 +794,13 @@
       "images": []
     },
     "tags": [
-      "Monoclonal Antibody"
+      "Week 8"
     ]
   },
   {
     "id": "39",
     "subject": "Pharmacology",
-    "topic": "Anticholinergic",
+    "topic": "Week 14",
     "question": "What drug used in asthma works by blocking muscarinic M3 receptors in the airways to prevent bronchoconstriction?",
     "questionImage": null,
     "options": [
@@ -815,13 +815,13 @@
       "images": []
     },
     "tags": [
-      "Anticholinergic"
+      "Week 14"
     ]
   },
   {
     "id": "40",
     "subject": "Pharmacology",
-    "topic": "Methylxanthine",
+    "topic": "Week 14",
     "question": "Overdose of methylxanthines, such as theophylline used in treatment of asthma, may lead to:",
     "questionImage": null,
     "options": [
@@ -836,13 +836,13 @@
       "images": []
     },
     "tags": [
-      "Methylxanthine"
+      "Week 14"
     ]
   },
   {
     "id": "41",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Azithromycin can be given to patients with community-acquired pneumonia using once-daily dosing due to its:",
     "questionImage": null,
     "options": [
@@ -857,13 +857,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "42",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "The following macrolides inhibit cytochrome P450 enzymes which lead to increased serum levels of various drugs (such as warfarin), EXCEPT?",
     "questionImage": null,
     "options": [
@@ -878,13 +878,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "43",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "What drug is used as primary prophylaxis against Mycobacterium avium complex (MAC) in AIDS patients with CD4 counts < 50/μL?",
     "questionImage": null,
     "options": [
@@ -899,13 +899,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "44",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "What is the drug of choice for treatment of syphilis?",
     "questionImage": null,
     "options": [
@@ -920,13 +920,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "45",
     "subject": "Pharmacology",
-    "topic": "Parkinson's",
+    "topic": "Week 24",
     "question": "The plasma half-life of levodopa is prolonged with the administration of:",
     "questionImage": null,
     "options": [
@@ -941,13 +941,13 @@
       "images": []
     },
     "tags": [
-      "Parkinson's"
+      "Week 24"
     ]
   },
   {
     "id": "46",
     "subject": "Pharmacology",
-    "topic": "Parkinson's",
+    "topic": "Week 24",
     "question": "What drug used in Parkinson disease acts by inhibiting the enzyme that converts levodopa to 3-O-methyldopa?",
     "questionImage": null,
     "options": [
@@ -962,13 +962,13 @@
       "images": []
     },
     "tags": [
-      "Parkinson's"
+      "Week 24"
     ]
   },
   {
     "id": "47",
     "subject": "Pharmacology",
-    "topic": "Antipsychotic",
+    "topic": "Week 25",
     "question": "Hyperprolactinemia is a side effect of which of the following drugs?",
     "questionImage": null,
     "options": [
@@ -983,13 +983,13 @@
       "images": []
     },
     "tags": [
-      "Antipsychotic"
+      "Week 25"
     ]
   },
   {
     "id": "48",
     "subject": "Pharmacology",
-    "topic": "Alpha Blocker",
+    "topic": "Week 16",
     "question": "Which is used in benign prostatic hyperplasia and acts to reduce prostatic smooth muscle tone?",
     "questionImage": null,
     "options": [
@@ -1004,13 +1004,13 @@
       "images": []
     },
     "tags": [
-      "Alpha Blocker"
+      "Week 16"
     ]
   },
   {
     "id": "49",
     "subject": "Pharmacology",
-    "topic": "Inotrope",
+    "topic": "Week 11",
     "question": "What drug used in acute decompensated heart failure increases myocardial contractility by increasing cAMP through inhibition of PDE-3?",
     "questionImage": null,
     "options": [
@@ -1025,13 +1025,13 @@
       "images": []
     },
     "tags": [
-      "Inotrope"
+      "Week 11"
     ]
   },
   {
     "id": "50",
     "subject": "Pharmacology",
-    "topic": "Antiplatelet",
+    "topic": "Week 11",
     "question": "Which drug inhibits platelet aggregation by increasing levels of platelet cAMP?",
     "questionImage": null,
     "options": [
@@ -1046,13 +1046,13 @@
       "images": []
     },
     "tags": [
-      "Antiplatelet"
+      "Week 11"
     ]
   },
   {
     "id": "51",
     "subject": "Pharmacology",
-    "topic": "Antiplatelet",
+    "topic": "Week 11",
     "question": "What drug can be used in the treatment of peripheral arterial disease (PAD)?",
     "questionImage": null,
     "options": [
@@ -1067,13 +1067,13 @@
       "images": []
     },
     "tags": [
-      "Antiplatelet"
+      "Week 11"
     ]
   },
   {
     "id": "52",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which of the following is NOT a characteristic of Aztreonam?",
     "questionImage": null,
     "options": [
@@ -1088,13 +1088,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "53",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Rapid infusion of vancomycin may lead to:",
     "questionImage": null,
     "options": [
@@ -1109,13 +1109,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "54",
     "subject": "Pharmacology",
-    "topic": "Osteoporosis",
+    "topic": "Week 32",
     "question": "Which drug that affects bone mineral metabolism can be administered subcutaneously?",
     "questionImage": null,
     "options": [
@@ -1130,13 +1130,13 @@
       "images": []
     },
     "tags": [
-      "Osteoporosis"
+      "Week 32"
     ]
   },
   {
     "id": "55",
     "subject": "Pharmacology",
-    "topic": "Monoclonal Antibody",
+    "topic": "Week 8",
     "question": "Which drug used in severe plaque psoriasis is a human IgG1 monoclonal antibody that prevents the binding of IL-17A to IL-17A receptor?",
     "questionImage": null,
     "options": [
@@ -1151,13 +1151,13 @@
       "images": []
     },
     "tags": [
-      "Monoclonal Antibody"
+      "Week 8"
     ]
   },
   {
     "id": "56",
     "subject": "Pharmacology",
-    "topic": "Diuretic",
+    "topic": "Week 17",
     "question": "A patient with sulfa allergy should avoid thiazides, furosemide, sulfonylureas, but which diuretic is safe?",
     "questionImage": null,
     "options": [
@@ -1172,13 +1172,13 @@
       "images": []
     },
     "tags": [
-      "Diuretic"
+      "Week 17"
     ]
   },
   {
     "id": "57",
     "subject": "Pharmacology",
-    "topic": "GnRH Agonist",
+    "topic": "Week 7",
     "question": "Continuous administration of GnRH agonists is used in patients with advanced prostate cancer. Which is a GnRH agonist?",
     "questionImage": null,
     "options": [
@@ -1193,13 +1193,13 @@
       "images": []
     },
     "tags": [
-      "GnRH Agonist"
+      "Week 7"
     ]
   },
   {
     "id": "58",
     "subject": "Pharmacology",
-    "topic": "GnRH Agonist",
+    "topic": "Week 7",
     "question": "Continuous administration of GnRH agonists can result in the following adverse effects, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -1214,13 +1214,13 @@
       "images": []
     },
     "tags": [
-      "GnRH Agonist"
+      "Week 7"
     ]
   },
   {
     "id": "59",
     "subject": "Pharmacology",
-    "topic": "Antithyroid",
+    "topic": "Week 32",
     "question": "Methimazole use during pregnancy is associated with which teratogenic effect?",
     "questionImage": null,
     "options": [
@@ -1235,13 +1235,13 @@
       "images": []
     },
     "tags": [
-      "Antithyroid"
+      "Week 32"
     ]
   },
   {
     "id": "60",
     "subject": "Pharmacology",
-    "topic": "Vasopressin Analog",
+    "topic": "Week 30",
     "question": "What drug can be used in von Willebrand disease to release vWF from endothelium stores?",
     "questionImage": null,
     "options": [
@@ -1256,13 +1256,13 @@
       "images": []
     },
     "tags": [
-      "Vasopressin Analog"
+      "Week 30"
     ]
   },
   {
     "id": "61",
     "subject": "Pharmacology",
-    "topic": "Prostaglandin Analog",
+    "topic": "Week 26",
     "question": "Misoprostol is sometimes used in patients at risk of developing ulcers such as those taking NSAIDs. It acts by:",
     "questionImage": null,
     "options": [
@@ -1277,13 +1277,13 @@
       "images": []
     },
     "tags": [
-      "Prostaglandin Analog"
+      "Week 26"
     ]
   },
   {
     "id": "62",
     "subject": "Pharmacology",
-    "topic": "Osteoporosis",
+    "topic": "Week 32",
     "question": "Which drug used in patients with osteoporosis increases osteoblastic activity by acting as PTH analog?",
     "questionImage": null,
     "options": [
@@ -1298,13 +1298,13 @@
       "images": []
     },
     "tags": [
-      "Osteoporosis"
+      "Week 32"
     ]
   },
   {
     "id": "63",
     "subject": "Pharmacology",
-    "topic": "Antifungal",
+    "topic": "Week 5",
     "question": "Amphotericin B acts as an antifungal by creating artificial pores in the fungal cell membrane by binding to:",
     "questionImage": null,
     "options": [
@@ -1319,13 +1319,13 @@
       "images": []
     },
     "tags": [
-      "Antifungal"
+      "Week 5"
     ]
   },
   {
     "id": "64",
     "subject": "Pharmacology",
-    "topic": "Antifungal",
+    "topic": "Week 5",
     "question": "What drug used in dermatophytes acts by interfering with microtubule function?",
     "questionImage": null,
     "options": [
@@ -1340,13 +1340,13 @@
       "images": []
     },
     "tags": [
-      "Antifungal"
+      "Week 5"
     ]
   },
   {
     "id": "65",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which carbapenem is not active against Pseudomonas?",
     "questionImage": null,
     "options": [
@@ -1361,13 +1361,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "66",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "What is the suggested treatment for gonorrhea?",
     "questionImage": null,
     "options": [
@@ -1382,13 +1382,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "67",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which antibiotic can cause tendon rupture in patients >60 years old?",
     "questionImage": null,
     "options": [
@@ -1403,13 +1403,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "68",
     "subject": "Pharmacology",
-    "topic": "Antidepressant",
+    "topic": "Week 25",
     "question": "Overdose of which drug can manifest with prolonged QT, convulsions, and coma?",
     "questionImage": null,
     "options": [
@@ -1424,13 +1424,13 @@
       "images": []
     },
     "tags": [
-      "Antidepressant"
+      "Week 25"
     ]
   },
   {
     "id": "69",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "What is considered as the single most important drug used in TB?",
     "questionImage": null,
     "options": [
@@ -1445,13 +1445,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "70",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which anti-TB drug can increase the rate of elimination of certain drugs such as contraceptives?",
     "questionImage": null,
     "options": [
@@ -1466,13 +1466,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "71",
     "subject": "Pharmacology",
-    "topic": "Cardiac Glycoside",
+    "topic": "Week 11",
     "question": "What drug used in heart failure increases cardiac contractility by inhibiting the Na+/K+ ATPase pump?",
     "questionImage": null,
     "options": [
@@ -1487,13 +1487,13 @@
       "images": []
     },
     "tags": [
-      "Cardiac Glycoside"
+      "Week 11"
     ]
   },
   {
     "id": "72",
     "subject": "Pharmacology",
-    "topic": "Beta Blocker",
+    "topic": "Week 16",
     "question": "Which of the following conditions can be exacerbated by the administration of metoprolol?",
     "questionImage": null,
     "options": [
@@ -1508,13 +1508,13 @@
       "images": []
     },
     "tags": [
-      "Beta Blocker"
+      "Week 16"
     ]
   },
   {
     "id": "73",
     "subject": "Pharmacology",
-    "topic": "Anticholinergic",
+    "topic": "Week 14",
     "question": "Administration of typical antipsychotics can precipitate an episode of acute dystonia. Which can be given to treat this condition?",
     "questionImage": null,
     "options": [
@@ -1529,13 +1529,13 @@
       "images": []
     },
     "tags": [
-      "Anticholinergic"
+      "Week 14"
     ]
   },
   {
     "id": "74",
     "subject": "Pharmacology",
-    "topic": "Chemotherapy",
+    "topic": "Week 7",
     "question": "What can be administered to reduce the incidence of hemorrhagic cystitis in patients being given cyclophosphamide?",
     "questionImage": null,
     "options": [
@@ -1550,13 +1550,13 @@
       "images": []
     },
     "tags": [
-      "Chemotherapy"
+      "Week 7"
     ]
   },
   {
     "id": "75",
     "subject": "Pharmacology",
-    "topic": "Chemotherapy",
+    "topic": "Week 7",
     "question": "Which rescue therapy can be given to patients receiving anthracyclines to reduce the chance of developing cardiotoxicity?",
     "questionImage": null,
     "options": [
@@ -1571,13 +1571,13 @@
       "images": []
     },
     "tags": [
-      "Chemotherapy"
+      "Week 7"
     ]
   },
   {
     "id": "76",
     "subject": "Pharmacology",
-    "topic": "Anti-ischemic",
+    "topic": "Week 16",
     "question": "Which anti-ischemic drug acts as a partial fatty acid oxidation inhibitor?",
     "questionImage": null,
     "options": [
@@ -1592,13 +1592,13 @@
       "images": []
     },
     "tags": [
-      "Anti-ischemic"
+      "Week 16"
     ]
   },
   {
     "id": "77",
     "subject": "Pharmacology",
-    "topic": "PDE5 Inhibitor",
+    "topic": "Week 29",
     "question": "Which is contraindicated when taking nitroglycerin?",
     "questionImage": null,
     "options": [
@@ -1613,13 +1613,13 @@
       "images": []
     },
     "tags": [
-      "PDE5 Inhibitor"
+      "Week 29"
     ]
   },
   {
     "id": "78",
     "subject": "Pharmacology",
-    "topic": "Antitussive",
+    "topic": "Week 15",
     "question": "Which antitussive acts as a weak μ receptor agonist?",
     "questionImage": null,
     "options": [
@@ -1634,13 +1634,13 @@
       "images": []
     },
     "tags": [
-      "Antitussive"
+      "Week 15"
     ]
   },
   {
     "id": "79",
     "subject": "Pharmacology",
-    "topic": "Anesthetic",
+    "topic": "Week 25",
     "question": "Propofol is NOT associated with which of the following?",
     "questionImage": null,
     "options": [
@@ -1655,13 +1655,13 @@
       "images": []
     },
     "tags": [
-      "Anesthetic"
+      "Week 25"
     ]
   },
   {
     "id": "80",
     "subject": "Pharmacology",
-    "topic": "Anticholinergic",
+    "topic": "Week 14",
     "question": "Which antimuscarinic drug is used in Parkinson disease to improve rigidity and tremors but has minimal effect on bradykinesia?",
     "questionImage": null,
     "options": [
@@ -1676,13 +1676,13 @@
       "images": []
     },
     "tags": [
-      "Anticholinergic"
+      "Week 14"
     ]
   },
   {
     "id": "81",
     "subject": "Pharmacology",
-    "topic": "Serotonin Syndrome",
+    "topic": "Week 25",
     "question": "A patient taking fluoxetine suddenly develops neuromuscular hyperexcitability, autonomic instability, and agitation. What drug most likely precipitated serotonin syndrome?",
     "questionImage": null,
     "options": [
@@ -1697,13 +1697,13 @@
       "images": []
     },
     "tags": [
-      "Serotonin Syndrome"
+      "Week 25"
     ]
   },
   {
     "id": "82",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "Which of the following is NOT a characteristic of Tramadol?",
     "questionImage": null,
     "options": [
@@ -1718,13 +1718,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "83",
     "subject": "Pharmacology",
-    "topic": "Reye Syndrome",
+    "topic": "Week 6",
     "question": "A child with chickenpox given aspirin develops hepatic encephalopathy, vomiting, and hypoglycemia. What is the most likely diagnosis?",
     "questionImage": null,
     "options": [
@@ -1739,13 +1739,13 @@
       "images": []
     },
     "tags": [
-      "Reye Syndrome"
+      "Week 6"
     ]
   },
   {
     "id": "84",
     "subject": "Pharmacology",
-    "topic": "Reye Syndrome",
+    "topic": "Week 6",
     "question": "What is the most likely cause of Reye syndrome?",
     "questionImage": null,
     "options": [
@@ -1760,13 +1760,13 @@
       "images": []
     },
     "tags": [
-      "Reye Syndrome"
+      "Week 6"
     ]
   },
   {
     "id": "85",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Ceftaroline, a 5th generation cephalosporin, has no coverage against?",
     "questionImage": null,
     "options": [
@@ -1781,13 +1781,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "86",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which carbapenem should always be administered with cilastatin?",
     "questionImage": null,
     "options": [
@@ -1802,13 +1802,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "87",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which drug can kill more bacteria as its plasma level increases above its minimal inhibitory concentration (MIC)?",
     "questionImage": null,
     "options": [
@@ -1823,13 +1823,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "88",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which antibiotic functions by binding to the 30S ribosomal subunit?",
     "questionImage": null,
     "options": [
@@ -1844,13 +1844,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "89",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "What is the drug of first choice in prophylaxis against Pneumocystis jirovecii in patients with AIDS?",
     "questionImage": null,
     "options": [
@@ -1865,13 +1865,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "90",
     "subject": "Pharmacology",
-    "topic": "CYP Inducer",
+    "topic": "Week 2",
     "question": "Which of the following is a CYP450 inducer?",
     "questionImage": null,
     "options": [
@@ -1886,13 +1886,13 @@
       "images": []
     },
     "tags": [
-      "CYP Inducer"
+      "Week 2"
     ]
   },
   {
     "id": "91",
     "subject": "Pharmacology",
-    "topic": "CYP Inhibitor",
+    "topic": "Week 2",
     "question": "Which of the following is a CYP450 inhibitor?",
     "questionImage": null,
     "options": [
@@ -1907,13 +1907,13 @@
       "images": []
     },
     "tags": [
-      "CYP Inhibitor"
+      "Week 2"
     ]
   },
   {
     "id": "92",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which antibiotic is associated with red man syndrome?",
     "questionImage": null,
     "options": [
@@ -1928,13 +1928,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "93",
     "subject": "Pharmacology",
-    "topic": "Cardiac Glycoside",
+    "topic": "Week 11",
     "question": "Which drug used in heart failure acts by blocking the Na+/K+ ATPase pump?",
     "questionImage": null,
     "options": [
@@ -1949,13 +1949,13 @@
       "images": []
     },
     "tags": [
-      "Cardiac Glycoside"
+      "Week 11"
     ]
   },
   {
     "id": "94",
     "subject": "Pharmacology",
-    "topic": "Antidiabetic",
+    "topic": "Week 31",
     "question": "Which drug is a DPP-4 inhibitor used in type 2 diabetes?",
     "questionImage": null,
     "options": [
@@ -1970,13 +1970,13 @@
       "images": []
     },
     "tags": [
-      "Antidiabetic"
+      "Week 31"
     ]
   },
   {
     "id": "95",
     "subject": "Pharmacology",
-    "topic": "Antihypertensive",
+    "topic": "Week 16",
     "question": "Which antihypertensive is a direct renin inhibitor?",
     "questionImage": null,
     "options": [
@@ -1991,13 +1991,13 @@
       "images": []
     },
     "tags": [
-      "Antihypertensive"
+      "Week 16"
     ]
   },
   {
     "id": "96",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which antibiotic inhibits cell wall synthesis by binding to penicillin-binding proteins?",
     "questionImage": null,
     "options": [
@@ -2012,13 +2012,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "97",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "Which drug is used in opioid overdose to reverse respiratory depression?",
     "questionImage": null,
     "options": [
@@ -2033,13 +2033,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "98",
     "subject": "Pharmacology",
-    "topic": "PPI",
+    "topic": "Week 20",
     "question": "Which drug is a proton pump inhibitor used for GERD?",
     "questionImage": null,
     "options": [
@@ -2054,13 +2054,13 @@
       "images": []
     },
     "tags": [
-      "PPI"
+      "Week 20"
     ]
   },
   {
     "id": "99",
     "subject": "Pharmacology",
-    "topic": "SERM",
+    "topic": "Week 32",
     "question": "Which drug is a selective estrogen receptor modulator used for breast cancer prevention?",
     "questionImage": null,
     "options": [
@@ -2075,13 +2075,13 @@
       "images": []
     },
     "tags": [
-      "SERM"
+      "Week 32"
     ]
   },
   {
     "id": "100",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which antibiotic is a 5th generation cephalosporin with MRSA coverage?",
     "questionImage": null,
     "options": [
@@ -2096,13 +2096,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "101",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Select the antibiotic regimen NOT approved by the Center for Disease Control in the management of pelvic inflammatory disease:",
     "questionImage": null,
     "options": [
@@ -2117,13 +2117,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "102",
     "subject": "Pharmacology",
-    "topic": "Beta Agonist",
+    "topic": "Week 14",
     "question": "Which of the following autonomic nervous system receptors should be targeted and stimulated to control the preterm labor of a pregnant woman?",
     "questionImage": null,
     "options": [
@@ -2138,13 +2138,13 @@
       "images": []
     },
     "tags": [
-      "Beta Agonist"
+      "Week 14"
     ]
   },
   {
     "id": "103",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Junjun is diagnosed with multiple sexually transmitted diseases namely: syphilis, gonorrhea and chlamydia. Select the antibiotic that can cure all three infections:",
     "questionImage": null,
     "options": [
@@ -2159,13 +2159,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "104",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Identify the penicillinase-resistant antibiotic:",
     "questionImage": null,
     "options": [
@@ -2180,13 +2180,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "105",
     "subject": "Pharmacology",
-    "topic": "Prostaglandin Analog",
+    "topic": "Week 26",
     "question": "Select among the following drugs used in gastritis is categorized as pregnancy category X:",
     "questionImage": null,
     "options": [
@@ -2201,13 +2201,13 @@
       "images": []
     },
     "tags": [
-      "Prostaglandin Analog"
+      "Week 26"
     ]
   },
   {
     "id": "106",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Joel, 23 years old, developed blisters that transformed into open genital sores. The following results can be achieved by giving Joel oral acyclovir:",
     "questionImage": null,
     "options": [
@@ -2222,13 +2222,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "107",
     "subject": "Pharmacology",
-    "topic": "Anticholinergic",
+    "topic": "Week 14",
     "question": "Jojo is suffering from acute urinary retention. The doctor can prescribe the following medications, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -2243,13 +2243,13 @@
       "images": []
     },
     "tags": [
-      "Anticholinergic"
+      "Week 14"
     ]
   },
   {
     "id": "108",
     "subject": "Pharmacology",
-    "topic": "Corticosteroid",
+    "topic": "Week 14",
     "question": "Aling Julia has been taking prednisone for her allergy for the last 2 years without consulting a doctor. As a doctor you should warn her regarding the following ill effects of chronic use of this drug, except:",
     "questionImage": null,
     "options": [
@@ -2264,13 +2264,13 @@
       "images": []
     },
     "tags": [
-      "Corticosteroid"
+      "Week 14"
     ]
   },
   {
     "id": "109",
     "subject": "Pharmacology",
-    "topic": "ACE Inhibitor",
+    "topic": "Week 16",
     "question": "Julius has been taking Captopril for the last year for hypertension. As an adverse effect of this drug, he has been complaining of:",
     "questionImage": null,
     "options": [
@@ -2285,13 +2285,13 @@
       "images": []
     },
     "tags": [
-      "ACE Inhibitor"
+      "Week 16"
     ]
   },
   {
     "id": "110",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Sulfamethoxazole may cause precipitation of crystals in the collecting tubules of the kidneys. This crystallization predisposed in:",
     "questionImage": null,
     "options": [
@@ -2306,13 +2306,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "111",
     "subject": "Pharmacology",
-    "topic": "Beta Agonist",
+    "topic": "Week 14",
     "question": "Fast acting drug used in the management of bronchial asthma is:",
     "questionImage": null,
     "options": [
@@ -2327,13 +2327,13 @@
       "images": []
     },
     "tags": [
-      "Beta Agonist"
+      "Week 14"
     ]
   },
   {
     "id": "112",
     "subject": "Pharmacology",
-    "topic": "NSAID",
+    "topic": "Week 6",
     "question": "Rofecoxib has been removed from the market due to increased risk of myocardial infarction. This can be a result of:",
     "questionImage": null,
     "options": [
@@ -2348,13 +2348,13 @@
       "images": []
     },
     "tags": [
-      "NSAID"
+      "Week 6"
     ]
   },
   {
     "id": "113",
     "subject": "Pharmacology",
-    "topic": "Cholinesterase Inhibitor",
+    "topic": "Week 23",
     "question": "Select the drug that can inhibit the metabolism of acetylcholine:",
     "questionImage": null,
     "options": [
@@ -2369,13 +2369,13 @@
       "images": []
     },
     "tags": [
-      "Cholinesterase Inhibitor"
+      "Week 23"
     ]
   },
   {
     "id": "114",
     "subject": "Pharmacology",
-    "topic": "Botulinum Toxin",
+    "topic": "Week 23",
     "question": "Botulinum (Botox) is being used in dermatology to reduce wrinkles. This is achieved by blocking the interaction between:",
     "questionImage": null,
     "options": [
@@ -2390,13 +2390,13 @@
       "images": []
     },
     "tags": [
-      "Botulinum Toxin"
+      "Week 23"
     ]
   },
   {
     "id": "115",
     "subject": "Pharmacology",
-    "topic": "Antiplatelet",
+    "topic": "Week 11",
     "question": "Select the anti-platelet drug that works by inhibiting glycoprotein IIb/IIIa:",
     "questionImage": null,
     "options": [
@@ -2411,13 +2411,13 @@
       "images": []
     },
     "tags": [
-      "Antiplatelet"
+      "Week 11"
     ]
   },
   {
     "id": "116",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "The patient was complaining of extreme knee pain associated with erythema, swelling of the knee. Your diagnosis is septic arthritis. Gram stain of the synovial fluid secured through arthrocentesis revealed gram positive cocci. The empiric treatment should be:",
     "questionImage": null,
     "options": [
@@ -2432,13 +2432,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "117",
     "subject": "Pharmacology",
-    "topic": "Cardiac Glycoside",
+    "topic": "Week 11",
     "question": "Which electrolyte disturbance is seen in prolonged digoxin therapy or digoxin overdose?",
     "questionImage": null,
     "options": [
@@ -2453,13 +2453,13 @@
       "images": []
     },
     "tags": [
-      "Cardiac Glycoside"
+      "Week 11"
     ]
   },
   {
     "id": "118",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "A patient was given a high dose of Physostigmine and is manifesting toxicity. Identify the antidote:",
     "questionImage": null,
     "options": [
@@ -2474,13 +2474,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "119",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which of the following conditions is resistant to Sulfamethoxazole/Trimethoprim combination?",
     "questionImage": null,
     "options": [
@@ -2495,13 +2495,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "120",
     "subject": "Pharmacology",
-    "topic": "Cardiac Glycoside",
+    "topic": "Week 11",
     "question": "Juan has been diagnosed with rheumatic heart disease. ECG of Juan revealed atrial fibrillation. The consultant started Juan on Digoxin. Select the rationale for such medication.",
     "questionImage": null,
     "options": [
@@ -2516,13 +2516,13 @@
       "images": []
     },
     "tags": [
-      "Cardiac Glycoside"
+      "Week 11"
     ]
   },
   {
     "id": "121",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "First line drug of treatment of typhoid fever is ____________.",
     "questionImage": null,
     "options": [
@@ -2537,13 +2537,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "122",
     "subject": "Pharmacology",
-    "topic": "GnRH Agonist",
+    "topic": "Week 7",
     "question": "Emong, 72 year old has been receiving Leuprolide for 1 year for prostate cancer. Which is the most common complication associated with long term use of Leuprolide?",
     "questionImage": null,
     "options": [
@@ -2558,13 +2558,13 @@
       "images": []
     },
     "tags": [
-      "GnRH Agonist"
+      "Week 7"
     ]
   },
   {
     "id": "123",
     "subject": "Pharmacology",
-    "topic": "STD",
+    "topic": "Week 4",
     "question": "Transmission of Trichomoniasis can be prevented by the following methods, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -2579,13 +2579,13 @@
       "images": []
     },
     "tags": [
-      "STD"
+      "Week 4"
     ]
   },
   {
     "id": "124",
     "subject": "Pharmacology",
-    "topic": "Benzodiazepine",
+    "topic": "Week 24",
     "question": "Select the benzodiazepine that is short acting with half life of 1-12 hours.",
     "questionImage": null,
     "options": [
@@ -2600,13 +2600,13 @@
       "images": []
     },
     "tags": [
-      "Benzodiazepine"
+      "Week 24"
     ]
   },
   {
     "id": "125",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "A patient was rushed to the ER for overdose of Diazepam. Identify the antidote:",
     "questionImage": null,
     "options": [
@@ -2621,13 +2621,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "126",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Culture studies showed Klebsiella spp. Select the drug that will NOT be effective for the patient:",
     "questionImage": null,
     "options": [
@@ -2642,13 +2642,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "127",
     "subject": "Pharmacology",
-    "topic": "Anesthesia",
+    "topic": "Week 25",
     "question": "Which of the following is an effect notable with the use of general anesthesia?",
     "questionImage": null,
     "options": [
@@ -2663,13 +2663,13 @@
       "images": []
     },
     "tags": [
-      "Anesthesia"
+      "Week 25"
     ]
   },
   {
     "id": "128",
     "subject": "Pharmacology",
-    "topic": "Sympathomimetic",
+    "topic": "Week 23",
     "question": "Structure activity relationship is important in the physical and drug effect of sympathetic drugs. Catecholamines are usually degraded by enzymes Catechol-O-methyl transferase (COMT) and Monoamine oxidase inhibitors (MAO-I) making them orally non-bioavailable. Which modification can improve oral bioavailability?",
     "questionImage": null,
     "options": [
@@ -2684,13 +2684,13 @@
       "images": []
     },
     "tags": [
-      "Sympathomimetic"
+      "Week 23"
     ]
   },
   {
     "id": "129",
     "subject": "Pharmacology",
-    "topic": "Cardiac Glycoside",
+    "topic": "Week 11",
     "question": "Which of the following drugs or conditions does NOT result in increased toxicity when occurring with or concomitantly given during digoxin administration?",
     "questionImage": null,
     "options": [
@@ -2705,13 +2705,13 @@
       "images": []
     },
     "tags": [
-      "Cardiac Glycoside"
+      "Week 11"
     ]
   },
   {
     "id": "130",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "In addition to the effect of tramadol on pain by affecting opioid receptors, it also affects the following neurotransmitters, EXCEPT___:",
     "questionImage": null,
     "options": [
@@ -2726,13 +2726,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "131",
     "subject": "Pharmacology",
-    "topic": "Diuretic",
+    "topic": "Week 17",
     "question": "Side effect associated with thiazide diuretics are the following, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -2747,13 +2747,13 @@
       "images": []
     },
     "tags": [
-      "Diuretic"
+      "Week 17"
     ]
   },
   {
     "id": "132",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Gigi, 30 years old, with acute pyelonephritis. Which of the following intravenous drugs is inappropriate?",
     "questionImage": null,
     "options": [
@@ -2768,13 +2768,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "133",
     "subject": "Pharmacology",
-    "topic": "Cardiac Glycoside",
+    "topic": "Week 11",
     "question": "The following drugs can increase the serum level of Digoxin:",
     "questionImage": null,
     "options": [
@@ -2789,13 +2789,13 @@
       "images": []
     },
     "tags": [
-      "Cardiac Glycoside"
+      "Week 11"
     ]
   },
   {
     "id": "134",
     "subject": "Pharmacology",
-    "topic": "NMDA Antagonist",
+    "topic": "Week 24",
     "question": "As a N-methyl-D-aspartate (NMDA) receptor blocker, which of the following drugs is used in the treatment of dementia?",
     "questionImage": null,
     "options": [
@@ -2810,13 +2810,13 @@
       "images": []
     },
     "tags": [
-      "NMDA Antagonist"
+      "Week 24"
     ]
   },
   {
     "id": "135",
     "subject": "Pharmacology",
-    "topic": "Mucolytic",
+    "topic": "Week 15",
     "question": "Which drug facilitates the body's mechanism for clearing mucus from the respiratory tract? It increases the production of serous mucus in the respiratory tract making phlegm thinner and less viscous:",
     "questionImage": null,
     "options": [
@@ -2831,13 +2831,13 @@
       "images": []
     },
     "tags": [
-      "Mucolytic"
+      "Week 15"
     ]
   },
   {
     "id": "136",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "Tramadol exerts its effect on pain by reacting with:",
     "questionImage": null,
     "options": [
@@ -2852,13 +2852,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "137",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Cefpirome is superior to Ceftazidime because it has activity against:",
     "questionImage": null,
     "options": [
@@ -2873,13 +2873,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "138",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Select the drug of choice for Cholera:",
     "questionImage": null,
     "options": [
@@ -2894,13 +2894,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "139",
     "subject": "Pharmacology",
-    "topic": "Cardiovascular",
+    "topic": "Week 16",
     "question": "Mario was rushed to the emergency room for severe crushing chest pain. ECG showed ST wave elevation. The following medications should be given to Mario, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -2915,13 +2915,13 @@
       "images": []
     },
     "tags": [
-      "Cardiovascular"
+      "Week 16"
     ]
   },
   {
     "id": "140",
     "subject": "Pharmacology",
-    "topic": "Osteoporosis",
+    "topic": "Week 32",
     "question": "Select the drug for the treatment of osteoporosis that is chemically similar to parathyroid hormone:",
     "questionImage": null,
     "options": [
@@ -2936,13 +2936,13 @@
       "images": []
     },
     "tags": [
-      "Osteoporosis"
+      "Week 32"
     ]
   },
   {
     "id": "141",
     "subject": "Pharmacology",
-    "topic": "Gastrointestinal",
+    "topic": "Week 20",
     "question": "The following statements about Sucralfate are true, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -2957,13 +2957,13 @@
       "images": []
     },
     "tags": [
-      "Gastrointestinal"
+      "Week 20"
     ]
   },
   {
     "id": "142",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Maricel is suffering from pelvic inflammatory disease complicated by Chlamydia trachomatis. Which of the following drugs is effective for this organism?",
     "questionImage": null,
     "options": [
@@ -2978,13 +2978,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "143",
     "subject": "Pharmacology",
-    "topic": "Vaccine",
+    "topic": "Week 8",
     "question": "Which of the following vaccine products when given to human is the closest to a natural infection?",
     "questionImage": null,
     "options": [
@@ -2999,13 +2999,13 @@
       "images": []
     },
     "tags": [
-      "Vaccine"
+      "Week 8"
     ]
   },
   {
     "id": "144",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "The nephrotoxicity associated with the use of aminoglycosides is increased in the presence of the following conditions, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -3020,13 +3020,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "145",
     "subject": "Pharmacology",
-    "topic": "Inotrope",
+    "topic": "Week 11",
     "question": "Which of the following is NOT an effect associated with Milrinone?",
     "questionImage": null,
     "options": [
@@ -3041,13 +3041,13 @@
       "images": []
     },
     "tags": [
-      "Inotrope"
+      "Week 11"
     ]
   },
   {
     "id": "146",
     "subject": "Pharmacology",
-    "topic": "Biologic",
+    "topic": "Week 7",
     "question": "Select the biologic agent used in the treatment of ulcerative colitis:",
     "questionImage": null,
     "options": [
@@ -3062,13 +3062,13 @@
       "images": []
     },
     "tags": [
-      "Biologic"
+      "Week 7"
     ]
   },
   {
     "id": "147",
     "subject": "Pharmacology",
-    "topic": "Fertility",
+    "topic": "Week 32",
     "question": "In the final maturation induction during fertility treatment and in the presence of mature ovarian follicles, ovulation can be triggered by the administration of ____.",
     "questionImage": null,
     "options": [
@@ -3083,13 +3083,13 @@
       "images": []
     },
     "tags": [
-      "Fertility"
+      "Week 32"
     ]
   },
   {
     "id": "148",
     "subject": "Pharmacology",
-    "topic": "Alpha Blocker",
+    "topic": "Week 16",
     "question": "Identify the drug that can antagonize epinephrine at alpha adrenergic receptors:",
     "questionImage": null,
     "options": [
@@ -3104,13 +3104,13 @@
       "images": []
     },
     "tags": [
-      "Alpha Blocker"
+      "Week 16"
     ]
   },
   {
     "id": "149",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Select the INCORRECT statement regarding beta lactamase inhibitors:",
     "questionImage": null,
     "options": [
@@ -3125,13 +3125,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "150",
     "subject": "Pharmacology",
-    "topic": "Fertility",
+    "topic": "Week 32",
     "question": "Controlled ovarian hyperstimulation is achieved using the following drugs, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -3146,13 +3146,13 @@
       "images": []
     },
     "tags": [
-      "Fertility"
+      "Week 32"
     ]
   },
   {
     "id": "151",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "The psychomimetic effect of morphine is associated with reaction of morphine with:",
     "questionImage": null,
     "options": [
@@ -3167,13 +3167,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "152",
     "subject": "Pharmacology",
-    "topic": "Antidote",
+    "topic": "Week 33",
     "question": "The overdose of morphine and other opioid can be reversed by giving __.",
     "questionImage": null,
     "options": [
@@ -3188,13 +3188,13 @@
       "images": []
     },
     "tags": [
-      "Antidote"
+      "Week 33"
     ]
   },
   {
     "id": "153",
     "subject": "Pharmacology",
-    "topic": "GnRH Agonist",
+    "topic": "Week 7",
     "question": "Adjunct treatment for prostate cancer is ____?",
     "questionImage": null,
     "options": [
@@ -3209,13 +3209,13 @@
       "images": []
     },
     "tags": [
-      "GnRH Agonist"
+      "Week 7"
     ]
   },
   {
     "id": "154",
     "subject": "Pharmacology",
-    "topic": "Vasopressor",
+    "topic": "Week 16",
     "question": "The nurse referred the patient for poor urine output secondary to relative hypotension. The best management is to start ____.",
     "questionImage": null,
     "options": [
@@ -3230,13 +3230,13 @@
       "images": []
     },
     "tags": [
-      "Vasopressor"
+      "Week 16"
     ]
   },
   {
     "id": "155",
     "subject": "Pharmacology",
-    "topic": "Diuretic",
+    "topic": "Week 17",
     "question": "Which of the following diuretics produces alkaline urine?",
     "questionImage": null,
     "options": [
@@ -3251,13 +3251,13 @@
       "images": []
     },
     "tags": [
-      "Diuretic"
+      "Week 17"
     ]
   },
   {
     "id": "156",
     "subject": "Pharmacology",
-    "topic": "Growth Hormone Antagonist",
+    "topic": "Week 30",
     "question": "Juan is suffering from acromegaly resistant to radiation. You would like to start the patient on an antagonist of growth hormone receptor. Select the appropriate drug:",
     "questionImage": null,
     "options": [
@@ -3272,13 +3272,13 @@
       "images": []
     },
     "tags": [
-      "Growth Hormone Antagonist"
+      "Week 30"
     ]
   },
   {
     "id": "157",
     "subject": "Pharmacology",
-    "topic": "Nitrates",
+    "topic": "Week 16",
     "question": "Which of the following statements is INCORRECT regarding tachyphylaxis seen in chronic nitrate use?",
     "questionImage": null,
     "options": [
@@ -3293,13 +3293,13 @@
       "images": []
     },
     "tags": [
-      "Nitrates"
+      "Week 16"
     ]
   },
   {
     "id": "158",
     "subject": "Pharmacology",
-    "topic": "GnRH Antagonist",
+    "topic": "Week 7",
     "question": "Among the following drugs that can induce medical menopause, identify the drug that will NOT cause the 'flare effect':",
     "questionImage": null,
     "options": [
@@ -3314,13 +3314,13 @@
       "images": []
     },
     "tags": [
-      "GnRH Antagonist"
+      "Week 7"
     ]
   },
   {
     "id": "159",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "After taking her medications for pulmonary TB, Shiela is now complaining of vertigo and inability to perceive termination of movement and difficulty sitting and standing without visual clues. This can be explained as a side effect of ___?",
     "questionImage": null,
     "options": [
@@ -3335,13 +3335,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "160",
     "subject": "Pharmacology",
-    "topic": "Antihypertensive",
+    "topic": "Week 16",
     "question": "Reserpine is used in the management of hypertension by __.",
     "questionImage": null,
     "options": [
@@ -3356,13 +3356,13 @@
       "images": []
     },
     "tags": [
-      "Antihypertensive"
+      "Week 16"
     ]
   },
   {
     "id": "161",
     "subject": "Pharmacology",
-    "topic": "5-Alpha Reductase Inhibitor",
+    "topic": "Week 29",
     "question": "Dutasteride is given to Manuel for his prostate hyperplasia. It works __.",
     "questionImage": null,
     "options": [
@@ -3377,13 +3377,13 @@
       "images": []
     },
     "tags": [
-      "5-Alpha Reductase Inhibitor"
+      "Week 29"
     ]
   },
   {
     "id": "162",
     "subject": "Pharmacology",
-    "topic": "PDE3 Inhibitor",
+    "topic": "Week 17",
     "question": "Among the phosphodiesterase inhibitors, identify the drug that inhibits selectively PDE3 used in patients with cardiac pathology:",
     "questionImage": null,
     "options": [
@@ -3398,13 +3398,13 @@
       "images": []
     },
     "tags": [
-      "PDE3 Inhibitor"
+      "Week 17"
     ]
   },
   {
     "id": "163",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Lymphogranuloma venereum or Climatic bubo is treated with the following drugs, EXCEPT __.",
     "questionImage": null,
     "options": [
@@ -3419,13 +3419,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "164",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Spontaneous bacterial peritonitis is treated empirically by giving __.",
     "questionImage": null,
     "options": [
@@ -3440,13 +3440,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "165",
     "subject": "Pharmacology",
-    "topic": "Antidiabetic",
+    "topic": "Week 31",
     "question": "Flatulence is a common side effect of which of the following anti-diabetic drugs?",
     "questionImage": null,
     "options": [
@@ -3461,13 +3461,13 @@
       "images": []
     },
     "tags": [
-      "Antidiabetic"
+      "Week 31"
     ]
   },
   {
     "id": "166",
     "subject": "Pharmacology",
-    "topic": "Anticoagulant",
+    "topic": "Week 11",
     "question": "Consuela accidentally took an overdose amount of warfarin. Lab test showed INR is 10, no active bleeding reported. The antidote for warfarin toxicity is __.",
     "questionImage": null,
     "options": [
@@ -3482,13 +3482,13 @@
       "images": []
     },
     "tags": [
-      "Anticoagulant"
+      "Week 11"
     ]
   },
   {
     "id": "167",
     "subject": "Pharmacology",
-    "topic": "Antidiabetic",
+    "topic": "Week 31",
     "question": "Empagliflozin is used in the treatment of diabetes mellitus, it works by ___",
     "questionImage": null,
     "options": [
@@ -3503,13 +3503,13 @@
       "images": []
     },
     "tags": [
-      "Antidiabetic"
+      "Week 31"
     ]
   },
   {
     "id": "168",
     "subject": "Pharmacology",
-    "topic": "Antidiarrheal",
+    "topic": "Week 20",
     "question": "Loperamide slows down gastrointestinal contraction by ___.",
     "questionImage": null,
     "options": [
@@ -3524,13 +3524,13 @@
       "images": []
     },
     "tags": [
-      "Antidiarrheal"
+      "Week 20"
     ]
   },
   {
     "id": "169",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Ceftaroline is reserved for the following infections, EXCEPT ___",
     "questionImage": null,
     "options": [
@@ -3545,13 +3545,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "170",
     "subject": "Pharmacology",
-    "topic": "Antihistamine",
+    "topic": "Week 13",
     "question": "Identify the component that blocks histamine-1 receptors in this cough and cold preparation:",
     "questionImage": null,
     "options": [
@@ -3566,13 +3566,13 @@
       "images": []
     },
     "tags": [
-      "Antihistamine"
+      "Week 13"
     ]
   },
   {
     "id": "171",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Select the correct statement regarding clindamycin:",
     "questionImage": null,
     "options": [
@@ -3587,13 +3587,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "172",
     "subject": "Pharmacology",
-    "topic": "Opioid",
+    "topic": "Week 6",
     "question": "The development of tolerance to morphine can be inhibited by:",
     "questionImage": null,
     "options": [
@@ -3608,13 +3608,13 @@
       "images": []
     },
     "tags": [
-      "Opioid"
+      "Week 6"
     ]
   },
   {
     "id": "173",
     "subject": "Pharmacology",
-    "topic": "Anticoagulant",
+    "topic": "Week 11",
     "question": "Select the INCORRECT statement regarding warfarin:",
     "questionImage": null,
     "options": [
@@ -3629,13 +3629,13 @@
       "images": []
     },
     "tags": [
-      "Anticoagulant"
+      "Week 11"
     ]
   },
   {
     "id": "174",
     "subject": "Pharmacology",
-    "topic": "Anticholinergic",
+    "topic": "Week 14",
     "question": "Oxybutynin is a drug used for the treatment of overactive bowel. Which of the following side effects is seen with its use?",
     "questionImage": null,
     "options": [
@@ -3650,13 +3650,13 @@
       "images": []
     },
     "tags": [
-      "Anticholinergic"
+      "Week 14"
     ]
   },
   {
     "id": "175",
     "subject": "Pharmacology",
-    "topic": "Sympathomimetic",
+    "topic": "Week 23",
     "question": "Taking phenylephrine can worsen the following co-morbid disease, EXCEPT?",
     "questionImage": null,
     "options": [
@@ -3671,13 +3671,13 @@
       "images": []
     },
     "tags": [
-      "Sympathomimetic"
+      "Week 23"
     ]
   },
   {
     "id": "176",
     "subject": "Pharmacology",
-    "topic": "GnRH Agonist",
+    "topic": "Week 7",
     "question": "For the treatment of advanced prostate cancer, select the drug that is given to control this condition.",
     "questionImage": null,
     "options": [
@@ -3692,13 +3692,13 @@
       "images": []
     },
     "tags": [
-      "GnRH Agonist"
+      "Week 7"
     ]
   },
   {
     "id": "177",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Shiela was given the antibiotic combination Amoxiclav 625mg 2x a day by her doctor. Clavulanic acid is added to improve the activity of Amoxicillin by ______:",
     "questionImage": null,
     "options": [
@@ -3713,13 +3713,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "178",
     "subject": "Pharmacology",
-    "topic": "Antidiabetic",
+    "topic": "Week 31",
     "question": "A patient is taking acarbose and is now suffering from hypoglycemia. What will you give?",
     "questionImage": null,
     "options": [
@@ -3734,13 +3734,13 @@
       "images": []
     },
     "tags": [
-      "Antidiabetic"
+      "Week 31"
     ]
   },
   {
     "id": "179",
     "subject": "Pharmacology",
-    "topic": "PPI",
+    "topic": "Week 20",
     "question": "The suggested treatment for laryngopharyngeal reflux is ____:",
     "questionImage": null,
     "options": [
@@ -3755,13 +3755,13 @@
       "images": []
     },
     "tags": [
-      "PPI"
+      "Week 20"
     ]
   },
   {
     "id": "180",
     "subject": "Pharmacology",
-    "topic": "Antidiabetic",
+    "topic": "Week 31",
     "question": "Julia is diagnosed with diabetes type 2. She is prescribed with Glibenclamide but still with uncontrolled sugar. The doctor would like to add a second drug. The doctor can choose any drug from the following, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -3776,13 +3776,13 @@
       "images": []
     },
     "tags": [
-      "Antidiabetic"
+      "Week 31"
     ]
   },
   {
     "id": "181",
     "subject": "Pharmacology",
-    "topic": "Antitussive",
+    "topic": "Week 15",
     "question": "Cough inhibition of Dextromethorphan is achieved through action on cough center located in the ______.",
     "questionImage": null,
     "options": [
@@ -3797,13 +3797,13 @@
       "images": []
     },
     "tags": [
-      "Antitussive"
+      "Week 15"
     ]
   },
   {
     "id": "182",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Cielo is suffering from nosocomial pneumonia caused by Pseudomonas aeruginosa. You can use any of the following antibiotics, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -3818,13 +3818,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "183",
     "subject": "Pharmacology",
-    "topic": "Parkinson's",
+    "topic": "Week 24",
     "question": "Identify the drug that inhibits the conversion of levodopa to dopamine outside the brain thereby decreasing the side effect and increasing the available levodopa for transport inside the brain:",
     "questionImage": null,
     "options": [
@@ -3839,13 +3839,13 @@
       "images": []
     },
     "tags": [
-      "Parkinson's"
+      "Week 24"
     ]
   },
   {
     "id": "184",
     "subject": "Pharmacology",
-    "topic": "Decongestant",
+    "topic": "Week 23",
     "question": "Identify the drug that causes nasal decongestion in this preparation:",
     "questionImage": null,
     "options": [
@@ -3860,13 +3860,13 @@
       "images": []
     },
     "tags": [
-      "Decongestant"
+      "Week 23"
     ]
   },
   {
     "id": "185",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Sheila is suffering from acute bacterial tonsillopharyngitis. She is allergic to food and penicillin. Select the appropriate drug for Sheila:",
     "questionImage": null,
     "options": [
@@ -3881,13 +3881,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "186",
     "subject": "Pharmacology",
-    "topic": "STD",
+    "topic": "Week 4",
     "question": "Once the diagnosis of cervicitis is made, drugs should be administered against the following causative agents, if present, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -3902,13 +3902,13 @@
       "images": []
     },
     "tags": [
-      "STD"
+      "Week 4"
     ]
   },
   {
     "id": "187",
     "subject": "Pharmacology",
-    "topic": "Aromatase Inhibitor",
+    "topic": "Week 7",
     "question": "Which drug is given to patients with breast cancer to prevent conversion of androstenedione to estrogen?",
     "questionImage": null,
     "options": [
@@ -3923,13 +3923,13 @@
       "images": []
     },
     "tags": [
-      "Aromatase Inhibitor"
+      "Week 7"
     ]
   },
   {
     "id": "188",
     "subject": "Pharmacology",
-    "topic": "Anticholinergic",
+    "topic": "Week 14",
     "question": "The muscarinic side effects of acetylcholinesterase inhibitors in the treatment of myasthenia gravis can be alleviated by giving:",
     "questionImage": null,
     "options": [
@@ -3944,13 +3944,13 @@
       "images": []
     },
     "tags": [
-      "Anticholinergic"
+      "Week 14"
     ]
   },
   {
     "id": "189",
     "subject": "Pharmacology",
-    "topic": "Antifungal",
+    "topic": "Week 5",
     "question": "Joan, 27/female, complained of curd-like white vaginal discharge, non-foul smelling and accompanied by itchy sensation. Which of the following medications is effective?",
     "questionImage": null,
     "options": [
@@ -3965,13 +3965,13 @@
       "images": []
     },
     "tags": [
-      "Antifungal"
+      "Week 5"
     ]
   },
   {
     "id": "190",
     "subject": "Pharmacology",
-    "topic": "Antiflatulent",
+    "topic": "Week 20",
     "question": "Cora has been complaining of gastrointestinal distress. She describes the pain as 'gassy'. Identify the drug that can coalesce smaller gas bubbles into larger bubbles thereby easing the release of gas via burping or flatulence:",
     "questionImage": null,
     "options": [
@@ -3986,13 +3986,13 @@
       "images": []
     },
     "tags": [
-      "Antiflatulent"
+      "Week 20"
     ]
   },
   {
     "id": "191",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "The management of mild leptospirosis is the administration of:",
     "questionImage": null,
     "options": [
@@ -4007,13 +4007,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "192",
     "subject": "Pharmacology",
-    "topic": "NSAID",
+    "topic": "Week 6",
     "question": "Contraindications to the use of NSAID are the following, EXCEPT:",
     "questionImage": null,
     "options": [
@@ -4028,13 +4028,13 @@
       "images": []
     },
     "tags": [
-      "NSAID"
+      "Week 6"
     ]
   },
   {
     "id": "193",
     "subject": "Pharmacology",
-    "topic": "GnRH Agonist",
+    "topic": "Week 7",
     "question": "Gonadorelin is an agonist of the GnRH receptor. It can stimulate the secretion of follicular stimulating hormone (FSH) and luteinizing hormone (LH). it can inhibit the release of both FSH and LH if given:",
     "questionImage": null,
     "options": [
@@ -4049,13 +4049,13 @@
       "images": []
     },
     "tags": [
-      "GnRH Agonist"
+      "Week 7"
     ]
   },
   {
     "id": "194",
     "subject": "Pharmacology",
-    "topic": "Cholinesterase Inhibitor",
+    "topic": "Week 23",
     "question": "Select the drug used in the treatment of myasthenia gravis in a 24 year old patient presenting with difficulty of breathing and weakness:",
     "questionImage": null,
     "options": [
@@ -4070,13 +4070,13 @@
       "images": []
     },
     "tags": [
-      "Cholinesterase Inhibitor"
+      "Week 23"
     ]
   },
   {
     "id": "195",
     "subject": "Pharmacology",
-    "topic": "Autonomic Nervous System",
+    "topic": "Week 23",
     "question": "Which one of the following is the primary neurotransmitter agent normally released in the sinoatrial node of the heart in response to a blood pressure increase?",
     "questionImage": null,
     "options": [
@@ -4091,13 +4091,13 @@
       "images": []
     },
     "tags": [
-      "Autonomic Nervous System"
+      "Week 23"
     ]
   },
   {
     "id": "196",
     "subject": "Pharmacology",
-    "topic": "Antimigraine",
+    "topic": "Week 6",
     "question": "A 28-year-old office worker suffers from intense migraine headaches. Which of the following is a serotonin 5-HT 1D/1B agonist useful for aborting an acute migraine headache?",
     "questionImage": null,
     "options": [
@@ -4112,13 +4112,13 @@
       "images": []
     },
     "tags": [
-      "Antimigraine"
+      "Week 6"
     ]
   },
   {
     "id": "197",
     "subject": "Pharmacology",
-    "topic": "NSAID",
+    "topic": "Week 6",
     "question": "A patient intolerant to opioids received ketorolac for postoperative inflammatory pain control. The main advantage of ketorolac over aspirin is that ketorolac:",
     "questionImage": null,
     "options": [
@@ -4133,13 +4133,13 @@
       "images": []
     },
     "tags": [
-      "NSAID"
+      "Week 6"
     ]
   },
   {
     "id": "198",
     "subject": "Pharmacology",
-    "topic": "Chemotherapy",
+    "topic": "Week 7",
     "question": "PB is a 28-year-old male who experienced a dull ache and a sensation of heaviness in the right testicle. On physical exam the right testis appeared to be enlarged. An orchidectomy was performed and chemotherapy started. Which of the following is a drug that is used in combination therapy for testicular carcinoma and is also associated with nephrotoxicity?",
     "questionImage": null,
     "options": [
@@ -4154,13 +4154,13 @@
       "images": []
     },
     "tags": [
-      "Chemotherapy"
+      "Week 7"
     ]
   },
   {
     "id": "199",
     "subject": "Pharmacology",
-    "topic": "Toxicology",
+    "topic": "Week 33",
     "question": "A 2-year-old child was brought to the emergency department 1 hour after ingestion of tablets he had managed to obtain from a bottle on top of the refrigerator. His symptoms included marked gastrointestinal distress, vomiting (with hematemesis), and epigastric pain. Metabolic acidosis and leukocytosis were also present. This patient is most likely to have ingested tablets containing:",
     "questionImage": null,
     "options": [
@@ -4175,13 +4175,13 @@
       "images": []
     },
     "tags": [
-      "Toxicology"
+      "Week 33"
     ]
   },
   {
     "id": "200",
     "subject": "Pharmacology",
-    "topic": "Cannabinoid",
+    "topic": "Week 15",
     "question": "Which one of the cannabinoids is well tolerated and does not result in reports of unwanted psychotropic effects?",
     "questionImage": null,
     "options": [
@@ -4196,13 +4196,13 @@
       "images": []
     },
     "tags": [
-      "Cannabinoid"
+      "Week 15"
     ]
   },
   {
     "id": "201",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A 65-year-old man with urosepsis was treated with ciprofloxacin in India. Two weeks later he returns to the USA with sepsis. Which organism is most likely if the infection is ciprofloxacin-resistant?",
     "questionImage": null,
     "options": [
@@ -4217,13 +4217,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "202",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which of the following is a siderophore cephalosporin with activity against carbapenem-resistant Gram-negative organisms?",
     "questionImage": null,
     "options": [
@@ -4238,13 +4238,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "203",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "According to the '10×'20 initiative', how many novel systemic antibacterial agents were approved by the FDA by 2020?",
     "questionImage": null,
     "options": [
@@ -4259,13 +4259,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "204",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which of the following novel agents is a cephalosporin/β-lactamase inhibitor combination active against ESBL and KPC producers?",
     "questionImage": null,
     "options": [
@@ -4280,13 +4280,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "205",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient with burn wound infection and sepsis is started on tobramycin. Which pharmacodynamic property supports once-daily dosing?",
     "questionImage": null,
     "options": [
@@ -4301,13 +4301,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "206",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "What is the recommended once-daily dose of tobramycin for a patient with normal renal function (CrCl >60 mL/min)?",
     "questionImage": null,
     "options": [
@@ -4322,13 +4322,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "207",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which aminoglycoside is most likely to cause vestibular toxicity?",
     "questionImage": null,
     "options": [
@@ -4343,13 +4343,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "208",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Plazomicin is a novel aminoglycoside approved for complicated urinary tract infections. Which resistance mechanism does it overcome?",
     "questionImage": null,
     "options": [
@@ -4364,13 +4364,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "209",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A woman with chlamydial cervicitis is pregnant. Which treatment is preferred?",
     "questionImage": null,
     "options": [
@@ -4385,13 +4385,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "210",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Doxycycline is the preferred oral tetracycline for most infections because:",
     "questionImage": null,
     "options": [
@@ -4406,13 +4406,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "211",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Tigecycline carries a black box warning due to:",
     "questionImage": null,
     "options": [
@@ -4427,13 +4427,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "212",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which macrolide is associated with the lowest risk of CYP3A4 drug interactions?",
     "questionImage": null,
     "options": [
@@ -4448,13 +4448,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "213",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Clindamycin is used in combination with a beta-lactam for toxic shock syndrome primarily to:",
     "questionImage": null,
     "options": [
@@ -4469,13 +4469,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "214",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Linezolid is active against vancomycin-resistant Enterococcus faecium. Its mechanism of action is:",
     "questionImage": null,
     "options": [
@@ -4490,13 +4490,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "215",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient on linezolid and a selective serotonin reuptake inhibitor is at risk for:",
     "questionImage": null,
     "options": [
@@ -4511,13 +4511,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "216",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Lefamulin is a novel pleuromutilin approved for:",
     "questionImage": null,
     "options": [
@@ -4532,13 +4532,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "217",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which penicillin is the drug of choice for syphilis?",
     "questionImage": null,
     "options": [
@@ -4553,13 +4553,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "218",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient with a history of penicillin anaphylaxis requires a cephalosporin. Which generation has the lowest cross-reactivity?",
     "questionImage": null,
     "options": [
@@ -4574,13 +4574,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "219",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Cefazolin is the preferred surgical prophylaxis agent for most procedures because:",
     "questionImage": null,
     "options": [
@@ -4595,13 +4595,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "220",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which carbapenem is NOT active against Pseudomonas aeruginosa?",
     "questionImage": null,
     "options": [
@@ -4616,13 +4616,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "221",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Aztreonam is a monobactam active against:",
     "questionImage": null,
     "options": [
@@ -4637,13 +4637,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "222",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Vancomycin-resistant enterococci (VRE) resistance is primarily due to:",
     "questionImage": null,
     "options": [
@@ -4658,13 +4658,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "223",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which lipoglycopeptide has a half-life >10 days and can be given as a single dose for skin infections?",
     "questionImage": null,
     "options": [
@@ -4679,13 +4679,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "224",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Daptomycin is not effective for pneumonia because:",
     "questionImage": null,
     "options": [
@@ -4700,13 +4700,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "225",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Fosfomycin trometamol is approved in the USA for:",
     "questionImage": null,
     "options": [
@@ -4721,13 +4721,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "226",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which of the following penicillins is stable to staphylococcal β-lactamase?",
     "questionImage": null,
     "options": [
@@ -4742,13 +4742,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "227",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient with meningitis caused by penicillin-resistant pneumococcus should receive:",
     "questionImage": null,
     "options": [
@@ -4763,13 +4763,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "228",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which cephalosporin has activity against methicillin-resistant Staphylococcus aureus (MRSA)?",
     "questionImage": null,
     "options": [
@@ -4784,13 +4784,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "229",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Ceftazidime-avibactam is active against which type of carbapenemase?",
     "questionImage": null,
     "options": [
@@ -4805,13 +4805,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "230",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient with intra-abdominal infection and ESBL-producing E. coli should be treated with:",
     "questionImage": null,
     "options": [
@@ -4826,13 +4826,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "231",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which drug is the most appropriate for surgical prophylaxis in colorectal surgery?",
     "questionImage": null,
     "options": [
@@ -4847,13 +4847,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "232",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Empiric therapy for febrile neutropenia often includes cefepime. Why?",
     "questionImage": null,
     "options": [
@@ -4868,13 +4868,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "233",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Aminoglycosides are not effective against anaerobes because:",
     "questionImage": null,
     "options": [
@@ -4889,13 +4889,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "234",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which drug should be avoided in pregnancy due to deposition in fetal teeth and bone?",
     "questionImage": null,
     "options": [
@@ -4910,13 +4910,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "235",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient on erythromycin develops cholestatic hepatitis. Which formulation is classically associated?",
     "questionImage": null,
     "options": [
@@ -4931,13 +4931,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "236",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Clindamycin is a risk factor for Clostridioides difficile infection. Its mechanism is:",
     "questionImage": null,
     "options": [
@@ -4952,13 +4952,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "237",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Tedizolid differs from linezolid in that it:",
     "questionImage": null,
     "options": [
@@ -4973,13 +4973,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "238",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Fidaxomicin is a macrolide used for:",
     "questionImage": null,
     "options": [
@@ -4994,13 +4994,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "239",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which β-lactamase inhibitor is a non-β-lactam and inhibits KPC and AmpC but not metallo-β-lactamases?",
     "questionImage": null,
     "options": [
@@ -5015,13 +5015,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "240",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which antibiotic is the drug of choice for Listeria monocytogenes meningitis?",
     "questionImage": null,
     "options": [
@@ -5036,13 +5036,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "241",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Spectinomycin was used for gonorrhea but is no longer available in the USA. Its mechanism is:",
     "questionImage": null,
     "options": [
@@ -5057,13 +5057,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "242",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "In a patient with renal insufficiency, which penicillin does NOT require dose adjustment?",
     "questionImage": null,
     "options": [
@@ -5078,13 +5078,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "243",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which cephalosporin has activity against Pseudomonas aeruginosa?",
     "questionImage": null,
     "options": [
@@ -5099,13 +5099,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "244",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient on vancomycin develops 'red man syndrome'. This is due to:",
     "questionImage": null,
     "options": [
@@ -5120,13 +5120,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "245",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "The target AUC:MIC ratio for vancomycin against MRSA is:",
     "questionImage": null,
     "options": [
@@ -5141,13 +5141,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "246",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which aminoglycoside is most active against Pseudomonas aeruginosa?",
     "questionImage": null,
     "options": [
@@ -5162,13 +5162,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "247",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which of the following is an oral carbapenem under development?",
     "questionImage": null,
     "options": [
@@ -5183,13 +5183,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "248",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "A patient with Mycoplasma pneumoniae pneumonia should be treated with:",
     "questionImage": null,
     "options": [
@@ -5204,13 +5204,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "249",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Chloramphenicol is rarely used due to the risk of:",
     "questionImage": null,
     "options": [
@@ -5225,13 +5225,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "250",
     "subject": "Pharmacology",
-    "topic": "Antibiotic",
+    "topic": "Week 3",
     "question": "Which drug is used for prophylaxis of Pneumocystis jirovecii pneumonia in HIV patients with CD4 <100?",
     "questionImage": null,
     "options": [
@@ -5246,13 +5246,13 @@
       "images": []
     },
     "tags": [
-      "Antibiotic"
+      "Week 3"
     ]
   },
   {
     "id": "251",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Acyclovir requires three phosphorylation steps for activation. The first phosphorylation is catalyzed by which enzyme?",
     "questionImage": null,
     "options": [
@@ -5267,13 +5267,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "252",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following antiherpes agents has the highest oral bioavailability and achieves serum levels approaching those of intravenous acyclovir?",
     "questionImage": null,
     "options": [
@@ -5288,13 +5288,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "253",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Ganciclovir is activated by phosphorylation catalyzed by which viral enzyme in cytomegalovirus (CMV)-infected cells?",
     "questionImage": null,
     "options": [
@@ -5309,13 +5309,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "254",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Foscarnet inhibits viral DNA polymerase by which mechanism?",
     "questionImage": null,
     "options": [
@@ -5330,13 +5330,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "255",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which antiretroviral class binds directly to HIV-1 reverse transcriptase at a site distinct from the NRTI binding site and does not require phosphorylation?",
     "questionImage": null,
     "options": [
@@ -5351,13 +5351,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "256",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "The M184V mutation in HIV-1 reverse transcriptase confers resistance to which NRTIs?",
     "questionImage": null,
     "options": [
@@ -5372,13 +5372,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "257",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which protease inhibitor is associated with indirect hyperbilirubinemia and overt jaundice due to inhibition of UGT1A1?",
     "questionImage": null,
     "options": [
@@ -5393,13 +5393,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "258",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which integrase strand transfer inhibitor (INSTI) is available in a fixed-dose combination with tenofovir alafenamide and emtricitabine as a single daily pill?",
     "questionImage": null,
     "options": [
@@ -5414,13 +5414,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "259",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following is a first-in-class capsid inhibitor for multidrug-resistant HIV infection, administered subcutaneously every 6 months after oral initiation?",
     "questionImage": null,
     "options": [
@@ -5435,13 +5435,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "260",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Baloxavir marboxil, a selective inhibitor of influenza cap-dependent endonuclease, is active against which influenza types?",
     "questionImage": null,
     "options": [
@@ -5456,13 +5456,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "261",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which direct-acting antiviral (DAA) for hepatitis C is a nucleotide analog NS5B polymerase inhibitor that causes chain termination after incorporation into HCV RNA?",
     "questionImage": null,
     "options": [
@@ -5477,13 +5477,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "262",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which antiviral agent is indicated for CMV prophylaxis in adult CMV-seropositive recipients of allogeneic hematopoietic stem cell transplant and inhibits the CMV DNA terminase subunit pUL56?",
     "questionImage": null,
     "options": [
@@ -5498,13 +5498,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "263",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Nirmatrelvir, a protease inhibitor for COVID-19, is co-administered with low-dose ritonavir for which primary purpose?",
     "questionImage": null,
     "options": [
@@ -5519,13 +5519,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "264",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which influenza antiviral is a neuraminidase inhibitor administered as a single intravenous dose for acute uncomplicated influenza in adults?",
     "questionImage": null,
     "options": [
@@ -5540,13 +5540,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "265",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Molnupiravir, an oral prodrug for COVID-19, exerts its antiviral effect through which mechanism?",
     "questionImage": null,
     "options": [
@@ -5561,13 +5561,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "266",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Isoniazid inhibits synthesis of which essential component of the mycobacterial cell wall?",
     "questionImage": null,
     "options": [
@@ -5582,13 +5582,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "267",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Rifampin binds to which bacterial target to inhibit RNA synthesis?",
     "questionImage": null,
     "options": [
@@ -5603,13 +5603,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "268",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which first-line antituberculous drug is a \"sterilizing\" agent active against intracellular mycobacteria in acidic lysosomes and allows treatment duration to be shortened to 6 months?",
     "questionImage": null,
     "options": [
@@ -5624,13 +5624,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "269",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Ethambutol inhibits mycobacterial arabinosyl transferases, which are involved in the synthesis of which cell wall component?",
     "questionImage": null,
     "options": [
@@ -5645,13 +5645,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "270",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "In the traditional 6-month regimen for drug-susceptible tuberculosis, which two drugs are continued during the continuation phase after the initial 2-month intensive phase?",
     "questionImage": null,
     "options": [
@@ -5666,13 +5666,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "271",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which adverse effect of isoniazid is due to relative pyridoxine deficiency and is more common in slow acetylators, alcohol use disorder, and malnourished patients?",
     "questionImage": null,
     "options": [
@@ -5687,13 +5687,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "272",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Rifampin is a potent inducer of cytochrome P450 enzymes. Coadministration with rifampin would be expected to decrease serum levels of which drug?",
     "questionImage": null,
     "options": [
@@ -5708,13 +5708,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "273",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which adverse effect of streptomycin is dose-related and may be permanent, with increased risk in elderly patients?",
     "questionImage": null,
     "options": [
@@ -5729,13 +5729,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "274",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Bedaquiline, a diarylquinoline, inhibits which mycobacterial target and is used for multidrug-resistant tuberculosis?",
     "questionImage": null,
     "options": [
@@ -5750,13 +5750,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "275",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Pretomanid, a nitroimidazole, is recommended in combination with bedaquiline and linezolid for which type of tuberculosis?",
     "questionImage": null,
     "options": [
@@ -5771,13 +5771,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "276",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which regimen is recommended for the treatment of disseminated Mycobacterium avium complex (MAC) infection in patients with AIDS?",
     "questionImage": null,
     "options": [
@@ -5792,13 +5792,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "277",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Dapsone, used in the treatment of leprosy, inhibits folate synthesis and is structurally related to which class of antibiotics?",
     "questionImage": null,
     "options": [
@@ -5813,13 +5813,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "278",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "In the treatment of lepromatous leprosy, which three drugs are recommended for initial therapy to prevent emergence of resistance?",
     "questionImage": null,
     "options": [
@@ -5834,13 +5834,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "279",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Clofazimine, a phenazine dye used in leprosy, has which prominent adverse effect that can limit its use?",
     "questionImage": null,
     "options": [
@@ -5855,13 +5855,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "280",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Linezolid, used for multidrug-resistant tuberculosis, is associated with which serious adverse effects with prolonged use?",
     "questionImage": null,
     "options": [
@@ -5876,13 +5876,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "281",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Rifabutin is often used in place of rifampin for tuberculosis in HIV-infected patients because it is:",
     "questionImage": null,
     "options": [
@@ -5897,13 +5897,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "282",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "The 4-month regimen for drug-susceptible pulmonary tuberculosis consists of which drugs?",
     "questionImage": null,
     "options": [
@@ -5918,13 +5918,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "283",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which antituberculous drug is associated with dose-related retrobulbar neuritis and red-green color blindness?",
     "questionImage": null,
     "options": [
@@ -5939,13 +5939,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "284",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Resistance to isoniazid in Mycobacterium tuberculosis is most commonly due to mutations in which gene?",
     "questionImage": null,
     "options": [
@@ -5960,13 +5960,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "285",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which of the following is a first-line antituberculous drug that is active only at acidic pH and is taken up by macrophages to act against intracellular mycobacteria?",
     "questionImage": null,
     "options": [
@@ -5981,13 +5981,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "286",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which COVID-19 antiviral agent is an adenosine nucleotide prodrug that causes chain termination of SARS-CoV-2 RNA and is administered intravenously?",
     "questionImage": null,
     "options": [
@@ -6002,13 +6002,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "287",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Tecovirimat (TPOXX), used for monkeypox, inhibits which viral target to block release of virus particles from infected cells?",
     "questionImage": null,
     "options": [
@@ -6023,13 +6023,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "288",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following anti-HIV agents is a monoclonal antibody that binds the CD4 receptor and blocks HIV entry, used for multidrug-resistant HIV?",
     "questionImage": null,
     "options": [
@@ -6044,13 +6044,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "289",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Ribavirin, used in combination with direct-acting antivirals for hepatitis C, is a guanosine analog that is contraindicated in pregnancy due to which effect?",
     "questionImage": null,
     "options": [
@@ -6065,13 +6065,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "290",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following directly-acting antiviral (DAA) combinations for hepatitis C has pangenotypic activity and is the first approved re-treatment option for patients who failed an NS5A inhibitor?",
     "questionImage": null,
     "options": [
@@ -6086,13 +6086,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "291",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following drugs is a CCR5 co-receptor antagonist that requires tropism testing before use, as it is only active against CCR5-tropic HIV-1?",
     "questionImage": null,
     "options": [
@@ -6107,13 +6107,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "292",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following is a characteristic adverse effect of tenofovir disoproxil fumarate that is less common with tenofovir alafenamide?",
     "questionImage": null,
     "options": [
@@ -6128,13 +6128,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "293",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following is a first-generation NNRTI that is no longer recommended as first-line therapy due to central nervous system side effects and potential fetal neural tube defects?",
     "questionImage": null,
     "options": [
@@ -6149,13 +6149,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "294",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Resistance to rifampin in Mycobacterium tuberculosis is due to point mutations in which gene?",
     "questionImage": null,
     "options": [
@@ -6170,13 +6170,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "295",
     "subject": "Pharmacology",
-    "topic": "Antimycobacterial",
+    "topic": "Week 4",
     "question": "Which of the following is a contraindication to the use of dapsone in a patient with glucose-6-phosphate dehydrogenase (G6PD) deficiency?",
     "questionImage": null,
     "options": [
@@ -6191,13 +6191,13 @@
       "images": []
     },
     "tags": [
-      "Antimycobacterial"
+      "Week 4"
     ]
   },
   {
     "id": "296",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following antiviral agents for herpes is a helicase-primase inhibitor under development for HSV infection?",
     "questionImage": null,
     "options": [
@@ -6212,13 +6212,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "297",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following is a sulfonamide-containing protease inhibitor that should be used with caution in patients with a history of sulfa allergy?",
     "questionImage": null,
     "options": [
@@ -6233,13 +6233,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "298",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following anti-influenza agents is a neuraminidase inhibitor that should be avoided in patients with underlying airway disease due to risk of bronchospasm?",
     "questionImage": null,
     "options": [
@@ -6254,13 +6254,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "299",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following agents is a humanized monoclonal antibody directed against the F protein of RSV, used for prophylaxis in high-risk infants?",
     "questionImage": null,
     "options": [
@@ -6275,13 +6275,13 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   },
   {
     "id": "300",
     "subject": "Pharmacology",
-    "topic": "Antiviral",
+    "topic": "Week 5",
     "question": "Which of the following is a first-in-class oral nucleoside reverse transcriptase translocation inhibitor (NRTTI) being investigated for HIV prevention and treatment?",
     "questionImage": null,
     "options": [
@@ -6296,7 +6296,7 @@
       "images": []
     },
     "tags": [
-      "Antiviral"
+      "Week 5"
     ]
   }
 ]
